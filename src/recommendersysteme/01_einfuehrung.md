@@ -91,7 +91,7 @@ A:
 
 ---
 
-F: In welchen betriebswirtschaftlichen Strategien werden Recommendersysteme eingesetzt?
+F: *In welchen betriebswirtschaftlichen Strategien werden Recommendersysteme eingesetzt?*
 
 A:
 
@@ -103,7 +103,7 @@ A:
 
 ## Grundbegriffe, Klassifikation, Mechanism-Design-Problems
 
-F: Erklären Sie das Kunstwort "Prosument" und legen Sie dar, was es mit Recommender-Diensten zu tun hat.
+F: *Erklären Sie das Kunstwort "Prosument" und legen Sie dar, was es mit Recommender-Diensten zu tun hat.*
 
 A:
 
@@ -117,7 +117,7 @@ Jeder Benutzer eines "gut" entworfenen Recommendersytems produziert und konsumie
 
 ---
 
-F: Ordnen Sie den Empfehlungsdienst von Amazon "Kunden, die dieses Produkt gekauft haben, haben auch gekauft" nach der Klassifikation von Schafer et al. ein
+F: *Ordnen Sie den Empfehlungsdienst von Amazon "Kunden, die dieses Produkt gekauft haben, haben auch gekauft" nach der Klassifikation von Schafer et al. ein*
 
 A:
 

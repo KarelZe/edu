@@ -116,8 +116,8 @@ Repeat-Buying.
 
 -----
 
-F: In welchen betriebswirtschaftlichen Strategien werden
-Recommendersysteme eingesetzt?
+F: *In welchen betriebswirtschaftlichen Strategien werden
+Recommendersysteme eingesetzt?*
 
 A:
 
@@ -128,8 +128,8 @@ A:
 
 ## Grundbegriffe, Klassifikation, Mechanism-Design-Problems
 
-F: Erklären Sie das Kunstwort “Prosument” und legen Sie dar, was es mit
-Recommender-Diensten zu tun hat.
+F: *Erklären Sie das Kunstwort “Prosument” und legen Sie dar, was es mit
+Recommender-Diensten zu tun hat.*
 
 A:
 
@@ -145,9 +145,9 @@ konsumiert Empfehlungen.
 
 -----
 
-F: Ordnen Sie den Empfehlungsdienst von Amazon “Kunden, die dieses
+F: *Ordnen Sie den Empfehlungsdienst von Amazon “Kunden, die dieses
 Produkt gekauft haben, haben auch gekauft” nach der Klassifikation von
-Schafer et al. ein
+Schafer et al. ein*
 
 A:
 
