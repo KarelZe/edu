@@ -147,9 +147,9 @@ Kundenaktivität, um Empfehlung zu erhalten:
 
 ## Quellen
 
- Geyer-Schulz, A., & Sonnenbichler, A. \(2016\). \*Kapitel 1: Einführung\*.
+Geyer-Schulz, A., & Sonnenbichler, A. \(2016\). \*Kapitel 1: Einführung\*.
 
- Schafer, J. B., Konstan, J., & Riedl, J. \(n.d.\). \*Recommender Systems in E-Commerce\*. 9.
+Schafer, J. B., Konstan, J., & Riedl, J. \(n.d.\). \*Recommender Systems in E-Commerce\*. 9.
 
 &lt;/div&gt;
 

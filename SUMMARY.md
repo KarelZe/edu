@@ -8,5 +8,5 @@
 
 ## Rechnerstrukturen
 
-* [edu](rechnerstrukturen/readme.md)
+* [edu](rechnerstrukturen/rechnerstrukturen.md)
 
