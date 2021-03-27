@@ -46,6 +46,6 @@ Return(x)
 
 **Erklärung**:
 
-Der Vektor $$x$$ wird mit $$z=\vec{1}$$ initialisiert. Es wird $$k$$-fach eine Matix $$M$$ von links an den Vektor $$x$$ multipliziert. Das Ergebnis des Matrix-Vektorprodukts wird im Vektor $$x$$ gespeichert. Aus $$x$$ lässt sich nach $$k$$ Iterationen der Index ableiten.
+Der Vektor $$x$$ wird mit $$z=\vec{1}$$ initialisiert. Es wird $$k$$-fach eine Matix $$M$$ von links an den Vektor $$x$$ multipliziert. Das Ergebnis des Matrix-Vektorprodukts wird in $$x$$ gespeichert. Aus $$x$$ lässt sich nach $$k$$ Iterationen der Index ableiten.
 
 ## Quellen:
