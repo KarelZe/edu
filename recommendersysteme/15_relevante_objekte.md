@@ -26,11 +26,10 @@ Nach Brin and Page (1998 S. 3828):
 
 3.  **Komponenten zum Bewerten der Wichtigkeit**: Anhand der Links wird
     eine Link-Datenbank aufgebaut, woraus dann der Page-Rank für alle
-    Dokumente ermittelt wird (vgl. The anatomy of a large-scale
-    hypertext).
+    Dokumente ermittelt wird.
 
 ![Google Infrastruktur (Brin and Page 1998 S.
-3828)](../../.gitbook/assets/google_infrastructure.jpg)
+3.828)](../.gitbook/assets/google_infrastructure.jpg)
 
 ------------------------------------------------------------------------
 
@@ -50,25 +49,26 @@ Zeile $$k$$, die Stimmanteile, die k von anderen Seiten erhält. Und in
 Spalte $$k$$, die Stimmanteile, die $$k$$ an die anderen Spalten
 verteilt (Folie 11 + 18). Die positiven Werte in Spalte k stellen die
 Wahrscheinlichkeit dar, dass ein Surfer von Seite k auf eine Seite $$j$$
-durch Anklicken des Links zwischen $$k$$ und $$j$$ wechselt. (Folie 19)
+durch Anklicken des Links zwischen $$k$$ und $$j$$ wechselt.
 
 Die Matrix $$S$$ ist eine $$n \times n$$ Matrix mit
 $$s_{\text{ij}} = \frac{1}{n}$$. Sie enthält **Gleichverteilung**. Die
 Annahme ist, dass ein Surfer z. B. durch Eingeben eines Links in den
 Browser auf irgendeine Seite wechselt. Die Wahrscheinlichkeit von $$k$$
-nach $$j$$ zu wechseln ist damit $$\frac{1}{n}$$. (Folie 19)
+nach $$j$$ zu wechseln ist damit $$\frac{1}{n}$$.
 
 Der Faktor $$m$$ gewichtet also den Einfluss beider Verhaltensmodi
 (zufälliges Klicken vs. Weiternavigieren in Linkstruktur) des Random
-Surfers. (Folie 19). Behebt damit das Problem nicht verbundener Nodes,
-Dangling Nodes (und Spidertraps).
+Surfers. Behebt damit das Problem nicht verbundener Nodes, Dangling
+Nodes (und Spidertraps). (Geyer-Schulz 2020 S. 19)
 
 ------------------------------------------------------------------------
 
-F: Wie wird der PageRank Index aus der Gewichtungsmatrix berechnet?
-Beschreiben Sie den Berechnungsalgorithmus (6 Punkte)
+F: *Wie wird der PageRank Index aus der Gewichtungsmatrix berechnet?
+Beschreiben Sie den Berechnungsalgorithmus*
 
-A: Es wird die Power-Methode verwendet:
+A: Es wird die Power-Methode verwendet. Siehe hierzu Geyer-Schulz (2020
+S. 20):
 
     Power(M, z, k)
     M: PageRank Linkmatrix
@@ -92,3 +92,6 @@ Quellen:
 Brin, Sergey, and Lawrence Page. 1998. “The Anatomy of a Large-Scale
 Hypertextual Web Search Engine.” *Computer Networks and ISDN Systems* 30
 (1-7): 107–17. <https://doi.org/10.1016/S0169-7552(98)00110-X>.
+
+Geyer-Schulz, Andreas. 2020. “Relevante Objekte Empfehlen: Der Erste
+Eigenvektor Eines Graphen - Recommendersysteme.”
