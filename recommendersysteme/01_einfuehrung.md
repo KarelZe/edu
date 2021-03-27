@@ -1,12 +1,23 @@
+Einführung, Grundlagen
+======================
+
+Allgemein, Betriebswirtschaft
 -----------------------------
+
 F: *Analysieren Sie den Beitrag von Recommendersystemen zum
 Unternehmenserfolg aus betriebswirtschaftlicher Sicht!*
 
 A:
 
-Besucher zu Käufer konvertieren, Cross- und Up-Selling, Vereinfachung Repeat-Buying, Verringerung der Klickdistanz zum Kauf eines weiteren Produktes, Erhöhung Kunden-Loyalität, besseres Direktmarketing \(Geyer-Schulz & Sonnenbichler, 2016, p. 28 ff.\).
+Besucher zu Käufer konvertieren, Cross- und Up-Selling, Vereinfachung
+Repeat-Buying, Verringerung der Klickdistanz zum Kauf eines weiteren
+Produktes, Erhöhung Kunden-Loyalität, besseres Direktmarketing
+(Geyer-Schulz & Sonnenbichler, 2016, p. 28 ff.).
 
-F: _In welchen betriebswirtschaftlichen Strategien werden Recommendersysteme mit welchem Zweck eingesetzt? Erläutern Sie den Einsatz von Recommenderdiensten ausführlich an Beispielen und identifizieren Sie den Mehrwert eines Recommenderdienstes._
+F: *In welchen betriebswirtschaftlichen Strategien werden
+Recommendersysteme mit welchem Zweck eingesetzt? Erläutern Sie den
+Einsatz von Recommenderdiensten ausführlich an Beispielen und
+identifizieren Sie den Mehrwert eines Recommenderdienstes.*
 
 A:
 
@@ -17,19 +28,19 @@ Marketing in B2C-Märkten:
     wie preissensibel der Kunde ist, um diesen in eine höhere
     Preiskategorie einzuordnen (Up-Selling).
 
-  dazu, komplementäre Produkte zu kaufen \(Cross-Selling\) und schaut
+Marketing (New Economy):
 
 -   Lock-in: Durch den Einsatz von Recommendersysteme bleibt der Kunde
     innerhalb eines Systems, weil je länger der Kunde drinnen ist, desto
     höher sind die Wechselkosten.
 
-  Preiskategorie einzuordnen \(Up-Selling\).
+Positive Netzwerkeffekte:
 
 -   Sortimentsmanagement: Durch den Einsatz von Recommendersystemen
     analysiert man, dass gewisse Produkte mehr gefragt sind → Sortiment
     erweitern. Falls Kundennachfrage zurückgeht, → Sortiment abbauen.
 
-* Lock-in: Durch den Einsatz von Recommendersysteme bleibt der Kunde
+Knowledgemanagement:
 
 -   Teambildung und Teamorganisation → Aufbauen von Profilen für
     Mitarbeiter; finde gute Zusammensetzung von Teams (komplementär)
@@ -41,9 +52,10 @@ Marketing in B2C-Märkten:
 
 ------------------------------------------------------------------------
 
-  analysiert man, dass gewisse Produkte mehr gefragt sind → Sortiment
+F: *Welchen Beitrag können Recommendersysteme zum Unternehmenserfolg aus
+betriebswirtschaftlicher Sicht leisten?*
 
-  erweitern. Falls Kundennachfrage zurückgeht, → Sortiment abbauen.
+A:
 
 -   Marketing (traditionell) in B2C-Märkten z. B. Conversion von
     Besuchern zu Kunden, Cross-Selling und Upselling
@@ -59,13 +71,16 @@ Marketing in B2C-Märkten:
 
 ------------------------------------------------------------------------
 
-F: _Was verstehen Sie unter “Prosument”? Nennen Sie je zwei Beispiele aus der offline und der online Welt. Erklären Sie den Zusammenhang mit Recommendersystemen_
+F: *Was verstehen Sie unter “Prosument”? Nennen Sie je zwei Beispiele
+aus der offline und der online Welt. Erklären Sie den Zusammenhang mit
+Recommendersystemen*
 
 A:
 
 **Prosument:**
 
-Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten.
+Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem
+Konsumenten.
 
 **Beispiele:**
 
@@ -76,11 +91,12 @@ Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten
 
 **Zusammenhang:**
 
-Jeder Benutzer eines “gut” entworfenen Recommendersytems produziert und konsumiert Empfehlungen.
+Jeder Benutzer eines “gut” entworfenen Recommendersytems produziert und
+konsumiert Empfehlungen.
 
 ------------------------------------------------------------------------
 
-A: Sie ergänzen sich gegenseitig: - Personalisierung ermöglicht neue Formen von Recommenderdiensten - Recommenderdienste erhöhen Attraktivität von personalisierten Diensten
+F: *Wie befruchten sich Personalisierung und Recommenderdienste?*
 
 A: Sie ergänzen sich gegenseitig: - Personalisierung ermöglicht neue
 Formen von Recommenderdiensten - Recommenderdienste erhöhen
@@ -93,11 +109,17 @@ der Händler? Nennen Sie kurz die wichtigsten Aspekte.
 
 A:
 
-**Händler:** Erhöhung der Kundenloyalität, verbessertes Direktmarketing, Cross-Selling \(Verkauf komplementärer Produkte\) / Up-Selling \(Verkauf teurer Produkte\) und verbesserte Marktforschung.
+**Händler:** Erhöhung der Kundenloyalität, verbessertes Direktmarketing,
+Cross-Selling (Verkauf komplementärer Produkte) / Up-Selling (Verkauf
+teurer Produkte) und verbesserte Marktforschung.
+
+**Kunde:** Verbesserte individuelle Beratung, Vereinfachung von
+Repeat-Buying.
 
 ------------------------------------------------------------------------
 
-F: _In welchen betriebswirtschaftlichen Strategien werden Recommendersysteme eingesetzt?_
+F: *In welchen betriebswirtschaftlichen Strategien werden
+Recommendersysteme eingesetzt?*
 
 A:
 
@@ -109,17 +131,20 @@ A:
 Grundbegriffe, Klassifikation, Mechanism-Design-Problems
 --------------------------------------------------------
 
-F: _Erklären Sie das Kunstwort “Prosument” und legen Sie dar, was es mit Recommender-Diensten zu tun hat._
+F: *Erklären Sie das Kunstwort “Prosument” und legen Sie dar, was es mit
+Recommender-Diensten zu tun hat.*
 
 A:
 
 **Prosument**:
 
-Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten
+Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem
+Konsumenten
 
 **Verbindung zu Recommenderdiensten**:
 
-Jeder Benutzer eines “gut” entworfenen Recommendersytems produziert und konsumiert Empfehlungen.
+Jeder Benutzer eines “gut” entworfenen Recommendersytems produziert und
+konsumiert Empfehlungen.
 
 ------------------------------------------------------------------------
 
@@ -141,14 +166,14 @@ Methode, mit der Empfehlung generiert wird:
 -   **Finden**: *Organic Navigation (Links)*, d. h. Empfehlungen sind
     Teil von Informationsseiten eines Produkts mit enthaltenen
     Durchschnittsratings, Kundenbewertungen. o. Ä. (Schafer et al.,
-    n.d., S. 161).
+    1999, S. 161).
 
-  _item-to-item-Recommender_, d. h. Amazon schlägt andere Produkte
+Gedächtnislänge des Recommendersystems:
 
 -   Flüchtig (*ephemeral*): Amazon benötigt keine Identifikation
     (Kaufgeschichte) des Kunden
 
-  einem einzigen anderen Produkt, für das der Kunde Interesse bekundet
+Kundenaktivität, um Empfehlung zu erhalten:
 
 -   Automatisch, denn Kunde muss nicht aktiv handeln, um eine Empfehlung
     zu erhalten. Empfehlung wird automatisch generiert.
@@ -156,7 +181,7 @@ Methode, mit der Empfehlung generiert wird:
 Quellen
 -------
 
-  zu erhalten. Empfehlung wird automatisch generiert.
+Geyer-Schulz, A., & Sonnenbichler, A. (2016). *Kapitel 1: Einführung*.
 
-Schafer, J. B., Konstan, J., & Riedl, J. (n.d.). *Recommender Systems in
+Schafer, J. B., Konstan, J., & Riedl, J. (1999). *Recommender Systems in
 E-Commerce*. 9.

@@ -125,7 +125,7 @@ Methode, mit der Empfehlung generiert wird:
 
 -   **Technologie**: Produkt/Produkt Korrelation / *item-to-item-Recommender*, d. h. Amazon schlägt andere Produkte vor, an denen ein Kunde interessiert sein könnte, basierend auf einem einzigen anderen Produkt, für das der Kunde Interesse bekundet hat.
 -   **Interface**: *Similar Item*, d. h.den Kunden neuen oder vergessenen Produkten aussetzen)
--   **Finden**: *Organic Navigation (Links)*, d. h. Empfehlungen sind Teil von Informationsseiten eines Produkts mit enthaltenen Durchschnittsratings, Kundenbewertungen. o. Ä. [@schafer_recommender_nodate, S. 161].
+-   **Finden**: *Organic Navigation (Links)*, d. h. Empfehlungen sind Teil von Informationsseiten eines Produkts mit enthaltenen Durchschnittsratings, Kundenbewertungen. o. Ä. [@schafer_recommender_1999, S. 161].
 
 Gedächtnislänge des Recommendersystems:
 
