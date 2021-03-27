@@ -16,7 +16,8 @@ Nach @brin_anatomy_1998 [S. 3828]:
 
 F: *Wie wird die Gewichtungsmatrix von PageRank aus der Adjazenzmatrix aufgebaut? Erklären Sie die PageRank Formel für die Gewichtungsmatrix* (9 Punkte)
 
-A: Die PageRank Formel lautet wie folgt: 
+A: Die PageRank Formel lautet wie folgt:
+
 $$
 M = \left( 1 - m \right) \times A + m \times S
 $$
