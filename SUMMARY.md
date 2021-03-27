@@ -6,11 +6,10 @@
 
 ## Recommendersysteme
 
-* [Untitled](recommendersysteme/untitled.md)
+* [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
 
 ## Rechnerstrukturen
 
-* [Einführung, Grundlagen](rechnerstrukturen/01_einfuehrung.md)
 =======
 * [edu](README.md)
 
