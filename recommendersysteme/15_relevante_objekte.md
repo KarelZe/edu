@@ -1,5 +1,6 @@
-F: *Nennen und erklären Sie die Funktionalität der drei Hauptkomponenten
-einer Suchmaschine wie Google* (9 Punkte)
+# Relevante Objekte empfehlen
+
+F: _Nennen und erklären Sie die Funktionalität der drei Hauptkomponenten einer Suchmaschine wie Google_ \(9 Punkte\)
 
 A:
 
@@ -61,21 +62,28 @@ Der Faktor $$m$$ gewichtet also den Einfluss beider Verhaltensmodi
 Surfers. (Folie 19). Behebt damit das Problem nicht verbundener Nodes,
 Dangling Nodes (und Spidertraps).
 
-------------------------------------------------------------------------
+zu wechseln ist damit
 
-F: Wie wird der PageRank Index aus der Gewichtungsmatrix berechnet?
-Beschreiben Sie den Berechnungsalgorithmus (6 Punkte)
+. \(Folie 19\)
+
+Der Faktor
+
+gewichtet also den Einfluss beider Verhaltensmodi \(zufälliges Klicken vs. Weiternavigieren in Linkstruktur\) des Random Surfers. \(Folie 19\). Behebt damit das Problem nicht verbundener Nodes, Dangling Nodes \(und Spidertraps\).
+
+F: Wie wird der PageRank Index aus der Gewichtungsmatrix berechnet? Beschreiben Sie den Berechnungsalgorithmus \(6 Punkte\)
 
 A: Es wird die Power-Methode verwendet:
 
-    Power(M, z, k)
-    M: PageRank Linkmatrix
-    z: Startvektor aus n Einsen (x_j = 1)
-    k: Anzahl der Iterationen
-    x <- z;
-    For i in 1 to k
-        Do x <- Mx;
-    Return(x)
+```text
+Power(M, z, k)
+M: PageRank Linkmatrix
+z: Startvektor aus n Einsen (x_j = 1)
+k: Anzahl der Iterationen
+x <- z;
+For i in 1 to k
+    Do x <- Mx;
+Return(x)
+```
 
 **Erklärung**:
 
@@ -84,9 +92,5 @@ $$k$$-fach eine Matix $$M$$ von links an den Vektor $$x$$ multipliziert.
 Das Ergebnis des Matrix-Vektorprodukts wird im Vektor $$x$$ gespeichert.
 Aus $$x$$ lässt sich nach $$k$$ Iterationen der Index ableiten.
 
-Quellen:
---------
+Brin, Sergey, and Lawrence Page. 1998. “The Anatomy of a Large-Scale Hypertextual Web Search Engine.” _Computer Networks and ISDN Systems_ 30 \(1-7\): 107–17. [https://doi.org/10.1016/S0169-7552\(98\)00110-X](https://doi.org/10.1016/S0169-7552%2898%2900110-X).
 
-Brin, Sergey, and Lawrence Page. 1998. “The Anatomy of a Large-Scale
-Hypertextual Web Search Engine.” *Computer Networks and ISDN Systems* 30
-(1-7): 107–17. <https://doi.org/10.1016/S0169-7552(98)00110-X>.
