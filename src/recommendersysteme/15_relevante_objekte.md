@@ -17,13 +17,15 @@ Nach @brin_anatomy_1998 [S. 3828]:
 F: *Wie wird die Gewichtungsmatrix von PageRank aus der Adjazenzmatrix aufgebaut? Erklären Sie die PageRank Formel für die Gewichtungsmatrix* (9 Punkte)
 
 A: Die PageRank Formel lautet wie folgt: 
-$$M = \left( 1 - m \right) \times A + m \times S$$
+$$
+M = \left( 1 - m \right) \times A + m \times S
+$$
 
-$A$ ist dabei die Matrix, die aus der Linkstruktur abgeleitet wird. Sie enthält **Stimmenverteilung**. Die Matrix $A$ enthält in einer Zeile k, die Stimmanteile, die k von anderen Seiten erhält. Und in Spalte $k$, die Stimmanteile, die $k$ an die anderen Spalten verteilt (Folie 11 + 18). Die positiven Werte in Spalte k stellen die Wahrscheinlichkeit dar, dass ein Surfer von Seite k auf eine Seite $j$ durch Anklicken des Links zwischen $k$ und $j$ wechselt. (Folie 19)
+$$A$$ ist dabei die Matrix, die aus der Linkstruktur abgeleitet wird. Sie enthält **Stimmenverteilung**. Die Matrix $$A$$ enthält in einer Zeile k, die Stimmanteile, die k von anderen Seiten erhält. Und in Spalte $$k$$, die Stimmanteile, die $$k$$ an die anderen Spalten verteilt (Folie 11 + 18). Die positiven Werte in Spalte k stellen die Wahrscheinlichkeit dar, dass ein Surfer von Seite k auf eine Seite $$j$$ durch Anklicken des Links zwischen $$k$$ und $$j$$ wechselt. (Folie 19)
 
-Die Matrix S ist eine $n \times n$ Matrix mit $s_{\text{ij}} = \frac{1}{n}$. Sie enthält **Gleichverteilung**. Die Annahme ist, dass ein Surfer z. B. durch Eingeben eines Links in den Browser auf irgendeine Seite wechselt. Die Wahrscheinlichkeit von $k$ nach $j$ zu wechseln ist damit $\frac{1}{n}$. (Folie 19)
+Die Matrix S ist eine $$n \times n$$ Matrix mit $$s_{\text{ij}} = \frac{1}{n}$$. Sie enthält **Gleichverteilung**. Die Annahme ist, dass ein Surfer z. B. durch Eingeben eines Links in den Browser auf irgendeine Seite wechselt. Die Wahrscheinlichkeit von $$k$$ nach $$j$$ zu wechseln ist damit $$\frac{1}{n}$$. (Folie 19)
 
-Der Faktor $m$ gewichtet also den Einfluss beider Verhaltensmodi (zufälliges Klicken vs. Weiternavigieren in Linkstruktur) des Random Surfers. (Folie 19). Behebt damit das Problem nicht verbundener Nodes, Dangling Nodes (und Spidertraps).
+Der Faktor $$m$$ gewichtet also den Einfluss beider Verhaltensmodi (zufälliges Klicken vs. Weiternavigieren in Linkstruktur) des Random Surfers. (Folie 19). Behebt damit das Problem nicht verbundener Nodes, Dangling Nodes (und Spidertraps).
 
 ---
 
@@ -44,6 +46,6 @@ Return(x)
 
 **Erklärung**:
 
-Der Vektor $x$ wird mit $z=\vec{1}$ initialisiert. Es wird $k$-fach eine Matix $M$ von links an den Vektor $x$ multipliziert. Das Ergebnis des Matrix-Vektorprodukts wird im Vektor $x$ gespeichert. Aus $x$ lässt sich nach $k$ Iterationen der Index ableiten.
+Der Vektor $$x$$ wird mit $$z=\vec{1}$$ initialisiert. Es wird $$k$$-fach eine Matix $$M$$ von links an den Vektor $$x$$ multipliziert. Das Ergebnis des Matrix-Vektorprodukts wird im Vektor $$x$$ gespeichert. Aus $$x$$ lässt sich nach $$k$$ Iterationen der Index ableiten.
 
 ## Quellen:
