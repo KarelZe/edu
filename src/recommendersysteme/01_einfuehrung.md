@@ -58,13 +58,13 @@ A:
 
 **Prosument:**
 
-Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten.
+Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten [@geyer-schulz_kapitel_2016, 20].
 
 **Beispiele:**
 
 -   Online: AOL America, Billboard-Charts, Netflix
 
--   Offline: Selbstbedienungstankstelle, Selbstbedienungsrestaurant wie Burger King
+-   Offline: Selbstbedienungstankstelle, Selbstbedienungsrestaurant wie Burger King [@geyer-schulz_kapitel_2016, 23].
 
 **Zusammenhang:**
 
@@ -77,7 +77,7 @@ F: *Wie befruchten sich Personalisierung und Recommenderdienste?*
 A:
 Sie ergänzen sich gegenseitig:
 -   Personalisierung ermöglicht neue Formen von Recommenderdiensten
--   Recommenderdienste erhöhen Attraktivität von personalisierten Diensten
+-   Recommenderdienste erhöhen Attraktivität von personalisierten Diensten [@geyer-schulz_kapitel_2016, 31].
 
 ---
 
@@ -109,7 +109,7 @@ A:
 
 **Prosument**: 
 
-Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten
+Der Prosument entsteht aus der Verschmelzung des Produzenten mit dem Konsumenten [@geyer-schulz_kapitel_2016, 20].
 
 **Verbindung zu Recommenderdiensten**: 
 
