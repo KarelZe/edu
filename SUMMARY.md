@@ -11,4 +11,7 @@
 ## Rechnerstrukturen
 
 * [Einführung, Grundlagen](rechnerstrukturen/01_einfuehrung.md)
+=======
+* [edu](README.md)
+
 
