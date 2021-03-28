@@ -138,6 +138,7 @@ F: *Nennen Sie einen Anwendungsfall, wie Clusteranalyse in einem Recommenderdien
 A:
 
 **Movielens**
+
 -   Anhand der Ratings aus dem each-movie dataset werden durch Clusteranalyse Geschmacks bzw. Interessengruppen gebildet.
 -   Aus diesen Geschmacks-/Interessen Gruppen wird für Werbezwecke ein E-Mailverteiler automatisch erzeugt.
 -   Auf Basis der Geschmacks- und Interessens-Gruppen werden neue Filmrechte erworben, die den Nutzern gefallen könnten. [@geyer-schulz_cluster-analyse_2017 S. 7]
