@@ -1,0 +1,19 @@
+graph G{
+    forcelabels=true;
+    layout=fdp
+
+    A [label="A"]
+    B[label="B"]
+    C[label="C"]
+    D[label="D"]
+    E[label="E"]
+
+
+
+    A -- C[label="1"]
+    A -- B[label="3"]
+    C -- B[label="1"]
+    B -- E[label="2"]
+    E -- D[label="1"]
+
+}

@@ -211,7 +211,7 @@ F: *Zeichnen Sie den gewichteten Kommunikationsgraphen!*
 
 A:
 
-![Kommunikationsgraph (Eigene Darstellung)](../.gitbook/assets/kommunikationsgraph.jpg)
+![Kommunikationsgraph (Eigene Darstellung)](./../.gitbook/assets/kommunikationsgraph.svg)
 
 ---
 
