@@ -1,0 +1,20 @@
+digraph g{
+    forcelabels=true;
+
+
+    A [label="q1"]
+    B[label="q2"]
+    C[label="q3"]
+    D[label="q4"]
+    E[label="q5"]
+    start[label="p"]
+
+
+
+    start -> A
+    start -> B
+    start -> C
+    start -> D
+    start -> E
+
+}

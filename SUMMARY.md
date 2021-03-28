@@ -7,5 +7,6 @@
 * [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
 * [Clustering](recommendersysteme/10_clustering.md)
 * [Cluster Modularity](recommendersysteme/11_cluster_modularity.md)
+* [Hubs / Authorities](recommendersysteme/12_hubs_authoritities.md)
 * [Relevante Objekte empfehlen](recommendersysteme/15_relevante_objekte.md)
 

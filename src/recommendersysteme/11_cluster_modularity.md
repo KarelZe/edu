@@ -315,7 +315,7 @@ A:
 
 F: *Modularity Clustering hat den Vorteil, dass im Gegensatz zu anderen Clusterverfahren die richtige Anzahl von Clustern automatisch gefunden wird. Wie beurteilen Sie diese Aussage?*
 
-A: Grundsätzlich lässt durch Maximierung der Modularity die optimale Anzahl der Cluster finden. Es handelt sich aber um NP-Schweres Optimierungsproblem. Die Anzahl der kombinatorischen Möglichkeiten Cluster zu bilden, steigt schneller als exponentiell in der Anzahl Knoten $$n$$. Praktisch stellt es also für sehr große Graphen ein Problem dar $$Q$$ zu maximieren. Sinnvollerweise werden weniger rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat man dann aber nicht. (vgl. Folie 54 + Eigene)
+A: Grundsätzlich lässt durch Maximierung der Modularity die optimale Anzahl der Cluster finden. Es handelt sich aber um NP-Schweres Optimierungsproblem. Die Anzahl der kombinatorischen Möglichkeiten Cluster zu bilden, steigt schneller als exponentiell in der Anzahl Knoten $$n$$. Praktisch stellt es also für sehr große Graphen ein Problem dar $$Q$$ zu maximieren. Sinnvollerweise werden weniger rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat man dann aber nicht. [@geyer-schulz_cluster-analyse_2017 S. 54]
 
 F: *Beschreiben Sie kurz eine Anwendung von Modularity-Clustering im Bereich von Empfehlungsdiensten!*
 

@@ -375,7 +375,7 @@ Knoten $$n$$. Praktisch stellt es also für sehr große Graphen ein
 Problem dar $$Q$$ zu maximieren. Sinnvollerweise werden weniger
 rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine
 Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat
-man dann aber nicht. (vgl. Folie 54 + Eigene)
+man dann aber nicht. (Geyer-Schulz 2017 S. 54)
 
 F: *Beschreiben Sie kurz eine Anwendung von Modularity-Clustering im
 Bereich von Empfehlungsdiensten!*
