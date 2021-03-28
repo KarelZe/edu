@@ -334,14 +334,14 @@ Binäre / Nominale Attribute werden konvertiert in Abstand
 </table>
 
 $$
-S=\left(\left(\begin{array}{c} 0 \\ 0.7 \\ 0.8 \\ 1 \\ 1\end{array}\right),\left(\begin{array}{c}0.6 \\ 80.2 \\ 0 \\ 0 \\ 0\end{array}\right)\right)
+S=\left(\left(\begin{array}{c} 0 \\ 0.7 \\ 0.8 \\ 1 \\ 1\end{array}\right),\left(\begin{array}{c}0.6 \\ 0.2 \\ 0 \\ 0 \\ 0\end{array}\right)\right)
 $$
 
-2. Sie stellen einen Werkstudenten ein, der alle bei Jupiter gelisteten
+F: *Sie stellen einen Werkstudenten ein, der alle bei Jupiter gelisteten
 Kühlschränke mit den $$k$$ Dimensionen erfasst. Sie erhalten als
 Ergebnis $$n$$ $$k$$-dimensionale Vektoren $$x_1, x_2, \ldots, x_n$$.
 Beschreiben Sie kurz 3 Praxis-Probleme, auf die der Werkstudent Ihrer
-Erwartung nach bei der Aufbereitung der Daten stoßen wird.
+Erwartung nach bei der Aufbereitung der Daten stoßen wird.*
 
 A:
 
