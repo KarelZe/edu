@@ -2,11 +2,11 @@ Sie arbeiten für das Unternehmen Letfix, das Videostreaming von Serien und Kino
 
 $$
 \left(\begin{array}{lllll}
-0 & 3 & 1 & 0 & 0 \\
-3 & 0 & 1 & 0 & 2 \\
-1 & 1 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 1 \\
-0 & 2 & 0 & 1 & 0
+0 & 5 & 2 & 1 & 3 \\
+5 & 0 & 1 & 2 & 1 \\
+2 & 1 & 0 & 4 & 4 \\
+1 & 2 & 4 & 0 & 2 \\
+3 & 1 & 4 & 2 & 0
 \end{array}\right)
 $$
 
@@ -39,7 +39,7 @@ a_{2}
 \frac{1}{5} & \frac{2}{5}
 \end{array}\right)\left(\begin{array}{c}
 \frac{2}{5} \\
-\frac{2}{5}
+\frac{3}{5}
 \end{array}\right)$$
 
 $$Q_1=\left(\frac{1}{5}-\frac{2}{5}^{2}\right)+\left(\frac{2}{5}-\frac{3}{5}^{2}\right)=\frac{2}{25}$$
