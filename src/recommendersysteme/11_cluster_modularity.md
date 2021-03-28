@@ -1,4 +1,4 @@
-Sie arbeiten für das Unternehmen Letfix, das Videostreaming von Serien und Kinofilmen anbietet. Letfix möchte einen Recommenderdienst basierend auf Modularity Clustering anbieten, indem Filme aus demselben Cluster empfohlen werden. Im Folgenden finden Sie eine Matrix, wie oft ein Film $e_{i}$ zusammen mit einem anderen Film $e_{j}$ angesehen wurde (der Einfachkeit halber hier mit kleinen Zahlen):
+Sie arbeiten für das Unternehmen Letfix, das Videostreaming von Serien und Kinofilmen anbietet. Letfix möchte einen Recommenderdienst basierend auf Modularity Clustering anbieten, indem Filme aus demselben Cluster empfohlen werden. Im Folgenden finden Sie eine Matrix, wie oft ein Film $$e_{i}$$ zusammen mit einem anderen Film $$e_{j}$$ angesehen wurde (der Einfachkeit halber hier mit kleinen Zahlen):
 
 $$
 \left(\begin{array}{lllll}
@@ -10,11 +10,11 @@ $$
 \end{array}\right)
 $$
 
-Gegeben seien die $C_{1} = \left\{ \left\{ e_{1},e_{2} \right\},\left\{ e_{3},e_{4},e_{5} \right\} \right\}, \mathrm{\text{und }} C_{2} = \left\{ \left\{ e_{1},e_{2},e_{3} \right\},\left\{ e_{4},e_{5} \right\} \right\}$.
+Gegeben seien die $$C_{1} = \left\{ \left\{ e_{1},e_{2} \right\},\left\{ e_{3},e_{4},e_{5} \right\} \right\}, \mathrm{\text{und }} C_{2} = \left\{ \left\{ e_{1},e_{2},e_{3} \right\},\left\{ e_{4},e_{5} \right\} \right\}$$.
 
 ---
 
-F: *Berechnen Sie die Modularity der Cluster $Q(C_1)$ und $Q(C_2)$. Keine Punkte ohne Rechenweg!*
+F: *Berechnen Sie die Modularity der Cluster $$Q(C_1)$$ und $$Q(C_2)$$. Keine Punkte ohne Rechenweg!*
 
 **Clustering 1**
 
@@ -26,7 +26,7 @@ $$M_1=\left(\begin{array}{ll|lll}
 3 & 1 & 4 & 2 & 0
 \end{array}\right)$$
 
-$e_{1,1} = \frac{1}{5}, e_{2,1} = \frac{1}{5}, e_{2,2} = \frac{2}{5}, a_{1} = \frac{2}{5}, a_{2} = \frac{3}{5}$
+$$e_{1,1} = \frac{1}{5}, e_{2,1} = \frac{1}{5}, e_{2,2} = \frac{2}{5}, a_{1} = \frac{2}{5}, a_{2} = \frac{3}{5}$$
 
 $$e \times a = \left(\begin{array}{cc}
 e_{1,1} & e_{1,2} \\
@@ -42,7 +42,7 @@ a_{2}
 \frac{2}{5}
 \end{array}\right)$$
 
-$Q_1=\left(\frac{1}{5}-\frac{2}{5}^{2}\right)+\left(\frac{2}{5}-\frac{3}{5}^{2}\right)=\frac{2}{25}$
+$$Q_1=\left(\frac{1}{5}-\frac{2}{5}^{2}\right)+\left(\frac{2}{5}-\frac{3}{5}^{2}\right)=\frac{2}{25}$$
 
 **Clustering 2**
 
@@ -54,7 +54,7 @@ $$M_1=\left(\begin{array}{lll|ll}
 3 & 1 & 4 & 2 & 0
 \end{array}\right)$$
 
-$e_{1,1} = \frac{8}{25}, e_{2,1} = \frac{3}{10}, e_{2,2} = \frac{2}{25}, a_{1} = \frac{31}{50}, a_{2} = \frac{19}{50}$
+$$e_{1,1} = \frac{8}{25}, e_{2,1} = \frac{3}{10}, e_{2,2} = \frac{2}{25}, a_{1} = \frac{31}{50}, a_{2} = \frac{19}{50}$$
 
 $$e \times a = \left(\begin{array}{cc}
 e_{1,1} & e_{1,2} \\
@@ -70,7 +70,7 @@ a_{2}
 \frac{19}{50}
 \end{array}\right)$$
 
-$Q_1=\left(\frac{8}{25}-\frac{31}{50}^{2}\right)+\left(\frac{2}{25}-\frac{19}{50}^{2}\right)=-\frac{161}{1250}$
+$$Q_1=\left(\frac{8}{25}-\frac{31}{50}^{2}\right)+\left(\frac{2}{25}-\frac{19}{50}^{2}\right)=-\frac{161}{1250}$$
 
 ---
 
@@ -101,7 +101,7 @@ A:
 - Merkmale sind in verschiedenen Graphen dargestellt &rightarrow; Cluster werden unabhängig voneinander in jedem Graphen gefunden. 
 - Für Empfehlungen müssen dann Überschneidungen der Cluster betrachtet werden.
 
-Im Gegensatz zu Amazooon setzt der Konkurrent Letfix auf Recommender mit Modularity Clustering als Verfahren. Hierbei werden Filme und Serien aus demselben Cluster empfohlen. Im Folgenden finden Sie eine Matrix, wie oft ein Film $e_{i}$ zusammen mit einem anderen Film $e_{j}$ angesehen wurde.
+Im Gegensatz zu Amazooon setzt der Konkurrent Letfix auf Recommender mit Modularity Clustering als Verfahren. Hierbei werden Filme und Serien aus demselben Cluster empfohlen. Im Folgenden finden Sie eine Matrix, wie oft ein Film $$e_{i}$$ zusammen mit einem anderen Film $$e_{j}$$ angesehen wurde.
 
 $$
 \left(\begin{array}{cccc} 
@@ -112,11 +112,11 @@ e_{C} & & & 1
 \end{array}\right)
 $$
 
-Gegeben seien die Cluster $C_{1}=\left\{\left\{e_{A}, e_{C}\right\},\left\{e_{B}, e_{D}\right\}\right\}$ und $C_{2}=\left\{\left\{e_{A}, e_{B}, e_{C}\right\},\left\{e_{D}\right\}\right\}$.
+Gegeben seien die Cluster $$C_{1}=\left\{\left\{e_{A}, e_{C}\right\},\left\{e_{B}, e_{D}\right\}\right\}$$ und $$C_{2}=\left\{\left\{e_{A}, e_{B}, e_{C}\right\},\left\{e_{D}\right\}\right\}$$.
 
 ---
 
-F: *Berechnen Sie die Modularity der Cluster $Q\left( C_{1} \right)$ und $Q\left( C_{2} \right).$*
+F: *Berechnen Sie die Modularity der Cluster $$Q\left( C_{1} \right)$$ und $$Q\left( C_{2} \right).$$*
 
 A: 
 
@@ -132,7 +132,7 @@ $$\left(\begin{array}{llll}
 3 & 2 & 0 & 3 \\1 & 1 & 3 & 0 \\
 \end{array}\right)$$
 
-$e_{1,1} = \frac{1}{30}, e_{2,1} = \frac{1}{30}, e_{2,2} = \frac{2}{30}, a_{1} = \frac{2}{30}, a_{2} = \frac{3}{30}$
+$$e_{1,1} = \frac{1}{30}, e_{2,1} = \frac{1}{30}, e_{2,2} = \frac{2}{30}, a_{1} = \frac{2}{30}, a_{2} = \frac{3}{30}$$
 
 $$e \times a = \left(\begin{array}{cc}
 e_{1,1} & e_{1,2} \\
@@ -148,7 +148,7 @@ a_{2}
 \frac{13}{30}
 \end{array}\right)$$
 
-$Q_1=\left(\frac{1}{3}-\frac{17}{30}^{2}\right)+\left(\frac{1}{5}-\frac{13}{30}^{2}\right)=\frac{11}{450}$
+$$Q_1=\left(\frac{1}{3}-\frac{17}{30}^{2}\right)+\left(\frac{1}{5}-\frac{13}{30}^{2}\right)=\frac{11}{450}$$
 
 **Variante 2:**
 
@@ -172,11 +172,11 @@ a_{2}
 \frac{5}{30}
 \end{array}\right)$$
 
-$Q_2=\left(\frac{20}{30}-\frac{25}{30}^{2}\right)+\left(0-\frac{5}{30}^{2}\right)=-\frac{1}{18}.$
+$$Q_2=\left(\frac{20}{30}-\frac{25}{30}^{2}\right)+\left(0-\frac{5}{30}^{2}\right)=-\frac{1}{18}.$$
 
 ---
 
-F: *Begründen Sie: Für welche der beiden Cluster $C_{1}$ oder $C_{2}$entscheiden Sie sich?*
+F: *Begründen Sie: Für welche der beiden Cluster $$C_{1}$$ oder $$C_{2}$$entscheiden Sie sich?*
 
 - Grundsätzlich gilt je größer die Modularity, desto zusammenhängender das Cluster. Es sollte damit Clustering 1 gewählt werden.
 
@@ -188,13 +188,13 @@ Siehe oben.
 
 ---
 
-F: *Was müssten Sie tun, wenn nicht nur auf einem Merkmal (hier: wie oft zusammen gesehen?), sondern auf $n$ Merkmalen Empfehlungen erzeugen wollten?*
+F: *Was müssten Sie tun, wenn nicht nur auf einem Merkmal (hier: wie oft zusammen gesehen?), sondern auf $$n$$ Merkmalen Empfehlungen erzeugen wollten?*
 
 Siehe oben.
 
 ---
 
-F: *Gegeben sei folgende folgender Graph in Matrixdarstellung. Jeder Knoten repräsentiert eine Person. Die Kantengewichte geben an, wie oft Person $i$ mit Person $j$ per e-Mail kommuniziert hat.*
+F: *Gegeben sei folgende folgender Graph in Matrixdarstellung. Jeder Knoten repräsentiert eine Person. Die Kantengewichte geben an, wie oft Person $$i$$ mit Person $$j$$ per e-Mail kommuniziert hat.*
 
 $$
 \left(\begin{array}{lllll}
@@ -235,7 +235,7 @@ e \times a = \left(\begin{array}{l|l|l|l|l}
 \end{array}\right)
 $$
 
-$Q_1=\left(0-\frac{1}{4}^{2}\right)+\left(0-\frac{3}{8}^{2}\right)+\left(0-\frac{1}{8}^{2}\right)+\left(0-\frac{1}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)=-\frac{33}{128}$
+$$Q_1=\left(0-\frac{1}{4}^{2}\right)+\left(0-\frac{3}{8}^{2}\right)+\left(0-\frac{1}{8}^{2}\right)+\left(0-\frac{1}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)=-\frac{33}{128}$$
 
 ---
 
@@ -243,7 +243,7 @@ F: *Berechnen Sie für jeden Knoten die Änderung der Modularität, wenn er mit 
 
 A:
 
-Annahme man legt einfach $A$ mit $B$ zusammen, $C$ mit $D$ und $E$ bleibt allein.
+Annahme man legt einfach $$A$$ mit $$B$$ zusammen, $$C$$ mit $$D$$ und $$E$$ bleibt allein.
 
 $$M = \left(\begin{array}{ll|ll|l}
 0 & 3 & 1 & 0 & 0 \\
@@ -263,7 +263,7 @@ $$e \times a = \left(\begin{array}{lll}
 \frac{3}{16}\\
 \end{array}\right)$$
 
-$Q_2=\left(\frac{6}{16}-\frac{10}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)=-\frac{11}{128}$
+$$Q_2=\left(\frac{6}{16}-\frac{10}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)=-\frac{11}{128}$$
 
 ---
 
@@ -284,20 +284,20 @@ A:
 
 F: *Das Modularity-Maß für die Partition der Knoten eines Graphen in c Cluster lautet:*
 
-$Q = \sum_{i = 1}^{c} \left( e_{ii} - a_{i}^{2} \right).$
+$$Q = \sum_{i = 1}^{c} \left( e_{ii} - a_{i}^{2} \right).$$
 
-F: *Welche Interpretation hat $e_{ij}$ und wie wird $e_{ii}$ aus der Adjazenzmatrix eines Graphen berechnet?*
+F: *Welche Interpretation hat $$e_{ij}$$ und wie wird $$e_{ii}$$ aus der Adjazenzmatrix eines Graphen berechnet?*
 
-- $e_{i j}$: Wahrscheinlichkeit, dass zufällige Kante $\in E$ Cluster $C_{i}, C_{j}$ verbindet 
-- $e_{i i}$: Wahrscheinlichkeit eine Kante im Cluster $C_{i}$ zu wählen (bzw. der Anteil der Kanten im Cluster)
+- $$e_{i j}$$: Wahrscheinlichkeit, dass zufällige Kante $$\in E$$ Cluster $$C_{i}, C_{j}$$ verbindet 
+- $$e_{i i}$$: Wahrscheinlichkeit eine Kante im Cluster $$C_{i}$$ zu wählen (bzw. der Anteil der Kanten im Cluster)
 
 ---
 
-F: *Welche Interpretation hat $a_{i}^{2}$ und wie wird $a_{i}$ berechnet?*
+F: *Welche Interpretation hat $$a_{i}^{2}$$ und wie wird $$a_{i}$$ berechnet?*
 
 A:
 
-$a_{i}^{2}$: Erwarteter Anteil an Kanten für einen zufälligen Graphen mit gleichem Knotengrad aller Knoten.
+$$a_{i}^{2}$$: Erwarteter Anteil an Kanten für einen zufälligen Graphen mit gleichem Knotengrad aller Knoten.
 
 $$a_{i} = \sum_{j = 1}^{c} e_{ij}$$
 
@@ -307,7 +307,7 @@ F: *Warum ist das Modularity-Maß als Clusterkriterium geeignet?*
 
 A:
 
-- Modularity $Q$ ist ein globales Maß für Güte einer Partitionierung $C$ eines Graphen $G$
+- Modularity $$Q$$ ist ein globales Maß für Güte einer Partitionierung $$C$$ eines Graphen $$G$$
 - Modularity: Summe der Abweichungen der tatsächlichen inneren Dichte jeden Clusters vom Null-Modell
 - Abweichung groß: Knoten nicht unabhängig voneinander &rightarrow; lässt auf Community-Struktur schließen
 
@@ -315,7 +315,7 @@ A:
 
 F: *Modularity Clustering hat den Vorteil, dass im Gegensatz zu anderen Clusterverfahren die richtige Anzahl von Clustern automatisch gefunden wird. Wie beurteilen Sie diese Aussage?*
 
-A: Grundsätzlich lässt durch Maximierung der Modularity die optimale Anzahl der Cluster finden. Es handelt sich aber um NP-Schweres Optimierungsproblem. Die Anzahl der kombinatorischen Möglichkeiten Cluster zu bilden, steigt schneller als exponentiell in der Anzahl Knoten $n$. Praktisch stellt es also für sehr große Graphen ein Problem dar $Q$ zu maximieren. Sinnvollerweise werden weniger rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat man dann aber nicht. (vgl. Folie 54 + Eigene)
+A: Grundsätzlich lässt durch Maximierung der Modularity die optimale Anzahl der Cluster finden. Es handelt sich aber um NP-Schweres Optimierungsproblem. Die Anzahl der kombinatorischen Möglichkeiten Cluster zu bilden, steigt schneller als exponentiell in der Anzahl Knoten $$n$$. Praktisch stellt es also für sehr große Graphen ein Problem dar $$Q$$ zu maximieren. Sinnvollerweise werden weniger rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat man dann aber nicht. (vgl. Folie 54 + Eigene)
 
 F: *Beschreiben Sie kurz eine Anwendung von Modularity-Clustering im Bereich von Empfehlungsdiensten!*
 
