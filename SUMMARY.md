@@ -5,5 +5,6 @@
 ## Recommendersysteme
 
 * [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
+* [Clustering](recommendersysteme/10_clustering.md)
 * [Relevante Objekte empfehlen](recommendersysteme/15_relevante_objekte.md)
 
