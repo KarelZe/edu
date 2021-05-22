@@ -12,9 +12,8 @@
 
 ## Vertragsgestaltung
 
-* [Softfactors bei der Vertragsgestaltung](vertragsgestaltung/01_softfactors_vertragsgestaltung.md)
-* [Grundlagen](vertragsgestaltung/02_grundlagen.md)
+* [Einführung / Überblick](vertragsgestaltung/01_einfuehrung_ueberblick.md)
+* [Zivilrechtiche Grundlagen](vertragsgestaltung/02_grundlagen.md)
 * [AGB-Recht](vertragsgestaltung/03_agb.md)
-* [Schritte in der Vertragsgestaltung](vertragsgestaltung/04_schritte_vertragsgestaltung.md)
-* [Entfall](vertragsgestaltung/05_entfall.md)
+* [Basisinhalte eines Vertrags](vertragsgestaltung/04_basisinhalte.md)
 * [Übertragungsverträge](vertragsgestaltung/06_uebertragungsvertraege.md)
