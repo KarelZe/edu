@@ -1,0 +1,15 @@
+digraph g{
+    forcelabels=true;
+
+
+    A [label="A \n gesund: 85, krank =15"]
+    C[label="C \n gesund: 5, krank =10"]
+    end1[label="gesund \n gesund: 85, krank=0"]
+    end2[label="gesund \n gesund: 5 krank= 0"]
+    end3[label="krank \n gesund: 0 krank= 10"]
+
+    A -> end1[label="A=Yes"]
+    A -> C[label="A=No"]
+    C -> end2[label="c=Yes"]
+    C -> end3[label="C=No"]  
+}
