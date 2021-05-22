@@ -1,4 +1,4 @@
-# Vorlesung 1 - Softfactors Vertragsverhandlung
+# Einführung und Überblick
 
 - Verträge = Verwirklichung von Ideen
 - Verträge, dienen dazu, dass das Wirtschaftsleben, so wir es kennen, funktioniert.
@@ -7,9 +7,9 @@
 
 - Man unterscheidet die beiden Vertragstypen
     - **Austauschverträge** → Bezieht sich auf Gegenläufigkeit (z. B. Auftragnehmer vs. Auftraggeber etc.)
-    - **Kooperationsverträge** → Bezieht sich auf Gemeinsamkeit (z. B. Startup mit mehreren Companions, die dasselbe Ziel haben z. B. BMW und Startup koopieren für neues Produkt)
+    - **Kooperationsverträge** → Bezieht sich auf Gemeinsamkeit (z. B. Startup mit mehreren Companions, die dasselbe Ziel haben z. B. BMW und Startup kooperieren für neues Produkt)
     - Man unterscheidet dann Austauschverträge weiter nach Übertragungsverträge etc.
-- Übertragungsvertrag = Ziel dieser Verträge ist die Verschaffung des Eigentums an einer Sache (z. B. Auto, Grundstück) oder einem Recht (z. B. Forderung, Gesellschaftsantei)
+- Übertragungsvertrag = Ziel dieser Verträge ist die Verschaffung des Eigentums an einer Sache (z. B. Auto, Grundstück) oder einem Recht (z. B. Forderung, Gesellschaftsanteil)
 - Herstellungsvertrag = Ziel dieser Verträge ist die Herstellung eines bestimmten Werkes
 - Varianten vom Herstellungsvertrag
     - Werksvertrag
@@ -30,7 +30,7 @@
     - wirtschaftliche Aspekte z. B. wie bekomme ich regelt, dass Kundenstamm bei mir bleibt?
 
 - Flexibilität z. B. bei Klausel, worauf sich Parteien nicht verständigen können / Wie ist Verhandlungslage z. B. geht man ins Detail?
-    - Nähe vs. Distanz z. B. man möchte Vertrag mit bestimmten Kunden schließen vs. man suggeriert Distanz, dass noch andere Vertragspartner im Rennnen sind
+    - Nähe vs. Distanz z. B. man möchte Vertrag mit bestimmten Kunden schließen vs. man suggeriert Distanz, dass noch andere Vertragspartner im Rennen sind
     - Zeitdruck vs. Verlangsamen
     - Entscheidungsdruck vs. Verzögerungen z. B. Druck bei Vertragsabschluss vs. Verlangsamen etwa Rücksprache mit Aufsichtsrat
 

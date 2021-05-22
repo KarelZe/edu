@@ -1,8 +1,8 @@
-# Vorlesung 2 - Grundlagen
+# Zivilrechtliche Grundlagen
 
 ## Privatautonomie
 
-- Privatautonomie ist die Freiheit des Einzlenen, seine Rechtsbeziehungen eigenverantwortlich und frei zu gestalten. Rechte eines Dritten dürfen nicht beschnitten werden.
+- Privatautonomie ist die Freiheit des Einzelnen, seine Rechtsbeziehungen eigenverantwortlich und frei zu gestalten. Rechte eines Dritten dürfen nicht beschnitten werden.
 - Privatautonomie resultiert aus unserer freiheitlichen Grundordnung.
 
 ## Vertragsfreiheit

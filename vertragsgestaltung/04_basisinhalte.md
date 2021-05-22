@@ -1,4 +1,4 @@
-# Vorlesung 4 - Schritte Vertragsgestaltung
+# Basisinhalte eines Vertrags
 
 ## Schritte
 

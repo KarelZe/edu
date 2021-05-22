@@ -1,4 +1,4 @@
-# Vorlesung 3 - AGB
+# AGB
 
 ### Stellvertretung
 
@@ -47,13 +47,13 @@
 
 - Geregelt in §§ 305-310 BGB
 - **Ziel:** Rationalisierung bei der Abwicklung von Massengeschäften z. B. Bank schließt Darlehen
-- **Problem:** Sinn und Zweck ist Schutz des Schwächern - Beispiel Handvertrag: Es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln.
+- **Problem:** Sinn und Zweck ist Schutz des Schwächeren - Beispiel Handvertrag: Es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln.
 - Der Staat macht keine AGB
 
 ### Wie prüfe ich AGB?
 
 - Zuerst schauen, ob Anwendungsbereich des AGB eröffnet wurde § 310 Abs. 4 BGB
-    - **Ausnahmen**: Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitrechtliche Kollektivvereinbarung
+    - **Ausnahmen**: Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitsrechtliche Kollektivvereinbarung
     - **Einschränkung:** Arbeitsverträge ("im Arbeitsrecht geltende Besonderheiten sind angemessen zu berücksichtigen")
 - Vorliegen der AGB nach §§305 Abs. 1 310 Abs 3 Nr. 1,2  BGB
     - Einbeziehungskontrolle / Sind AGB Vertragsbestandteil geworden und Möglichkeit der Kenntnisnahme §§ 305 Abs. 2,3, 305a BGB?

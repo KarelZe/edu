@@ -1,4 +1,4 @@
-# Vorlesung 6 Übertragungsverträge
+# Übertragungsverträge
 
 ## Nachtrag
 
