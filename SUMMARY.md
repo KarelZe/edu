@@ -17,3 +17,4 @@
 * [AGB-Recht](vertragsgestaltung/03_agb.md)
 * [Basisinhalte eines Vertrags](vertragsgestaltung/04_basisinhalte.md)
 * [Übertragungsverträge](vertragsgestaltung/06_uebertragungsvertraege.md)
+* [Gebrauchsüberlassungsverträge](vertragsgestaltung/07_gebrauchsueberlassungsvertraege.md)
