@@ -44,3 +44,8 @@
 * [Basisinhalte eines Vertrags](vertragsgestaltung/04_basisinhalte.md)
 * [Übertragungsverträge](vertragsgestaltung/06_uebertragungsvertraege.md)
 * [Gebrauchsüberlassungsverträge](vertragsgestaltung/07_gebrauchsueberlassungsvertraege.md)
+
+## Rechtliches
+
+* [Impressum](rechtliches/impressum.md)
+* [Lizenz](rechtliches/lizenz.md)
