@@ -2,6 +2,10 @@
 
 * [KIT](README.md)
 
+## Analysetechniken g. Datenbestände
+
+* [Qual. Auf. Pratikum](https://github.com/KarelZe/grid-stability-sim)
+
 ## Advanced Machine Learning
 
 * [Anki-Deck](adv_ml/00_anki.md)
@@ -9,15 +13,15 @@
 
 ## Het. parallele RS
 
-* [Anki-Deck](het_parallele_rs/00_anki.md)
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Parallelrechner
 
-* [Anki-Deck](parallelrechner/00_anki.md)
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Rechnerstrukturen
 
-* [Anki-Deck](rechnerstrukturen/00_anki.md)
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Recommendersysteme
 
@@ -30,7 +34,7 @@
 * [Relevante Objekte empfehlen](recommendersysteme/15_relevante_objekte.md)
 
 ## Valuation
-* [Anki-Deck](valuation/00_anki.md)
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Vertragsgestaltung
 
