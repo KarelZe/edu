@@ -4,7 +4,7 @@ Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Reca
 
 Einarbeiten
 
-- Explain algorithm xy → Alle Algorithmen rausarbeiten
+- Explain algorithm xy → Alle Algorithmen herausarbeiten
 - Give applications for algorithm xy...
 - Compare algorithm xy with uw....
 - What are the advantages of xy over uw...
@@ -32,7 +32,7 @@ Einarbeiten
 - Give a brief explanation of categorical, binary, ordinal and numeric variables. (E)
 - Explain common techniques for data gathering. (E)
 - Why is it desirable to work on normalized data? (E)
-- Explain common techniques to analyze the relationship between variables. (E)
+- Explain common techniques to analyse the relationship between variables. (E)
 - How can missing data be replaced? Explain. (E)
 - Explain 3 patterns in which missing data can occur. (E)
 
@@ -44,7 +44,7 @@ Einarbeiten
 - Explain how an optimal estimate for $\beta$ can be derived.
 - Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model? (E)
 - Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model? (E)
-- Name two measure to test the goodness of fit of a Linear Regression model. (--> Total Sum of Squares / R^2) (E)
+- Name two measure to test the goodness of fit of a Linear Regression model. (-&rightarrow; Total Sum of Squares / R^2) (E)
 - Explain scenarios, where Ridge Regression would be preferred over LASSO. (E)
 - Write the definitions R^2, Adj. R^2, MAE, RMSE. (E)
 - Compare R^2, Adj. R^2 to MAE, RMSE. Name advantages and drawbacks. (E) 
@@ -83,15 +83,12 @@ Einarbeiten
 
 ### Classification Evaluation
 - What is an imbalanced dataset in classification? (*)
-- How do you deal with imbalanced data in classification? (Github Interview Questions)
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled.png)
-
-- Why is it a bad idea to evaluate your algorithm on the training set? (ML)
+- How do you deal with imbalanced data in classification? (GitHub Interview Questions)
+-  Why is it a bad idea to evaluate your algorithm on the training set? (ML)
 - What is the advantage/disadvantage of k-fold CV vs. Hold-out method?
 - Give an example for True Positive Rates etc.? (E)
-- Explain what precision and recall are. How do they relate to the ROC-Curve?  (Github Interview Questions)
-- Is it better to have many false positives, or too many false negatives? (Github Interview Questions)
+- Explain what precision and recall are. How do they relate to the ROC-Curve?  (GitHub Interview Questions)
+- Is it better to have many false positives, or too many false negatives? (GitHub Interview Questions)
 - Draw a ROC Curve for given metrics. (E)
 - Interpret a ROC Curve. (E)
 - How is the AUC be calculated? (E)
@@ -140,10 +137,10 @@ Einarbeiten
 - Compare the stepwise inclusion regression method to stepwise exclusion regression method and standard stepwise regression method. (E)
 - Explain how the stepwise inclusion regression method / ... /... works. (E)
 - In which way do stepwise inclusion method and stepwise exclusion method differ? (E)
-- Explain what regularization is and why it is useful (Github Interview Questions)
+- Explain what regularization is and why it is useful (GitHub Interview Questions)
 - Explain the ridge regression (*)
-- Explain the difference between LASSO and ridge regression? (*) (→ Für Antwort siehe Github Interview Questions)
-- In practice, explain what is the main difference between ridge regression and LASSO. (*) (→ Für Atnworth siehe Github Interview questions)
+- Explain the difference between LASSO and ridge regression? (*) (→ Für Antwort siehe GitHub Interview Questions)
+- In practice, explain what is the main difference between ridge regression and LASSO. (*) (→ Für Antwort siehe GitHub Interview questions)
 - Explain what is the difference between LSSO and linear regression? (*)
 - What are the main applications of LASSO? (*)
 - Compare LASSO and the stability selection technique. (*)
@@ -152,7 +149,7 @@ Einarbeiten
 - Which norms can we use and what are the different effects? (ML)
 - Give the formula for ridge regression and explain its components. (E)
 - Give the formula for LASSO and explain its components. (E)
-- Name one major advantage of LASSO over ridge regression. (E) -> Lasso yields sparse models, that is, models that only involve a subset of other variables.
+- Name one major advantage of LASSO over ridge regression. (E) &rightarrow; Lasso yields sparse models, that is, models that only involve a subset of other variables.
 - How should $\lambda$ be selected for ridge regression / LASSO? (E)
 - Explain how selecting tuning parameters works for ridge regression. (E)
 
@@ -175,22 +172,14 @@ Einarbeiten
 
 ### Decision Trees
 
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%201.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%201.png)
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%202.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%202.png)
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%203.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%203.png)
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%204.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%204.png)
-
 - Mention three characteristics of impurity measures? (*)
 - What are advantages of decision trees over random forests? (*)
-- How can continous attributes be handled in Decision Trees? (*)
+- How can continuous attributes be handled in Decision Trees? (*)
 - What are useful splitting criterions? (ML)
 - How can we influence the model complexity of the tree? (ML)
 - Name 3 impurity measures. (E)
 - Compare the Gini-Coefficient to Entropy and the resubstitution error. (E)
-- Name 3 conditions an impurity measure has to fullfill. (E)
+- Name 3 conditions an impurity measure has to fulfil. (E)
 - When should the Gini-Coefficient be used? When is it desirable to use the Entropy? (E)
 - Explain how categorical features can be split? (E)
 - Explain how numerical features can be split? (E)
@@ -198,12 +187,6 @@ Einarbeiten
 - Explain how growing a decision tree works? (E)
 - How can decision trees be applied to a regression case? (E)
 - Name several advantages / disadvantages of decision trees (E)
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%205.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%205.png)
-
-- 
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%206.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%206.png)
 
 ### Bagging, Boosting and RF
 
@@ -213,14 +196,14 @@ Einarbeiten
 - How does Bagging differ from Boosting? Explain the differences? (E)
 - How does Bagging work for regression? (E)
 - How does Bagging work for classification? (E)
-- What is the main advantage and disadavantage of a random forest over a decision tree? (*)
-- Describe how Gradient Boosting works. (Interview Questions Github)
+- What is the main advantage and disadvantage of a random forest over a decision tree? (*)
+- Describe how Gradient Boosting works. (Interview Questions GitHub)
 - Compare Boosting trees to Random Forests. What are the differences? (E)
 - Explain how a Random Forest improves ordinary decision trees. (E)
 - Explain what a Random Forest is? (E)
 - When can it be advantageous to use Random Forests over Decision Trees? (E)
 - What are tuning parameters for Decision Trees? (E)
-- What are tuning parameters for Random Forests? (E) -> No. Trees + No. of predictors used to build each tree.
+- What are tuning parameters for Random Forests? (E) &rightarrow; No. Trees + No. of predictors used to build each tree.
 
 ## Vorlesung 8
 
@@ -244,12 +227,9 @@ Einarbeiten
 - Does k-means find a global minimum of the objective? (ML)
 - Name similarity measures. Name an advantage and disadvantage for each of them. (Eigene)
 - Compare similarity measures for low and high-dimensional spaces. (Eigene)
-- In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be? (Github Interview questions)
+- In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be? (GitHub Interview questions)
 - What is the main idea of clustering(E)
 - When is a clustering optimal?
-
-
-![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%207.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%207.png)
 
 ## Vorlesung 9
 
@@ -304,4 +284,4 @@ Einarbeiten
 
 ## Misc
 
-- Techniques that can be used for default predicition. (*)
+- Techniques that can be used for default prediction. (*)
