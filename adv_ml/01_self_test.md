@@ -245,7 +245,9 @@ Einarbeiten
 - Name similarity measures. Name an advantage and disadvantage for each of them. (Eigene)
 - Compare similarity measures for low and high-dimensional spaces. (Eigene)
 - In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be? (Github Interview questions)
-- 
+- What is the main idea of clustering(E)
+- When is a clustering optimal?
+
 
 ![self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%207.png](self%20test%20questions%20255cf1aed9eb4c40bb951332b4c9413a/Untitled%207.png)
 

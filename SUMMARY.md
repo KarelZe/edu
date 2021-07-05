@@ -5,6 +5,7 @@
 ## Advanced Machine Learning
 
 * [Anki-Deck](adv_ml/00_anki.md)
+* [Selbsttestfragen](adv_ml/01_self_test.md)
 
 ## Het. parallele RS
 
