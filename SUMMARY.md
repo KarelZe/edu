@@ -4,14 +4,14 @@
 
 ## Analysetechniken g. Datenbestände
 
-* [Qual. Auf. Pratikum](https://github.com/KarelZe/grid-stability-sim)
+* [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 
 ## Advanced Machine Learning
 
-* [Anki-Deck](adv_ml/00_anki.md)
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Selbsttestfragen](adv_ml/01_self_test.md)
 
-## Het. parallele RS
+## Het. parallele Rechnerstrukturen
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
