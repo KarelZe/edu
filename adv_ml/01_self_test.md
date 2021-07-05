@@ -2,28 +2,26 @@
 
 Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Recall** gedacht und eine Ergänzung zu [Karteikarten](00_anki.md).
 
-Einarbeiten
+## TODOs
 
 - Explain algorithm xy → Alle Algorithmen herausarbeiten
 - Give applications for algorithm xy...
 - Compare algorithm xy with uw....
 - What are the advantages of xy over uw...
 
-## Vorlesung 1
 
-### Big Data
+## Big Data
 
 - What are the characteristics of big data? (*)
 - Explain three characteristics of big data? (*)
 - What is the difference between veracity and variety? (E)
 
-### ML vs. Statistics vs. Econometrics
+## ML vs. Statistics vs. Econometrics
 - Compare ML to Statistics. What are the most significant differences? (E)
 - Compare ML to Econometrics. In which way do both differ? (E)
 
-## Vorlesung 2
 
-### Structure of data / CRISPDM / Taxonomy
+## Structure of data / CRISPDM / Taxonomy
 
 - What are characteristics of unstructured data? Explain them. (*)
 - What is unsupervised learning? (*)
@@ -36,9 +34,8 @@ Einarbeiten
 - How can missing data be replaced? Explain. (E)
 - Explain 3 patterns in which missing data can occur. (E)
 
-## Vorlesung 3
 
-### Multiple Linear Regression
+## Multiple Linear Regression
 
 - What is the purpose $\beta$ in a *Multiple Linear Regression Model*? (E)
 - Explain how an optimal estimate for $\beta$ can be derived.
@@ -70,9 +67,7 @@ Einarbeiten
 - Why is it not desirable to use Linear Regression for default prediction? (E)
 
 
-## Vorlesung 4
-
-### Logistic Regression
+## Logistic Regression
 - In which day does logistic regression and linear regression differ?
 - Explain what logistic regression is. (E)
 - How is the maximum likelihood estimated in a logistic regression setting? (E)
@@ -81,7 +76,7 @@ Einarbeiten
 - Calculate the probabilities of ... using logistic regression model. (E)
 - How can logistic regression enhanced to a multiple logistic regression case? (E)
 
-### Classification Evaluation
+## Classification Evaluation
 - What is an imbalanced dataset in classification? (*)
 - How do you deal with imbalanced data in classification? (GitHub Interview Questions)
 -  Why is it a bad idea to evaluate your algorithm on the training set? (ML)
@@ -107,9 +102,9 @@ Einarbeiten
 - How can a standard 2x2 confusion matrix be enhanced for a multi-classification case? (E)
 - Are ROC curves / is AUC sensitive to imbalanced data? If yes, how can it be resolved? (E)
 
-## Vorlesung 5
 
-### Cross-Validation
+
+## Cross-Validation
 
 - What is the motivation to use resampling methods such as cross validation? (E)
 - What are drawbacks of resampling approaches? (E)
@@ -125,9 +120,8 @@ Einarbeiten
 - Why is bootstrapping used? Why is bootstrapping desirable? (E)
 - Explain what bootstrap is. (E)
 
-## Vorlesung 6
 
-### Shrinkage Methods
+## Shrinkage Methods
 -  Explain how forward stepwise selection works in 3 steps. (E)
 -  Explain how backward stepwise selection works in 3 steps. (E)
 -  Compare the subset selection methods forward and backward stepwise selection. (E)
@@ -153,7 +147,7 @@ Einarbeiten
 - How should $\lambda$ be selected for ridge regression / LASSO? (E)
 - Explain how selecting tuning parameters works for ridge regression. (E)
 
-### Dimensionality Reduction
+## Dimensionality Reduction
 
 - What are the advantages of sparse PCA over PCA? (*)
 - What does dimensionality reduction mean? (ML)
@@ -168,9 +162,9 @@ Einarbeiten
 - Explain the major difference of sparse PCA over ordinary PCA (E)
 - Explain the major difference of sparse PCA over ordinary PCA (E)
 
-## Vorlesung 7
 
-### Decision Trees
+
+## Decision Trees
 
 - Mention three characteristics of impurity measures? (*)
 - What are advantages of decision trees over random forests? (*)
@@ -188,7 +182,7 @@ Einarbeiten
 - How can decision trees be applied to a regression case? (E)
 - Name several advantages / disadvantages of decision trees (E)
 
-### Bagging, Boosting and RF
+## Bagging, Boosting and RF
 
 - What are tuning parameters for Boosting? (*)
 - How does Boosting work for regression? (*)
@@ -215,7 +209,7 @@ Einarbeiten
 - Calculate the PCA for the first 2 components? (E)
 - Sketch the algorithm for calculating the first two PCA components. (E)
 
-### $k$-means Clustering
+## $k$-means Clustering
 
 - Explain the k-means clustering algorithm (*)
 - How is the clustering problem defined? (ML)
@@ -233,7 +227,7 @@ Einarbeiten
 
 ## Vorlesung 9
 
-### SVMs
+## SVMs
 
 - Required scaling for SVMs? (*)
 - Advantages of SVMs over logistic Regression (*)
@@ -251,7 +245,7 @@ Einarbeiten
 
 ## Vorlesung 10
 
-### Neural Net
+## Neural Net
 
 - How does logistic regression relate to neural networks? (ML)
 - What kind of functions can single layer NN learn? (ML)
@@ -262,23 +256,21 @@ Einarbeiten
 - Why neural networks can overfit and what are the options to prevent it? (ML)
 - Early stopping, cross-validation and network pruning are techniques to prevent overfitting of Neural Nets. Explain them. (E)
 
-## Vorlesung 11
 
-### RNN
+## RNN
 
 - Explain Recurrent Neural Networks (RNN) (*)
 
-### LSTM
+## LSTM
 
 - LSTMs are suitable for which type of analysis? (*)
 - How can we use LSTMs for time series dataset? (*)
 - Explain LSTMs. (*)
 
-## Vorlesung 12
 
-### Methods in NLP
+## Methods in NLP
 
-### RNNs / GRUs / Bidirectional LSTMs
+## RNNs / GRUs / Bidirectional LSTMs
 
 - Explain Differences between RNNs and GRUs (E)
 
