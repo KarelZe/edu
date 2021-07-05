@@ -1,0 +1,1 @@
+Ich habe auf Basis der Vorlesungsfolien ein Anki Deck erstellt. Es steht [hier](https://github.com/KarelZe/anki-decks) zum Download bereit.

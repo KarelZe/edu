@@ -6,6 +6,18 @@
 
 * [Anki-Deck](adv_ml/00_anki.md)
 
+## Het. parallele RS
+
+* [Anki-Deck](het_parallele_rs/00_anki.md)
+
+## Parallelrechner
+
+* [Anki-Deck](parallelrechner/00_anki.md)
+
+## Rechnerstrukturen
+
+* [Anki-Deck](rechnerstrukturen/00_anki.md)
+
 ## Recommendersysteme
 
 * [Anki-Deck](recommendersysteme/00_anki.md)
