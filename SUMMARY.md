@@ -22,6 +22,7 @@
 ## Recommendersysteme
 
 * [Anki-Deck](recommendersysteme/00_anki.md)
+* [Bonusübung](https://github.com/KarelZe/recommendersysteme)
 * [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
 * [Clustering](recommendersysteme/10_clustering.md)
 * [Cluster Modularity](recommendersysteme/11_cluster_modularity.md)
