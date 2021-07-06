@@ -17,7 +17,7 @@ Zur Herkunft der Fragen:
 
 ## Big Data
 
-- F: **What are the characteristics of big data?** ⭐
+- F: *What are the characteristics of big data?* ⭐
 - F: *Explain three characteristics of big data?* ⭐
 - F: *What is the difference between veracity and variety?* 
 
@@ -240,16 +240,16 @@ Zur Herkunft der Fragen:
 - F: *Calculate the PCA for the first 2 components?*
 - F: *Sketch the algorithm for calculating the first two PCA components.*
 
-## $$k$$-means Clustering
+## k-means Clustering
 
-- F: *Explain the k-means clustering algorithm ⭐
+- F: *Explain the $$k$$-means clustering algorithm* ⭐
 - F: *How is the clustering problem defined?* 🧠
 - F: *Why is clustering called unsupervised?* 🧠
-- F: *How do clustering Methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?*  🧠
-- F: *How does the k-mean algorithm work?* 🧠
+- F: *How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?*  🧠
+- F: *How does the $$k$$-mean algorithm work?* 🧠
 - F: *What are the 2 main steps of $$k$$-means?* 🧠
-- F: *Why does k-means converge? What is it minimizing.* 🧠
-- F: *Does k-means find a global minimum of the objective?* 🧠
+- F: *Why does $$k$$-means converge? What is it minimizing.* 🧠
+- F: *Does $$k$$-means find a global minimum of the objective?* 🧠
 - F: *Name similarity measures. Name an advantage and disadvantage for each of them.*
 - F: *Compare similarity measures for low and high-dimensional spaces.*
 - F: *In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?*
@@ -257,7 +257,18 @@ Zur Herkunft der Fragen:
 
 - F: *What is the main idea of clustering?*
 - F: *When is a clustering optimal?*
-
+- F: *What properties does a set has to fulfil when $$k$$-means clustering should be applied.*
+- F: *How does minimizing the WCV relate to solving the clustering problem?*
+- F: *What are alternatives to $$k$-means clustering?
+- F: *How can $$k$$-means clustering be phrased as an optimization problem?*
+- F: *What are advantages / drawbacks of using the $$k$-means algorithm?*
+- F: *Name distance measures, that can be used with in conjunction with $$k$$ means. When should they be used.*
+- F: *Draw a dendrogram from a given clustering.*
+- F: *Explain how the algorithm for hierarchical clustering works.*
+- F: *Explain different linkage types, that can be used for clustering.*
+- F: *Draw different linkage types visually.*
+- F: *What is the impact of using different linkage types?*
+- F: *Name practical issues that arise with hierarchical or $$k$$-means clustering.*
 
 ## SVMs
 
