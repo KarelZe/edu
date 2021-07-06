@@ -4,7 +4,9 @@ Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Reca
 
 Zur Herkunft der Fragen:
 - Fragen aus Altklausuren sind mit einem Stern (⭐) markiert. 
-- Ein weiterer Teil der Fragen stammt aus der Vorlesung Maschinelles Lernen (Grundverfahren). Diese Fragen sind mit (🧠) gekennzeichnet.
+- Ein weiterer Teil der Fragen stammt aus der Vorlesung Maschinelles Lernen (Grundverfahren). Diese Fragen sind mit einem Gehirn (🧠) gekennzeichnet.
+- Fragen der University of Toronto sind mit einem Camp (🏕️) markiert.
+- Fragen der University of Berkley mit einem Feuerwehrmann (🧑‍🚒)
 - Die übrigen Fragen sind eigene Fragen oder es handelt sich um Interviewfragen.
 
 ## TODOs
@@ -38,7 +40,8 @@ Zur Herkunft der Fragen:
 - F: *Explain common techniques to analyse the relationship between variables.* 
 - F: *How can missing data be replaced? Explain.* 
 - F: *Explain 3 patterns in which missing data can occur.* 
-
+- F: *What is a training, test and validation set for?*
+- F: *What is the risk with tuning hyperparameters using a test dataset?* 🧑‍🚒
 
 ## Multiple Linear Regression
 
@@ -49,8 +52,8 @@ Zur Herkunft der Fragen:
 - F: *Name two measure to test the goodness of fit of a Linear Regression model. (&rightarrow; Total Sum of Squares / $$R^2$$) 
 - F: *Explain scenarios, where Ridge Regression would be preferred over LASSO.* 
 - F: *Write the definitions R^2, Adj. $$R^2$$, MAE, RMSE.* 
-- F: *Compare R^2, Adj. $$R^2$$ to MAE, RMSE. Name advantages and drawbacks.*  
-- F: *Compare R^2, Adj. $$R^2$$ to MAE, RMSE. Which of these is normed.* 
+- F: *Compare $$R^2$$, Adj. $$R^2$$ to MAE, RMSE. Name advantages and drawbacks.*  
+- F: *Compare $$R^2$$, Adj. $$R^2$$ to MAE, RMSE. Which of these is normed.* 
 - F: *Explain the 3 steps in fitting a regression model.* 
 - F: *What is the advantage of using $$R^2$$ over SST?* 
 - F: *In which way does adjusted $$R^2$$ improve the standard $$R^2$$?* 
@@ -116,7 +119,7 @@ Zur Herkunft der Fragen:
 - F: *Draw a confusion matrix. Include the metrics, that are inside the cells.* 
 - F: *How can a standard 2x2 confusion matrix be enhanced for a multi-classification case?* 
 - F: *Are ROC curves / is AUC sensitive to imbalanced data?* If yes, how can it be resolved?* 
-
+- F: *What kinds of datasets are difficult for a linear classifier to correctly classify?
 
 
 ## Cross-Validation
@@ -230,7 +233,7 @@ Zur Herkunft der Fragen:
 - F: *What are tuning parameters for Decision Trees?*
 - F: *What are tuning parameters for Random Forests?*
 - A: No. Trees + No. of predictors used to build each tree.
-
+- F: *What is an ensemble algorithm? Give on example from the class of an ensemble model that gave improved performance over a base model.*
 
 - F: *Compare supervised learning to unsupervised learning. How do they differ?* 
 - F: *What are advantages / disadvantages of unsupervised learning techniques?*
@@ -239,6 +242,8 @@ Zur Herkunft der Fragen:
 - F: *How can the proportion of variance explained by $$m$$ variables be calculated?*
 - F: *Calculate the PCA for the first 2 components?*
 - F: *Sketch the algorithm for calculating the first two PCA components.*
+
+
 
 ## k-means Clustering
 
@@ -300,8 +305,8 @@ Zur Herkunft der Fragen:
   - Otherwise, the performance of logistic regression (with ridge penalty) and SVM are very similar. 
   - To estimate probabilities, the choice should be logistic regression.
   - If interpretability and speed is a major concern, logistic regression should be used.
-- F: *Explain how Least-Squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction.
-- F: *Explain how semiparametric Least-squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction.
+- F: *Explain how Least-Squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction.*
+- F: *Explain how semiparametric Least-squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction.*
 - F: *Name proper alternatives to standard SVMs for default prediction.*
 
 ## Neural Net
@@ -314,11 +319,30 @@ Zur Herkunft der Fragen:
 - F: *Why not use a sigmoid activation function?* 🧠
 - F: *Why neural networks can overfit and what are the options to prevent it?* 🧠
 - F: *Early stopping, cross-validation and network pruning are techniques to prevent overfitting of Neural Nets. Explain them.* 
+- F: *What makes an Ordinary Least Square Regression different from a neural net?*
+- F: *Explain how Principal Component Regression works.*
+- F: *Explain the purpose of activation functions.*
+- F: *Define different activation functions and sketch them.*
+- F: *Sketch a neural network with 3 input units, 4 hidden units and 2 output units. Make sure to label its components.*
+- F: *How is a recurrent neural net different from an ordinary neural network?*
+- F: *Explain how back-propagation works in neural network.*
+- F: *What is necessary to apply Neural Nets to classification tasks?
+- F: For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance? 🧑‍🚒
+- F: *What is the problem of Neural nets with many parameters?* 
+- F: *What is the impact of a higher number of layers and hidden units in a neural net?*
+- A:
+  - the more layers and more hidden units in a model, the more capacity it has.
+  - There might not be enough data. A high capacity model easily overfits training data and results in a bad performance during testing.
+- F: *Explain what network pruning is.*
+- F: *Explain how early stopping works with Neural Nets.*
+- F: *Consider the following two multilayer perceptrons, where all of the layers use linear activation functions. Give an advantage of Network A over Network B.* 🏕️
+![Network architectures](./../.gitbook/assets/network_architecture.jpg)
 
 
 ## RNN
 
 - F: *Explain Recurrent Neural Networks (RNN)* ⭐
+- F: *What types of RNN were discussed in class?*
 
 ## LSTM
 
@@ -330,7 +354,8 @@ Zur Herkunft der Fragen:
 
 ## RNNs / GRUs / Bidirectional LSTMs
 
-- F: *Explain Differences between RNNs and GRUs*
+- F: *Explain differences between RNNs and GRUs*
+
 
 ## Misc
 
