@@ -259,7 +259,7 @@ Zur Herkunft der Fragen:
 - F: *When is a clustering optimal?*
 - F: *What properties does a set has to fulfil when $$k$$-means clustering should be applied.*
 - F: *How does minimizing the WCV relate to solving the clustering problem?*
-- F: *What are alternatives to $$k$-means clustering?
+- F: *What are alternatives to $$k$$-means clustering?
 - F: *How can $$k$$-means clustering be phrased as an optimization problem?*
 - F: *What are advantages / drawbacks of using the $$k$-means algorithm?*
 - F: *Name distance measures, that can be used with in conjunction with $$k$$ means. When should they be used.*
@@ -273,7 +273,8 @@ Zur Herkunft der Fragen:
 ## SVMs
 
 - F: *Required scaling for SVMs?* ⭐
-- F: *Name advantages of SVMs over logistic Regression.* ⭐
+- A: Features should be scaled to the interval $[0,1]$.
+- F: *Name advantages of SVMs over logistic regression.* ⭐
 - F: *Recommendations to improve results of a SVM.* ⭐
 - F: *Why is it good to use a maximum margin objective for classification?* 🧠
 - F: *How can we define the margins as optimization problem?* 🧠
@@ -285,6 +286,23 @@ Zur Herkunft der Fragen:
 - F: *What is the definition of a kernel and its relation to an underlying feature space?* 🧠
 - F: *Why are kernels more powerful than traditional feature-based methods?* 🧠
 - F: *What do we mean by the kernel trick?* 🧠
+- F: *What is the central idea of SVMs?*
+- A: We try to find a plane that separates the classes in the feature space. If that's not possible, we get creative in two ways:
+    - We soften what we mean by separates through the introduction of support vectors.
+    - We enrich and enlarge the feature space so that separation is possible. This means the feature space get's transformed.
+- F: *What does a Maximal Margin Classifier maximize for?*
+- F: *What is the purpose of the support vectors $$\epsilon$$? 
+- F: *Explain what is referred to as *feature expansion*?
+- F: *Name and define kernels that can be used with SVMs.*
+- F: *Compare SVMs to logistic regression*
+- A:
+  - When classes are not linearly separable, SVM does better than logistic regression. ([See here](https://stats.stackexchange.com/a/95348))
+  - Otherwise, the performance of logistic regression (with ridge penalty) and SVM are very similar. 
+  - To estimate probabilities, the choice should be logistic regression.
+  - If interpretability and speed is a major concern, logistic regression should be used.
+- F: *Explain how Least-Squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction.
+- F: *Explain how semiparametric Least-squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction.
+- F: *Name proper alternatives to standard SVMs for default prediction.*
 
 ## Neural Net
 
