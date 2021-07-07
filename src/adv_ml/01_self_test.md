@@ -46,7 +46,8 @@ Zur Herkunft der Fragen:
 - F: *Explain how an optimal estimate for $$\beta$$ can be derived.*
 - F: *Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?* 
-- F: *Name two measure to test the goodness of fit of a Linear Regression model. (&rightarrow; Total Sum of Squares / $$R^2$$) 
+- F: *Name two measure to test the goodness of fit of a Linear Regression model.*
+- A: Total Sum of Squares / $$R^2$$ 
 - F: *Explain scenarios, where Ridge Regression would be preferred over LASSO.* 
 - F: *Write the definitions R^2, Adj. $$R^2$$, MAE, RMSE.* 
 - F: *Compare R^2, Adj. $$R^2$$ to MAE, RMSE. Name advantages and drawbacks.*  

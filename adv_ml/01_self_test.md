@@ -351,11 +351,22 @@ Zur Herkunft der Fragen:
 - F: *Explain LSTMs.* ⭐
 
 ## Methods in NLP
+- F: *How does the concept of Word2Vec work?*
+- F: *How can the notion of similarity be embedded in a vector-to-word conversion?*
+- F: *Explain different types of NLP applications including examples.*
+- F: *Explain what is commonly referred to as 'Named Entity Recognition'*
+- F: *Name different approaches for 'Named Entity Recognition'. How do they relate.*
+- F: *Explain what a Sentiment Analysis is.*
+- F: *Name different Deep Learning Models used in NLP.*
 
 ## RNNs / GRUs / Bidirectional LSTMs
 
-- F: *Explain differences between RNNs and GRUs*
-
+- F: *Explain Differences between RNNs and GRUs*
+- F: *Explain 'Bidirectional Long Short Term Memory Network'.*
+- F: *What problem of RNN's do LSTMs solve?*
+- F: *Explain what is called the 'vanishing gradient problem'.*
+- F: *Why is it desirable to use RNNs instead of standard networks for NLP?*
+- F: *Explain GRUs.*
 
 ## Misc
 
