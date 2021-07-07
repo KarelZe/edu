@@ -16,6 +16,8 @@ Zur Herkunft der Fragen:
 - Compare algorithm xy with uw....
 - What are the advantages of xy over uw...
 
+## Überblick
+![Überblick über Algorithmen der Vorlesung](./../.gitbook/assets/adv_ml_map_of_algorithms.png)
 
 ## Big Data
 
