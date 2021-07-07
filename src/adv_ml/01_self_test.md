@@ -9,13 +9,6 @@ Zur Herkunft der Fragen:
 - Fragen der University of Berkley mit einem Feuerwehrmann (🧑‍🚒)
 - Die übrigen Fragen sind eigene Fragen oder es handelt sich um Interviewfragen.
 
-## TODOs
-
-- Explain algorithm xy → Alle Algorithmen herausarbeiten
-- Give applications for algorithm xy...
-- Compare algorithm xy with uw....
-- What are the advantages of xy over uw...
-
 ## Überblick
 ![Überblick über Algorithmen der Vorlesung](./../.gitbook/assets/adv_ml_map_of_algorithms.png)
 
@@ -111,7 +104,7 @@ Zur Herkunft der Fragen:
 - F: *Accuracy should not be the only criteria when comparing classifiers. Name 4 others.* 
 - F: *Is Kappa static sensitive to imbalanced data?* 
 - F: *How can Kappa static be interpreted?* 
-- F: *How is Kapp static defined?* 
+- F: *How is Kappa static defined?* 
 - F: *In which way does the F-measure improve over simpler measure like precision?* 
 - F: *How is the F measure defined?* 
 - F: *What values can a F measure take?* 
