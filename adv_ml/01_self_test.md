@@ -45,6 +45,7 @@ Zur Herkunft der Fragen:
 
 ## Multiple Linear Regression
 
+- F: *Explain how linear regression works.*
 - F: *What is the purpose $$\beta$$ in a *Multiple Linear Regression Model*?* 
 - F: *Explain how an optimal estimate for $$\beta$$ can be derived.*
 - F: *Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?* 
@@ -157,6 +158,7 @@ Zur Herkunft der Fragen:
 - A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 
 - F: *Explain the ridge regression.* ⭐
+- F: *Explain LASSO.*
 - F: *Explain the difference between LASSO and ridge regression?* ⭐
 - A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 
@@ -187,19 +189,21 @@ Zur Herkunft der Fragen:
 - F: *What are the roles of the Eigenvectors and Eigenvalues in PCA?* 🧠
 - F: *Can you describe applications of PCA?* 🧠
 - F: *Give the definition for PCA*
+- F: *Explain the ordinary PCA.*
 - F: *Explain the sparse PCA.*
 - F: *Explain the nonlinear PCA.*
 - F: *Explain the kernel PCA.*
 - F: *Explain the major difference of sparse PCA over ordinary PCA.*
-- F: *Explain the major difference of sparse PCA over ordinary PCA.*
-
-
+- F: *Explain the major difference of non-linear PCA over ordinary PCA.*
+- F: *Explain the major difference of kernel PCA over ordinary PCA.*
+- F: *Give applications for PCA.*
 
 ## Decision Trees
 
 - F: *Mention three characteristics of impurity measures?* ⭐
 - F: *What are advantages of decision trees over random forests?* ⭐
 - F: *How can continuous attributes be handled in Decision Trees?* ⭐
+- F: *Explain what a decision tree is.*
 - F: *What are useful splitting criterions?* 🧠
 - F: *How can we influence the model complexity of the tree?* 🧠
 - F: *Name 3 impurity measures.*
@@ -217,6 +221,9 @@ Zur Herkunft der Fragen:
 
 - F: *What are tuning parameters for Boosting?* ⭐
 - F: *How does Boosting work for regression?* ⭐
+- F: *Explain what Boosting is*
+- F: *Explain what Bagging is.*
+- F: *What ensemble techniques can be applied?*
 - F: *How does Boosting work for classification?*
 - F: *How does Bagging differ from Boosting? Explain the differences?*
 - F: *How does Bagging work for regression?*
@@ -242,7 +249,6 @@ Zur Herkunft der Fragen:
 - F: *How can the proportion of variance explained by $$m$$ variables be calculated?*
 - F: *Calculate the PCA for the first 2 components?*
 - F: *Sketch the algorithm for calculating the first two PCA components.*
-
 
 
 ## k-means Clustering
@@ -274,9 +280,11 @@ Zur Herkunft der Fragen:
 - F: *Draw different linkage types visually.*
 - F: *What is the impact of using different linkage types?*
 - F: *Name practical issues that arise with hierarchical or $$k$$-means clustering.*
+- F: *Give applications for clustering.*
 
 ## SVMs
 
+- F: *Explain what a SVM is.*
 - F: *Required scaling for SVMs?* ⭐
 - A: Features should be scaled to the interval $[0,1]$.
 - F: *Name advantages of SVMs over logistic regression.* ⭐
@@ -296,6 +304,7 @@ Zur Herkunft der Fragen:
     - We soften what we mean by separates through the introduction of support vectors.
     - We enrich and enlarge the feature space so that separation is possible. This means the feature space get's transformed.
 - F: *What does a Maximal Margin Classifier maximize for?*
+- F: *How do a Maximal Margin Classifier, SVMs and Logistic Regression relate?*
 - F: *What is the purpose of the support vectors $$\epsilon$$? 
 - F: *Explain what is referred to as *feature expansion*?
 - F: *Name and define kernels that can be used with SVMs.*
@@ -311,6 +320,7 @@ Zur Herkunft der Fragen:
 
 ## Neural Net
 
+- F: *Explain what a Neural Network is.*
 - F: *How does logistic regression relate to neural networks?* 🧠
 - F: *What kind of functions can single layer NN learn?* 🧠
 - F: *Why do we need non-linear activation functions?* 🧠
@@ -320,6 +330,7 @@ Zur Herkunft der Fragen:
 - F: *Why neural networks can overfit and what are the options to prevent it?* 🧠
 - F: *Early stopping, cross-validation and network pruning are techniques to prevent overfitting of Neural Nets. Explain them.* 
 - F: *What makes an Ordinary Least Square Regression different from a neural net?*
+- F: *Explain what Principal Component Regression is.*
 - F: *Explain how Principal Component Regression works.*
 - F: *Explain the purpose of activation functions.*
 - F: *Define different activation functions and sketch them.*
@@ -343,30 +354,43 @@ Zur Herkunft der Fragen:
 
 - F: *Explain Recurrent Neural Networks (RNN)* ⭐
 - F: *What types of RNN were discussed in class?*
+- F: *Give applications of LSTMS.*
 
 ## LSTM
 
+- F: *Explain LSTMs.* ⭐
 - F: *LSTMs are suitable for which type of analysis?* ⭐
 - F: *How can we use LSTMs for time series dataset?* ⭐
-- F: *Explain LSTMs.* ⭐
+- F: *Explain how LSTMs update their memory.*
+- F: *Give applications of LSTMS.*
 
 ## Methods in NLP
 - F: *How does the concept of Word2Vec work?*
 - F: *How can the notion of similarity be embedded in a vector-to-word conversion?*
+- F: *Sketch and explain the process of applying Continous Bag of Words to text prediction.*
+- F: *Why is Softmax used in a CBOW model?*
+- F: *How does the Skip-Gram Model work*?
+- F: *Compare the Skip-Gram Model to CBOW. In which way are they different?*
 - F: *Explain different types of NLP applications including examples.*
 - F: *Explain what is commonly referred to as 'Named Entity Recognition'*
 - F: *Name different approaches for 'Named Entity Recognition'. How do they relate.*
 - F: *Explain what a Sentiment Analysis is.*
 - F: *Name different Deep Learning Models used in NLP.*
 
-## RNNs / GRUs / Bidirectional LSTMs
 
-- F: *Explain Differences between RNNs and GRUs*
+## RNNs / GRUs / Bidirectional LSTMs
+- F: *Explain RNNs.*
+- F: *Explain GRUs.*
+- F: *Explain Bidirectional LSTMs.*
+- F: *Explain Differences between RNNs and GRUs.*
 - F: *Explain 'Bidirectional Long Short Term Memory Network'.*
 - F: *What problem of RNN's do LSTMs solve?*
 - F: *Explain what is called the 'vanishing gradient problem'.*
 - F: *Why is it desirable to use RNNs instead of standard networks for NLP?*
-- F: *Explain GRUs.*
+- F: *Explain why sigmoid activation results tend to be almost $$0$$ or $$1$$?
+- F: *Adding more hidden layers will solve the vanishing gradient problem for a 2 layer neural network.* 🧑‍🚒
+- F: *xxx suffer(s) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER.* 🧑‍🚒
+- F: *Adding L2-regularization will help with vanishing gradients* 🧑‍🚒
 
 ## Misc
 
