@@ -31,6 +31,9 @@
 
 * [Anki-Deck](recommendersysteme/00_anki.md)
 * [Bonusübung](https://github.com/KarelZe/recommendersysteme)
+
+### Klausursammlung
+
 * [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
 * [Classification](recommendersysteme/02_classification.md)
 * [Mechanism Design Problems](recommendersysteme/03_mechanism_design_problems.md)

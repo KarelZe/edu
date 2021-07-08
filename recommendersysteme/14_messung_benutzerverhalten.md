@@ -50,7 +50,7 @@ F: Welche Preprocessing-Schritte müssen durchgeführt werden, damit dieser Date
 A:
 
 1. Auswahl eines geeigneten Betrachtungszeitraums $$t$$. \(eigene\)
-2. Aggregation der Einkäufe unterschiedlicher User auf Dokumentenebene, d. h. wann wurde ein Produkt in einem Zeitraum $t$ betrachtet. \(eigene\)
+2. Aggregation der Einkäufe unterschiedlicher User auf Dokumentenebene, d. h. wann wurde ein Produkt in einem Zeitraum $$t$$ betrachtet. \(eigene\)
 3. Ausreißer Erkennung im Rahmen der Datenvorverarbeitung z. B. durch Abschneiden von Perzentilen \(eigene\)
 4. Session-Splitting bei öffentlichen Terminals \(vgl. Bib-Tip Folien\)
 5. Extraktion von GET Anfragen \(Bib-Tip Folien\)
