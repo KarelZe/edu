@@ -109,23 +109,23 @@ $$H = - \sum_{i = 1}^{n}{}p_{i}\log_{2}p_{i}$$
 
 $$\Delta H\ = \ H\left( y \right) - H\left( y\mid x \right)$$
 
-Mit $H\(y \mid x\) = - \sum_{i,j}^{}\mspace{2mu} p\(i,j\)\log_{2}p\(y = j \mid x = i\)$
+Mit $$H\(y \mid x\) = - \sum_{i,j}^{}\mspace{2mu} p\(i,j\)\log_{2}p\(y = j \mid x = i\)$$
 
 5. Das wichtigste Kriterium sei das Aussehen der Blätter. Ihre Experten geben 8 Merkmalsausprägungen an. Wie groß kann M in diesem Fall minimal bzw. maximal werden? \(3+3P\)
 
 A:
 
-**Minimal:** Gilt $p_{i} = \, 1$ und alle anderen $p_{j} = 0$, mit $j = 1,\ldots,i - 1,i + 1,\, 8$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $H\, = \, 0$.
+**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 8$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $H\, = \, 0$.
 
-**Maximal:** Liegt Gleichverteilung vor, d. h. $p\_{i} = \frac{1}{8}$. Dann gilt:
+**Maximal:** Liegt Gleichverteilung vor, d. h. $$p\_{i} = \frac{1}{8}$$. Dann gilt:
 
-$H = - \log\_{2}\left\( \frac{1}{8} \right\) = 3$ \(Vgl. Folie 38\)
+$$H = - \log\_{2}\left\( \frac{1}{8} \right\) = 3$$ \(Vgl. Folie 38\)
 
 6. Was bedeutet ein minimaler bzw. maximaler Wert? \(3+3P\)
 
-Ein **minimaler Wert** \(d. h. $0$\) bedeutet, dass ein Attribut perfekt die Output-Variable erklärt und **keine** Unsicherheit mehr besteht. Man hat homogene Klassen nach Split vorliegen.
+Ein **minimaler Wert** \(d. h. $$0$$\) bedeutet, dass ein Attribut perfekt die Output-Variable erklärt und **keine** Unsicherheit mehr besteht. Man hat homogene Klassen nach Split vorliegen.
 
-Ein **maximaler Wert** \(d. h. $3$\) bedeutet, dass eine hohe Unsicherheit besteht. Nach Split sind Klassen sehr heterogen. Der durchschnittliche Informationsgewinn ist gering. \(vgl. Tutorium 6 with solutions: Slide 13+14\)
+Ein **maximaler Wert** \(d. h. $$3$$\) bedeutet, dass eine hohe Unsicherheit besteht. Nach Split sind Klassen sehr heterogen. Der durchschnittliche Informationsgewinn ist gering. \(vgl. Tutorium 6 with solutions: Slide 13+14\)
 
 1. Stellen Sie einen Entscheidungsbaum zum Kauf eines Computers graphisch dar \(6P.\):
 
@@ -227,7 +227,7 @@ Zusatz:
 
 A:
 
-**Minimal:** Gilt $p_{i} = \, 1$ und alle anderen $p_{j} = 0$, mit $j = 1,\ldots,i - 1,i + 1,\, n$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $H\, = \, 0$.
+**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, n$$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $$H\, = \, 0$$.
 
 **Maximal**:
 
@@ -271,13 +271,13 @@ Dauer der Erkrankung ist ...
 
 * \&lt;3 T
 * \&lt; =14 T
-* &gt; 14 T
+* &rightarrow; 14 T
 
 Alter ist ...
 
 * \&lt;= 18 Jahre
-* &gt;= 18 Jahre \&lt;= 60 Jahre
-* &gt;= 60 Jahre
+* &rightarrow;= 18 Jahre \&lt;= 60 Jahre
+* &rightarrow;= 60 Jahre
 
 Jahreszeit ist
 
@@ -298,19 +298,19 @@ A: Siehe oberhalb.
 
 A:
 
-**Minimal:** Gilt $p_{i} = \, 1$ und alle anderen $p_{j} = 0$, mit $j = 1,\ldots,i - 1,i + 1,\, 32$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $H\, = \, 0$.
+**Minimal:** Gilt $p_{i} = \, 1$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 32$$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $$H\, = \, 0$$.
 
-**Maximal:** Liegt Gleichverteilung vor, d. h. $p\_{i} = \frac{1}{32}$. Dann gilt:
+**Maximal:** Liegt Gleichverteilung vor, d. h. $$p\_{i} = \frac{1}{32}$$. Dann gilt:
 
-$H = - \log\_{2}\left\( \frac{1}{32} \right\) = 5$ \(Vgl. Folie 38\)
+$$H = - \log\_{2}\left\( \frac{1}{32} \right\) = 5$$ \(Vgl. Folie 38\)
 
 6. Was bedeutet ein minimaler bzw. maximaler Wert? \(3+3P.\)
 
 A:
 
-Ein **maximaler Wert** \(d. h. $0$\) bedeutet, dass ein Attribut perfekt die Output-Variable erklärt und **keine** Unsicherheit mehr besteht. Man hat homogene Klassen nach Split vorliegen.
+Ein **maximaler Wert** \(d. h. $$0$$\) bedeutet, dass ein Attribut perfekt die Output-Variable erklärt und **keine** Unsicherheit mehr besteht. Man hat homogene Klassen nach Split vorliegen.
 
-Ein **minimaler Wert** \(d. h. $5$\) bedeutet, dass eine hohe Unsicherheit besteht. Nach Split sind Klassen sehr heterogen. Der durchschnittliche ist Informationsgewinn gering.
+Ein **minimaler Wert** \(d. h. $$5$$\) bedeutet, dass eine hohe Unsicherheit besteht. Nach Split sind Klassen sehr heterogen. Der durchschnittliche ist Informationsgewinn gering.
 
 Das neue Szenelokal in Karlsruhe hat momentan zwei Tagesmenüs im Einsatz. Um Kosten zu sparen möchte das Restaurant auf ein Tagesmenü pro Tag wechseln. Der Chefkoch hat das Gefühl das die Kunden wetterabhängig, das eine oder das andere Tagesmenü wählen.
 
@@ -346,7 +346,7 @@ Durchschnittlicher Inf. G. Wetter = \(0.95-0.92\) \* \(6/8\) + \(0.95 -- 1\) \* 
 
 4. Halten Sie aus diesem Grund das Wetter für ein aussagekräftiges Output Attribut. Begründen Sie in 3 Sätzen. \(2P.\)
 
-A: Wetter ist ein wenig aussagekräftiges Attribut. Einerseits liegt der durchschnittliche Informationsgewinn nahe 0, andererseits sind die Datensätze, die nach dem Split mit dem Attribut einem Knoten zugeordnet sind, sehr heterogen \(vgl. bei sonnig 4x Menü 1 und 2x Menü 2\) Ein besseres Attribut wäre hier Temperatur, da es die Ausgabevariable perfekt erklärt \(\ Menü 1, &gt;20 Grad --&gt; Menü 2\). Somit benötigt man das Attribut Wetter überhaupt nicht.
+A: Wetter ist ein wenig aussagekräftiges Attribut. Einerseits liegt der durchschnittliche Informationsgewinn nahe 0, andererseits sind die Datensätze, die nach dem Split mit dem Attribut einem Knoten zugeordnet sind, sehr heterogen \(vgl. bei sonnig 4x Menü 1 und 2x Menü 2\) Ein besseres Attribut wäre hier Temperatur, da es die Ausgabevariable perfekt erklärt \(\ Menü 1, &rightarrow;20 Grad -&rightarrow; Menü 2\). Somit benötigt man das Attribut Wetter überhaupt nicht.
 
 5. Die Restaurantleitung bittet Sie eine Regel aufzustellen, nach der entschieden wird, wann welches Tagesmenü zum Einsatz kommen soll. Berechnen Sie von dem entsprechenden Attribut den Informationsgewinn und geben Sie eine Handelsempfehlung für das Restaurant ab. Welchen Vorteil hat das von Ihnen gewählte Attribut in Aufgabenteil 4? \(5+2= 7P.\)
 
@@ -360,7 +360,7 @@ A: H\_0 \(5/8, 3/8\) = 0.95
 
 H\_Temperatur=\&lt;20° \(5/5; 0/5\) = 0
 
-H\_Temperatur=&gt;20° \(0/3; 3/3\) = 0
+H\_Temperatur=&rightarrow;20° \(0/3; 3/3\) = 0
 
 Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \* \(3/8\) = 0.95
 
@@ -419,7 +419,7 @@ A: H\_0 \(5/8, 3/8\) = 0.95
 
 H\_Temperatur=\&lt;20° \(5/5; 0/5\) = 0
 
-H\_Temperatur=&gt;20° \(0/3; 3/3\) = 0
+H\_Temperatur=&rightarrow;20° \(0/3; 3/3\) = 0
 
 Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \* \(3/8\) = 0.95
 
@@ -435,23 +435,23 @@ A:
 
 **Informationsgewinn:**
 
-A: H\_0 \(90/100, 10/100\) = 0.47
+A: H_0 \(90/100, 10/100\) = 0.47
 
-H\_A=1\(85/85; 0/85\) = 0
+H_A=1\(85/85; 0/85\) = 0
 
-H\_A=0\(5/15; 10/15\) = 0.92
+H_A=0\(5/15; 10/15\) = 0.92
 
 Durchschnittlicher Inf. G. A = \(0.47-0\) \* \(85/100\) + \(0.47 -- 0.92\) \* \(15/100\) = 0.33
 
-B: H\_0 \(90/100, 10/100\) = 0.47
+B: H_0 \(90/100, 10/100\) = 0.47
 
-H\_B=1\(80/80; 0/80\) = 0
+H_B=1\(80/80; 0/80\) = 0
 
-H\_B=0\(10/20; 10/20\) = 1
+H_B=0\(10/20; 10/20\) = 1
 
 Durchschnittlicher Inf. G. B = \(0.47-0\) \* \(80/100\) + \(0.47 -- 1\) \* \(20/100\) = 0.27
 
-C: H\_0 \(90/100, 10/100\) = 0.47
+C: H_0 \(90/100, 10/100\) = 0.47
 
 H\_C =1\(50/50; 0/50\) = 0
 

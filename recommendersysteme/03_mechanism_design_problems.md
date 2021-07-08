@@ -43,14 +43,14 @@ Free Riding:
 
 Bias in Empfehlungen:
 
-* Keine anonymen Empfehlungen: Nutzer erkennen wer hinter den Kommentaren/ Bewertungen wirklich steckt -&gt; keine Anonymisierung
+* Keine anonymen Empfehlungen: Nutzer erkennen wer hinter den Kommentaren/ Bewertungen wirklich steckt &rightarrow; keine Anonymisierung
 * Verifikation der Empfehlungen: Person muss bei Abgabe von Empfehlungen verifiziert werden
 
 **Begrenzte Rationalität:**
 
 * Recommendersystem muss an die Rationalität appellieren
 * Formulierung von möglichst vielen Aspekte als numerische Werte
-* Bewertungen erst nach gewisser Zeit nach Kauf zulassen -&gt; Sicherstellen, dass Kunde mit Produkt ausgiebig vertraut ist und vermeidet impulsive Bewertungen.
+* Bewertungen erst nach gewisser Zeit nach Kauf zulassen &rightarrow; Sicherstellen, dass Kunde mit Produkt ausgiebig vertraut ist und vermeidet impulsive Bewertungen.
 
 Nennen Sie fünf Mechanism Design Probleme und beschreiben Sie sie kurz. Welche der genannten Probleme können bei einem Empfehlungsdienst wie GroupLens auftreten und welche nicht? Begründen Sie kurz:
 
@@ -59,7 +59,7 @@ A:
 **Free Riding**
 
 * Es ist angenehm, Empfehlungen zu konsumieren, aber aufwändig Empfehlungen/Bewertungen zu geben
-* Bewerten von E-Mails explizit durch Bewertung auf Likert Skala oder implizit durch Lesedauer \(vgl. Folie 13 Kapitel CF\) -&gt; Problem tritt nicht auf
+* Bewerten von E-Mails explizit durch Bewertung auf Likert Skala oder implizit durch Lesedauer \(vgl. Folie 13 Kapitel CF\) &rightarrow; Problem tritt nicht auf
 * Allgemein bezogen auf CF Recommender: tritt weniger auf, da Nutzer selbst Interesse daran haben, Bewertungen abzugeben, da so die für sie empfohlenen Produkte besser passen?
 
 **Feedbackeffekt:** 
@@ -137,7 +137,7 @@ A:
 **Bias in Empfehlungen:**
 
 * Für Eigentümer/Beteiligte von \(Informations-\)Produkten besteht ein starker Anreiz, positive Empfehlungen zu geben.
-* Keine anonymen Empfehlungen: Nutzer erkennen wer hinter den Kommentaren/ Bewertungen wirklich steckt -&gt; keine Anonymisierung
+* Keine anonymen Empfehlungen: Nutzer erkennen wer hinter den Kommentaren/ Bewertungen wirklich steckt &rightarrow; keine Anonymisierung
 * Verifikation der Empfehlungen: Person muss bei Abgabe von Empfehlungen verifiziert werden
 
 **Begrenzte Rationalität:**
@@ -217,7 +217,7 @@ Aspekte:
 
 1. **Anreizproblematik:**
    * Sind Anreize zum Erstellen von Empfehlungen zu schaffen?
-   * Lokal will Kunde dazu bringen, dass er Empfehlungen abgibt -&gt; Gibt Kunde am Tablet eine Empfehlung ab, so erhält er ein Süßigkeit for-free.
+   * Lokal will Kunde dazu bringen, dass er Empfehlungen abgibt &rightarrow; Gibt Kunde am Tablet eine Empfehlung ab, so erhält er ein Süßigkeit for-free.
 2. **Produktebene:**
    * Was soll bewertet werden? Wie soll bewertet werden? Wie groß ist die Lebensdauer des Produkts?
    * Kunde kann an seinem Tablet seine jeweiligen Bestellungen \(Hauptspeise, Getränk und Dessert\) nach seinem Verzehr anhand von Likert-Skalen \(1...5\) bewerten. Die Bewertungen sind öffentlich einsehbar. Produkt kann erst bewertet werden, nachdem Sous Chef Gericht in der Küche freigegeben hat.
@@ -355,6 +355,6 @@ A:
 
 * $$n$$ -te Bewertungen beeinflussen Einschätzung des Produktes weniger als die erste Bewertung.
 * Amazon Produktseite.
-  * Produkt war anfangs zufriedenstellend -&gt; Gute Bewertungen
+  * Produkt war anfangs zufriedenstellend &rightarrow; Gute Bewertungen
   * Benutzer kaufen Produkt aufgrund guter Kommentare
 
