@@ -81,9 +81,8 @@ A:
 
 * Für Eigentümer/Beteiligte von \(Informations-\)Produkten besteht ein starker Anreiz, positive Empfehlungen zu geben.
 * Ja, Fanboys z. B. Linux-Freaks / Windows-Trolle / Autoren des Artikels der News-Mail haben Bias.
-* Ich hätte gesagt, dass das Problem nicht auftritt; das bezieht sich ja eher darauf, wenn z.B. Verkäufer nur ihre eigenen Produkte gut bewerten und andere schlecht--&gt; andere Nutzer sollen nur deren Produkt kaufen. Das hat hier aber nur die Auswirkung, dass der Nutzer distanziert, wird von anderen Nutzern und keine guten Empfehlungen mehr erhält; das ist aber kein Bias Problem.
 
-\[\]{\#implizite\_explizite\_bewertung .anchor}Erläutern Sie kurz die Vor- bzw. Nachteile von impliziten gegenüber expliziten Recommendersystemen anhand von Mechanism Design Problemen.
+Erläutern Sie kurz die Vor- bzw. Nachteile von impliziten gegenüber expliziten Recommendersystemen anhand von Mechanism Design Problemen.
 
 A:
 
@@ -116,15 +115,15 @@ Nennen Sie vier Mechanism Design Probleme und erläutern Sie diese kurz. Welche 
 
 A:
 
-Siehe \[hier\].
+Siehe oberhalb.
 
 Zeigen Sie tabellarisch die Vor- bzw. Nachteile von impliziten gegenüber expliziten Recommendersystemen anhand von Mechanism Design Problemen auf.
 
 A:
 
-Siehe \[hier\]\[6\].
+Siehe oberhalb.
 
-\[\]{\#md\_probleme .anchor}Beschreiben Sie kurz fünf Design Probleme bei Recommenderdiensten und skizzieren Sie jeweils eine mögliche Lösung. \(5\*3P\)
+Beschreiben Sie kurz fünf Design Probleme bei Recommenderdiensten und skizzieren Sie jeweils eine mögliche Lösung. \(5\*3P\)
 
 A:
 
@@ -354,7 +353,7 @@ A:
 
   **Feedbackeffekte:**
 
-* $n$-te Bewertungen beeinflussen Einschätzung des Produktes weniger als die erste Bewertung.
+* $$n$$ -te Bewertungen beeinflussen Einschätzung des Produktes weniger als die erste Bewertung.
 * Amazon Produktseite.
   * Produkt war anfangs zufriedenstellend -&gt; Gute Bewertungen
   * Benutzer kaufen Produkt aufgrund guter Kommentare
