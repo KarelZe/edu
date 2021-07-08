@@ -76,6 +76,12 @@ Zur Herkunft der Fragen:
 
 ---
 
+- F: What is referred to as 'structured data'?
+  
+  - Structured data is data that adheres to a pre-defined data model and is therefore straightforward to analyse. 
+
+  - Structured data conforms to a tabular format with a relationship between the different rows and columns.
+
 - F: *What is unsupervised learning?* ⭐
   
   - Observe data and construct a low complexity description of the data. 
@@ -102,10 +108,21 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *Give a brief explanation of categorical, binary, ordinal and numeric variables.* 
+  - **categorical / nominal:** Names of things or symbols.
+  - **binary:** A nominal variable with two categories or states: 0 or 1.
+  - **ordinal:** Ordinal variables have a meaningful order or ranking among them, but the magnitude between successive values is not known.
+  - **numeric:** A quantitative variable. Numeric variables could be interval-scaled or ratio-scaled.
 
 ---
 
 - F: *Which steps are part of the CRISP-DM model? Explain them in-depth.*
+
+  1. Business understanding i. e. developing an understanding of business objects and requirements of the data mining
+  2. Data understanding i. e. identify and collect the data set needed to fulfil the business goals
+  3. Data preparation i. e. prepare data for modelling
+  4. Modelling i. e. build several models and assess them on a technical level.
+  5. Evaluation i. e. Evaluate whether models are able to help achieve the business goals. Plan on the next steps.
+  6. Deployment i. e. Deploy model to production. Make it accessible to customers.
 
 ---
 
