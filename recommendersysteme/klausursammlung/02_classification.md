@@ -38,13 +38,13 @@ A:
 
 F: _Schafer et al. schlagen ein Klassifikationssystem für Recommenderdienste vor._
 
-1. Zeichnen Sie ein Diagramm zur Veranschaulichung des Klassifikationssystems von Schafer et al. Stellen Sie jede Dimension als Achse dar. Beschriften Sie die Achsen. Zeichnen Sie bei diskreten Merkmalen alle Merkmalsausprägungen ein. \(5P.\)
+F: _Zeichnen Sie ein Diagramm zur Veranschaulichung des Klassifikationssystems von Schafer et al. Stellen Sie jede Dimension als Achse dar. Beschriften Sie die Achsen. Zeichnen Sie bei diskreten Merkmalen alle Merkmalsausprägungen ein._ \(5P.\)
 
 A:
 
 ![](../../.gitbook/assets/grafik%20%2828%29.png)
 
-1. Erklären Sie jede Merkmalsausprägung jedes diskreten Merkmals in 2 Sätzen. \(8P.\)
+F: _Erklären Sie jede Merkmalsausprägung jedes diskreten Merkmals in 2 Sätzen._ \(8P.\)
 
 A:
 
