@@ -30,12 +30,33 @@ Zur Herkunft der Fragen:
   - Veracity refers to the quality of data or accuracy of the collected data. To resolve data quality issues one has to apply sophisticated pre-processing.
 
 - F: *What is the difference between veracity and variety?* 
-- A:  Veracity refers to the quality of data (e. g. noise in data), while variety refers to types of data (e. g. unstructured data) in which data can come. As data is often collected from different sources both their types and their quality can differ.
+- A:  Veracity refers to the quality of data (e. g. noise in data). While variety refers to types of data (e. g. unstructured data) in which data can come. As data is often collected from different sources both their types and their quality can differ.
 
 ## ML vs. Statistics vs. Econometrics
 - F: *Compare ML to Statistics. What are the most significant differences?* 
-- F: *Compare ML to Econometrics. In which way do both differ?* 
+- A: 
+  Statistics is:
+    - based on hypothesis, then collection of data and analysis
+    - model-oriented with an emphasize on parametric models
+    - focus on understanding on hypothesis testing
+  
+  Whereas in Machine Learning:
+    - there is seldomly a priori hypothesis
+    - data is collected in advance
+    - analysis is data-driven not hypothesis-driven
+    - analysis is algorithm-oriented rather than model-oriented
+    - focus lies on prediction
 
+- F: *Compare ML to Econometrics. In which way do both differ?* 
+- A:  
+  Econometrics is:
+    - concerned about casual interference and counterfactuals
+    - mostly centred around linear regressions and complex structural models
+    - standard errors are often reported after one run
+  
+  Machine Learning is:
+    - concerned about prediction
+    - using all sorts of data-driven models e. g. Trees, NN etc.  
 
 ## Structure of data / CRISPDM / Taxonomy
 
