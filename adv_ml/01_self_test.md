@@ -14,7 +14,17 @@ Zur Herkunft der Fragen:
 
 ## Big Data
 
-- F: *What are the characteristics of big data?* ⭐
+<details>
+<summary>F: What are the characteristics of big data? ⭐</summary>
+<ul>
+  <li>volume</li>
+  <li>variety</li>
+  <li>velocity</li>
+  <li>veracity</li>
+  <li>value</li>
+</ul>
+</details> 
+ 
 - F: *Explain three characteristics of big data?* ⭐
 - F: *What is the difference between veracity and variety?* 
 
