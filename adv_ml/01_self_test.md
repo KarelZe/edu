@@ -97,6 +97,7 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *Give examples for structured / unstructured data.* 
+
   **Unstructured:** (low degree of organization)
   - Video Data, as video comes in different formats, compression ratios, sizes, where the video has to be transformed first to extract information from every single frame
   - Image Data, just like videos.
@@ -108,6 +109,7 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *Give a brief explanation of categorical, binary, ordinal and numeric variables.* 
+  
   - **categorical / nominal:** Names of things or symbols.
   - **binary:** A nominal variable with two categories or states: 0 or 1.
   - **ordinal:** Ordinal variables have a meaningful order or ranking among them, but the magnitude between successive values is not known.
@@ -136,7 +138,7 @@ Zur Herkunft der Fragen:
 
 - F: *Why is it desirable to work on normalized data?* 
 
-  Some algorithms require normalized data, such as $$k$$-means clustering, which is 'isotropic' in all directions of space and therefore tens to produce more or less round  shapes. Not standardizing data would give more relative on variables with a smaller variance. ([See here.](https://stats.stackexchange.com/a/21226)) 
+  - Some algorithms require normalized data, such as $$k$$-means clustering, which is 'isotropic' in all directions of space and therefore tens to produce more or less round  shapes. Not standardizing data would give more relative on variables with a smaller variance. ([See here.](https://stats.stackexchange.com/a/21226)) 
 
 ---
 
@@ -174,7 +176,7 @@ Zur Herkunft der Fragen:
 
 - F: *What is the risk with tuning hyperparameters using a test dataset?* 🧑‍🚒
   
-  Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. (Berkley p. 14)
+  - Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. (Berkley p. 14)
 
 
 ## Multiple Linear Regression
