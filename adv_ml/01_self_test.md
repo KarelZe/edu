@@ -183,13 +183,17 @@ Zur Herkunft der Fragen:
 
 - F: *Explain how linear regression works.*
 
-- F: *What is the purpose $$\beta$$ in a Multiple Linear Regression Model*?*
+---
 
-  $$\beta$$ is a $$(p+1)$$-dimensional vector, where $$\beta_0$$ is the intercept and $$\beta_1,\cdots,\beta_k$$ are the regression coefficients of $$k$$ independent variables.
+- F: *What is the purpose $$\beta$$ in a Multiple Linear Regression Model?*
+
+  - $$\beta$$ is a $$(p+1)$$-dimensional vector, where $$\beta_0$$ is the intercept and $$\beta_1,\cdots,\beta_k$$ are the regression coefficients of $$k$$ independent variables.
+
+---
 
 - F: *Explain how an optimal estimate for $$\beta$$ can be derived.*
 
-  - A linear regression model has the best fit when the error term $$\epsilon$$ is minimal. To achieve this, the regression coefficients $$ \beta$$ have to be estimated such that the error term is minimized. It's common to use squared error terms for $$\mid \varepsilon \|_{2}^{2}$$ minimization. 
+  - A linear regression model has the best fit when the error term $$\epsilon$$ is minimal. To achieve this, the regression coefficients $$ \beta$$ have to be estimated such that the error term is minimized. It's common to use squared error terms for $$\| \varepsilon \|_{2}^{2}$$ minimization. 
   - This leads to the following equation:
   $$
   \min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}=\min _{\boldsymbol{\beta}}\|\mathbf{y}-\mathbf{X} \beta\|^{2}
@@ -204,11 +208,29 @@ Zur Herkunft der Fragen:
   \epsilon=y-X^{\intercal} \beta
   $$
 
+---
 
 - F: *Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?* 
-- F: *Name two measure to test the goodness of fit of a Linear Regression model. (&rightarrow; Total Sum of Squares / $$R^2$$) 
+- F: *Name two measure to test the goodness of fit of a Linear Regression model.
+  - Total Sum of Squares (SST)
+  - $$R^2$$ 
+
+---
+
 - F: *Explain scenarios, where Ridge Regression would be preferred over LASSO.* 
+  - Ridge only performs parameter shrinkage and no variable selection.
+  - Ridge regression is preferred if one wants to insert some prior knowledge into approach. With ridge one has the ability to say that all features have at least some weight, even if it is very little [(See here.)](https://qr.ae/pG4QYT)
+
+
+---
+
+- F: *Explain scenarios, where LASSO would be preferred over Ridge Regression.* 
+  - As with ridge regression, the LASSO shrinks the coefficient estimates towards zero.
+  - However, in the case of LASSO some coefficient estimates are forced to be exactly equal to zero (zeroed out) when the tuning parameter $$\lambda$$ is sufficiently large. 
+  - Therefore, LASSO does variable selection automatically.
+
+---
 - F: *Write the definitions $$R^2$$, Adj. $$R^2$$, MAE, RMSE.* 
 - F: *Compare $$R^2$$, Adj. $$R^2$$ to MAE, RMSE. Name advantages and drawbacks.*  
 - F: *Compare $$R^2$$, Adj. $$R^2$$ to MAE, RMSE. Which of these is normed.* 
