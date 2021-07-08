@@ -214,7 +214,6 @@ Zur Herkunft der Fragen:
 - F: Why do we optimize for the SSE for?
   - It is fully differentiable 
   - Easy to optimize
-
   - It also makes sense as:
   $$
   f^{*}(x)=\operatorname{argmin}_{f(x)} \mathrm{SSE} \Rightarrow f^{*}(x)=\mathbb{E}[y \mid x]
