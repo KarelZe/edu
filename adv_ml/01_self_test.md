@@ -14,19 +14,23 @@ Zur Herkunft der Fragen:
 
 ## Big Data
 
-<details>
-<summary>F: What are the characteristics of big data? ⭐</summary>
-<ul>
-  <li>volume</li>
-  <li>variety</li>
-  <li>velocity</li>
-  <li>veracity</li>
-  <li>value</li>
-</ul>
-</details> 
- 
+- F: *What are the characteristics of big data?* ⭐
+- A: 
+  - volume
+  - variety
+  - velocity
+  - veracity
+  - value
+
 - F: *Explain three characteristics of big data?* ⭐
+- A: 
+  - Volume refers to the sheer amount of data that is generated.
+  - Variety refers to diversity of types of data. Data can come in structured, semi-structured or even unstructured types.
+  - Velocity refers to the sheer speed at which data is generated (and processed).
+  - Veracity refers to the quality of data or accuracy of the collected data. To resolve data quality issues one has to apply sophisticated pre-processing.
+
 - F: *What is the difference between veracity and variety?* 
+- A:  Veracity refers to the quality of data (e. g. noise in data), while variety refers to types of data (e. g. unstructured data) in which data can come. As data is often collected from different sources both their types and their quality can differ.
 
 ## ML vs. Statistics vs. Econometrics
 - F: *Compare ML to Statistics. What are the most significant differences?* 
