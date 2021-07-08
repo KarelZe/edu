@@ -185,6 +185,7 @@ Zur Herkunft der Fragen:
 
 ---
 
+
 - F: *What is the purpose $$\beta$$ in a Multiple Linear Regression Model?*
 
   - $$\beta$$ is a $$(p+1)$$-dimensional vector, where $$\beta_0$$ is the intercept and $$\beta_1,\cdots,\beta_k$$ are the regression coefficients of $$k$$ independent variables.
@@ -210,6 +211,17 @@ Zur Herkunft der Fragen:
 
 ---
 
+- F: Why do we optimize for the SSE for?
+  - It is fully differentiable 
+  - Easy to optimize
+
+  - It also makes sense as:
+  $$
+  f^{*}(x)=\operatorname{argmin}_{f(x)} \mathrm{SSE} \Rightarrow f^{*}(x)=\mathbb{E}[y \mid x]
+  $$
+
+---
+
 - F: *Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Name two measure to test the goodness of fit of a Linear Regression model.
@@ -228,7 +240,7 @@ Zur Herkunft der Fragen:
 - F: *Explain scenarios, where LASSO would be preferred over Ridge Regression.* 
   - As with ridge regression, the LASSO shrinks the coefficient estimates towards zero.
   - However, in the case of LASSO some coefficient estimates are forced to be exactly equal to zero (zeroed out) when the tuning parameter $$\lambda$$ is sufficiently large. 
-  - Therefore, LASSO does variable selection automatically.
+  - Therefore, LASSO does variable selection automatically and shrinkage of parameters.
 
 ---
 - F: *Write the definitions $$R^2$$, Adj. $$R^2$$, MAE, RMSE.* 
@@ -246,6 +258,14 @@ Zur Herkunft der Fragen:
 - F: *How does correlations and multicollinearity relate?* 
 - F: *Give the definition of the Variance Inflation Factor.* 
 - F: *Explain how the Variance Inflation Factor can be calculated.* 
+- F: *Name common assumptions about error terms.*
+  1. Regression Errors are normally distributed
+  2. The variance of regression errors is constant
+  3. The error terms from different points in time are independent
+  4. The residuals are uncorrelated with the independent variable.
+  
+  Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [(see here.)](https://stats.stackexchange.com/a/148812)
+
 - F: *Name implications when residuals of a general linear regression model are not normally distributed.* 
 - F: *Why do errors of a linear regression model have to be normally distributed?* 
 - F: *Why does variance of regression errors in a linear regression model has to be constant?* 
