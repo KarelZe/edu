@@ -346,9 +346,9 @@ A
 1. Verfahren berücksichtigt keine statistischen Zusammenhänge
 2. Erfordert die Vorgabe zwei externen, nicht aus dem Modell begründbare Parameter s\(min\) und c\(min\)
 
-Use Case: Sie arbeiten für Jupiter, einen großen, deutschlandweit operierenden Elektronikanbieter, der sein Online-Geschäft ausbauen möchte. Sie sollen für die Abteilung Haushaltsgeräte einen AR-basierten Recommenderdienst aufbauen: Zusatzartikel, die beim Kauf eines Kühlschrankes oft dazu erworben wurden, sollen künftig auf der Produktseite empfohlen werden. Ohne Use Case Bezug max. die Hälfte der Punkte!
+_Use Case: Sie arbeiten für Jupiter, einen großen, deutschlandweit operierenden Elektronikanbieter, der sein Online-Geschäft ausbauen möchte. Sie sollen für die Abteilung Haushaltsgeräte einen AR-basierten Recommenderdienst aufbauen: Zusatzartikel, die beim Kauf eines Kühlschrankes oft dazu erworben wurden, sollen künftig auf der Produktseite empfohlen werden. Ohne Use Case Bezug max. die Hälfte der Punkte!_
 
-Welche Daten müssen Sie sich von der IT-Abteilung geben lassen? Erstellen Sie eine kurze Liste der benötigten Daten! Welche hiervon sind personenbezogen? \(4P.\)
+F: _Welche Daten müssen Sie sich von der IT-Abteilung geben lassen? Erstellen Sie eine kurze Liste der benötigten Daten! Welche hiervon sind personenbezogen?_ \(4P.\)
 
 A:
 
@@ -376,7 +376,7 @@ Support\(Kühlschrank\): Wie oft wurde Kühlschrank gekauft.
 
 Confidence \(Kühlschrank, Weinregal\) : Wie oft wurden Kühschrank und Weinregal zusammen gekauft, wenn Kühlschrank gekauft wurde.
 
-Sie haben den Apriori-Algorithmus kennen gelernt. Sie ändern diesen Algorithmus nun so ab, dass jeweils eine der beiden Kennzahlen von Teil 1 entfällt \(also zwei zu untersuchende Fälle: Kennzahl 1 entfällt, Kennzahl 2 entfällt, aber nie beide gemeinsam!\). Argumentieren Sie für beide Fälle: Was würde passieren? Funktioniert der Algorithmus noch? Welche weiteren Annahmen müssen Sie treffen, damit er noch funktioniert? Wie sehen die Resultate aus? \(Denken Sie an den Use Case Bezug!\) \(4+4=8P.\)
+_Sie haben den Apriori-Algorithmus kennen gelernt. Sie ändern diesen Algorithmus nun so ab, dass jeweils eine der beiden Kennzahlen von Teil 1 entfällt \(also zwei zu untersuchende Fälle: Kennzahl 1 entfällt, Kennzahl 2 entfällt, aber nie beide gemeinsam!\). Argumentieren Sie für beide Fälle: Was würde passieren? Funktioniert der Algorithmus noch? Welche weiteren Annahmen müssen Sie treffen, damit er noch funktioniert? Wie sehen die Resultate aus? \(Denken Sie an den Use Case Bezug!\)_ \(4+4=8P.\)
 
 A:
 

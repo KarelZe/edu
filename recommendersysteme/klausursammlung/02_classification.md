@@ -1,8 +1,6 @@
-# Classification
+# Klassifikation
 
-### **Klassifikation von Recommendersystemen**
-
-F: Erstellen Sie einen morphologischen Kasten. Benutzen Sie als Beispiel ein Automobil. Verwenden Sie als Dimensionen Marke, Typ und Farbe. Ergänzen Sie zwei weitere Dimensionen Ihrer Wahl. Erklären Sie die zwei möglichen Verwendungen eines morphologischen Kastens. \(3+2+2P.=7P.\)
+F: _Erstellen Sie einen morphologischen Kasten. Benutzen Sie als Beispiel ein Automobil. Verwenden Sie als Dimensionen Marke, Typ und Farbe. Ergänzen Sie zwei weitere Dimensionen Ihrer Wahl. Erklären Sie die zwei möglichen Verwendungen eines morphologischen Kastens._ \(3+2+2P.=7P.\)
 
 A:
 
@@ -13,7 +11,7 @@ A:
 
 Grüner Pfad ist ausgewählte Alternative. Man würde also von BMW ein Coupe in Blau-Weiß mit zwei Tonnen Gewicht für 20.000 EUR fertigen lassen.
 
-F: Nennen Sie zwei Dimensionen der in der Vorlesung vorgestellten Klassifikation nach Gaul et al. Geben Sie für jede Dimension zwei Beispiele an Merkmalen. \(2+2\*2P.=6P.\)
+F: _Nennen Sie zwei Dimensionen der in der Vorlesung vorgestellten Klassifikation nach Gaul et al. Geben Sie für jede Dimension zwei Beispiele an Merkmalen._ \(2+2\*2P.=6P.\)
 
 A:
 
@@ -23,7 +21,7 @@ A:
 
 **Methoden:** Multivariate Statistik, Machine Learning
 
-Begründen Sie, für welchen Einsatzzweck sich die Klassifikation nach Gaul et al. eignet. Nennen Sie zwei Schwächen. \(4+2\*3P.=10P.\)
+F: _Begründen Sie, für welchen Einsatzzweck sich die Klassifikation nach Gaul et al. eignet. Nennen Sie zwei Schwächen._ \(4+2\*3P.=10P.\)
 
 A:
 
@@ -38,7 +36,7 @@ A:
 * Keine Betrachtung von Anreizproblemen
 * Keine Betrachtung von Geschäftsmodellen
 
-F: Schafer et al. schlagen ein Klassifikationssystem für Recommenderdienste vor.
+F: _Schafer et al. schlagen ein Klassifikationssystem für Recommenderdienste vor._
 
 1. Zeichnen Sie ein Diagramm zur Veranschaulichung des Klassifikationssystems von Schafer et al. Stellen Sie jede Dimension als Achse dar. Beschriften Sie die Achsen. Zeichnen Sie bei diskreten Merkmalen alle Merkmalsausprägungen ein. \(5P.\)
 
@@ -87,21 +85,19 @@ A:
 * Gesamte Kaufgeschichte des Kunden wird herangezogen.
 * Wenn Kunden bei My CDNOW Empfehlungen anfordern, sagt das System 6 Alben voraus, die dem Kunden gefallen könnten, basierend auf dem, was er bereits besitzt \(Vgl. Paper: 2001, Recommender Systems in E-Commerce\)
 
-### **Klassifikation von Recommendersystemen, Assoziationsregel-Recommender, Collaborative Filtering Syst.**
-
-F: Skizzieren Sie in einer Grafik die Methode zur Klassifikation nach Schafer et al. \(5P.\)
+F: _Skizzieren Sie in einer Grafik die Methode zur Klassifikation nach Schafer et al._ \(5P.\)
 
 A:
 
 ![](../../.gitbook/assets/grafik%20%2822%29.png)
 
-1. Ordnen Sie einen Assoziationsregel-Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz. \(3P.\)
+F: _Ordnen Sie einen Assoziationsregel-Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz._ \(3P.\)
 
 A:
 
 AR nutzen die Ähnlichkeit von Kaufhistorien von Produkten \(Wenn ein Kunde die Menge X gekauft hat, empfiehl ihm Y -&gt; Produkt-Produkt Korrelation / item-to-item Recommender.
 
-F: Nennen Sie ein Praxisbeispiel für einen Assoziationsregel-Recommender und erklären Sie Ihre Einordnung \(2P.\)
+F: _Nennen Sie ein Praxisbeispiel für einen Assoziationsregel-Recommender und erklären Sie Ihre Einordnung_ \(2P.\)
 
 A:
 
@@ -109,11 +105,11 @@ Warenkorbanalyse im Supermarkt:
 
 Berechnung der Wahrscheinlichkeit ein anderes Produkt zu kaufen, wenn ein bestimmtes Produkt bereits gekauft wurde -&gt; Produkt-Produkt Korrelation
 
-F: Ordnen Sie einen Collaborative-Filtering Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz. \(3P.\)
+F: _Ordnen Sie einen Collaborative-Filtering Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz._ \(3P.\)
 
 A: Collaborative Filtering Ansätze setzen auf die Ähnlichkeit von Nutzern. Das passt zu der Merkmalsausprägung Kunde-Kunde Korrelation \(Auf Basis ähnlicher Kunden\) / People to People Correlation gemäß der Dimension Methode nach Schafer.
 
-F: Nennen Sie ein Praxisbeispiel für einen Collaborative-Filtering Recommenderdienst und erklären Sie Ihre Einordnung \(2P.\)
+F: _Nennen Sie ein Praxisbeispiel für einen Collaborative-Filtering Recommenderdienst und erklären Sie Ihre Einordnung_ \(2P.\)
 
 A:
 
@@ -121,7 +117,7 @@ A:
 
 **Amazon.com's Book Matcher:** Kunden können Feedback über gelesene Bücher abgeben. Kunden raten Buch auf Likert Skala. Nachdem Kunden einige Bücher gelesen haben, erhalten sie Vorschläge, die ihnen gefallen könnten. Die Empfehlungen werden generiert, indem Bücher von Nutzern mit ähnlichem Geschmack ausgewertet werden.
 
-F: Nennen Sie je 2 Vor- und Nachteile der Methode zur Klassifikation nach Schafer et al. \(2\*2=4P.\)
+F: _Nennen Sie je 2 Vor- und Nachteile der Methode zur Klassifikation nach Schafer et al._ \(2\*2=4P.\)
 
 A:
 
@@ -140,7 +136,7 @@ A:
 
 ![](../../.gitbook/assets/grafik%20%2817%29.png)
 
-F: Nennen Sie je einen Vor- und Nachteil der Methode zur Klassifikation nach Gaul et al. \(2\*1=2P.\)
+F: _Nennen Sie je einen Vor- und Nachteil der Methode zur Klassifikation nach Gaul et al._ \(2\*1=2P.\)
 
 A:
 

@@ -33,7 +33,7 @@
 * [Bonusübung](https://github.com/KarelZe/recommendersysteme)
 * [Klausursammlung](recommendersysteme/klausursammlung/README.md)
   * [Einführung / Grundlagen](recommendersysteme/klausursammlung/01_einfuehrung.md)
-  * [Classification](recommendersysteme/klausursammlung/02_classification.md)
+  * [Klassifikation](recommendersysteme/klausursammlung/02_classification.md)
   * [Mechanism Design Problems](recommendersysteme/klausursammlung/03_mechanism_design_problems.md)
   * [Wert von Empfehlungen](recommendersysteme/klausursammlung/04_wert_empfehlungen.md)
   * [Assoziationsregeln](recommendersysteme/klausursammlung/05_assoziationsregeln.md)

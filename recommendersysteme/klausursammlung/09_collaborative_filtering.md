@@ -57,9 +57,9 @@ A:
 
 **Daten:**
 
-Rater: $k,\, l\, \in 1,\ldots.m$ \[Spalten\]
+Rater: $$k,\, l\, \in 1,\ldots.m$$ \[Spalten\]
 
-Item: $p\, \in 1,\ldots.,n$ \[Zeilen\]
+Item: $$p\, \in 1,\ldots.,n$$ \[Zeilen\]
 
 Rating Matrix: $n\, \times m$ Matrix, Matrixeintrag $p\left\( i,j \right\)$ enthält Bewertung von Rater $i$ über Item $j$.
 
@@ -97,7 +97,7 @@ A:
 * Bei mehreren "schlechten/manipulativen" Bewertungen eines Nutzers entfernt sich dieser von den anderen -&gt; Isolation.
 * Aber nur der Nutzer selbst hat wirklich Nachteile durch dieses "Manipulieren". Es ist keine Manipulation wie z.B. bei öffentlichen Amazon Bewertungen möglich, bei denen sich Nutzer an bereits vorhandenen \(ggf. Negativen\) Bewertungen orientieren. Also meine Antwort wäre: Ja, Manipulation ist möglich, aber es bringt nur dem jeweiligen Nutzer selbst Nachteile.
 
-Use Case: Das Unternehmen Koogle möchte die Spamerkennung für seinen Dienst Koogle Mail verbessern und dazu die Methode des Collaborative Filterings einsetzen. Koogle Mail hat 50 Millionen Nutzer mit einem durchschnittlichen Mailaufkommen von 20 eMails je Benutzer und Tag. Spam-eMails beinhalten häufig denselben Mail-Body jedoch unterschiedliche Empfänger.
+_Use Case: Das Unternehmen Koogle möchte die Spamerkennung für seinen Dienst Koogle Mail verbessern und dazu die Methode des Collaborative Filterings einsetzen. Koogle Mail hat 50 Millionen Nutzer mit einem durchschnittlichen Mailaufkommen von 20 eMails je Benutzer und Tag. Spam-eMails beinhalten häufig denselben Mail-Body jedoch unterschiedliche Empfänger._
 
 F: _Beschreiben Sie in 4-5 Sätzen, wie Spamerkennung bei Koogle Mail mittels eines cf-Ansatzes funktioniert._ \(8P.\)
 
@@ -109,7 +109,7 @@ F: _Welches Maß zur Ähnlichkeitsbestimmung für den cf-Ansatz wählen Sie? Beg
 
 A:
 
-Korrelationskoeffizient $r$
+Korrelationskoeffizient $$r$$ 
 
 Gewichtete Summe von bewerteten E-Mails anderer Benutzer mit ähnlicher Bewertung. Korrelation der Benutzerbewertungen dient als Gewicht.
 
@@ -123,21 +123,21 @@ $$
 x_{p, k}=\bar{x}_{k}+\frac{\sum_{j}\left(x_{p, j}-\bar{x}_{j}\right) r_{k, j}}{\sum_{j}\left|r_{k, j}\right|}
 $$
 
-E-Mail $p$
+E-Mail $$p$$ 
 
-User $k$
+User $$k$$ 
 
-$r\_{k,j}$: Korrelation von Rater k und Rater l
+ $$r_{k,j}$$ : Korrelation von Rater k und Rater l
 
-${\overline{x}}\_{k}$: Naive Prognose \(Globaler Mittelwert\)
+$${\overline{x}}_{k}$$ : Naive Prognose \(Globaler Mittelwert\)
 
-${\overline{x}}\_{j}$: Lokale Mittelwerte
+$${\overline{x}}_{j}$$ : Lokale Mittelwerte
 
 Quotient: Korrektur
 
 Nenner: Gewichtete Different ähnlicher Benutzer
 
-Argumentieren Sie: Halten Sie einen cf-Recommender für dieses Szenario für effektiv und effizient? \(Denken Sie auch an die Skalierbarkeit!\). \(8P.\)
+_Argumentieren Sie: Halten Sie einen cf-Recommender für dieses Szenario für effektiv und effizient? \(Denken Sie auch an die Skalierbarkeit!\)._ \(8P.\)
 
 A:
 
@@ -154,7 +154,7 @@ Ich halte es nicht für effektiv und effizient, denn:
 * Die Suche nach ähnlichen Nutzern ist langwierig
 * Es wird auf der gesamten Benutzer-E-Mail-Matrix gearbeitet, sie muss im Hauptspeicher gehalten werden.
 
-Amazooon Time Films sei ein aufstrebender Video-on-Demand Service für Filme und Serien. Jedem Benutzer bietet Amazooon eine Liste von Filmen, die diesen interessieren könnten, an. Das verwendete Verfahren basieren auf einem Collaborative Filtering-Recommender, der über Korrelationen arbeitet \(keine Clusterverfahren!\).
+_Amazooon Time Films sei ein aufstrebender Video-on-Demand Service für Filme und Serien. Jedem Benutzer bietet Amazooon eine Liste von Filmen, die diesen interessieren könnten, an. Das verwendete Verfahren basieren auf einem Collaborative Filtering-Recommender, der über Korrelationen arbeitet \(keine Clusterverfahren!\)._
 
 F: _Erklären Sie, wem ein neuer Film empfohlen wird. Welche Information wird für die Wahl des Empfängers dieser Empfehlung verwendet? Wie wird dieses Problem genannt?_ \(6P\)
 
@@ -184,7 +184,7 @@ A:
 
 Bewertet ein Nutzer einen Film, dann muss eine Neuberechnung der naiven Prognose des bewertenden Nutzers, eine Neuberechnung der Mittel der gemeinsamen Profile, eine Neuberechnung des Korrelationskoeffizienten zwischen einzelnen Nutzern und der verbesserten Prognose erfolgen. Da dies für alle Nutzer des Streaming-Portals aufwendig ist, sollte dies ggf. im Rahmen einer Batch-Verarbeitung einmal oder mehrmals täglich erfolgen.
 
-1. Nennen Sie drei Wege, wie Amazooon die Bewertung eines Benutzers messen kann \(mindestens ein Weg muss implizit, mindestens ein Weg explizit sein\). \(2\*3 Punkte = \(6P\)\)
+F: _Nennen Sie drei Wege, wie Amazooon die Bewertung eines Benutzers messen kann \(mindestens ein Weg muss implizit, mindestens ein Weg explizit sein\)._ \(2\*3 Punkte = \(6P\)\)
 
 A:
 
@@ -244,11 +244,15 @@ $${\overline{x}}_{A} = \frac{4 + 4 + 1 + \, 5}{4} = \frac{7}{2}$$
 
 Mit dem Korrelationskoeffizient folgt:
 
-$\begin{matrix} r\_{A,D}\& = \frac{2\left\( 4 - \frac{16}{5} \right\)\left\( 2 - \frac{14}{5} \right\) + \left\( 1 - \frac{16}{5} \right\)\left\( 4 - \frac{14}{5} \right\) + \left\( 5 - \frac{16}{5} \right\)\left\( 1 - \frac{14}{5} \right\) + \left\( 2 - \frac{16}{5} \right\)\left\( 5 - \frac{14}{5} \right\)}{\sqrt{2\left\( 4 - \frac{16}{5} \right\)^{2} + \left\( 1 - \frac{16}{5} \right\)^{2} + \left\( 5 - \frac{16}{5} \right\)^{2} + \left\( 2 - \frac{16}{5} \right\)^{2}}\sqrt{2\left\( 2 - \frac{14}{5} \right\)^{2} + \left\( 4 - \frac{14}{5} \right\)^{2} + \left\( 1 - \frac{14}{5} \right\)^{2} + \left\( 5 - \frac{14}{5} \right\)^{2}}}  \& = - \frac{49}{54} = - 0.9074,  \end{matrix}$
+$$
+\begin{matrix} r_{A,D} & = \frac{2\left( 4 - \frac{16}{5} \right)\left( 2 - \frac{14}{5} \right) + \left( 1 - \frac{16}{5} \right)\left( 4 - \frac{14}{5} \right) + \left( 5 - \frac{16}{5} \right)\left( 1 - \frac{14}{5} \right) + \left( 2 - \frac{16}{5} \right)\left( 5 - \frac{14}{5} \right)}{\sqrt{2\left( 4 - \frac{16}{5} \right)^{2} + \left( 1 - \frac{16}{5} \right)^{2} + \left( 5 - \frac{16}{5} \right)^{2} + \left( 2 - \frac{16}{5} \right)^{2}}\sqrt{2\left( 2 - \frac{14}{5} \right)^{2} + \left( 4 - \frac{14}{5} \right)^{2} + \left( 1 - \frac{14}{5} \right)^{2} + \left( 5 - \frac{14}{5} \right)^{2}}}  & = - \frac{49}{54} = - 0.9074,  \end{matrix}
+$$
 
-$\begin{matrix} r\_{A,E}\& = \frac{\left\( 4 - \frac{7}{2} \right\)\left\( 5 - \frac{15}{4} \right\) + \left\( 4 - \frac{7}{2} \right\)\left\( 4 - \frac{15}{4} \right\) + \left\( 1 - \frac{7}{2} \right\)\left\( 2 - \frac{15}{4} \right\) + \left\( 5 - \frac{7}{2} \right\)\left\( 4 - \frac{15}{4} \right\)}{\sqrt{\left\( 4 - \frac{7}{2} \right\)^{2} + \left\( 4 - \frac{7}{2} \right\)^{2} + \left\( 1 - \frac{7}{2} \right\)^{2} + \left\( 5 - \frac{7}{2} \right\)^{2}}\sqrt{\(5 - \frac{15}{4}\)^{2} + \(4 - \frac{15}{4}\)^{2} + \(2 - \frac{15}{4}\)^{2} + \(4 - \frac{15}{4}\)^{2}}}  \& = \frac{11\sqrt{19}}{57} = 0.8412  \end{matrix}$
+$$
+\begin{matrix} r_{A,E} & = \frac{\left( 4 - \frac{7}{2} \right)\left( 5 - \frac{15}{4} \right) + \left( 4 - \frac{7}{2} \right)\left( 4 - \frac{15}{4} \right) + \left( 1 - \frac{7}{2} \right)\left( 2 - \frac{15}{4} \right) + \left( 5 - \frac{7}{2} \right)\left( 4 - \frac{15}{4} \right)}{\sqrt{\left( 4 - \frac{7}{2} \right)^{2} + \left( 4 - \frac{7}{2} \right)^{2} + \left( 1 - \frac{7}{2} \right)^{2} + \left( 5 - \frac{7}{2} \right)^{2}}\sqrt{(5 - \frac{15}{4})^{2} + (4 - \frac{15}{4})^{2} + (2 - \frac{15}{4})^{2} + (4 - \frac{15}{4})^{2}}}  & = \frac{11\sqrt{19}}{57} = 0.8412  \end{matrix}
+$$
 
-• Wie interpretieren Sie diese Abhängigkeit? \(5 Punkte\)
+F: _Wie interpretieren Sie diese Abhängigkeit?_ \(5 Punkte\)
 
 A:
 
@@ -284,9 +288,13 @@ F: _Berechnen Sie die Abhängigkeit zwischen Lina und Felix sowie zwischen Lina 
 
 A: Ausführlicher Rechenweg siehe [hier](https://github.com/KarelZe/recommendersysteme).
 
-r\(Lina,Felix\) = -0,9074
+$$
+r(Lina,Felix) = -0.9074
+$$
 
-r\(Lina,Johannes\)= 0,1054
+$$
+r(Lina,Johannes)= 0.1054
+$$
 
 F: _Wie interpretieren Sie diese Abhängigkeit?_ \(5 Punkte\)
 
@@ -300,7 +308,9 @@ F: _Berechnen Sie eine verbesserte Prognose für das Rating des Buchs Rabenfraue
 
 A: Ausführlicher Rechenweg siehe Solution Exercise 6
 
-x\(1,Lina\)= 3,558
+$$
+x(1,Lina)= 3.558
+$$
 
 Lina würden den Roman wahrscheinlich mit 4 Punkten bewerten.
 
