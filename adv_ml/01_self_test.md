@@ -182,8 +182,29 @@ Zur Herkunft der Fragen:
 ## Multiple Linear Regression
 
 - F: *Explain how linear regression works.*
-- F: *What is the purpose $$\beta$$ in a *Multiple Linear Regression Model*?* 
+
+- F: *What is the purpose $$\beta$$ in a Multiple Linear Regression Model*?*
+
+  $$\beta$$ is a $$(p+1)$$-dimensional vector, where $$\beta_0$$ is the intercept and $$\beta_1,\cdots,\beta_k$$ are the regression coefficients of $$k$$ independent variables.
+
 - F: *Explain how an optimal estimate for $$\beta$$ can be derived.*
+
+  - A linear regression model has the best fit when the error term $$\epsilon$$ is minimal. To achieve this, the regression coefficients $$ \beta$$ have to be estimated such that the error term is minimized. It's common to use squared error terms for $$\mid \varepsilon \|_{2}^{2}$$ minimization. 
+  - This leads to the following equation:
+  $$
+  \min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}=\min _{\boldsymbol{\beta}}\|\mathbf{y}-\mathbf{X} \beta\|^{2}
+  $$
+
+  Which can be reformulated to:
+  $$
+  \beta=\left(X^{\intercal} X\right)^{-1} X^{\intercal} y
+  $$
+
+  $$
+  \epsilon=y-X^{\intercal} \beta
+  $$
+
+
 - F: *Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Name two measure to test the goodness of fit of a Linear Regression model. (&rightarrow; Total Sum of Squares / $$R^2$$) 
