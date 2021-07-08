@@ -9,7 +9,7 @@
 ## Advanced Machine Learning
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
-* [Selbsttestfragen](adv_ml/01_self_test.md)
+* [Selbsttestfragen](advanced-machine-learning/01_self_test.md)
 
 ## Het. parallele Rechnerstrukturen
 
@@ -17,7 +17,7 @@
 
 ## Maschinelles Lernen
 
-* [Selbsttestfragen](ml/01_self_test.md)
+* [Selbsttestfragen](maschinelles-lernen/01_self_test.md)
 
 ## Parallelrechner
 
@@ -46,6 +46,7 @@
 * [Relevante Objekte empfehlen](recommendersysteme/15_relevante_objekte.md)
 
 ## Valuation
+
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Vertragsgestaltung
@@ -61,3 +62,4 @@
 
 * [Impressum](rechtliches/impressum.md)
 * [Lizenz](rechtliches/lizenz.md)
+
