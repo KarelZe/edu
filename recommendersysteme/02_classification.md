@@ -9,7 +9,7 @@ A:
 * Kreativitätstechnik
 * Funktionale Problemdekomposition
 
-![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%282%29.png)
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2818%29.png)
 
 Grüner Pfad ist ausgewählte Alternative. Man würde also von BMW ein Coupe in Blau-Weiß mit zwei Tonnen Gewicht für 20.000 EUR fertigen lassen.
 
@@ -46,7 +46,7 @@ A:
 
 
 
-![](../.gitbook/assets/grafik%20%284%29.png)
+![](../.gitbook/assets/grafik%20%2828%29.png)
 
 2. Erklären Sie jede Merkmalsausprägung jedes diskreten Merkmals in 2 Sätzen. \(8P.\)
 
@@ -63,7 +63,7 @@ Nur Merkmal Methode ist diskret, auf der Abbildung kann es 4 mögliche Werte ann
 
 A:
 
-![](../.gitbook/assets/grafik.png)
+![](../.gitbook/assets/grafik%20%2813%29.png)
 
 **Inhaltsanalyse/attribute-based** 
 
@@ -96,7 +96,7 @@ A:
 
 A:
 
-![](../.gitbook/assets/grafik%20%283%29.png)
+![](../.gitbook/assets/grafik%20%2822%29.png)
 
 2. Ordnen Sie einen Assoziationsregel-Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz. \(3P.\)
 
@@ -144,7 +144,7 @@ A:
 
 A:
 
-![](../.gitbook/assets/grafik%20%281%29.png)
+![](../.gitbook/assets/grafik%20%2817%29.png)
 
 8. Nennen Sie je einen Vor- und Nachteil der Methode zur Klassifikation nach Gaul et al. \(2\*1=2P.\)
 
@@ -152,7 +152,7 @@ A:
 
 
 
-![](../.gitbook/assets/grafik%20%283%29.png)
+![](../.gitbook/assets/grafik%20%2822%29.png)
 
 **Vorteil**:
 

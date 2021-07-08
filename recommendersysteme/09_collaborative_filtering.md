@@ -119,9 +119,11 @@ Geben Sie die Formel an, mit der das Spam-Rating von User k für Mail m vorherge
 
 A:
 
-!\[\]\[31\]
+![](../.gitbook/assets/grafik%20%2831%29.png)
 
-!\[\]\[32\]
+$$
+x_{p, k}=\bar{x}_{k}+\frac{\sum_{j}\left(x_{p, j}-\bar{x}_{j}\right) r_{k, j}}{\sum_{j}\left|r_{k, j}\right|}
+$$
 
 E-Mail $p$
 
@@ -208,6 +210,8 @@ Nein, Standard-Collaborative Filterung betrachtet immer nur die Ähnlichkeit des
 
 !\[\]\[33\]
 
+![](../.gitbook/assets/grafik%20%2827%29.png)
+
 • Geben Sie eine naive Prognose für das Rating des Films der Herr der Ringe für den Benutzer Anton an! \(5 Punkte\)
 
 A:
@@ -262,6 +266,8 @@ A:
 
 !\[\]\[34\]
 
+![](../.gitbook/assets/grafik%20%2832%29.png)
+
 1. Geben Sie eine naive Prognose für das Rating des Buch Rabenfrauen: Roman für den Benutzer Lina an \(5 Punkte\)
 
 A:
@@ -276,7 +282,9 @@ A:
 
 Um die Abhängigkeit zwischen zwei Benutzern zu messen, kann der Pearson'sche Korrelationskoeffizient verwendet werden.
 
-!\[\]\[35\]
+$$
+r_{k l}=\frac{\operatorname{cov}\left(s_{k}, s_{l}\right)}{\sigma_{k} \sigma_{l}}=\frac{\sum_{i}\left(x_{i, k}-\bar{x}_{k}\right)\left(x_{i, l}-\bar{x}_{l}\right)}{\sqrt{\sum_{i}\left(x_{i, k}-\bar{x}_{k}\right)^{2}} \sqrt{\sum_{i}\left(x_{i, l}-\bar{x}_{l}\right)^{2}}}
+$$
 
 3. Berechnen Sie die Abhängigkeit zwischen Lina und Felix sowie zwischen Lina und Johannes \(5 Punkte\)
 

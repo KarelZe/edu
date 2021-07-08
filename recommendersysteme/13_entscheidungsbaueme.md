@@ -139,7 +139,7 @@ A:
 
 Annahme: Knoten werden weggelassen, sofern sie keine Entscheidungsrelevanz mehr haben.
 
-!\[\]\[52\]
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2825%29.png)
 
 2. Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein \"gutes\" \(sollte früh abgefragt werden\)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das \"beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können? \(6+5P.=11P.\)
 
@@ -175,17 +175,19 @@ A:
 
 !\[\]\[53\]
 
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2819%29.png)
+
 2. Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein "gutes" \(sollte früh abgefragt werden\)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das "beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können? \(6+5P.=11P.\)
 
-A: siehe \[hier\]\[50\].
+A: siehe oberhalb.
 
 3. Nennen Sie zwei Probleme, die Entscheidungsbäume haben können, wenn man sie mit Hilfe von Beispieldaten trainiert. Erklären Sie, wie es dazu kommt. \(4+4P.=8P.\)
 
-A: Siehe \[hier\]\[54\].
+A: Siehe oberhalb.
 
 Gegeben seien untenstehende Beobachtungsdaten. Es soll basierend auf Outlook, Temperature, Humidity und Wind vorhergesagt werden, ob Tennis gespielt werden soll, oder nicht.
 
-!\[\]\[55\]
+![](../.gitbook/assets/grafik%20%284%29.png)
 
 Wie entscheiden Sie, welches Attribut Sie als erstes in den Entscheidungsbaum einführen wollen? Erklären Sie dies in 5-6 Sätzen \(6P.\)
 
@@ -200,21 +202,20 @@ A: Vorlesung \(Folie 39+40\) grob in seinen Worten wiedergegeben
 
 2. Geben Sie eine mathematische Definition der Entropie H nach Shannon. \(2P.\)
 
-A: Siehe \[hier\]\[56\].
+A: Siehe oberhalb.
 
 3. Wie hoch ist im obigen Beispiel, Reihen D1-D6, die Entropie von "Outlook"? \(5P.\)
 
 A:
 
-!\[\]\[57\]
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2834%29.png)
 
 **Entropie:**
 
-$$\begin{matrix} H\_{o}\left\( \frac{3}{6};\frac{3}{6} \right\) = \
-
-* \frac{1}{2}\log_{2}\frac{1}{2} - \frac{1}{2}\log_{2}\frac{1}{2} \approx 1 \
-
-  \end{matrix}$$
+$$
+H_{o}\left(\frac{3}{6} ; \frac{3}{6}\right)= 
+-\frac{1}{2} \log _{2} \frac{1}{2}-\frac{1}{2} \log _{2} \frac{1}{2} \approx 1
+$$
 
 4. Erklären Sie: Was ist in obigem Beispiel der Informationsgewinn des Attributes "Outlook"? \(Nicht berechnen, nur erklären!\) \(5P.\)
 
@@ -226,15 +227,13 @@ Zusatz:
 
 A:
 
-!\[\]\[58\]
-
 **Minimal:** Gilt $p_{i} = \, 1$ und alle anderen $p_{j} = 0$, mit $j = 1,\ldots,i - 1,i + 1,\, n$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $H\, = \, 0$.
 
 **Maximal**:
 
 Entropie ist nach oben nicht beschränkt. Es gilt:
 
-$$H\left( S \right) = - \sum_{j}^{}{}\mspace{2mu} p_{j}*\log_{2}p_{j} = - \sum_{i = 1}^{n}{}\mspace{2mu}\frac{1}{n}*\log_{2}\frac{1}{n} = - n*\left( \frac{1}{n}*\left( \log_{2}1 - \log_{2}n \right) \right) = - 1*\left( 0 - \log_{2}n \right) = \log_{2}n \rightarrow \infty\left( n \rightarrow \infty \right)$$
+$$H\left( S \right) = - \sum_{j}^{}{}\mspace{2mu} p_{j}*\log_{2}p_{j} = - \sum_{i = 1}^{n}{}\mspace{2mu}\frac{1}{n}*\log_{2}\frac{1}{n} = - n*\left( \frac{1}{n}*\left( \log_{2}1 - \log_{2}n \right) \right) =- 1*\left( 0 - \log_{2}n \right) = \log_{2}n \rightarrow \infty\left( n \rightarrow \infty \right)$$
 
 Entropie wird **maximal** bei Gleichverteilung.
 
@@ -293,7 +292,7 @@ A: Entropie nach Shannon enthalten im Informationsgewinn.
 
 4. Geben Sie die mathematische Definition von M an. \(3P.\)
 
-A: Siehe \[hier\]\[56\].
+A: Siehe oberhalb.
 
 5. Das wichtigste Kriterium sei der betroffene Körperbereich. Ihre Experten geben 32 Merkmalsausprägungen an. Wie groß kann M in diesem Fall minimal bzw. maximal werden? \(3+3P.\)
 
@@ -317,19 +316,23 @@ Das neue Szenelokal in Karlsruhe hat momentan zwei Tagesmenüs im Einsatz. Um Ko
 
 !\[\]\[59\]
 
+![](../.gitbook/assets/grafik%20%2829%29.png)
+
 1. Geben Sie die mathematische Formel für die Entropie an und erklären Sie die verwendeten Variablen. \(2\*1,5=3P.\)
 
-A: Siehe \[hier\]\[56\].
+A: Siehe oberhalb.
 
 2. Wie groß kann die Entropie minimal und maximal werden? Wann ist dies jeweils der Fall? \(Bitte beantworten Sie diese Frage allgemein für ein Attribut und ohne Bezug auf den Use-Case\). \(2\*1,5=3P.\)
 
-A: Siehe \[hier\]\[60\].
+A: Siehe oberhalb.
 
 3. Berechnen Sie den Informationsgehalt des Inputattributes Wetter mit Hilfe eines Entscheidungsbaums. Geben Sie auch Ihre Zwischenergebnisse und den Teilbaum für Wetter an. Zeichen Sie den Teilbaum. \(10P.\)
 
 A:
 
 !\[\]\[61\]
+
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2810%29.png)
 
 **Informationsgewinn:**
 
@@ -349,7 +352,7 @@ A: Wetter ist ein wenig aussagekräftiges Attribut. Einerseits liegt der durchsc
 
 A: Es sollte das Attribut Temperatur gewählt werden, da es die Output-Variable **vollständig erklärt**. D. h. nach Split mit Temperatur sind alle Menüs innerhalb eines Knotens homogen. Darüber hinaus ist der erlernte Baum kleinstmöglich.
 
-!\[\]\[62\]
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2826%29.png)
 
 **Informationsgewinn:**
 
@@ -368,23 +371,23 @@ Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \*
 
 Ein Kino on Karlsruhe möchte derzeit aus zwei Filmen auswählen. Der Manager hat das Gefühl, dass die Kunden den Film abhängig von ihrem Alter und Geschlecht auswählen.
 
-!\[\]\[63\]
+![](../.gitbook/assets/grafik%20%2842%29.png)
 
 1. Geben Sie die mathematische Formel für die Entropie an und erklären Sie die verwendeten Variablen \(2\*1,5=3P\)
 
-A: Siehe \[hier\]\[56\].
+A: Siehe oberhalb.
 
 2. Wie groß kann die Entropie minimal und maximal werden? Wann ist dies jeweils der Fall? \(Bitte beantworten Sie diese Frage allgemein für ein Attribut und ohne Bezug auf den Use-Case\). \(2\*1,5=3P.\)
 
 A:
 
-A: Siehe \[hier\]\[60\].
+A: Siehe oberhalb.
 
 3. Berechnen Sie den Informationsgehalt des Inputattributes Geschlecht mit Hilfe eines Entscheidungsbaums. Geben Sie auch Ihre Zwischenergebnisse und den Teilbaum für Wetter an. Zeichen Sie den Teilbaum. \(10P.\)
 
 A:
 
-!\[\]\[64\]
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%285%29.png)
 
 **Informationsgewinn:**
 
@@ -408,7 +411,7 @@ A:
 
 **Handlungsempfehlung:** Kunden über 35 sollte der Film 2 angeboten werden, Kunden unter 35 sollte der Film 1 angeboten werden.
 
-!\[\]\[65\]
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2836%29.png)
 
 **Informationsgewinn:**
 
@@ -423,6 +426,8 @@ Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \*
 Bei der Entwicklung eines neuen Sensors zur Früherkennung von Stoffwechselstörungen wurde die Existenz von drei Enzymen \(A, B, und C\) im Blut gemessen:
 
 !\[\]\[66\]
+
+![](../.gitbook/assets/grafik%20%2833%29.png)
 
 1. Berechnen Sie den Informationsgewinn für jedes der drei Attribute \(9P\) und geben Sie die Formel für die Entropie und den Informationsgewinn an \(2\*2 = \(4P\)\).
 
@@ -473,6 +478,8 @@ A: Attribut A, siehe vorherige Teil-Aufgabe.
 A:
 
 !\[\]\[67\]
+
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%288%29.png)
 
 4. Ist der Entscheidungsbaum optimal? \(4P\)
 

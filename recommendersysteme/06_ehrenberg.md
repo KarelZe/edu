@@ -10,6 +10,8 @@ A:
 
 !\[\]\[22\]
 
+![](../.gitbook/assets/grafik%20%2838%29.png)
+
 * Ergänzung von Übungsfolien \(7. Übung\):
   * Markt ist stationär -&gt; keine Änderungen bei Produkten, Kunden, Kaufverhalten
   * Markt ist homogen -&gt; Produkte sind hinreichend ähnlich
@@ -26,6 +28,8 @@ A:
 **Vorgehen**
 
 !\[\]\[23\]
+
+![](../.gitbook/assets/grafik%20%281%29.png)
 
 **Benötigte Daten:**
 
@@ -77,6 +81,8 @@ Der vorgestellte Algorithmus ermittelt für ein festes Produkt die kombinierten 
 
 !\[\]\[24\]
 
+![](../.gitbook/assets/grafik%20%2840%29.png)
+
 A:
 
 Regel A \(weniger als 40 %\) Zufallsbeobachtung:
@@ -99,9 +105,13 @@ Es werden Produktpaare nur empfohlen, sofern Produkte tatsächlich häufiger gek
 
 !\[\]\[25\]
 
+![](../.gitbook/assets/grafik%20%2835%29.png)
+
 Zeichnen Sie ein qualitatives Diagramm der Häufigkeitsverteilungen für ein festes Produkt p und weiteren Produkten. Zeichnen Sie die theoretische Verteilung und beobachtete Verteilung ein. Beschriften Sie die Achsen. Kennzeichnen Sie, was Sie empfehlen. \(7P.\)
 
-A: !\[\]\[26\]
+A: 
+
+![](../.gitbook/assets/grafik.png)
 
 Nennen Sie je zwei Vor- und Nachteile eines Ehrenberg Recommenders. \(6P.\)
 
@@ -149,6 +159,8 @@ A:
 Wenden Sie diese Abschneideregeln auf den untenstehenden Beispieldatensatz an: Markieren Sie in den Spalten R1 . . . R3, welche Zeilen Sie empfehlen. \(Ohne zumindest kurzen Rechenweg keine Punkte!\) \(6P.\)
 
 !\[\]\[27\]
+
+![](../.gitbook/assets/grafik%20%2837%29.png)
 
 Regel A \(weniger als 40 %\) Zufallsbeobachtung:
 
@@ -255,6 +267,8 @@ A:
 
 !\[\]\[29\]
 
+![](../.gitbook/assets/grafik%20%289%29.png)
+
 Sobald Anzahl der Ausreißer unter Anzahl von theoretisch erwarteten Wiederkäufen fällt: $f\left\( x_{\mathrm{\text{beobachtet }}} \right\) &lt; f\left\( x_{\mathrm{\text{theoretisch }}} \right\)$, wird keine Empfehlung gegeben.
 
 Usecase: wird für die Paare Schoko-Ostertiere mit Backware oder Wurstware mit veganem Brotaufstrich, die theoretische Anzahl der Wiederkäufe nicht erreicht. Theoretisch hätten 5 Paare 3-mal zusammengekauft werden sollen, praktisch aber nur 4 Paare 3-Mal. Es wird also **keine** Empfehlung gegeben.
@@ -297,6 +311,8 @@ Wir haben in der Vorlesung 4 verschiedene statistische Abschneideregeln besproch
 A:
 
 !\[\]\[30\]
+
+![](../.gitbook/assets/grafik%20%2821%29.png)
 
 \(Übung 7; Folie 43\)
 

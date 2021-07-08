@@ -155,7 +155,8 @@ A:
 A:
 
 * p= 0,5, g = 1, b = 1 Payoff \(A/B\): Produkt gut = 10, Produkt schlecht = -12
-* !\[\]\[7\]
+
+![](../.gitbook/assets/grafik%20%2811%29.png)
 
 5. Erklären Sie, warum es zur Unterversorgung mit Empfehlungen kommt. \(5P\)
 
@@ -179,11 +180,11 @@ Symbole und Parameter:
 
 \(e\) pinitial = 1/2
 
-!\[\]\[8\]
+![](../.gitbook/assets/grafik%20%2815%29.png)
 
 A:
 
-!\[\]\[9\]
+![](../.gitbook/assets/grafik%20%2812%29.png)
 
 Avery et al. schlagen das Empfehlungsakquisitionsspiel vor, um den Wert von Empfehlungen zu berechnen. In diesem Spiel gibt es einen Broker, der zwei Spielmodi anbietet. Im Folgenden verwenden Sie bitte den sog. „eine Empfehlung je Runde"-Modus.
 
@@ -209,11 +210,11 @@ b: Wahrscheinlichkeit einer "schlechten" Bewertung für ein "schlechtes" Produkt
 
 g: Wahrscheinlichkeit einer "guten" Bewertung für ein "gutes" Produkt
 
-!\[\]\[10\]
+![](../.gitbook/assets/grafik%20%2823%29.png)
 
-!\[\]\[11\]
+![](../.gitbook/assets/grafik%20%2830%29.png)
 
-!\[\]\[12\]
+![](../.gitbook/assets/grafik%20%2824%29.png)
 
 3. Avery et al. beschreiben auch typische spieltheoretische Probleme. Es seien die folgenden Parameter gegeben:
 
@@ -231,9 +232,10 @@ A:
 
 Annahme Payoff: -2
 
-```text
-                     Spieler B konsumiert   Spieler B wartet
-```
+|  | Spieler B konsumiert    | Spieler B wartet     |
+| :--- | :--- | :--- |
+| Spieler A konsumiert    | \(9,9\)    | \(9,10\)\*    |
+| Spieler A wartet    | \(10,9\)\*    | \(9,9\)N    |
 
 Spieler A konsumiert \(9,9\) \(9,10\)^\*^ Spieler A wartet \(10,9\)^\*^ \(9,9\)^N^
 
@@ -310,4 +312,6 @@ Da C immer einen ungünstigeren Payoff als andere Spieler hat, sollte er mit der
 C würde aber Produkt nicht mehr evaluieren, nachdem Produkt durch A und B für schlecht befunden wurde bzw. durch A für gut und für B für schlecht befunden wurde, da sein Payoff am Knoten dann negativ wäre. Insofern müsste an beiden Knoten \(Pfad ud bzw. dd\) ein „\(-\)" stehen. Baum ist damit **nicht** optimal.
 
 !\[\]\[13\]
+
+![](../.gitbook/assets/grafik%20%2816%29.png)
 

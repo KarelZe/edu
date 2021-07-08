@@ -2,7 +2,7 @@
 
 SciNetPub möchte für seine global vertriebenen Informatik-, Informationswirtschafts- und Data-Science Zeitschriften ein verhaltensbasiertes Recommendersystem für Empfehlungen der Art Others Also Use aufbauen.
 
-1. Was bedeutet Other Also Use? \(5P\)
+F: Was bedeutet Other Also Use? \(5P\)
 
 A:
 
@@ -10,7 +10,7 @@ A:
 2. Nutzerverhalten entspricht im Kontext von SciNetPub dem Leseverhalten von Nutzern mit ähnlichen Interessen und ähnlichen Fachgebieten.
 3. Ein derartiger Recommender basiert typischerweise auf einem Ehrenberg-Recommender / auf der Auswertung von Sessions mit digitalen Informationsprodukten im Rahmen einer Warenkorbanalyse.
 
-2. Wie muss SciNetPub seinen OPAC aufbauen und was muss SciNetPub messen, um einen solchen Recommenderdienst aufbauen zu können? \(5P\)
+F: Wie muss SciNetPub seinen OPAC aufbauen und was muss SciNetPub messen, um einen solchen Recommenderdienst aufbauen zu können? \(5P\)
 
 A:
 
@@ -21,29 +21,31 @@ A:
 * Ferner wird ein **Recommendation-Agent** benötigt. Dieser generiert Vorschlagsseiten und wird über eingebettete Links im OPAC aufgerufen.
 * Die Ergebnisse des Bibliothekssystems und des Recommendation-Agents werden im User-Interface integriert. \(Folie 48; BibTip\)
 
-!\[\]\[68\]
+![](../.gitbook/assets/grafik%20%2839%29.png)
 
-3. Erstellen Sie ein Datenmodell für diese Messungen! \(Hinweis: Vergessen Sie die Metadaten nicht!\) \(10P\)
+F: Erstellen Sie ein Datenmodell für diese Messungen! \(Hinweis: Vergessen Sie die Metadaten nicht!\) \(10P\)
 
 A:
 
 **Tabelle für Einkäufe \(angelehnt an Grafik auf Folie 26 BibTip Recommender\):**
 
-Session\_Id Document\_Id User\_Id Period
-
-String String String Timestamp
+| User\_id    | First\_Name    | Last\_Name    | …    |
+| :--- | :--- | :--- | :--- |
+| String    | String    | String    | …    |
 
 **Weitere Tabellen:**
 
-Document\_Id Title Author ...
+| Document\_Id    | Title    | Author    | …    |
+| :--- | :--- | :--- | :--- |
+| String    | String    | String    | …    |
 
-String String String ...
 
-User\_id First\_Name Last\_Name ...
 
-String String String ...
+| User\_id    | First\_Name    | Last\_Name    | …    |
+| :--- | :--- | :--- | :--- |
+| String    | String    | String    | …    |
 
-4. Welche Preprocessing-Schritte müssen durchgeführt werden, damit dieser Datensatz für einen Ehrenberg-Recommender geeignet ist? \(5P\)
+F: Welche Preprocessing-Schritte müssen durchgeführt werden, damit dieser Datensatz für einen Ehrenberg-Recommender geeignet ist? \(5P\)
 
 A:
 

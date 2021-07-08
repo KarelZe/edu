@@ -25,6 +25,8 @@ $C_{\min} = \frac{3}{5};s_{\min} = \frac{2}{5}$.
 
 !\[\]\[14\]
 
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%282%29.png)
+
 Was sind die Vorteile, was die Nachteile des Verfahrens?
 
 A:
@@ -60,7 +62,9 @@ Gegeben seien die folgenden Warenkörbe: {a, b, d}, {d, f}, {b, e}, {b, d, e}, {
 
 Welche Regeln würden bei der gegebenen Konfidenzschranke entstehen? Hier reicht es, wenn Sie die Konfidenzwertberechnung anhand von 6 Beispielen veranschaulichen.
 
-A:!\[\]\[15\]
+A:
+
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%287%29.png)
 
 Sie arbeiten als IT-Leiter für die \"Nützlinge Online GmbH\", die Nützlinge, z.B. Marienkäfer, online anbietet und via Post an Endkunden verschickt. Ihr Auftrag lautet, für die Geschäftsführung einen Assoziationsregel-Recommender zu entwickeln. Ziel ist es, dem Kunden bei Interesse an einem Nützling \(z.B. Marienkäfer\) einen anderen ebenfalls geeigneten Nützling \(z.B. Schlupfwespe\) zu empfehlen.
 
@@ -154,13 +158,15 @@ Durch Hinzunahme eines weiteren Produktes kann Seife gemeinsam mit diesem Produk
 
 Gegeben sei folgende Datenbanktabelle mit einer Zuordnung von Transaktionen T und Produkten P. Der erste Eintrag \(T1, P1\) bedeutet, in Transaktion T1 war Produkt P1 enthalten.
 
-!\[\]\[16\]
+![](../.gitbook/assets/grafik%20%2820%29.png)
 
 Geben Sie allgemein die Formel für den Support einer Menge X von Produkten an. \(2P.\)
 
 A:
 
-!\[\]\[17\]
+$$
+\operatorname{support}(X)=\frac{|\{t \in T \mid X \subseteq t\}|}{|T|}
+$$
 
 Geben Sie folgende Supports an: sup\({P1}\), sup\({P1, P2}\), sup\({P1, P3}\), sup\({P1, P2, P3}\). \(4P.\)
 
@@ -224,7 +230,9 @@ Geben Sie allgemein die Formel für Confidence an. Erklären Sie kurz die Bestan
 
 A:
 
-!\[\]\[18\]
+$$
+\operatorname{confidence}(X, Y)=\frac{\operatorname{support}(X \cup Y)}{\operatorname{support}(X)}
+$$
 
 Die Confidence sagt aus, wie oft die Itemmenge X und Y zusammengekauft werden \(Zähler\), wenn X gekauft wurden \(Nenner\)
 
@@ -240,7 +248,7 @@ Erklären Sie: Was bedeutet conf\({P2}, {P3}\) in Hinblick auf Empfehlungen? \(3
 
 A:
 
-!\[\]\[19\]
+![](../.gitbook/assets/grafik%20%2814%29.png)
 
 Use case Bezug: conf\(2, 3\) = 1 --&gt; Regel hat Zuverlässigkeit von 100%, ist also sehr zuverlässig
 
@@ -356,9 +364,13 @@ Menge I = Kühlschrank, Eiswürfelbehälter, Weinregal, Kühlschrankthermometer 
 
 Eine Reihe T ={ {Kühlschrank, Weinregal, Kühlschrankthermometer}, {Kühlschrank Eiswürfelbehälter} .....} von Transaktionen
 
-!\[\]\[20\]
+$$
+\text { support }(X)=\frac{|\{t \in T \mid X \subseteq t\}|}{|T|}
+$$
 
-!\[\]\[21\]
+$$
+\operatorname{confidence}(X, Y)=\frac{\operatorname{support}(X \cup Y)}{\operatorname{support}(X)}
+$$
 
 Support\(Kühlschrank\): Wie oft wurde Kühlschrank gekauft.
 
@@ -382,7 +394,7 @@ Da es sich bei Jupiter um einen großen Versender handelt, sind auch die generie
 
 Interpretieren Sie diese Regel. \(2P.\)
 
-A: Bin ich mir ein wenig unsicher, ob ich das richtig interpretiere:
+A: 
 
 Item X wird weniger als s mal gekauft. Dann werden alle Itemmengen Y wo X vorkommt ebenfalls weniger als s mal verkauft.
 
@@ -390,7 +402,7 @@ Erreicht eine Itemmenge X den Mindestsupport $s$ nicht, so kann auch keine Ihrer
 
 Beweisen oder widerlegen Sie diese Regel. \(5P.\)
 
-A: Bin ich mir ziemlich unsicher, ob das so richtig ist.
+A: 
 
 Aussage stimmt.
 

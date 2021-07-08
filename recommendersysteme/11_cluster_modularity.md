@@ -12,7 +12,7 @@ $$
 \end{array}\right)
 $$
 
-Gegeben seien die $$C_{1} = \left\{ \left\{ e_{1},e_{2} \right\},\left\{ e_{3},e_{4},e_{5} \right\} \right\}, \mathrm{\text{und }} C_{2} = \left\{ \left\{ e_{1},e_{2},e_{3} \right\},\left\{ e_{4},e_{5} \right\} \right\}$$.
+Gegeben seien die $$C_{1} = \left\{ \left\{ e_{1},e_{2} \right\},\left\{ e_{3},e_{4},e_{5} \right\} \right\}, \mathrm{\text{und }} C_{2} = \left\{ \left\{ e_{1},e_{2},e_{3} \right\},\left\{ e_{4},e_{5} \right\} \right\}$$
 
 F: _Berechnen Sie die Modularity der Cluster_ $$Q(C_1)$$ _und_ $$Q(C_2)$$_. Keine Punkte ohne Rechenweg!_
 
@@ -85,6 +85,12 @@ Gegeben seien die Cluster $$C_{1}=\left\{\left\{e_{A}, e_{C}\right\},\left\{e_{B
 F: _Berechnen Sie die Modularity der Cluster_ $$Q\left( C_{1} \right)$$ _und_ $$Q\left( C_{2} \right).$$
 
 A:
+
+**Skizze**:
+
+![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%286%29.png)
+
+
 
 **Variante 1:**
 
@@ -162,13 +168,41 @@ F: _Berechnen Sie für jeden Knoten die Änderung der Modularität, wenn er mit 
 
 A:
 
-Annahme man legt einfach $$A$$ mit $$B$$ zusammen, $$C$$ mit $$D$$ und $$E$$ bleibt allein.
+Betrachtet man Graphen \(siehe vorherige Teilaufgabe\), so lässt sich D mit E zu einem cluster gruppieren, E mit B, B mit C, B mit A und A mit C. Damit ergibt sich Folgendes:
 
-$$M = \left(\begin{array}{ll|ll|l} 0 & 3 & 1 & 0 & 0 \\ 3 & 0 & 1 & 0 & 2 \\ \hline 1 & 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 \\ \hline 0 & 2 & 0 & 1 & 0 \end{array}\right)$$
+$$
+e \times a=\left(\begin{array}{c|c|c|c|c}
+0 & \frac{3}{16} & \frac{1}{16} & 0 & 0 \\
+\hline \frac{3}{16} & 0 & \frac{1}{16} & 0 & \frac{2}{16} \\
+\hline \frac{1}{16} & \frac{1}{16} & 0 & 0 & 0 \\
+\hline 0 & 0 & 0 & 0 & \frac{1}{16} \\
+\hline 0 & \frac{2}{16} & 0 & \frac{1}{16} & 0
+\end{array}\right)\left(\begin{array}{c}
+\frac{1}{4} \\
+\frac{3}{8} \\
+\frac{1}{8} \\
+\frac{1}{16} \\
+\frac{3}{16}
+\end{array}\right)
+$$
 
-$$e \times a = \left(\begin{array}{lll} \frac{6}{16} & \frac{2}{16} & \frac{2}{16}\\ \frac{2}{16} & 0 & \frac{1}{16}\\ \frac{2}{16} & \frac{1}{16} & 0\\ \end{array}\right)\left(\begin{array}{c} \frac{10}{16} \\ \frac{3}{16} \\ \frac{3}{16}\\ \end{array}\right)$$
+Veränderung der Modularity gegeben durch:
 
-$$Q_2=\left(\frac{6}{16}-\frac{10}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)=-\frac{11}{128}$$
+$$
+\Delta Q=e_{i j}+e_{j i}-2 a_{i} a_{j}=2\left(e_{i j}-a_{i} a_{j}\right)
+$$
+
+Damit ergibt sich:
+
+$$
+\begin{aligned}
+&\Delta Q_{A, B}=2\left(\frac{3}{16}-\frac{13}{4} \frac{3}{8}\right)=\frac{3}{16} \\
+&\Delta Q_{A, C}=2\left(\frac{1}{16}-\frac{1}{4} \frac{1}{8}\right)=\frac{1}{16} \\
+&\Delta Q_{B, C}=2\left(\frac{1}{16}-\frac{3}{8} \frac{1}{8}\right)=\frac{1}{32} \\
+&\Delta Q_{B, E}=2\left(\frac{2}{16}-\frac{3}{8} \frac{3}{16}\right)=\frac{7}{64} \\
+&\Delta Q_{D, E}=2\left(\frac{1}{16}-\frac{1}{16} \frac{3}{16}\right)=\frac{13}{128}
+\end{aligned}
+$$
 
 F: _Wie ändert sich die Modularität, wenn nicht benachbarte Knoten gemeinsam in ein Cluster gruppiert werden?_
 
