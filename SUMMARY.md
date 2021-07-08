@@ -2,7 +2,7 @@
 
 * [KIT](README.md)
 
-## Analysetechniken g. Datenbestände
+## Analysetechniken großer Datenbestände
 
 * [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 
@@ -14,6 +14,10 @@
 ## Het. parallele Rechnerstrukturen
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
+
+## Maschinelles Lernen
+
+* [Selbsttestfragen](ml/01_self_test.md)
 
 ## Parallelrechner
 

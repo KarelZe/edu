@@ -349,7 +349,8 @@ Zur Herkunft der Fragen:
 
 - F: *Explain Recurrent Neural Networks (RNN)* ⭐
 - F: *What types of RNN were discussed in class?*
-- F: *Give applications of LSTMS.*
+- F: *Give applications of RNNs.*
+- F: *What are key components of RNNs?*
 
 ## LSTM
 
