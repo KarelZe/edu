@@ -1,7 +1,5 @@
 # Entscheidungsbäume
 
-**13.1 Entscheidungsbäume**
-
 Sie sind Manager eines Internet-Geschenke Portals. Analysieren Sie die Kaufsituation Ihrer Kunden und identifizieren Sie für die Kaufentscheidung wesentliche Attribute.
 
 A:
@@ -37,7 +35,7 @@ Der Kundendialog soll mit Hilfe von Entscheidungsbäumen optimal gesteuert werde
 
 A:
 
-siehe \[hier\]\[50\].
+siehe oberhalb.
 
 **Alternativ:**
 
@@ -53,7 +51,7 @@ Wie prüfen Sie, ob gelernte Entscheidungsbäume gut für Ihr System geeignet si
 
 A:
 
-Siehe \[hier\]\[51\].
+Siehe oberhalb.
 
 Die Geschäftsführung der Nützlinge Online GmbH stellt fest, dass es den B2C-Kunden schwerfällt, die für sie richtigen Nützlinge auszuwählen. Sie sollen einen Empfehlungsdienst bauen, der dem Endkunden je nach Schädlingsbefall über Diagnosefragen einen geeigneten Nützling empfiehlt \(Sind die Blätter von Milben entfallen? Wenn ja, empfehlen wir die Raubmilbe\)
 
@@ -173,8 +171,6 @@ Stellen Sie einen Entscheidungsbaum zum Kauf eines Handys graphisch dar \(6P.\):
 
 A:
 
-!\[\]\[53\]
-
 ![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2819%29.png)
 
 2. Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein "gutes" \(sollte früh abgefragt werden\)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das "beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können? \(6+5P.=11P.\)
@@ -233,7 +229,9 @@ A:
 
 Entropie ist nach oben nicht beschränkt. Es gilt:
 
-$$H\left( S \right) = - \sum_{j}^{}{}\mspace{2mu} p_{j}*\log_{2}p_{j} = - \sum_{i = 1}^{n}{}\mspace{2mu}\frac{1}{n}*\log_{2}\frac{1}{n} = - n*\left( \frac{1}{n}*\left( \log_{2}1 - \log_{2}n \right) \right) =- 1*\left( 0 - \log_{2}n \right) = \log_{2}n \rightarrow \infty\left( n \rightarrow \infty \right)$$
+$$
+H\left( S \right) = - \sum_{j}^{}{}\mspace{2mu} p_{j}*\log_{2}p_{j} = - \sum_{i = 1}^{n}{}\mspace{2mu}\frac{1}{n}*\log_{2}\frac{1}{n} = - n*\left( \frac{1}{n}*\left( \log_{2}1 - \log_{2}n \right) \right) =- 1*\left( 0 - \log_{2}n \right) = \log_{2}n \rightarrow \infty\left( n \rightarrow \infty \right)
+$$
 
 Entropie wird **maximal** bei Gleichverteilung.
 
@@ -269,15 +267,15 @@ betroffene Körperbereiche ...
 
 Dauer der Erkrankung ist ...
 
-* \&lt;3 T
-* \&lt; =14 T
-* &rightarrow; 14 T
+* kleiner 3 T
+* kleiner T
+* größer 14 T
 
 Alter ist ...
 
-* \&lt;= 18 Jahre
-* &rightarrow;= 18 Jahre \&lt;= 60 Jahre
-* &rightarrow;= 60 Jahre
+* kleiner 18 Jahre
+* größer 18 Jahre größer 60 Jahre
+* größer 60 Jahre
 
 Jahreszeit ist
 
@@ -298,11 +296,17 @@ A: Siehe oberhalb.
 
 A:
 
-**Minimal:** Gilt $p_{i} = \, 1$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 32$$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $$H\, = \, 0$$.
+**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 32$$ gilt;
+
+Bei Sicherheit über Ergebnis verschwindet Entropie, dann ist $$H\, = \, 0$$.
 
 **Maximal:** Liegt Gleichverteilung vor, d. h. $$p\_{i} = \frac{1}{32}$$. Dann gilt:
 
-$$H = - \log\_{2}\left\( \frac{1}{32} \right\) = 5$$ \(Vgl. Folie 38\)
+$$
+H = - \log\_{2}\left\( \frac{1}{32} \right\) = 5
+$$ 
+
+\(Vgl. Folie 38\)
 
 6. Was bedeutet ein minimaler bzw. maximaler Wert? \(3+3P.\)
 
@@ -313,8 +317,6 @@ Ein **maximaler Wert** \(d. h. $$0$$\) bedeutet, dass ein Attribut perfekt die O
 Ein **minimaler Wert** \(d. h. $$5$$\) bedeutet, dass eine hohe Unsicherheit besteht. Nach Split sind Klassen sehr heterogen. Der durchschnittliche ist Informationsgewinn gering.
 
 Das neue Szenelokal in Karlsruhe hat momentan zwei Tagesmenüs im Einsatz. Um Kosten zu sparen möchte das Restaurant auf ein Tagesmenü pro Tag wechseln. Der Chefkoch hat das Gefühl das die Kunden wetterabhängig, das eine oder das andere Tagesmenü wählen.
-
-!\[\]\[59\]
 
 ![](../.gitbook/assets/grafik%20%2829%29.png)
 
@@ -330,7 +332,6 @@ A: Siehe oberhalb.
 
 A:
 
-!\[\]\[61\]
 
 ![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2810%29.png)
 
@@ -360,7 +361,7 @@ A: H\_0 \(5/8, 3/8\) = 0.95
 
 H\_Temperatur=\&lt;20° \(5/5; 0/5\) = 0
 
-H\_Temperatur=&rightarrow;20° \(0/3; 3/3\) = 0
+H\_Temperatur=größer 20° \(0/3; 3/3\) = 0
 
 Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \* \(3/8\) = 0.95
 
@@ -419,7 +420,7 @@ A: H\_0 \(5/8, 3/8\) = 0.95
 
 H\_Temperatur=\&lt;20° \(5/5; 0/5\) = 0
 
-H\_Temperatur=&rightarrow;20° \(0/3; 3/3\) = 0
+H\_Temperatur= größer 20° \(0/3; 3/3\) = 0
 
 Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \* \(3/8\) = 0.95
 
@@ -463,7 +464,7 @@ Durchschnittlicher Inf. G. C = \(0.47-0\) \* \(50/100\) + \(0.47-- 0.72\) \* \(5
 
 **Formel Entropie**
 
-Siehe \[hier\]\[56\].
+Siehe oberhalb.
 
 **Formel Informationsgewinn**
 
@@ -477,11 +478,9 @@ A: Attribut A, siehe vorherige Teil-Aufgabe.
 
 A:
 
-!\[\]\[67\]
-
 ![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%288%29.png)
 
-4. Ist der Entscheidungsbaum optimal? \(4P\)
+1. Ist der Entscheidungsbaum optimal? \(4P\)
 
 A:
 
