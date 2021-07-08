@@ -15,7 +15,6 @@ Zur Herkunft der Fragen:
 ## Big Data
 
 - F: *What are the characteristics of big data?* ⭐
-- A: 
   - volume
   - variety
   - velocity
@@ -25,7 +24,7 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *Explain three characteristics of big data?* ⭐
-- A: 
+
   - Volume refers to the sheer amount of data that is generated.
   - Variety refers to diversity of types of data. Data can come in structured, semi-structured or even unstructured types.
   - Velocity refers to the sheer speed at which data is generated (and processed).
@@ -34,12 +33,14 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *What is the difference between veracity and variety?* 
-- A:  Veracity refers to the quality of data (e. g. noise in data). While variety refers to types of data (e. g. unstructured data) in which data can come. As data is often collected from different sources both their types and their quality can differ.
+
+  Veracity refers to the quality of data (e. g. noise in data). While variety refers to types of data (e. g. unstructured data) in which data can come. As data is often collected from different sources both their types and their quality can differ.
 
 ## ML vs. Statistics vs. Econometrics
 - F: *Compare ML to Statistics. What are the most significant differences?* 
-- A: 
+  
   Statistics is:
+
     - based on hypothesis, then collection of data and analysis
     - model-oriented with an emphasize on parametric models
     - focus on understanding on hypothesis testing
@@ -54,7 +55,7 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *Compare ML to Econometrics. In which way do both differ?* 
-- A:  
+  
   Econometrics is:
     - concerned about casual interference and counterfactuals
     - mostly centred around linear regressions and complex structural models
@@ -67,7 +68,8 @@ Zur Herkunft der Fragen:
 ## Structure of data / CRISP-DM / Taxonomy
 
 - F: *What are characteristics of unstructured data? Explain them.* ⭐
-- A: Unstructured data is:
+  
+  Unstructured data is:
   - **Nonnumeric:** No predefined numeric representation for the constructs of interests. Must be defined.
   - **Multifaceted:** Each aspect of data provides unique information for studying and different types of research goals. E. g. voice data present information about the speaker such as pitch, speech rate. Data can be used both in psychology and communication.
   - **Concurrent representation:** Represents different phenomena at the same time. One can study different research questions with one single unstructured data.
@@ -75,7 +77,7 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *What is unsupervised learning?* ⭐
-- A: 
+  
   - Observe data and construct a low complexity description of the data. 
   - That means in unsupervised learning the dataset that a data set transforms into is *not previously known* or understood. Data is not labelled. (Grooking p. 13) 
 - Examples include clustering and PCA.
@@ -83,17 +85,16 @@ Zur Herkunft der Fragen:
 ---
 
 - F: *Give two examples for unsupervised learning techniques.* 
-- A: 
   - Clustering algorithms such as $$k$$-means
   - Dimensionality reduction techniques such as PCA
 
 ---
 
 - F: *Give examples for structured / unstructured data.* 
-  A: 
   **Unstructured:** (low degree of organization)
   - Video Data, as video comes in different formats, compression ratios, sizes, where the video has to be transformed first to extract information from every single frame
   - Image Data, just like videos.
+  
   **Structured:** (high degree of organization)
   - Numeric secondary data e. g. sales figures, as they come in a standardized format and easy to process format e. g. float with $$x$$ decimal places 
   - Categorial data e. g. gender, as there are predefined formats
@@ -102,45 +103,61 @@ Zur Herkunft der Fragen:
 
 - F: *Give a brief explanation of categorical, binary, ordinal and numeric variables.* 
 
-- F: *Which steps are part of the CRISP-DM model? Explain them in-depth.
+---
+
+- F: *Which steps are part of the CRISP-DM model? Explain them in-depth.*
+
+---
 
 - F: *Explain common techniques for data gathering.* 
-- A: 
+  
   - **Bulk downloads:** Downloading large amounts of data. Often done using sophisticated software.
   - **APIs:** Accessing data through machine readable interfaces. Examples include Google Maps API.
   - **Web Scraping:** Extraction of data from websites. Often done using bots and web crawlers or manually.
 
+---
+
 - F: *Why is it desirable to work on normalized data?* 
-- A: Some algorithms require normalized data, such as $$k$$-means clustering, which is 'isotropic' in all directions of space and therefore tens to produce more or less round  shapes. Not standardizing data would give more relative on variables with a smaller variance. ([See here.](https://stats.stackexchange.com/a/21226)) 
+
+  Some algorithms require normalized data, such as $$k$$-means clustering, which is 'isotropic' in all directions of space and therefore tens to produce more or less round  shapes. Not standardizing data would give more relative on variables with a smaller variance. ([See here.](https://stats.stackexchange.com/a/21226)) 
+
+---
 
 - F: *Explain common techniques to analyse the relationship between variables.* 
-- A: 
   - A scatter plot (or scatter diagram) is used to show the relationship between variables
   - Bar plot for high dimensional data
   - Mean graph for categorial data
   - Correlation analysis
 
+---
+
 - F: *How can missing data be replaced? Explain.* 
-- A:
+
   - **mean based imputation:** i. e. mean is calculated from all observations
   - **median based imputation:** Same as above but with median.
   - **stratified imputation:** i. e. structure of data is considered for replacements. E. g. missing height is different for gender male and female.
   - **regressed imputation:** i. e. replacing missing values by predictions of a regression model
 
+---
+
 - F: *Explain 3 patterns in which missing data can occur.* 
-- A:
+
   - **Completely random / MCAR:** Missing values have no pattern. Can not be predicted.
   - **Missing at random / MaR:** Missing values can be predicted using other data available for observation. Assign a categorial value.
   - **Latent, yet unknown variable:** Missing value depends on latent and highly correlated variable.
 
+---
+
 - F: *What is a training, test and validation set for?*
-- A:
   - **Training set** is used to fit all potential models
   - **Validation set** is used to select a model
   - **Test set** is used to estimate the predictive power on unseen data
 
+---
+
 - F: *What is the risk with tuning hyperparameters using a test dataset?* 🧑‍🚒
-- A: Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. (Berkley p. 14)
+  
+  Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. (Berkley p. 14)
 
 
 ## Multiple Linear Regression
@@ -152,7 +169,7 @@ Zur Herkunft der Fragen:
 - F: *Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?* 
 - F: *Name two measure to test the goodness of fit of a Linear Regression model. (&rightarrow; Total Sum of Squares / $$R^2$$) 
 - F: *Explain scenarios, where Ridge Regression would be preferred over LASSO.* 
-- F: *Write the definitions R^2, Adj. $$R^2$$, MAE, RMSE.* 
+- F: *Write the definitions $$R^2$$, Adj. $$R^2$$, MAE, RMSE.* 
 - F: *Compare $$R^2$$, Adj. $$R^2$$ to MAE, RMSE. Name advantages and drawbacks.*  
 - F: *Compare $$R^2$$, Adj. $$R^2$$ to MAE, RMSE. Which of these is normed.* 
 - F: *Explain the 3 steps in fitting a regression model.* 
