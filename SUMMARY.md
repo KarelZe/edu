@@ -32,21 +32,21 @@
 * [Anki-Deck](recommendersysteme/00_anki.md)
 * [Bonusübung](https://github.com/KarelZe/recommendersysteme)
 
-### Klausursammlung
+    ### Klausursammlung
 
-* [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
-* [Classification](recommendersysteme/02_classification.md)
-* [Mechanism Design Problems](recommendersysteme/03_mechanism_design_problems.md)
-* [Wert von Empfehlungen](recommendersysteme/04_wert_empfehlungen.md)
-* [Assoziationsregeln](recommendersysteme/05_assoziationsregeln.md)
-* [Ehrenberg](recommendersysteme/06_ehrenberg.md)
-* [Collaborative Filtering](recommendersysteme/09_collaborative_filtering.md)
-* [Clustering](recommendersysteme/10_clustering.md)
-* [Cluster Modularity](recommendersysteme/11_cluster_modularity.md)
-* [Hubs / Authorities](recommendersysteme/12_hubs_authoritities.md)
-* [Entscheidungsbäume](recommendersysteme/13_entscheidungsbaueme.md)
-* [Messung Benutzerverhalten](recommendersysteme/14_messung_benutzerverhalten.md)
-* [Relevante Objekte empfehlen](recommendersysteme/15_relevante_objekte.md)
+    * [Einführung / Grundlagen](recommendersysteme/01_einfuehrung.md)
+    * [Classification](recommendersysteme/02_classification.md)
+    * [Mechanism Design Problems](recommendersysteme/03_mechanism_design_problems.md)
+    * [Wert von Empfehlungen](recommendersysteme/04_wert_empfehlungen.md)
+    * [Assoziationsregeln](recommendersysteme/05_assoziationsregeln.md)
+    * [Ehrenberg](recommendersysteme/06_ehrenberg.md)
+    * [Collaborative Filtering](recommendersysteme/09_collaborative_filtering.md)
+    * [Clustering](recommendersysteme/10_clustering.md)
+    * [Cluster Modularity](recommendersysteme/11_cluster_modularity.md)
+    * [Hubs / Authorities](recommendersysteme/12_hubs_authoritities.md)
+    * [Entscheidungsbäume](recommendersysteme/13_entscheidungsbaueme.md)
+    * [Messung Benutzerverhalten](recommendersysteme/14_messung_benutzerverhalten.md)
+    * [Relevante Objekte empfehlen](recommendersysteme/15_relevante_objekte.md)
 
 ## Valuation
 
