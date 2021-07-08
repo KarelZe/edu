@@ -22,12 +22,16 @@ Zur Herkunft der Fragen:
   - veracity
   - value
 
+---
+
 - F: *Explain three characteristics of big data?* ⭐
 - A: 
   - Volume refers to the sheer amount of data that is generated.
   - Variety refers to diversity of types of data. Data can come in structured, semi-structured or even unstructured types.
   - Velocity refers to the sheer speed at which data is generated (and processed).
   - Veracity refers to the quality of data or accuracy of the collected data. To resolve data quality issues one has to apply sophisticated pre-processing.
+
+---
 
 - F: *What is the difference between veracity and variety?* 
 - A:  Veracity refers to the quality of data (e. g. noise in data). While variety refers to types of data (e. g. unstructured data) in which data can come. As data is often collected from different sources both their types and their quality can differ.
@@ -46,6 +50,8 @@ Zur Herkunft der Fragen:
     - analysis is data-driven not hypothesis-driven
     - analysis is algorithm-oriented rather than model-oriented
     - focus lies on prediction
+
+---
 
 - F: *Compare ML to Econometrics. In which way do both differ?* 
 - A:  
@@ -66,16 +72,22 @@ Zur Herkunft der Fragen:
   - **Multifaceted:** Each aspect of data provides unique information for studying and different types of research goals. E. g. voice data present information about the speaker such as pitch, speech rate. Data can be used both in psychology and communication.
   - **Concurrent representation:** Represents different phenomena at the same time. One can study different research questions with one single unstructured data.
 
+---
+
 - F: *What is unsupervised learning?* ⭐
 - A: 
   - Observe data and construct a low complexity description of the data. 
   - That means in unsupervised learning the dataset that a data set transforms into is *not previously known* or understood. Data is not labelled. (Grooking p. 13) 
 - Examples include clustering and PCA.
 
+---
+
 - F: *Give two examples for unsupervised learning techniques.* 
 - A: 
   - Clustering algorithms such as $$k$$-means
   - Dimensionality reduction techniques such as PCA
+
+---
 
 - F: *Give examples for structured / unstructured data.* 
   A: 
@@ -85,6 +97,8 @@ Zur Herkunft der Fragen:
   **Structured:** (high degree of organization)
   - Numeric secondary data e. g. sales figures, as they come in a standardized format and easy to process format e. g. float with $$x$$ decimal places 
   - Categorial data e. g. gender, as there are predefined formats
+
+---
 
 - F: *Give a brief explanation of categorical, binary, ordinal and numeric variables.* 
 
