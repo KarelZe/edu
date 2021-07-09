@@ -165,11 +165,33 @@ Zur Herkunft der Fragen:
     $$
     f^{*}(x)=\operatorname{argmin}_{f(x)} \mathrm{SSE} \Rightarrow f^{*}(x)=\mathbb{E}[y \mid x]
     $$
-* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
-* F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
-* F: \*Name two measure to test the goodness of fit of a Linear Regression model.
+* F: _Name two measure to test the goodness of fit of a Linear Regression model._
   * Total Sum of Squares \(SST\)
   * $$R^2$$ 
+* F: _Write the definitions_ $$R^2$$_, Adj._ $$R^2$$_, MAE, RMSE._ 
+  * $$R^{2}=1-\frac{S S E}{S S T}$$ 
+  * $$\text { Adjusted } R^{2}=1-\left(1-R^{2}\right)\left(\frac{n-1}{n-k-1}\right)$$ 
+  * $$\text{RMSE}=\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(y_{i}-\hat{y}_{i}\right)^{2}}$$ 
+  * $$\text{MAE}=\frac{1}{n} \sum_{i=1}^{n}\left|y_{i}-\hat{y}_{i}\right|$$ 
+* F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MSE, MAE and RMSE. Name advantages and drawbacks._  
+  * **MSE:**
+    * MSE is differentiable which is important for finding optima. \(+\)
+  * **MAE:** 
+    * The scale of MAE, RMSE depends on the scale of the dependent variable. \(-\)
+    * MAE is not differentiable. \(-\)
+    * MAE is more robust to outliers. \(+\)
+  * $$R^2$$ **:** 
+    * Measure always increases by adding new independent variables which can lead to the addition of redundant variables in the model. \(-\)
+* F: _Compare MAE to RMSE._
+  * **RMSE** penalizes large errors more than MAE. This can be useful if being off by 10 is more than twice as bad as being of by 5. If however being of by 5 is just as bad as being of by 10, MAE should be preferred. \([See here](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d).\)
+* F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MAE, RMSE. Which of these is normed._ 
+  * $$R^2$$ and Adj. $$R^2$$ between$$[0,1]$$.
+  * MAE, RMSE between$$[0, \infty)$$. If RMSE is acceptable depends on the scale of the variables. [\(see here\)](https://stats.stackexchange.com/a/56332). RMSE and MAE are $$0$$ for models with a perfect fit.
+* F: _In which way does adjusted_ $$R^2$$ _improve the standard_ $$R^2$$_?_ 
+
+  * A model might have a good fit in-sample but poor fit on out-of-sample, if to many regressors are used.
+  * Adj. $$R^2$$ is a $$R^2$$ which has been corrected by a penalty function and takes into account the number of $$k$$ regressors in the model.
+
 * F: _Explain scenarios, where Ridge Regression would be preferred over LASSO._ 
   * Ridge only performs parameter shrinkage and no variable selection.
   * Ridge regression is preferred if one wants to insert some prior knowledge into approach. With ridge one has the ability to say that all features have at least some weight, even if it is very little [\(See here.\)](https://qr.ae/pG4QYT)
@@ -177,14 +199,11 @@ Zur Herkunft der Fragen:
   * As with ridge regression, the LASSO shrinks the coefficient estimates towards zero.
   * However, in the case of LASSO some coefficient estimates are forced to be exactly equal to zero \(zeroed out\) when the tuning parameter $$\lambda$$ is sufficiently large. 
   * Therefore, LASSO does variable selection automatically and shrinkage of parameters.
-* F: _Write the definitions_ $$R^2$$_, Adj._ $$R^2$$_, MAE, RMSE._ 
-* F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MAE, RMSE. Name advantages and drawbacks._  
-* F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MAE, RMSE. Which of these is normed._ 
+* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
+* F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
 * F: _Explain the 3 steps in fitting a regression model._ 
-* F: _What is the advantage of using_ $$R^2$$ _over SST?_ 
-* F: _In which way does adjusted_ $$R^2$$ _improve the standard_ $$R^2$$_?_ 
 * F: _Explain the purpose of conducting an ANOVA test?_ 
-* F: _Is the F-static normalized?_ What values can the F static take?\* 
+* F: _Is the F-static normalized?_ _What values can the F static take_
 * F: _How can the significance of a model be tested?_ 
 * F: _Why does the improvement when adding new explanatory variables follow a chi-squared distribution with one degree of freedom?_ 
 * F: _What is problematic about Multicollinearity?_ 
@@ -243,8 +262,8 @@ Zur Herkunft der Fragen:
 * F: _When classifying why is it not just sufficient to look at the accuracy?_ 
 * F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
 * F: _How can a standard 2x2 confusion matrix be enhanced for a multi-classification case?_ 
-* F: _Are ROC curves / is AUC sensitive to imbalanced data?_ If yes, how can it be resolved?\* 
-* F: \*What kinds of datasets are difficult for a linear classifier to correctly classify?
+* F: _Are ROC curves / is AUC sensitive to imbalanced data? If yes, how can it be resolved?_
+* F: _What kinds of datasets are difficult for a linear classifier to correctly classify?_
 
 ## Cross-Validation
 
