@@ -54,7 +54,8 @@ Nur Merkmal Methode ist diskret, auf der Abbildung kann es 4 mögliche Werte ann
 * **Item-Item-Relation**: "Kunden, die dieses Produkt kauften, kauften auch:" \(z. B: Amazon\). Hier wird nur auf Basis des aktuellen Produktes ein Produkt empfohlen, was häufig zusammen mit dem aktuellen Produkt gekauft wird. Dabei spielt nur die Eigenschaft, des zusammengekauft werden eine Rolle. Eigenschaften des Nutzers spielen keine Rolle.
 * **Inhaltsanalyse**: Empfehlung aufgrund von ähnlichen Attributen, z.B. wenn man auf Amazon Bücher eines bestimmten Genres gekauft hat, werden oft Bücher desselben Autors oder desselben Genres vorgeschlagen -&gt; "Bücher, die Ihnen gefallen könnten".
 * **Nicht personalisiert**: "Beliebte Artikel, die ihnen vielleicht gefallen:" \(Amazon\). Hier werden Artikel vorgeschlagen, die allgemein beliebt sind. Z. B. Die in einem Zeitraum am häufigsten betrachteten/gekauften Artikel. Es fließen keine Informationen zum Benutzer und seinem aktuellen und bisherigen Verhalten ein.
-* Nennen Sie für jede Merkmalsausprägung aus Aufgabenteil \(2\) einen Recommenderdienst aus der Industrie. Beschreiben und begründen Sie Ihre Wahl in 2-3 Sätzen. \(12P.\)
+
+F: _Nennen Sie für jede Merkmalsausprägung aus Aufgabenteil \(2\) einen Recommenderdienst aus der Industrie. Beschreiben und begründen Sie Ihre Wahl in 2-3 Sätzen._ \(12P.\)
 
 A:
 
