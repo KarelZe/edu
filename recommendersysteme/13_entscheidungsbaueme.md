@@ -296,14 +296,14 @@ A: Siehe oberhalb.
 
 A:
 
-**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 32$$ gilt;
+**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\cdots,i - 1,i + 1,\cdots, 32$$ gilt;
 
-Bei Sicherheit über Ergebnis verschwindet Entropie, dann ist $$H\, = \, 0$$.
+Bei Sicherheit über Ergebnis verschwindet Entropie, dann ist $$H = 0$$.
 
-**Maximal:** Liegt Gleichverteilung vor, d. h. $$p\_{i} = \frac{1}{32}$$. Dann gilt:
+**Maximal:** Liegt Gleichverteilung vor, d. h. $$p_{i} = \frac{1}{32}$$. Dann gilt:
 
 $$
-H = - \log\_{2}\left\( \frac{1}{32} \right\) = 5
+H = - \log_{2}\left\( \frac{1}{32} \right\) = 5
 $$ 
 
 \(Vgl. Folie 38\)
@@ -337,13 +337,13 @@ A:
 
 **Informationsgewinn:**
 
-A: H\_0 \(5/8, 3/8\) = 0.95
+A: $$H_{0} (5/8, 3/8) = 0.95$$
 
-H\_Wetter=sonnig\(4/6; 2/6\) = 0.92
+$$H\_{\text{Wetter=sonnig} = \(4/6; 2/6\) = 0.92$$
 
-H\_Wetter=bewölkt\(1/2; 1/2\) = 1
+$$H_{\text{Wetter=bewölkt} = \(1/2; 1/2\) = 1$$
 
-Durchschnittlicher Inf. G. Wetter = \(0.95-0.92\) \* \(6/8\) + \(0.95 -- 1\) \* \(2/8\) = 0.01
+$$\text{Durchschnittlicher Inf. G. Wetter} =(0.95-0.92) \times (6/8) + (0.95 - 1) \times (2/8) = 0.01$$
 
 4. Halten Sie aus diesem Grund das Wetter für ein aussagekräftiges Output Attribut. Begründen Sie in 3 Sätzen. \(2P.\)
 
@@ -416,13 +416,13 @@ A:
 
 **Informationsgewinn:**
 
-A: $$H\_0 \(5/8, 3/8\) = 0.95$$
+A: $$H\_0 (5/8, 3/8) = 0.95$$
 
-H\_Temperatur=\&lt;20° $$\(5/5; 0/5\) = 0$$
+H\_Temperatur=\&lt;20° $$(5/5; 0/5) = 0$$
 
-H\_Temperatur= größer 20° $$\(0/3; 3/3\) = 0$$
+H\_Temperatur= größer 20° $$(0/3; 3/3) = 0$$
 
-Durchschnittlicher Inf. G. Temperatur = $$\(0.95-0\) \times \(5/8\) + \(0.95 - 0\) \times \(3/8\) = 0.95$$
+Durchschnittlicher Inf. G. Temperatur = $$(0.95-0) \times (5/8) + (0.95 - 0) \times (3/8) = 0.95$$
 
 Bei der Entwicklung eines neuen Sensors zur Früherkennung von Stoffwechselstörungen wurde die Existenz von drei Enzymen \(A, B, und C\) im Blut gemessen:
 
@@ -438,33 +438,33 @@ A:
 
 A: 
 
-$$H_0 \(90/100, 10/100\) = 0.47$$
+$$H_0 (90/100, 10/100) = 0.47$$
 
-$$H_A=1\(85/85; 0/85\) = 0$$
+$$H_A=1(85/85; 0/85) = 0$$
 
-$$H_A=0\(5/15; 10/15\) = 0.92$$
+$$H_A=0(5/15; 10/15) = 0.92$$
 
 Durchschnittlicher Inf. G. A = $$\(0.47-0\) \times \(85/100\) + \(0.47 - 0.92\) \times \(15/100\) = 0.33$$
 
 B: 
-$$H_0 \(90/100, 10/100\) = 0.47$$
+$$H_0 (90/100, 10/100) = 0.47$$
 
-$$H_B=1\(80/80; 0/80\) = 0$$
+$$H_B=1(80/80; 0/80) = 0$$
 
-$$H_B=0\(10/20; 10/20\) = 1$$
+$$H_B=0(10/20; 10/20) = 1$$
 
-Durchschnittlicher Inf. G. B = $$\(0.47-0\) \times \(80/100\) + \(0.47 -- 1\) \times \(20/100\) = 0.27$$
+Durchschnittlicher Inf. G. B = $$(0.47-0) \times (80/100) + \(0.47 - 1) \times (20/100) = 0.27$$
 
 C: 
 
-$$H_0 \(90/100, 10/100\) = 0.47$$
+$$H_0 (90/100, 10/100) = 0.47$$
 
-$$H_C =1\(50/50; 0/50\) = 0$$
+$$H_C =1(50/50; 0/50) = 0$$
 
-$$H_C=0\(40/50; 10/50\) = 0.72$$
+$$H_C=0(40/50; 10/50) = 0.72$$
 
 Durchschnittlicher Inf. G. C = 
-$$\(0.47-0\) \times \(50/100\) + \(0.47- 0.72\) \times \(50/100\) = 0.11$$
+$$(0.47-0) \times (50/100) + (0.47- 0.72) \times (50/100) = 0.11$$
 
 **Ergebnis:** Enzym A sollte gewählt werden, weil höchster Informationsgehalt.
 
