@@ -272,17 +272,28 @@ Zur Herkunft der Fragen:
 
 ## Classification Evaluation
 
+* F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
+  * ![](../.gitbook/assets/confusion_matrix.svg) 
+* F: _Define precision / recall / sensitivity / False Positive Rate._ 
+  * ![](../.gitbook/assets/grafik%20%283%29.png) 
+* F: _Is it better to have many false positives, or too many false negatives?_
+  * \([See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
 * F: _What is an imbalanced dataset in classification?_ ⭐
+  * A classification data set where class proportions are skrewed. A class is called majority class, if it makes up a large proportion of the data set. Classes that make up a small proportion are called minority classes. [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
 * F: _How do you deal with imbalanced data in classification?_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * _An effective way to treat imbalanced data is to downsample and upweight the majority class._ 
+  * _Downsampling means training on a disproportionaly low subset of the majority class examples._
+  * _Upweight means adding an example weight to the downsampled class equal to the factor by which you downsampled._ [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
+  * Alternative: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+* F: _When classifying why is it not just sufficient to look at the accuracy?_
+  * 
 * F: _Why is it a bad idea to evaluate your algorithm on the training set?_ 🧠
+  * 
 * F: _What is the advantage/disadvantage of_ $$k$$_-fold CV vs. Hold-out method?_
 * F: _Give an example for True Positive Rates etc.?_ 
 * F: _Explain what precision and recall are. How do they relate to the ROC-Curve?_
 * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* F: _Is it better to have many false positives, or too many false negatives?_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* F: _Draw a ROC Curve for given metrics._
+* * F: _Draw a ROC Curve for given metrics._
 * F: _Interpret a ROC Curve._ 
 * F: _How is the AUC be calculated?_ 
 * F: _Accuracy should not be the only criteria when comparing classifiers. Name 4 others._ 
@@ -292,11 +303,7 @@ Zur Herkunft der Fragen:
 * F: _In which way does the F-measure improve over simpler measure like precision?_ 
 * F: _How is the F measure defined?_ 
 * F: _What values can a F measure take?_ 
-* F: _Define precision / recall / sensitivity / False Positive Rate._ 
 * F: _Give an intuition for precision / recall / sensitivity..._ 
-* F: _Derive a confusion matrix from given TP, FP..._ 
-* F: _When classifying why is it not just sufficient to look at the accuracy?_ 
-* F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
 * F: _How can a standard 2x2 confusion matrix be enhanced for a multi-classification case?_ 
 * F: _Are ROC curves / is AUC sensitive to imbalanced data? If yes, how can it be resolved?_
 * F: _What kinds of datasets are difficult for a linear classifier to correctly classify?_
