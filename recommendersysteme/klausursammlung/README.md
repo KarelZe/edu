@@ -14,6 +14,12 @@
 
 {% page-ref page="06\_ehrenberg.md" %}
 
+{% page-ref page="09\_collaborative\_filtering.md" %}
+
+{% page-ref page="10\_clustering.md" %}
+
+{% page-ref page="11\_cluster\_modularity.md" %}
+
 {% page-ref page="12\_hubs\_authoritities.md" %}
 
 {% page-ref page="13\_entscheidungsbaueme.md" %}
