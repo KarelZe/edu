@@ -69,7 +69,7 @@ A:
 
 * Entwicklung der University of Berkely California
 * Explizite Bewertung von einem Set aus 15 Witzen
-* Bewertung der Witze auf einer Skala von --15 bis +15
+* Bewertung der Witze auf einer Skala von -15 bis +15
 * Danach Vorschlag von Witzen nach eigenem Geschmack und erneutes Sammeln von Daten
 
 F: _Wie geht ein CF-Recommender mit neu hinzukommenden Produkten um? Wie mit neuen Usern?_ \(2\*3=6P.\)
@@ -206,7 +206,7 @@ Nein, Standard-Collaborative Filterung betrachtet immer nur die Ähnlichkeit des
 
 ![](../../.gitbook/assets/grafik%20%2827%29.png)
 
-• Geben Sie eine naive Prognose für das Rating des Films der Herr der Ringe für den Benutzer Anton an! \(5 Punkte\)
+F: _Geben Sie eine naive Prognose für das Rating des Films der Herr der Ringe für den Benutzer Anton an!_ \(5 Punkte\)
 
 A:
 
@@ -214,7 +214,7 @@ Mittleres Rating von Rater Anton $A$.
 
 $${\widetilde{x}}_{A} = \frac{1}{n}\sum_{}^{}{}\, s_{A} = \frac{4 + 4 + 1 + 5 + 2}{5} = \frac{16}{5}$$
 
-• Mit welchem Maß messen Sie die Abhängigkeit im Ratingverhalten zwischen zwei Benutzern? \(5 Punkte\)
+F: _Mit welchem Maß messen Sie die Abhängigkeit im Ratingverhalten zwischen zwei Benutzern?_ \(5 Punkte\)
 
 A:
 
@@ -222,7 +222,7 @@ Um die Abhängigkeit zwischen zwei Benutzern zu messen, kann der Pearson'sche Ko
 
 $$r_{\text{kl}} = \frac{\text{cov}\left( s_{k},s_{l} \right)}{\sigma_{k}\sigma_{l}} = \frac{\sum_{i}^{}\mspace{2mu}\left( x_{i,k} - {\overline{x}}_{k} \right)\left( x_{i,l} - {\overline{x}}_{l} \right)}{\sqrt{\sum_{i}^{}\mspace{2mu}\left( x_{i,k} - {\overline{x}}_{k} \right)^{2}}\sqrt{\sum_{i}^{}\mspace{2mu}\left( x_{i,l} - {\overline{x}}_{l} \right)^{2}}}$$
 
-• Berechnen Sie die Abhängigkeit zwischen Anton und Dora sowie zwischen Anton und Emil! \(5 Punkte\)
+F: _Berechnen Sie die Abhängigkeit zwischen Anton und Dora sowie zwischen Anton und Emil!_ \(5 Punkte\)
 
 A:
 
