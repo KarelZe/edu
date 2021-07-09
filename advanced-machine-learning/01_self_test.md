@@ -286,14 +286,18 @@ Zur Herkunft der Fragen:
   * _Upweight means adding an example weight to the downsampled class equal to the factor by which you downsampled._ [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
   * Alternative: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _When classifying why is it not just sufficient to look at the accuracy?_
-  * 
-* F: _Why is it a bad idea to evaluate your algorithm on the training set?_ 🧠
-  * 
-* F: _What is the advantage/disadvantage of_ $$k$$_-fold CV vs. Hold-out method?_
+  *  Accuracy assigns equal costs to false positives and false negatives. 
+  * If classes are highly imbalanced a high accuracy can easily achieved with low cost by predicting the majority class.
+  * However, if different costs are assigned to every error e. g. low cost for false positives, but high costs for misses, accuracy can't take into account the different costs. [\(see here\)](https://stats.stackexchange.com/a/312783)
 * F: _Give an example for True Positive Rates etc.?_ 
+  * ![](../.gitbook/assets/matrix.jpg) 
+  * [\(see here\)](https://www.answerminer.com/blog/confusion-matrix-explained)
+* F: _Why is it a bad idea to evaluate your algorithm on the training set?_ 🧠
+  * Training error \(error of learning method on seen data\) is quite different from test error rate, and in particular the former can be quite different from the test error rate, and in particular the former can underestimate the latter.
+  * One reason to  use a seperate test set is to avoid overfitting.
 * F: _Explain what precision and recall are. How do they relate to the ROC-Curve?_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* * F: _Draw a ROC Curve for given metrics._
+  * \([See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
+* F: _Draw a ROC curve for given metrics._
 * F: _Interpret a ROC Curve._ 
 * F: _How is the AUC be calculated?_ 
 * F: _Accuracy should not be the only criteria when comparing classifiers. Name 4 others._ 
@@ -316,7 +320,8 @@ Zur Herkunft der Fragen:
 * F: _Explain purged_ $$k$$_-fold cross-validation._ ⭐
 * F: _How should we divide data into training and testing for a time series dataset?_ ⭐
 * F: _What are bias and variance, and what are their relation to modelling data?_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * [\(See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
+* F: _What is the advantage/disadvantage of_ $$k$$_-fold CV vs. Hold-out method?_
 * F: _Name at least techniques for cross validation._
 * F: _Explain_ $$k$$_-fold cross-validation._ 
 * F: _Explain the validation set approach?_ 
