@@ -1,6 +1,6 @@
 # Entscheidungsbäume
 
-Sie sind Manager eines Internet-Geschenke Portals. Analysieren Sie die Kaufsituation Ihrer Kunden und identifizieren Sie für die Kaufentscheidung wesentliche Attribute.
+F: *Sie sind Manager eines Internet-Geschenke Portals. Analysieren Sie die Kaufsituation Ihrer Kunden und identifizieren Sie für die Kaufentscheidung wesentliche Attribute.*
 
 A:
 
@@ -31,7 +31,7 @@ Wesentliche Attribute:
   * Emotional
   * ...
 
-Der Kundendialog soll mit Hilfe von Entscheidungsbäumen optimal gesteuert werden. Erläutern Sie kurz, wie ein Entscheidungsbaum gelernt werden kann und wie er dann zur Dialogsteuerung verwendet werden kann.
+F: *Der Kundendialog soll mit Hilfe von Entscheidungsbäumen optimal gesteuert werden. Erläutern Sie kurz, wie ein Entscheidungsbaum gelernt werden kann und wie er dann zur Dialogsteuerung verwendet werden kann.*
 
 A:
 
@@ -47,21 +47,21 @@ siehe oberhalb.
 
 **Dialogsteuerung:** Für jedes Produkt wird ein Entscheidungsbaum gelernt. Von Wurzel aus werden Attribute über den Kunden abgefragt. Blätter des Baums enthalten dann, ob Produkt empfohlen wird, oder nicht. Alle Produkte mit Entscheidungsbäume mit „Empfohlen" werden ausgegeben.
 
-Wie prüfen Sie, ob gelernte Entscheidungsbäume gut für Ihr System geeignet sind?
+F: *Wie prüfen Sie, ob gelernte Entscheidungsbäume gut für Ihr System geeignet sind?*
 
 A:
 
 Siehe oberhalb.
 
-Die Geschäftsführung der Nützlinge Online GmbH stellt fest, dass es den B2C-Kunden schwerfällt, die für sie richtigen Nützlinge auszuwählen. Sie sollen einen Empfehlungsdienst bauen, der dem Endkunden je nach Schädlingsbefall über Diagnosefragen einen geeigneten Nützling empfiehlt \(Sind die Blätter von Milben entfallen? Wenn ja, empfehlen wir die Raubmilbe\)
+F: *Die Geschäftsführung der Nützlinge Online GmbH stellt fest, dass es den B2C-Kunden schwerfällt, die für sie richtigen Nützlinge auszuwählen. Sie sollen einen Empfehlungsdienst bauen, der dem Endkunden je nach Schädlingsbefall über Diagnosefragen einen geeigneten Nützling empfiehlt (Sind die Blätter von Milben entfallen? Wenn ja, empfehlen wir die Raubmilbe)*
 
-1. Was für eine Methode empfehlen Sie? \(2P\)
+1. *Was für eine Methode empfehlen Sie?* \(2P\)
 
 A:
 
 Entscheidungsbäume \(Decision Trees\)
 
-2. Die Geschäftsführung hat fünf Gärtner engagiert, die für Sie das notwendige Experten-Wissen entwickeln sollen. Die Gärtner nennen Ihnen 5 Dimensionen, nach denen eine Auswahl des Nützlings erfolgt \(Aussehen Wurzeln, Stamm, Blätter, Farbe und Geruch\). Skizzieren Sie einen geeigneten Fragebogen/Erfassungsbogen, den Sie den Gärtnern vorlegen. \(5P\)
+2. *Die Geschäftsführung hat fünf Gärtner engagiert, die für Sie das notwendige Experten-Wissen entwickeln sollen. Die Gärtner nennen Ihnen 5 Dimensionen, nach denen eine Auswahl des Nützlings erfolgt \(Aussehen Wurzeln, Stamm, Blätter, Farbe und Geruch\). Skizzieren Sie einen geeigneten Fragebogen/Erfassungsbogen, den Sie den Gärtnern vorlegen.* \(5P\)
 
 A:
 
@@ -95,11 +95,11 @@ Geruch ist ...
 * Stinkt
 * neutral
 
-3. Die Experten füllen den Erfassungsbogen aus. Nach welchem Maß M wählen Sie das erste, wichtigste Kriterium aus, das dem Kunden vorgelegt wird? \(3P\)
+3. *Die Experten füllen den Erfassungsbogen aus. Nach welchem Maß M wählen Sie das erste, wichtigste Kriterium aus, das dem Kunden vorgelegt wird?* \(3P\)
 
 A: Entropie nach Shannon im Information Gain.
 
-4. \[\]{\#entropie\_shannon .anchor}Geben Sie die mathematische Definition von M an. \(3P\)
+1. *Geben Sie die mathematische Definition von M an.* \(3P\)
 
 A:
 
@@ -113,7 +113,7 @@ Mit $$H\(y \mid x\) = - \sum_{i,j}^{}\mspace{2mu} p\(i,j\)\log_{2}p\(y = j \mid 
 
 A:
 
-**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 8$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $H\, = \, 0$.
+**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\, 8$$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $$H\, = \, 0$$.
 
 **Maximal:** Liegt Gleichverteilung vor, d. h. $$p\_{i} = \frac{1}{8}$$. Dann gilt:
 
@@ -147,11 +147,11 @@ A:
 
 **Teilfrage:**
 
-Was fehlt?: Outputvariable "Kauf" mit den jeweiligen Zielprädikaten "Ja" und "Nein" für alle Datensätze
+F: *Was fehlt?: Outputvariable "Kauf" mit den jeweiligen Zielprädikaten "Ja" und "Nein" für alle Datensätze*
 
 Wie oft welche Kombinationen vorkommen.
 
-3. Nennen Sie zwei Probleme, die Entscheidungsbäume haben können, wenn man sie mit \[\]{\#probleme\_entscheidungsbaum .anchor}Hilfe von Beispieldaten trainiert. Erklären Sie, wie es dazu kommt. \(4+4P.=8P.\)
+F: *Nennen Sie zwei Probleme, die Entscheidungsbäume haben können, wenn man sie mit Hilfe von Beispieldaten trainiert. Erklären Sie, wie es dazu kommt.* \(4+4P.=8P.\)
 
 A:
 
@@ -161,7 +161,7 @@ A:
 
 **Underfitting**: Der Baum ist nicht detailliert genug. Dies kann passieren, wenn er zu früh abgeschnitten \(gepruned\) wird und/oder es nicht genug Trainingsdaten gibt, d.h. die zugrundeliegenden Daten werden nicht ausreichend repräsentiert; die Entscheidungsebene wird zu simpel \(eigene\)
 
-Stellen Sie einen Entscheidungsbaum zum Kauf eines Handys graphisch dar \(6P.\):
+F: *Stellen Sie einen Entscheidungsbaum zum Kauf eines Handys graphisch dar \(6P.\)*:
 
 \(a\) OS: Android, iOS, Windows Mobile
 
@@ -173,19 +173,19 @@ A:
 
 ![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%2819%29.png)
 
-2. Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein "gutes" \(sollte früh abgefragt werden\)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das "beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können? \(6+5P.=11P.\)
+2. F: *Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein "gutes" \(sollte früh abgefragt werden\)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das "beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können?* \(6+5P.=11P.\)
 
 A: siehe oberhalb.
 
-3. Nennen Sie zwei Probleme, die Entscheidungsbäume haben können, wenn man sie mit Hilfe von Beispieldaten trainiert. Erklären Sie, wie es dazu kommt. \(4+4P.=8P.\)
+3. F: *Nennen Sie zwei Probleme, die Entscheidungsbäume haben können, wenn man sie mit Hilfe von Beispieldaten trainiert. Erklären Sie, wie es dazu kommt.* \(4+4P.=8P.\)
 
 A: Siehe oberhalb.
 
-Gegeben seien untenstehende Beobachtungsdaten. Es soll basierend auf Outlook, Temperature, Humidity und Wind vorhergesagt werden, ob Tennis gespielt werden soll, oder nicht.
+F: *Gegeben seien untenstehende Beobachtungsdaten. Es soll basierend auf Outlook, Temperature, Humidity und Wind vorhergesagt werden, ob Tennis gespielt werden soll, oder nicht.*
 
 ![](../.gitbook/assets/grafik%20%284%29.png)
 
-Wie entscheiden Sie, welches Attribut Sie als erstes in den Entscheidungsbaum einführen wollen? Erklären Sie dies in 5-6 Sätzen \(6P.\)
+1. F: *Wie entscheiden Sie, welches Attribut Sie als erstes in den Entscheidungsbaum einführen wollen? Erklären Sie dies in 5-6 Sätzen \(6P.\)*
 
 A: Vorlesung \(Folie 39+40\) grob in seinen Worten wiedergegeben
 
@@ -196,11 +196,11 @@ A: Vorlesung \(Folie 39+40\) grob in seinen Worten wiedergegeben
 * Berechne Informationsgewinn für das Attribut: H\(y\) - H\(y\|x\)
 * Gewählt wird das Attribut mit dem größten Informationsgewinn
 
-2. Geben Sie eine mathematische Definition der Entropie H nach Shannon. \(2P.\)
+2. F: *Geben Sie eine mathematische Definition der Entropie H nach Shannon.* \(2P.\)
 
 A: Siehe oberhalb.
 
-3. Wie hoch ist im obigen Beispiel, Reihen D1-D6, die Entropie von "Outlook"? \(5P.\)
+3. F: *Wie hoch ist im obigen Beispiel, Reihen D1-D6, die Entropie von "Outlook"?* \(5P.\)
 
 A:
 
@@ -213,13 +213,13 @@ H_{o}\left(\frac{3}{6} ; \frac{3}{6}\right)=
 -\frac{1}{2} \log _{2} \frac{1}{2}-\frac{1}{2} \log _{2} \frac{1}{2} \approx 1
 $$
 
-4. Erklären Sie: Was ist in obigem Beispiel der Informationsgewinn des Attributes "Outlook"? \(Nicht berechnen, nur erklären!\) \(5P.\)
+4. F: *Erklären Sie: Was ist in obigem Beispiel der Informationsgewinn des Attributes "Outlook"? \(Nicht berechnen, nur erklären!\)* \(5P.\)
 
 A:
 
 Zusatz:
 
-5. \[\]{\#entropie\_domain .anchor}Für ein beliebiges Attribut, nicht beschränkt auf das Beispiel: Wie groß kann die Entropie minimal und maximal werden? Wann ist dies der Fall? \(1+1+2,5+2,5=7P.\)
+5. F: *Für ein beliebiges Attribut, nicht beschränkt auf das Beispiel: Wie groß kann die Entropie minimal und maximal werden? Wann ist dies der Fall?* \(1+1+2,5+2,5=7P.\)
 
 A:
 
@@ -235,15 +235,15 @@ $$
 
 Entropie wird **maximal** bei Gleichverteilung.
 
-Sie wollen ein Gesundheitsportal aufbauen. Für einfache Krankheiten wollen Sie den Patienten mittels einer Selbstdiagnose unterstützen, pflanzliche, nebenwirkungsarme Medikamente für sich zu finden, die dieser dann bei Ihnen online bestellen kann. Beispiel: Es ist Frühjahr, der Patient berichtet Husten, vermehrte Schleimbildung und erhöhte Temperatur. Empfehlung: Umkaloabo gegen akute Bronchitis.
+*Sie wollen ein Gesundheitsportal aufbauen. Für einfache Krankheiten wollen Sie den Patienten mittels einer Selbstdiagnose unterstützen, pflanzliche, nebenwirkungsarme Medikamente für sich zu finden, die dieser dann bei Ihnen online bestellen kann. Beispiel: Es ist Frühjahr, der Patient berichtet Husten, vermehrte Schleimbildung und erhöhte Temperatur. Empfehlung: Umkaloabo gegen akute Bronchitis.*
 
-1. Welche Methode würden Sie für diesen Dienst einsetzen? Begründen Sie in einem Satz. \(2P.\)
+1. F: *Welche Methode würden Sie für diesen Dienst einsetzen? Begründen Sie in einem Satz.* \(2P.\)
 
 A:
 
 Es sollte ein Entscheidungsbaum verwendet werden, da dieser anhand gegebener Attributausprägungen wie Temperatur oder Husten \(ja / nein\), eine Produktempfehlung generieren lässt. Die Attributkombinationen für ein Medikament könnte durch Experten anhand des Beipackzettels generiert werden. Recommender wie Collaborative Filterung oder Association Rules sind im medizinischen Bereich sogar gefährlich.
 
-2. Sie sollen einen geeigneten Erfassungsbogen für Experten \(Ärzte, Apotheker\) entwickeln. Für den Anfang erfassen Sie folgende Symptome: Körpertemperatur, Allgemeinbefinden, betroffene Körperbereiche, Dauer der Erkrankung, Alter des Patienten, Jahreszeit. Skizzieren Sie einen geeigneten Fragebogen/Erfassungsbogen, den Sie den Experten vorlegen. \(5P.\)
+2. F: *Sie sollen einen geeigneten Erfassungsbogen für Experten \(Ärzte, Apotheker\) entwickeln. Für den Anfang erfassen Sie folgende Symptome: Körpertemperatur, Allgemeinbefinden, betroffene Körperbereiche, Dauer der Erkrankung, Alter des Patienten, Jahreszeit. Skizzieren Sie einen geeigneten Fragebogen/Erfassungsbogen, den Sie den Experten vorlegen.* \(5P.\)
 
 A:
 
@@ -284,15 +284,15 @@ Jahreszeit ist
 * Herbst
 * Winter
 
-3. Die Experten füllen den Erfassungsbogen aus. Nach welchem Maß M wählen Sie das erste, wichtigste Kriterium aus, das der Patient beantworten soll? \(3P.\)
+3. F: *Die Experten füllen den Erfassungsbogen aus. Nach welchem Maß M wählen Sie das erste, wichtigste Kriterium aus, das der Patient beantworten soll?* \(3P.\)
 
 A: Entropie nach Shannon enthalten im Informationsgewinn.
 
-4. Geben Sie die mathematische Definition von M an. \(3P.\)
+4. F: *Geben Sie die mathematische Definition von M an.* \(3P.\)
 
 A: Siehe oberhalb.
 
-5. Das wichtigste Kriterium sei der betroffene Körperbereich. Ihre Experten geben 32 Merkmalsausprägungen an. Wie groß kann M in diesem Fall minimal bzw. maximal werden? \(3+3P.\)
+5. F: *Das wichtigste Kriterium sei der betroffene Körperbereich. Ihre Experten geben 32 Merkmalsausprägungen an. Wie groß kann M in diesem Fall minimal bzw. maximal werden?* \(3+3P.\)
 
 A:
 
@@ -308,7 +308,7 @@ $$
 
 \(Vgl. Folie 38\)
 
-6. Was bedeutet ein minimaler bzw. maximaler Wert? \(3+3P.\)
+6. F: Was bedeutet ein minimaler bzw. maximaler Wert?* \(3+3P.\)
 
 A:
 
@@ -316,19 +316,19 @@ Ein **maximaler Wert** \(d. h. $$0$$\) bedeutet, dass ein Attribut perfekt die O
 
 Ein **minimaler Wert** \(d. h. $$5$$\) bedeutet, dass eine hohe Unsicherheit besteht. Nach Split sind Klassen sehr heterogen. Der durchschnittliche ist Informationsgewinn gering.
 
-Das neue Szenelokal in Karlsruhe hat momentan zwei Tagesmenüs im Einsatz. Um Kosten zu sparen möchte das Restaurant auf ein Tagesmenü pro Tag wechseln. Der Chefkoch hat das Gefühl das die Kunden wetterabhängig, das eine oder das andere Tagesmenü wählen.
+*Das neue Szenelokal in Karlsruhe hat momentan zwei Tagesmenüs im Einsatz. Um Kosten zu sparen möchte das Restaurant auf ein Tagesmenü pro Tag wechseln. Der Chefkoch hat das Gefühl das die Kunden wetterabhängig, das eine oder das andere Tagesmenü wählen.*
 
 ![](../.gitbook/assets/grafik%20%2829%29.png)
 
-1. Geben Sie die mathematische Formel für die Entropie an und erklären Sie die verwendeten Variablen. \(2\*1,5=3P.\)
+1. F: *Geben Sie die mathematische Formel für die Entropie an und erklären Sie die verwendeten Variablen.* \(2\*1,5=3P.\)
 
 A: Siehe oberhalb.
 
-2. Wie groß kann die Entropie minimal und maximal werden? Wann ist dies jeweils der Fall? \(Bitte beantworten Sie diese Frage allgemein für ein Attribut und ohne Bezug auf den Use-Case\). \(2\*1,5=3P.\)
+2. F: *Wie groß kann die Entropie minimal und maximal werden? Wann ist dies jeweils der Fall? \(Bitte beantworten Sie diese Frage allgemein für ein Attribut und ohne Bezug auf den Use-Case\).* \(2\*1,5=3P.\)
 
 A: Siehe oberhalb.
 
-3. Berechnen Sie den Informationsgehalt des Inputattributes Wetter mit Hilfe eines Entscheidungsbaums. Geben Sie auch Ihre Zwischenergebnisse und den Teilbaum für Wetter an. Zeichen Sie den Teilbaum. \(10P.\)
+3. F: *Berechnen Sie den Informationsgehalt des Inputattributes Wetter mit Hilfe eines Entscheidungsbaums. Geben Sie auch Ihre Zwischenergebnisse und den Teilbaum für Wetter an. Zeichen Sie den Teilbaum.* \(10P.\)
 
 A:
 
@@ -416,13 +416,13 @@ A:
 
 **Informationsgewinn:**
 
-A: H\_0 \(5/8, 3/8\) = 0.95
+A: $$H\_0 \(5/8, 3/8\) = 0.95$$
 
-H\_Temperatur=\&lt;20° \(5/5; 0/5\) = 0
+H\_Temperatur=\&lt;20° $$\(5/5; 0/5\) = 0$$
 
-H\_Temperatur= größer 20° \(0/3; 3/3\) = 0
+H\_Temperatur= größer 20° $$\(0/3; 3/3\) = 0$$
 
-Durchschnittlicher Inf. G. Temperatur = \(0.95-0\) \* \(5/8\) + \(0.95 -- 0\) \* \(3/8\) = 0.95
+Durchschnittlicher Inf. G. Temperatur = $$\(0.95-0\) \times \(5/8\) + \(0.95 - 0\) \times \(3/8\) = 0.95$$
 
 Bei der Entwicklung eines neuen Sensors zur Früherkennung von Stoffwechselstörungen wurde die Existenz von drei Enzymen \(A, B, und C\) im Blut gemessen:
 
@@ -430,35 +430,41 @@ Bei der Entwicklung eines neuen Sensors zur Früherkennung von Stoffwechselstör
 
 ![](../.gitbook/assets/grafik%20%2833%29.png)
 
-1. Berechnen Sie den Informationsgewinn für jedes der drei Attribute \(9P\) und geben Sie die Formel für die Entropie und den Informationsgewinn an \(2\*2 = \(4P\)\).
+1. F: *Berechnen Sie den Informationsgewinn für jedes der drei Attribute \(9P\) und geben Sie die Formel für die Entropie und den Informationsgewinn an.* \(2\*2 = \(4P\)\).
 
 A:
 
 **Informationsgewinn:**
 
-A: H_0 \(90/100, 10/100\) = 0.47
+A: 
 
-H_A=1\(85/85; 0/85\) = 0
+$$H_0 \(90/100, 10/100\) = 0.47$$
 
-H_A=0\(5/15; 10/15\) = 0.92
+$$H_A=1\(85/85; 0/85\) = 0$$
 
-Durchschnittlicher Inf. G. A = \(0.47-0\) \* \(85/100\) + \(0.47 -- 0.92\) \* \(15/100\) = 0.33
+$$H_A=0\(5/15; 10/15\) = 0.92$$
 
-B: H_0 \(90/100, 10/100\) = 0.47
+Durchschnittlicher Inf. G. A = $$\(0.47-0\) \times \(85/100\) + \(0.47 - 0.92\) \times \(15/100\) = 0.33$$
 
-H_B=1\(80/80; 0/80\) = 0
+B: 
+$$H_0 \(90/100, 10/100\) = 0.47$$
 
-H_B=0\(10/20; 10/20\) = 1
+$$H_B=1\(80/80; 0/80\) = 0$$
 
-Durchschnittlicher Inf. G. B = \(0.47-0\) \* \(80/100\) + \(0.47 -- 1\) \* \(20/100\) = 0.27
+$$H_B=0\(10/20; 10/20\) = 1$$
 
-C: H_0 \(90/100, 10/100\) = 0.47
+Durchschnittlicher Inf. G. B = $$\(0.47-0\) \times \(80/100\) + \(0.47 -- 1\) \times \(20/100\) = 0.27$$
 
-H\_C =1\(50/50; 0/50\) = 0
+C: 
 
-H\_C=0\(40/50; 10/50\) = 0.72
+$$H_0 \(90/100, 10/100\) = 0.47$$
 
-Durchschnittlicher Inf. G. C = \(0.47-0\) \* \(50/100\) + \(0.47-- 0.72\) \* \(50/100\) = 0.11
+$$H_C =1\(50/50; 0/50\) = 0$$
+
+$$H_C=0\(40/50; 10/50\) = 0.72$$
+
+Durchschnittlicher Inf. G. C = 
+$$\(0.47-0\) \times \(50/100\) + \(0.47- 0.72\) \times \(50/100\) = 0.11$$
 
 **Ergebnis:** Enzym A sollte gewählt werden, weil höchster Informationsgehalt.
 
@@ -470,17 +476,17 @@ Siehe oberhalb.
 
 $$\Delta H\ = \ H(y) - H(y \mid x)$$
 
-2. Welches der Attribute sollte als erstes für den Aufbau eines Entscheidungsbaums verwendet werden? \(4P\)
+2. F. *Welches der Attribute sollte als erstes für den Aufbau eines Entscheidungsbaums verwendet werden?* \(4P\)
 
 A: Attribut A, siehe vorherige Teil-Aufgabe.
 
-3. Zeichnen Sie den kompletten Entscheidungsbaum! \(4P\)
+3. F: *Zeichnen Sie den kompletten Entscheidungsbaum!* \(4P\)
 
 A:
 
 ![\(Eigene Darstellung\)](../.gitbook/assets/grafik%20%288%29.png)
 
-1. Ist der Entscheidungsbaum optimal? \(4P\)
+4. F: *Ist der Entscheidungsbaum optimal?* \(4P\)
 
 A:
 
