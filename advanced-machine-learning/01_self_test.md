@@ -188,10 +188,23 @@ Zur Herkunft der Fragen:
   * $$R^2$$ and Adj. $$R^2$$ between$$[0,1]$$.
   * MAE, RMSE between$$[0, \infty)$$. If RMSE is acceptable depends on the scale of the variables. [\(see here\)](https://stats.stackexchange.com/a/56332). RMSE and MAE are $$0$$ for models with a perfect fit.
 * F: _In which way does adjusted_ $$R^2$$ _improve the standard_ $$R^2$$_?_ 
-
   * A model might have a good fit in-sample but poor fit on out-of-sample, if to many regressors are used.
   * Adj. $$R^2$$ is a $$R^2$$ which has been corrected by a penalty function and takes into account the number of $$k$$ regressors in the model.
-
+* F: _Explain the 3 steps in fitting a regression model._ 
+  * **Specification:** 
+    * Determine dependent and explantory variables. 
+    * Exclude explantory variables without predicitive power. 
+    * Collect data for dependent and explanatory variables.
+  * **Fitting / Estimating:**
+    * Estimating regression coefficients.
+  * **Diagnosis:**
+    * Determine the quality of the regression model with e. g. $$R^2$$, adj.$$R^2$$ , MSE and MAE.
+    * Determine the models significance and the significance of the regression coefficients.
+    * Analyse standard deviation of regression erros.
+* F: _Why is it not desirable to use Linear Regression for default prediction?_ 
+  * In default prediction one searches for proability of default $$\operatorname{Pr}(\text { default }=\text { Yes } \mid \text { balance })$$ , which ranges between $$0$$ and $$1$$ .
+  * Fitting a line between to a binary response variable \(1 = default / 0 = non-default\), could lead to estimates outside the $$[0,1]$$ interval, making them hard to interpret as probabilities i. e. if probabilities are negative.
+  * Nevertheless, the predictions provide an ordering and can be interpreted as crude probability estimates.
 * F: _Explain scenarios, where Ridge Regression would be preferred over LASSO._ 
   * Ridge only performs parameter shrinkage and no variable selection.
   * Ridge regression is preferred if one wants to insert some prior knowledge into approach. With ridge one has the ability to say that all features have at least some weight, even if it is very little [\(See here.\)](https://qr.ae/pG4QYT)
@@ -201,7 +214,6 @@ Zur Herkunft der Fragen:
   * Therefore, LASSO does variable selection automatically and shrinkage of parameters.
 * F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
 * F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
-* F: _Explain the 3 steps in fitting a regression model._ 
 * F: _Explain the purpose of conducting an ANOVA test?_ 
 * F: _Is the F-static normalized?_ _What values can the F static take_
 * F: _How can the significance of a model be tested?_ 
@@ -221,18 +233,28 @@ Zur Herkunft der Fragen:
 * F: _Explain the concept of heteroscedasticity for regression errors._ 
 * F: _Define the coefficient of partial determination._ 
 * F: _How do the coefficient of partial determination and F-test relate?_ 
-* F: _Why is it not desirable to use Linear Regression for default prediction?_ 
 
 ## Logistic Regression
 
-* F: _In which day does logistic regression and linear regression differ?_
+* F: _In which way do logistic regression and linear regression differ?_
+  * _Linear regression is applied to **regression problems**, whereas logistic regression is used for **classification**._
+  * _The loss function in linear regression is calculated using SSE, whereas in logistic regression it's maximum likelihood estimation._
+  * _The output of linear regression is continous. The output of logistic regression is discrete_
 * F: _Explain what logistic regression is._ 
+  * Logistic regression gives outputs between 0 and 1. To do so, a logistic function is used:$$p(X)=\frac{e^{\beta_{0}+\beta_{1} X}}{1+e^{\beta_{0}+\beta_{1} X}}$$, which produces a S-shaped like curve.
 * F: _How is the maximum likelihood estimated in a logistic regression setting?_ 
+* F: _How can logistic regression enhanced to a multiple logistic regression case?_ 
+
+  * We can generalize to the following form: 
+
+  $$ p(X)=\frac{e^{\beta_{0}+\beta_{1} X_{1}+\ldots+\beta_{p} X_{p}}}{1+e^{\beta_{0}+\beta_{1} X_{1}+\ldots+\beta_{p} X_{p}}} $$ , where $$ X=\left(X_{1}, \ldots, X_{P}\right)$$ are $$p$$ is the number of predictors.
+
+  * $$\log \left(\frac{p(X)}{1-p(X)}\right)=\beta_{0}+\beta_{1} X_{1}+\ldots+\beta_{P} X_{P}$$ 
+
 * F: _What are the advantages of logistic regression over SVMs?_
 * F: _What is the effect on the coefficients of logistic regression if two predictors are highly correlated?_
 * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Calculate the probabilities of ... using logistic regression model._
-* F: _How can logistic regression enhanced to a multiple logistic regression case?_ 
 
 ## Classification Evaluation
 
@@ -525,4 +547,5 @@ Zur Herkunft der Fragen:
 ## Misc
 
 * F: _Techniques that can be used for default prediction._ ⭐
+  * logistic regression
 
