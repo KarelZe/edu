@@ -241,8 +241,16 @@ Zur Herkunft der Fragen:
   * _The loss function in linear regression is calculated using SSE, whereas in logistic regression it's maximum likelihood estimation._
   * _The output of linear regression is continous. The output of logistic regression is discrete_
 * F: _Explain what logistic regression is._ 
-  * Logistic regression gives outputs between 0 and 1. To do so, a logistic function is used:$$p(X)=\frac{e^{\beta_{0}+\beta_{1} X}}{1+e^{\beta_{0}+\beta_{1} X}}$$, which produces a S-shaped like curve.
+  * Logistic regression is a classification approach. 
+  * It is a predictive analysis that describes data and explains the relationship between variables.
+  * Logistic regression gives discrete outputs between 0 and 1 for an input variable $$X$$. To do so, a logistic function is utilized:$$p(X)=\frac{e^{\beta_{0}+\beta_{1} X}}{1+e^{\beta_{0}+\beta_{1} X}}$$, which produces a S-shaped like curve.
+  * The regression coefficients $$(\beta_0, \beta_1X_1+\cdots+\beta_PX_P)$$ are estimated using the maximum likelihood method.
 * F: _How is the maximum likelihood estimated in a logistic regression setting?_ 
+  * We try to maximize likelihood to estimate the parameters:
+
+    $$\ell\left(\beta_{0}, \beta_{1}\right)=\prod_{i: y_{i}=1} p\left(x_{i}\right) \prod_{i: y_{i}=0}\left(1-p\left(x_{i}\right)\right)$$ 
+
+  * The estimates $$\beta_0$$ and $$\beta_1$$ are chosen to  maxize the likelihood of the observed data.
 * F: _How can logistic regression enhanced to a multiple logistic regression case?_ 
 
   * We can generalize to the following form: 
@@ -252,9 +260,15 @@ Zur Herkunft der Fragen:
   * $$\log \left(\frac{p(X)}{1-p(X)}\right)=\beta_{0}+\beta_{1} X_{1}+\ldots+\beta_{P} X_{P}$$ 
 
 * F: _What are the advantages of logistic regression over SVMs?_
+  * _When classes are \(nearly\) separable, SVM does better than logistic regression._ \(-\)
+  * _When not, logistic regression with \(ridge penalty\) and SVMs are very similar._\(+\)
+  * If probability estimates are need, logistic regression is the best choice. \(+\)
+  * logistic regression is fast and very easy to interpret. Good as baseline. \(+\)
+  * Kernels in logistic regression are computionally expensive \(-\)
 * F: _What is the effect on the coefficients of logistic regression if two predictors are highly correlated?_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* F: _Calculate the probabilities of ... using logistic regression model._
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+* F: _Calculate the probabilities of the credit card example using logistic regression model._
+  * _See script p. 18._
 
 ## Classification Evaluation
 
@@ -459,6 +473,8 @@ Zur Herkunft der Fragen:
 * F: _Explain what is referred to as_ feature expansion\*?
 * F: _Name and define kernels that can be used with SVMs._
 * F: _Compare SVMs to logistic regression_
+  * Logistic regression focuses on maximizing the probability of the data. The farther the data lies from the separating hyperplane \(on the correct side\), the better logistic regression is.
+  * An SVM tries to find the separating hyperplane that maximizes the distance of the closest points to the margin \(the support vectors\). If a point is not a support vector, it doesn't really mater  [\(see here.\)](http://www.cs.toronto.edu/%7Ekswersky/wp-content/uploads/svm_vs_lr.pdf)
 * A:
   * When classes are not linearly separable, SVM does better than logistic regression. \([See here](https://stats.stackexchange.com/a/95348)\)
   * Otherwise, the performance of logistic regression \(with ridge penalty\) and SVM are very similar. 
