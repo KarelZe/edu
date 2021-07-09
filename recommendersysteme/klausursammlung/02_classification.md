@@ -69,7 +69,7 @@ A:
 
 **Nicht-personalisiert**
 
-* **E-Bay -- Feedback Profile**
+* **E-Bay - Feedback Profile**
 * Kunden geben sich gegenseitig Feedback, nicht zu Produkten!
 * Das durchschnittliche und individuelle Feedback steht dann den Käufern zur Verfügung, um zu entscheiden, ob ein bestimmter Verkäufer ein gutes Risiko darstellt, und den Verkäufern, um zu entscheiden, ob ein bestimmter Käufer ein gutes Risiko darstellt
 * Vorschlag: Netflix: "Heute Top 10 Filme in Deutschland"? --&gt; müssten ja für alle Personen in Deutschland gleich sein \(nicht 100%ig sicher, ob da was Persönliches einfließt\)
@@ -82,7 +82,7 @@ A:
 
 **Kunde-Kunde Relation**
 
-* My CDNOW
+* **My CDNOW**
 * Gesamte Kaufgeschichte des Kunden wird herangezogen.
 * Wenn Kunden bei My CDNOW Empfehlungen anfordern, sagt das System 6 Alben voraus, die dem Kunden gefallen könnten, basierend auf dem, was er bereits besitzt \(Vgl. Paper: 2001, Recommender Systems in E-Commerce\)
 
@@ -143,7 +143,7 @@ A:
 
 **Vorteil**:
 
-1. Systematische Klassifikation entlang der Datenprozesse
+* Systematische Klassifikation entlang der Datenprozesse
 
 **Nachteil**:
 
