@@ -1,6 +1,6 @@
 # Assoziationsregeln
 
-**5.1 Assoziationsregeln**
+### Assoziationsregeln
 
 Erläutern Sie den Einsatz von Assoziationsregeln für die Erstellung eines Recommendersystems.
 
@@ -13,17 +13,15 @@ Assoziationsregeln dienen der Identifikation von Korrelationen zwischen auftrete
 
 Ich hätte noch ergänzt: Recommendersysteme nutzen diese Regeln, um Produkte zu empfehlen. Assoziationsregeln sind immer in der Form X -&gt; Y. Wenn ein Nutzer Produkt\(e\) X in seinem Warenkorb hat, werden ihm Produkte Y empfohlen
 
-Gegeben seien die folgenden Warenkörbe: ${ a,d},{ a,b,d,e},{ a,c,d,f},{ d,e},{ b,d,f}$ Der Minimumsupport sei $s_{\min} = \frac{2}{5}$, die Minimumkonfidenz $c_{\min} = \frac{3}{5}$. Errechnen Sie die Supportwerte für die entstehenden Itemmengen nach dem apriori-Algorithmus. Markieren Sie dabei für diejenigen Itemmengen, die aus der Betrachtung gelöscht werden, ob dies aufgrund der Apriori-Regel geschieht oder aufgrund des zu niedrigen, berechneten Supports. Welche Regeln würden bei der gegebenen Konfidenzschranke entstehen?
+_Gegeben seien die folgenden Warenkörbe:_ $$\{ a,d\},\{ a,b,d,e\},\{ a,c,d,f\},\{ d,e\},\{ b,d,f\}.$$ _Der Minimumsupport sei_ $$s_{min} = \frac{2}{5}$$ _, die Minimumkonfidenz_ $$c_{min} = \frac{3}{5}$$ _._
+
+F: _Errechnen Sie die Supportwerte für die entstehenden Itemmengen nach dem apriori-Algorithmus. Markieren Sie dabei für diejenigen Itemmengen, die aus der Betrachtung gelöscht werden, ob dies aufgrund der Apriori-Regel geschieht oder aufgrund des zu niedrigen, berechneten Supports. Welche Regeln würden bei der gegebenen Konfidenzschranke entstehen?_
 
 A:
 
 Anmerkung: Rote Prune Werte -&gt; Löschung Aufgrund Apriori-Regel
 
-> Rote Support-Werte -&gt; Löschung aufgrund zu niedrigen Support-Wert
-
-$C_{\min} = \frac{3}{5};s_{\min} = \frac{2}{5}$.
-
-!\[\]\[14\]
+$$c_{min} = \frac{3}{5};s_{min} = \frac{2}{5}$$ .
 
 ![\(Eigene Darstellung\)](../../.gitbook/assets/grafik%20%282%29.png)
 
@@ -41,7 +39,7 @@ A:
 **Nachteil:**
 
 1. Verfahren berücksichtigt keine statistischen Zusammenhänge z. B. besteht keine Möglichkeit Ergebnisse statistisch zu interpretieren
-2. Erfordert die Vorgabe zwei externen, nicht aus dem Modell begründbare Parameter $s_{\min}$ und $c_{\min}$.
+2. Erfordert die Vorgabe zwei externen, nicht aus dem Modell begründbare Parameter $$s_{min}$$ und $$c_{min}$$ .
 3. Parameter lassen sich ex ante nur schwer bestimmen. \(Folie 52 + 53\)
 
 Erläutern Sie den Einsatz von Assoziationsregeln für die Erstellung eines Recommendersystems und beschreiben Sie den Assoziationsregelalgorithmus.
@@ -58,7 +56,7 @@ Schritt 2:
 
 Berechne welche Teile der Itemmenge \(X\Y\) fast nie ohne die restlichen Teile der Menge \(Y\) gekauft werden \(Konfidenz\). "Fast nie" wird durch cmin festgelegt. \(Folie 30; Übung\)
 
-Gegeben seien die folgenden Warenkörbe: {a, b, d}, {d, f}, {b, e}, {b, d, e}, {a, b, d, e}, {a, c, d, f }. Der Minimumsupport smin = 1/2, die Minimumkonfidenz cmin = 3/4. Errechnen Sie die Supportwerte für die entstehenden Itemmengen nach dem apriori-Algorithmus. Markieren Sie dabei für diejenigen Itemmengen, die aus der Betrachtung gelöscht werden. Führen Sie alle möglichen Schritte aus. \(10P.\)
+Gegeben seien die folgenden Warenkörbe: $$\{a, b, d\}, \{d, f\}, \{b, e\}, \{b, d, e\}, \{a, b, d, e\}, \{a, c, d, f \}$$ . Der Minimumsupport smin = 1/2, die Minimumkonfidenz cmin = 3/4. Errechnen Sie die Supportwerte für die entstehenden Itemmengen nach dem apriori-Algorithmus. Markieren Sie dabei für diejenigen Itemmengen, die aus der Betrachtung gelöscht werden. Führen Sie alle möglichen Schritte aus. \(10P.\)
 
 Welche Regeln würden bei der gegebenen Konfidenzschranke entstehen? Hier reicht es, wenn Sie die Konfidenzwertberechnung anhand von 6 Beispielen veranschaulichen.
 
@@ -66,13 +64,13 @@ A:
 
 ![\(Eigene Darstellung\)](../../.gitbook/assets/grafik%20%287%29.png)
 
-Sie arbeiten als IT-Leiter für die \"Nützlinge Online GmbH\", die Nützlinge, z.B. Marienkäfer, online anbietet und via Post an Endkunden verschickt. Ihr Auftrag lautet, für die Geschäftsführung einen Assoziationsregel-Recommender zu entwickeln. Ziel ist es, dem Kunden bei Interesse an einem Nützling \(z.B. Marienkäfer\) einen anderen ebenfalls geeigneten Nützling \(z.B. Schlupfwespe\) zu empfehlen.
+Sie arbeiten als IT-Leiter für die "Nützlinge Online GmbH", die Nützlinge, z.B. Marienkäfer, online anbietet und via Post an Endkunden verschickt. Ihr Auftrag lautet, für die Geschäftsführung einen Assoziationsregel-Recommender zu entwickeln. Ziel ist es, dem Kunden bei Interesse an einem Nützling \(z.B. Marienkäfer\) einen anderen ebenfalls geeigneten Nützling \(z.B. Schlupfwespe\) zu empfehlen.
 
-1. Beschreiben Sie für die Geschäftsführung folgende Schritte: Woraus und wie wird die Empfehlung generiert? Wie kann die Empfehlung dem Kunden präsentiert werden? Geben Sie Definitionen für die bei einem Assoziationsregel-Recommenderdienst wichtigen Begriffe Support und Confidence. \(3+3+3P\)
+F: _Beschreiben Sie für die Geschäftsführung folgende Schritte: Woraus und wie wird die Empfehlung generiert? Wie kann die Empfehlung dem Kunden präsentiert werden? Geben Sie Definitionen für die bei einem Assoziationsregel-Recommenderdienst wichtigen Begriffe Support und Confidence._ \(3+3+3P\)
 
 A:
 
-Wir betrachten eine Menge I = i1, i2, ..., im von Items \(Nützlinge\) und eine Reihe T= \(t1,t2,...,tn\) von Transaktionen. Jede Transaktion enthält mindestens ein Item. Wir suchen nun häufige Assoziationsregel X-&gt;Y \(Wenn ein Kunde die Menge X gekauft hat, empfiehl ihm Y\)
+Wir betrachten eine Menge $$I = i_1, i_2, \cdots$$ _, im von Items \(Nützlinge\) und eine Reihe_ $$T= (t_1,t_2,\cdots,t_n)$$ von Transaktionen. Jede Transaktion enthält mindestens ein Item. Wir suchen nun häufige Assoziationsregel X-&gt;Y \(Wenn ein Kunde die Menge X gekauft hat, empfiehl ihm Y\)
 
 Falls ein Kunde sich für einen Marienkäfer entschieden hat, wird dieser auf der Benutzeroberfläche eine Liste mit weiteren Empfehlungen zu diesem Marienkäufer angezeigt.
 
@@ -80,13 +78,13 @@ Support: Sagt aus, wie oft ein Item oder eine Menge von Items zusammengekauft wi
 
 Confidence: Sagt aus, wie oft die Itemmenge X und Y zusammengekauft werden, wenn X gekauft wurde.
 
-1. Welche personenbezogenen Daten müssen Sie mindestens speichern? Begründen Sie kurz. \(4P\)
+F: _Welche personenbezogenen Daten müssen Sie mindestens speichern? Begründen Sie kurz_. \(4P\)
 
 A:
 
 Die Transaktionen der Kunden. Transaktionen der Kunden mit den jeweiligen Items sind der Input für den Assoziationsregel Algorithmus. Ohne diesen Input können keine Empfehlungen für den Kunden erzeugt werden. \(bin ich mir aber unsicher\).
 
-1. Klassifizieren Sie einen entsprechende Assoziationsregel-Recommender nach Schafer et al. für die Merkmale Methode, Gedächtnislänge und notwendige Kundenaktivität für den Erhalt der Empfehlung. Wenn Sie Annahmen treffen, geben Sie diese an. \(2+2+2P\)
+F: _Klassifizieren Sie einen entsprechende Assoziationsregel-Recommender nach Schafer et al. für die Merkmale Methode, Gedächtnislänge und notwendige Kundenaktivität für den Erhalt der Empfehlung. Wenn Sie Annahmen treffen, geben Sie diese an._ \(2+2+2P\)
 
 A:
 
@@ -96,13 +94,13 @@ A:
 
 **Kundenaktivität, um Empfehlung zu erhalten:** Empfehlung wird Kunden automatisch bereitgestellt.
 
-1. Ein Geschäftsführer meint: \"Wieviel billiger wird Ihr Recommender, wenn Sie den Teil zur Auswahl geeigneter Kandidaten weglassen? Kaufen Sie einen neuen schnellen Rechner und berechnen Sie alle möglichen Kombinationen. Was antworten Sie? \(Sie wissen, dass Sie derzeit 1.000 Nützlinge anbieten\). \(6P\)
+F: _Ein Geschäftsführer meint: "Wieviel billiger wird Ihr Recommender, wenn Sie den Teil zur Auswahl geeigneter Kandidaten weglassen? " Kaufen Sie einen neuen schnellen Rechner und berechnen Sie alle möglichen Kombinationen. Was antworten Sie? \(Sie wissen, dass Sie derzeit 1.000 Nützlinge anbieten\)._ \(6P\)
 
 A:
 
 Ohne Einsatz externer Parameter \(smin, cmin\) müssen 1000! Produktkombinationen berechnet werden. Dazu ist nicht einmal ein schneller Rechner in kurzer Zeit in der Lage. Es scheitert somit an der Skalierbarkeit. Ein Problem ist auch, dass man dann zwingend eine Datenbank braucht, da definitiv nicht mehr alles in den RAM passt -&gt; ggf. wieder zusätzliche Kosten durch DB Server.
 
-**5.2 Assoziationsregel-Recommender**
+### **Assoziationsregel-Recommender**
 
 Ordnen Sie einen Assoziationsregel-Recommenderdienst gemäß der Dimension "Methode" nach Schafer et al. ein. Begründen Sie kurz. \(3P.\)
 
