@@ -1,6 +1,6 @@
 # Wert von Empfehlungen
 
-**4.1 Explizite Empfehlungen**
+### **Explizite Empfehlungen**
 
 Empfehlungen kann man als **öffentliches Gut** sehen. Was kennzeichnet ein öffentliches Gut. \(4P.\)
 
@@ -53,19 +53,19 @@ A:
 
 Geg:
 
-* r=10
-* s= -2
-* p\(init\) =0,8
-* g= 0,95
-* b=0,9
+* $$r=10$$ 
+* $$s= -2$$ 
+* $$p(\text{init}) =0.8$$ 
+* $$g= 0.95$$ 
+* $$b=0.9$$ 
 
 Ges: **Payoff von A bei sofortigem Konsum**
 
 $$\rho\ = \ p*g\ + \ (1 - p)*(1 - b)$$
 
-$$\rho\ = \ 0,8*0,95\ + \ (1 - 0,8)*(1 - 0,9) = \ 0,78$$
+$$\rho = 0.8*0.95 + (1 - 0.8)*(1 - 0.9) = 0.78$$
 
-$$Payoff(A) = \ 10*0,78\ + \ ( - 2)*(1 - 0,78)\ = \ 7,36\ \$$
+$$Payoff(A) = 10*0.78+ \ ( - 2)*(1 - 0.78) = 7.36$$
 
 • Wie hoch ist die Wahrscheinlichkeit, dass ein Buch gut ist, wenn das Buch bereits einmal gut bewertet wurde? \(6 Punkte\)
 
@@ -73,9 +73,9 @@ A:
 
 **Geg:**
 
-* $\rho\_{1} = 0,78$
-* $p\_{1} = 0,8$
-* $g =  0,95$
+* $$\rho_{1} = 0.78$$ 
+* $$p_{1} = 0.8$$ 
+* $$g =  0.95$$ 
 
 **Ges:** A priori für Produkt ist gut, wenn es bereits einmal gut bewertet wurde.
 
@@ -85,7 +85,7 @@ $$p_{2}^{+} = \left( gp_{1} \right)/\rho_{1} = \left( \frac{95}{100}\frac{8}{10}
 
 A:
 
-$$\mathrm{\text{\ Payoff\ }}_{A} = \sum_{A\mathrm{\text{\ konsumiert\ in\ }}i}^{}\mspace{2mu} f_{i}\left( \rho_{i}\text{Pa}y_{A}^{+} + \left( 1 - \rho_{i} \right)\mathrm{\text{\ Pay\ }}_{A}^{-} \right).$$
+$$\mathrm{\text{Payoff }}_{A} = \sum_{\text{A konsumiert in i}}^{} f_{i}\left( \rho_{i}\text{Pay}_{A}^{+} + \left( 1 - \rho_{i} \right)\mathrm{\text{Pay}}_{A}^{-} \right).$$
 
 **Payoff sofortiger Konsum:**
 
@@ -93,13 +93,13 @@ $$\mathrm{\text{\ Payoff\ }}_{A} = \sum_{A\mathrm{\text{\ konsumiert\ in\ }}i}^{
 
 **Payoff, wenn Produkt einmal gut bewertet wurde:**
 
-* $f\_{2}:1 \* 0,78 = 0,78$
+$$f_{2}:1 * 0.78 = 0.78$$ 
 
 $$p_{2}^{+} = \frac{38}{39}$$
 
 $$\rho_{2}^{+} = p_{2}^{+}g + \left( 1 - p_{2}^{+} \right)(1 - b) = \frac{38}{39}\frac{95}{100} + \left( 1 - \frac{38}{39} \right)\left( 1 - \frac{90}{100} \right) = \frac{181}{195}$$
 
-$\mathrm{\text{ Payoff }}\_{A} = \frac{78}{100}\left\( \frac{181}{195}10 + \frac{14}{195}\*\( - 2\) \right\) = 7.13 $
+$$\mathrm{\text{ Payoff }}_{A} = \frac{78}{100}\left( \frac{181}{195}10 + \frac{14}{195}*( - 2) \right) = 7.13$$ 
 
 • Wie hoch ist der Gewinn für Teilnehmer A, wenn er mit dem Lesen wartet, bis das Buch einmal gut bewertet worden ist? \(1 Punkt\)
 
@@ -107,7 +107,7 @@ A:
 
 Da Payoff „Warten" kleiner dem Payoff bei sofortigem Konsum ist, gilt für Gewinn:
 
-$$7,13\ –\ 7,36\ = \ - 0,23$$
+$$7.13 – 7.36 = - 0.23$$
 
 • Wie wird das Marktgleichgewicht im 2-Runden Batchspiel ermittelt? \(6 Punkte\)
 
@@ -160,7 +160,7 @@ A:
 
 Situation, in der zwei Spieler warten, da sie jeweils bei uninformiertem Konsum einen negativen Erwartungswert haben. Optimal wäre jedoch der unmittelbare Konsum durch einen Spieler und das Warten durch den anderen. Warten ist dann eine strikt dominante Strategie. Das heißt, egal was ein Spieler macht, dann profitiert der andere Spieler vom „Nicht-Konsum" in der ersten Runde. Das Nash-Gleichgewicht ist bei \(Warten, Warten\) mit Payoff 0 und zeigt damit die natürliche Tendenz zur Unterversorgung mit Informationen, da sich keiner der Spieler darum kümmert, was seine Informationen anderen Spielern ermöglichen \(Underprovisioning; Avery et. al\).
 
-**4.2 Das Empfehlungsakquisitionsspiel nach Avery**
+### **Das Empfehlungsakquisitionsspiel nach Avery**
 
 Berechnen Sie die fehlenden Werte für das untenstehende Empfehlungsakquisitionsspiel im Modus "eine Empfehlung je Runde". Ein Ast nach oben bedeutet "gute Empfehlung", ein Ast nach unten "schlechte Empfehlung". Es sind nur die fehlenden Werte im Baum zu berechnen. Keine Punkte ohne Rechenweg. \(20P.\)
 
@@ -290,7 +290,7 @@ Payoff\(B\) = -2,5 \(keine Anwendung max-Operator, sonst gleich zu oben\)
 
 Payoff\(C\) = 2,8 \(Anwendung Max-Operator\)
 
-Gesamt-Payoff = 0 -- 2,5 + 2,8 = 0,3
+Gesamt-Payoff = 0 - 2,5 + 2,8 = 0,3
 
 1. Ist dies die optimale Allokation für alle Spieler? Begründen Sie. \(6P.\)
 
@@ -303,8 +303,6 @@ es sofort tun, was gegeben ist. Zusätzlich gilt \($r_{A} \geq r_{B}$\) oder auc
 Da C immer einen ungünstigeren Payoff als andere Spieler hat, sollte er mit der Bewertung abwarten.
 
 C würde aber Produkt nicht mehr evaluieren, nachdem Produkt durch A und B für schlecht befunden wurde bzw. durch A für gut und für B für schlecht befunden wurde, da sein Payoff am Knoten dann negativ wäre. Insofern müsste an beiden Knoten \(Pfad ud bzw. dd\) ein „\(-\)" stehen. Baum ist damit **nicht** optimal.
-
-!\[\]\[13\]
 
 ![](../../.gitbook/assets/grafik%20%2816%29.png)
 
