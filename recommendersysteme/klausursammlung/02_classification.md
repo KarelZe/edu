@@ -42,7 +42,7 @@ F: _Zeichnen Sie ein Diagramm zur Veranschaulichung des Klassifikationssystems v
 
 A:
 
-![](../../.gitbook/assets/grafik%20%2828%29.png)
+![](../../.gitbook/assets/grafik%20%2822%29.png)
 
 F: _Erklären Sie jede Merkmalsausprägung jedes diskreten Merkmals in 2 Sätzen._ \(8P.\)
 
@@ -89,7 +89,7 @@ F: _Skizzieren Sie in einer Grafik die Methode zur Klassifikation nach Schafer e
 
 A:
 
-![](../../.gitbook/assets/grafik%20%2822%29.png)
+![](../../.gitbook/assets/grafik%20%2822%29%20%281%29.png)
 
 F: _Ordnen Sie einen Assoziationsregel-Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz._ \(3P.\)
 
