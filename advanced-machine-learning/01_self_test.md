@@ -173,6 +173,10 @@ Zur Herkunft der Fragen:
   * $$\text { Adjusted } R^{2}=1-\left(1-R^{2}\right)\left(\frac{n-1}{n-k-1}\right)$$ 
   * $$\text{RMSE}=\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(y_{i}-\hat{y}_{i}\right)^{2}}$$ 
   * $$\text{MAE}=\frac{1}{n} \sum_{i=1}^{n}\left|y_{i}-\hat{y}_{i}\right|$$ 
+* F: _Give an intution for_ $$R^2$$ _, MAE and RMSE._
+  * $$R^2$$**:** How well can my model explain the variance?
+  * **MAE:** How does the model perform on average?
+  * **RMSE:** How many large prediction derivations does the model have? \(lecture BDA p. 43\)
 * F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MSE, MAE and RMSE. Name advantages and drawbacks._  
   * **MSE:**
     * MSE is differentiable which is important for finding optima. \(+\)
@@ -276,8 +280,14 @@ Zur Herkunft der Fragen:
   * ![](../.gitbook/assets/confusion_matrix.svg) 
 * F: _Define precision / recall / sensitivity / False Positive Rate._ 
   * ![](../.gitbook/assets/grafik%20%283%29.png) 
+* F: _Give an intuition for precision / recall / sensitivity..._ 
+  * **Accuracy**: The share of instance that are correctly classified
+  * **Precision**: Of examples recognized as cat, what % are actually cats? 95 % means: When classifier says 'cat', in 95 % it is a cat.
+  * **Recall:**  Of all images that really are cats, what % were correctly recognized? Of all cats in the data, classifier pulled 90 % of them. \(BDA lecture, slide 43\)
 * F: _Is it better to have many false positives, or too many false negatives?_
   * \([See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
+* F: _How can a standard_ $$2 \times 2 $$ _confusion matrix be enhanced for a multi-classification case?_ 
+  * 
 * F: _What is an imbalanced dataset in classification?_ ⭐
   * A classification data set where class proportions are skrewed. A class is called majority class, if it makes up a large proportion of the data set. Classes that make up a small proportion are called minority classes. [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
 * F: _How do you deal with imbalanced data in classification?_
@@ -296,21 +306,74 @@ Zur Herkunft der Fragen:
   * Training error \(error of learning method on seen data\) is quite different from test error rate, and in particular the former can be quite different from the test error rate, and in particular the former can underestimate the latter.
   * One reason to  use a seperate test set is to avoid overfitting.
 * F: _Explain what precision and recall are. How do they relate to the ROC-Curve?_
-  * \([See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
-* F: _Draw a ROC curve for given metrics._
+  * \([see here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
+* F: Explain what a ROC curve is.
+  * A ROC vurve is a diagnostic tool to investigate a classifier with different threshold values and the effect on the true positive rate and the false positive rate. It allows to select the best parameter combinations of the classification model.
+* F: _Draw a ROC curve._
+  * ![](../.gitbook/assets/roc-draft-xkcd-style.svg) 
+* F: _How can a ROC curve be enhanced to multi-class model?_
+  * We plot n number of ROC curves for n classifiers using a One vs. All methodolgy. So for example, ifyou have three classes named $$X$$ , $$Y $$ and Z, another ROC for y classified against X and Z, and the third one of Z classified against Y and X.
+* F: _Derive a receiver opterating characteristic \(ROC\) Curve from classification results._
+  * \(see exam St. Andrews\)
 * F: _Interpret a ROC Curve._ 
+  * A  line close to the diagonal indicates the result of a random guess.
+  * A perfect classifier would yield a point in the upper left corner at \(0,1\). 
+* F: What is AUC?
+  * AUC stands for Area under the Curve and measures the entire two-dimensional area underneath the entire ROC curve from \(0,0\) to \(1,1\). \([see here.](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)\)
+  * It can be seen as the probability that a model ranks a random positive example more highly than a random negative example.
+* F: How can AUC be interpreted?
+  * AUC ranges from 0 to 1. 
+  * A model, that gets alle predictions wrong has an AUC of 0.
+  * A value of 0.5 or less indicates that the classifier performs the same or worse than the random model, while an AUC value of 1 implies the perfect classifier. \(Script p. 27\)
+  * For test [see here](https://developers.google.com/machine-learning/crash-course/classification/check-your-understanding-roc-and-auc).
 * F: _How is the AUC be calculated?_ 
-* F: _Accuracy should not be the only criteria when comparing classifiers. Name 4 others._ 
-* F: _Is Kappa static sensitive to imbalanced data?_ 
-* F: _How can Kappa static be interpreted?_ 
-* F: _How is Kappa static defined?_ 
-* F: _In which way does the F-measure improve over simpler measure like precision?_ 
-* F: _How is the F measure defined?_ 
-* F: _What values can a F measure take?_ 
-* F: _Give an intuition for precision / recall / sensitivity..._ 
-* F: _How can a standard 2x2 confusion matrix be enhanced for a multi-classification case?_ 
+  * AUC is the integral of the ROC curve.
+* F: Why is the AUC desirable?
+  * AUC is **scale-invariant**. It measures how well predictions are ranked, rather than their absolute values.
+  * AUC is **classification-threshold-invariant**. It measures the quality of the model's predictions irrespective of what classification threshold is chosen. \([see here.](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)\)
+* F: What values can AUC take?
+  * Between 0 and 1.
 * F: _Are ROC curves / is AUC sensitive to imbalanced data? If yes, how can it be resolved?_
+* F: _Accuracy should not be the only criteria when comparing classifiers. Name 4 others._ 
+  * Precision
+  * Recall
+  * True positive rate
+  * False positive rate
+  * F-measure
+  * Kappa Statistic
+* F: _How is Kappa statstic defined?_  
+  * $$\text { Kappa Statistic }=\frac{\left(P{a}-P{e}\right)}{\left(1-P_{e}\right)}$$ 
+  * where TP, TN, FP, and FN are defined in previous questions,  $$P{a}=[(\mathrm{TP}+\mathrm{TN}) / \mathrm{N}]$$, and $$P{e}=[(\mathrm{TP}+\mathrm{FN}] / \mathrm{N}][(\mathrm{TP}+\mathrm{FN}) / \mathrm{N}]$$.
+  * Fleiss' Kappa enhances Cohens Kappa to more than two raters.
+* F: _How can Kappa statistic be interpreted?_ 
+  * Kappa statistic is used to test **interrater reliability** between two raters.
+  * Cohen's Kappa tells you how much better a classifier is performing over the performance of another classifier randomly guessing according to the frequency of the class.
+  * Kappa value interpretation Landis & Koch \(1977\):
+    * &lt;0 No agreement 
+    * 0 — 0.20 Slight
+    * 0.21 — 0.40 Fair 
+    * 0.41 — 0.60 Moderate 
+    * 0.61 — 0.80 Substantial
+    * 0.81 – 1.00 Perfect
+* F: _What are disadvantages of_ $$\kappa$$_?_
+  * It's maximal value is not always 1. \([see here](https://de.wikipedia.org/wiki/Cohens_Kappa).\)
+* F: _Is Kappa statistic sensitive to imbalanced data?_
+  * Cohen's kappa can handle imbalanced data well.
+* F: _How is the_ $$F_1$$ _measure defined?_ 
+  * $$F_{1}=\frac{2}{\frac{1}{\text { precision}}+\frac{1}{\text { recall }}}=2 * \frac{\text { precision } * \text { recall }}{\text { precision }+\text { recall }}$$ 
+* F: _Give an intutition for the_ $$F_1$$ _-measure._
+  * _Combined measure of precision and recall to take trade-off into account._
+  * \_\_$$F_1$$ _is the harmonic mean between precision and recall._
+* F: _What values can a_ $$F_1$$ _measure take?_ 
+  * $$F_1$$ is at max 1, if precision and recall is perfect.
+  * $$F_1$$ is 0, if either precision or recall is 0.
+* F: _In which way does the_ $$F_1$$ _-measure improve over simpler measure like accuracy?_
+  * \_\_$$F_1$$ measure is useful, if costs for false positives or false negatives are different e. g. prediction of illness
+  * $$F_1$$ is useful, when data is imbalanced.
+  * However, accuracy is easier to interpret. \([see here.](https://deepai.org/machine-learning-glossary-and-terms/f-score)\)
 * F: _What kinds of datasets are difficult for a linear classifier to correctly classify?_
+  * _moon-shaped_
+  * _circular or interwoven shapes_
 
 ## Cross-Validation
 
