@@ -371,6 +371,11 @@ Zur Herkunft der Fragen:
   * \_\_$$F_1$$ measure is useful, if costs for false positives or false negatives are different e. g. prediction of illness
   * $$F_1$$ is useful, when data is imbalanced.
   * However, accuracy is easier to interpret. \([see here.](https://deepai.org/machine-learning-glossary-and-terms/f-score)\)
+* F. _How to access model performance? Name 4 criteria._
+  * Speed 
+  * Interpretability
+  * Robustness \(ability of the classifier to classify noisy data or data with missing values.\)
+  * Scalability \(ability of the classifier to work with large amount of data.\)
 * F: _What kinds of datasets are difficult for a linear classifier to correctly classify?_
   * _moon-shaped_
   * _circular or interwoven shapes_
