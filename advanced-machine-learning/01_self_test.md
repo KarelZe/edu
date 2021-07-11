@@ -535,22 +535,37 @@ Zur Herkunft der Fragen:
 
 ## Decision Trees
 
-* F: _Mention three characteristics of impurity measures?_ ⭐
-* F: _What are advantages of decision trees over random forests?_ ⭐
-* F: _How can continuous attributes be handled in Decision Trees?_ ⭐
 * F: _Explain what a decision tree is._
-* F: _What are useful splitting criterions?_ 🧠
-* F: _How can we influence the model complexity of the tree?_ 🧠
-* F: _Name 3 impurity measures._
-* F: _Compare the Gini-Coefficient to Entropy and the resubstitution error._
+  * A decision tree is a supervised learning algorithm that can be used used for regression and classification. 
+  * Decision Trees try to predict the class or a value of the target by stratifying or segmenting the predictor space into a number of simple regions.
+  * There are several measures to learn these splitting rules required for splitting data in a node into separate node. One of them is the Entropy.
+* F: _Mention three characteristics of impurity measures?_ ⭐
+  * resubstitution error
+  * Gini-Index
+  * Entropy
+* F: _What is the intutition behind an optimal split in a decision tree?_
+  * A split should lead to a subset that contains predominantly cases of one class.
+  * That means nodes should only contain cases of a single class only or homogenous.
 * F: _Name 3 conditions an impurity measure has to fulfil._
+  1. _An impurity measure of a node should be at a maximum when the observations are distrbuted evenly over all cases in that node, i. e. at:_ $$\left(\frac{1}{J}, \frac{1}{J}, \ldots, \frac{1}{J}\right)$$ 
+  2. An impurity measure of a node should be at minium when all observations belong to a single class in that node, i. e. at $$(1,0, \cdots, 0),(0,1,0, \cdots, 0), \cdots,(0,0, \cdots, 1)$$ 
+  3. $$\phi$$ is a symmetric function of $$p_{1}, \ldots, p_{J}$$.
+* F: _How can we influence the model complexity of the tree?_ 🧠
+* F: _Compare the Gini-Coefficient to Entropy and the resubstitution error._
+  * \_\_![](../.gitbook/assets/grafik%20%2845%29.png) __
 * F: _When should the Gini-Coefficient be used? When is it desirable to use the Entropy?_
 * F: _Explain how categorical features can be split?_
+* F: _How can continuous attributes be handled in Decision Trees?_ ⭐
 * F: _Explain how numerical features can be split?_
+  * _Assuming there are at most n distinct values of x. There are at most n-1 distinct splits of type x \leq c\_m, where c\_m are taken halfway between consecutive distinct values of x._
 * F: _What is the motivation to prune a decision tree?_
 * F: _Explain how growing a decision tree works?_
 * F: _How can decision trees be applied to a regression case?_
 * F: _Name several advantages / disadvantages of decision trees_
+  * Easy to interpret, if trees are small.
+  * Competitive in terms of accuracy.
+  * Inexpensive to construct.
+* F: _What are advantages of decision trees over random forests?_ ⭐
 
 ## Bagging, Boosting and RF
 
