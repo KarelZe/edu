@@ -382,21 +382,106 @@ Zur Herkunft der Fragen:
 
 ## Cross-Validation
 
-* F: _What is the motivation to use resampling methods such as cross validation?_ 
+* F: What is commonly understood under resampling methods?
+  * Resampling methods involve repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.
+  * One example is Cross-Validation method.
+* F: Name important resampling methods.
+  * Cross-Validation
+    * Validation Set approach / Hold-Out-method
+    * K-Fold Cross Validation
+    * Leave-One-Out Cross-Validation
+    * Purged K-Fold Cross-Validation
+  * Bootstrap Resampling.
+* F: _Name at least techniques for cross validation._
+  * Validation Set approach / Hold-Out-method
+  * K-Fold Cross Validation
+  * Leave-One-Out Cross Validation
+  * Purged K-Fold Cross Validation
+* F: _What is the motivation to use resampling methods such as cross validation?_  
+  * Better estimates of variablity of fitting a model on different samples of the test data opposed to fitting a model only once on a original training example.
 * F: _What are drawbacks of resampling approaches?_ 
-* F: _How should we tune parameters for machine learning models?_ ⭐
-* F: _Explain purged_ $$k$$_-fold cross-validation._ ⭐
-* F: _How should we divide data into training and testing for a time series dataset?_ ⭐
+  * Computional complexity, as they involve fitting the same statistical method multiple times using different subsets of the training data.
+* F: _What is the difference between test and training error?_
+  * _The test error is the average error that results from using a statistical learning method to predict the response on a new observation, one that was not used in training the method._
+  * _The training error is the average error of a statistical learning method on seen data. It's used to get an unbiased estimate of how good the model does._
+  * _Error of the final model on training data is biased, since the data is used to select the model._
+  * \_\_![](../.gitbook/assets/model_complexity_error_training_test.jpg) __
+  * Model complexity decreases prediction erro until a point \(the bias trade-off\) where we are adding just noise. The train error goes down, but the test error is starting to go up. That's overfitting. One want's to find the model with smallest test error.
+* F: What is the difference between variance and bias?
+  * **Bias** is the amount that a model's prediction differs from the target due to simplifying assumptions a model makes to approximate a target function. Can be resolved using resampling methods.
+  * **Variance** indicates how much the estimate of the target function differs from its expected value. Variance measures the inconsistency of different predictions if different training data is used.
+  * If a model is too simple and has few parameters, then it it may have high bias and low variance. For models with many parameters, it has high variance and low bias. 
+  * In ML we strike for a low bias and variance.
 * F: _What are bias and variance, and what are their relation to modelling data?_
   * [\(See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
-* F: _What is the advantage/disadvantage of_ $$k$$_-fold CV vs. Hold-out method?_
-* F: _Name at least techniques for cross validation._
-* F: _Explain_ $$k$$_-fold cross-validation._ 
 * F: _Explain the validation set approach?_ 
+  * In this method, the original data is randomly devided into a **train set** and a **validation** or **hold-out set**.
+  * The model is fitted on the **training set**.
+  * The fitted model is then used to predict the response for observations on the **validation set**.
+  * Test error is estimated on the **validation set**.
+* F: _What is the advantage/disadvantage of  the hold-out method?_
+* _simple \(+\)_
+  * Data is often scarce. So we can not afford to set aside test sets \([see here.](http://www.columbia.edu/~mh2078/MachineLearningORFE/ResamplingMethods.pdf)\).
+  * Performance on the validation set is a  \(often highly variable\) random variable depending on the data-split into training and validation sets. \(-\)
+  * In the validation approach, only a subset of the observations those that are included in the training set rather than in the validation set are used in fitting the model \(-\)
+  * The error on the validation set tends to over-estimate the test-error rate on small data sets. \(-\)
+* F: _Explain_ $$k$$_-fold cross-validation._ 
+  * k-fold cross validation randomly devides data into $$K$$ equal-sized parts.
+  * We leave out part $$k$$ , fit the model to the other $$K-1$$ parts \(combined\), and then obtain predictions for the left-out $$k$$ -th part.
+  * This is done in turn for each part $$k = 1,2, \cdots, K$$ , and then the results are combined.
 * F: _Explain the Leave-One-Out Cross-Validation._ 
-* F: _What is the motivation to perform purged_ $$k$$_-Fold Cross Validation._ 
-* F: _Why is bootstrapping used? Why is bootstrapping desirable?_ 
+  * Leave -One-Out validation divides data into $$K$$ parts with $$K=N$$. That means every single observation used to test the the model.
+  * We leave out part $$k$$ , fit the model to the other $$N-1$$ parts \(combined\), and then obtain predictions for the left-out $$k$$ -th part.
+  * This is done in turn for each part $$k = 1,2, \cdots, N$$ , and then the results are combined.
+* F: _What is the advantage/disadvantage of_ $$k$$_-fold CV?_
+  * Very little bias, as model has been train on multiple data constellations. \(+\)
+  * Computionally very expensive, as training of the model happens multiple times \(-\)
+  * Can not prevent data leakage \(-\)
+* F: _Explain purged_ $$k$$_-fold cross-validation._ ⭐
+  * Purged K-Fold
+* F: _What is the motivation to perform **purged**_ $$k$$_**-Fold Cross Validation.**_ ****
+  * Observations can e. g. in finance often not assumed to be drawn from an IID process. Leakage takes place when the training set contains infromation that also appears in the testing set. \(see e. g. stock quotes, where market information is priced in from the previous days\)
+  * One way to readuce leakage is to purge from the traing set all observations whose labels overlap in time with those labels included in the testing set. 
+* F: How does purged k-Fold Cross validation work?
+  * de Padro describes it[ here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420) Consider a label $Y_{j}$ that is a function of observations in the closed range $t \in\left\[t_{j, 0}, t_{j, 1}\right\]$ $Y_{j}=f\left\[\left\[t_{j, 0}, t_{j, 1}\right\]\right\]$.
+  * For example, in the context of the triple barrier labeling method, it means that the label is the sign of the return spanning between price bars with indices $t_{j, 0}$ and $t_{j, i}$, that is $\operatorname{sgn}\left\[r_{t_{j, 0}, t_{j, 1}}\right\]$._ 
+  * _A label $Y_{i}=f\left\[\left\[t_{j, 0}, t_{j, 1}\right\]\right\]$ overlaps with $Y\_{j}$ if any of the three sufficient conditions is met:
+
+    $$
+    t_{j, 0} \leq t_{i, 0} \leq t_{j, 1} ; t_{j, 0} \leq t_{i, 1} \leq t_{j, 1} ; t_{i, 0} \leq t_{j, 0} \leq t_{j, 1} \leq t_{i, 1}
+    $$
+* F: What is the motivation vor embargoed K-Fold CV?
+  * Since financial features often include series that exhibit seerial correlation \(like ARMA\) processes, we should eliminate from the training set observations that immediately follow an observation in the testing set. This process is called embargo. [\(see here.\)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420)
+  * ![](../.gitbook/assets/purged_embargo_cv.png) 
+* F: _How should we divide data into training and testing for a time series dataset?_ ⭐
+  * When choosing models, it is common practice to separate the available data into two portions, training and test data, where the training data is used to estimate any parameters of the forecasting method and the test data is used to evalute its accuracy. The test set is typically about 20% of the total sample. \([see here.](https://otexts.com/fpp2/accuracy.html)\)
+  * For time series a cross-validation using a rolling window approach is commly used. That means, a small subset of consecutive data serves for **training,** forecasting the **consecutive** data points, that are part in **the test set**. As the training set only includes observations prior to the observations in the test set, no future observations are used for forecasting. The same forecasted data points are then included as part of the next traing dataset and subsequent data points are forecasted. \([see here.](https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4)\) \([see here.](https://otexts.com/fpp2/accuracy.html)\)
+  * Sometimes a separate validation set to tune the hyperparameters of the model is used.
+  * ![](../.gitbook/assets/grafik%20%2843%29.png) 
+  * Blue Points are used for training red points are used for testing.
+  * **Note:** Sketch in lecture looks different. However, it's not clear, what's the difference between the blue and green dots. Probably train and validation set.
 * F: _Explain what bootstrap is._ 
+  * Bootstrap is a flexible and powerful statistical tool can be used to quantify the uncertainty with a given estimator or statistical learning method. \([see here.](http://www.columbia.edu/~mh2078/MachineLearningORFE/ResamplingMethods.pdf)\)
+  * Bootstrap relies on resampling the data many times to cmpute some measure of variability.  Sample data is repeatedly drawn with replacement from a data source to estimate a population parameter. \([see here.](https://datamites.com/blog/resampling-methods-in-machine-learning/)\)
+  * The bootstrapped data sets are the same size as the original data set. That's why some observations appear more than once in a given boot strap data set or not at all. 
+* F: _Why is bootstrapping used? Why is bootstrapping desirable?_ 
+  * It's used, if analytic measures of variablity are not available \(or not automatically output by statistical software\) 
+  * Large scale resampling can be easily done on modern computers \(+\) \([see here.](http://www.columbia.edu/~mh2078/MachineLearningORFE/ResamplingMethods.pdf)\)
+  * Bootstrapping doesn't assume a parametric distribution \(+\) \([see here.](https://stats.stackexchange.com/questions/280725/pros-and-cons-of-bootstrapping/280728)\)
+  * A bootstrap sample can only tell about the original sample, but won't give any insights on the real population. \([see here.](https://stats.stackexchange.com/questions/280725/pros-and-cons-of-bootstrapping/280728)\)
+* F: _How should we tune parameters for machine learning models?_ ⭐
+  * Hyper parameter tuning should happen using validation set which is solely used for tuning different mdoels / hyperparameters.
+  * Testing should still happen on the testing set and training on the training set.
+  * To find the best parameter combinations a systematic approach such as grid search should be used.
+  * If grid search is not possible for computational reasons a randomized search might help.
+* F: Compare the Hold out Validation, to Leave-One-Out Cross-Validation, $$k$$ -Fold Cross Validation and Bootsrap.
+  * Adapted from [here](https://datamites.com/blog/resampling-methods-in-machine-learning/).
+
+    | **Hold out Validation** | **Leave-One-Out Cross-Validation** | **k-Fold Cross-Validation** | **Bootstrap** |
+    | :--- | :--- | :--- | :--- |
+    | Use it when data have less features | Medium sized dataset | Large dataset with large features | Use it with any shape of data |
+    | High chance of bias | Less bias | Good bias and variance tradeoff | Good bias and variance tradeoff  |
+    | High chance of overfitting | Generalized model | Generalized model | Generalized model |
 
 ## Shrinkage Methods
 
