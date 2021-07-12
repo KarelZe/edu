@@ -495,13 +495,13 @@ Zur Herkunft der Fragen:
 * F: _Explain how the stepwise inclusion regression method / ... /... works._ 
 * F: _In which way do stepwise inclusion method and stepwise exclusion method differ?_
 * F: _Explain what regularization is and why it is useful_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Explain the ridge regression._ ⭐
 * F: _Explain LASSO._
 * F: _Explain the difference between LASSO and ridge regression?_ ⭐
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _In practice, explain what is the main difference between ridge regression and LASSO._ ⭐
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Explain what is the difference between LSSO and linear regression?_ ⭐
 * F: _What are the main applications of LASSO?_⭐
 * F: _Compare LASSO and the stability selection technique._⭐
@@ -599,20 +599,21 @@ Zur Herkunft der Fragen:
   * easier to explain \(+\) 
   * computionally simpler and quicker to fit than random forests \(+\)
   * less robust than random forests. If we change the data for a decision tree a little, the tree can change a lot. Interpretation is not as straightforward as it seems. \(-\)
-  * Most of the times random forests achieve a better accuracy, as they are trained on  random sub samples. \(-\)
+  * Most of the times random forests achieve a better accuracy, as they are trained on  random sub samples. This however comes at the expense of loss interpretation.
+* _F: What are tuning parameters for Decision Trees?_
 
 ## Bagging, Boosting and RF
 
+* F: _Explain what Bagging is._
+* F: _How does Bagging differ from Boosting? Explain the difference._
+* F: _How does Bagging work for regression?_
+* F: _How does Bagging work for classification?_
 * F: _What are tuning parameters for Boosting?_ ⭐
   * 
 * F: _How does Boosting work for regression?_ ⭐
 * F: _Explain what Boosting is_
-* F: _Explain what Bagging is._
 * F: _What ensemble techniques can be applied?_
 * F: _How does Boosting work for classification?_
-* F: _How does Bagging differ from Boosting? Explain the differences?_
-* F: _How does Bagging work for regression?_
-* F: _How does Bagging work for classification?_
 * F: _What is the main advantage and disadvantage of a random forest over a decision tree?_ ⭐
 * F: \*Describe how Gradient Boosting works.
 * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
@@ -620,7 +621,6 @@ Zur Herkunft der Fragen:
 * F: _Explain how a Random Forest improves ordinary decision trees._
 * F: _Explain what a Random Forest is?_
 * F: _When can it be advantageous to use Random Forests over Decision Trees?_
-* F: _What are tuning parameters for Decision Trees?_
 * F: _What are tuning parameters for Random Forests?_
 * A: No. Trees + No. of predictors used to build each tree.
 * F: _What is an ensemble algorithm? Give on example from the class of an ensemble model that gave improved performance over a base model._
