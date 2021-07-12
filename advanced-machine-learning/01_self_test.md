@@ -552,24 +552,59 @@ Zur Herkunft der Fragen:
   3. $$\phi$$ is a symmetric function of $$p_{1}, \ldots, p_{J}$$.
 * F: _How can we influence the model complexity of the tree?_ 🧠
 * F: _Compare the Gini-Coefficient to Entropy and the resubstitution error._
-  * \_\_![](../.gitbook/assets/grafik%20%2845%29.png) __
-* F: _When should the Gini-Coefficient be used? When is it desirable to use the Entropy?_
-* F: _Explain how categorical features can be split?_
+  * **Resubstitution Error:** $$i(t)=1-\max _{j} p(j \mid t)$$, where where $$p(j \mid t)$$ is the relative frequency of class $$j$$ in node $$t$$.
+  * **Gini-Index:** $$i(t)=\sum_{j} p(j \mid t)(1-p(j \mid t))$$\*\*\*\*
+  * **Entropie:** $$i(t)=-\sum_{j} p(j \mid t) \log p(j \mid t)$$\*\*\*\*
+    * \_\_![](../.gitbook/assets/grafik%20%2845%29.png) __
+* F: _When should the Gini-Coefficient be used? When is it desirable to use the Entropy? How does the missclassification error compare?_
+  * From Hastie p. 309 f.: Cross Entropy and Gini index are differntiable, and hence more amenable to numerical optimization as setting equal with 0 is possible.
+  * Gini index and cross-entropy are more sensitive to changes in the node prabilites than the missclassifciation rate. For example, in a two-class problem with 400 observations in each class \(denote, this by \(400,400\)\), suppose one split created nodes \(300,100\) and \(100, 300\), while the other created nodes \(200, 400\) and \(200,0\). Both splits produce a misclassification rate of 0.25, but the second split produces a pure node and is probably preferable. Both the Gini index and cross-entropy are lower for the second split.
+  * That means either Gini index or cross-entropy should be used when growing a tree.
+  * To guide cost-complexity pruning, any of the three measures will do.
+* _F: Explain how numerical features can be split?_
+  * If  $$x_{1}, x_{2}, \ldots, x_{p}$$ are a set of numeric variables, we consider all splits of type $$x \leq c$$ for all $$c$$ ranging over $$(-\infty, \infty)$$.
+  * If all all observations have a different value, we have at most n distinct values $$x_{1}, x_{2}, \cdots, x_{n}$$ of $$x$$. Which means there are at max. $$n-1$$ distinct splits of type $$m=1, \ldots, n \leq n$$, where $$m=1, \ldots, n \leq n$$ , where $$c_m$$ are taken **halfway** between **consecutive** distinct values of $$x$$ .
 * F: _How can continuous attributes be handled in Decision Trees?_ ⭐
+  * Assume  $$x_{1}, x_{2}, \ldots, x_{p}$$ are a set of numeric variables. If x is categorical, taking values in $$V(x)= \{ b_{1}, b_{2}, \cdots, b_{L} \}$$ , we consider all splits of type $$x \in S$$ , where $$S$$ is any non-empty proper subset of $$V(x)$$.
+  * If every categorical variable x with L distinct values there are at max. $$2^{L-1}-1$$ splits. 
+  * Alternatively, variables can be label-encoded and treated as numeric variables. \([see here.](https://towardsdatascience.com/decision-trees-d07e0f420175)\)
 * F: _Explain how numerical features can be split?_
-  * _Assuming there are at most n distinct values of x. There are at most n-1 distinct splits of type x \leq c\_m, where c\_m are taken halfway between consecutive distinct values of x._
+  * Assuming there are at most n distinct values of x. There are at most n-1 distinct splits of type $$x \leq c_m$$, where $$c_m$$ are taken halfway between consecutive distinct values of $$x$$ 
 * F: _What is the motivation to prune a decision tree?_
+  * Pruning is done to to avoid overfitting. The tree learns the data by heart, but new data can very slightly differ. There fore, it makes sense to cut back the tree to deliver good results on unseen data.
+  * Pruning reduces the size of a decision tree by removing unrelevant attributes from the tree / cutting back the tree. \(AGD\) 
+  * A smaller tree with fewer splits might lead to lower variance and better interpretation at the cost of a little bias.
+* _F: How does pruning a using minimal-cost complexity decision tree works?_
+  * A very large tree $$T_0$$ is grown and then cut back afterwards.
+  * Since the tree can be tested while cutting it down it could lead  to favourable results. 
+  * It defines the a measurement called cost-complexity measurement, for a dataset X and a tree T where \|T\| defines the amount of terminal nodes:
+  * $$
+    \sum_{m=1}^{|T|} \sum_{x_{i} \in R_{m}}\left(y_{i}-\hat{y}_{R_{m}}\right)^{2}+\alpha|T|
+    $$
+  *  $$\alpha$$ is a non-negative tuning parameterand is called the complexity parameter. $$R_m$$ ist the rectangel \(i. e. the subset of predictor space\) coressponding to the m-th terminal node, and $$\hat{y}{R{m}}$$ is the mean of training observations in $$R_m$$ .
+  * $$\alpha$$ is usually selected using cross-validation.
+  * When pruning the tree the algorithm tries to minimize this measure. Its obvoius that a large number of nodes in a subtree is punished for a high value of \alpha. Therefore the algorithm will search for subtrees with high missclassification error or high number of nodes. Of course it is complicated looking at the number of nodes since it is heavily dependent on the number of attributes in $$T$$. Hence there has to be the parameter $$\alpha$$ in order to finde the right punishment for large tree sizes.  [\(see here.\)](https://www5.in.tum.de/lehre/seminare/datamining/ss17/paper_pres/08_decision_tree/paper.pdf)
 * F: _Explain how growing a decision tree works?_
+  1. At each node, "split the data into two leaf nodes
+  2. Splits are chosen using a binary splitting criterion e. g. cross-entropy.
+  3. We stop when each terminal node has fewer than some minimum nuber of observations.
+  4. Alternatively: Algorithm on page 27. But emphasis is on **building**?
 * F: _How can decision trees be applied to a regression case?_
+  * The predicted value of a node is the average response variable for all observations in that node.
 * F: _Name several advantages / disadvantages of decision trees_
   * Easy to interpret, if trees are small.
   * Competitive in terms of accuracy.
   * Inexpensive to construct.
 * F: _What are advantages of decision trees over random forests?_ ⭐
+  * easier to explain \(+\) 
+  * computionally simpler and quicker to fit than random forests \(+\)
+  * less robust than random forests. If we change the data for a decision tree a little, the tree can change a lot. Interpretation is not as straightforward as it seems. \(-\)
+  * Most of the times random forests achieve a better accuracy, as they are trained on  random sub samples. \(-\)
 
 ## Bagging, Boosting and RF
 
 * F: _What are tuning parameters for Boosting?_ ⭐
+  * 
 * F: _How does Boosting work for regression?_ ⭐
 * F: _Explain what Boosting is_
 * F: _Explain what Bagging is._
