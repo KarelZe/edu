@@ -443,7 +443,7 @@ Zur Herkunft der Fragen:
   * Observations can e. g. in finance often not assumed to be drawn from an IID process. Leakage takes place when the training set contains infromation that also appears in the testing set. \(see e. g. stock quotes, where market information is priced in from the previous days\)
   * One way to readuce leakage is to purge from the traing set all observations whose labels overlap in time with those labels included in the testing set. 
 * F: How does purged k-Fold Cross validation work?
-  * de Padro describes it[ here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420) Consider a label $Y_{j}$ that is a function of observations in the closed range $t \in\left\[t_{j, 0}, t_{j, 1}\right\]$ $Y_{j}=f\left\[\left\[t_{j, 0}, t_{j, 1}\right\]\right\]$.
+  * de Padro describes it[ here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420) Consider a label $$Y_{j}$$ that is a function of observations in the closed range $$t \in\left[t{j, 0}, t{j, 1}\right]$ $Y{j}=f\left[\left[t{j, 0}, t{j, 1}\right]\right]$$.
   * For example, in the context of the triple barrier labeling method, it means that the label is the sign of the return spanning between price bars with indices $t_{j, 0}$ and $t_{j, i}$, that is $\operatorname{sgn}\left\[r_{t_{j, 0}, t_{j, 1}}\right\]$._ 
   * _A label $Y_{i}=f\left\[\left\[t_{j, 0}, t_{j, 1}\right\]\right\]$ overlaps with $Y\_{j}$ if any of the three sufficient conditions is met:
 
@@ -532,6 +532,12 @@ Zur Herkunft der Fragen:
 * F: _Explain the major difference of non-linear PCA over ordinary PCA._
 * F: _Explain the major difference of kernel PCA over ordinary PCA._
 * F: _Give applications for PCA._
+* F: _Compare supervised learning to unsupervised learning. How do they differ?_
+* F: _What are advantages / disadvantages of unsupervised learning techniques?_
+* F: _What is PCA commonly used for?_
+* F: _How can the proportion of variance explained by_ $$m$$ _variables be calculated?_
+* F: _Calculate the PCA for the first 2 components?_
+* F: _Sketch the algorithm for calculating the first two PCA components._
 
 ## Decision Trees
 
@@ -604,32 +610,78 @@ Zur Herkunft der Fragen:
 
 ## Bagging, Boosting and RF
 
-* F: _Explain what Bagging is._
-* F: _How does Bagging differ from Boosting? Explain the difference._
-* F: _How does Bagging work for regression?_
-* F: _How does Bagging work for classification?_
-* F: _What are tuning parameters for Boosting?_ ⭐
-  * 
-* F: _How does Boosting work for regression?_ ⭐
-* F: _Explain what Boosting is_
 * F: _What ensemble techniques can be applied?_
-* F: _How does Boosting work for classification?_
+  * _Bagging_ 
+  * _Boosting_
+  * _Random Forests_
+* F: _What is an ensemble algorithm?_ 
+  * Ensemble methods are meta-algorithms that combine several machine learning techniques into one predictive model in order to decrease variance \(**bagging**\), bias \(**boosting**\) or  improve predictions \(**stacking**\). \([see here.](https://blog.statsbot.co/ensemble-learning-d1dcd548e936)\)
+* F: _Explain what Bagging is._
+  * Bootstrap aggregating or bagging is an ensemble technique  designed to improve stabilty and accuracy of ML algorithms for classification and regression.
+  * In the regression case bagging fits a $$\hat{f}_{b}(x)=\hat{\beta}_{b} X_{b}$$ regression model to $$b$$-th bootstram stamples $$X_b$$ and then bagging takes the mean of these estimation over a collection of boostrap samples. The bagging estimator is made in the following form:
+  * $$f_{\text {Bagging }}(X)=\frac{1}{B} \sum_{b=1}^{B} \hat{f}_{b}(X)$$
+* F: _How does Bagging work for regression?_
+  * Each bootstrap regression tree will include different nodes. The bagging estimator is the **mean** of these $$B$$ regression tree predictions.
+* F: _How does Bagging work for classification?_
+  * For each test observation we record th class predicted by each of the $$B$$ trees, and take a **majority vote**. That means the overall prediction is the most commonly occurring class among the  $$B$$ predictions.
+* F: _What are tuning parameters for Bagging?_
+  * The number of bootstrap samples / regression treess over which the mean or majority vote is estimated.
+* F: _Explain the intution of Boosting._
+  * Boosting tries to improve predictive performance by combining several weak learners \(e. g. simple trees\) which are trained sequentially on the data. The error is analysed. In every step consecutive weak learners are fitted, so that the accuracy is increased. \([see here.](https://analyticsindiamag.com/primer-ensemble-learning-bagging-boosting/)\)
+* F: Explain, how Boosting works in natural language.
+  * Boosting is used to create a collection of predictors.  In this technique, learners are learned sequentially with early lerners fitting simple models to the data and then anlyse data for errors. Consecutive trees \(random sample\) are fit at every step, the goal is to improve the accuracy of the prior tree \([see here](https://analyticsindiamag.com/primer-ensemble-learning-bagging-boosting/).\)
+* F: _How does Gradient Boosting work?_ 
+  * Assume we seek to fit a gradient boosting model to the $$\left(X_{1}, y_{1}\right),\left(X_{2}, y_{2}\right), \ldots,\left(X_{n}, y_{n}\right)$$, where $$X_{i}$$ are the explanatory variables for the $$i^{\text {th }}$$ sample and $$y_{i}$$ is its dependent variable. 
+  * In the first step, using gradient boosting we fit a base learner $$f_{0}(X)$$ for modeling. We define the corresponding prediction residuals for first regression tree $$e_{i 0}=y_{i}-f_{0}\left(X_{i}\right)$$ for $$i=1,2, \ldots, n$$ . 
+  * In the next step, a regression tree $$f_{1}\left(X_{i}\right)$$ to $$\left(X_{1}, e_{10}\right),\left(X_{2}, e_{20}\right), \ldots,\left(X_{n}, e_{n 0}\right)$$ is fit, and a recovery rate prediction will be equal to $$f_{0}\left(X_{i}\right)+e_{i 1}$$. Here $$e_{i 1}$$ is the corresponding predicted residuals from $$f_{1}\left(X_{i}\right)$$. The gradient boosting estimation after $$B$$ iterations is defined as:
+
+    $$
+    \widehat{y}_{i}=f_{0}\left(X_{i}\right)+\sum_{b=1}^{B} e_{i b}
+    $$
+
+    Different loss functions such as least-squares and least absolute deviation can be used with the gradient-boosting methodology. 
+
+  * The loss function depends on whether gradient boosting is done for a classification case or a regression case.
+    * For regression trees squared error is commonly used 
+    * For classification logarithmic loss is used. \([see here.](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/)\)
+* F: _What are tuning parameters for Boosting?_ ⭐
+  * **number of trees** $$B$$. Unlike bagging and random forests, boosting can overfit if $$B$$ is too large, although this overfits tends to occur slowly if at all. We use cross-validation to select B.
+  * The **shrinkage parameter** at which boosting learns. Typical values are 0.01 or 0.001 and the right choice depends on the problem. Very small shrinkage parameter can require using a very large value of B in order to achieve good performance.
+  * The **number of splits** $$d$$ in each tree, which controls the complexity of the boosted ensemble. Often $$d=1$$ works well, in which case each tree is a stump, consisting of a single split resulting in an additive model. More generally d is the interaction depth, and controls the interaction order of the boosted model, since d splits can invole at most $$d$$ variables.
+* F: _How does Bagging differ from Boosting? Explain the difference._
+  * **Bagging:** 
+    * Goal is achieve minimum variance
+    * Bagging combines the results of multiple models to a generalized result trough voting or averaging. 
+    * The trees are built in parallel on bootstrap samples, which is data chosen with replacement from the original data.
+    * Equal weight is given to all models
+  * **Boosting:** 
+    * Goal is to increase accuracy / decrease bias 
+    * Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. That means succeeding models are dependent on previous models \([see here.](https://medium.com/swlh/difference-between-bagging-and-boosting-f996253acd22)\)
+    * Weights a model's contribution by its performance.
+  * Visualization:
+    * ![](../.gitbook/assets/grafik%20%2846%29.png) 
+* F: What are similarities between bagging, random forests and boosting algorithms.
+  * Like random forests, boosting algorithms are an ensemble of many different models with high inter-group diversity.
+  * Boosting algorithms allso aggregate the predictions of each constituent model into an overall predicition. 
+  * Both algorithms make use of tree models. However, Boosting can also combine other weak learners. \([see here.](https://medium.com/@toprak.mhmt/gradient-boosting-and-weak-learners-1f93726b6fbd)\)
 * F: _What is the main advantage and disadvantage of a random forest over a decision tree?_ ⭐
-* F: \*Describe how Gradient Boosting works.
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Compare Boosting trees to Random Forests. What are the differences?_
-* F: _Explain how a Random Forest improves ordinary decision trees._
+  1. random forest algorithm uses a **small random subset** of explanatory variables for growing in each particular tree while boosting selects from a **complete list of explanatory** **variables** for growing the best classification tree.
+  2. Boosting trees sequentially depend on the error rate of the previous iteration, while random trees can be built independently at each iteration.
+  3. In random forests each tree is a strong learner. They would do just fine as a decisioin tree on their own. In boosting algoirthms, trees are artificially limited to very shallow depth \(usually only one split\), to ensure that each model is only slightly better than random chance. \([see here](https://medium.com/@toprak.mhmt/gradient-boosting-and-weak-learners-1f93726b6fbd).\)
 * F: _Explain what a Random Forest is?_
+  * A random forest is an **advanced variant of bagging**.It fits a large set of classfication trees, and then classifies using the majority of the classes of  built clasification trees. 
+  * Random forests use a small **random subset of explanatory variables** for growing in each particular tree.
 * F: _When can it be advantageous to use Random Forests over Decision Trees?_
+  * _Better accuracy \(+\)_
+  * _Reduced variance \(+\)_
+  * _More difficult to interpret \(-\)_
 * F: _What are tuning parameters for Random Forests?_
-* A: No. Trees + No. of predictors used to build each tree.
-* F: _What is an ensemble algorithm? Give on example from the class of an ensemble model that gave improved performance over a base model._
-* F: _Compare supervised learning to unsupervised learning. How do they differ?_
-* F: _What are advantages / disadvantages of unsupervised learning techniques?_
-* F: _What is PCA commonly used for?_
-* F: _How can the proportion of variance explained by_ $$m$$ _variables be calculated?_
-* F: _Calculate the PCA for the first 2 components?_
-* F: _Sketch the algorithm for calculating the first two PCA components._
+  * Number of trees
+  * Number of predictors used to build each tree
+* _F: Give on example for an ensemble algorithm from the class of an ensemble model that gave improved performance over a base model._
+  * random forests and boosting used to predict defaults for commercial  real estate property loans.
 
 ## k-means Clustering
 
