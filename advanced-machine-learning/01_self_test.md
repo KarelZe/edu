@@ -631,9 +631,9 @@ $$
 * F: _How can we influence the model complexity of the tree?_ 🧠
 * F: _Compare the Gini-Coefficient to Entropy and the resubstitution error._
   * **Resubstitution Error:** $$i(t)=1-\max _{j} p(j \mid t)$$, where where $$p(j \mid t)$$ is the relative frequency of class $$j$$ in node $$t$$.
-  * **Gini-Index:** $$i(t)=\sum_{j} p(j \mid t)(1-p(j \mid t))$$\*\*\*\*
-  * **Entropie:** $$i(t)=-\sum_{j} p(j \mid t) \log p(j \mid t)$$\*\*\*\*
-    * \_\_![](../.gitbook/assets/grafik%20%2845%29.png) \_\_
+  * **Gini-Index:** $$i(t)=\sum_{j} p(j \mid t)(1-p(j \mid t))$$
+  * **Entropie:** $$i(t)=-\sum_{j} p(j \mid t) \log p(j \mid t)$$
+    * ![](../.gitbook/assets/grafik%20%2845%29.png) 
 * F: _When should the Gini-Coefficient be used? When is it desirable to use the Entropy? How does the missclassification error compare?_
   * From Hastie p. 309 f.: Cross Entropy and Gini index are differntiable, and hence more amenable to numerical optimization as setting equal with 0 is possible.
   * Gini index and cross-entropy are more sensitive to changes in the node prabilites than the missclassifciation rate. For example, in a two-class problem with 400 observations in each class \(denote, this by \(400,400\)\), suppose one split created nodes \(300,100\) and \(100, 300\), while the other created nodes \(200, 400\) and \(200,0\). Both splits produce a misclassification rate of 0.25, but the second split produces a pure node and is probably preferable. Both the Gini index and cross-entropy are lower for the second split.
