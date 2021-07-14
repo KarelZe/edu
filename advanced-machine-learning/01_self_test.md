@@ -820,8 +820,6 @@ $$
   * \_\_
 * F: _Name distance measures, that can be used with in conjunction with_ $$k$$ _means. When should they be used._
   * \_\_
-* F: _How does the_ $$k$$_-mean algorithm work?_ 🧠
-  * 
 * F: _What are the 2 main steps of_ $$k$$_-means?_ 🧠
   * 
 * F: _Why does_ $$k$$_-means converge? What is it minimizing._ 🧠
@@ -839,13 +837,14 @@ $$
 * F: _Compare similarity measures for low and high-dimensional spaces._
   * \_\_
 * F: _In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?_
-  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+  * [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _When is a clustering optimal?_
   * \_\_
 * F: _Draw a dendrogram from a given clustering._
-  * \_\_
+  * ![](http://127.0.0.1:50742/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
+
+    ![](http://127.0.0.1:50742/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 * F: _Explain how the algorithm for hierarchical clustering works._
-  * \_\_
 * F: _Explain different linkage types, that can be used for clustering._
   * \_\_
 * F: _Draw different linkage types visually._
