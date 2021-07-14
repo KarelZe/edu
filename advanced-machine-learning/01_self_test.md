@@ -772,10 +772,29 @@ $$
      * for each of the $$K$$ clusters, compute the cluster centroid. The $$k$$th cluster centroid is the vector of the $$p$$ features means for the observations in the $$k$$th cluster.
      * Assign each observation to the cluster whose centroid is closest \(where closest is defined using Euclidean distance\).
 
-  To achieve a faster convergence, one can use an improved initialization of cluster centres. One approach is k-means++.
+  To achieve a faster convergence, one can use an improved initialization of cluster centres. One approach is **k-means++**.
 
-  More formal definition: 1. Pick K arbitrary cluster centers 2. Assign each sample to its closest centroid $z_{n}=\arg \min_ {k}\left\|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right\|^{2}$ 3. Adjust the centroids to be the means of the samples assigned to them $\boldsymbol{c}_{k}=\frac{1}{\left\|X_{k}\right\|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left{\boldsymbol{x}_{n} \mid z\_{n}=k\right}$ 4. Goto step 2 until no change
+  More formal definition: 
 
+  1.  Pick $$K$$ arbitrary cluster centers 
+  2. Assign each sample to its closest centroid $$z_{n}=\arg \min {k}\left|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right|^{2}$$ 
+  3. Adjust the centroids to be the means of the samples assigned to them $$\boldsymbol{c}_{k}=\frac{1}{\left|X_{k}\right|} \sum{\boldsymbol{x}_{i} \in X_{k}}  \boldsymbol{x}_{i}, X_{k}= \{\boldsymbol{x}_{n} z_{n}=k \}$$ 
+  4. Goto step 2 until no change
+
+* F: What properties do sets of Clusterings satisfy?
+  * Each observation belongs to at least to one of the$$K$$clusters.
+  * The clusters are non-overlapping, no observation belongs to more than one cluster.
+* F: _What is the main idea of clustering?_
+  * The idea behind $$k$$-means clustering is that a good clustering is one for which the within-cluster variation is as small as possible.
+  * $$\operatorname{WCV}(C_k)$$ is the degree by which observations differ from each other within a cluster.
+
+    Hence we want to solve the problem: 
+
+    * $$\operatorname{ minimize }\left\{\sum_{k=1}^{K} W C V\left(C_{K}\right)\right\}$$
+
+    For Euclidean distance: 
+
+    * $$\operatorname{ minimize }\left\{\sum_{k=1}^{K} \frac{1}{\left|C_{K}\right|} \sum_{i, i^{\prime} \in C_{K}} \sum_{j=1}^{P}\left(x_{i j}-x_{i^{\prime} j}\right)^{2}\right\}$$
 * F: _What is the main disadvantage of the_ $$k$$_-means clustering algorithm?_ ⭐
   * Works in an unsupervised setting / doesn't require labelled data
   * Relatively simple to implement
@@ -784,32 +803,59 @@ $$
   * warm-start the positions of centroids possible
   * easily adapts to new examples
   * generalize the clusters of different shapes and sizes, such as elliptical clusters. [\(see here.\)](https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages)
-* F: _How is the clustering problem defined?_ 🧠
-* F: _Why is clustering called unsupervised?_ 🧠
-* F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
-* F: _How does the_ $$k$$_-mean algorithm work?_ 🧠
-* F: _What are the 2 main steps of_ $$k$$_-means?_ 🧠
-* F: _Why does_ $$k$$_-means converge? What is it minimizing._ 🧠
-* F: _Does_ $$k$$_-means find a global minimum of the objective?_ 🧠
-* F: _Name similarity measures. Name an advantage and disadvantage for each of them._
-* F: _Compare similarity measures for low and high-dimensional spaces._
-* F: _In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?_
-* A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* F: _What is the main idea of clustering?_
-* F: _When is a clustering optimal?_
 * F: _What properties does a set has to fulfil when_ $$k$$_-means clustering should be applied._
-* F: _How does minimizing the WCV relate to solving the clustering problem?_
-* F: \*What are alternatives to $$k$$-means clustering?
+  * Datasets with less noise
+  * Spherical clusters of roughly the same size
+  * Counter "mouse" example \([see here.](https://stats.stackexchange.com/questions/79741/data-sets-suitable-for-k-means)\)
+  * \_\_![](../.gitbook/assets/grafik%20%2848%29.png) __
+* F: _What are alternatives to_ $$k$$_-means clustering?_
+  * DBSCAN
+  * Agglomerative Hierarchical Clustering
+  * Birch \([see here.](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68) / AGD\)
 * F: _How can_ $$k$$_-means clustering be phrased as an optimization problem?_
-* F: _What are advantages / drawbacks of using the $$k$-means algorithm?_
+  * \_\_
+* F: _What are advantages / drawbacks of using the_ $$k$$ _-means algorithm?_
+  * \_\_
+* F: _How does minimizing the WCV relate to solving the clustering problem?_
+  * \_\_
 * F: _Name distance measures, that can be used with in conjunction with_ $$k$$ _means. When should they be used._
+  * \_\_
+* F: _How does the_ $$k$$_-mean algorithm work?_ 🧠
+  * 
+* F: _What are the 2 main steps of_ $$k$$_-means?_ 🧠
+  * 
+* F: _Why does_ $$k$$_-means converge? What is it minimizing._ 🧠
+  * 
+* F: _Does_ $$k$$_-means find a global minimum of the objective?_ 🧠
+  * 
+* F: _How is the clustering problem defined?_ 🧠
+  * 
+* F: _Why is clustering called unsupervised?_ 🧠
+  * 
+* F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
+  * 
+* F: _Name similarity measures. Name an advantage and disadvantage for each of them._
+  * \_\_
+* F: _Compare similarity measures for low and high-dimensional spaces._
+  * \_\_
+* F: _In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?_
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+* F: _When is a clustering optimal?_
+  * \_\_
 * F: _Draw a dendrogram from a given clustering._
+  * \_\_
 * F: _Explain how the algorithm for hierarchical clustering works._
+  * \_\_
 * F: _Explain different linkage types, that can be used for clustering._
+  * \_\_
 * F: _Draw different linkage types visually._
+  * \_\_
 * F: _What is the impact of using different linkage types?_
+  * \_\_
 * F: _Name practical issues that arise with hierarchical or_ $$k$$_-means clustering._
+  * \_\_
 * F: _Give applications for clustering._
+  * \_\_
 
 ## SVMs
 
