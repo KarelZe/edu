@@ -669,7 +669,7 @@ $$
     $$
   * $$\alpha$$ is a non-negative tuning parameterand is called the complexity parameter. $$R_m$$ ist the rectangel \(i. e. the subset of predictor space\) coressponding to the m-th terminal node, and $$\hat{y}{R{m}}$$ is the mean of training observations in $$R_m$$ .
   * $$\alpha$$ is usually selected using cross-validation.
-  * When pruning the tree the algorithm tries to minimize this measure. Its obvoius that a large number of nodes in a subtree is punished for a high value of \alpha. Therefore the algorithm will search for subtrees with high missclassification error or high number of nodes. Of course it is complicated looking at the number of nodes since it is heavily dependent on the number of attributes in $$T$$. Hence there has to be the parameter $$\alpha$$ in order to finde the right punishment for large tree sizes.  [\(see here.\)](https://www5.in.tum.de/lehre/seminare/datamining/ss17/paper_pres/08_decision_tree/paper.pdf)
+  * When pruning the tree the algorithm tries to minimize this measure. Its obvoius that a large number of nodes in a subtree is punished for a high value of $$\alpha$$. Therefore the algorithm will search for subtrees with high missclassification error or high number of nodes. Of course it is complicated looking at the number of nodes since it is heavily dependent on the number of attributes in $$T$$. Hence there has to be the parameter $$\alpha$$ in order to finde the right punishment for large tree sizes.  [\(see here.\)](https://www5.in.tum.de/lehre/seminare/datamining/ss17/paper_pres/08_decision_tree/paper.pdf)
 * F: _Explain how growing a decision tree works?_
   1. At each node, "split the data into two leaf nodes
   2. Splits are chosen using a binary splitting criterion e. g. cross-entropy.
@@ -896,25 +896,20 @@ $$
 ## LSTM
 
 * F: _Explain LSTMs._ ⭐
-
-LSTMs are RNNs, that feature:
-
-* a forgetting mechanism \(whether specific information has already ended\)
-* a saving mechanism \(whether information is worth saving\)
-
-That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to.
-
-One variant of LSTMs are GRUs where long-term and working memories are fused.
-
+  * LSTMs are RNNs, that feature:
+    * a forgetting mechanism \(whether specific information has already ended\)
+    * a saving mechanism \(whether information is worth saving\)
+  * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to. 
+  * One variant of LSTMs are GRUs where long-term and working memories are fused.
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
-* sequence modelling, with variable input and output length
-* time series analysis
+  * sequence modelling, with variable input and output length
+  * time series analysis
 * F: _How can we use LSTMs for time series dataset?_ ⭐
-* First of all time series forecasting problem must be re-framed as supervised learning problem.
-* One approach is to reframe time series data by considering past observations as input variables and future observations as the output variable.
-* Example:
-  * Time series: 1, 2, 3, 4, 5, 6, 7
-  * For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: \(x,y\): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
+  * First of all time series forecasting problem must be re-framed as supervised learning problem.
+  * One approach is to reframe time series data by considering past observations as input variables and future observations as the output variable.
+  * Example:
+    * Time series: 1, 2, 3, 4, 5, 6, 7
+    * For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: \(x,y\): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
 * F: _Explain how LSTMs update their memory._
 * F: _Give applications of LSTMS._
 
@@ -935,18 +930,14 @@ One variant of LSTMs are GRUs where long-term and working memories are fused.
 ## RNNs / GRUs / Bidirectional LSTMs
 
 * F: _Explain RNNs._
-
-TODO:
-
-* RNNs maintain an internal memory about the world \(weights assigned to different pieces of information\) to help perform its classification.
-* A hidden state computed in a previous step e. g. timestep is fed back to the next step.
-* The most basic form of RNNs is called vanilla RNN and has a similar structure to standard neural networks.
-
-Improvements of RNNs over Standard Networks
-
-* RNNs can be handle variable length input and output
-* Standard networks do not share previously learned features across different positions in a given text.
-* RNNs can be extended to a LSTM. RNNs can only overwrite their memory in an fairly uncontrolled fashion. LSTMs solve the vanishing gradient problem of RNNs. The vanishing gradient problem is the increasing difficulty of back propagating to the first layers with an increasing depth of the network.
+  * TODO:
+  * RNNs maintain an internal memory about the world \(weights assigned to different pieces of information\) to help perform its classification.
+  * A hidden state computed in a previous step e. g. timestep is fed back to the next step.
+  * The most basic form of RNNs is called vanilla RNN and has a similar structure to standard neural networks.
+  * Improvements of RNNs over Standard Networks
+  * RNNs can be handle variable length input and output
+  * Standard networks do not share previously learned features across different positions in a given text.
+  * RNNs can be extended to a LSTM. RNNs can only overwrite their memory in an fairly uncontrolled fashion. LSTMs solve the vanishing gradient problem of RNNs. The vanishing gradient problem is the increasing difficulty of back propagating to the first layers with an increasing depth of the network.
 * F: _Explain GRUs._
 * F: _Explain Bidirectional LSTMs._
 * F: _Explain Differences between RNNs and GRUs._
@@ -954,7 +945,7 @@ Improvements of RNNs over Standard Networks
 * F: _What problem of RNN's do LSTMs solve?_
 * F: _Explain what is called the 'vanishing gradient problem'._
 * F: _Why is it desirable to use RNNs instead of standard networks for NLP?_
-* F: \*Explain why sigmoid activation results tend to be almost $$0$$ or $$1$$?
+* F: _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$_?_
 * F: _Adding more hidden layers will solve the vanishing gradient problem for a 2 layer neural network._ 🧑‍🚒
 * F: _xxx suffer\(s\) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER._ 🧑‍🚒
 * F: _Adding L2-regularization will help with vanishing gradients_ 🧑‍🚒
