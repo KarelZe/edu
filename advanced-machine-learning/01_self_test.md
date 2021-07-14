@@ -564,7 +564,8 @@ $$
 * LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
 * Whenever sparse models models \(models that only include a subset of the variables\) are needed.
 * F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?._⭐
-  * Stability selection technique leads to a more stable selection of variables than LASSO, as variables are fitted on a subsample of data.
+  * With LASSO regression the variables selected can change even if data is ever-so-slightly changed. Stability selection technique leads to a more stable selection of variables than LASSO.
+  * Stability selection works by fitting variables on a subsample of data. Afterwards one can count the proportion of times a variable is selected. This leads to a more stable selection.
 * F: _How do we apply the kernel trick to ridge regression?_ 🧠
 * F: _Why does it make sense to penalize the norm of the weight vector?_ 🧠
 * F: _Which norms can we use and what are the different effects?_ 🧠
