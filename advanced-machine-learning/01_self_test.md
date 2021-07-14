@@ -78,6 +78,10 @@ Zur Herkunft der Fragen:
 * F: _What is unsupervised learning?_ ⭐
   * Observe data and construct a low complexity description of the data. 
   * That means in unsupervised learning the dataset that a data set transforms into is _not previously known_ or understood. Data is not labelled. \(Grooking p. 13\) 
+  * We observe only the features $$X_1, X_2,\ldots, X_P$$. We are not interested in prediction, because we do not have an associated response variable $$Y$$.
+* F: _What is supervised learning?_ ⭐
+  * We observe both a set of features $$X_1,X_2,\ldots,X_P$$ for each object, as well as a response or outcome variable $$Y$$. The goal is then to predict $$Y$$ using $$X_1, X_2,\ldots,X_P$$
+
 * Examples include clustering and PCA.
 * F: _Give two examples for unsupervised learning techniques._ 
   * Clustering algorithms such as $$k$$-means
@@ -497,14 +501,86 @@ Zur Herkunft der Fragen:
 * F: _Explain what regularization is and why it is useful_
   * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Explain the ridge regression._ ⭐
+* 
+Ridge regression is a regularization approach. Regularization is used to prevent coefficients from fitting so perfectly. This is done by adding a constant multiple to an existing weight vector. Which is sometimes referred to as a regularization term or shrinkage penalty. In case of ridge regression this regularization term. In case of ridge regression it is the sum of the square of the weights.
+
+Taking this into account one get's the following formula for ridge regression:
+$$
+\sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \beta_{j}^{2}=R S S+\lambda \sum_{j=1}^{p} \beta_{j}^{2}
+$$
+where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
+
+The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero.
+
+As such:
+- ridge regression yields non-sparse outputs, as coefficients are shrinked towards zero but never actually are 0.
+- doesn't allow for feature selection. Some reasoning as above.
+- Typically yields better results than LASSO.
+
+
 * F: _Explain LASSO._
 * F: _Explain the difference between LASSO and ridge regression?_ ⭐
-  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+- Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
+- Both shrinkage methods to shrink regression coefficients towards zero.
+- The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
+
+LASSO:
+$$
+\underset{\beta}{\operatorname{minimize}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2} \quad \text { subject to } \quad \sum_{j=1}^{p}\left|\beta_{j}\right| \leq s
+$$
+
+Ridge regression:
+$$
+\underset{\beta}{\operatorname{minimize}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2} \quad \text { subject to } \quad \sum_{j=1}^{p} \beta_{j}^{2} \leq s
+$$
+
+
+- The main difference is, that when doing a subset selection, which will generally select models that involve just a subset of the variables, ridge regression will include all $$p$$ predictors in the final model. However LASSO helps to zero-out coefficients and can yield sparse feature spaces. Whereas ridge regression yields non-sparse outputs and can not be used for feature-selection straight away.
+- However in practice ridge regression performs better than LASSO. 
+
+[(See here.)](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _In practice, explain what is the main difference between ridge regression and LASSO._ ⭐
   * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+
+
 * F: _Explain what is the difference between LSSO and linear regression?_ ⭐
+
+
+The formula for **linear regression** is given by:
+$$
+\min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}
+$$
+
+where $$\beta_0$$ is the intercept and $$\beta_1 \cdots beta_p$$ are regression coefficients of $$k$$ independent variables.
+
+The formula for **LASSO** coefficients $$\hat{\beta}_{\lambda}^{L}$$ is given by:
+$$
+\arg \min _{\mathbf{\beta}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \mid \beta_{j} \mid
+$$
+
+Where $$\lambda$$ is a tuning parameter that serves as control of the relative impact of these two terms on the regression coefficients. 
+
+As it can be seen above, linear regression is the most basic form. LASSO includes another term - the so called regularization term or shrinkage penalty. More on that later. The standard linear regression doesn't penalize for the choice of weights and doesn't include a regularization term.
+
+One could say LASSO is a variant of Linear regression. And linear regression is in general no variant of LASSO.
+
+Linear regression tries to estimate the coefficients as such, that the residual sum of squares $$(\beta_0 + ...)$$
+is minimized. 
+
+This also means that linear regression learns the training heart and is prone to overfitting. LASSO, which is a regularization approach, tries to prevent overfitting through the introduction of regularization term, which prevents the coefficients so perfectly to overfit. 
+
+Another difference is that LASSO is a shrinkage method and can be used for variable selection. Whereas linear regression is not suitable for feature selection.
+
+For both closed form solutions exist.
+
+
+
 * F: _What are the main applications of LASSO?_⭐
-* F: _Compare LASSO and the stability selection technique._⭐
+- LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
+- Whenever sparse models models (models that only include a subset of the variables) are needed.
+
+* F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?._⭐
+  - Stability selection technique leads to a more stable selection of variables than LASSO, as variables are fitted on a subsample of data.
 * F: _How do we apply the kernel trick to ridge regression?_ 🧠
 * F: _Why does it make sense to penalize the norm of the weight vector?_ 🧠
 * F: _Which norms can we use and what are the different effects?_ 🧠
@@ -518,6 +594,12 @@ Zur Herkunft der Fragen:
 ## Dimensionality Reduction
 
 * F: _What are the advantages of sparse PCA over PCA?_⭐
+  - sparse PCA allows for a better interpretation of economic meaning of each principal component. When having a large number of variables with non-zero factor loadings it's hard to interpret them with ordinary PCA, as PCs are a linear combination of all $$p$$ variables.
+  - Compared to SCoTLASS its computationally efficient.
+
+* F: _Intuition about sparse principal component analysis?_
+  - SPCA is built on the fact that PCA can be written as a regression-type optimization problem, with a quadratic penalty; the lasso penalty (via the elastic net) can then be directly integrated into the regression criterion, leading to a modifiedPCA with sparse loadings.
+
 * F: _What does dimensionality reduction mean?_ 🧠
 * F: _What is PCA?_ 🧠
 * F: _What are three things, that PCA does?_ 🧠
@@ -580,6 +662,15 @@ Zur Herkunft der Fragen:
   * Pruning is done to to avoid overfitting. The tree learns the data by heart, but new data can very slightly differ. There fore, it makes sense to cut back the tree to deliver good results on unseen data.
   * Pruning reduces the size of a decision tree by removing unrelevant attributes from the tree / cutting back the tree. \(AGD\) 
   * A smaller tree with fewer splits might lead to lower variance and better interpretation at the cost of a little bias.
+
+* F: _How can we handle continuous attributes in decision trees?_ ⭐
+  * It's necessary to discretize continuous values. One could either use:
+    1. Comparison operator, which separates into two classes by a threshold. Threshold could be chosen by:
+        1. brute force: trying out every single value of continuous variables
+        2. sorting values for continuous attributes and taking the midpoint of the adjacent values in the sorted array
+    2. Split continuous values into bins. One would get multi-way splits. Splitting into bins could happen by frequency or width. (comp. Equi-width histograms vs. equi-depth histogram) [(see here.)](https://medium.com/geekculture/handling-continuous-attributes-in-decision-trees-bbc044986621)
+
+
 * _F: How does pruning a using minimal-cost complexity decision tree works?_
   * A very large tree $$T_0$$ is grown and then cut back afterwards.
   * Since the tree can be tested while cutting it down it could lead  to favourable results. 
@@ -686,6 +777,31 @@ Zur Herkunft der Fragen:
 ## k-means Clustering
 
 * F: _Explain the_ $$k$$_-means clustering algorithm_ ⭐
+
+  1. Randomly assign a number, from $$1$$ to $$K$$ to each of the observations. These serve as initial cluster assignments for the observations. 
+  2. Iterate until the cluster assignments top changing:
+    - for each of the $$K$$ clusters, compute the cluster centroid. The $$k$$th cluster centroid is the vector of the $$p$$ features means for the observations in the $$k$$th cluster.
+    - Assign each observation to the cluster whose centroid is closest (where closest is defined using Euclidean distance).
+
+  To achieve a faster convergence, one can use an improved initialization of cluster centres. One approach is k-means++.
+
+  More formal definition:
+  1. Pick K arbitrary cluster centers
+  2. Assign each sample to its closest centroid
+  $z_{n}=\arg \min _{k}\left\|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right\|^{2}$
+  3. Adjust the centroids to be the means of the samples assigned to them
+  $\boldsymbol{c}_{k}=\frac{1}{\left|X_{k}\right|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left\{\boldsymbol{x}_{n} \mid z_{n}=k\right\}$
+  4. Goto step 2 until no change
+
+* F: _What is the main disadvantage of the $$k$$-means clustering algorithm?_ ⭐
+    - Works in an unsupervised setting / doesn't require labelled data
+    - Relatively simple to implement
+    - Scales to large data sets
+    - Guarantees convergence
+    - warm-start the positions of centroids possible
+    - easily adapts to new examples
+    - generalize the clusters of different shapes and sizes, such as elliptical clusters. [(see here.)](https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages)
+
 * F: _How is the clustering problem defined?_ 🧠
 * F: _Why is clustering called unsupervised?_ 🧠
 * F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
@@ -717,8 +833,14 @@ Zur Herkunft der Fragen:
 
 * F: _Explain what a SVM is._
 * F: _Required scaling for SVMs?_ ⭐
-* A: Features should be scaled to the interval $\[0,1\]$.
-* F: _Name advantages of SVMs over logistic regression._ ⭐
+  * Features should be scaled to the interval $\[0,1\]$.
+* F: _Name advantages and disadvantages of SVMs over logistic regression._ ⭐
+  - SVMs can do better than logistic regression, in cases where data is (nearly) separable.
+  - Logistic regression allows to estimate probabilities. This is however not possible with SVMs.
+  - Logistic regression is faster.
+  - Logistic regression is easier to interpret.
+  - Etwas ausführlicher bereits beantwortet...
+
 * F: _Recommendations to improve results of a SVM._ ⭐
 * F: _Why is it good to use a maximum margin objective for classification?_ 🧠
 * F: _How can we define the margins as optimization problem?_ 🧠
@@ -793,8 +915,24 @@ Zur Herkunft der Fragen:
 ## LSTM
 
 * F: _Explain LSTMs._ ⭐
+
+LSTMs are RNNs, that feature:
+- a forgetting mechanism (whether specific information has already ended)
+- a saving mechanism (whether information is worth saving)
+
+That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to.
+
+One variant of LSTMs are GRUs where long-term and working memories are fused.
+
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
+- sequence modelling, with variable input and output length
+- time series analysis
 * F: _How can we use LSTMs for time series dataset?_ ⭐
+- First of all time series forecasting problem must be re-framed as supervised learning problem.
+- One approach is to reframe time series data by considering past observations as input variables and future observations as the output variable.
+- Example:
+  - Time series: 1, 2, 3, 4, 5, 6, 7
+  - For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: (x,y): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
 * F: _Explain how LSTMs update their memory._
 * F: _Give applications of LSTMS._
 
@@ -815,6 +953,21 @@ Zur Herkunft der Fragen:
 ## RNNs / GRUs / Bidirectional LSTMs
 
 * F: _Explain RNNs._
+
+TODO: 
+
+- RNNs maintain an internal memory about the world (weights assigned to different pieces of information) to help perform its classification.
+- A hidden state computed in a previous step e. g. timestep is fed back to the next step.
+
+- The most basic form of RNNs is called vanilla RNN and has a similar structure to standard neural networks.
+
+Improvements of RNNs over Standard Networks
+- RNNs can be handle variable length input and output
+- Standard networks do not share previously learned features across different positions in a given text.
+
+- RNNs can be extended to a LSTM. RNNs can only overwrite their memory in an fairly uncontrolled fashion. LSTMs solve the vanishing gradient problem of RNNs. The vanishing gradient problem is the increasing difficulty of back propagating to the first layers with an increasing depth of the network. 
+
+
 * F: _Explain GRUs._
 * F: _Explain Bidirectional LSTMs._
 * F: _Explain Differences between RNNs and GRUs._
@@ -832,3 +985,27 @@ Zur Herkunft der Fragen:
 * F: _Techniques that can be used for default prediction._ ⭐
   * logistic regression
 
+* F: _How do you evaluate this work? what is your main concern about his work?_ ⭐
+    - Positive about his work is that he tried several models and that he used grid search for parameter optimization.
+    - His work shows some sustainable problems.
+    - The dataset is highly imbalanced, as non-default loans appear 4 times more often than defaulted loans. However he doesn't compensate for this by either upsampling the training data for model training (I) and by choosing the right might metric (II).
+    - There are different costs for rejected loans and handed out, but defaulted loans. Defaulted loans are much more expensive than rejected loans. The used measure accuracy doesn't acknowledge that. 
+    - As SVMs can be derived from logistic regression. That means a SVM with a linear kernel should at least perform as good as the logistic regression. (further research required)
+* F: _What is your suggestion?_⭐
+    - I'd recommend to choose $$F_1$$ as a measure or other measures that can handle imbalanced data. 
+    - It might be wise to plot ROC curves to find a sweet spot (combination with greatest ascend) between True Positive and False Positive Rate.
+* F: _Do you have any recommendation for improving the SVM results?_ ⭐
+    - I'd recommend the following:
+      - Scaling features to a $$\[0,1\]$$ range.
+      - Apply feature expansion and fit Support Vector classifier in a larger feature space
+      - train SVMs on up-sampled data to have an equal balance of defaulted and non-defaulted loans.
+      - Varying more parameters with grid search such as degree of polynomial or width of support vectors.
+
+* F: _Calculate the information gain of the input attribute age and income using entropy._ ⭐
+* F: _Which variable (income or age) do you suggest for first splitting? Why?_ (2+2)
+
+* F: _List other machine learning techniques that can be used for default prediction._⭐
+  - Decision Tree for classification
+    - Bagging for classification 
+    - Gradient Boosting for Classification such as XGBoost, CatBoost
+    - Random Forest for classification
