@@ -69,8 +69,8 @@ Zur Herkunft der Fragen:
   Unstructured data is:
 
   * **Nonnumeric:** No predefined numeric representation for the constructs of interests. Must be defined.
-  * **Multifaceted:** Each aspect of data provides unique information for studying and different types of research goals. E. g. voice data present information about the speaker such as pitch, speech rate. Data can be used both in psychology and communication.
-  * **Concurrent representation:** Represents different phenomena at the same time. One can study different research questions with one single unstructured data.
+  * **Multifaceted:** Each aspect of data provides unique information for studying and different types of research goals. E. g. voice data present information about the speaker such as pitch, speech rate. Data can be used both in psychology and communication. 
+  * **Concurrent representation:** Represents different phenomena at the same time. One can study different research questions with one single unstructured data. TODO: Paper nachlesen
 
 * F: What is referred to as 'structured data'?
   * Structured data is data that adheres to a pre-defined data model and is therefore straightforward to analyse.
@@ -123,7 +123,7 @@ Zur Herkunft der Fragen:
 * F: _How can missing data be replaced? Explain._
   * **mean based imputation:** i. e. mean is calculated from all observations
   * **median based imputation:** Same as above but with median.
-  * **stratified imputation:** i. e. structure of data is considered for replacements. E. g. missing height is different for gender male and female.
+  * **stratified imputation:** i. e. categories / structure of data is considered for replacements. E. g. missing height is different for gender male and female.
   * **regressed imputation:** i. e. replacing missing values by predictions of a regression model
 * F: _Explain 3 patterns in which missing data can occur._
   * **Completely random / MCAR:** Missing values have no pattern. Can not be predicted.
@@ -131,8 +131,8 @@ Zur Herkunft der Fragen:
   * **Latent, yet unknown variable:** Missing value depends on latent and highly correlated variable.
 * F: _What is a training, test and validation set for?_
   * **Training set** is used to fit all potential models
-  * **Validation set** is used to select a model
-  * **Test set** is used to estimate the predictive power on unseen data
+  * **Validation set** is used to select hyperparameters of a model
+  * **Test set** is used to estimate the predictive power of a model on unseen data
 * F: _What is the risk with tuning hyperparameters using a test dataset?_ 🧑‍🚒
   * Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. \(Berkley p. 14\)
 
@@ -150,7 +150,9 @@ Zur Herkunft der Fragen:
     \min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}=\min _{\boldsymbol{\beta}}\|\mathbf{y}-\mathbf{X} \beta\|^{2}
     $$
 
-  Which can be reformulated to:
+  TODO: Formel für Linear Regression TODO: Minimierung SSE?
+
+* Which can be reformulated to:
 
   $$
   \beta=\left(X^{\intercal} X\right)^{-1} X^{\intercal} y
@@ -176,8 +178,9 @@ Zur Herkunft der Fragen:
   * $$\text { Adjusted } R^{2}=1-\left(1-R^{2}\right)\left(\frac{n-1}{n-k-1}\right)$$ 
   * $$\text{RMSE}=\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(y_{i}-\hat{y}_{i}\right)^{2}}$$ 
   * $$\text{MAE}=\frac{1}{n} \sum_{i=1}^{n}\left|y_{i}-\hat{y}_{i}\right|$$ 
+  * TODO: n, k einführen....
 * F: _Give an intution for_ $$R^2$$ _, MAE and RMSE._
-  * $$R^2$$**:** How well can my model explain the variance?
+  * $$R^2$$ / adj. $$R^2$$**:** How well can my model explain the variance?
   * **MAE:** How does the model perform on average?
   * **RMSE:** How many large prediction derivations does the model have? \(lecture BDA p. 43\)
 * F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MSE, MAE and RMSE. Name advantages and drawbacks._  
@@ -192,7 +195,7 @@ Zur Herkunft der Fragen:
 * F: _Compare MAE to RMSE._
   * **RMSE** penalizes large errors more than MAE. This can be useful if being off by 10 is more than twice as bad as being of by 5. If however being of by 5 is just as bad as being of by 10, MAE should be preferred. \([See here](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d).\)
 * F: _Compare_ $$R^2$$_, Adj._ $$R^2$$ _to MAE, RMSE. Which of these is normed._ 
-  * $$R^2$$ and Adj. $$R^2$$ between$$[0,1]$$.
+  * $$R^2$$ and Adj. $$R^2$$ between$$[0,1]$$. TODO: worse than 0 if prediction is worse than mean  / large SSE vs small SST.
   * MAE, RMSE between$$[0, \infty)$$. If RMSE is acceptable depends on the scale of the variables. [\(see here\)](https://stats.stackexchange.com/a/56332). RMSE and MAE are $$0$$ for models with a perfect fit.
 * F: _In which way does adjusted_ $$R^2$$ _improve the standard_ $$R^2$$_?_ 
   * A model might have a good fit in-sample but poor fit on out-of-sample, if to many regressors are used.
@@ -230,10 +233,13 @@ Zur Herkunft der Fragen:
 * F: _How does correlations and multicollinearity relate?_ 
 * F: _Give the definition of the Variance Inflation Factor._ 
 * F: _Explain how the Variance Inflation Factor can be calculated._ 
-* F: _Name common assumptions about error terms._ 1. Regression Errors are normally distributed 2. The variance of regression errors is constant 3. The error terms from different points in time are independent 4. The residuals are uncorrelated with the independent variable.
+* F: _Name common assumptions about error terms._ 
+  * 1. Regression Errors are normally distributed 
+  * 2. The variance of regression errors is constant 
+  * 3. The error terms from different points in time are independent 
+  * 4. The residuals are uncorrelated with the independent variable.
 
-  Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
-
+    **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
 * F: _Name implications when residuals of a general linear regression model are not normally distributed._
 * F: _Why do errors of a linear regression model have to be normally distributed?_ 
 * F: _Why does variance of regression errors in a linear regression model has to be constant?_ 
@@ -252,6 +258,7 @@ Zur Herkunft der Fragen:
   * It is a predictive analysis that describes data and explains the relationship between variables.
   * Logistic regression gives discrete outputs between 0 and 1 for an input variable $$X$$. To do so, a logistic function is utilized:$$p(X)=\frac{e^{\beta_{0}+\beta_{1} X}}{1+e^{\beta_{0}+\beta_{1} X}}$$, which produces a S-shaped like curve.
   * The regression coefficients $$(\beta_0, \beta_1X_1+\cdots+\beta_PX_P)$$ are estimated using the maximum likelihood method.
+  * TODO: ecponential trick, why log?
 * F: _How is the maximum likelihood estimated in a logistic regression setting?_
   * We try to maximize likelihood to estimate the parameters:
 
@@ -290,9 +297,6 @@ Zur Herkunft der Fragen:
 * F: _Is it better to have many false positives, or too many false negatives?_
   * \([See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
 * F: _How can a standard_ $$2 \times 2$$ _confusion matrix be enhanced for a multi-classification case?_ 
-
-  \* 
-
 * F: _What is an imbalanced dataset in classification?_ ⭐
   * A classification data set where class proportions are skrewed. A class is called majority class, if it makes up a large proportion of the data set. Classes that make up a small proportion are called minority classes. [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
 * F: _How do you deal with imbalanced data in classification?_
@@ -349,6 +353,7 @@ Zur Herkunft der Fragen:
 * F: _How is Kappa statstic defined?_  
   * $$\text { Kappa Statistic }=\frac{\left(P{a}-P{e}\right)}{\left(1-P_{e}\right)}$$ 
   * where TP, TN, FP, and FN are defined in previous questions,  $$P{a}=[(\mathrm{TP}+\mathrm{TN}) / \mathrm{N}]$$, and $$P{e}=[(\mathrm{TP}+\mathrm{FN}] / \mathrm{N}][(\mathrm{TP}+\mathrm{FN}) / \mathrm{N}]$$.
+  * TODO: Formel nochmal nachschauen? Diagonale?
   * Fleiss' Kappa enhances Cohens Kappa to more than two raters.
 * F: _How can Kappa statistic be interpreted?_ 
   * Kappa statistic is used to test **interrater reliability** between two raters.
@@ -358,22 +363,23 @@ Zur Herkunft der Fragen:
     * 0 — 0.20 Slight
     * 0.21 — 0.40 Fair 
     * 0.41 — 0.60 Moderate 
-    * 0.61 — 0.80 Substantial
+    * **0.61 — 0.80 Substantial**
     * 0.81 – 1.00 Perfect
 * F: _What are disadvantages of_ $$\kappa$$_?_
   * It's maximal value is not always 1. \([see here](https://de.wikipedia.org/wiki/Cohens_Kappa).\)
 * F: _Is Kappa statistic sensitive to imbalanced data?_
   * Cohen's kappa can handle imbalanced data well.
+  * $$F_1$$ score
 * F: _How is the_ $$F_1$$ _measure defined?_ 
   * $$F_{1}=\frac{2}{\frac{1}{\text { precision}}+\frac{1}{\text { recall }}}=2 * \frac{\text { precision } * \text { recall }}{\text { precision }+\text { recall }}$$ 
 * F: _Give an intutition for the_ $$F_1$$ _-measure._
   * _Combined measure of precision and recall to take trade-off into account._
-  * \_\_$$F_1$$ _is the harmonic mean between precision and recall._
+  * $$F_1$$ _is the harmonic mean between precision and recall._
 * F: _What values can a_ $$F_1$$ _measure take?_ 
   * $$F_1$$ is at max 1, if precision and recall is perfect.
   * $$F_1$$ is 0, if either precision or recall is 0.
 * F: _In which way does the_ $$F_1$$ _-measure improve over simpler measure like accuracy?_
-  * \_\_$$F_1$$ measure is useful, if costs for false positives or false negatives are different e. g. prediction of illness
+  * $$F_1$$ measure is useful, if costs for false positives or false negatives are different e. g. prediction of illness
   * $$F_1$$ is useful, when data is imbalanced.
   * However, accuracy is easier to interpret. \([see here.](https://deepai.org/machine-learning-glossary-and-terms/f-score)\)
 * F. _How to access model performance? Name 4 criteria._
@@ -962,20 +968,26 @@ Improvements of RNNs over Standard Networks
   * The dataset is highly imbalanced, as non-default loans appear 4 times more often than defaulted loans. However he doesn't compensate for this by either upsampling the training data for model training \(I\) and by choosing the right might metric \(II\).
   * There are different costs for rejected loans and handed out, but defaulted loans. Defaulted loans are much more expensive than rejected loans. The used measure accuracy doesn't acknowledge that. 
   * As SVMs can be derived from logistic regression. That means a SVM with a linear kernel should at least perform as good as the logistic regression. \(further research required\)
+  * TODO: Formel for Accuracy für Datenset berechnen wenn Mehrheitsklasse / 80 % / 
 * F: _What is your suggestion?_⭐
-  * I'd recommend to choose $$F_1$$ as a measure or other measures that can handle imbalanced data. 
+  * I'd recommend to choose $$F_1$$ as a measure or other measures that can handle imbalanced data and apply different cost. 
   * It might be wise to plot ROC curves to find a sweet spot \(combination with greatest ascend\) between True Positive and False Positive Rate.
+  * Analyse der False negatives
+  * TODO: Up-sampling / down-sampling synthetic sampling Smote. Implement dummy classifier \(majority vote\)  as baseline.
 * F: _Do you have any recommendation for improving the SVM results?_ ⭐
   * I'd recommend the following:
-    * Scaling features to a $$\[0,1\]$$ range.
-    * Apply feature expansion and fit Support Vector classifier in a larger feature space
+    * Scaling features to a $$[0,1]$$ range.
+    * Apply feature expansion and fit Support Vector classifier on a larger feature space
     * train SVMs on up-sampled data to have an equal balance of defaulted and non-defaulted loans.
     * Varying more parameters with grid search such as degree of polynomial or width of support vectors.
+    * TODO: improved data preprocessing
 * F: _Calculate the information gain of the input attribute age and income using entropy._ ⭐
 * F: _Which variable \(income or age\) do you suggest for first splitting? Why?_ \(2+2\)
 * F: _List other machine learning techniques that can be used for default prediction._⭐
   * Decision Tree for classification
-    * Bagging for classification 
-    * Gradient Boosting for Classification such as XGBoost, CatBoost
-    * Random Forest for classification
+  * Bagging for classification 
+  * Gradient Boosting for Classification such as XGBoost, CatBoost
+  * Random Forest for classification
+  * Deep Learning
+  * Neural Nets
 
