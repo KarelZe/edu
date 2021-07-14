@@ -136,7 +136,7 @@ A:
 
 Annahme: Knoten werden weggelassen, sofern sie keine Entscheidungsrelevanz mehr haben.
 
-![\(Eigene Darstellung\)](../../.gitbook/assets/grafik%20%283%29%20%283%29%20%283%29.png)
+![\(Eigene Darstellung\)](../../.gitbook/assets/grafik%20%283%29%20%283%29%20%284%29%20%283%29.png)
 
 F: _Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein "gutes" \(sollte früh abgefragt werden\)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das "beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können?_ \(6+5P.=11P.\)
 
