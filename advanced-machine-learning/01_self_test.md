@@ -826,6 +826,7 @@ $$
 * F: _Why does_ $$k$$_-means converge? What is it minimizing._ 🧠
   * We have only a finite number of possible values for the centroid.
   * Every assignment or adjustment step is reducing the SSD or remains constant.
+  * TODO: More detailled in ML slides.
 * F: _Does_ $$k$$_-means find a global minimum of the objective?_ 🧠
   * No, the objective \(see question above\) is an NP-hard problem, so we can't expect any algorithm to minimize the cost without essentially checking \(near to\) all assignments.
   * It heavily depends on the initialisation of the centroids.
