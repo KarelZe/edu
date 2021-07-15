@@ -14,7 +14,7 @@ Zur Herkunft der Fragen:
 
 ![&#xDC;berblick &#xFC;ber Algorithmen der Vorlesung](../.gitbook/assets/adv_ml_map_of_algorithms.png)
 
-## Big Data
+## Big Data\*
 
 * F: _What are the characteristics of big data?_ ⭐
   * volume
@@ -31,7 +31,7 @@ Zur Herkunft der Fragen:
 
   Veracity refers to the quality of data \(e. g. noise in data\). While variety refers to types of data \(e. g. unstructured data\) in which data can come. As data is often collected from different sources both their types and their quality can differ.
 
-## ML vs. Statistics vs. Econometrics
+## ML vs. Statistics vs. Econometrics\*
 
 * F: _Compare ML to Statistics. What are the most significant differences?_
 
@@ -62,7 +62,7 @@ Zur Herkunft der Fragen:
   * concerned about prediction
   * using all sorts of data-driven models e. g. Trees, NN etc.  
 
-## Structure of data / CRISP-DM / Taxonomy
+## Structure of data / CRISP-DM / Taxonomy\*
 
 * F: _What are characteristics of unstructured data? Explain them._ ⭐
 
@@ -247,7 +247,7 @@ Zur Herkunft der Fragen:
 * F: _Define the coefficient of partial determination._ 
 * F: _How do the coefficient of partial determination and F-test relate?_ 
 
-## Logistic Regression
+## Logistic Regression\*
 
 * F: _In which way do logistic regression and linear regression differ?_
   * _Linear regression is applied to **regression problems**, whereas logistic regression is used for **classification**._
@@ -284,7 +284,7 @@ Zur Herkunft der Fragen:
 * F: _Calculate the probabilities of the credit card example using logistic regression model._
   * _See script p. 18._
 
-## Classification Evaluation
+## Classification Evaluation\*
 
 * F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
   * ![](../.gitbook/assets/confusion_matrix.svg) 
@@ -391,7 +391,7 @@ Zur Herkunft der Fragen:
   * _moon-shaped_
   * _circular or interwoven shapes_
 
-## Cross-Validation
+## Cross-Validation\*
 
 * F: What is commonly understood under resampling methods?
   * Resampling methods involve repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.
@@ -611,7 +611,7 @@ $$
 * F: _Calculate the PCA for the first 2 components?_
 * F: _Sketch the algorithm for calculating the first two PCA components._
 
-## Decision Trees
+## Decision Trees\*
 
 * F: _Explain what a decision tree is._
   * A decision tree is a supervised learning algorithm that can be used used for regression and classification. 
@@ -688,7 +688,7 @@ $$
   * Most of the times random forests achieve a better accuracy, as they are trained on  random sub samples. This however comes at the expense of loss interpretation.
 * _F: What are tuning parameters for Decision Trees?_
 
-## Bagging, Boosting and RF
+## Bagging, Boosting and RF\*
 
 * F: _What ensemble techniques can be applied?_
   * _Bagging_ 
@@ -763,7 +763,7 @@ $$
 * _F: Give on example for an ensemble algorithm from the class of an ensemble model that gave improved performance over a base model._
   * random forests and boosting used to predict defaults for commercial  real estate property loans.
 
-## k-means Clustering
+## k-means clustering\*
 
 * F: _Explain the_ $$k$$_-means clustering algorithm_ ⭐
 
