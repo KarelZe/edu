@@ -795,13 +795,13 @@ $$
     For Euclidean distance: 
 
     * $$\operatorname{ minimize }\left\{\sum_{k=1}^{K} \frac{1}{\left|C_{K}\right|} \sum_{i, i^{\prime} \in C_{K}} \sum_{j=1}^{P}\left(x_{i j}-x_{i^{\prime} j}\right)^{2}\right\}$$
-* F: _What is the main disadvantage of the_ $$k$$_-means clustering algorithm?_ ⭐
-  * Works in an unsupervised setting / doesn't require labelled data
-  * Relatively simple to implement
-  * Scales to large data sets
-  * Guarantees convergence
-  * warm-start the positions of centroids possible
-  * easily adapts to new examples
+* F: _What is the main \(dis-\)advantage of the_ $$k$$_-means clustering algorithm?_ ⭐
+  * Works in an unsupervised setting / doesn't require labelled data \(+\)
+  * Relatively simple to implement \(+\)
+  * Scales to large data sets \(+\)
+  * Guarantees convergence \(+\)
+  * warm-start the positions of centroids possible \(+\)
+  * easily adapts to new examples \(+\)
   * generalize the clusters of different shapes and sizes, such as elliptical clusters. [\(see here.\)](https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages)
 * F: _What properties does a set has to fulfil when_ $$k$$_-means clustering should be applied._
   * Datasets with less noise
@@ -821,15 +821,18 @@ $$
 * F: _Name distance measures, that can be used with in conjunction with_ $$k$$ _means. When should they be used._
   * \_\_
 * F: _What are the 2 main steps of_ $$k$$_-means?_ 🧠
-  * 
+  * Pick $$k$$ arbitrary cluster centers
+  * Assign each sample to the closest cantroid and adjust the centroids to be the means of the samples assigned to them.
 * F: _Why does_ $$k$$_-means converge? What is it minimizing._ 🧠
-  * 
+  * We have only a finite number of possible values for the centroid.
+  * Every assignment or adjustment step is reducing the SSD or remains constant.
 * F: _Does_ $$k$$_-means find a global minimum of the objective?_ 🧠
-  * 
+  * No, the objective \(see question above\) is an NP-hard problem, so we can't expect any algorithm to minimize the cost without essentially checking \(near to\) all assignments.
+  * It heavily depends on the initialisation of the centroids.
 * F: _How is the clustering problem defined?_ 🧠
   * 
 * F: _Why is clustering called unsupervised?_ 🧠
-  * 
+  * Clustering is an unsupervised machine learning task that automatically devides the data into clusters, or groups of similar items. It does this without having been told how the groups should look ahead of time. As we may not even know what we're looking for, clustering is used for knowledge discovery rather than prediction. \([see here](https://hub.packtpub.com/introduction-clustering-and-unsupervised-learning/).\)
 * F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
   * 
 * F: _Name similarity measures. Name an advantage and disadvantage for each of them._
@@ -845,16 +848,34 @@ $$
 
     ![](http://127.0.0.1:50742/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 * F: _Explain how the algorithm for hierarchical clustering works._
-* F: _Explain different linkage types, that can be used for clustering._
-  * \_\_
+* F: _Name and explain different linkage types, that can be used for clustering._
+  * **Complete:** Maximal intercluster dissimilarity. Comput all  pairwise dissimilarities between the observations in a cluster A and the observations in a cluster B, and record the largest of theese dissimilarities.
+  * **Single:** Minimal intercluster dissimilarity. Compute all pairswise dissimilarities between the observations in cluster A and the observations in cluster B, and record the smallest of these dissimiliarties. Single linkage can result in extended, trailing clusters in which single observations are fused one-at-a-time.
+  * A**verage:** Mean intercluster dissimilarity compute all pairwise dissimilarities between the observations in cluster A and the observations in Cluster B,  and record the average of these dissimilarities. 
+  * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of lenth p\) and the centroid for B. Centroid linkage can result in undesirable inversions.
 * F: _Draw different linkage types visually._
-  * \_\_
+  * ![](http://127.0.0.1:50852/12Qo9ezWv8KRs8zRMKxh.png)_​_
+
+    _​_
+
+    ![](http://127.0.0.1:50852/137Cmij89B1D5vvNh58X.png)
+
+    ​
 * F: _What is the impact of using different linkage types?_
   * \_\_
 * F: _Name practical issues that arise with hierarchical or_ $$k$$_-means clustering._
-  * \_\_
+  * decision whether observations or features should be standardized i. e. zero mean / standard deviation of 1
+  * Choice of similarity measure
+  * Choice of linkage types
+  * Decide on no. of clusters
 * F: _Give applications for clustering._
-  * \_\_
+  * Outlier detection
+  * Compact summary of data for classification, hypothesis testing,...
+  * Data reduction and summarization
+  * Dynamic trend detection
+  * Social network analysis
+  * Multimedia data analysis
+  * Recommendersysteme e. g. CF
 
 ## SVMs
 
