@@ -814,7 +814,6 @@ $$
   * Agglomerative Hierarchical Clustering
   * Birch \([see here.](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68) / AGD\)
 * F: _How does minimizing the WCV relate to solving the clustering problem?_
-  * \_\_
 * F: _Name distance measures, that can be used with in conjunction with_ $$k$$ _means. When should they be used._
   * _Euclidean distance_
   * _Manhatten distance_
@@ -831,14 +830,11 @@ $$
   * No, the objective \(see question above\) is an NP-hard problem, so we can't expect any algorithm to minimize the cost without essentially checking \(near to\) all assignments.
   * It heavily depends on the initialisation of the centroids.
 * F: _How is the clustering problem defined?_ 🧠
-  * 
 * F: _Why is clustering called unsupervised?_ 🧠
   * Clustering is an unsupervised machine learning task that automatically devides the data into clusters, or groups of similar items. It does this without having been told how the groups should look ahead of time. As we may not even know what we're looking for, clustering is used for knowledge discovery rather than prediction. \([see here](https://hub.packtpub.com/introduction-clustering-and-unsupervised-learning/).\)
 * F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
-  * 
 * F: _Name similarity measures. \(Name an advantage and disadvantage for each of them.\)_
 * F: _Compare similarity measures for low and high-dimensional spaces._
-  * \_\_
 * F: _In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?_
   * [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _When is a clustering optimal?_
@@ -855,11 +851,13 @@ $$
 
   * Examine all pairwise inter-cluster dissimilarities among the $$i$$ clusters and identify the pair of clusters that are least dissimilar \(that is, most similar\). Fuse these two clusters. The dissimilarity between these two clusters indicates the height in the dendrogram at which the fusion should be placed.
   * Compute the new pairwise inter-cluster dissimilarities among the $$i-1$$ remaining clusters.
+* F: What is the purpose of linkage types?
+  * To merge two clusters, one needs to take the distance between the \(existing\) clusters and therefore define the distance between two clusters.
 * F: _Name and explain different linkage types, that can be used for clustering._
-  * **Complete:** Maximal intercluster dissimilarity. Comput all  pairwise dissimilarities between the observations in a cluster A and the observations in a cluster B, and record the largest of theese dissimilarities. **Alternative:** Maximum distance between two points from the 2 cluster
-  * **Single:** Minimal intercluster dissimilarity. Compute all pairswise dissimilarities between the observations in cluster A and the observations in cluster B, and record the smallest of these dissimiliarties. Single linkage can result in extended, trailing clusters in which single observations are fused one-at-a-time. **Alternative:** Minimum distance between two points from the 2 cluster
-  * **Average:** Mean intercluster dissimilarity compute all pairwise dissimilarities between the observations in cluster A and the observations in Cluster B,  and record the average of these dissimilarities. **Alternative:** Average distance between 2 pairs
-  * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of lenth p\) and the centroid for B. Centroid linkage can result in undesirable inversions. **Alternative**: Distance between the 2 centroids
+  * **Complete:** Maximal intercluster dissimilarity. Comput all  pairwise dissimilarities between the observations in a cluster A and the observations in a cluster B, and record the largest of theese dissimilarities. **Alternative:** Maximum distance between two points from the 2 cluster.
+  * **Single:** Minimal intercluster dissimilarity. Compute all pairswise dissimilarities between the observations in cluster A and the observations in cluster B, and record the smallest of these dissimiliarties. Single linkage can result in extended, trailing clusters in which single observations are fused one-at-a-time. **Alternative:** Minimum distance between two points from the 2 cluster.
+  * **Average:** Mean intercluster dissimilarity compute all pairwise dissimilarities between the observations in cluster A and the observations in Cluster B,  and record the average of these dissimilarities. **Alternative:** Average distance between 2 pairs.
+  * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of lenth p\) and the centroid for B. Centroid linkage can result in undesirable inversions. **Alternative**: Distance between the 2 centroids.
 * F: _Draw different linkage types visually._
   * ![](http://127.0.0.1:50852/12Qo9ezWv8KRs8zRMKxh.png)_​_
 
@@ -871,6 +869,9 @@ $$
 * F: _What is the impact of using different linkage types?_
   * \([see here.](https://stats.stackexchange.com/questions/195446/choosing-the-right-linkage-method-for-hierarchical-clustering)\)
   * ![](../.gitbook/assets/grafik%20%2849%29.png) 
+* F: Name disadvantages of linkage types.
+  * Single Linkage: Tends to build chains.
+  * Complete Linkage: Tends to create small groups. \([see here](https://de.wikipedia.org/wiki/Hierarchische_Clusteranalyse).\)
 * F: _Name practical issues that arise with hierarchical or_ $$k$$_-means clustering._
   * decision whether observations or features should be standardized i. e. zero mean / standard deviation of 1
   * Choice of similarity measure
