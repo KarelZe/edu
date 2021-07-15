@@ -803,6 +803,7 @@ $$
   * warm-start the positions of centroids possible \(+\)
   * easily adapts to new examples \(+\)
   * generalize the clusters of different shapes and sizes, such as elliptical clusters. [\(see here.\)](https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages)
+  * $$k$$-means clustering requires us to pre-specify the number of clusters. However no of clusters is often not known \(-\)
 * F: _What properties does a set has to fulfil when_ $$k$$_-means clustering should be applied._
   * Datasets with less noise
   * Spherical clusters of roughly the same size
@@ -812,14 +813,13 @@ $$
   * DBSCAN
   * Agglomerative Hierarchical Clustering
   * Birch \([see here.](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68) / AGD\)
-* F: _How can_ $$k$$_-means clustering be phrased as an optimization problem?_
-  * \_\_
-* F: _What are advantages / drawbacks of using the_ $$k$$ _-means algorithm?_
-  * \_\_
 * F: _How does minimizing the WCV relate to solving the clustering problem?_
   * \_\_
 * F: _Name distance measures, that can be used with in conjunction with_ $$k$$ _means. When should they be used._
-  * \_\_
+  * _Euclidean distance_
+  * _Manhatten distance_
+  * _Average distance_
+  * _Minkowski sum \(_[_see here\)_](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0144059/1/pone.0144059.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20210715%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20210715T194736Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=04ede785d000ebd5f299bfbbab8c90d6eadccd88325d10335ed298244a0ecf7a930ab527d0c521cf7a014d40565bdaeec1721d2a96b9a8c02025c5a2d02a8c5cb315c9241feeff1e3e2e5faa8fb0d7df7a4093901e580a4454e37c51a1c63487e1cfdbb86243603498f00b69a242f76ee0ddb744f9e2555e15627fd23febc4dbac8107aa0ffef08b59a1923f71f8c214347c481256c4a769c830868d160f1cdb2fe75b8af9458875ec5a441e93729bb2896ced623dec5be33f41346fcef8188f47e8e3efe87c3424bfe2a3bac0a3446788d38c091052835476328901902840be36576b9b327ae8d12aebd783be1dafaefc5a5edf41a88d7280f23c90a8b80768)\_\_
 * F: _What are the 2 main steps of_ $$k$$_-means?_ 🧠
   * Pick $$k$$ arbitrary cluster centers
   * Assign each sample to the closest cantroid and adjust the centroids to be the means of the samples assigned to them.
@@ -835,24 +835,30 @@ $$
   * Clustering is an unsupervised machine learning task that automatically devides the data into clusters, or groups of similar items. It does this without having been told how the groups should look ahead of time. As we may not even know what we're looking for, clustering is used for knowledge discovery rather than prediction. \([see here](https://hub.packtpub.com/introduction-clustering-and-unsupervised-learning/).\)
 * F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
   * 
-* F: _Name similarity measures. Name an advantage and disadvantage for each of them._
-  * \_\_
+* F: _Name similarity measures. \(Name an advantage and disadvantage for each of them.\)_
 * F: _Compare similarity measures for low and high-dimensional spaces._
   * \_\_
 * F: _In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?_
   * [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _When is a clustering optimal?_
-  * \_\_
+  * A clustering is optimal, if the within-cluster variation \(summed over all Clusters $$K$$\) is a as small as possible.
 * F: _Draw a dendrogram from a given clustering._
-  * ![](http://127.0.0.1:50742/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
+  *   ![](http://127.0.0.1:50852/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
+
+  *   ![](http://127.0.0.1:50852/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 
     ![](http://127.0.0.1:50742/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 * F: _Explain how the algorithm for hierarchical clustering works._
+  1. Begin with n observations and a measure \(such as Euclidean distance\) of all the $$\left(\begin{array}{c}n \\ 2\end{array}\right)=n(n-1) / 2$$ pairwise dissimilarities. Treat each observation as its own cluster.
+  2. For $$i=n, n-1, \ldots, 2$$
+
+  * Examine all pairwise inter-cluster dissimilarities among the $$i$$ clusters and identify the pair of clusters that are least dissimilar \(that is, most similar\). Fuse these two clusters. The dissimilarity between these two clusters indicates the height in the dendrogram at which the fusion should be placed.
+  * Compute the new pairwise inter-cluster dissimilarities among the $$i-1$$ remaining clusters.
 * F: _Name and explain different linkage types, that can be used for clustering._
-  * **Complete:** Maximal intercluster dissimilarity. Comput all  pairwise dissimilarities between the observations in a cluster A and the observations in a cluster B, and record the largest of theese dissimilarities.
-  * **Single:** Minimal intercluster dissimilarity. Compute all pairswise dissimilarities between the observations in cluster A and the observations in cluster B, and record the smallest of these dissimiliarties. Single linkage can result in extended, trailing clusters in which single observations are fused one-at-a-time.
-  * A**verage:** Mean intercluster dissimilarity compute all pairwise dissimilarities between the observations in cluster A and the observations in Cluster B,  and record the average of these dissimilarities. 
-  * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of lenth p\) and the centroid for B. Centroid linkage can result in undesirable inversions.
+  * **Complete:** Maximal intercluster dissimilarity. Comput all  pairwise dissimilarities between the observations in a cluster A and the observations in a cluster B, and record the largest of theese dissimilarities. **Alternative:** Maximum distance between two points from the 2 cluster
+  * **Single:** Minimal intercluster dissimilarity. Compute all pairswise dissimilarities between the observations in cluster A and the observations in cluster B, and record the smallest of these dissimiliarties. Single linkage can result in extended, trailing clusters in which single observations are fused one-at-a-time. **Alternative:** Minimum distance between two points from the 2 cluster
+  * **Average:** Mean intercluster dissimilarity compute all pairwise dissimilarities between the observations in cluster A and the observations in Cluster B,  and record the average of these dissimilarities. **Alternative:** Average distance between 2 pairs
+  * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of lenth p\) and the centroid for B. Centroid linkage can result in undesirable inversions. **Alternative**: Distance between the 2 centroids
 * F: _Draw different linkage types visually._
   * ![](http://127.0.0.1:50852/12Qo9ezWv8KRs8zRMKxh.png)_​_
 
@@ -862,7 +868,8 @@ $$
 
     ​
 * F: _What is the impact of using different linkage types?_
-  * \_\_
+  * \([see here.](https://stats.stackexchange.com/questions/195446/choosing-the-right-linkage-method-for-hierarchical-clustering)\)
+  * ![](../.gitbook/assets/grafik%20%2849%29.png) 
 * F: _Name practical issues that arise with hierarchical or_ $$k$$_-means clustering._
   * decision whether observations or features should be standardized i. e. zero mean / standard deviation of 1
   * Choice of similarity measure
