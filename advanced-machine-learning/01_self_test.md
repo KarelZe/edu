@@ -75,13 +75,24 @@ Zur Herkunft der Fragen:
 * F: What is referred to as 'structured data'?
   * Structured data is data that adheres to a pre-defined data model and is therefore straightforward to analyse.
   * Structured data conforms to a tabular format with a relationship between the different rows and columns.
-* F: _What is unsupervised learning?_ ⭐
+* F: _What is **unsupervised learning**?_ ⭐
   * Observe data and construct a low complexity description of the data. 
   * That means in unsupervised learning the dataset that a data set transforms into is _not previously known_ or understood. Data is not labelled. \(Grooking p. 13\) 
   * We observe only the features $$X_1, X_2,\ldots, X_P$$. We are not interested in prediction, because we do not have an associated response variable $$Y$$.
-* F: _What is supervised learning?_ ⭐
-  * We observe both a set of features $$X_1,X_2,\ldots,X_P$$ for each object, as well as a response or outcome variable $$Y$$. The goal is then to predict $$Y$$ using $$X_1, X_2,\ldots,X_P$$
-* Examples include clustering and PCA.
+* F: _What is **supervised learning**?_ ⭐
+  * We observe both a set of features $$X_1,X_2,\ldots,X_P$$ for each object, as well as a response or outcome variable $$Y$$. The goal is then to predict $$Y$$ using $$X_1, X_2,\ldots,X_P$$.
+  * Examples include clustering and PCA.
+* F: _What are **advantages / disadvantages** of **unsupervised learning techniques**?_
+  * No labelled data required, which is often expensive and laborious. \(+\) 
+  * Adding labels to the data after clustering is often easier \(+\) \(own\)
+  * Unsupervised techniques such as clustering help with data understanding of the raw data. \(+\) \(own\)
+  * Unsupervised learning is more subjective, as there is no simple objective \(-\)
+* F: _Name  practical applications of unsupervised learning._
+  * Subgroups of breast cancer patients grouped by their gene expression measurements
+  * Groups of shoppers charactreized by their browsing and purchase histories
+  * Movies grouped by ratings assigned by movie raters
+* F: _What is the goal of unsupervised learning?_
+  * The goal of unsupervised learning is to discover interesting things about the measurements on how to **visualize data** and **finding subgroups** among variables or observations.
 * F: _Give two examples for unsupervised learning techniques._ 
   * Clustering algorithms such as $$k$$-means
   * Dimensionality reduction techniques such as PCA
@@ -103,12 +114,12 @@ Zur Herkunft der Fragen:
   * **ordinal:** Ordinal variables have a meaningful order or ranking among them, but the magnitude between successive values is not known.
   * **numeric:** A quantitative variable. Numeric variables could be interval-scaled or ratio-scaled.
 * F: _Which steps are part of the CRISP-DM model? Explain them in-depth._
-  1. Business understanding i. e. developing an understanding of business objects and requirements of the data mining
-  2. Data understanding i. e. identify and collect the data set needed to fulfil the business goals
-  3. Data preparation i. e. prepare data for modelling
-  4. Modelling i. e. build several models and assess them on a technical level.
-  5. Evaluation i. e. Evaluate whether models are able to help achieve the business goals. Plan on the next steps.
-  6. Deployment i. e. Deploy model to production. Make it accessible to customers.
+  1. **Business understanding** i. e. developing an understanding of business objects and requirements of the data mining
+  2. **Data understanding** i. e. identify and collect the data set needed to fulfil the business goals
+  3. **Data preparation** i. e. prepare data for modelling
+  4. **Modelling** i. e. build several models and assess them on a technical level.
+  5. **Evaluation** i. e. Evaluate whether models are able to help achieve the business goals. Plan on the next steps.
+  6. **Deployment** i. e. Deploy model to production. Make it accessible to customers.
 * F: _Explain common techniques for data gathering._
   * **Bulk downloads:** Downloading large amounts of data. Often done using sophisticated software.
   * **APIs:** Accessing data through machine readable interfaces. Examples include Google Maps API.
@@ -585,30 +596,50 @@ $$
 
 ## Dimensionality Reduction
 
+* F: _What does dimensionality reduction mean?_ 🧠
+  * Dimensionality reduction is simply, the process of reducing the dimension of your feature set. e. G. from a hypersphere to some spherical shape. This is commonly done to feight the curse of dimensionality. \([see here.](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)\)
+* F: _What are advantages and disadvantages of dimensionality reduction?_
+  * **Advantages:**
+    * It helps in data compression, and hence reduces storage space
+    * It reduces computation time.
+    * It helps remove redundent features, if present
+  * **Disadvantages:**
+    * May lead to some amount of data loss.
+    * PCA tends to find linear correlations between variables, which is sometimes not desireable.
+    * PCA fails in cases where mean and covariance are not enough to define datasets.
+* F: _What is PCA commonly used for?_
+  * Produce a **low-dimensional representation** of the dataset. It finds a sequence of linear combinations of variables with maximal variance and high mutal correlation.
 * F: _What are the advantages of sparse PCA over PCA?_⭐
-  * sparse PCA allows for a better interpretation of economic meaning of each principal component. When having a large number of variables with non-zero factor loadings it's hard to interpret them with ordinary PCA, as PCs are a linear combination of all $$p$$ variables.
+  * Sparse PCA allows for a better interpretation of economic meaning of each principal component. When having a large number of variables with non-zero factor loadings it's hard to interpret them with ordinary PCA, as PCs are a linear combination of all $$p$$ variables.
   * Compared to SCoTLASS its computationally efficient.
 * F: _Intuition about sparse principal component analysis?_
   * SPCA is built on the fact that PCA can be written as a regression-type optimization problem, with a quadratic penalty; the lasso penalty \(via the elastic net\) can then be directly integrated into the regression criterion, leading to a modifiedPCA with sparse loadings.
-* F: _What does dimensionality reduction mean?_ 🧠
+* F: _Explain the \(standard\) PCA._
 * F: _What is PCA?_ 🧠
 * F: _What are three things, that PCA does?_ 🧠
 * F: _What are the roles of the Eigenvectors and Eigenvalues in PCA?_ 🧠
 * F: _Can you describe applications of PCA?_ 🧠
 * F: _Give the definition for PCA_
-* F: _Explain the ordinary PCA._
 * F: _Explain the sparse PCA._
 * F: _Explain the nonlinear PCA._
 * F: _Explain the kernel PCA._
 * F: _Explain the major difference of sparse PCA over ordinary PCA._
 * F: _Explain the major difference of non-linear PCA over ordinary PCA._
 * F: _Explain the major difference of kernel PCA over ordinary PCA._
-* F: _Give applications for PCA._
-* F: _Compare supervised learning to unsupervised learning. How do they differ?_
-* F: _What are advantages / disadvantages of unsupervised learning techniques?_
-* F: _What is PCA commonly used for?_
+* _F: What is the purpose of the measure **porportion variance explained**?_
+  * In order to understand the strength of each component, one needs to know the proportion of variance explained by each one.
 * F: _How can the proportion of variance explained by_ $$m$$ _variables be calculated?_
-* F: _Calculate the PCA for the first 2 components?_
+  * The total variance of a data set is defined as: 
+  * $$\sum_{j=1}^{P} \operatorname{Var}\left(X_{j}\right)=\sum_{j=1}^{P} \frac{1}{n} \sum_{i=1}^{n} x_{i j}^{2}$$
+  * where $$P$$is the number of features and $$n$$is the number of observations.
+  * The variance explained by the \(m\) principal components is defined as: $$\operatorname{Var}\left(P C A_{m}\right)=\frac{1}{n} \sum_{i=1}^{n} p c a_{i m}^{2}$$ 
+  * Therefore, the proportion of variance explained of the \(m\) th principal component is given by the positive quantity between 0 and 1
+  *  $$\frac{\sum_{i=1}^{n} p c a_{i m}^{2}}{\sum_{j=1}^{P} \sum_{i=1}^{n} x_{i j}^{2}}$$ 
+  * TODO: What does P, n etc. stand for?
+* _F: What scaling should be applied before doing a PCA?_
+  * If variables are in different units, scaling each to have standard deviation equal to one is recommended. \(script p. 16\)
+  * Normalizing data is important in PCA, as it's a variance maximizing exercise. It projects original data onto directions that maximize the variance. If some variables have a large variance and some a small, PCA will load on the large variables. This might want to be avoided. \([see here.](https://stats.stackexchange.com/questions/69157/why-do-we-need-to-normalize-data-before-principal-component-analysis-pca)\) 
+* F: _Calculate the PCA for the first 2 components for a given example._
 * F: _Sketch the algorithm for calculating the first two PCA components._
 
 ## Decision Trees\*
@@ -890,13 +921,13 @@ $$
 
 * F: _Explain what a SVM is._
 * F: _Required scaling for SVMs?_ ⭐
-  * Features should be scaled to the interval $\[0,1\]$.
+  * Features should be scaled to the interval $$[0,1]$$ .
 * F: _Name advantages and disadvantages of SVMs over logistic regression._ ⭐
   * SVMs can do better than logistic regression, in cases where data is \(nearly\) separable.
   * Logistic regression allows to estimate probabilities. This is however not possible with SVMs.
   * Logistic regression is faster.
   * Logistic regression is easier to interpret.
-  * Etwas ausführlicher bereits beantwortet...
+  * TODO: Etwas ausführlicher bereits beantwortet...
 * F: _Recommendations to improve results of a SVM._ ⭐
 * F: _Why is it good to use a maximum margin objective for classification?_ 🧠
 * F: _How can we define the margins as optimization problem?_ 🧠
@@ -914,8 +945,8 @@ $$
   * We enrich and enlarge the feature space so that separation is possible. This means the feature space get's transformed.
 * F: _What does a Maximal Margin Classifier maximize for?_
 * F: _How do a Maximal Margin Classifier, SVMs and Logistic Regression relate?_
-* F: \*What is the purpose of the support vectors $$\epsilon$$? 
-* F: _Explain what is referred to as_ feature expansion\*?
+* F: _What is the purpose of the support vectors_ $$\epsilon$$_?_ 
+* F: _Explain what is referred to as feature expansion?_
 * F: _Name and define kernels that can be used with SVMs._
 * F: _Compare SVMs to logistic regression_
   * Logistic regression focuses on maximizing the probability of the data. The farther the data lies from the separating hyperplane \(on the correct side\), the better logistic regression is.
@@ -1050,6 +1081,7 @@ $$
     * TODO: improved data preprocessing
 * F: _Calculate the information gain of the input attribute age and income using entropy._ ⭐
 * F: _Which variable \(income or age\) do you suggest for first splitting? Why?_ \(2+2\)
+  * TODO: Add hand written notes
 * F: _List other machine learning techniques that can be used for default prediction._⭐
   * Decision Tree for classification
   * Bagging for classification 
