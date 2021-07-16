@@ -149,7 +149,59 @@ Zur Herkunft der Fragen:
 
 ## LR, Ridge and Lasso
 
+* F: _Explain how **best subset selection** works in 3 steps._ 
+  1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation.
+  2. For $$k=1,2, \ldots p$$ :
+
+      a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
+
+      b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
+
+  3. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
+* F: _Explain how **forward stepwise selection** works in 3 steps._ 
+  * **Intutition:**
+
+    Instead of searching through all possible subsets, we can seek a good path through them. Forward stepweise selection starts with the intercept, and then sequentially adds into the model the predictor that most improves the fit. Like best subset regression, forward stepweise produces a sequence of models indexed by $$k$$, the subset size, which must be determined. \(Hastie p. 59\)
+
+  * **More formal description:**
+    1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors.
+    2. For $$k=0, \cdots, p-1$$: a. Consider all $$p-k$$ models that augment the predictors in $$\mathcal{M}_{k}$$ with one additional predictor. b. Choose the best among these $$p-k$$ models, and call it $$\mathcal{M}_{k+1}$$. Here best is defined as having smallest RSS or highest $$R^{2}$$.
+    3. Select a single best model from among $$\mathcal{M}_{0}, \ldots, \mathcal{M}_{p}$$ using cross-validated prediction error, $$C_{p}$$, AIC, BIC, on adjusted $$R^{2}$$.
+* F: _Explain how **backward stepwise selection** works in 3 steps._ 
+  * Backward- stepwise selection starts with the full model, and sequentially deletes the predictor that has the least impact on the fit. The candidate for dropping is the one with the largest RSS and lowest $$R^2$$. \(Hastie p. 60\)
+  * **More formal definition:**
+
+    Let $$\mathcal{M}_{p}$$ denote the full model, which contains all $$p$$ predictors.
+
+    1. For $$k=p, p-1, \ldots, 1$$ : a. Consider all $$k$$ models that contain all but one of the predictors in $$\mathcal{M}{k}$$, for a total of $$k-1$$ predictors. b. Choose the best among these $$k$$ models, and call it $$\mathcal{M}_{k-1}$$. Here best is defined as having smallest RSS or highest $$R^{2}$$.
+    2. Select a single best model from among $$\mathcal{M}_{0}, \ldots, \mathcal{M}_{P}$$ using cross-validated prediction error, $$C_{p}$$, AIC, BIC, or adjusted $$R^{2}$$.
+* F: _Compare the **best subset selection** to **forward selection**._ 
+  * **Forward stepwise selection** begins with a model containing no predictors, and then adds predictors to the model, one-at-a-time, until all of the predictors are in the model.
+  * **Best Subset Selection** does not add predictors one-at-a-time but chooses from models containing **exactly** $$k$$ variables. Predictors might be **different** for different $$k$$s.
+  * **Best Subset Selection** becomes infeasable for large number of variables \($$\geq 40$$\). \(Hastie\)
+* F: _Compare the subset selection methods **forward** and **backward stepwise selection**._ 
+  * **Backward stepwise selection** is pretty much the inverse of **forward stepwise selection**.
+* F: _When is it desirable to use **backward stepwise selection** and when is it desirable to use **forward stepwise selection or best subset selection**?_
+  * Computionally best subset selection is most demanding and becomes infeasable for a large number of features.
+  * All three deliver similar results \(See comparsion in Hastie p. 59\)
+* F: _What is an alternative to subset selection methods presented in lecture?_ 
+  * Forward-stagewise regression
+* F: _What are the reasons why shrinkage methods such as LASSO are preferred over subset selection methods such as forward stepwise selection?_
+* F: _Explain how the stepwise inclusion regression method / ... /... works._ 
+* F: _In which way do stepwise inclusion method and stepwise exclusion method differ?_
 * F: _Explain how linear regression works._
+  * Linear regression is a linear model \(aka a model that assumes a **linear relationship** between input variables $$X$$and the single output variable $$y$$\). $$y$$ is a linear combination of the input variables $$x_1$$ to $$x_k$$. To best describe the relationship between input variables and output variables a line or hyperplane is fitted to the point cloud. \(own\)
+  * The multiple linear regression model for the population is defined as:
+
+    $$
+    y=\beta_{0}+\beta_{1} x_{1}+\beta_{2} x_{2}+\cdots+\beta_{k} x_{k}+\epsilon
+    $$
+
+    $$\beta_{0}$$ is intercept, $$\beta{1}, \ldots, \beta_{k}$$ are regression coefficients of $$k$$ independent variables, and $$\epsilon$$ is error. $$x$$are the input variables and $$y$$ the dependent variable. We can present this equation in vector notation:
+
+    $$
+    y=\beta X+\epsilon
+    $$
 * F: _What is the purpose_ $$\beta$$ _in a Multiple Linear Regression Model?_
   * $$\beta$$ is a $$(p+1)$$-dimensional vector, where $$\beta_0$$ is the intercept and $$\beta_1,\cdots,\beta_k$$ are the regression coefficients of $$k$$ independent variables.
 * F: _Explain how an optimal estimate for_ $$\beta$$ _can be derived._
@@ -257,15 +309,6 @@ Zur Herkunft der Fragen:
 * F: _Explain the concept of heteroscedasticity for regression errors._ 
 * F: _Define the coefficient of partial determination._ 
 * F: _How do the coefficient of partial determination and F-test relate?_ 
-* F: _Explain how forward stepwise selection works in 3 steps._ 
-* F: _Explain how backward stepwise selection works in 3 steps._ 
-* F: _Compare the subset selection methods forward and backward stepwise selection._ 
-* F: _When is it desirable to use backward stepwise selection and when is it desirable to use forward stepwise selection?_ 
-* F: _What is an alternative to subset selection methods?_ 
-* F: _What are the reasons why shrinkage methods such as LASSO are preferred over subset selection methods such as forward stepwise selection?_
-* F: _Compare the stepwise inclusion regression method to stepwise exclusion regression method and standard stepwise regression method._ 
-* F: _Explain how the stepwise inclusion regression method / ... /... works._ 
-* F: _In which way do stepwise inclusion method and stepwise exclusion method differ?_
 * F: _Explain what regularization is and why it is useful_
   * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Explain the ridge regression._ ⭐
@@ -960,7 +1003,6 @@ $$
   * Logistic regression is faster.
   * Logistic regression is easier to interpret.
   * TODO: Etwas ausführlicher bereits beantwortet...
-* F: _Recommendations to improve results of a SVM._ ⭐
 * F: _Why is it good to use a maximum margin objective for classification?_ 🧠
 * F: _How can we define the margins as optimization problem?_ 🧠
 * F: _What are slack variables and how can they be used to get a "soft" margin?_ 🧠
@@ -990,7 +1032,6 @@ $$
   * If interpretability and speed is a major concern, logistic regression should be used.
 * F: _Explain how Least-Squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction._
 * F: _Explain how semiparametric Least-squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction._
-* F: _Name proper alternatives to standard SVMs for default prediction._
 
 ## Neural Net
 
@@ -1090,7 +1131,7 @@ $$
 * F: _Explain how LSTMs update their memory._
 * F: _Give applications of LSTMS._
 
-## Misc
+## Misc\*
 
 * F: _Techniques that can be used for default prediction._ ⭐
   * logistic regression
