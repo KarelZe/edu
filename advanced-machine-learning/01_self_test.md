@@ -315,8 +315,23 @@ $$
   * LASSO: $$\ell_1$$
 * F: How is the $$\ell_2$$norm defined?
   * $${||\beta||}_{2}=\sqrt{\sum_{j=1}^{p} \beta_{j}^{2}}$$
+* F: How is the $$\ell_1$$norm defined?
+  * $${||\beta||}_{1}=\sum_{j=1}^{p} |\beta_{j} |$$
 * F: _Explain LASSO._
-  * \_\_
+  * Lasso regression is a regularization approach. Regularization is used to prevent coefficients from fitting to perfectly. This is done by adding a constant multiple with an existing weight vector. Which is referred to as **regularization term** or **shrinkage penalty**. In case of LASSO regression it is the **sum of absolute weights**.
+  * Taking this into account one get's the following formula for ridge regression:
+
+    $$
+    \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} |\beta_{j}|=R S S+\lambda \sum_{j=1}^{p} |\beta_{j}|
+    $$
+
+    where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation. 
+
+  * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS. 
+  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term. Some coefficient estimates are even forced to be exactly zero, if $$\lambda$$is sufficiently small. 
+  * As such:
+    * Lasso regression yields sparse models. That is, models that involve only a subset of the variables.
+    * Can be used for feature selection.
 * F: _Explain the difference between LASSO and ridge regression?_ ⭐
   * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
   * Both shrinkage methods to shrink regression coefficients towards zero.
