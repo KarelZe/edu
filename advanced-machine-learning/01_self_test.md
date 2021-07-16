@@ -769,21 +769,21 @@ $$
   * A decision tree is a supervised learning algorithm that can be used used for regression and classification. 
   * Decision Trees try to predict the class or a value of the target by stratifying or segmenting the predictor space into a number of simple regions.
   * There are several measures to learn these splitting rules required for splitting data in a node into separate node. One of them is the Entropy.
-* F: _Mention three characteristics of impurity measures?_ ⭐
+* F: _Mention three impurity measures?_ 
   * resubstitution error
   * Gini-Index
   * Entropy
 * F: _What is the intutition behind an optimal split in a decision tree?_
   * A split should lead to a subset that contains predominantly cases of one class.
   * That means nodes should only contain cases of a single class only or homogenous.
-* F: _Name 3 conditions an impurity measure has to fulfil._
-  1. _An impurity measure of a node should be at a maximum when the observations are distrbuted evenly over all cases in that node, i. e. at:_ $$\left(\frac{1}{J}, \frac{1}{J}, \ldots, \frac{1}{J}\right)$$ 
+* F: _Name 3 conditions an impurity measure has to fulfil._ ⭐
+  1. _An impurity measure of a node should be at a maximum when the observations are distributed evenly over all cases in that node, i. e. at:_ $$\left(\frac{1}{J}, \frac{1}{J}, \ldots, \frac{1}{J}\right)$$ 
   2. An impurity measure of a node should be at minium when all observations belong to a single class in that node, i. e. at $$(1,0, \cdots, 0),(0,1,0, \cdots, 0), \cdots,(0,0, \cdots, 1)$$ 
   3. $$\phi$$ is a symmetric function of $$p_{1}, \ldots, p_{J}$$.
 * F: _How can we influence the model complexity of the tree?_ 🧠
 * F: _Compare the Gini-Coefficient to Entropy and the resubstitution error._
   * **Resubstitution Error:** $$i(t)=1-\max _{j} p(j \mid t)$$, where where $$p(j \mid t)$$ is the relative frequency of class $$j$$ in node $$t$$.
-  * **Gini-Index:** $$i(t)=\sum_{j} p(j \mid t)(1-p(j \mid t))$$
+  * **Gini-Index:** $$i(t)=\sum_{j} 2 p(j \mid t)(1-p(j \mid t))$$
   * **Entropie:** $$i(t)=-\sum_{j} p(j \mid t) \log p(j \mid t)$$
     * ![](../.gitbook/assets/grafik%20%2845%29.png) 
 * F: _When should the Gini-Coefficient be used? When is it desirable to use the Entropy? How does the missclassification error compare?_
@@ -792,22 +792,25 @@ $$
   * That means either Gini index or cross-entropy should be used when growing a tree.
   * To guide cost-complexity pruning, any of the three measures will do.
 * _F: Explain how numerical features can be split?_
+
   * If  $$x_{1}, x_{2}, \ldots, x_{p}$$ are a set of numeric variables, we consider all splits of type $$x \leq c$$ for all $$c$$ ranging over $$(-\infty, \infty)$$.
   * If all all observations have a different value, we have at most n distinct values $$x_{1}, x_{2}, \cdots, x_{n}$$ of $$x$$. Which means there are at max. $$n-1$$ distinct splits of type $$m=1, \ldots, n \leq n$$, where $$m=1, \ldots, n \leq n$$ , where $$c_m$$ are taken **halfway** between **consecutive** distinct values of $$x$$ .
-* F: _How can continuous attributes be handled in Decision Trees?_ ⭐
-  * Assume  $$x_{1}, x_{2}, \ldots, x_{p}$$ are a set of numeric variables. If x is categorical, taking values in $$V(x)= \{ b_{1}, b_{2}, \cdots, b_{L} \}$$ , we consider all splits of type $$x \in S$$ , where $$S$$ is any non-empty proper subset of $$V(x)$$.
-  * If every categorical variable x with L distinct values there are at max. $$2^{L-1}-1$$ splits. 
+
+* F: H_ow can categorical attributes be handled?_
+  * TODO: + Folie 23
   * Alternatively, variables can be label-encoded and treated as numeric variables. \([see here.](https://towardsdatascience.com/decision-trees-d07e0f420175)\)
-* Alternative answerIt's necessary to discretize continuous values. One could either use:
+* F: _How can continuous attributes be handled in Decision Trees?_ ⭐
+  * **Alternative answer:** It's necessary to discretize continuous values. One could either use:
 
-  1. Comparison operator, which separates into two classes by a threshold. Threshold could be chosen by:
-     1. brute force: trying out every single value of continuous variables
-     2. sorting values for continuous attributes and taking the midpoint of the adjacent values in the sorted array. See here:
-     3.  ![](../.gitbook/assets/grafik%20%2847%29.png) 
-  2. Split continuous values into bins. One would get multi-way splits. Splitting into bins could happen by frequency or width. \(comp. Equi-width histograms vs. equi-depth histogram\) [\(see here.\)](https://medium.com/geekculture/handling-continuous-attributes-in-decision-trees-bbc044986621)
+    1. Comparison operator, which separates into two classes by a threshold. Threshold could be chosen by:
+       1. brute force: trying out every single value of continuous variables
+       2. sorting values for continuous attributes and taking the midpoint of the adjacent values in the sorted array. See here:
+       3.  ![](../.gitbook/assets/grafik%20%2847%29.png) 
+    2. Split continuous values into bins. One would get multi-way splits. Splitting into bins could happen by frequency or width. \(comp. Equi-width histograms vs. equi-depth histogram\) [\(see here.\)](https://medium.com/geekculture/handling-continuous-attributes-in-decision-trees-bbc044986621)
 
+  * TODO: like numerical attributes
 * F: _Explain how numerical features can be split?_
-  * Assuming there are at most n distinct values of x. There are at most n-1 distinct splits of type $$x \leq c_m$$, where $$c_m$$ are taken halfway between consecutive distinct values of $$x$$ 
+  * Assuming there are at most n distinct values of x. There are at most $$n-1$$ distinct splits of type $$x \leq c_m$$, where $$c_m$$ are taken halfway between consecutive distinct values of $$x$$ 
 * F: _What is the motivation to prune a decision tree?_
   * Pruning is done to to avoid overfitting. The tree learns the data by heart, but new data can very slightly differ. There fore, it makes sense to cut back the tree to deliver good results on unseen data.
   * Pruning reduces the size of a decision tree by removing unrelevant attributes from the tree / cutting back the tree. \(AGD\) 
@@ -819,14 +822,14 @@ $$
   * $$
     \sum_{m=1}^{|T|} \sum_{x_{i} \in R_{m}}\left(y_{i}-\hat{y}_{R_{m}}\right)^{2}+\alpha|T|
     $$
-  * $$\alpha$$ is a non-negative tuning parameterand is called the complexity parameter. $$R_m$$ ist the rectangel \(i. e. the subset of predictor space\) coressponding to the m-th terminal node, and $$\hat{y}{R{m}}$$ is the mean of training observations in $$R_m$$ .
+  * $$\alpha$$ is a non-negative tuning parameterand is called the complexity parameter. $$R_m$$ ist the rectangle \(i. e. the subset of predictor space\) coressponding to the m-th terminal node, and $$\hat{y}{R{m}}$$ is the mean of training observations in $$R_m$$ .
   * $$\alpha$$ is usually selected using cross-validation.
-  * When pruning the tree the algorithm tries to minimize this measure. Its obvoius that a large number of nodes in a subtree is punished for a high value of $$\alpha$$. Therefore the algorithm will search for subtrees with high missclassification error or high number of nodes. Of course it is complicated looking at the number of nodes since it is heavily dependent on the number of attributes in $$T$$. Hence there has to be the parameter $$\alpha$$ in order to finde the right punishment for large tree sizes.  [\(see here.\)](https://www5.in.tum.de/lehre/seminare/datamining/ss17/paper_pres/08_decision_tree/paper.pdf)
+  * When pruning the tree the algorithm tries to minimize this measure. Its obvoius that a large number of nodes in a subtree is punished for a high value of $$\alpha$$. Therefore the algorithm will search for subtrees with high missclassification error or high number of nodes. Of course it is complicated looking at the number of nodes since it is heavily dependent on the number of attributes in $$T$$. Hence there has to be the parameter $$\alpha$$ in order to find the right punishment for large tree sizes.  [\(see here.\)](https://www5.in.tum.de/lehre/seminare/datamining/ss17/paper_pres/08_decision_tree/paper.pdf)
 * F: _Explain how growing a decision tree works?_
-  1. At each node, "split the data into two leaf nodes
+  1. At each node, split the data into two leaf nodes
   2. Splits are chosen using a binary splitting criterion e. g. cross-entropy.
   3. We stop when each terminal node has fewer than some minimum nuber of observations.
-  4. Alternatively: Algorithm on page 27. But emphasis is on **building**?
+  4. TODO: Replace by algorithm on page 27.
 * F: _How can decision trees be applied to a regression case?_
   * The predicted value of a node is the average response variable for all observations in that node.
 * F: _Name several advantages / disadvantages of decision trees_
@@ -837,8 +840,11 @@ $$
   * easier to explain \(+\) 
   * computionally simpler and quicker to fit than random forests \(+\)
   * less robust than random forests. If we change the data for a decision tree a little, the tree can change a lot. Interpretation is not as straightforward as it seems. \(-\)
-  * Most of the times random forests achieve a better accuracy, as they are trained on  random sub samples. This however comes at the expense of loss interpretation.
+  * Most of the times random forests achieve a better accuracy, as they are trained on  random sub samples. This however comes at the expense of loss interpretation. \(-\)
 * _F: What are tuning parameters for Decision Trees?_
+  * _TODO: alpha, impurity measure, min entries per node_
+* _F: disadvantages and advantages of trees?_
+  * _TODO: p. 28_
 
 ## Bagging, Boosting and RF\*
 
@@ -850,14 +856,14 @@ $$
   * Ensemble methods are meta-algorithms that combine several machine learning techniques into one predictive model in order to decrease variance \(**bagging**\), bias \(**boosting**\) or  improve predictions \(**stacking**\). \([see here.](https://blog.statsbot.co/ensemble-learning-d1dcd548e936)\)
 * F: _Explain what Bagging is._
   * Bootstrap aggregating or bagging is an ensemble technique  designed to improve stabilty and accuracy of ML algorithms for classification and regression.
-  * In the regression case bagging fits a $$\hat{f}_{b}(x)=\hat{\beta}_{b} X_{b}$$ regression model to $$b$$-th bootstram stamples $$X_b$$ and then bagging takes the mean of these estimation over a collection of boostrap samples. The bagging estimator is made in the following form:
+  * In the regression case bagging fits a $$\hat{f}_{b}(x)=\hat{\beta}_{b} X_{b}$$ regression model to $$b$$-th bootstrap stamples $$X_b$$ and then bagging takes the mean of these estimation over a collection of boostrap samples. The bagging estimator is made in the following form:
   * $$f_{\text {Bagging }}(X)=\frac{1}{B} \sum_{b=1}^{B} \hat{f}_{b}(X)$$
 * F: _How does Bagging work for regression?_
   * Each bootstrap regression tree will include different nodes. The bagging estimator is the **mean** of these $$B$$ regression tree predictions.
 * F: _How does Bagging work for classification?_
   * For each test observation we record th class predicted by each of the $$B$$ trees, and take a **majority vote**. That means the overall prediction is the most commonly occurring class among the  $$B$$ predictions.
 * F: _What are tuning parameters for Bagging?_
-  * The number of bootstrap samples / regression treess over which the mean or majority vote is estimated.
+  * The number of bootstrap samples / regression trees over which the mean or majority vote is estimated.
 * F: _Explain the intution of Boosting._
   * Boosting tries to improve predictive performance by combining several weak learners \(e. g. simple trees\) which are trained sequentially on the data. The error is analysed. In every step consecutive weak learners are fitted, so that the accuracy is increased. \([see here.](https://analyticsindiamag.com/primer-ensemble-learning-bagging-boosting/)\)
 * F: Explain, how Boosting works in natural language.
@@ -876,9 +882,11 @@ $$
   * The loss function depends on whether gradient boosting is done for a classification case or a regression case.
     * For regression trees squared error is commonly used 
     * For classification logarithmic loss is used. \([see here.](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/)\)
+  * TODO: Gradient Boosting nachlesen in Hasties.
 * F: _What are tuning parameters for Boosting?_ ⭐
   * **number of trees** $$B$$. Unlike bagging and random forests, boosting can overfit if $$B$$ is too large, although this overfits tends to occur slowly if at all. We use cross-validation to select B.
   * The **shrinkage parameter** at which boosting learns. Typical values are 0.01 or 0.001 and the right choice depends on the problem. Very small shrinkage parameter can require using a very large value of B in order to achieve good performance.
+  * TODO: Aussage der Learning rate
   * The **number of splits** $$d$$ in each tree, which controls the complexity of the boosted ensemble. Often $$d=1$$ works well, in which case each tree is a stump, consisting of a single split resulting in an additive model. More generally d is the interaction depth, and controls the interaction order of the boosted model, since d splits can invole at most $$d$$ variables.
 * F: _How does Bagging differ from Boosting? Explain the difference._
   * **Bagging:** 
@@ -902,6 +910,8 @@ $$
   1. random forest algorithm uses a **small random subset** of explanatory variables for growing in each particular tree while boosting selects from a **complete list of explanatory** **variables** for growing the best classification tree.
   2. Boosting trees sequentially depend on the error rate of the previous iteration, while random trees can be built independently at each iteration.
   3. In random forests each tree is a strong learner. They would do just fine as a decisioin tree on their own. In boosting algoirthms, trees are artificially limited to very shallow depth \(usually only one split\), to ensure that each model is only slightly better than random chance. \([see here](https://medium.com/@toprak.mhmt/gradient-boosting-and-weak-learners-1f93726b6fbd).\)
+* F: _Compare Bagging and Random Forest?_
+  * TODO: findet auch Auswahl auf Datensatz statt oder nur random feature selection?
 * F: _Explain what a Random Forest is?_
   * A random forest is an **advanced variant of bagging**.It fits a large set of classfication trees, and then classifies using the majority of the classes of  built clasification trees. 
   * Random forests use a small **random subset of explanatory variables** for growing in each particular tree.
