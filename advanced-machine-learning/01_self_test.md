@@ -147,7 +147,7 @@ Zur Herkunft der Fragen:
 * F: _What is the risk with tuning hyperparameters using a test dataset?_ 🧑‍🚒
   * Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. \(Berkley p. 14\)
 
-## LR, Ridge and Lasso
+## LR, Ridge and Lasso\*
 
 * F: _Explain how **best subset selection** works in 3 steps._ 
   1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation.
@@ -189,6 +189,7 @@ Zur Herkunft der Fragen:
 * F: _What are the reasons why shrinkage methods such as **LASSO** are preferred over subset selection methods such as **best subset selection**?_
   * If the **best subset** can be found, it is indeed better than the LASSO in terms of selecting the variables that actually contribute to the fit.
   * In practice **LASSO** is still preferred as it is computionally much easier to estimate e. g. through the calculation of regularization paths using pathwise coordinate descent. Whereas **best subset selection** is a NP hard problem. \([see here.](https://stats.stackexchange.com/questions/350587/why-is-best-subset-selection-not-favored-in-comparison-to-lasso)\)
+  * TODO: Lasso ist wenig nachvollziehbar
 * F: _Explain how **Linear Regression** works._
   * Linear regression is a linear model \(aka a model that assumes a **linear relationship** between input variables $$X$$and the single output variable $$y$$\). $$y$$ is a linear combination of the input variables $$x_1$$ to $$x_k$$. To best describe the relationship between input variables and output variables a line or hyperplane is fitted to the point cloud. \(own\)
   * The multiple linear regression model for the population is defined as:
@@ -282,7 +283,7 @@ Zur Herkunft der Fragen:
   * Nevertheless, the predictions provide an ordering and can be interpreted as crude probability estimates.
 * F: _Explain scenarios, where Ridge Regression would be preferred over LASSO._ 
   * Ridge only performs parameter shrinkage and no variable selection.
-  * Ridge regression is preferred if one wants to insert some prior knowledge into approach. With ridge one has the ability to say that all features have at least some weight, even if it is very little [\(See here.\)](https://qr.ae/pG4QYT)
+  * Ridge regression is preferred if one wants to insert some prior knowledge into the approach. With ridge one has the ability to say that all features have at least some weight, even if it is very little [\(See here.\)](https://qr.ae/pG4QYT)
 * F: _Explain scenarios, where LASSO would be preferred over Ridge Regression._ 
   * As with ridge regression, the LASSO shrinks the coefficient estimates towards zero.
   * However, in the case of LASSO some coefficient estimates are forced to be exactly equal to zero \(zeroed out\) when the tuning parameter $$\lambda$$ is sufficiently large. 
@@ -293,6 +294,7 @@ Zur Herkunft der Fragen:
 * F: _Explain what regularization is and why it is useful_
   * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Explain the ridge regression._ ⭐
+  * TODO: extension to Linearen Regression
   * Ridge regression is a regularization approach. Regularization is used to prevent coefficients from fitting so perfectly. This is done by adding a constant multiple to an existing weight vector. Which is sometimes referred to as a **regularization term** or **shrinkage penalty**. In case of **ridge regression** this **regularization term**. In case of **ridge regressio**n it is the sum of the square of the weights.
   * Taking this into account one get's the following formula for ridge regression:
 
@@ -328,7 +330,7 @@ $$
     where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation. 
 
   * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS. 
-  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term. Some coefficient estimates are even forced to be exactly zero, if $$\lambda$$is sufficiently small. 
+  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term. Some coefficient estimates are even forced to be exactly zero, if $$\lambda$$is sufficiently large. 
   * As such:
     * Lasso regression yields sparse models. That is, models that involve only a subset of the variables.
     * Can be used for feature selection.
@@ -336,6 +338,7 @@ $$
   * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
   * Both shrinkage methods to shrink regression coefficients towards zero.
   * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
+  * TODO: l1 and l2 norm
   * LASSO:
 
 $$
@@ -356,14 +359,16 @@ $$
   * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
   * Both shrinkage methods to shrink regression coefficients towards zero.
   * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
-* F: _Explain what is the difference between linear regression and LASSO?_ \(8 points\)
+  *  TODO: Formel 
+* F: _Explain what is the difference between Linear Regression and LASSO?_ \(8 points\) ⭐
+  * TODO: Def. lin regression
   * The formula for **linear regression** is given by:
 
 $$
 \min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}
 $$
 
-* where $$\beta_0$$ is the intercept and $$\beta_1 \cdots beta_p$$ are regression coefficients of $$k$$ independent variables.
+* where $$\beta_0$$ is the intercept and $$\beta_1 \cdots \beta_p$$ are regression coefficients of $$k$$ independent variables.
 * The formula for **LASSO** coefficients $$\hat{\beta}_{\lambda}^{L}$$ is given by:
 
 $$
@@ -371,16 +376,16 @@ $$
 $$
 
 * Where $$\lambda$$ is a tuning parameter that serves as control of the relative impact of these two terms on the regression coefficients.
-* As it can be seen above, linear regression is the most basic form. LASSO includes another term - the so called regularization term or shrinkage penalty. More on that later. The standard linear regression doesn't penalize for the choice of weights and doesn't include a regularization term.
-* One could say LASSO is a variant of Linear regression. And linear regression is in general no variant of LASSO.
+* As it can be seen above, linear regression is the most basic form. LASSO includes another term - the so called regularization term or **shrinkage penalty**. More on that later. The standard linear regression doesn't penalize for the choice of weights and doesn't include a regularization term.
+* One could say LASSO is a variant of Linear Regression. And linear regression is in general no variant of LASSO.
 * Linear regression tries to estimate the coefficients as such, that the residual sum of squares $$(\beta_0 + ...)$$ is minimized.
   * This also means that linear regression learns the training heart and is prone to overfitting. LASSO, which is a regularization approach, tries to prevent overfitting through the introduction of regularization term, which prevents the coefficients so perfectly to overfit.
   * Another difference is that LASSO is a shrinkage method and can be used for variable selection. Whereas linear regression is not suitable for feature selection.
   * For both closed form solutions exist.
 * F: _What are the main applications of LASSO?_⭐
   * LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
-  * Whenever sparse models models \(models that only include a subset of the variables\) are needed.
-* F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?._⭐
+  * Whenever sparse models \(models that only include a subset of the variables\) are needed.
+* F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?_⭐
   * With LASSO regression the variables selected can change even if data is ever-so-slightly changed. Stability selection technique leads to a more stable selection of variables than LASSO.
   * Stability selection works by fitting variables on a subsample of data. Afterwards one can count the proportion of times a variable is selected. This leads to a more stable selection.
 * F: _How do we apply the kernel trick to ridge regression?_ 🧠
@@ -393,8 +398,10 @@ $$
 * F: _How should_ $$\lambda$$ _be selected for **ridge regression** / **LASSO**?_
   * Cross-validation provides a simple way to tackle this problem. We choose grid of $$\lambda$$ values, and compute the cross-validation error rate for each value of $$\lambda$$. We then select the tuning parameter value for which the cross-validation error is smallest and fit the model on all available observations.
 * F:  _Should inputs be scaled for **ridge regression?** If so, how?_
-  * The ridge solutions are not equivariant under scaling the inputs. That means regression coefficients can change substaintially when multiplying a given predictor with a constant $$c$$, and so one normally **standardizes** the inputs before solving. One might use the following formula:
+  * The ridge solutions are not equivariant under scaling the inputs. That means regression coefficients can change substaintially when multiplying a given predictor with a constant $$c$$, and so one normally standardi**zes** the inputs before solving. One might use the following formula:
   * $$\bar{x}_{i j}=\frac{x_{i j}}{\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(x_{i j}-\bar{x}_{j}\right)^{2}}}$$
+* F: Should inputs be scaled for Lasso?
+  * TODO: yes: [https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary](https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary)
 * F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
   * F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
   * F: _Explain the purpose of conducting an ANOVA test?_ 
@@ -419,6 +426,7 @@ $$
   * F: _Explain the concept of heteroscedasticity for regression errors._ 
   * F: _Define the coefficient of partial determination._ 
   * F: _How do the coefficient of partial determination and F-test relate?_ 
+  * F: _Compare ridge regression to linear regression?_
 
 ## Logistic Regression\*
 
@@ -644,7 +652,7 @@ $$
   * Sometimes a separate validation set to tune the hyperparameters of the model is used.
   * ![](../.gitbook/assets/grafik%20%2843%29.png) 
   * Blue Points are used for training red points are used for testing.
-  * **Note:** Sketch in lecture looks different. However, it's not clear, what's the difference between the blue and green dots. Probably train and validation set.
+  * **TODO:** Sketch in lecture looks different. However, it's not clear, what's the difference between the blue and green dots. Probably train and validation set. Rolling window with variable size vs. fixed size?
 * F: _Explain what bootstrap is._ 
   * Bootstrap is a flexible and powerful statistical tool can be used to quantify the uncertainty with a given estimator or statistical learning method. \([see here.](http://www.columbia.edu/~mh2078/MachineLearningORFE/ResamplingMethods.pdf)\)
   * Bootstrap relies on resampling the data many times to compute some measure of variability.  Sample data is repeatedly drawn with replacement from a data source to estimate a population parameter. \([see here.](https://datamites.com/blog/resampling-methods-in-machine-learning/)\)
@@ -670,7 +678,7 @@ $$
 
 ## Dimensionality Reduction\*
 
-* F: _Give the definition for PCA_
+* F: _Give the definition for PCA._
 * F: _What does dimensionality reduction mean?_ 🧠
   * Dimensionality reduction is simply, the process of reducing the dimension of your feature set. e. G. from a hypersphere to some spherical shape. This is commonly done to feight the curse of dimensionality. \([see here.](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)\)
 * F: _What are advantages and disadvantages of dimensionality reduction?_
@@ -687,6 +695,7 @@ $$
   * ![](../.gitbook/assets/1-v3jwbvxb92uo116bpxa3tw.png) 
 * F: _What are the advantages of sparse PCA over PCA?_⭐
   * Sparse PCA allows for a better interpretation of economic meaning of each principal component. When having a large number of variables with non-zero factor loadings it's hard to interpret them with ordinary PCA, as PCs are a linear combination of all $$p$$ variables.
+  * By applying an $$\ell_{1}$$ and an $$\ell_{2}$$ penalty \(Elastic Net\) to the coefficients of the PCA regression formulation, sparse principal components can be estimated.
   * Compared to SCoTLASS its computationally efficient.
 * F: _Intuition about sparse principal component analysis?_
   * SPCA is built on the fact that PCA can be written as a regression-type optimization problem, with a quadratic penalty; the lasso penalty \(via the elastic net\) can then be directly integrated into the regression criterion, leading to a modifiedPCA with sparse loadings.
@@ -699,8 +708,7 @@ $$
 * F: _What are the roles of the Eigenvectors and Eigenvalues in PCA?_ 🧠
 * F: _Can you describe applications of PCA?_ 🧠
 * F: _Explain the sparse PCA._
-  * By applying an $$L_{1}$$ and an $$L_{2}$$ penalty to the coefficients of the PCA regression formulation, sparse principal components can be estimated.
-  * TODO: Formulas important?
+  * By applying an $$\ell_{1}$$ and an $$\ell_{2}$$ penalty to the coefficients of the PCA **regression formulation**, sparse principal components can be estimated.
 * F: _Explain the nonlinear PCA._
   * Nonlinear PCA uses an inconsistency index as information criterion to avoid overfitting in the choice of hyperparameters.
   * Nonlinear PCA uses an **autoassociative neural network** for calculation of the PCAs. Autoassociative neural networks have one input layer, three hidden layers, and one output layer. One of the hidden layers is a socalled "bottleneck layer". The input layer and output layer have a size of the feature space.
@@ -709,6 +717,7 @@ $$
   * The mean squared error \(MSE\) between the input layer and the output layer is mimized. In the process, the nonlinear principal components in the middle hidden layer, that is the bottleneck layer, are calculated. \(compare script + Kramer paper\)
 * F: _Explain the kernel PCA._
   * Kernel PCA uses a nonlinear transformation $$\phi(X)$$from the original feature space into a higher dimensional feature space. Then standard PCA is applied in the higher dimensional feature space. The calculation requires the calculation of the dot product$$\phi(X)\phi(X)^{T}$$. Consequently, kernels can be used.
+  * TODO: nachlesen, was Produkt einspart? [https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d](https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d)
 * F: _Explain the major difference of sparse PCA over ordinary PCA._
   * Ordinary PCA with many variables with non-zero factor loadings make it difficult to interpret the economic meaning of each PC. 
   * Sparse PCA applies a elastic net regularization to the calculation of PCs. The $$L_1$$and $$L_2$$penalty is applied to the coefficents in the PCA regression formulation to prevent overfitting of the coefficients.  
