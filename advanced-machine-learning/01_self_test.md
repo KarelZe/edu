@@ -609,6 +609,7 @@ $$
     * PCA fails in cases where mean and covariance are not enough to define datasets.
 * F: _What is PCA commonly used for?_
   * Produce a **low-dimensional representation** of the dataset. It finds a sequence of linear combinations of variables with **maximal variance** and are **mutually uncorrelated**.
+  * ![](../.gitbook/assets/1-v3jwbvxb92uo116bpxa3tw.png) 
 * F: _What are the advantages of sparse PCA over PCA?_⭐
   * Sparse PCA allows for a better interpretation of economic meaning of each principal component. When having a large number of variables with non-zero factor loadings it's hard to interpret them with ordinary PCA, as PCs are a linear combination of all $$p$$ variables.
   * Compared to SCoTLASS its computationally efficient.
