@@ -147,7 +147,7 @@ Zur Herkunft der Fragen:
 * F: _What is the risk with tuning hyperparameters using a test dataset?_ 🧑‍🚒
   * Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. \(Berkley p. 14\)
 
-## Multiple Linear Regression
+## LR, Ridge and Lasso
 
 * F: _Explain how linear regression works._
 * F: _What is the purpose_ $$\beta$$ _in a Multiple Linear Regression Model?_
@@ -257,6 +257,91 @@ Zur Herkunft der Fragen:
 * F: _Explain the concept of heteroscedasticity for regression errors._ 
 * F: _Define the coefficient of partial determination._ 
 * F: _How do the coefficient of partial determination and F-test relate?_ 
+* F: _Explain how forward stepwise selection works in 3 steps._ 
+* F: _Explain how backward stepwise selection works in 3 steps._ 
+* F: _Compare the subset selection methods forward and backward stepwise selection._ 
+* F: _When is it desirable to use backward stepwise selection and when is it desirable to use forward stepwise selection?_ 
+* F: _What is an alternative to subset selection methods?_ 
+* F: _What are the reasons why shrinkage methods such as LASSO are preferred over subset selection methods such as forward stepwise selection?_
+* F: _Compare the stepwise inclusion regression method to stepwise exclusion regression method and standard stepwise regression method._ 
+* F: _Explain how the stepwise inclusion regression method / ... /... works._ 
+* F: _In which way do stepwise inclusion method and stepwise exclusion method differ?_
+* F: _Explain what regularization is and why it is useful_
+  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+* F: _Explain the ridge regression._ ⭐
+  * Ridge regression is a regularization approach. Regularization is used to prevent coefficients from fitting so perfectly. This is done by adding a constant multiple to an existing weight vector. Which is sometimes referred to as a regularization term or shrinkage penalty. In case of ridge regression this regularization term. In case of ridge regression it is the sum of the square of the weights.
+  * Taking this into account one get's the following formula for ridge regression:
+
+$$
+\sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \beta_{j}^{2}=R S S+\lambda \sum_{j=1}^{p} \beta_{j}^{2}
+$$
+
+* * where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
+  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero.
+  * As such:
+    * ridge regression yields non-sparse outputs, as coefficients are shrinked towards zero but never actually are 0.
+    * doesn't allow for feature selection. Some reasoning as above.
+    * Typically yields better results than LASSO.
+* F: _Explain LASSO._
+* F: _Explain the difference between LASSO and ridge regression?_ ⭐
+  * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
+  * Both shrinkage methods to shrink regression coefficients towards zero.
+  * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
+  * LASSO:
+
+$$
+\underset{\beta}{\operatorname{minimize}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2} \quad \text { subject to } \quad \sum_{j=1}^{p}\left|\beta_{j}\right| \leq s
+$$
+
+* Ridge regression:
+
+$$
+\underset{\beta}{\operatorname{minimize}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2} \quad \text { subject to } \quad \sum_{j=1}^{p} \beta_{j}^{2} \leq s
+$$
+
+* The main difference is, that when doing a subset selection, which will generally select models that involve just a subset of the variables, ridge regression will include all $$p$$ predictors in the final model. However LASSO helps to zero-out coefficients and can yield sparse feature spaces. Whereas ridge regression yields non-sparse outputs and can not be used for feature-selection straight away.
+* However in practice ridge regression performs better than LASSO. [\(See here.\)](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+* ![](../.gitbook/assets/grafik%20%2828%29.png) 
+* F: _In practice, explain what is the main difference between ridge regression and LASSO._ ⭐
+  * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
+  * Both shrinkage methods to shrink regression coefficients towards zero.
+  * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
+* F: _Explain what is the difference between linear regression and LASSO?_ \(8 points\)
+  * The formula for **linear regression** is given by:
+
+$$
+\min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}
+$$
+
+* where $$\beta_0$$ is the intercept and $$\beta_1 \cdots beta_p$$ are regression coefficients of $$k$$ independent variables.
+* The formula for **LASSO** coefficients $$\hat{\beta}_{\lambda}^{L}$$ is given by:
+
+$$
+\arg \min _{\mathbf{\beta}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \mid \beta_{j} \mid
+$$
+
+* Where $$\lambda$$ is a tuning parameter that serves as control of the relative impact of these two terms on the regression coefficients.
+* As it can be seen above, linear regression is the most basic form. LASSO includes another term - the so called regularization term or shrinkage penalty. More on that later. The standard linear regression doesn't penalize for the choice of weights and doesn't include a regularization term.
+* One could say LASSO is a variant of Linear regression. And linear regression is in general no variant of LASSO.
+* Linear regression tries to estimate the coefficients as such, that the residual sum of squares $$(\beta_0 + ...)$$ is minimized.
+* This also means that linear regression learns the training heart and is prone to overfitting. LASSO, which is a regularization approach, tries to prevent overfitting through the introduction of regularization term, which prevents the coefficients so perfectly to overfit.
+* Another difference is that LASSO is a shrinkage method and can be used for variable selection. Whereas linear regression is not suitable for feature selection.
+* For both closed form solutions exist.
+* F: _What are the main applications of LASSO?_⭐
+* LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
+* Whenever sparse models models \(models that only include a subset of the variables\) are needed.
+* F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?._⭐
+  * With LASSO regression the variables selected can change even if data is ever-so-slightly changed. Stability selection technique leads to a more stable selection of variables than LASSO.
+  * Stability selection works by fitting variables on a subsample of data. Afterwards one can count the proportion of times a variable is selected. This leads to a more stable selection.
+* F: _How do we apply the kernel trick to ridge regression?_ 🧠
+* F: _Why does it make sense to penalize the norm of the weight vector?_ 🧠
+* F: _Which norms can we use and what are the different effects?_ 🧠
+* F: _Give the formula for ridge regression and explain its components._
+* F: _Give the formula for LASSO and explain its components._
+* F: _Name one major advantage of LASSO over ridge regression._
+* A: Lasso yields sparse models, that is, models that only involve a subset of other variables.
+* F: _How should_ $$\lambda$$ _be selected for ridge regression / LASSO?_
+* F: _Explain how selecting tuning parameters works for ridge regression._
 
 ## Logistic Regression\*
 
@@ -506,96 +591,9 @@ Zur Herkunft der Fragen:
     | High chance of bias | Less bias | Good bias and variance tradeoff | Good bias and variance tradeoff |
     | High chance of overfitting | Generalized model | Generalized model | Generalized model |
 
-## Shrinkage Methods
+## Dimensionality Reduction\*
 
-* F: _Explain how forward stepwise selection works in 3 steps._ 
-* F: _Explain how backward stepwise selection works in 3 steps._ 
-* F: _Compare the subset selection methods forward and backward stepwise selection._ 
-* F: _When is it desirable to use backward stepwise selection and when is it desirable to use forward stepwise selection?_ 
-* F: _What is an alternative to subset selection methods?_ 
-* F: _What are the reasons why shrinkage methods such as LASSO are preferred over subset selection methods such as forward stepwise selection?_
-* F: _Compare the stepwise inclusion regression method to stepwise exclusion regression method and standard stepwise regression method._ 
-* F: _Explain how the stepwise inclusion regression method / ... /... works._ 
-* F: _In which way do stepwise inclusion method and stepwise exclusion method differ?_
-* F: _Explain what regularization is and why it is useful_
-  * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* F: _Explain the ridge regression._ ⭐
-  * Ridge regression is a regularization approach. Regularization is used to prevent coefficients from fitting so perfectly. This is done by adding a constant multiple to an existing weight vector. Which is sometimes referred to as a regularization term or shrinkage penalty. In case of ridge regression this regularization term. In case of ridge regression it is the sum of the square of the weights.
-  * Taking this into account one get's the following formula for ridge regression:
-
-$$
-\sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \beta_{j}^{2}=R S S+\lambda \sum_{j=1}^{p} \beta_{j}^{2}
-$$
-
-* * where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
-  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero.
-  * As such:
-    * ridge regression yields non-sparse outputs, as coefficients are shrinked towards zero but never actually are 0.
-    * doesn't allow for feature selection. Some reasoning as above.
-    * Typically yields better results than LASSO.
-* F: _Explain LASSO._
-* F: _Explain the difference between LASSO and ridge regression?_ ⭐
-  * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
-  * Both shrinkage methods to shrink regression coefficients towards zero.
-  * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
-  * LASSO:
-
-$$
-\underset{\beta}{\operatorname{minimize}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2} \quad \text { subject to } \quad \sum_{j=1}^{p}\left|\beta_{j}\right| \leq s
-$$
-
-* Ridge regression:
-
-$$
-\underset{\beta}{\operatorname{minimize}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2} \quad \text { subject to } \quad \sum_{j=1}^{p} \beta_{j}^{2} \leq s
-$$
-
-* The main difference is, that when doing a subset selection, which will generally select models that involve just a subset of the variables, ridge regression will include all $$p$$ predictors in the final model. However LASSO helps to zero-out coefficients and can yield sparse feature spaces. Whereas ridge regression yields non-sparse outputs and can not be used for feature-selection straight away.
-* However in practice ridge regression performs better than LASSO. [\(See here.\)](https://github.com/iamtodor/data-science-interview-questions-and-answers)
-* ![](../.gitbook/assets/grafik%20%2828%29.png) 
-* F: _In practice, explain what is the main difference between ridge regression and LASSO._ ⭐
-  * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
-  * Both shrinkage methods to shrink regression coefficients towards zero.
-  * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
-* F: _Explain what is the difference between linear regression and LASSO?_ \(8 points\)
-  * The formula for **linear regression** is given by:
-
-$$
-\min _{\boldsymbol{\beta}} \sum_{i=1}^{N}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} x_{i j} \beta_{j}\right)^{2}
-$$
-
-* where $$\beta_0$$ is the intercept and $$\beta_1 \cdots beta_p$$ are regression coefficients of $$k$$ independent variables.
-* The formula for **LASSO** coefficients $$\hat{\beta}_{\lambda}^{L}$$ is given by:
-
-$$
-\arg \min _{\mathbf{\beta}} \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \mid \beta_{j} \mid
-$$
-
-* Where $$\lambda$$ is a tuning parameter that serves as control of the relative impact of these two terms on the regression coefficients.
-* As it can be seen above, linear regression is the most basic form. LASSO includes another term - the so called regularization term or shrinkage penalty. More on that later. The standard linear regression doesn't penalize for the choice of weights and doesn't include a regularization term.
-* One could say LASSO is a variant of Linear regression. And linear regression is in general no variant of LASSO.
-* Linear regression tries to estimate the coefficients as such, that the residual sum of squares $$(\beta_0 + ...)$$ is minimized.
-* This also means that linear regression learns the training heart and is prone to overfitting. LASSO, which is a regularization approach, tries to prevent overfitting through the introduction of regularization term, which prevents the coefficients so perfectly to overfit.
-* Another difference is that LASSO is a shrinkage method and can be used for variable selection. Whereas linear regression is not suitable for feature selection.
-* For both closed form solutions exist.
-* F: _What are the main applications of LASSO?_⭐
-* LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
-* Whenever sparse models models \(models that only include a subset of the variables\) are needed.
-* F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?._⭐
-  * With LASSO regression the variables selected can change even if data is ever-so-slightly changed. Stability selection technique leads to a more stable selection of variables than LASSO.
-  * Stability selection works by fitting variables on a subsample of data. Afterwards one can count the proportion of times a variable is selected. This leads to a more stable selection.
-* F: _How do we apply the kernel trick to ridge regression?_ 🧠
-* F: _Why does it make sense to penalize the norm of the weight vector?_ 🧠
-* F: _Which norms can we use and what are the different effects?_ 🧠
-* F: _Give the formula for ridge regression and explain its components._
-* F: _Give the formula for LASSO and explain its components._
-* F: _Name one major advantage of LASSO over ridge regression._
-* A: Lasso yields sparse models, that is, models that only involve a subset of other variables.
-* F: _How should_ $$\lambda$$ _be selected for ridge regression / LASSO?_
-* F: _Explain how selecting tuning parameters works for ridge regression._
-
-## Dimensionality Reduction
-
+* F: _Give the definition for PCA_
 * F: _What does dimensionality reduction mean?_ 🧠
   * Dimensionality reduction is simply, the process of reducing the dimension of your feature set. e. G. from a hypersphere to some spherical shape. This is commonly done to feight the curse of dimensionality. \([see here.](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)\)
 * F: _What are advantages and disadvantages of dimensionality reduction?_
@@ -616,17 +614,31 @@ $$
 * F: _Intuition about sparse principal component analysis?_
   * SPCA is built on the fact that PCA can be written as a regression-type optimization problem, with a quadratic penalty; the lasso penalty \(via the elastic net\) can then be directly integrated into the regression criterion, leading to a modifiedPCA with sparse loadings.
 * F: _Explain the \(standard\) PCA._
-* F: _What is PCA?_ 🧠
+  * TODO: Welche Variante ist hier besser? Kommt zwei mal ähnlich in Folien vor.
 * F: _What are three things, that PCA does?_ 🧠
+  * PCA projects data into linear subspace
+  * PCA maximizes the variance of projection
+  * PCA minimizes the error of reconstruction
 * F: _What are the roles of the Eigenvectors and Eigenvalues in PCA?_ 🧠
 * F: _Can you describe applications of PCA?_ 🧠
-* F: _Give the definition for PCA_
 * F: _Explain the sparse PCA._
+  * By applying an $$L_{1}$$ and an $$L_{2}$$ penalty to the coefficients of the PCA regression formulation, sparse principal components can be estimated.
+  * TODO: Formulas important?
 * F: _Explain the nonlinear PCA._
+  * Nonlinear PCA uses an inconsistency index as information criterion to avoid overfitting in the choice of hyperparameters.
+  * Nonlinear PCA uses an **autoassociative neural network** for calculation of the PCAs. Autoassociative neural networks have one input layer, three hidden layers, and one output layer. One of the hidden layers is a socalled "bottleneck layer". The input layer and output layer have a size of the feature space.
+  * The network is trained to perform an **identity mapping**, where the input is approximated at the oupt.
+  * Since the number of hidden neurons in the middle hidden layer is restricted to the number of bottleneck neurons, which are fewer than the output neurons, one effectively calculates the **principal components**.
+  * The mean squared error \(MSE\) between the input layer and the output layer is mimized. In the process, the nonlinear principal components in the middle hidden layer, that is the bottleneck layer, are calculated. \(compare script + Kramer paper\)
 * F: _Explain the kernel PCA._
+  * Kernel PCA uses a nonlinear transformation $$\phi(X)$$from the original feature space into a higher dimensional feature space. Then standard PCA is applied in the higher dimensional feature space. The calculation requires the calculation of the dot product$$\phi(X)\phi(X)^{T}$$. Consequently, kernels can be used.
 * F: _Explain the major difference of sparse PCA over ordinary PCA._
+  * Ordinary PCA with many variables with non-zero factor loadings make it difficult to interpret the economic meaning of each PC. 
+  * Sparse PCA applies a elastic net regularization to the calculation of PCs. The $$L_1$$and $$L_2$$penalty is applied to the coefficents in the PCA regression formulation to prevent overfitting of the coefficients.  
 * F: _Explain the major difference of non-linear PCA over ordinary PCA._
 * F: _Explain the major difference of kernel PCA over ordinary PCA._
+  * Kernel PCA doesn't require a non-linear optimization.
+  * Kernel PCA transforms features into higher dimensional feature space first, before applying PCA.
 * _F: What is the purpose of the measure **porportion variance explained**?_
   * In order to understand the strength of each component, one needs to know the proportion of variance explained by each one.
 * F: _How can the proportion of variance explained by_ $$m$$ _variables be calculated?_
@@ -894,11 +906,11 @@ $$
 * F: _When is a clustering optimal?_
   * A clustering is optimal, if the within-cluster variation \(summed over all Clusters $$K$$\) is a as small as possible.
 * F: _Draw a dendrogram from a given clustering._
-  *   ![](http://127.0.0.1:50852/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
+  *   ![](http://127.0.0.1:49726/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
 
-  *   ![](http://127.0.0.1:50852/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
+  *   ![](http://127.0.0.1:49726/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 
-    ![](http://127.0.0.1:50742/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
+    ![](http://127.0.0.1:50852/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 * F: _Explain how the algorithm for hierarchical clustering works._
   1. Begin with n observations and a measure \(such as Euclidean distance\) of all the $$\left(\begin{array}{c}n \\ 2\end{array}\right)=n(n-1) / 2$$ pairwise dissimilarities. Treat each observation as its own cluster.
   2. For $$i=n, n-1, \ldots, 2$$
@@ -913,11 +925,8 @@ $$
   * **Average:** Mean intercluster dissimilarity compute all pairwise dissimilarities between the observations in cluster A and the observations in Cluster B,  and record the average of these dissimilarities. **Alternative:** Average distance between 2 pairs.
   * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of lenth p\) and the centroid for B. Centroid linkage can result in undesirable inversions. **Alternative**: Distance between the 2 centroids.
 * F: _Draw different linkage types visually._
-  * ![](http://127.0.0.1:50852/12Qo9ezWv8KRs8zRMKxh.png)_​_
-
-    _​_
-
-    ![](http://127.0.0.1:50852/137Cmij89B1D5vvNh58X.png)
+  * ![](http://127.0.0.1:49726/12Qo9ezWv8KRs8zRMKxh.png)
+  *   ![](http://127.0.0.1:49726/137Cmij89B1D5vvNh58X.png)
 
     ​
 * F: _What is the impact of using different linkage types?_
@@ -1015,32 +1024,7 @@ $$
 
   ![Network architectures](../.gitbook/assets/network_architecture.jpg)
 
-## RNN
 
-* F: _Explain Recurrent Neural Networks \(RNN\)_ ⭐
-* F: _What types of RNN were discussed in class?_
-* F: _Give applications of RNNs._
-* F: _What are key components of RNNs?_
-
-## LSTM
-
-* F: _Explain LSTMs._ ⭐
-  * LSTMs are RNNs, that feature:
-    * a forgetting mechanism \(whether specific information has already ended\)
-    * a saving mechanism \(whether information is worth saving\)
-  * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to. 
-  * One variant of LSTMs are GRUs where long-term and working memories are fused.
-* F: _LSTMs are suitable for which type of analysis?_ ⭐
-  * sequence modelling, with variable input and output length
-  * time series analysis
-* F: _How can we use LSTMs for time series dataset?_ ⭐
-  * First of all time series forecasting problem must be re-framed as supervised learning problem.
-  * One approach is to reframe time series data by considering past observations as input variables and future observations as the output variable.
-  * Example:
-    * Time series: 1, 2, 3, 4, 5, 6, 7
-    * For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: \(x,y\): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
-* F: _Explain how LSTMs update their memory._
-* F: _Give applications of LSTMS._
 
 ## Methods in NLP
 
@@ -1056,7 +1040,7 @@ $$
 * F: _Explain what a Sentiment Analysis is._
 * F: _Name different Deep Learning Models used in NLP._
 
-## RNNs / GRUs / Bidirectional LSTMs
+## RNNs / LSTMs / GRUs / Bidirectional LSTMs
 
 * F: _Explain RNNs._
   * TODO:
@@ -1078,6 +1062,33 @@ $$
 * F: _Adding more hidden layers will solve the vanishing gradient problem for a 2 layer neural network._ 🧑‍🚒
 * F: _xxx suffer\(s\) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER._ 🧑‍🚒
 * F: _Adding L2-regularization will help with vanishing gradients_ 🧑‍🚒
+
+
+
+* F: _Explain Recurrent Neural Networks \(RNN\)_ ⭐
+* F: _What types of RNN were discussed in class?_
+* F: _Give applications of RNNs._
+* F: _What are key components of RNNs?_
+
+\_\_
+
+* F: _Explain LSTMs._ ⭐
+  * LSTMs are RNNs, that feature:
+    * a forgetting mechanism \(whether specific information has already ended\)
+    * a saving mechanism \(whether information is worth saving\)
+  * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to. 
+  * One variant of LSTMs are GRUs where long-term and working memories are fused.
+* F: _LSTMs are suitable for which type of analysis?_ ⭐
+  * sequence modelling, with variable input and output length
+  * time series analysis
+* F: _How can we use LSTMs for time series dataset?_ ⭐
+  * First of all time series forecasting problem must be re-framed as supervised learning problem.
+  * One approach is to reframe time series data by considering past observations as input variables and future observations as the output variable.
+  * Example:
+    * Time series: 1, 2, 3, 4, 5, 6, 7
+    * For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: \(x,y\): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
+* F: _Explain how LSTMs update their memory._
+* F: _Give applications of LSTMS._
 
 ## Misc
 
