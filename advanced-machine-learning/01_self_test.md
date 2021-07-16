@@ -608,7 +608,7 @@ $$
     * PCA tends to find linear correlations between variables, which is sometimes not desireable.
     * PCA fails in cases where mean and covariance are not enough to define datasets.
 * F: _What is PCA commonly used for?_
-  * Produce a **low-dimensional representation** of the dataset. It finds a sequence of linear combinations of variables with maximal variance and high mutal correlation.
+  * Produce a **low-dimensional representation** of the dataset. It finds a sequence of linear combinations of variables with **maximal variance** and are **mutually uncorrelated**.
 * F: _What are the advantages of sparse PCA over PCA?_⭐
   * Sparse PCA allows for a better interpretation of economic meaning of each principal component. When having a large number of variables with non-zero factor loadings it's hard to interpret them with ordinary PCA, as PCs are a linear combination of all $$p$$ variables.
   * Compared to SCoTLASS its computationally efficient.
@@ -641,6 +641,28 @@ $$
   * Normalizing data is important in PCA, as it's a variance maximizing exercise. It projects original data onto directions that maximize the variance. If some variables have a large variance and some a small, PCA will load on the large variables. This might want to be avoided. \([see here.](https://stats.stackexchange.com/questions/69157/why-do-we-need-to-normalize-data-before-principal-component-analysis-pca)\) 
 * F: _Calculate the PCA for the first 2 components for a given example._
 * F: _Sketch the algorithm for calculating the first two PCA components._
+  * Suppose we have a $$n \times p$$ data set $$X$$. Since we are only interested in variance, we assume that each of the variables in $$X$$ has been centered to have mean zero \(that is, the column means of $$X$$ are zero\).
+  * We then look for the linear combination of the sample feature values of the form
+
+    $$P C A_{i 1}=\phi_{11} X_{i 1}+\phi_{21} X_{i 2}+\ldots+\phi_{P 1} X_{i P}$$
+
+    for $$i=1, \ldots, n$$ that has largest sample variance, subject to the constraint that $$\sum_{j=1}^{p} \phi_{j 1}^{2}=1$$.
+
+  * Since each of the $$x_{i j}$$ has mean zero, then so does $$\text{PCA}_{i 1}$$ \(for any values of $$\phi_{j 1}$$ \). Hence the sample variance of the $$P C A_{i 1}$$ can be written as $$\frac{1}{n} \sum_{j=1}^{p} \text{PCA}_{i 1}^{2}$$.
+  * Plugging into the last equation the first principal component loading vector solves the optimization problem maximize
+
+    $$\frac{1}{n} \sum_{i=1}^{n}\left(\sum_{j=1}^{P} \phi_{j 1} x_{i j}\right)^{2}\text{ subject to }\sum_{j=1}^{p} \phi_{j 1}^{2}=1$$
+
+  * This problem can be solved via a singular-value decomposition of the matrix $$X$$, a standard technique in linear algebra.
+  * We refer to $$\text{PCA}_{1}$$ as the first principal component, with realized values $$\text{pca}_{11}, \ldots, \text{pca}_{n1}$$
+  * The second principal component is the linear combination of $$X_{1}, X_{2}, \ldots, X_{P}$$ that has **maximal variance** among all linear combinations that are **uncorrelated** with $$\text{PCA}_{1}$$. 
+  * The second principal component scores $$z_{12}, z_{22}, \ldots, z_{n 2}$$ take the form
+
+    $$\text{PCA}_{i 2}=\phi_{12} X_{i 1}+\phi_{22} X_{i 2}+\ldots+\phi_{P 2} X_{i P}$$
+
+    where $$\phi_{2}$$ is the second principal component loading vector, with elements $$\phi_{12}, \ldots \phi_{p 2}$$. 
+
+  * It turns out that constraining $$\text{PCA}_{2}$$ to be uncorrelated with $$\text{PCA}_{1}$$ is equivalent to constraining the direction $$\phi_{2}$$ to be orthogonal to the direction $$\phi_{1}$$.
 
 ## Decision Trees\*
 
