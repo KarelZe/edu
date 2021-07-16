@@ -178,18 +178,18 @@ Zur Herkunft der Fragen:
 * F: _Compare the **best subset selection** to **forward selection**._ 
   * **Forward stepwise selection** begins with a model containing no predictors, and then adds predictors to the model, one-at-a-time, until all of the predictors are in the model.
   * **Best Subset Selection** does not add predictors one-at-a-time but chooses from models containing **exactly** $$k$$ variables. Predictors might be **different** for different $$k$$s.
-  * **Best Subset Selection** becomes infeasable for large number of variables \($$\geq 40$$\). \(Hastie\)
+  * **Best Subset Selection** becomes infeasable for large number of variables \($$\geq 40$$\). \(Hastie p.59\)
 * F: _Compare the subset selection methods **forward** and **backward stepwise selection**._ 
   * **Backward stepwise selection** is pretty much the inverse of **forward stepwise selection**.
 * F: _When is it desirable to use **backward stepwise selection** and when is it desirable to use **forward stepwise selection or best subset selection**?_
   * Computionally best subset selection is most demanding and becomes infeasable for a large number of features.
   * All three deliver similar results \(See comparsion in Hastie p. 59\)
 * F: _What is an alternative to subset selection methods presented in lecture?_ 
-  * Forward-stagewise regression
-* F: _What are the reasons why shrinkage methods such as LASSO are preferred over subset selection methods such as forward stepwise selection?_
-* F: _Explain how the stepwise inclusion regression method / ... /... works._ 
-* F: _In which way do stepwise inclusion method and stepwise exclusion method differ?_
-* F: _Explain how linear regression works._
+  * **Forward-stagewise regression**
+* F: _What are the reasons why shrinkage methods such as **LASSO** are preferred over subset selection methods such as **best subset selection**?_
+  * If the **best subset** can be found, it is indeed better than the LASSO in terms of selecting the variables that actually contribute to the fit.
+  * In practice **LASSO** is still preferred as it is computionally much easier to estimate e. g. through the calculation of regularization paths using pathwise coordinate descent. Whereas **best subset selection** is a NP hard problem. \([see here.](https://stats.stackexchange.com/questions/350587/why-is-best-subset-selection-not-favored-in-comparison-to-lasso)\)
+* F: _Explain how **Linear Regression** works._
   * Linear regression is a linear model \(aka a model that assumes a **linear relationship** between input variables $$X$$and the single output variable $$y$$\). $$y$$ is a linear combination of the input variables $$x_1$$ to $$x_k$$. To best describe the relationship between input variables and output variables a line or hyperplane is fitted to the point cloud. \(own\)
   * The multiple linear regression model for the population is defined as:
 
@@ -202,7 +202,7 @@ Zur Herkunft der Fragen:
     $$
     y=\beta X+\epsilon
     $$
-* F: _What is the purpose_ $$\beta$$ _in a Multiple Linear Regression Model?_
+* F: _What is the purpose_ $$\beta$$ _in a **Multiple Linear Regression Model**?_
   * $$\beta$$ is a $$(p+1)$$-dimensional vector, where $$\beta_0$$ is the intercept and $$\beta_1,\cdots,\beta_k$$ are the regression coefficients of $$k$$ independent variables.
 * F: _Explain how an optimal estimate for_ $$\beta$$ _can be derived._
 
@@ -225,6 +225,8 @@ Zur Herkunft der Fragen:
   \epsilon=y-X^{\intercal} \beta
   $$
 
+* F: _Does standard Linear Regression require scaling?_
+  * No, as multiplying $$X_i$$ with a constant $$c$$leads to a scaling of the least square coefficient estimates by a factor $$1/c$$.  
 * F: Why do we optimize for the SSE for?
   * It is fully differentiable 
   * Easy to optimize
@@ -274,7 +276,7 @@ Zur Herkunft der Fragen:
     * Determine the quality of the regression model with e. g. $$R^2$$, adj.$$R^2$$ , MSE and MAE.
     * Determine the models significance and the significance of the regression coefficients.
     * Analyse standard deviation of regression erros.
-* F: _Why is it not desirable to use Linear Regression for default prediction?_ 
+* F: _Why is it not desirable to use **Linear Regression** for default prediction?_ 
   * In default prediction one searches for proability of default $$\operatorname{Pr}(\text { default }=\text { Yes } \mid \text { balance })$$ , which ranges between $$0$$ and $$1$$ .
   * Fitting a line between to a binary response variable \(1 = default / 0 = non-default\), could lead to estimates outside the $$[0,1]$$ interval, making them hard to interpret as probabilities i. e. if probabilities are negative.
   * Nevertheless, the predictions provide an ordering and can be interpreted as crude probability estimates.
@@ -285,47 +287,36 @@ Zur Herkunft der Fragen:
   * As with ridge regression, the LASSO shrinks the coefficient estimates towards zero.
   * However, in the case of LASSO some coefficient estimates are forced to be exactly equal to zero \(zeroed out\) when the tuning parameter $$\lambda$$ is sufficiently large. 
   * Therefore, LASSO does variable selection automatically and shrinkage of parameters.
-* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
-* F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
-* F: _Explain the purpose of conducting an ANOVA test?_ 
-* F: _Is the F-static normalized?_ _What values can the F static take_
-* F: _How can the significance of a model be tested?_ 
-* F: _Why does the improvement when adding new explanatory variables follow a chi-squared distribution with one degree of freedom?_ 
-* F: _What is problematic about Multicollinearity?_ 
-* F: _How can Multicollinearity be resolved?_ 
-* F: _How does correlations and multicollinearity relate?_ 
-* F: _Give the definition of the Variance Inflation Factor._ 
-* F: _Explain how the Variance Inflation Factor can be calculated._ 
-* F: _Name common assumptions about error terms._ 
-  * 1. Regression Errors are normally distributed 
-  * 2. The variance of regression errors is constant 
-  * 3. The error terms from different points in time are independent 
-  * 4. The residuals are uncorrelated with the independent variable.
-
-    **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
-* F: _Name implications when residuals of a general linear regression model are not normally distributed._
-* F: _Why do errors of a linear regression model have to be normally distributed?_ 
-* F: _Why does variance of regression errors in a linear regression model has to be constant?_ 
-* F: _Explain the concept of heteroscedasticity for regression errors._ 
-* F: _Define the coefficient of partial determination._ 
-* F: _How do the coefficient of partial determination and F-test relate?_ 
+* F: Name two approaches for shrinking regression coefficients towards zero.
+  * ridge regression
+  * LASSO
 * F: _Explain what regularization is and why it is useful_
   * A: [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _Explain the ridge regression._ ⭐
-  * Ridge regression is a regularization approach. Regularization is used to prevent coefficients from fitting so perfectly. This is done by adding a constant multiple to an existing weight vector. Which is sometimes referred to as a regularization term or shrinkage penalty. In case of ridge regression this regularization term. In case of ridge regression it is the sum of the square of the weights.
+  * Ridge regression is a regularization approach. Regularization is used to prevent coefficients from fitting so perfectly. This is done by adding a constant multiple to an existing weight vector. Which is sometimes referred to as a **regularization term** or **shrinkage penalty**. In case of **ridge regression** this **regularization term**. In case of **ridge regressio**n it is the sum of the square of the weights.
   * Taking this into account one get's the following formula for ridge regression:
 
 $$
 \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} \beta_{j}^{2}=R S S+\lambda \sum_{j=1}^{p} \beta_{j}^{2}
 $$
 
-* * where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
-  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero.
+* * where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation. 
+  * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS. 
+  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term, as penalzing the intercept would just shift$$y_i$$ by some amount $$c$$. \(Hastie p. 64\)
   * As such:
     * ridge regression yields non-sparse outputs, as coefficients are shrinked towards zero but never actually are 0.
     * doesn't allow for feature selection. Some reasoning as above.
     * Typically yields better results than LASSO.
+* F: Why is the intercept$$\beta_0$$**not** part of the regualarization term? 
+  * The intercept $$β_0$$ has been left out of the penalty term. Penalization of the intercept would make the procedure depend on the origin chosen for $$Y$$; that is, adding a constant $$c$$ to each of the targets $$y_i$$ would not simply result in a shift of the predictions by the same amount $$c$$. \(Hastie p. 64\)
+  * Indeed, in the presence of the intercept term, adding $$c$$ to all $$y_i$$ will simply lead to $$\beta_0$$ increasing by $$c$$ as well and correspondingly all predicted values $$y_i$$ will also increase by $$c$$. This is not true if the intercept is penalized: $$\beta_0$$ will have to increase by less than c.  \([see here.](https://stats.stackexchange.com/a/161689)\)
+* F: Match $$\ell_1$$norm,$$\ell_2$$norm, ridge regression and LASSO to its counterparts.
+  * ridge: $$\ell_2$$
+  * LASSO: $$\ell_1$$
+* F: How is the $$\ell_2$$norm defined?
+  * $${||\beta||}_{2}=\sqrt{\sum_{j=1}^{p} \beta_{j}^{2}}$$
 * F: _Explain LASSO._
+  * \_\_
 * F: _Explain the difference between LASSO and ridge regression?_ ⭐
   * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
   * Both shrinkage methods to shrink regression coefficients towards zero.
@@ -343,7 +334,8 @@ $$
 $$
 
 * The main difference is, that when doing a subset selection, which will generally select models that involve just a subset of the variables, ridge regression will include all $$p$$ predictors in the final model. However LASSO helps to zero-out coefficients and can yield sparse feature spaces. Whereas ridge regression yields non-sparse outputs and can not be used for feature-selection straight away.
-* However in practice ridge regression performs better than LASSO. [\(See here.\)](https://github.com/iamtodor/data-science-interview-questions-and-answers)
+* However in practice ridge regression performs better than LASSO. [\(See here.\)](https://github.com/iamtodor/data-science-interview-questions-and-answers) According to the script there is no clear tendency.
+* **Visualization:**
 * ![](../.gitbook/assets/grafik%20%2828%29.png) 
 * F: _In practice, explain what is the main difference between ridge regression and LASSO._ ⭐
   * Both are regularization approaches in order to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
@@ -367,12 +359,12 @@ $$
 * As it can be seen above, linear regression is the most basic form. LASSO includes another term - the so called regularization term or shrinkage penalty. More on that later. The standard linear regression doesn't penalize for the choice of weights and doesn't include a regularization term.
 * One could say LASSO is a variant of Linear regression. And linear regression is in general no variant of LASSO.
 * Linear regression tries to estimate the coefficients as such, that the residual sum of squares $$(\beta_0 + ...)$$ is minimized.
-* This also means that linear regression learns the training heart and is prone to overfitting. LASSO, which is a regularization approach, tries to prevent overfitting through the introduction of regularization term, which prevents the coefficients so perfectly to overfit.
-* Another difference is that LASSO is a shrinkage method and can be used for variable selection. Whereas linear regression is not suitable for feature selection.
-* For both closed form solutions exist.
+  * This also means that linear regression learns the training heart and is prone to overfitting. LASSO, which is a regularization approach, tries to prevent overfitting through the introduction of regularization term, which prevents the coefficients so perfectly to overfit.
+  * Another difference is that LASSO is a shrinkage method and can be used for variable selection. Whereas linear regression is not suitable for feature selection.
+  * For both closed form solutions exist.
 * F: _What are the main applications of LASSO?_⭐
-* LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
-* Whenever sparse models models \(models that only include a subset of the variables\) are needed.
+  * LASSO is suitable for feature selection, as some coefficient estimates are forced exactly to zero, if the tuning parameter $$\lambda$$ is sufficiently large.
+  * Whenever sparse models models \(models that only include a subset of the variables\) are needed.
 * F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?._⭐
   * With LASSO regression the variables selected can change even if data is ever-so-slightly changed. Stability selection technique leads to a more stable selection of variables than LASSO.
   * Stability selection works by fitting variables on a subsample of data. Afterwards one can count the proportion of times a variable is selected. This leads to a more stable selection.
@@ -381,10 +373,37 @@ $$
 * F: _Which norms can we use and what are the different effects?_ 🧠
 * F: _Give the formula for ridge regression and explain its components._
 * F: _Give the formula for LASSO and explain its components._
-* F: _Name one major advantage of LASSO over ridge regression._
-* A: Lasso yields sparse models, that is, models that only involve a subset of other variables.
-* F: _How should_ $$\lambda$$ _be selected for ridge regression / LASSO?_
-* F: _Explain how selecting tuning parameters works for ridge regression._
+* F: _Name one major advantage of **LASSO** over **ridge regression**._
+  * Lasso yields sparse models, that is, models that only involve a subset of other variables.
+* F: _How should_ $$\lambda$$ _be selected for **ridge regression** / **LASSO**?_
+  * Cross-validation provides a simple way to tackle this problem. We choose grid of $$\lambda$$ values, and compute the cross-validation error rate for each value of $$\lambda$$. We then select the tuning parameter value for which the cross-validation error is smallest and fit the model on all available observations.
+* F:  _Should inputs be scaled for **ridge regression?** If so, how?_
+  * The ridge solutions are not equivariant under scaling the inputs. That means regression coefficients can change substaintially when multiplying a given predictor with a constant $$c$$, and so one normally **standardizes** the inputs before solving. One might use the following formula:
+  * $$\bar{x}_{i j}=\frac{x_{i j}}{\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(x_{i j}-\bar{x}_{j}\right)^{2}}}$$
+* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
+  * F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
+  * F: _Explain the purpose of conducting an ANOVA test?_ 
+  * F: _Is the F-static normalized?_ _What values can the F static take_
+  * F: _How can the significance of a model be tested?_ 
+  * F: _Why does the improvement when adding new explanatory variables follow a chi-squared distribution with one degree of freedom?_ 
+  * F: _What is problematic about Multicollinearity?_ 
+  * F: _How can Multicollinearity be resolved?_ 
+  * F: _How does correlations and multicollinearity relate?_ 
+  * F: _Give the definition of the Variance Inflation Factor._ 
+  * F: _Explain how the Variance Inflation Factor can be calculated._ 
+  * F: _Name common assumptions about error terms._ 
+    * 1. Regression Errors are normally distributed 
+    * 2. The variance of regression errors is constant 
+    * 3. The error terms from different points in time are independent 
+    * 4. The residuals are uncorrelated with the independent variable.
+
+      **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
+  * F: _Name implications when residuals of a general linear regression model are not normally distributed._
+  * F: _Why do errors of a linear regression model have to be normally distributed?_ 
+  * F: _Why does variance of regression errors in a linear regression model has to be constant?_ 
+  * F: _Explain the concept of heteroscedasticity for regression errors._ 
+  * F: _Define the coefficient of partial determination._ 
+  * F: _How do the coefficient of partial determination and F-test relate?_ 
 
 ## Logistic Regression\*
 
