@@ -1166,6 +1166,10 @@ $$
 
 \_\_
 
+* F: What are CNNs?
+
+
+
 * F: _Explain LSTMs._ ⭐
   * LSTMs are RNNs, that feature:
     * a forgetting mechanism \(whether specific information has already ended\)
