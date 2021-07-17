@@ -149,25 +149,23 @@ Zur Herkunft der Fragen:
 
 ## LR, Ridge and Lasso\*
 
-* F: _Explain how **best subset selection** works in 3 steps._ 
-  1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation.
-  2. For $$k=1,2, \ldots p$$ :
+* F: _Explain how **best subset selection** works in 3 steps._ 1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation. 2. For $$k=1,2, \ldots p$$ :
 
-      a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
+  ```text
+  a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
 
-      b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
+  b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
+  ```
 
-  3. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
-* F: _Explain how **forward stepwise selection** works in 3 steps._ 
+  1. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
+
+* F: _Explain how **forward stepwise selection** works in 3 steps._
   * **Intuition:**
 
     Instead of searching through all possible subsets, we can seek a good path through them. Forward stepwise selection starts with the intercept, and then sequentially adds into the model the predictor that most improves the fit. Like best subset regression, forward stepwise produces a sequence of models indexed by $$k$$, the subset size, which must be determined. \(Hastie p. 59\)
 
-  * **More formal description:**
-    1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors.
-    2. For $$k=0, \cdots, p-1$$: a. Consider all $$p-k$$ models that augment the predictors in $$\mathcal{M}_{k}$$ with one additional predictor. b. Choose the best among these $$p-k$$ models, and call it $$\mathcal{M}_{k+1}$$. Here best is defined as having smallest RSS or highest $$R^{2}$$.
-    3. Select a single best model from among $$\mathcal{M}_{0}, \ldots, \mathcal{M}_{p}$$ using cross-validated prediction error, $$C_{p}$$, AIC, BIC, on adjusted $$R^{2}$$.
-* F: _Explain how **backward stepwise selection** works in 3 steps._ 
+  * **More formal description:** 1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. 2. For $$k=0, \cdots, p-1$$: a. Consider all $$p-k$$ models that augment the predictors in $$\mathcal{M}_{k}$$ with one additional predictor. b. Choose the best among these $$p-k$$ models, and call it $$\mathcal{M}_{k+1}$$. Here best is defined as having smallest RSS or highest $$R^{2}$$. 3. Select a single best model from among $$\mathcal{M}_{0}, \ldots, \mathcal{M}_{p}$$ using cross-validated prediction error, $$C_{p}$$, AIC, BIC, on adjusted $$R^{2}$$.
+* F: _Explain how **backward stepwise selection** works in 3 steps._
   * Backward- stepwise selection starts with the full model, and sequentially deletes the predictor that has the least impact on the fit. The candidate for dropping is the one with the largest RSS and lowest $$R^2$$. \(Hastie p. 60\)
   * **More formal definition:**
 
@@ -327,9 +325,9 @@ $$
     \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} |\beta_{j}|=R S S+\lambda \sum_{j=1}^{p} |\beta_{j}|
     $$
 
-    where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation. 
+    where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
 
-  * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS. 
+  * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS.
   * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term. Some coefficient estimates are even forced to be exactly zero, if $$\lambda$$is sufficiently large. 
   * As such:
     * Lasso regression yields sparse models. That is, models that involve only a subset of the variables.
@@ -359,7 +357,7 @@ $$
   * Both are regularization approaches to prevent overfitting of an ordinary linear regression model and introduce smoothness to the model. This is done by adding a constant multiple of an weight vector that prevents the coefficients so perfectly that they overfit.
   * Both shrinkage methods to shrink regression coefficients towards zero.
   * The difference between LASSO and ridge regression is that ridge is just the square of the weights, while Lasso is just the sum of the absolute weights in MSE or other loss functions.
-  *  TODO: Formel 
+  * TODO: Formel 
 * F: _Explain what is the difference between Linear Regression and LASSO?_ \(8 points\) ⭐
   * TODO: Def. lin regression
   * The formula for **linear regression** is given by:
@@ -402,7 +400,7 @@ $$
   * $$\bar{x}_{i j}=\frac{x_{i j}}{\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(x_{i j}-\bar{x}_{j}\right)^{2}}}$$
 * F: Should inputs be scaled for Lasso?
   * TODO: yes: [https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary](https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary)
-* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_ 
+* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_
   * F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
   * F: _Explain the purpose of conducting an ANOVA test?_ 
   * F: _Is the F-static normalized?_ _What values can the F static take_
@@ -413,12 +411,11 @@ $$
   * F: _How do correlations and multicollinearity relate?_ 
   * F: _Give the definition of the Variance Inflation Factor._ 
   * F: _Explain how the Variance Inflation Factor can be calculated._ 
-  * F: _Name common assumptions about error terms._ 
+  * F: _Name common assumptions about error terms._
     * 1. Regression Errors are normally distributed 
-    * 2. The variance of regression errors is constant 
-    * 3. The error terms from different points in time are independent 
-    * 4. The residuals are uncorrelated with the independent variable.
-
+    * 1. The variance of regression errors is constant 
+    * 1. The error terms from different points in time are independent 
+    * **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
       **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
   * F: _Name implications when residuals of a general linear regression model are not normally distributed._
   * F: _Why do errors of a linear regression model have to be normally distributed?_ 
@@ -628,7 +625,9 @@ $$
   * This is done in turn for each part $$k = 1,2, \cdots, N$$ , and then the results are combined.
 * F: _What is the advantage/disadvantage of_ $$k$$_-fold CV?_
   * Very little bias, as model has been train on multiple data constellations. \(+\)
-  uta* Computationally very expensive, as training of the model happens multiple times \(-\)
+
+    uta\* Computationally very expensive, as training of the model happens multiple times \(-\)
+
   * Can not prevent data leakage \(-\)
 * F: _Explain purged_ $$k$$_-fold cross-validation._ ⭐
   * Purged K-Fold
@@ -733,7 +732,7 @@ $$
   * where $$P$$is the number of features and $$n$$is the number of observations.
   * The variance explained by the \(m\) principal components is defined as: $$\operatorname{Var}\left(P C A_{m}\right)=\frac{1}{n} \sum_{i=1}^{n} p c a_{i m}^{2}$$ 
   * Therefore, the proportion of variance explained of the \(m\) th principal component is given by the positive quantity between 0 and 1
-  *  $$\frac{\sum_{i=1}^{n} p c a_{i m}^{2}}{\sum_{j=1}^{P} \sum_{i=1}^{n} x_{i j}^{2}}$$ 
+  * $$\frac{\sum_{i=1}^{n} p c a_{i m}^{2}}{\sum_{j=1}^{P} \sum_{i=1}^{n} x_{i j}^{2}}$$ 
   * TODO: What does P, n etc. stand for?
 * _F: What scaling should be applied before doing a PCA?_
   * If variables are in different units, scaling each to have a standard deviation equal to one is recommended. \(script p. 16\)
@@ -759,7 +758,7 @@ $$
 
     $$\text{PCA}_{i 2}=\phi_{12} X_{i 1}+\phi_{22} X_{i 2}+\ldots+\phi_{P 2} X_{i P}$$
 
-    where $$\phi_{2}$$ is the second principal component loading vector, with elements $$\phi_{12}, \ldots \phi_{p 2}$$. 
+    where $$\phi_{2}$$ is the second principal component loading vector, with elements $$\phi_{12}, \ldots \phi_{p 2}$$.
 
   * It turns out that constraining $$\text{PCA}_{2}$$ to be uncorrelated with $$\text{PCA}_{1}$$ is equivalent to constraining the direction $$\phi_{2}$$ to be orthogonal to the direction $$\phi_{1}$$.
 
@@ -792,22 +791,18 @@ $$
   * That means either Gini index or cross-entropy should be used when growing a tree.
   * To guide cost-complexity pruning, any of the three measures will do.
 * _F: Explain how numerical features can be split?_
-
   * If  $$x_{1}, x_{2}, \ldots, x_{p}$$ are a set of numeric variables, we consider all splits of type $$x \leq c$$ for all $$c$$ ranging over $$(-\infty, \infty)$$.
   * If all all observations have a different value, we have at most n distinct values $$x_{1}, x_{2}, \cdots, x_{n}$$ of $$x$$. Which means there are at max. $$n-1$$ distinct splits of type $$m=1, \ldots, n \leq n$$, where $$m=1, \ldots, n \leq n$$ , where $$c_m$$ are taken **halfway** between **consecutive** distinct values of $$x$$ .
-
 * F: H_ow can categorical attributes be handled?_
   * TODO: + Folie 23
   * Alternatively, variables can be label-encoded and treated as numeric variables. \([see here.](https://towardsdatascience.com/decision-trees-d07e0f420175)\)
 * F: _How can continuous attributes be handled in Decision Trees?_ ⭐
   * **Alternative answer:** It's necessary to discretize continuous values. One could either use:
-
     1. Comparison operator, which separates into two classes by a threshold. The threshold could be chosen by:
        1. brute force: trying out every single value of continuous variables
        2. sorting values for continuous attributes and taking the midpoint of the adjacent values in the sorted array. See here:
-       3.  ![](../.gitbook/assets/grafik%20%2847%29.png) 
+       3. ![](../.gitbook/assets/grafik%20%2847%29.png) 
     2. Split continuous values into bins. One would get multi-way splits. Splitting into bins could happen by frequency or width. \(comp. Equi-width histograms vs. equi-depth histogram\) [\(see here.\)](https://medium.com/geekculture/handling-continuous-attributes-in-decision-trees-bbc044986621)
-
   * TODO: like numerical attributes
 * F: _Explain how numerical features can be split?_
   * Assuming there are at most n distinct values of x. There are at most $$n-1$$ distinct splits of type $$x \leq c_m$$, where $$c_m$$ are taken halfway between consecutive distinct values of $$x$$ 
@@ -936,9 +931,9 @@ $$
 
   To achieve a faster convergence, one can use an improved initialization of cluster centres. One approach is **k-means++**.
 
-  More formal definition: 
+  More formal definition:
 
-  1.  Pick $$K$$ arbitrary cluster centres
+  1. Pick $$K$$ arbitrary cluster centres
   2. Assign each sample to its closest centroid $$z_{n}=\arg \min {k}\left|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right|^{2}$$ 
   3. Adjust the centroids to be the means of the samples assigned to them $$\boldsymbol{c}_{k}=\frac{1}{\left|X_{k}\right|} \sum{\boldsymbol{x}_{i} \in X_{k}}  \boldsymbol{x}_{i}, X_{k}= \{\boldsymbol{x}_{n} z_{n}=k \}$$ 
   4. Goto step 2 until no change
@@ -950,11 +945,11 @@ $$
   * The idea behind $$k$$-means clustering is that a good clustering is one for which the within-cluster variation is as small as possible.
   * $$\operatorname{WCV}(C_k)$$ is the degree by which observations differ from each other within a cluster.
 
-    Hence we want to solve the problem: 
+    Hence we want to solve the problem:
 
     * $$\operatorname{ minimize }\left\{\sum_{k=1}^{K} W C V\left(C_{K}\right)\right\}$$
 
-    For Euclidean distance: 
+    For Euclidean distance:
 
     * $$\operatorname{ minimize }\left\{\sum_{k=1}^{K} \frac{1}{\left|C_{K}\right|} \sum_{i, i^{\prime} \in C_{K}} \sum_{j=1}^{P}\left(x_{i j}-x_{i^{\prime} j}\right)^{2}\right\}$$
 * F: _What is the main \(dis-\)advantage of the_ $$k$$_-means clustering algorithm?_ ⭐
@@ -970,7 +965,7 @@ $$
   * Datasets with less noise
   * Spherical clusters of roughly the same size
   * Counter "mouse" example \([see here.](https://stats.stackexchange.com/questions/79741/data-sets-suitable-for-k-means)\)
-  * \_\_![](../.gitbook/assets/grafik%20%2848%29.png) __
+  * \_\_![](../.gitbook/assets/grafik%20%2848%29.png) \_\_
 * F: _What are alternatives to_ $$k$$_-means clustering?_
   * DBSCAN
   * Agglomerative Hierarchical Clustering
@@ -1002,15 +997,11 @@ $$
 * F: _When is clustering optimal?_
   * A clustering is optimal if the within-cluster variation \(summed over all Clusters $$K$$\) is as small as possible.
 * F: _Draw a dendrogram from a given clustering._
-  *   ![](http://127.0.0.1:49726/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
-
-  *   ![](http://127.0.0.1:49726/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
+  * ![](http://127.0.0.1:49726/paste-adaa6f08036c23cf81befcf5dda658803dcb008b.jpg)
+  * ![](http://127.0.0.1:49726/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
 
     ![](http://127.0.0.1:50852/paste-1510742dce8bacd2cfabfe464bc70dfd6d94ad8e.jpg)
-* F: _Explain how the algorithm for hierarchical clustering works._
-  1. Begin with n observations and a measure \(such as Euclidean distance\) of all the $$\left(\begin{array}{c}n \\ 2\end{array}\right)=n(n-1) / 2$$ pairwise dissimilarities. Treat each observation as its own cluster.
-  2. For $$i=n, n-1, \ldots, 2$$
-
+* F: _Explain how the algorithm for hierarchical clustering works._ 1. Begin with n observations and a measure \(such as Euclidean distance\) of all the $$\left(\begin{array}{c}n \\ 2\end{array}\right)=n(n-1) / 2$$ pairwise dissimilarities. Treat each observation as its own cluster. 2. For $$i=n, n-1, \ldots, 2$$
   * Examine all pairwise inter-cluster dissimilarities among the $$i$$ clusters and identify the pair of clusters that are least dissimilar \(that is, most similar\). Fuse these two clusters. The dissimilarity between these two clusters indicates the height in the dendrogram at which the fusion should be placed.
   * Compute the new pairwise inter-cluster dissimilarities among the $$i-1$$ remaining clusters.
 * F: What is the purpose of linkage types?
@@ -1022,7 +1013,7 @@ $$
   * **Centroid:** Dissimilarity between the centroid for cluster A \(a mean vector of length p\) and the centroid for B. Centroid linkage can result in undesirable inversions. **Alternative**: Distance between the two centroids.
 * F: _Draw different linkage types visually._
   * ![](http://127.0.0.1:49726/12Qo9ezWv8KRs8zRMKxh.png)
-  *   ![](http://127.0.0.1:49726/137Cmij89B1D5vvNh58X.png)
+  * ![](http://127.0.0.1:49726/137Cmij89B1D5vvNh58X.png)
 
     ​
 * F: _What is the impact of using different linkage types?_
@@ -1047,7 +1038,56 @@ $$
 
 ## SVMs
 
-* F: _Explain what a SVM is._
+* F: What is the motivation for SVMs?
+  * We try to find a **plane** that separates the **classes in feature space**. If seperating is not possible:
+    * one **softens**, what is meant by separating
+    * or **enrichens** or **enlargens** the **feature space** so that separtion is possible.
+* F: _Explain what a SVM is._ 
+* _F: Give the definition of a hyperplane_
+  * a hyperplane in $$p$$ dimensions is an affine subspace of dimension $$p-1$$dimension.
+  * The equation for a hyperplane is given by:
+    * $$\beta_{0}+\beta_{1} X_{1}+\beta_{2} X_{2}+\ldots+\beta_{P} X_{P}=0$$
+* F: _What is hyperplane in two dimensions? What in three dimensions?_
+  * $$p=2$$: line
+  * $$p=3$$: plane
+* F: _What is the meaning of the the vector_ $$\beta$$ _of a hyperplane?_
+  * $$\beta=\left(\beta_{0}, \beta_{1}, \beta_{2}, \ldots, \beta_{P}\right)$$is the normal.
+* F: How can a **hyperplane** be used for **classification**?
+  * If $$f(x)=\beta_{0}+\beta_{1} X_{1}+\beta_{2} X_{2}+\ldots+\beta_{P} X_{P}$$, then $$f(x)>0$$ for points on one side of the hyperplane, and $$f(x)<0$$ for points on the other. 
+  * That means one can classify test observations based on which side of the hyperplane it lies \(James et al.\)
+* F: _Explain the **Maximal Margin Classifier**?_
+  * A **Maximal Margin Classifier** is a classification approach, where one tries to find a hyperplane of all possible hyperplane, that gives the biggest gap between the two classes. This hyperplane is called the **maximal margin hyperplane**. The smallest distance between the hyperplane and training observations is called margin. 
+  * Finding the maximal margin hyperplane is an constrained optimization problem, which can be formulated as follows.
+  * Based on a set of $$n$$ training observations based on a set of $$n$$ training observations $$x_{1}, \ldots, x_{n} \in \mathbb{R}^{p}$$ and associated class labels $$y_{1}, \ldots, y_{n} \in{-1,1}$$ . Briefly, the maximal margin hyperplane is the solution to the optimization problem:
+  * $$
+    \begin{aligned}
+    &\underset{\beta_{0}, \beta_{1}, \ldots, \beta_{p}, M}{\operatorname{maximize}} M \\
+    &\text { subject to } \sum_{j=1}^{p} \beta_{j}^{2}=1, \\
+    &y_{i}\left(\beta_{0}+\beta_{1} x_{i 1}+\beta_{2} x_{i 2}+\ldots+\beta_{p} x_{i p}\right) \geq M \forall i=1, \ldots, n 
+    \end{aligned}
+    $$
+  * The constraint $$y_i \cdots$$ guarantees that each observation will be on the correct side of the hyperplane, provided that $$M$$ is positive. The first constraint is not a real constraint on the hyperplane itself. The first constraint though adds meaning to the second constraint, as this constraint gives the perpendicular distance from the $$i$$th observation to the hyperplane given by $$y_{i}\left(\beta_{0}+\beta_{1} x_{i 1}+\beta_{2} x_{i 2}+\ldots+\beta_{p} x_{i p}\right)$$.  
+  * Hence,$$M$$ represents the margin of our hyperplane and the optimization problem chooses $$\beta_0, \beta_1,\cdots,\beta_p$$ to maximize $$M$$. \(James et. al. 343\)
+* F: _Why are **Support Vector Classifiers** even necessary if **Maximal Margin Classifiers** already exist?_
+  * In order to use a maximial margin classifier, a separating hyperplane has to exist. If there is no separating hyperplane the optimization problem from above has no solution for $$M > 0$$. The extension of the separating hyperplane is the soft margin and the generalization of the **maximal margin classifier** the **support vector classifier**. \(james et. al. p. 343\)
+* F: Give an example for Feature Expansion:
+* TODO:
+* F: Explain what Feature Expansion is.
+* TODO:
+* F: Explain the Support Vector Classifier.
+* TODO:
+* F: Give the definition for a linear kernel.
+  * $$K\left(x_{i}, x_{i^{\prime}}\right)=\sum_{j=1}^{p} x_{i j} x_{i^{\prime} j}$$ 
+  * \(James et al. p. 353\)
+* F: Give the definition for a polynomial kernel.
+  * $$K\left(x_{i}, x_{i^{\prime}}\right)=\left(1+\sum_{j=1}^{p} x_{i j} x_{i^{\prime} j}\right)^{d}$$ 
+  * where $$d$$ is the degree of the polynomial. Higher degrees lead to a more flexible decision boundary. The support vector classifier is fitted in a higher-dimensional space involving polynomials of degree $$d$$ rather than the original feature space. \(James et al.  p 353\)
+* F: Give the definition for the rbf kernel.
+  * $$K\left(x_{i}, x_{i^{\prime}}\right)=\exp \left(-\gamma \sum_{j=1}^{p}\left(x_{i j}-x_{i^{\prime} j}\right)^{2}\right)$$ 
+  * $$\gamma$$ is a positive constant, known as the bandwith parameter.
+  * The radial kernel has a local behavior, in a sense that only nearby training observations have an effect on the class label of a test observation.
+* F: Why do we use kernels instead of simply enlarging the original feature space?
+  * One advantage is computational, and it amounts to the fact that using kernels, one only compute $$K\left(x_{i}, x_{i^{\prime}}\right)$$ for all $$\left(\begin{array}{c}n \\ 2\end{array}\right)$$ distinct pairs $$i, i^{\prime}$$. This can be done without explicitely working in the enlargend feature space.
 * F: _Required scaling for SVMs?_ ⭐
   * Features should be scaled to the interval $$[0,1]$$ .
 * F: _Name advantages and disadvantages of SVMs over logistic regression._ ⭐
@@ -1055,6 +1095,7 @@ $$
   * Logistic regression allows estimating probabilities. This is however not possible with SVMs.
   * Logistic regression is faster.
   * Logistic regression is easier to interpret.
+  * If classes are not separable, both perform very similar.
   * TODO: Etwas ausführlicher bereits beantwortet...
 * F: _Why is it good to use a maximum margin objective for classification?_ 🧠
 * F: _How can we define the margins as an optimization problem?_ 🧠
@@ -1118,8 +1159,6 @@ $$
 
   ![Network architectures](../.gitbook/assets/network_architecture.jpg)
 
-
-
 ## Methods in NLP
 
 * F: _How does the concept of Word2Vec work?_
@@ -1156,9 +1195,6 @@ $$
 * F: _Adding more hidden layers will solve the vanishing gradient problem for a 2 layer neural network._ 🧑‍🚒
 * F: _xxx suffer\(s\) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER._ 🧑‍🚒
 * F: _Adding L2-regularization will help with vanishing gradients_ 🧑‍🚒
-
-
-
 * F: _Explain Recurrent Neural Networks \(RNN\)_ ⭐
 * F: _What types of RNN were discussed in class?_
 * F: _Give applications of RNNs._
@@ -1167,9 +1203,6 @@ $$
 \_\_
 
 * F: What are CNNs?
-
-
-
 * F: _Explain LSTMs._ ⭐
   * LSTMs are RNNs, that feature:
     * a forgetting mechanism \(whether specific information has already ended\)
