@@ -53,12 +53,16 @@
 ## Vertragsgestaltung
 
 * [Mitschrift](vertragsgestaltung/mitschrift/README.md)
-  * [Einführung / Überblick](vertragsgestaltung/mitschrift/01_einfuehrung_ueberblick.md)
-  * [Zivilrechtiche Grundlagen](vertragsgestaltung/mitschrift/02_grundlagen.md)
-  * [AGB-Recht](vertragsgestaltung/mitschrift/03_agb.md)
-  * [Basisinhalte eines Vertrags](vertragsgestaltung/mitschrift/04_basisinhalte.md)
-  * [Übertragungsverträge](vertragsgestaltung/mitschrift/06_uebertragungsvertraege.md)
-  * [Gebrauchsüberlassungsverträge](vertragsgestaltung/mitschrift/07_gebrauchsueberlassungsvertraege.md)
+  * [Einführung / Überblick](vertragsgestaltung/mitschrift/einfuehrung-ueberblick.md)
+  * [Zivilrechtiche Grundlagen](vertragsgestaltung/mitschrift/zivilrechtiche-grundlagen.md)
+  * [AGB-Recht](vertragsgestaltung/mitschrift/agb-recht.md)
+  * [Basisinhalte eines Vertrags](vertragsgestaltung/mitschrift/basisinhalte-eines-vertrags.md)
+  * [Übertragungsverträge](vertragsgestaltung/mitschrift/uebertragungsvertraege.md)
+  * [Gebrauchsüberlassungsverträge](vertragsgestaltung/mitschrift/gebrauchsueberlassungsvertraege.md)
+  * [Dienstvertrag / Arbeitsvertrag](vertragsgestaltung/mitschrift/vorlesung-9-dienstvertrag-arbeitsvertrag-b5ba1f1cfef04541a0808d38b6f3bf71.md)
+  * [Herstellungsvertrag](vertragsgestaltung/mitschrift/vorlesung-10-herstellungsvertra-ge-c25dbcf39e364eb69fa7d6e4633aacbf.md)
+  * [Sicherungsmittel](vertragsgestaltung/mitschrift/vorlesung-11-sicherungsmittel-in-der-vertragsges-b59a000f3bd64b2cb695b34c34e777fe.md)
+  * [Gesellschaftsrecht](vertragsgestaltung/mitschrift/vorlesung-12-gesellschaftsrecht-4dbf105c2d7740f2b38208070b70c678.md)
 
 ## Rechtliches
 
