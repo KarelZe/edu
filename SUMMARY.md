@@ -59,6 +59,7 @@
   * [Basisinhalte eines Vertrags](vertragsgestaltung/mitschrift/basisinhalte-eines-vertrags.md)
   * [Übertragungsverträge](vertragsgestaltung/mitschrift/uebertragungsvertraege.md)
   * [Gebrauchsüberlassungsverträge](vertragsgestaltung/mitschrift/gebrauchsueberlassungsvertraege.md)
+  * [Gebrauchsüberlassungsverträge 2](vertragsgestaltung/mitschrift/gebrauchsueberlassungsvertraege-2.md)
   * [Dienstvertrag / Arbeitsvertrag](vertragsgestaltung/mitschrift/vorlesung-9-dienstvertrag-arbeitsvertrag-b5ba1f1cfef04541a0808d38b6f3bf71.md)
   * [Herstellungsvertrag](vertragsgestaltung/mitschrift/vorlesung-10-herstellungsvertra-ge-c25dbcf39e364eb69fa7d6e4633aacbf.md)
   * [Sicherungsmittel](vertragsgestaltung/mitschrift/vorlesung-11-sicherungsmittel-in-der-vertragsges-b59a000f3bd64b2cb695b34c34e777fe.md)
