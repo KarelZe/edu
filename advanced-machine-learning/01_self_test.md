@@ -720,6 +720,8 @@ $$
 * F: _Explain the major difference of sparse PCA over ordinary PCA._
   * Ordinary PCA with many variables with non-zero factor loadings make it difficult to interpret the economic meaning of each PC. 
   * Sparse PCA applies an elastic net regularization to the calculation of PCs. The $$L_1$$ and $$L_2$$penalty is applied to the coefficients in the PCA regression formulation to prevent overfitting of the coefficients.  
+* F: _Explain the major difference of kernel PCA over non-linear PCA._
+  * Kernel PCA doesn't require any nonlinear optimiziations. So the danger of finding a solution that is a local minimum is eliminated. \(Nazemi et al. Improving corporate bond recovery p. 5\)
 * F: _Explain the major difference of non-linear PCA over ordinary PCA._
 * F: _Explain the major difference of kernel PCA over ordinary PCA._
   * Kernel PCA doesn't require a non-linear optimization.
@@ -1036,13 +1038,14 @@ $$
   * Multimedia data analysis
   * recommender systems e. g. CF
 
-## SVMs
+## SVMs\*
 
 * F: What is the motivation for SVMs?
   * We try to find a **plane** that separates the **classes in feature space**. If seperating is not possible:
     * one **softens**, what is meant by separating
     * or **enrichens** or **enlargens** the **feature space** so that separtion is possible.
-* F: _Explain what a SVM is._ 
+* F: _Give an intution of what a SVM is._ 
+  * _With Support Vector Machines one maps the data into a higher dimensional input space and constructs an optimal separating hyperplane in this space. This involve solving a quadratic programming problem. \(Suykens Vandewalle p. 1\)_
 * _F: Give the definition of a hyperplane_
   * a hyperplane in $$p$$ dimensions is an affine subspace of dimension $$p-1$$dimension.
   * The equation for a hyperplane is given by:
@@ -1068,15 +1071,24 @@ $$
     $$
   * The constraint $$y_i \cdots$$ guarantees that each observation will be on the correct side of the hyperplane, provided that $$M$$ is positive. The first constraint is not a real constraint on the hyperplane itself. The first constraint though adds meaning to the second constraint, as this constraint gives the perpendicular distance from the $$i$$th observation to the hyperplane given by $$y_{i}\left(\beta_{0}+\beta_{1} x_{i 1}+\beta_{2} x_{i 2}+\ldots+\beta_{p} x_{i p}\right)$$.  
   * Hence,$$M$$ represents the margin of our hyperplane and the optimization problem chooses $$\beta_0, \beta_1,\cdots,\beta_p$$ to maximize $$M$$. \(James et. al. 343\)
+* F: _What does a **Maximal Margin Classifier** maximize for?_
+  * It tries to find a hyperplane where the distance between two classes is maximal.
 * F: _Why are **Support Vector Classifiers** even necessary if **Maximal Margin Classifiers** already exist?_
   * In order to use a maximial margin classifier, a separating hyperplane has to exist. If there is no separating hyperplane the optimization problem from above has no solution for $$M > 0$$. The extension of the separating hyperplane is the soft margin and the generalization of the **maximal margin classifier** the **support vector classifier**. \(james et. al. p. 343\)
 * F: Give an example for Feature Expansion:
-* TODO:
-* F: Explain what Feature Expansion is.
-* TODO:
-* F: Explain the Support Vector Classifier.
-* TODO:
-* F: Give the definition for a linear kernel.
+  * Suppose we use $$\left(X_{1}, X_{2}, X_{1}^{2}, X_{2}^{2}, X_{1} X_{2}\right)$$ instead of just $$\left(X_{1}, X_{2}\right)$$. Then the decision boundary would be of the form:  $$\beta_{0}+\beta_{1} X_{1}+\beta_{2} X_{2}+\beta_{3} X_{1}^{2}+\beta_{4} X_{2}^{2}+\beta_{5} X_{1} X_{2}=0$$ 
+* F: _Explain what **Feature Expansion** is._
+  * Enlargen the space of features by including transformations; e. g. $$X_{1}^{2}, X_{1}^{3}, X_{1} X_{2}, X_{1} X_{2}^{2}, \ldots$$. Hence go from a $$p$$-dimensional space to a $$M > P$$ dimensional space.
+  * This leads to a **non-linear decision boundary** in the original space.
+  * We consider enlarging the feature space using functions of the predictors such as quadratic and cubic terms, to achieve non-linearity. 
+* F: _Explain the Support Vector Classifier._
+  * A support vector classifier classifies a test observation depending on which side of a hyperplane it lies. The hyperplane is chosen to separate most of the training observations into two classes, but may missclassify a few observations. \(softens criteria what means "separates"\)
+  * It is the solution to the optimization problem:
+  * $$\begin{aligned} &\underset{\beta_{0}, \beta_{1}, \ldots, \beta_{p}, \epsilon_{1}, \ldots, \epsilon_{n}, M}{\operatorname{maximize}} M \\ &\text { subject to } \sum_{j=1}^{p} \beta_{j}^{2}=1, \\ &y_{i}\left(\beta_{0}+\beta_{1} x_{i 1}+\beta_{2} x_{i 2}+\ldots+\beta_{p} x_{i p}\right) \geq M\left(1-\epsilon_{i}\right), \\ &\epsilon_{i} \geq 0, \sum_{i=1}^{n} \epsilon_{i} \leq C \end{aligned}$$ 
+  * where $$C$$ is a non-negative tuning parameter, $$M$$is the width of the margin, which should be at max. $$\epsilon_{1}, \ldots, \epsilon_{n}$$ are slack variables that allow individual obserations to be on the wrong side of the margin or hyperplane. If $$\epsilon_{i}$$is $$0$$, then the $$i$$th observation is on the correct side of the margin. If $$\epsilon_{i}>0$$ the $$i$$-th observation violates the margin. If $$\epsilon_{i}>1$$ is on the wrong side of the hyperplane. $$C$$ bounds the sum of the $$\epsilon_i$$'s, and so determines the number and severity of the margin violations it will tolerate. If $$C=0$$then there is no budget for violations of the margins. One gets a **maximal margin classifier**.
+  * When $$C$$ is small, we seek narrow margins that are rarely violated; this amounts to a classifier that is highly fit to the data, which may have low bis but high variance. For larger $$C$$s more violations are possible. Data is fitted less hard and the classifier is potenitally more biased but may have a lower variance. 
+  * If the above equations are solved, a test observation $$x^{*}$$ is classified by determining on which side of the hyperplane it lies. This is, we classify the test observation based on the sign of $$f\left(x^{*}\right)=\beta_{0}+\beta_{1} x_{1}^{*}+\ldots+\beta_{p} x_{p}^{*}$$ . \(James et al. p. 347\)
+* F: _Give the definition for a linear kernel._
   * $$K\left(x_{i}, x_{i^{\prime}}\right)=\sum_{j=1}^{p} x_{i j} x_{i^{\prime} j}$$ 
   * \(James et al. p. 353\)
 * F: Give the definition for a polynomial kernel.
@@ -1088,8 +1100,20 @@ $$
   * The radial kernel has a local behavior, in a sense that only nearby training observations have an effect on the class label of a test observation.
 * F: Why do we use kernels instead of simply enlarging the original feature space?
   * One advantage is computational, and it amounts to the fact that using kernels, one only compute $$K\left(x_{i}, x_{i^{\prime}}\right)$$ for all $$\left(\begin{array}{c}n \\ 2\end{array}\right)$$ distinct pairs $$i, i^{\prime}$$. This can be done without explicitely working in the enlargend feature space.
+* F: _Explain how Least-Squares Support Vector Regression works._
+  * $$
+    \begin{aligned}
+    \min J\left(w, b, u_{i}\right) =\frac{1}{2}\|w\|^{2}+\frac{C}{2} \sum_{i=1}^{N} u_{i}^{2} \\
+    \text { s.t. } \quad r_{i}=w^{T} \phi\left(X_{i}\right)+b+u_{i}, \quad i=1, \ldots, N,
+    \end{aligned}
+    $$
+
+    where $$w$$ is the weight vector of the independent variables while $$b$$ is the intercept. The regularization parameter $$C$$ scales the error terms $$u_{i}^{2}$$ and $$\phi(X)$$ denotes the kernel function for the feature mapping.
 * F: _Required scaling for SVMs?_ ⭐
   * Features should be scaled to the interval $$[0,1]$$ .
+  * **Justification:**
+    * The main advantage is to avoid attributes in greater numeric ranges dominate those in smaller numeric ranges. 
+    * Another advantage is to avoid numerical difficulties during the calculation. Because kernel values usually depend on the inner products of feature vectors, e.g. the linear kernel and the polynomial kernel, large attribute values might cause numerical problems. \(Hsu, A Practical Guide to Support Vector Classification, p. 4\)
 * F: _Name advantages and disadvantages of SVMs over logistic regression._ ⭐
   * SVMs can do better than logistic regression, in cases where data is \(nearly\) separable.
   * Logistic regression allows estimating probabilities. This is however not possible with SVMs.
@@ -1108,14 +1132,13 @@ $$
 * F: _Why are kernels more powerful than traditional feature-based methods?_ 🧠
 * F: _What do we mean by the kernel trick?_ 🧠
 * F: _What is the central idea of SVMs?_
-* A: We try to find a plane that separates the classes in the feature space. If that's not possible, we get creative in two ways:
-  * We soften what we mean by separates through the introduction of support vectors.
-  * We enrich and enlarge the feature space so that separation is possible. This means the feature space get's transformed.
-* F: _What does a Maximal Margin Classifier maximize for?_
+  * We try to find a plane that separates the classes in the feature space. If that's not possible, we get creative in two ways:
+    * We soften what we mean by separates through the introduction of support vectors.
+    * We enrich and enlarge the feature space so that separation is possible. This means the feature space get's transformed.
 * F: _How do a Maximal Margin Classifier, SVMs and Logistic Regression relate?_
+  * TODO: James et. al p. 356
+  * A SVM with $$C=0$$is a **Maximal Margin Classifier**, as there is no budget for margin violations.
 * F: _What is the purpose of the support vectors_ $$\epsilon$$_?_ 
-* F: _Explain what is referred to as feature expansion?_
-* F: _Name and define kernels that can be used with SVMs._
 * F: _Compare SVMs to logistic regression_
   * Logistic regression focuses on maximizing the probability of the data. The farther the data lies from the separating hyperplane \(on the correct side\), the better logistic regression is.
   * An SVM tries to find the separating hyperplane that maximizes the distance of the closest points to the margin \(the support vectors\). If a point is not a support vector, it doesn't really matter  [\(see here.\)](http://www.cs.toronto.edu/%7Ekswersky/wp-content/uploads/svm_vs_lr.pdf)
@@ -1125,7 +1148,12 @@ $$
   * To estimate probabilities, the choice should be logistic regression.
   * If interpretability and speed is a major concern, logistic regression should be used.
 * F: _Explain how Least-Squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction._
+  * Least-Squares Support Vector Regression can be extended, so that the the accuracy for bond recovery rates is improved. 
+  * Different intercepts $$b_s$$of $$S$$seniority classes can be set. A certain homegenenity within seniority classes is assumed, which is represented by the different intercepts.
+  * $$\begin{array}{r} \min J\left(w, b_{s}, u_{s j}\right)=\frac{1}{2}\|w\|^{2}+\frac{1}{2} \sum_{s=1}^{S} b_{s}^{2}+\frac{C}{2} \sum_{s=1}^{S} \sum_{j=1}^{n_{s}} u_{s j}^{2} \\ \text { s.t. } \quad r_{i}=w^{T} \phi\left(X_{s j}\right)+b_{s}+u_{s j}, \quad j=1, \ldots, n_{s}, s=1, \ldots, S \end{array}$$ 
 * F: _Explain how semiparametric Least-squares Support Vector Regression improves ordinary SVMs for bond recovery rate prediction._
+  * Semiparametric Least-Squares Support Vector Regression is an extension to the SVM. 
+  * A model is constructed that assumes the impact from the different seniority classes is linear. The dummy variables for the seniorty classes $$z_{sj}$$and $$\beta$$ is a vector of fixed effects for the seniority of the respective group.$$\begin{aligned} &\min J\left(w, b, u_{i}\right)=\frac{1}{2}\|w\|^{2}+\frac{1}{2} \beta^{T} \beta+\frac{1}{2} b^{2}+\frac{c}{2} \sum_{s=1}^{s} \sum_{j=1}^{n_{k}} u_{s j}^{2} \\ &\text { s.t. } r_{i}=\mathbf{w}^{T} \phi\left(X_{i}\right)+\beta^{T} z_{s j}+b+u_{s j}, \quad j=1, \ldots, n_{s}, s=1, \ldots, S \end{aligned}$$ 
 
 ## Neural Net
 
