@@ -52,12 +52,12 @@
 
 ## Vertragsgestaltung
 
-* [Einführung / Überblick](vertragsgestaltung/01_einfuehrung_ueberblick.md)
-* [Zivilrechtiche Grundlagen](vertragsgestaltung/02_grundlagen.md)
-* [AGB-Recht](vertragsgestaltung/03_agb.md)
-* [Basisinhalte eines Vertrags](vertragsgestaltung/04_basisinhalte.md)
-* [Übertragungsverträge](vertragsgestaltung/06_uebertragungsvertraege.md)
-* [Gebrauchsüberlassungsverträge](vertragsgestaltung/07_gebrauchsueberlassungsvertraege.md)
+* [Einführung / Überblick](vertragsgestaltung/Mitschrift/01_einfuehrung_ueberblick.md)
+* [Zivilrechtiche Grundlagen](vertragsgestaltung/Mitschrift/02_grundlagen.md)
+* [AGB-Recht](vertragsgestaltung/Mitschrift/03_agb.md)
+* [Basisinhalte eines Vertrags](vertragsgestaltung/Mitschrift/04_basisinhalte.md)
+* [Übertragungsverträge](vertragsgestaltung/Mitschrift/06_uebertragungsvertraege.md)
+* [Gebrauchsüberlassungsverträge](vertragsgestaltung/Mitschrift/07_gebrauchsueberlassungsvertraege.md)
 
 ## Rechtliches
 
