@@ -157,6 +157,8 @@ Zur Herkunft der Fragen:
   b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
   ```
 
+
+
   1. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
 
 * F: _Explain how **forward stepwise selection** works in 3 steps._
@@ -1157,6 +1159,9 @@ $$
 
 ## Neural Net
 
+* F: _Compare Logistic Regression to Neural Networks. What are their advantages and what are their disadvantages?_
+* _F: Which activation function is good for which use case? -&gt; Classification / Sigmoid etc._
+* _F: What are RNNs useful for? -&gt; language models, time series data_
 * F: _Explain what a Neural Network is._
 * F: _How does logistic regression relate to neural networks?_ 🧠
 * F: _What kind of functions can single layer NN learn?_ 🧠
@@ -1190,34 +1195,105 @@ $$
 ## Methods in NLP
 
 * F: _How does the concept of Word2Vec work?_
+  * Each word in a vocabulary is mapped to a point in $$m$$-D space, where $$m$$ is the dimensionality of the feature space.
+  * If two words are close they will be related or synonymous, otherwise more distant.
+  * Vector $$C(i)$$is associated with the $$i^{th}$$ word $$w(t)$$.
+  * ![](http://127.0.0.1:57516/paste-a9cf4bcfccb52711f56d7545b08380b394cd3055.jpg)
+  * **Example:**
+  * ![](http://127.0.0.1:57516/paste-311ebed1826e2f97c410de850154be7fe721c721.jpg)
+  * E. g. attorney and lawyer have a closer proximity than lawyer and penguin.
 * F: _How can the notion of similarity be embedded in a vector-to-word conversion?_
+  * _Words that are related should lie closer together in feature space._ 
+  * _Also mathematical operations like subtraction of king - queen should make sense._
 * F: _Sketch and explain the process of applying Continuous Bag of Words to text prediction._
 * F: _Why is Softmax used in a CBOW model?_
 * F: _How does the Skip-Gram Model work_?
 * F: _Compare the Skip-Gram Model to CBOW. In which way are they different?_
 * F: _Explain different types of NLP applications including examples._
+* _F: Name different fields in **Natural Language Processing**._
+  * **Syntax**_:_ Grammer induction, lemmatization, morphological segmentation, part-of-speech tagging, parsing, sentence breaking, stemming, word segmentation, terminology extraction
+  * **Semantics**: lexical semantics, distributional semantics, machine translation, named entity recognition, OCR, question answering, relationship extraction, semantic analysis and topic segmentation.
+  * **Discourse:** Automatic summarization, coreference resolution, discourse analysis
+  * **Speech**: e. g. speech recognition, Text to speech,  speech segmentation.
 * F: _Explain what is commonly referred to as 'Named Entity Recognition'_
+  * Named-entity recognition \(NER\) semantically analyses unstructured textual data and pursuits to locate and classify named entities into pre-defined categories such as the persons and organizations names, locations and time expression.
 * F: _Name different approaches for 'Named Entity Recognition'. How do they relate._
+  * **Rule-based**
+    * contextual patterns
+  * **Statistical**
+    * Generative e. g. Hidden Markov Models
+    * Deep Learning Models e. g. RNN, LSTM, BRNN
+    * Conditional e. g. Conditional Random Fields, Maximum Entropy, Markow Models
 * F: _Explain what a Sentiment Analysis is._
+  * Sentiment Analysis focuses on the emotional content of a text and classifies it in pre-defined categories. This can be a binary classification, such as positive or negative, but also other more detailed sentiments, as for example excited, happy or sad.
 * F: _Name different Deep Learning Models used in NLP._
+  * Recurrent Neural Networks
+  * Long Short Term Memory Networks
+  * Bidirectional Long Short Term Memory Networks
 
 ## RNNs / LSTMs / GRUs / Bidirectional LSTMs
 
-* F: _Explain RNNs._
-  * TODO:
-  * RNNs maintain an internal memory about the world \(weights assigned to different pieces of information\) to help perform its classification.
-  * A hidden state computed in a previous step e. g. timestep is fed back to the next step.
-  * The most basic form of RNNs is called vanilla RNN and has a similar structure to standard neural networks.
-  * Improvements of RNNs over Standard Networks
-  * RNNs can be handle variable-length input and output
-  * Standard networks do not share previously learned features across different positions in a given text.
-  * RNNs can be extended to a LSTM. RNNs can only overwrite their memory in a fairly uncontrolled fashion. LSTMs solve the vanishing gradient problem of RNNs. The vanishing gradient problem is the increasing difficulty of back propagating to the first layers with an increasing depth of the network.
+* F: _Explain RNNs.⭐_
+  * A recurrent neural network are **networks with loops** in them, allowing information **to persist**.
+  * In the diagram below, a chunk of a neural network $$A$$, takes some input $$x_t$$ and outputs a value $$h_t$$ saving a new hidden state at $$t$$. A loop allows information to be passed from one step of the network to the next. A hidden state is always dependent on the input $$x_t$$and the old state $$h_{t-1}$$.
+  * If one unrolls this loop, a recurrent neural networks can be thought of as multiple copies of the same network, where information is passed to the successor. Unrolling the recursive loop yields the **same type of network** repeated **over and over** \(thus recurrent\):
+  * ![](../.gitbook/assets/rnn-unrolled.png) 
+  * Image and  \(unrolled recurrent network\) adapted [from here](https://colah.github.io/posts/2015-08-Understanding-LSTMs/).
+  * Unique about RNN is that a unit can feed itself, to units in the same or lower level.  
+  * RNN can handle input of variable length and are good for predicting words or time series.
+  * **RNNs** suffer from 2 types of problems:
+    * **Vanishing gradients** \(Problem of gradients becoming close to 0 during learning a deep neural net\), solved by LSTMs
+    * **\(Exploding gradients\)**
+  * **Additional Information** \(proably not that relevant\)**:**
+  * The state consists of a single hidden vector $$h$$:
+
+    * $$\boldsymbol{h}_{t}=f_{\boldsymbol{W}}\left(\boldsymbol{h}_{t-1}, \boldsymbol{x}_{t}\right)$$, where $$h_t$$ is the new hidden state at $$t$$. $$f_{\boldsymbol{W}}$$ a function e. g. $$\tanh$$ and $$x_t$$ the input vector at $$t$$. $$\boldsymbol{W}$$is  a weight matrix. $$h_{t-1}$$is the old state.
+    * Or:
+
+     $$\begin{aligned} &\boldsymbol{h}_{t}=\tanh \left(\boldsymbol{W}_{h h} \boldsymbol{h}_{t-1}+\boldsymbol{W}_{x h} \boldsymbol{x}_{t}\right) \\ &\boldsymbol{y}_{t}=\boldsymbol{W}_{h y} \boldsymbol{h}_{t} \end{aligned}$$ 
+
+    *  One can clearly see that hidden state for $$t$$ is dependent on the Weightmatrix for last internal state and the input of the neural network. $$\tanh$$ is used to compute the next internal state. 
+
+  * Unrolling the time steps of a network at depth $$T$$ gives the following computational graph.
+    * ![](../.gitbook/assets/computational_graph_rnn.jpg) 
+    * \(ML lecture p. 58\)
+* F: _Compare the Feed-Forward network to a recurrent network._
+  * Feed-forward nets \(learned through back propagation\) need to be strictly feed forward and can have no recurrent connections.
+  * Feed-Forward networks can only handle fixed-size vectors as input and output \(e. g. probabilities of different classes\). Whereas recurrent neural networks can handle sequences / vectorrs of any size.
+  * Recurrent neural networks are unique in way that a unit within the RNN can **feed itself**. That means it can feed back activation that will affect the output from the network during subsequent iterations. 
+* F: _Give an intutition for **Recurrent Neural Networks**._
+  * _Human thoughts have persistence. That means, humans can rely on their thinking to understand a new context._
+  * _RNNs are able to connect previous information to a present task e. g. in predicting time series data or next word_
+* _F: Give two use cases / applications of **Recurrent Neural Networks**._
+  * Predicting words
+  * Predicting time series data
+* F: _Name different RNN architectures. Also give an example if possible._ 
+  * ![](../.gitbook/assets/rnn_architectures.jpg) 
+  * **one-to-one:** Vanilla Neural Network
+  * **one-to-many:** e. g. Image Captioning \(single Image to sequence of words\)
+  * **many-to-one:** e. g. Sentiment Classification \(sequence of words to single sentiment\)
+  * **many-to-many:** e. g. machine translation, sequence of words to sequence of words
+  * **many-to-many:** e. g. video classification, on frame level \(ML lecture slide 58\)
+* F: _Give an example for Recurrent Neural Networks. Explain how information is passed from on layer to another._
+  * Vocabulary: \[h,e,l,o\], training sequence: "hello"
+  * ![](../.gitbook/assets/grafik%20%283%29.png) 
+  * \(lecture ML p. 64\)
+* F: _How can overfitting be avoided with Neural Networks?_
+  * Use early stopping with crossvalidation
+  * Use network pruning -&gt; aA kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
+  * Standard ways to limit the capacity of a neural net
+    * limit number of hidden parameters 
+    * limit size of weights
+* F: _What is the impact of a high number of layers and hidden units?_
+  * The more layers and more hidden units in a model, the more capacity it has.
 * F: _Explain GRUs._
 * F: _Explain Bidirectional LSTMs._
 * F: _Explain Differences between RNNs and GRUs._
 * F: _Explain 'Bidirectional Long Short Term Memory Network'._
 * F: _What problem of RNN's do LSTMs solve?_
 * F: _Explain what is called the 'vanishing gradient problem'._
+  * _The vanishing gradient problem refers to the increasing difficulty of back propagating to the first layers with an increasing depth of the network. Esspecially for sequence data or when networks are deep._
+  * _Grardients become close to one and learning is no longer possible \(lecture BDA, p. 43\)_
 * F: _Why is it desirable to use RNNs instead of standard networks for NLP?_
 * F: _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$_?_
 * F: _Adding more hidden layers will solve the vanishing gradient problem for a 2 layer neural network._ 🧑‍🚒
@@ -1227,6 +1303,12 @@ $$
 * F: _What types of RNN were discussed in class?_
 * F: _Give applications of RNNs._
 * F: _What are key components of RNNs?_
+* F: _Explain how updating memory cells works with RNNs._
+* F: _Explain how simple socalled **vanilla RNNs** are different from **standard neural networks**._
+  * _Its behaviour and structure is identical._
+* F: Explain what the **advantage** is of **RNNs** over standard networks.
+  * Input and output can have variable length.
+  * RNNs allow to memorize context.
 
 \_\_
 
@@ -1241,13 +1323,14 @@ $$
   * sequence modelling, with variable input and output length
   * time series analysis
 * F: _How can we use LSTMs for time series data?_ ⭐
-  * First of all, all time series forecasting problems must be re-framed as supervised learning problem.
+  * First of all, all time series forecasting problems must be re-framed as **supervised learning problem**.
   * One approach is to reframe time series data by considering past observations as input variables and future observations as the output variable.
   * Example:
     * Time series: 1, 2, 3, 4, 5, 6, 7
     * For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: \(x,y\): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
 * F: _Explain how LSTMs update their memory._
 * F: _Give applications of LSTMS._
+  * \_\_
 
 ## Misc\*
 
