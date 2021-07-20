@@ -1157,6 +1157,14 @@ $$
 
 ## Neural Net
 
+* F: _How can overfitting be avoided with Neural Networks?_
+  * Use early stopping with crossvalidation
+  * Use network pruning -&gt; aA kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
+  * Standard ways to limit the capacity of a neural net
+    * limit number of hidden parameters 
+    * limit size of weights
+* F: _What is the impact of a high number of layers and hidden units?_
+  * The more layers and more hidden units in a model, the more capacity it has.
 * F: _Compare Logistic Regression to Neural Networks. What are their advantages and what are their disadvantages?_
 * _F: Which activation function is good for which use case? -&gt; Classification / Sigmoid etc._
 * _F: What are RNNs useful for? -&gt; language models, time series data_
@@ -1196,8 +1204,7 @@ $$
   * Each word in a vocabulary is mapped to a point in $$m$$-D space, where $$m$$ is the dimensionality of the feature space.
   * If two words are close they will be related or synonymous, otherwise more distant.
   * Vector $$C(i)$$is associated with the $$i^{th}$$ word $$w(t)$$.
-  * ![](http://127.0.0.1:57516/paste-a9cf4bcfccb52711f56d7545b08380b394cd3055.jpg)
-  * **Example:**
+  * * **Example:**
   * ![](http://127.0.0.1:57516/paste-311ebed1826e2f97c410de850154be7fe721c721.jpg)
   * E. g. attorney and lawyer have a closer proximity than lawyer and penguin.
 * F: _How can the notion of similarity be embedded in a vector-to-word conversion?_
@@ -1229,7 +1236,9 @@ $$
   * Long Short Term Memory Networks
   * Bidirectional Long Short Term Memory Networks
 
-## RNNs / LSTMs / GRUs / Bidirectional LSTMs
+## RNNs / Bidirectional RNNs / LSTMs / GRUs 
+
+#### RNNs
 
 * F: _Explain RNNs.⭐_
   * A recurrent neural network are **networks with loops** in them, allowing information **to persist**.
@@ -1253,7 +1262,7 @@ $$
   * Unrolling the time steps of a network at depth $$T$$ gives the following computational graph.
     * ![](../.gitbook/assets/computational_graph_rnn.jpg) 
     * \(ML lecture p. 58\)
-* F: _Compare the Feed-Forward network to a recurrent network._
+* F: _Compare the **Feed-Forward network** to a **recurrent network**._
   * Feed-forward nets \(learned through back propagation\) need to be strictly feed forward and can have no recurrent connections.
   * Feed-Forward networks can only handle fixed-size vectors as input and output \(e. g. probabilities of different classes\). Whereas recurrent neural networks can handle sequences / vectorrs of any size.
   * Recurrent neural networks are unique in way that a unit within the RNN can **feed itself**. That means it can feed back activation that will affect the output from the network during subsequent iterations. 
@@ -1278,47 +1287,20 @@ $$
   * Bidirectional RNNs
   * GRUs
   * LSTMs
-* F: _How can overfitting be avoided with Neural Networks?_
-  * Use early stopping with crossvalidation
-  * Use network pruning -&gt; aA kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
-  * Standard ways to limit the capacity of a neural net
-    * limit number of hidden parameters 
-    * limit size of weights
-* F: _What is the impact of a high number of layers and hidden units?_
-  * The more layers and more hidden units in a model, the more capacity it has.
-* F: _Explain GRUs._
-  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update \(fuse of the forget and input gate\)** and **reset gate**.
-  * When the update gate is closed, it's possible to propagate information far through the network without loosing much of it. The vanishing gradient problem existing with RNNs is solved.
-  * \_\_![](../.gitbook/assets/gru.png) __
-* F: _What is the advantage / disadvantage of GRUs over LSTMs?_
-  * GRUs are computionally less expensive. \(+\)
-  * LSTMs often deliver better results \(-\)
-* F: _Explain how updating a memory cell in a GRU works._
-  * TODO:
-* F: _Explain the difference between RNNs and GRUs._
+* F: _Explain the difference between **RNNs** and **GRUs**._
   * GRUs are a variant of the RNN. GRUs include controls to regulate what information to forget and what to remember. RNNs on the other hand are store the entire history.
-* F: _Explain the difference between LSTMs and GRUs._
+* F: _Explain the difference between **LSTMs** and **GRUs**._
   * _GRUs are simpler in the following way:_
     * GRUs combine the forget and input gate into a single update gate
     * Cell state and hidden state are merged
-* F: _Explain **Bidirectional Long Short Term Memory Network.**_
-  * **Bidrectional Recurrent Network** are acyclic graphs, that allow **forward** as well as **backward flow** within the network. Hence, they use information from the **past** and the **future** context within a network.
-  * This happens through duplicating the RNN processing chain, so that inputs are processed both in forward and reverse time order. \([see here.](https://devopedia.org/bidirectional-rnn)\) However, an RNNs network blocks can be composed both of RNNs, GRUs and LSTMs. \([see here.](https://blog.paperspace.com/bidirectional-rnn-keras/)\)
-  * It's an evolution to the standard RNN.
-  * Standard RNN suffer from the problem, that predictions are difficult at the beginning of the learning, when only view words are know.
-  * ![](../.gitbook/assets/grafik%20%2850%29.png) 
-  * Adapted from [here.](https://colah.github.io/posts/2015-09-NN-Types-FP/)
-* F: _What is the advantage of **Bidirectional Long Short Memory Networks** over standard **RNNs**?_
-  * Standard RNNs process observations in a strict temporal order. Bidirectional RNN solve the problem of RNN that predictions are difficult when starting with learning, as they also include **future observations**.
-* F: Give applications of **Bidirectional RNNs**.
-  * Handwriting recognition
-  * Natural Language Processing
-  * Speech recognition
-* F: _What problem of RNN's do LSTMs solve?_
+* F: _Explain the difference between **RNNs** and **LSTMs**._
+  * RNNs can only overwrite their memory in a fairly uncontrolled fashion.
+  * Whereas LSTMs have a much more sophisticated mechanism of what to remember and what to forget through the usage of four different gates.
+* F: _What problem of **RNN's** do **LSTMs** solve?_
   * The vanishing gradient problem.
-* F: _Explain what is called the 'vanishing gradient problem'._
-  * _The vanishing gradient problem refers to the increasing difficulty of back propagating to the first layers with an increasing depth of the network. Esspecially for sequence data or when networks are deep._
-  * _Gradients become close to one and learning is no longer possible \(lecture BDA, p. 43\)_
+* F: _Explain what is called the **vanishing gradient problem**._
+  * The vanishing gradient problem refers to the increasing difficulty of back propagating to the first layers with an increasing depth of the network. Esspecially for sequence data or when networks are deep.
+  * Gradients become close to one and learning is no longer possible \(lecture BDA, p. 43\)
 * F: _Why is it desirable to use RNNs instead of standard networks for NLP?_
   * TODO:
 * F: _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$_?_
@@ -1339,16 +1321,40 @@ $$
   * Input and output can have variable length.
   * RNNs allow to memorize context.
 
-\_\_\_
+#### Bidirectional RNNs
 
-* F: What are CNNs?
+* F: _Explain **Bidirectional Long Short Term Memory Network.**_
+  * **Bidrectional Recurrent Network** are acyclic graphs, that allow **forward** as well as **backward flow** within the network. Hence, they use information from the **past** and the **future** context within a network.
+  * This happens through duplicating the RNN processing chain, so that inputs are processed both in forward and reverse time order. \([see here.](https://devopedia.org/bidirectional-rnn)\) However, an RNNs network blocks can be composed both of RNNs, GRUs and LSTMs. \([see here.](https://blog.paperspace.com/bidirectional-rnn-keras/)\)
+  * It's an evolution to the standard RNN.
+  * Standard RNN suffer from the problem, that predictions are difficult at the beginning of the learning, when only view words are know.
+  * ![](../.gitbook/assets/grafik%20%2850%29.png) 
+  * Adapted from [here.](https://colah.github.io/posts/2015-09-NN-Types-FP/)
+* F: _What is the advantage of **Bidirectional Long Short Memory Networks** over standard **RNNs**?_
+  * Standard RNNs process observations in a strict temporal order. Bidirectional RNN solve the problem of RNN that predictions are difficult when starting with learning, as they also include **future observations**.
+* F: Give applications of **Bidirectional RNNs**.
+  * Handwriting recognition
+  * Natural Language Processing
+  * Speech recognition
+
+#### CNNs
+
+* F: _Explain CNNs?_
+  * Convolutional neural networks are a kind of network that use many **identical copies** of the same neuron. This allows the network to have lots of eurons and express computionally large models with keeping the actual number of parameters \(describing how neurons behave\) and that need to be learned small. \([see here.](https://colah.github.io/posts/2014-07-Conv-Nets-Modular/)\)
+  * A CNN consists of three layers:
+    * A convolutional layer
+    * A pooling layer
+    * A fully connected layer
+  * CNNs are commonly used for processing data in a grid like toplogy e. g. image data. 
+
+#### LSTMS
+
 * F: _Explain LSTMs._ ⭐
   * LSTMs are RNNs, that feature:
     * a forgetting mechanism \(whether specific information has already ended\)
     * a saving mechanism \(whether the information is worth saving\)
-  * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to. 
-  * One variant of LSTMs are GRUs where long-term and working memories are fused.
-* Unlike an RNN, where there is a simple layer ina network block, an LSTM cell consists of four gates. It's using the input, output and forget gate to remember the crucial information and forgets unnecessary information that it learns throughtout the network.
+  * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to.
+  * Unlike an RNN, where there is a simple layer ina network block, an LSTM cell consists of four gates. It's using the input, output and forget gate to remember the crucial information and forgets unnecessary information that it learns throughtout the network.
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
   * sequence modelling, with variable input and output length
   * time series analysis
@@ -1359,8 +1365,32 @@ $$
     * Time series: 1, 2, 3, 4, 5, 6, 7
     * For $$I = 1$$, we can reframe our timeseries to the following supervised learning problem: \(x,y\): $$(1,2), (2,3), (3,4), (4,5) \cdots$$
 * F: _Explain how LSTMs update their memory._
-* F: _Give applications of LSTMS._
-  * \_\_
+  * Recall there are four gates:
+    * **forget gate:** whether to erase a cell
+    * **input gate:** how much to write to a cell
+    * **gate gate:** what to write to a cell
+    * **output gate:** how much to reveal a cell \(lecture ML p. 79\)
+  * In the first step we decide what information to throw away from the cell state. This decision is made by a sigmoid layer called **forget gate** layer. It takes $$h_{t-1}$$ and $$x_t$$as an input and outputs a number between $$0$$\(~completely forget\) and $$1$$\(remember entirely\) for the cell state. The boundaries come from the nature of the sigmoid functions. The cell state contains informations on the context e. g. gender in a text.
+  * ![](../.gitbook/assets/lstm_step_1.png) 
+  * In the next step we decide what to store in the cell state. This has two parts. First a sigmoid layer called the **input gate** layer decideds which values to update. Next a tanh layer creates a vector of new candiate values $$\tilde{C}_t$$that could be added to the state.
+  * ![](../.gitbook/assets/lstm_step_2.png) 
+  * In the next step we update the old state of cell $${C}_{t-1}$$ to the new cell state $$C_t$$. To do so, we mulitply the old state by $$f_t$$, forgetting the things we wanted to forget \(step 1\) and then add $$i_t*\tilde{C}_t$$ \(from the **gate gate**\). This gives us the new candidate value, scaled by how much we want to update the state value.
+  * ![](../.gitbook/assets/lstm_step_3.png) 
+  * Finally we decide on what to output. The output is based on a cell state, but will be filtered.  A sigmoid layer decides on what parts of the cell state we are going to output. The cell state is then put through a $$\tanh$$ layer and multiplied by the output of the sigmoid gate \(the **output gate**\), so that only the parts we wanted to output are output.
+  * ![](../.gitbook/assets/lstm_step_4.png) 
+  * Images and text adapted from  [here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+#### GRUs
+
+* F: _Explain **GRUs**._
+  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update** \(**fuse of the forget and input gate** or **fuse of long-term and working memory**\) ****and **reset gate**.
+  * When the update gate is closed, it's possible to propagate information far through the network without loosing much of it. The vanishing gradient problem existing with RNNs is solved.
+  * \_\_![](../.gitbook/assets/gru.png) __
+* F: _What is the advantage / disadvantage of **GRUs** over **LSTMs**?_
+  * GRUs are computionally less expensive. \(+\)
+  * LSTMs often deliver better results \(-\)
+* F: _Explain how **updating** a memory cell in a **GRU** works._
+  * TODO:
 
 ## Misc\*
 
