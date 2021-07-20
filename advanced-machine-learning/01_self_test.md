@@ -233,6 +233,24 @@ Zur Herkunft der Fragen:
     $$
     f^{*}(x)=\operatorname{argmin}_{f(x)} \mathrm{SSE} \Rightarrow f^{*}(x)=\mathbb{E}[y \mid x]
     $$
+* F: _Give the definition for the **SSE**._
+  * $$
+    S S T=\sum_{i=1}^{n}\left(y_{i}-\bar{y}\right)^{2}
+    $$
+  * where$$\bar{y}$$ is the observed mean of $$y$$.
+* F: _Give the definition for the **SSR**._
+  * $$
+    S S R=\sum_{i=1}^{n}\left(\hat{y}_{i}-\bar{y}\right)^{2}
+    $$
+  * where $$\hat{y}$$is the prediction for $$y$$ and $$\bar{y}$$the observed mean.
+* F: _Give the definition for the **SST**._
+  * $$
+    S S E=\sum_{i=1}^{n}\left(y_{i}-\hat{y}_{i}\right)^{2}=\sum_{i=1}^{n} e_{i}^{2}
+    $$
+  * where $$\hat{y}$$is the prediction for $$y$$. 
+* _F: Give a graphical intutition for the **SSE**, **SSR** and **SST**._
+  * \_\_![](../.gitbook/assets/visualization-of-sse-ssr-sst.png)
+  * \(see [here.](https://www.researchgate.net/figure/Visualization-of-SSE-SSR-SST_fig17_322398615)\)
 * F: _Name two measure to test the goodness of fit of a Linear Regression model._
   * Total Sum of Squares \(SST\)
   * $$R^2$$ 
@@ -274,6 +292,58 @@ Zur Herkunft der Fragen:
     * Determine the quality of the regression model with e. g. $$R^2$$, adj.$$R^2$$ , MSE and MAE.
     * Determine the models significance and the significance of the regression coefficients.
     * Analyse standard deviation of regression errors.
+* F: _Explain how one can test for the signifcance of a regression model. Give_ $$H_{0}$$ _and_ $$H_{1}$$ _Hypothesis for regression models._
+  * $$H_{0}$$ states that all regression coefficients are equal to zero, which means none of the explanatory variables play any role.
+
+    $$
+    H_{0}: \beta_{0}=\beta_{1}=\cdots=\beta_{k}=0
+    $$
+
+    $$H_{1}$$ states that at least one coefficient is different from zero.
+
+    $$
+    H_{1}: \beta_{j}=0 \text { for at least one } j
+    $$
+* F: _Give an intution for the Analysis of Variance \(ANOVA\) test._
+  * The ANOVA-Test compares whether the means of two separate sets are equal.
+  * The observation $$x_{i,j}$$ which is the $$j$$-th observation of $$i$$th can be decomposed into the **between-groups variance** $$\left(\bar{x}_{i}-\bar{x}\right)$$, the **within-group variance** $$\left(x_{i,j}-\bar{x}_i\right)$$ and the **between-groups mean** $$\bar{x}$$. One gets: 
+  * $$x_{i,j} = \bar{x} + \left(\bar{x}_{i}-\bar{x}\right) +\left(x_{i j}-\bar{x}_{i}\right)$$
+  * Now the $$F$$statistic is simply the **ratio** of the **between-groups variance** and the **within-group variance** \([see here.](https://www.uni-wuerzburg.de/fileadmin/10040800/user_upload/hain/SPSS/ANOVA.pdf)\) \([see here.](https://statisticsbyjim.com/anova/f-tests-anova/)\)
+* F: _How is the ANOVA test /_ $$F$$_-test defined?_
+  * $$
+    F=\frac{\frac{S S R}{k}}{\frac{S S E}{n-k-1}}=\frac{M S R}{M S E},
+    $$
+  * where$$n$$ is sample size, $$k$$number of parameters in model, $$k-1$$number of slope parameters.
+* F: _Explain how one can interpret the_ $$F$$_-Test._
+  * If the $$p$$-Value of the $$F$$-Test is less than a significance level $$\alpha$$, the model does explain some variation of the dependent variable $$y$$.
+  * One needs to have a $$F$$table for the corresponding $$\alpha$$.
+* F: _Explain what **multicollinearity** is._
+  * Multicollinearity refers to the situation in which more than two explantory variables in a multiple regression model are **highly correlated**.
+  * Tests for multicollinearity are necessary after the models significance has been determined and all significant independent variables, as if strong multicollinearity is present, a change in one explantory variable will also lead to a change of another explantory variable.
+* F: _Name three possible indicators for **multicollinearity**._
+  * Sensitivity of regression coefficients to inclusion of additional explantory variables
+  * change from significance to insicnifigance after more explantory variables have been added
+  * An increase in the model’s standard error of the regression
+* F: _How can one test for multicollinearity?_
+  * One can use the **variance inflation factor \(VIF\)**
+* F: _Give the definition for the **variance inflation factor**._
+  * To check the $$j$$th variable for multicollinearity, one can calculate the VIF as following:
+  * The $$j$$-th variable is regressed on the remaining $$k-1$$ variables. The resulting regession would look like:
+
+    $$
+    x_{j}=c+b_{1}^{(j)} x_{1}+\cdots+b_{j-1}^{(j)} x_{j-1}+b_{j+1}^{(j)} x_{j+1}+\cdots+b_{k}^{(j)} x_{k} \quad j=1,2, \cdots, k
+    $$
+
+    Then we obtain coefficients of determination of this regression, $$R_{j}^{2}$$.
+* F: _What is the intutition of the **Variance Inflation Factor**?_
+  * The $$j$$th variable is regressed on the remaining $$k-1$$ variables / features. 
+  * If $$R^2$$is large, that means, the remaining variables can explain the $$j$$th variable and so the resulting **VIF** will be large.
+* F: _How can **VIF** be interpreted._
+  * A VIF of 10 indicates a severe impact due to multicollinearity.
+* F: _How can one test for **linearity**?_
+  * Plot regression residuals on the vertical axis and values of the explanory variables on the horizontal axis. Repeat for every explantory variable. If errors are randomly scattered, around zero the model assumption is correct.
+  * ![](../.gitbook/assets/residuals-2.png) 
+  * Image downloaded from [here](https://www.scikit-yb.org/en/latest/api/regressor/residuals.html).
 * F: _Why is it not desirable to use **Linear Regression** for default prediction?_ 
   * In default prediction one searches for provability of default $$\operatorname{Pr}(\text { default }=\text { Yes } \mid \text { balance })$$ , which ranges between $$0$$ and $$1$$ .
   * Fitting a line between to a binary response variable \(1 = default / 0 = non-default\), could lead to estimates outside the $$[0,1]$$ interval, making them hard to interpret as probabilities i. e. if probabilities are negative.
@@ -411,13 +481,14 @@ $$
   * F:  _Define the Variance Inflation Factor._ 
   * F: _Explain how the Variance Inflation Factor can be calculated._ 
   * F: _Name common assumptions about error terms._
-    * 1. Regression Errors are normally distributed 
-    * 1. The variance of regression errors is constant 
-    * 1. The error terms from different points in time are independent 
+    1. Regression Errors are normally distributed 
+    2.  The variance of regression errors is constant 
+    3. The error terms from different points in time are independent 
+
     * **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
 
       **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
-  * F: _Name implications when residuals of a general linear regression model are not normally distributed._
+  * * F: _Name implications when residuals of a general linear regression model are not normally distributed._
   * F: _Why do errors of a linear regression model have to be normally distributed?_ 
   * F: _Why does the variance of regression errors in a linear regression model has to be constant?_ 
   * F: _Explain the concept of heteroscedasticity for regression errors._ 
@@ -1185,8 +1256,8 @@ $$
 * F: _Sketch a neural network with 3 input units, 4 hidden units and 2 output units. Make sure to label its components._
 * F: _How is a recurrent neural net different from an ordinary neural network?_
 * F: _Explain how back-propagation works in neural network._
-* F: \*What is necessary to apply Neural Nets to classification tasks?
-* F: For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance? 🧑‍🚒
+* F: _What is necessary to apply Neural Nets to classification tasks?_
+* F: _For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance?_ 🧑‍🚒
 * F: _What is the problem of Neural nets with many parameters?_ 
 * F: _What is the impact of a higher number of layers and hidden units in a neural net?_
 * A:
@@ -1348,7 +1419,7 @@ $$
     * A fully connected layer
   * CNNs are commonly used for processing data in a grid like toplogy e. g. image data. 
 
-#### LSTMS
+#### LSTMs
 
 * F: _Explain LSTMs._ ⭐
   * LSTMs are a type of RNNs, that feature a sophisticated **forgetting** and **saving mechanism**. To implement this, a  LSTM is made up of four interacting **layers** and three **gates**. 
