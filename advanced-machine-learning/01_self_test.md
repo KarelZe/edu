@@ -1204,8 +1204,9 @@ $$
   * Each word in a vocabulary is mapped to a point in $$m$$-D space, where $$m$$ is the dimensionality of the feature space.
   * If two words are close they will be related or synonymous, otherwise more distant.
   * Vector $$C(i)$$is associated with the $$i^{th}$$ word $$w(t)$$.
-  * * **Example:**
-  * ![](http://127.0.0.1:57516/paste-311ebed1826e2f97c410de850154be7fe721c721.jpg)
+  * ![](../.gitbook/assets/grafik%20%2852%29.png) 
+  * **Example:**
+  * ![](../.gitbook/assets/grafik%20%2851%29.png) 
   * E. g. attorney and lawyer have a closer proximity than lawyer and penguin.
 * F: _How can the notion of similarity be embedded in a vector-to-word conversion?_
   * _Words that are related should lie closer together in feature space._ 
