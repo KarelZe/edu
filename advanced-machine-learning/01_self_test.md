@@ -14,7 +14,7 @@ Zur Herkunft der Fragen:
 
 ![&#xDC;berblick &#xFC;ber Algorithmen der Vorlesung](../.gitbook/assets/adv_ml_map_of_algorithms.png)
 
-## Big Data\*
+## Big Data
 
 * F: _What are the characteristics of big data?_ ⭐
   * volume
@@ -31,7 +31,7 @@ Zur Herkunft der Fragen:
 
   Veracity refers to the quality of data \(e. g. noise in data\). While variety refers to types of data \(e. g. unstructured data\) in which data can come. As data is often collected from different sources both their types and their quality can differ.
 
-## ML vs. Statistics vs. Econometrics\*
+## ML vs. Statistics vs. Econometrics
 
 * F: _Compare ML to Statistics. What are the most significant differences?_
 
@@ -62,7 +62,7 @@ Zur Herkunft der Fragen:
   * concerned about prediction
   * using all sorts of data-driven models e. g. Trees, NN etc.  
 
-## Structure of data / CRISP-DM / Taxonomy\*
+## Structure of data / CRISP-DM / Taxonomy
 
 * F: _What are the characteristics of unstructured data? Explain them._ ⭐
 
@@ -147,7 +147,7 @@ Zur Herkunft der Fragen:
 * F: _What is the risk with tuning hyperparameters using a test dataset?_ 🧑‍🚒
   * Tuning model hyperparameters to a test set means that the hyperparameters may overfit to that test set. If the same test set is used to estimate performance, it will produce an overestimate. Using a separate validation set for tuning and test set for measuring performance provides unbiased, realistic measurement of performance. \(Berkley p. 14\)
 
-## LR, Ridge and Lasso\*
+## LR, Ridge and Lasso
 
 * F: _Explain how **best subset selection** works in 3 steps._ 
 
@@ -496,7 +496,7 @@ $$
   * F: _How do the coefficient of partial determination and F-test relate?_ 
   * F: _Compare ridge regression to linear regression?_
 
-## Logistic Regression\*
+## Logistic Regression
 
 * F: _In which way do logistic regression and linear regression differ?_
   * _Linear regression is applied to **regression problems**, whereas logistic regression is used for **classification**._
@@ -533,7 +533,7 @@ $$
 * F: _Calculate the probabilities of the credit card example using logistic regression model._
   * _See script p. 18._
 
-## Classification Evaluation\*
+## Classification Evaluation
 
 * F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
   * ![](../.gitbook/assets/confusion_matrix.svg) 
@@ -640,7 +640,7 @@ $$
   * _moon-shaped_
   * _circular or interwoven shapes_
 
-## Cross-Validation\*
+## Cross-Validation
 
 * F: What is commonly understood under resampling methods?
   * Resampling methods involve repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.
@@ -746,7 +746,7 @@ $$
     | High chance of bias | Less bias | Good bias and variance tradeoff | Good bias and variance tradeoff |
     | High chance of overfitting | Generalized model | Generalized model | Generalized model |
 
-## Dimensionality Reduction\*
+## Dimensionality Reduction
 
 * F: _Give the definition for PCA._
 * F: _What does dimensionality reduction mean?_ 🧠
@@ -837,7 +837,7 @@ $$
 * F: _Explain what **Principal Component Regression** is._
   * One extracts principal components as features and then models the target \(response variable\) as a linear function of these Features. That means, the response variable responds indirectly and linearly to changes in the inputs.
 
-## Decision Trees\*
+## Decision Trees
 
 * F: _Explain what a decision tree is._
   * A decision tree is a supervised learning algorithm that can be used for regression and classification. 
@@ -916,7 +916,7 @@ $$
 * _F: disadvantages and advantages of trees?_
   * _TODO: p. 28_
 
-## Bagging, Boosting and RF\*
+## Bagging, Boosting and RF
 
 * F: _What ensemble techniques can be applied?_
   * _Bagging_ 
@@ -995,7 +995,7 @@ $$
 * _F: Give on example for an ensemble algorithm from the class of an ensemble model that gave improved performance over a base model._
   * random forests and boosting used to predict defaults for commercial real estate property loans.
 
-## k-means clustering\*
+## k-means clustering
 
 * F: _Explain the_ $$k$$_-means clustering algorithm_ ⭐
 
@@ -1111,7 +1111,7 @@ $$
   * Multimedia data analysis
   * recommender systems e. g. CF
 
-## SVMs\*
+## SVMs
 
 * F: What is the motivation for SVMs?
   * We try to find a **plane** that separates the **classes in feature space**. If seperating is not possible:
@@ -1228,7 +1228,7 @@ $$
   * Semiparametric Least-Squares Support Vector Regression is an extension to the SVM. 
   * A model is constructed that assumes the impact from the different seniority classes is linear. The dummy variables for the seniorty classes $$z_{sj}$$and $$\beta$$ is a vector of fixed effects for the seniority of the respective group.$$\begin{aligned} &\min J\left(w, b, u_{i}\right)=\frac{1}{2}\|w\|^{2}+\frac{1}{2} \beta^{T} \beta+\frac{1}{2} b^{2}+\frac{c}{2} \sum_{s=1}^{s} \sum_{j=1}^{n_{k}} u_{s j}^{2} \\ &\text { s.t. } r_{i}=\mathbf{w}^{T} \phi\left(X_{i}\right)+\beta^{T} z_{s j}+b+u_{s j}, \quad j=1, \ldots, n_{s}, s=1, \ldots, S \end{aligned}$$ 
 
-## Neural Net\*
+## Neural Net
 
 * F: _Explain what a Neural Network is._
 * F: _How can overfitting be avoided with Neural Networks?_
@@ -1307,15 +1307,20 @@ $$
 * F: _How can the notion of similarity be embedded in a vector-to-word conversion?_
   * _Words that are related should lie closer together in feature space._ 
   * _Also mathematical operations like subtraction of king - queen should make sense._
-* F: _Sketch and explain the process of applying **Continuous Bag of Words** to text prediction._
-* F: _Why is Softmax used in a CBOW model?_
-* F: _How does the Skip-Gram Model work_?
-* F: _Compare the Skip-Gram Model to CBOW. In which way are they different?_
+* F: _Sketch and explain the process of applying **Continuous Bag of Words \(CBOW\)** to text prediction._
+  * The CBOW is a approach to predict the next likely word for a given context. The CBOW averages the vectors of the words in the context. This resulting vector e.g. $$[c_1,\cdots, c_m]$$ is then send through a multi-layer perceptron \(MLP\). On top of the MLP is a Softmax function \(due multiclass classification nature\), which tells us the probabilty that each of the $$v$$words in the Vocabulary is the missing word. The order of words in the context are **not relevant** for the CBOW model. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/methods-for-learning-model-parameters-VvzJY)\)
+* F: _Why is **Softmax** used in a **CBOW model**?_
+  * As the outcome of a CBOW model is not binary, we use a softmax function, which can be used for multi-class-classification.
+* F: _How does the **Skip-Gram Model** work_?
+  * **Skip-Gram Model** is approch to predict the next likely word. It takes the $$n$$th word as an input, sends the vector consisting of the components $$[c_1,\cdots,c_m]$$ into a multi-layer peceptron with a Softmax function on top of it to predict the proability of each of the $$v$$words in the vocabulary $$V$$ \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/methods-for-learning-model-parameters-VvzJY)\)
+* F: _Compare the **Skip-Gram Model** to **CBOW**. In which way are they different?_
+  * _CBOW uses the average of the words in the context as input. Order of words doesn't matter. Hence, bag of words._
+  * _Skip-Gram uses a single word as an input. \(_[_see here._](https://www.coursera.org/lecture/machine-learning-duke/methods-for-learning-model-parameters-VvzJY)_\)_
 * F: _Explain **Sentiment Analysis** using an averaging strategy works._
-  * Sentiment Analysis **averages the word vectors** for all $$n$$ words in a document. This single resulting vector consisting of $$\left[C_1, C_2, C_3, \cdots\right]$$ is then send to a logistic regression classifier characterized by the parameter $$W$$. A sigmoid function is used to obtain the sentiment in terms of a probability. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/simple-and-effective-alternative-methods-for-neural-nlp-2vlJK)\)
+  * Sentiment Analysis **averages the word vectors** for all $$n$$ words in a document. This single resulting vector consisting of $$\left[c_1, c_2, c_3, \cdots\right]$$ is then send to a logistic regression classifier characterized by the parameter $$W$$. A sigmoid function is used to obtain the sentiment in terms of a probability. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/simple-and-effective-alternative-methods-for-neural-nlp-2vlJK)\)
 * F: _Explain **Simple Word-Embedding Based Models** \(SWEMs\) works for Sentiment Analysis._
   * SWEMs utilizes **component-wise maximization**. 
-  * For every component in our word vector across all the words in our document one takes the maximum of that value across all  words in a document e. g. $$\left[max(C_1(W_1), C_1(W_2),\cdots),max( \cdots)\right]$$ The word that has the largest value for that component will then be used. We plug the resulting vector into a logistic classifier and parameters $$W$$ and make a prediction and obtain a probability for the sentiment. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/simple-and-effective-alternative-methods-for-neural-nlp-2vlJK)\)
+  * For every component in our word vector across all the words in our document one takes the maximum of that value across all  words in a document e. g. $$\left[max(c_1(W_1), c_1(W_2),\cdots),max( \cdots)\right]$$ The word that has the largest value for that component will then be used. We plug the resulting vector into a logistic classifier and parameters $$W$$ and make a prediction and obtain a probability for the sentiment. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/simple-and-effective-alternative-methods-for-neural-nlp-2vlJK)\)
 * _F: Name different fields in **Natural Language Processing**._
   * **Syntax**_:_ Grammer induction, lemmatization, morphological segmentation, part-of-speech tagging, parsing, sentence breaking, stemming, word segmentation, terminology extraction
   * **Semantics**: lexical semantics, distributional semantics, machine translation, named entity recognition, OCR, question answering, relationship extraction, semantic analysis and topic segmentation.
@@ -1337,7 +1342,7 @@ $$
   * Long Short Term Memory Networks
   * Bidirectional Long Short Term Memory Networks
 
-## RNNs / Bidirectional RNNs / LSTMs / GRUs\* 
+## RNNs / Bidirectional RNNs / LSTMs / GRUs / CNNs 
 
 #### RNNs
 
@@ -1506,7 +1511,7 @@ $$
   * Drawing [see here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
   * TODO: Visualize as for LSTMs [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
-## Misc\*
+## Misc
 
 * F: _Techniques that can be used for default prediction._ ⭐
   * logistic regression
