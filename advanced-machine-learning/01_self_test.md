@@ -150,10 +150,13 @@ Zur Herkunft der Fragen:
 ## LR, Ridge and Lasso\*
 
 * F: _Explain how **best subset selection** works in 3 steps._ 
-  1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation. 2. For $$k=1,2, \ldots p$$ :
-    a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
-    b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
-  2. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
+
+  1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation. 2. For $$k=1,2, \ldots p$$ : 
+
+* a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors. 
+* b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$. 
+
+2. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
 
 * F: _Explain how **forward stepwise selection** works in 3 steps._
   * **Intuition:**
@@ -320,6 +323,7 @@ $$
     $$
     \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} |\beta_{j}|=R S S+\lambda \sum_{j=1}^{p} |\beta_{j}|,
     $$
+
     where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
 
   * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS.
@@ -404,13 +408,14 @@ $$
   * F: _What is problematic about Multicollinearity?_ 
   * F: _How can Multicollinearity be resolved?_ 
   * F: _How do correlations and multicollinearity relate?_ 
-  * F: _ Define the Variance Inflation Factor._ 
+  * F:  _Define the Variance Inflation Factor._ 
   * F: _Explain how the Variance Inflation Factor can be calculated._ 
   * F: _Name common assumptions about error terms._
     * 1. Regression Errors are normally distributed 
     * 1. The variance of regression errors is constant 
     * 1. The error terms from different points in time are independent 
     * **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
+
       **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
   * F: _Name implications when residuals of a general linear regression model are not normally distributed._
   * F: _Why do errors of a linear regression model have to be normally distributed?_ 
@@ -1239,14 +1244,12 @@ $$
     * **\(Exploding gradients\)**
   * **Additional Information** \(proably not that relevant\)**:**
   * The state consists of a single hidden vector $$h$$:
-
     * $$\boldsymbol{h}_{t}=f_{\boldsymbol{W}}\left(\boldsymbol{h}_{t-1}, \boldsymbol{x}_{t}\right)$$, where $$h_t$$ is the new hidden state at $$t$$. $$f_{\boldsymbol{W}}$$ a function e. g. $$\tanh$$ and $$x_t$$ the input vector at $$t$$. $$\boldsymbol{W}$$is  a weight matrix. $$h_{t-1}$$is the old state.
     * Or:
 
-     $$\begin{aligned} &\boldsymbol{h}_{t}=\tanh \left(\boldsymbol{W}_{h h} \boldsymbol{h}_{t-1}+\boldsymbol{W}_{x h} \boldsymbol{x}_{t}\right) \\ &\boldsymbol{y}_{t}=\boldsymbol{W}_{h y} \boldsymbol{h}_{t} \end{aligned}$$ 
+      $$\begin{aligned} &\boldsymbol{h}_{t}=\tanh \left(\boldsymbol{W}_{h h} \boldsymbol{h}_{t-1}+\boldsymbol{W}_{x h} \boldsymbol{x}_{t}\right) \\ &\boldsymbol{y}_{t}=\boldsymbol{W}_{h y} \boldsymbol{h}_{t} \end{aligned}$$
 
-    *  One can clearly see that hidden state for $$t$$ is dependent on the Weightmatrix for last internal state and the input of the neural network. $$\tanh$$ is used to compute the next internal state. 
-
+    * One can clearly see that hidden state for $$t$$ is dependent on the Weightmatrix for last internal state and the input of the neural network. $$\tanh$$ is used to compute the next internal state.
   * Unrolling the time steps of a network at depth $$T$$ gives the following computational graph.
     * ![](../.gitbook/assets/computational_graph_rnn.jpg) 
     * \(ML lecture p. 58\)
@@ -1271,6 +1274,10 @@ $$
   * Vocabulary: \[h,e,l,o\], training sequence: "hello"
   * ![](../.gitbook/assets/grafik%20%283%29.png) 
   * \(lecture ML p. 64\)
+* F: _What types of RNN were discussed in class?_
+  * Bidirectional RNNs
+  * GRUs
+  * LSTMs
 * F: _How can overfitting be avoided with Neural Networks?_
   * Use early stopping with crossvalidation
   * Use network pruning -&gt; aA kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
@@ -1280,30 +1287,59 @@ $$
 * F: _What is the impact of a high number of layers and hidden units?_
   * The more layers and more hidden units in a model, the more capacity it has.
 * F: _Explain GRUs._
-* F: _Explain Bidirectional LSTMs._
-* F: _Explain Differences between RNNs and GRUs._
-* F: _Explain 'Bidirectional Long Short Term Memory Network'._
+  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update \(fuse of the forget and input gate\)** and **reset gate**.
+  * When the update gate is closed, it's possible to propagate information far through the network without loosing much of it. The vanishing gradient problem existing with RNNs is solved.
+  * \_\_![](../.gitbook/assets/gru.png) __
+* F: _What is the advantage / disadvantage of GRUs over LSTMs?_
+  * GRUs are computionally less expensive. \(+\)
+  * LSTMs often deliver better results \(-\)
+* F: _Explain how updating a memory cell in a GRU works._
+  * TODO:
+* F: _Explain the difference between RNNs and GRUs._
+  * GRUs are a variant of the RNN. GRUs include controls to regulate what information to forget and what to remember. RNNs on the other hand are store the entire history.
+* F: _Explain the difference between LSTMs and GRUs._
+  * _GRUs are simpler in the following way:_
+    * GRUs combine the forget and input gate into a single update gate
+    * Cell state and hidden state are merged
+* F: _Explain **Bidirectional Long Short Term Memory Network.**_
+  * **Bidrectional Recurrent Network** are acyclic graphs, that allow **forward** as well as **backward flow** within the network. Hence, they use information from the **past** and the **future** context within a network.
+  * This happens through duplicating the RNN processing chain, so that inputs are processed both in forward and reverse time order. \([see here.](https://devopedia.org/bidirectional-rnn)\) However, an RNNs network blocks can be composed both of RNNs, GRUs and LSTMs. \([see here.](https://blog.paperspace.com/bidirectional-rnn-keras/)\)
+  * It's an evolution to the standard RNN.
+  * Standard RNN suffer from the problem, that predictions are difficult at the beginning of the learning, when only view words are know.
+  * ![](../.gitbook/assets/grafik%20%2850%29.png) 
+  * Adapted from [here.](https://colah.github.io/posts/2015-09-NN-Types-FP/)
+* F: _What is the advantage of **Bidirectional Long Short Memory Networks** over standard **RNNs**?_
+  * Standard RNNs process observations in a strict temporal order. Bidirectional RNN solve the problem of RNN that predictions are difficult when starting with learning, as they also include **future observations**.
+* F: Give applications of **Bidirectional RNNs**.
+  * Handwriting recognition
+  * Natural Language Processing
+  * Speech recognition
 * F: _What problem of RNN's do LSTMs solve?_
+  * The vanishing gradient problem.
 * F: _Explain what is called the 'vanishing gradient problem'._
   * _The vanishing gradient problem refers to the increasing difficulty of back propagating to the first layers with an increasing depth of the network. Esspecially for sequence data or when networks are deep._
-  * _Grardients become close to one and learning is no longer possible \(lecture BDA, p. 43\)_
+  * _Gradients become close to one and learning is no longer possible \(lecture BDA, p. 43\)_
 * F: _Why is it desirable to use RNNs instead of standard networks for NLP?_
+  * TODO:
 * F: _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$_?_
+  * TODO:
 * F: _Adding more hidden layers will solve the vanishing gradient problem for a 2 layer neural network._ 🧑‍🚒
+  * TODO:
 * F: _xxx suffer\(s\) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER._ 🧑‍🚒
+  * TODO:
 * F: _Adding L2-regularization will help with vanishing gradients_ 🧑‍🚒
-* F: _Explain Recurrent Neural Networks \(RNN\)_ ⭐
-* F: _What types of RNN were discussed in class?_
+  * TODO:
 * F: _Give applications of RNNs._
+  * TODO:
 * F: _What are key components of RNNs?_
-* F: _Explain how updating memory cells works with RNNs._
+  * TODO:
 * F: _Explain how simple socalled **vanilla RNNs** are different from **standard neural networks**._
   * _Its behaviour and structure is identical._
 * F: Explain what the **advantage** is of **RNNs** over standard networks.
   * Input and output can have variable length.
   * RNNs allow to memorize context.
 
-\_\_
+\_\_\_
 
 * F: What are CNNs?
 * F: _Explain LSTMs._ ⭐
@@ -1312,6 +1348,7 @@ $$
     * a saving mechanism \(whether the information is worth saving\)
   * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to. 
   * One variant of LSTMs are GRUs where long-term and working memories are fused.
+* Unlike an RNN, where there is a simple layer ina network block, an LSTM cell consists of four gates. It's using the input, output and forget gate to remember the crucial information and forgets unnecessary information that it learns throughtout the network.
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
   * sequence modelling, with variable input and output length
   * time series analysis
