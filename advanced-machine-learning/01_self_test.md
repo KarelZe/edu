@@ -1237,7 +1237,7 @@ $$
   * Long Short Term Memory Networks
   * Bidirectional Long Short Term Memory Networks
 
-## RNNs / Bidirectional RNNs / LSTMs / GRUs 
+## RNNs / Bidirectional RNNs / LSTMs / GRUs\* 
 
 #### RNNs
 
@@ -1351,12 +1351,11 @@ $$
 #### LSTMS
 
 * F: _Explain LSTMs._ ⭐
-  * LSTMs are RNNs, that feature:
-    * a forgetting mechanism \(whether specific information has already ended\)
-    * a saving mechanism \(whether the information is worth saving\)
-  * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to.
-  * Unlike an RNN, where there is a simple layer ina network block, an LSTM cell consists of four gates. It's using the input, output and forget gate to remember the crucial information and forgets unnecessary information that it learns throughtout the network.
-  * TODO: [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+  * LSTMs are a type of RNNs, that feature a sophisticated **forgetting** and **saving mechanism**. To implement this, a  LSTM is made up of four interacting **layers** and three **gates**. 
+  * Gates regulate what information is saved and removed from the the cell state a LSTM cell. Gates implement a way to let information through. They are composed of a sigmoid neural net layer and pointwise multiplication operation \(the hadamard product\). If the output of a sigmoid layer  is close to $$0$$, hardly any information is passed through and vice versa if it's close to $$1$$. \(see [here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)\)
+  * The gates are commonly referred to as **input gate**, **output gate** and **forget gate**.
+  * LSTMs are suitable for NLP and time series predictions, where both very recent and both more distant information are relevant for predictions.
+  * LSTMs have outplayed RNNs, due to their robustness against **vanishing gradients** and their ability to adjust forgetting and remembering past information.
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
   * sequence modelling, with variable input and output length
   * time series analysis
@@ -1370,11 +1369,11 @@ $$
   * Recall there are four gates:
     * **forget gate:** whether to erase a cell
     * **input gate:** how much to write to a cell
-    * **gate gate:** what to write to a cell
+    * **gate gate:** what to write to a cell \(this is no gate in a closer sense?\)
     * **output gate:** how much to reveal a cell \(lecture ML p. 79\)
   * In the first step we decide what information to throw away from the cell state. This decision is made by a sigmoid layer called **forget gate** layer. It takes $$h_{t-1}$$ and $$x_t$$as an input and outputs a number between $$0$$\(~completely forget\) and $$1$$\(remember entirely\) for the cell state. The boundaries come from the nature of the sigmoid functions. The cell state contains informations on the context e. g. gender in a text.
   * ![](../.gitbook/assets/lstm_step_1.png) 
-  * In the next step we decide what to store in the cell state. This has two parts. First a sigmoid layer called the **input gate** layer decideds which values to update. Next a tanh layer creates a vector of new candiate values $$\tilde{C}_t$$that could be added to the state.
+  * In the next step we decide what to store in the cell state. This has two parts. First a sigmoid layer called the **input gate** layer decideds which values to update. Next a $$\tanh$$ layer creates a vector of new candiate values $$\tilde{C}_t$$that could be added to the state.
   * ![](../.gitbook/assets/lstm_step_2.png) 
   * In the next step we update the old state of cell $${C}_{t-1}$$ to the new cell state $$C_t$$. To do so, we mulitply the old state by $$f_t$$, forgetting the things we wanted to forget \(step 1\) and then add $$i_t*\tilde{C}_t$$ \(from the **gate gate**\). This gives us the new candidate value, scaled by how much we want to update the state value.
   * ![](../.gitbook/assets/lstm_step_3.png) 
@@ -1388,7 +1387,7 @@ $$
   * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update gate** $$z_t$$ ****\(**fuse of the forget and input gate** or **fuse of long-term and working memory**\) ****and **reset gate** $$r_t$$ with different weights.
   * When the **update gate** is closed / inactive, it's possible to propagate information far through the network without loosing much of it. The unit has long-term dependicies.
   * Units with short term dependencies have often active **reset gates**.
-  * The vanishing gradient problem existing with RNNs is solved.
+  * The **vanishing gradient problem** existing with RNNs is solved, as new input doesn't completely erase past relevant information, which can be kept. 
   * \_\_![](../.gitbook/assets/gru.png) __
 * F: _What is the advantage / disadvantage of **GRUs** over **LSTMs**?_
   * GRUs are computionally less expensive. \(+\)
@@ -1397,13 +1396,14 @@ $$
   * Recall there are two gates:
     * The update gate $$z_t$$
     * The reset gate $$r_t$$
-  * The **update gate** decides what information to throw away and what new information to add.
-  * The **reset gate** decides how much past information to forget.
-  * TODO: [https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21) 
-  * If reset is close to , the previous hidden state is ignored. Allows model to drop information that is irrelevant for the future 
-  * Update gate $$z$$is close to $$0$$, then we can copy information in that unit through many time steps.
+  * The first step is to calculate the **update gate** $$z_t$$, which decides what information to throw away and what new information to add.  We plugin the input $$x_t$$ and the previous hidden state $$h_{t-1}$$, which holds the information for the previous $$t-1$$ timesteps. Both are multiplied with their respective Weight matrices, added and squashed between $$0$$ and $$1$$using the sigmoid function. A update gate close to $$1$$would imply, that information is copied through many times.
+  * The next step is to calculate the **reset gate** $$r_t$$.The **reset gate** decides how much past information to forget. The idea is similar to the **update gate**.
+  * In the next step is to calculcate the current memory content $$\tilde{h}_t$$. First we multiply the input $$x_t$$ by its weight matrix and then use the Hadamard product of the previous hidden state $$h_{t-1}$$ and the forget gate $$r_t$$. A **reset gate** close to $$0$$would mean previous hidden state is ignored. The sum of both is plugged into a $$\tanh$$function.
+  * In the last step we calcualte the new $$h_t$$, a vector holding information for the current unit. It is \(weighted\) sum of the hadamard product between the update gate $$z_t$$and $$h_{t-1}$$and the portion of the current memory content, which is the hadamard product of the currrent memory content $$\tilde{h}_t$$ and $$(1-z_t)$$. The result is saved in $$h_t$$. \([see here.](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)\) \([see here.](https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be)\)
+  *   ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MWnh07mnETIlqhjJW0c%2F-Mf1H_s-otz6p81Dzf15%2F-Mf1TU4zkZB59Jg4riq4%2Fgru.png?alt=media&token=b5ed976f-412c-41a1-a076-36b63ea3cab5)
+
+  * Drawing [see here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
   * TODO: Visualize as for LSTMs [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-  * 
 
 ## Misc\*
 
