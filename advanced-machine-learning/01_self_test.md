@@ -1356,6 +1356,7 @@ $$
     * a saving mechanism \(whether the information is worth saving\)
   * That means LSTMs transform its memory in a very precise way: by using specific learning mechanisms for which pieces of information to remember, which to update, and which to pay attention to.
   * Unlike an RNN, where there is a simple layer ina network block, an LSTM cell consists of four gates. It's using the input, output and forget gate to remember the crucial information and forgets unnecessary information that it learns throughtout the network.
+  * TODO: [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
   * sequence modelling, with variable input and output length
   * time series analysis
@@ -1401,7 +1402,8 @@ $$
   * TODO: [https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21) 
   * If reset is close to , the previous hidden state is ignored. Allows model to drop information that is irrelevant for the future 
   * Update gate $$z$$is close to $$0$$, then we can copy information in that unit through many time steps.
-  * * 
+  * TODO: Visualize as for LSTMs [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+  * 
 
 ## Misc\*
 
