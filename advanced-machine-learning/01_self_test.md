@@ -132,8 +132,8 @@ Zur Herkunft der Fragen:
   * Mean graph for categorial data
   * Correlation analysis
 * F: _How can missing data be replaced? Explain._
-  * **mean based imputation:** i. e. mean is calculated from all observations
-  * **median based imputation:** Same as above but with median.
+  * **mean-based imputation:** i. e. mean is calculated from all observations
+  * **median-based imputation:** Same as above but with median.
   * **stratified imputation:** i. e. categories / structure of data is considered for replacements. E. g. missing height is different for gender male and female.
   * **regressed imputation:** i. e. replacing missing values by predictions of a regression model
 * F: _Explain 3 patterns in which missing data can occur._
@@ -149,17 +149,11 @@ Zur Herkunft der Fragen:
 
 ## LR, Ridge and Lasso\*
 
-* F: _Explain how **best subset selection** works in 3 steps._ 1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation. 2. For $$k=1,2, \ldots p$$ :
-
-  ```text
-  a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
-
-  b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
-  ```
-
-
-
-  1. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
+* F: _Explain how **best subset selection** works in 3 steps._ 
+  1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation. 2. For $$k=1,2, \ldots p$$ :
+    a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
+    b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
+  2. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
 
 * F: _Explain how **forward stepwise selection** works in 3 steps._
   * **Intuition:**
@@ -304,7 +298,7 @@ $$
 
 * * where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation. 
   * Still ridge regression seeks coefficient estimates that fit the data well through minimizing the RSS. 
-  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term, as penalzing the intercept would just shift$$y_i$$ by some amount $$c$$. \(Hastie p. 64\)
+  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term, as penalizing the intercept would just shift$$y_i$$ by some amount $$c$$. \(Hastie p. 64\)
   * As such:
     * ridge regression yields non-sparse outputs, as coefficients are shrinked towards zero but never actually are 0.
     * doesn't allow for feature selection. Some reasoning as above.
@@ -324,13 +318,12 @@ $$
   * Taking this into account one get's the following formula for ridge regression:
 
     $$
-    \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} |\beta_{j}|=R S S+\lambda \sum_{j=1}^{p} |\beta_{j}|
+    \sum_{i=1}^{n}\left(y_{i}-\beta_{0}-\sum_{j=1}^{p} \beta_{j} x_{i j}\right)^{2}+\lambda \sum_{j=1}^{p} |\beta_{j}|=R S S+\lambda \sum_{j=1}^{p} |\beta_{j}|,
     $$
-
     where $$\lambda \geq 0$$ is a tuning parameter, to be determined separately. The tuning parameter $$\lambda$$ serves as control of the relative impact of these two terms on the regression coefficients. Should be selected using cross-validation.
 
   * Still ridge regression seeks for coefficient estimates that fit the data well through minimizing the RSS.
-  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However $$\beta_0$$is left out from the penalty term. Some coefficient estimates are even forced to be exactly zero, if $$\lambda$$is sufficiently large. 
+  * The **shrinkage penalty** is small when $$\beta_1,\cdots, \beta_p$$ are close to zero, and so it has the effect of shrinking the estimates of $$\beta_j$$ towards zero. However, $$\beta_0$$is left out from the penalty term. Some coefficient estimates are even forced to be exactly zero, if $$\lambda$$is sufficiently large. 
   * As such:
     * Lasso regression yields sparse models. That is, models that involve only a subset of the variables.
     * Can be used for feature selection.
@@ -398,7 +391,7 @@ $$
 * F: _How should_ $$\lambda$$ _be selected for **ridge regression** / **LASSO**?_
   * Cross-validation provides a simple way to tackle this problem. We choose grid of $$\lambda$$ values, and compute the cross-validation error rate for each value of $$\lambda$$. We then select the tuning parameter value for which the cross-validation error is smallest and fit the model on all available observations.
 * F:  _Should inputs be scaled for **ridge regression?** If so, how?_
-  * The ridge solutions are not equivariant under scaling the inputs. That means regression coefficients can change substantially when multiplying a given predictor with a constant $$c$$, and so one normally standardi**zes** the inputs before solving. One might use the following formula:
+  * The ridge solutions are not equivariant under scaling the inputs. That means regression coefficients can change substantially when multiplying a given predictor with a constant $$c$$, and so one normally standardizes the inputs before solving. One might use the following formula:
   * $$\bar{x}_{i j}=\frac{x_{i j}}{\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(x_{i j}-\bar{x}_{j}\right)^{2}}}$$
 * F: Should inputs be scaled for Lasso?
   * TODO: yes: [https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary](https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary)
@@ -411,7 +404,7 @@ $$
   * F: _What is problematic about Multicollinearity?_ 
   * F: _How can Multicollinearity be resolved?_ 
   * F: _How do correlations and multicollinearity relate?_ 
-  * F: _Give the definition of the Variance Inflation Factor._ 
+  * F: _ Define the Variance Inflation Factor._ 
   * F: _Explain how the Variance Inflation Factor can be calculated._ 
   * F: _Name common assumptions about error terms._
     * 1. Regression Errors are normally distributed 
@@ -474,11 +467,11 @@ $$
   * **Accuracy**: The share of instance that are correctly classified
   * **Precision**: Of examples recognized as cat, what % are actually cats? 95 % means: When classifier says 'cat', in 95 % it is a cat.
   * **Recall:**  Of all images that really are cats, what % were correctly recognized? Of all cats in the data, the classifier pulled 90 % of them. \(BDA lecture, slide 43\)
-* F: _Is it better to have many false positives, or too many false negatives?_
+* F: _Is it better to have many false positives or too many false negatives?_
   * \([See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
 * F: _How can a standard_ $$2 \times 2$$ _confusion matrix be enhanced for a multi-classification case?_ 
 * F: _What is an imbalanced dataset in classification?_ ⭐
-  * A classification data set where class proportions are skrewed. A class is called majority class, if it makes up a large proportion of the data set. Classes that make up a small proportion are called minority classes. [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
+  * A classification data set where class proportions are screwed. A class is called majority class, if it makes up a large proportion of the data set. Classes that make up a small proportion are called minority classes. [\(see here.\)](https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data)
 * F: _How do you deal with imbalanced data in classification?_
   * _An effective way to treat imbalanced data is to downsample and upweight the majority class._ 
   * _Downsampling means training on a disproportionally low subset of the majority class examples._
@@ -493,7 +486,7 @@ $$
   * [\(see here\)](https://www.answerminer.com/blog/confusion-matrix-explained)
 * F: _Why is it a bad idea to evaluate your algorithm on the training set?_ 🧠
   * Training error \(error of learning method on seen data\) is quite different from test error rate, and in particular the former can be quite different from the test error rate and in particular the former can underestimate the latter.
-  * One reason to  use a separate test set is to avoid overfitting.
+  * One reason to use a separate test set is to avoid overfitting.
 * F: _Explain what precision and recall are. How do they relate to the ROC-Curve?_
   * \([see here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
 * F: Explain what a ROC curve is.
@@ -597,13 +590,13 @@ $$
   * _The training error is the average error of a statistical learning method on seen data. It's used to get an unbiased estimate of how good the model does._
   * _Error of the final model on training data is biased, since the data is used to select the model._
   * ![](../.gitbook/assets/model_complexity_error_training_test.jpg) 
-  * Model complexity decreases prediction error until a point \(the bias trade-off\) where we are adding just noise. The train error goes down, but the test error is starting to go up. That's overfitting. One want's to find the model with smallest test error.
+  * Model complexity decreases prediction error until a point \(the bias trade-off\) where we are adding just noise. The train error goes down, but the test error is starting to go up. That's overfitting. One want's to find the model with the smallest test error.
 * F: What is the difference between variance and bias?
   * **Bias** is the amount that a model's prediction differs from the target due to simplifying assumptions a model makes to approximate a target function. Can be resolved using resampling methods.
   * **Variance** indicates how much the estimate of the target function differs from its expected value. Variance measures the inconsistency of different predictions if different training data is used.
-  * If a model is too simple and has few parameters, then it may have high bias and low variance. For models with many parameters, it has high variance and low bias. 
+  * If a model is too simple and has few parameters, then it may have high bias and low variance. For models with many parameters it has high variance and low bias. 
   * In ML we strike for a low bias and variance.
-* F: _What are bias and variance, and what are their relation to modeling data?_
+* F: _What are bias and variance, and what are their relation to modelling data?_
   * [\(See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)\)
 * F: _Explain the validation set approach?_ 
   * In this method, the original data is randomly divided into a **train set** and a **validation** or **hold-out set**.
@@ -681,7 +674,7 @@ $$
 
 * F: _Give the definition for PCA._
 * F: _What does dimensionality reduction mean?_ 🧠
-  * Dimensionality reduction is simply, the process of reducing the dimension of your feature set. e. G. from a hypersphere to some spherical shape. This is commonly done to feight the curse of dimensionality. \([see here.](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)\)
+  * Dimensionality reduction is simply, the process of reducing the dimension of your feature set. e. G. from a hypersphere to some spherical shape. This is commonly done to fight the curse of dimensionality. \([see here.](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)\)
 * F: _What are the advantages and disadvantages of dimensionality reduction?_
   * **Advantages:**
     * It helps in data compression, and hence reduces storage space
@@ -712,8 +705,8 @@ $$
   * By applying an $$\ell_{1}$$ and an $$\ell_{2}$$ penalty to the coefficients of the PCA **regression formulation**, sparse principal components can be estimated.
 * F: _Explain the nonlinear PCA._
   * Nonlinear PCA uses an inconsistency index as information criterion to avoid overfitting in the choice of hyperparameters.
-  * Nonlinear PCA uses an **autoassociative neural network** for calculation of the PCAs. Autoassociative neural networks have one input layer, three hidden layers, and one output layer. One of the hidden layers is a socalled "bottleneck layer". The input layer and output layer have a size of the feature space.
-  * The network is trained to perform an **identity mapping**, where the input is approximated at the ouputt.
+  * Nonlinear PCA uses an **autoassociative neural network** for calculation of the PCAs. Autoassociative neural networks have one input layer, three hidden layers, and one output layer. One of the hidden layers is a so-called "bottleneck layer". The input layer and output layer have a size of the feature space.
+  * The network is trained to perform an **identity mapping**, where the input is approximated at the output.
   * Since the number of hidden neurons in the middle hidden layer is restricted to the number of bottleneck neurons, which are fewer than the output neurons, one effectively calculates the **principal components**.
   * The mean squared error \(MSE\) between the input layer and the output layer is minimized. In the process, the nonlinear principal components in the middle hidden layer, that is the bottleneck layer, are calculated. \(compare script + Kramer paper\)
 * F: _Explain the kernel PCA._
@@ -723,12 +716,12 @@ $$
   * Ordinary PCA with many variables with non-zero factor loadings make it difficult to interpret the economic meaning of each PC. 
   * Sparse PCA applies an elastic net regularization to the calculation of PCs. The $$L_1$$ and $$L_2$$penalty is applied to the coefficients in the PCA regression formulation to prevent overfitting of the coefficients.  
 * F: _Explain the major difference of kernel PCA over non-linear PCA._
-  * Kernel PCA doesn't require any nonlinear optimiziations. So the danger of finding a solution that is a local minimum is eliminated. \(Nazemi et al. Improving corporate bond recovery p. 5\)
+  * Kernel PCA doesn't require any nonlinear optimizations. So the danger of finding a solution that is a local minimum is eliminated. \(Nazemi et al. Improving corporate bond recovery p. 5\)
 * F: _Explain the major difference of non-linear PCA over ordinary PCA._
 * F: _Explain the major difference of kernel PCA over ordinary PCA._
   * Kernel PCA doesn't require a non-linear optimization.
   * Kernel PCA transforms features into higher dimensional feature space first, before applying PCA.
-* _F: What is the purpose of the measure **porportion variance explained**?_
+* _F: What is the purpose of the measure **proportion variance explained**?_
   * In order to understand the strength of each component, one needs to know the proportion of variance explained by each one.
 * F: _How can the proportion of variance explained by_ $$m$$ _variables be calculated?_
   * The total variance of a data set is defined as: 
