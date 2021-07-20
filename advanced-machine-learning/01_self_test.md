@@ -1263,7 +1263,7 @@ $$
   * Unrolling the time steps of a network at depth $$T$$ gives the following computational graph.
     * ![](../.gitbook/assets/computational_graph_rnn.jpg) 
     * \(ML lecture p. 58\)
-* F: _Compare the **Feed-Forward network** to a **recurrent network**._
+* F: _Compare the **Feed-Forward network** to a **Recurrent Neural Network**._
   * Feed-forward nets \(learned through back propagation\) need to be strictly feed forward and can have no recurrent connections.
   * Feed-Forward networks can only handle fixed-size vectors as input and output \(e. g. probabilities of different classes\). Whereas recurrent neural networks can handle sequences / vectorrs of any size.
   * Recurrent neural networks are unique in way that a unit within the RNN can **feed itself**. That means it can feed back activation that will affect the output from the network during subsequent iterations. 
@@ -1384,14 +1384,24 @@ $$
 #### GRUs
 
 * F: _Explain **GRUs**._
-  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update** \(**fuse of the forget and input gate** or **fuse of long-term and working memory**\) ****and **reset gate**.
-  * When the update gate is closed, it's possible to propagate information far through the network without loosing much of it. The vanishing gradient problem existing with RNNs is solved.
+  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update gate** $$z_t$$ ****\(**fuse of the forget and input gate** or **fuse of long-term and working memory**\) ****and **reset gate** $$r_t$$ with different weights.
+  * When the **update gate** is closed / inactive, it's possible to propagate information far through the network without loosing much of it. The unit has long-term dependicies.
+  * Units with short term dependencies have often active **reset gates**.
+  * The vanishing gradient problem existing with RNNs is solved.
   * \_\_![](../.gitbook/assets/gru.png) __
 * F: _What is the advantage / disadvantage of **GRUs** over **LSTMs**?_
   * GRUs are computionally less expensive. \(+\)
   * LSTMs often deliver better results \(-\)
 * F: _Explain how **updating** a memory cell in a **GRU** works._
-  * TODO:
+  * Recall there are two gates:
+    * The update gate $$z_t$$
+    * The reset gate $$r_t$$
+  * The **update gate** decides what information to throw away and what new information to add.
+  * The **reset gate** decides how much past information to forget.
+  * TODO: [https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21) 
+  * If reset is close to , the previous hidden state is ignored. Allows model to drop information that is irrelevant for the future 
+  * Update gate $$z$$is close to $$0$$, then we can copy information in that unit through many time steps.
+  * * 
 
 ## Misc\*
 
