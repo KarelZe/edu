@@ -834,6 +834,8 @@ $$
     where $$\phi_{2}$$ is the second principal component loading vector, with elements $$\phi_{12}, \ldots \phi_{p 2}$$.
 
   * It turns out that constraining $$\text{PCA}_{2}$$ to be uncorrelated with $$\text{PCA}_{1}$$ is equivalent to constraining the direction $$\phi_{2}$$ to be orthogonal to the direction $$\phi_{1}$$.
+* F: _Explain what **Principal Component Regression** is._
+  * One extracts principal components as features and then models the target \(response variable\) as a linear function of these Features. That means, the response variable responds indirectly and linearly to changes in the inputs.
 
 ## Decision Trees\*
 
@@ -1038,7 +1040,7 @@ $$
   * Datasets with less noise
   * Spherical clusters of roughly the same size
   * Counter "mouse" example \([see here.](https://stats.stackexchange.com/questions/79741/data-sets-suitable-for-k-means)\)
-  * \_\_![](../.gitbook/assets/grafik%20%2848%29.png) \_\_
+  * ![](../.gitbook/assets/grafik%20%2848%29.png) 
 * F: _What are alternatives to_ $$k$$_-means clustering?_
   * DBSCAN
   * Agglomerative Hierarchical Clustering
@@ -1226,8 +1228,9 @@ $$
   * Semiparametric Least-Squares Support Vector Regression is an extension to the SVM. 
   * A model is constructed that assumes the impact from the different seniority classes is linear. The dummy variables for the seniorty classes $$z_{sj}$$and $$\beta$$ is a vector of fixed effects for the seniority of the respective group.$$\begin{aligned} &\min J\left(w, b, u_{i}\right)=\frac{1}{2}\|w\|^{2}+\frac{1}{2} \beta^{T} \beta+\frac{1}{2} b^{2}+\frac{c}{2} \sum_{s=1}^{s} \sum_{j=1}^{n_{k}} u_{s j}^{2} \\ &\text { s.t. } r_{i}=\mathbf{w}^{T} \phi\left(X_{i}\right)+\beta^{T} z_{s j}+b+u_{s j}, \quad j=1, \ldots, n_{s}, s=1, \ldots, S \end{aligned}$$ 
 
-## Neural Net
+## Neural Net\*
 
+* F: _Explain what a Neural Network is._
 * F: _How can overfitting be avoided with Neural Networks?_
   * Use early stopping with crossvalidation
   * Use network pruning -&gt; aA kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
@@ -1238,9 +1241,40 @@ $$
   * The more layers and more hidden units in a model, the more capacity it has.
 * F: _Compare Logistic Regression to Neural Networks. What are their advantages and what are their disadvantages?_
 * _F: Which activation function is good for which use case? -&gt; Classification / Sigmoid etc._
-* _F: What are RNNs useful for? -&gt; language models, time series data_
-* F: _Explain what a Neural Network is._
-* F: _How does logistic regression relate to neural networks?_ 🧠
+* F: _Explain the purpose of activation functions._
+  * An activation function basically decides in a neural net whether the neuron should be activated or not.
+
+    The activation function defines the output of that node given an input or set of inputs.
+
+  * Activation functions introduce **non-linearity** to Neural Nets.
+* F: _Define different **activation functions** and sketch them._
+  * **Sigmoid**: $$\sigma(z)=\frac{1}{1+\exp (-z)}$$\*\*\*\*
+  * **Tanh**: $$\tanh (z)=\frac{\exp (z)-\exp (-z)}{\exp (z)+\exp (-z)}$$\*\*\*\*
+  * **ReLU \(Rectified Linear Unit\)**: $$\operatorname{ReLU}(z)=\max (0, z)$$
+  * ![](../.gitbook/assets/sigmoid_tanh_relu.jpg) 
+* F: _Sketch a 2-layer neural network with 3 input units, 4 hidden units and 2 output units. Make sure to label its components._
+  * \_\_![](../.gitbook/assets/neural_net.jpg) __
+  * Note: the output layer counts as a layer. The input layer does not count.
+* F: _Explain how **back-propagation** works in neural network._
+  * **Back propagation** is an algorithm used in a neural network to compute the partial derivative of $$\partial C / \partial w$$ of a cost function $$C$$ with respect to any weight $$w$$.\(see [here.](http://neuralnetworksanddeeplearning.com/chap2.html)\) The algorithm consists of several steps:
+    1. Intialize weights with random values and set other network parameters
+    2. Read in the inputs and desired outputs.
+    3. Compute the actual output \(by working forward through the layers\)
+    4. Compute the error \(difference between the actual and desired output\)
+    5. Change the weights by working backward through the hidden layers.
+    6. Repeat \(until convergence or other stop criteria\) \(see BDA lecture p. 29\)
+* F: _How can Neural Nets be used for classification._
+  * _One can use the **Sigmoid activation function** for classification._
+* F: _How does **logistic regression** relate to **neural networks**?_ 🧠
+  * **Logistic regression** can be thought of as a one-layer neural network with no hidden layers.
+  * One uses the **Sigmoid activation function**.
+  * $$
+    z_{k}=w_{k 0}+\sum_{j=1}^{J} x_{j} w_{k j}
+    $$
+  * $$
+    o_{k}(\mathbf{x})=\frac{1}{1+\exp \left(-z_{k}\right)}
+    $$
+* ![](../.gitbook/assets/logistic_regression_nn.png) 
 * F: _What kind of functions can single layer NN learn?_ 🧠
 * F: _Why do we need non-linear activation functions?_ 🧠
 * F: _What activation functions can we use and what are the advantages / disadvantages of those?_ 🧠
@@ -1248,15 +1282,6 @@ $$
 * F: _Why not use a sigmoid activation function?_ 🧠
 * F: _Why neural networks can overfit and what are the options to prevent it?_ 🧠
 * F: _Early stopping, cross-validation and network pruning are techniques to prevent overfitting of Neural Nets. Explain them._ 
-* F: _What makes an Ordinary Least Square Regression different from a neural net?_
-* F: _Explain what Principal Component Regression is._
-* F: _Explain how Principal Component Regression works._
-* F: _Explain the purpose of activation functions._
-* F: _Define different activation functions and sketch them._
-* F: _Sketch a neural network with 3 input units, 4 hidden units and 2 output units. Make sure to label its components._
-* F: _How is a recurrent neural net different from an ordinary neural network?_
-* F: _Explain how back-propagation works in neural network._
-* F: _What is necessary to apply Neural Nets to classification tasks?_
 * F: _For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance?_ 🧑‍🚒
 * F: _What is the problem of Neural nets with many parameters?_ 
 * F: _What is the impact of a higher number of layers and hidden units in a neural net?_
@@ -1282,11 +1307,15 @@ $$
 * F: _How can the notion of similarity be embedded in a vector-to-word conversion?_
   * _Words that are related should lie closer together in feature space._ 
   * _Also mathematical operations like subtraction of king - queen should make sense._
-* F: _Sketch and explain the process of applying Continuous Bag of Words to text prediction._
+* F: _Sketch and explain the process of applying **Continuous Bag of Words** to text prediction._
 * F: _Why is Softmax used in a CBOW model?_
 * F: _How does the Skip-Gram Model work_?
 * F: _Compare the Skip-Gram Model to CBOW. In which way are they different?_
-* F: _Explain different types of NLP applications including examples._
+* F: _Explain **Sentiment Analysis** using an averaging strategy works._
+  * Sentiment Analysis **averages the word vectors** for all $$n$$ words in a document. This single resulting vector consisting of $$\left[C_1, C_2, C_3, \cdots\right]$$ is then send to a logistic regression classifier characterized by the parameter $$W$$. A sigmoid function is used to obtain the sentiment in terms of a probability. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/simple-and-effective-alternative-methods-for-neural-nlp-2vlJK)\)
+* F: _Explain **Simple Word-Embedding Based Models** \(SWEMs\) works for Sentiment Analysis._
+  * SWEMs utilizes **component-wise maximization**. 
+  * For every component in our word vector across all the words in our document one takes the maximum of that value across all  words in a document e. g. $$\left[max(C_1(W_1), C_1(W_2),\cdots),max( \cdots)\right]$$ The word that has the largest value for that component will then be used. We plug the resulting vector into a logistic classifier and parameters $$W$$ and make a prediction and obtain a probability for the sentiment. \(see [here.](https://www.coursera.org/lecture/machine-learning-duke/simple-and-effective-alternative-methods-for-neural-nlp-2vlJK)\)
 * _F: Name different fields in **Natural Language Processing**._
   * **Syntax**_:_ Grammer induction, lemmatization, morphological segmentation, part-of-speech tagging, parsing, sentence breaking, stemming, word segmentation, terminology extraction
   * **Semantics**: lexical semantics, distributional semantics, machine translation, named entity recognition, OCR, question answering, relationship extraction, semantic analysis and topic segmentation.
@@ -1336,7 +1365,8 @@ $$
     * \(ML lecture p. 58\)
 * F: _Compare the **Feed-Forward network** to a **Recurrent Neural Network**._
   * Feed-forward nets \(learned through back propagation\) need to be strictly feed forward and can have no recurrent connections.
-  * Feed-Forward networks can only handle fixed-size vectors as input and output \(e. g. probabilities of different classes\). Whereas recurrent neural networks can handle sequences / vectorrs of any size.
+  * Nodes in a Feed-forward network are connected only to the nodes in the next layer. Wheres in a recurrent network, nodes in one layer may be connected to the ones in previous layers or within the same layer.
+  * Feed-Forward networks can only handle fixed-size vectors as input and output \(e. g. probabilities of different classes\). Whereas recurrent neural networks can handle sequences / vectors of any size.
   * Recurrent neural networks are unique in way that a unit within the RNN can **feed itself**. That means it can feed back activation that will affect the output from the network during subsequent iterations. 
 * F: _Give an intutition for **Recurrent Neural Networks**._
   * _Human thoughts have persistence. That means, humans can rely on their thinking to understand a new context._
@@ -1424,7 +1454,7 @@ $$
 * F: _Explain LSTMs._ ⭐
   * LSTMs are a type of RNNs, that feature a sophisticated **forgetting** and **saving mechanism**. To implement this, a  LSTM is made up of four interacting **layers** and three **gates**. 
   * Gates regulate what information is saved and removed from the the cell state a LSTM cell. Gates implement a way to let information through. They are composed of a sigmoid neural net layer and pointwise multiplication operation \(the hadamard product\). If the output of a sigmoid layer  is close to $$0$$, hardly any information is passed through and vice versa if it's close to $$1$$. \(see [here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)\)
-  * The gates are commonly referred to as **input gate**, **output gate** and **forget gate**.
+  * The gates are commonly referred to as **input gate** \(controlling how much to write to a cell\), **output gate** \(controlling how much to reveal to a cell\) and **forget gate** \(controlling whether to erase a cell\).
   * LSTMs are suitable for NLP and time series predictions, where both very recent and both more distant information are relevant for predictions.
   * LSTMs have outplayed RNNs, due to their robustness against **vanishing gradients** and their ability to adjust forgetting and remembering past information.
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
