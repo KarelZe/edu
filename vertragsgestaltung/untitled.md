@@ -49,7 +49,7 @@
 10. Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?
 11. Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?
 12. Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?
-13. Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber A nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?
+13. Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?
 
 ## Dienstvertrag / Arbeitsvertrag
 

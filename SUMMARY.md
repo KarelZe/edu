@@ -52,7 +52,6 @@
 
 ## Vertragsgestaltung
 
-* [Selbsttestfragen](vertragsgestaltung/untitled.md)
 * [Mitschrift](vertragsgestaltung/mitschrift/README.md)
   * [Einführung / Überblick](vertragsgestaltung/mitschrift/einfuehrung-ueberblick.md)
   * [Zivilrechtiche Grundlagen](vertragsgestaltung/mitschrift/zivilrechtiche-grundlagen.md)
@@ -65,6 +64,7 @@
   * [Herstellungsvertrag](vertragsgestaltung/mitschrift/vorlesung-10-herstellungsvertra-ge-c25dbcf39e364eb69fa7d6e4633aacbf.md)
   * [Sicherungsmittel](vertragsgestaltung/mitschrift/vorlesung-11-sicherungsmittel-in-der-vertragsges-b59a000f3bd64b2cb695b34c34e777fe.md)
   * [Gesellschaftsrecht](vertragsgestaltung/mitschrift/vorlesung-12-gesellschaftsrecht-4dbf105c2d7740f2b38208070b70c678.md)
+* [Selbsttestfragen](vertragsgestaltung/untitled.md)
 
 ## Rechtliches
 
