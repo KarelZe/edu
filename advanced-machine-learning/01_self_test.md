@@ -1169,6 +1169,7 @@ $$
   * $$K\left(x_{i}, x_{i^{\prime}}\right)=\exp \left(-\gamma \sum_{j=1}^{p}\left(x_{i j}-x_{i^{\prime} j}\right)^{2}\right)$$ 
   * $$\gamma$$ is a positive constant, known as the bandwith parameter.
   * The radial kernel has a local behavior, in a sense that only nearby training observations have an effect on the class label of a test observation.
+  * TODO: Kernel prüfen.
 * F: Why do we use kernels instead of simply enlarging the original feature space?
   * One advantage is computational, and it amounts to the fact that using kernels, one only compute $$K\left(x_{i}, x_{i^{\prime}}\right)$$ for all $$\left(\begin{array}{c}n \\ 2\end{array}\right)$$ distinct pairs $$i, i^{\prime}$$. This can be done without explicitely working in the enlargend feature space.
 * F: _Explain how Least-Squares Support Vector Regression works._
@@ -1231,7 +1232,7 @@ $$
 * F: _Explain what a Neural Network is._
 * F: _How can overfitting be avoided with Neural Networks?_
   * Use early stopping with crossvalidation
-  * Use network pruning -&gt; aA kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
+  * Use network pruning -&gt; A kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
   * Standard ways to limit the capacity of a neural net
     * limit number of hidden parameters 
     * limit size of weights
@@ -1261,6 +1262,7 @@ $$
     4. Compute the error \(difference between the actual and desired output\)
     5. Change the weights by working backward through the hidden layers.
     6. Repeat \(until convergence or other stop criteria\) \(see BDA lecture p. 29\)
+  * TODO: Herleitung / Aufnahme Formel \(Standord Video\)
 * F: _How can Neural Nets be used for classification._
   * _One can use the **Sigmoid activation function** for classification._
 * F: _How does **logistic regression** relate to **neural networks**?_ 🧠
@@ -1450,7 +1452,7 @@ $$
     * A convolutional layer
     * A pooling layer
     * A fully connected layer
-  * CNNs are commonly used for processing data in a grid like toplogy e. g. image data. 
+  * CNNs are commonly used for processing data in a grid-like toplogy e. g. image data. 
 
 #### LSTMs
 
@@ -1460,6 +1462,7 @@ $$
   * The gates are commonly referred to as **input gate** \(controlling how much to write to a cell\), **output gate** \(controlling how much to reveal to a cell\) and **forget gate** \(controlling whether to erase a cell\).
   * LSTMs are suitable for NLP and time series predictions, where both very recent and both more distant information are relevant for predictions.
   * LSTMs have outplayed RNNs, due to their robustness against **vanishing gradients** and their ability to adjust forgetting and remembering past information.
+  * TODO: Fomeln + Visualisierung
 * F: _LSTMs are suitable for which type of analysis?_ ⭐
   * sequence modelling, with variable input and output length
   * time series analysis
