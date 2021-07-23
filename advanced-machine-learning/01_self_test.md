@@ -302,7 +302,7 @@ Zur Herkunft der Fragen:
     $$H_{1}$$ states that at least one coefficient is different from zero.
 
     $$
-    H_{1}: \beta_{j}=0 \text { for at least one } j
+    H_{1}: \beta_{j}\neq0 \text { for at least one } j
     $$
 * F: _Give an intution for the Analysis of Variance \(ANOVA\) test._
   * The ANOVA-Test compares whether the means of two separate sets are equal.
@@ -338,6 +338,7 @@ Zur Herkunft der Fragen:
 * F: _What is the intutition of the **Variance Inflation Factor**?_
   * The $$j$$th variable is regressed on the remaining $$k-1$$ variables / features. 
   * If $$R^2$$is large, that means, the remaining variables can explain the $$j$$th variable and so the resulting **VIF** will be large.
+  * TODO: Formula!
 * F: _How can **VIF** be interpreted._
   * A VIF of 10 indicates a severe impact due to multicollinearity.
 * F: _How can one test for **linearity**?_
@@ -684,8 +685,7 @@ $$
   * Data is often scarce. So we can not afford to set aside test sets \([see here.](http://www.columbia.edu/~mh2078/MachineLearningORFE/ResamplingMethods.pdf)\).
   * Performance on the validation set is a  \(often highly variable\) random variable depending on the data-split into training and validation sets. \(-\)
   * In the validation approach, only a subset of the observations those that are included in the training set rather than in the validation set are used in fitting the model \(-\)
-  * The error on the validation set tends to over-estimate the test-error rate on small data sets. \(-\)
-  * TODO: letzten Punkt verstehen ist damit 70
+  * The error on the validation set tends to over-estimate the test-error rate on small data sets, as models perform worse when trained on few data. \(see [here.](https://rstudio-pubs-static.s3.amazonaws.com/65561_43c0eaaa8565414eae333b47038f716c.html)\) \(-\)
 * F: _Explain_ $$k$$_-fold cross-validation._ 
   * k-fold cross-validation randomly divides data into $$K$$ equal-sized parts.
   * We leave out part $$k$$ , fit the model to the other $$K-1$$ parts \(combined\), and then obtain predictions for the left-out $$k$$ -th part.
