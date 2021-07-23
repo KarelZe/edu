@@ -68,9 +68,9 @@ Zur Herkunft der Fragen:
 
   Unstructured data is:
 
-  * **Nonnumeric:** No predefined numeric representation for the constructs of interests. Must be defined.
-  * **Multifaceted:** Each aspect of data provides unique information for studying and different types of research goals. E. g. voice data present information about the speaker such as pitch, speech rate. Data can be used both in psychology and communication. 
-  * **Concurrent representation:** Represents different phenomena at the same time. One can study different research questions with one single unstructured data. TODO: Paper nachlesen
+  * **Nonnumeric:** No predefined numeric representation for the constructs of interests. Requires manual or automatic coding prior to analysis.
+  * **Multifaceted:** A single unit of unstructured data posses multiple facets. Each aspect of data provides unique information for studying and different types of research goals. E. g. voice data present information about the speaker such as pitch, speech rate. Data can be used both in psychology and communication. 
+  * **Concurrent representation:** The simultaneous presence of a single data unit's multiple facets that each provide unique information, which allows to represent different phenomena at the same time. One can study different research questions with one single unit of unstructured data.
 
 * F: What is referred to as 'structured data'?
   * Structured data is data that adheres to a pre-defined data model and is therefore straightforward to analyse.
@@ -87,7 +87,7 @@ Zur Herkunft der Fragen:
   * Adding labels to the data after clustering is often easier \(+\) \(own\)
   * Unsupervised techniques such as clustering help with data understanding of the raw data. \(+\) \(own\)
   * Unsupervised learning is more subjective, as there is no simple objective \(-\)
-* F: _Name  practical applications of unsupervised learning._
+* F: _Name practical applications of unsupervised learning._
   * Subgroups of breast cancer patients grouped by their gene expression measurements
   * Groups of shoppers characterized by their browsing and purchase histories
   * Movies grouped by ratings assigned by movie raters
@@ -618,7 +618,6 @@ $$
   * It's maximal value is not always 1. \([see here](https://de.wikipedia.org/wiki/Cohens_Kappa).\)
 * F: _Is Kappa statistic sensitive to imbalanced data?_
   * Cohen's kappa can handle imbalanced data well.
-  * $$F_1$$ score
 * F: _How is the_ $$F_1$$ _measure defined?_ 
   * $$F_{1}=\frac{2}{\frac{1}{\text { precision}}+\frac{1}{\text { recall }}}=2 * \frac{\text { precision } * \text { recall }}{\text { precision }+\text { recall }}$$ 
 * F: _Give an intuition for the_ $$F_1$$ _-measure._
@@ -651,8 +650,9 @@ $$
     * K-Fold cross-validation
     * Leave-One-Out Cross-Validation
     * Purged K-Fold Cross-Validation
+    * Embargoed K-Fold Cross-Valdiation
   * Bootstrap Resampling.
-* F: _Name at least techniques for cross-validation._
+* F: _Name at least techniques four for cross-validation._
   * Validation Set approach / Hold-Out-method
   * K-Fold cross-validation
   * Leave-One-Out cross-validation
@@ -696,24 +696,22 @@ $$
   * This is done in turn for each part $$k = 1,2, \cdots, N$$ , and then the results are combined.
 * F: _What is the advantage/disadvantage of_ $$k$$_-fold CV?_
   * Very little bias, as model has been train on multiple data constellations. \(+\)
-
-    uta\* Computationally very expensive, as training of the model happens multiple times \(-\)
-
+  * Computationally very expensive, as training of the model happens multiple times \(-\)
   * Can not prevent data leakage \(-\)
-* F: _Explain purged_ $$k$$_-fold cross-validation._ ⭐
-  * Purged K-Fold
 * F: _What is the motivation to perform **purged**_ $$k$$_**-Fold cross-validation.**_ 
   * Observations can e. g. in finance often not assumed to be drawn from an IID process. Leakage takes place when the training set contains information that also appears in the testing set. \(see e. g. stock quotes, where market information is priced in from the previous days\)
   * One way to reduce leakage is to purge from the training set all observations whose labels overlap in time with those labels included in the testing set. 
-* F: How does purged $$k$$-Fold cross-validation work?
-  * de Padro describes it[ here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420) Consider a label $$Y_{j}$$ that is a function of observations in the closed range $$t \in\left[t_{j, 0}, t_{j, 1}\right], Y_{j}=f\left[\left[t_{j, 0}, t_{j, 1}\right]\right]$$ .
-  * For example, in the context of the triple barrier labelling method, it means that the label is the sign of the return spanning between price bars with indices $$t{j, 0}$$ and $t{j, i}$, that is $\operatorname{sgn}\left\[r{t{j, 0}, t{j, 1}}\right\]$. 
-  * A label $Y{i}=f\left\[\left\[t{j, 0}, t{j, 1}\right\]\right\]$ overlaps with $Y\_{j}$ if any of the three sufficient conditions is met:
+* F: How does purged $$k$$-Fold cross-validation work?⭐
 
-    $$
-    t_{j, 0} \leq t_{i, 0} \leq t_{j, 1} ; t_{j, 0} \leq t_{i, 1} \leq t_{j, 1} ; t_{i, 0} \leq t_{j, 0} \leq t_{j, 1} \leq t_{i, 1}
-    $$
-* F: What is the motivation for embargoed K-Fold CV?
+  * de Padro describes it[ here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420) Consider a label $$Y_{j}$$ that is a function of observations in the closed range $$t \in\left[t_{j, 0}, t_{j, 1}\right], Y_{j}=f\left[\left[t_{j, 0}, t_{j, 1}\right]\right]$$ .
+  * For example, in the context of the triple barrier labelling method, it means that the label is the sign of the return spanning between price bars with indices $$t_{j, 0}$$ and $$t_{j, i}$$, that is $$\operatorname{sgn}\left[r{t_{j, 0}, t_{j, 1}}\right]$$. 
+  * A label $$Y_{i}=f\left[\left[t_{j, 0}, t_{j, 1}\right]\right]$$ overlaps with $$Y_{j}$$ if any of the three sufficient conditions is met:
+
+  $$
+  t_{j, 0} \leq t_{i, 0} \leq t_{j, 1} ; t_{j, 0} \leq t_{i, 1} \leq t_{j, 1} ; t_{i, 0} \leq t_{j, 0} \leq t_{j, 1} \leq t_{i, 1}
+  $$
+
+* F: What is the motivation for **embargoed K-Fold CV**?
   * Since financial features often include series that exhibit serial correlation \(like ARMA\) processes, we should eliminate from the training set observations that immediately follow an observation in the testing set. This process is called embargo. [\(see here.\)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257420)
   * ![](../.gitbook/assets/purged_embargo_cv.png) 
 * F: _How should we divide data into training and testing for a time series dataset?_ ⭐
