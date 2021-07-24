@@ -83,6 +83,7 @@ F: _Welche personenbezogenen Daten müssen Sie mindestens speichern? Begründen 
 A:
 
 Die Transaktionen der Kunden. Transaktionen der Kunden mit den jeweiligen Items sind der Input für den Assoziationsregel Algorithmus. Ohne diesen Input können keine Empfehlungen für den Kunden erzeugt werden. \(bin ich mir aber unsicher\).
+Andere Meinung (ebenfalls nicht sicher): Es müssen keine personenbezogenen Daten gespeichert werden. Es genügen die (anonymisierten) Kauftransaktionen/ Warenkörbe, welche gespeichert werden müssen. Es geht hierbei nur um eine Produkt/Produkt-Korrelation, wofür keine Kundendaten notwendig sind.
 
 F: _Klassifizieren Sie einen entsprechende Assoziationsregel-Recommender nach Schafer et al. für die Merkmale Methode, Gedächtnislänge und notwendige Kundenaktivität für den Erhalt der Empfehlung. Wenn Sie Annahmen treffen, geben Sie diese an._ \(2+2+2P\)
 
