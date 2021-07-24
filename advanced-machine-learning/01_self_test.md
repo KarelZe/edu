@@ -456,11 +456,6 @@ $$
 * F: _Explain stability selection technique. What is the main advantage of stability selection technique compared to LASSO?_⭐
   * With LASSO regression the variables selected can change even if data is ever-so-slightly changed. Stability selection technique leads to a more stable selection of variables than LASSO.
   * Stability selection works by fitting variables on a subsample of data. Afterward one can count the proportion of times a variable is selected. This leads to a more stable selection.
-* F: _How do we apply the kernel trick to ridge regression?_ 🧠
-* F: _Why does it make sense to penalize the norm of the weight vector?_ 🧠
-* F: _Which norms can we use and what are the different effects?_ 🧠
-* F: _Give the formula for ridge regression and explain its components._
-* F: _Give the formula for LASSO and explain its components._
 * F: _Name one major advantage of **LASSO** over **ridge regression**._
   * Lasso yields sparse models, that is, models that only involve a subset of other variables.
 * F: _How should_ $$\lambda$$ _be selected for **ridge regression** / **LASSO**?_
@@ -470,32 +465,16 @@ $$
   * $$\bar{x}_{i j}=\frac{x_{i j}}{\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(x_{i j}-\bar{x}_{j}\right)^{2}}}$$
 * F: Should inputs be scaled for Lasso?
   * TODO: yes: [https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary](https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary)
-* F: _Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?_
-  * F: _Compare Multiple Linear Regression to Ridge Regression. Why is it desirable to penalize a Linear Regression model?_ 
-  * F: _Explain the purpose of conducting an ANOVA test?_ 
-  * F: _Is the F-static normalized?_ _What values can the F static take_
-  * F: _How can the significance of a model be tested?_ 
-  * F: _Why does the improvement when adding new explanatory variables follow a chi-squared distribution with one degree of freedom?_ 
-  * F: _What is problematic about Multicollinearity?_ 
-  * F: _How can Multicollinearity be resolved?_ 
-  * F: _How do correlations and multicollinearity relate?_ 
-  * F:  _Define the Variance Inflation Factor._ 
-  * F: _Explain how the Variance Inflation Factor can be calculated._ 
-  * F: _Name common assumptions about error terms._
-    1. Regression Errors are normally distributed 
-    2.  The variance of regression errors is constant 
-    3. The error terms from different points in time are independent 
 
-    * **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
+* F: _Name common assumptions about error terms._
+  1. Regression Errors are normally distributed 
+  2.  The variance of regression errors is constant 
+  3. The error terms from different points in time are independent 
 
-      **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals, etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
-  * * F: _Name implications when residuals of a general linear regression model are not normally distributed._
-  * F: _Why do errors of a linear regression model have to be normally distributed?_ 
-  * F: _Why does the variance of regression errors in a linear regression model has to be constant?_ 
-  * F: _Explain the concept of heteroscedasticity for regression errors._ 
-  * F: _Define the coefficient of partial determination._ 
-  * F: _How do the coefficient of partial determination and F-test relate?_ 
-  * F: _Compare ridge regression to linear regression?_
+  * **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
+
+  **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals, etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
+
 
 ## Logistic Regression
 
@@ -1002,11 +981,11 @@ $$
      * for each of the $$K$$ clusters, compute the cluster centroid. The $$k$$th cluster centroid is the vector of the $$p$$ features means for the observations in the $$k$$th cluster.
      * Assign each observation to the cluster whose centroid is closest \(where closest is defined using Euclidean distance\).
 
-  To achieve a faster convergence, one can use an improved initialization of cluster centres. One approach is **k-means++**.
+  To achieve faster convergence, one can use an improved initialization of cluster centeres. One approach is **k-means++**.
 
   More formal definition:
 
-  1. Pick $$K$$ arbitrary cluster centres
+  1. Pick $$K$$ arbitrary cluster centers
   2. Assign each sample to its closest centroid $$z_{n}=\arg \min {k}\left|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right|^{2}$$ 
   3. Adjust the centroids to be the means of the samples assigned to them $$\boldsymbol{c}_{k}=\frac{1}{\left|X_{k}\right|} \sum{\boldsymbol{x}_{i} \in X_{k}}  \boldsymbol{x}_{i}, X_{k}= \{\boldsymbol{x}_{n} z_{n}=k \}$$ 
   4. Goto step 2 until no change
@@ -1050,7 +1029,7 @@ $$
   * _Average distance_
   * _Minkowski sum \(_[_see here\)_](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0144059/1/pone.0144059.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20210715%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20210715T194736Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=04ede785d000ebd5f299bfbbab8c90d6eadccd88325d10335ed298244a0ecf7a930ab527d0c521cf7a014d40565bdaeec1721d2a96b9a8c02025c5a2d02a8c5cb315c9241feeff1e3e2e5faa8fb0d7df7a4093901e580a4454e37c51a1c63487e1cfdbb86243603498f00b69a242f76ee0ddb744f9e2555e15627fd23febc4dbac8107aa0ffef08b59a1923f71f8c214347c481256c4a769c830868d160f1cdb2fe75b8af9458875ec5a441e93729bb2896ced623dec5be33f41346fcef8188f47e8e3efe87c3424bfe2a3bac0a3446788d38c091052835476328901902840be36576b9b327ae8d12aebd783be1dafaefc5a5edf41a88d7280f23c90a8b80768)\_\_
 * F: _What are the two main steps of_ $$k$$_-means?_ 🧠
-  * Pick $$k$$ arbitrary cluster centres
+  * Pick $$k$$ arbitrary cluster centers
   * Assign each sample to the closest centroid and adjust the centroids to be the means of the samples assigned to them.
 * F: _Why does_ $$k$$_-means converge? What is it minimizing._ 🧠
   * We have only a finite number of possible values for the centroid.
@@ -1059,12 +1038,8 @@ $$
 * F: _Does_ $$k$$_-means find a global minimum of the objective?_ 🧠
   * No, the objective \(see question above\) is an NP-hard problem, so we can't expect any algorithm to minimize the cost without essentially checking \(near to\) all assignments.
   * It heavily depends on the initialization of the centroids.
-* F: _How is the clustering problem defined?_ 🧠
 * F: _Why is clustering called unsupervised?_ 🧠
   * Clustering is an unsupervised machine learning task that automatically divides the data into clusters or groups of similar items. It does this without having been told how the groups should look ahead of time. As we may not even know what we're looking for, clustering is used for knowledge discovery rather than prediction. \([see here](https://hub.packtpub.com/introduction-clustering-and-unsupervised-learning/).\)
-* F: _How do clustering methods work? What is the rule of the cluster-2-cluster distance and which distances can we use?_  🧠
-* F: _Name similarity measures. \(Name an advantage and disadvantage for each of them.\)_
-* F: _Compare similarity measures for low and high-dimensional spaces._
 * F: _In unsupervised learning, if a ground truth about a dataset is unknown, how can we determine the most useful number of clusters to be?_
   * [See here.](https://github.com/iamtodor/data-science-interview-questions-and-answers)
 * F: _When is clustering optimal?_
@@ -1115,7 +1090,7 @@ $$
   * We try to find a **plane** that separates the **classes in feature space**. If separating is not possible:
     * one **softens**, what is meant by separating
     * or **enrichens** or **enlargens** the **feature space** so that separation is possible.
-* F: _Give an intuition of what a SVM is._ 
+* F: _Give an intuition of what an SVM is._ 
   * _With Support Vector Machines one maps the data into a higher dimensional input space and constructs an optimal separating hyperplane in this space. This involves solving a quadratic programming problem. \(Suykens Vandewalle p. 1\)_
 * _F: Give the definition of a hyperplane_
   * a hyperplane in $$p$$ dimensions is an affine subspace of dimension $$p-1$$dimension.
@@ -1131,7 +1106,7 @@ $$
   * That means one can classify test observations based on which side of the hyperplane it lies \(James et al.\)
 * F: _Explain the **Maximal Margin Classifier**?_
   * A **Maximal Margin Classifier** is a classification approach, where one tries to find a hyperplane of all possible hyperplanes, that gives the biggest gap between the two classes. This hyperplane is called the **maximal margin hyperplane**. The smallest distance between the hyperplane and training observations is called margin. 
-  * Finding the maximal margin hyperplane is an constrained optimization problem, which can be formulated as follows.
+  * Finding the maximal margin hyperplane is a constrained optimization problem, which can be formulated as follows.
   * Based on a set of $$n$$ training observations based on a set of $$n$$ training observations $$x_{1}, \ldots, x_{n} \in \mathbb{R}^{p}$$ and associated class labels $$y_{1}, \ldots, y_{n} \in{-1,1}$$ . Briefly, the maximal margin hyperplane is the solution to the optimization problem:
   * $$
     \begin{aligned}
@@ -1192,21 +1167,9 @@ $$
   * Logistic regression is faster.
   * Logistic regression is easier to interpret.
   * If classes are not separable, both perform very similar.
-  * TODO: Etwas ausführlicher bereits beantwortet...
-* F: _Why is it good to use a maximum margin objective for classification?_ 🧠
-* F: _How can we define the margins as an optimization problem?_ 🧠
-* F: _What are slack variables and how can they be used to get a "soft" margin?_ 🧠
-* F: _How is hinge loss defined?_ 🧠
-* F: _What is the relation between the slack variables and the hinge loss?_ 🧠
-* F: _What are the advantages and disadvantages in comparison to logistic regression?_ 🧠
-* F: _What is the difference between gradients and sub gradients?_ 🧠
-* F: _What is the definition of a kernel and its relation to an underlying feature space?_ 🧠
-* F: _Why are kernels more powerful than traditional feature-based methods?_ 🧠
-* F: _What do we mean by the kernel trick?_ 🧠
-* F: _What is the central idea of SVMs?_
   * We try to find a plane that separates the classes in the feature space. If that's not possible, we get creative in two ways:
     * We soften what we mean by separates through the introduction of support vectors.
-    * We enrich and enlarge the feature space so that separation is possible. This means the feature space get's transformed.
+    * We enrich and enlarge the feature space so that separation is possible. This means the feature space gets transformed.
 * F: _How do a Maximal Margin Classifier, SVMs, and Logistic Regression relate?_
   * TODO: James et. al p. 356
   * A SVM with $$C=0$$is a **Maximal Margin Classifier**, as there is no budget for margin violations.
@@ -1275,25 +1238,10 @@ $$
     o_{k}(\mathbf{x})=\frac{1}{1+\exp \left(-z_{k}\right)}
     $$
 * ![](../.gitbook/assets/logistic_regression_nn.png) 
-* F: _What kind of functions can single layer NN learn?_ 🧠
-* F: _Why do we need non-linear activation functions?_ 🧠
-* F: _What activation functions can we use and what are the advantages/disadvantages of those?_ 🧠
-* F: _What output layer and loss function use given the task \(regression/classification \)?_ 🧠
-* F: _Why not use a sigmoid activation function?_ 🧠
-* F: _Why neural networks can overfit and what are the options to prevent it?_ 🧠
-* F: _Early stopping, cross-validation, and network pruning are techniques to prevent overfitting of Neural Nets. Explain them._ 
-* F: _For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance?_ 🧑‍🚒
-* F: _What is the problem of Neural nets with many parameters?_ 
 * F: _What is the impact of a higher number of layers and hidden units in a neural net?_
-* A:
   * the more layers and more hidden units in a model, the more capacity it has.
   * There might not be enough data. A high capacity model easily overfits training data and results in a bad performance during testing.
-* F: _Explain what network pruning is._
-* F: _Explain how early stopping works with Neural Nets._
-* F: _Consider the following two multilayer perceptrons, where all of the layers use linear activation functions. Give an advantage of Network A over Network B._ 🏕️
-
-  ![Network architectures](../.gitbook/assets/network_architecture.jpg)
-
+  
 ## Methods in NLP
 
 * F: _How does the concept of Word2Vec work?_
@@ -1408,20 +1356,6 @@ $$
 * F: _Explain what is called the **vanishing gradient problem**._
   * The vanishing gradient problem refers to the increasing difficulty of back-propagating to the first layers with an increasing depth of the network. Especially for sequence data or when networks are deep.
   * Gradients become close to one and learning is no longer possible \(lecture BDA, p. 43\)
-* F: _Why is it desirable to use RNNs instead of standard networks for NLP?_
-  * TODO:
-* F: _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$_?_
-  * TODO:
-* F: _Adding more hidden layers will solve the vanishing gradient problem for a two-layer neural network._ 🧑‍🚒
-  * TODO:
-* F: _xxx suffer\(s\) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER._ 🧑‍🚒
-  * TODO:
-* F: _Adding L2-regularization will help with vanishing gradients_ 🧑‍🚒
-  * TODO:
-* F: _Give applications of RNNs._
-  * TODO:
-* F: _What are key components of RNNs?_
-  * TODO:
 * F: _Explain how simple so-called **vanilla RNNs** are different from **standard neural networks**._
   * _Its behavior and structure is identical._
 * F: Explain what the **advantage** is of **RNNs** over standard networks.
