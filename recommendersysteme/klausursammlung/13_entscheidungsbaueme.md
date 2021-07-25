@@ -215,6 +215,10 @@ $$
 
 A:
 
+Der Informationsgewinn ΔH gibt die Änderung der Entropie vor und nach Benutzung eines Attributes A an und stellt somit die erwartete Reduizerung der Entropie durch die Einsortierung über A (z.B. Outlook) dar.
+Der Informationsgewinn für Outlook berechnet sich aus der gewichteten Summe der Informationsgewinne der einzelnen Attribute (z.B. "sunny").
+Für Outlook ist zu sehen. dass "Sunny" und "Overcast" die Zielvariable "Tennis" bereits homogen separieren, weshalb ein hoher Informationsgewinn für die Einsortierung des Attributs A="Outlook" zu erwarten ist. Wenn gilt "Outlook = sunny" wird nie Tennis gespielt, während bei "Outlook = Overcast" wird immer Tennis gespielt. 
+
 Zusatz:
 
 F: _Für ein beliebiges Attribut, nicht beschränkt auf das Beispiel: Wie groß kann die Entropie minimal und maximal werden? Wann ist dies der Fall?_ \(1+1+2,5+2,5=7P.\)
