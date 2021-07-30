@@ -82,8 +82,8 @@ F: _Welche personenbezogenen Daten müssen Sie mindestens speichern? Begründen 
 
 A:
 
-Die Transaktionen der Kunden. Transaktionen der Kunden mit den jeweiligen Items sind der Input für den Assoziationsregel Algorithmus. Ohne diesen Input können keine Empfehlungen für den Kunden erzeugt werden. \(bin ich mir aber unsicher\).
-Andere Meinung (ebenfalls nicht sicher): Es müssen keine personenbezogenen Daten gespeichert werden. Es genügen die (anonymisierten) Kauftransaktionen/ Warenkörbe, welche gespeichert werden müssen. Es geht hierbei nur um eine Produkt/Produkt-Korrelation, wofür keine Kundendaten notwendig sind.
+Die Transaktionen der Kunden. Transaktionen der Kunden mit den jeweiligen Items sind der Input für den Assoziationsregel Algorithmus. Ohne diesen Input können keine Empfehlungen für den Kunden erzeugt werden.
+Es müssen keine personenbezogenen Daten gespeichert werden. Es genügen die (anonymisierten) Kauftransaktionen / Warenkörbe, welche gespeichert werden müssen. Es geht hierbei nur um eine Produkt/Produkt-Korrelation wofür keine Kundendaten notwendig sind.
 
 F: _Klassifizieren Sie einen entsprechende Assoziationsregel-Recommender nach Schafer et al. für die Merkmale Methode, Gedächtnislänge und notwendige Kundenaktivität für den Erhalt der Empfehlung. Wenn Sie Annahmen treffen, geben Sie diese an._ \(2+2+2P\)
 
@@ -389,21 +389,21 @@ Im Ergebnis wären die Empfehlungen des AR trivial und unbrauchbar sein, da jede
 
 Da es sich bei Jupiter um einen großen Versender handelt, sind auch die generierten Itemsets groß, was zu Laufzeitproblemen des Apriori-Algorithmus führen wird.
 
-\(Ohne Use Case Bezug\) Sie haben folgende Regel kennen gelernt: Seien X und Y Itemmengen und s eine Schranke. Sei support\(X\) \&lt; s. Dann gilt: ∀Y ⊇ X: support\(Y \) \&lt; s
+\(Ohne Use Case Bezug\) Sie haben folgende Regel kennen gelernt: Seien X und Y Itemmengen und s eine Schranke. Sei $$\operatorname{support}(X) <s$$. Dann gilt: $$\forall Y \supseteq X: \operatorname{support}(Y) <s$$
 
-Interpretieren Sie diese Regel. \(2P.\)
+F: _Interpretieren Sie diese Regel. \(2P.\)_
 
 A:
 
-Item X wird weniger als s mal gekauft. Dann werden alle Itemmengen Y wo X vorkommt ebenfalls weniger als s mal verkauft.
+Item $$X$$ wird weniger als $$s$$ mal gekauft. Dann werden alle Itemmengen $$Y$$ wo $$X$$ vorkommt ebenfalls weniger als $$s$$ mal verkauft.
 
-Erreicht eine Itemmenge X den Mindestsupport $s$ nicht, so kann auch keine Ihrer echten / unechten Obermengen den Mindest-Support erreichen, da diese mindestens so selten in den Transaktionen vorkommen.
+Erreicht eine Itemmenge $$X$$ den Mindestsupport $$s$$ nicht, so kann auch keine Ihrer echten / unechten Obermengen den Mindest-Support erreichen, da diese mindestens so selten in den Transaktionen vorkommen.
 
-Beweisen oder widerlegen Sie diese Regel. \(5P.\)
+F: _Beweisen oder widerlegen Sie diese Regel. \(5P.\)_
 
 A:
 
 Aussage stimmt.
 
-Item $X$ kommt weniger als$\text{ s}$-Mal vor. Durch Hinzunahme eines weiteren Produktes kommt $Y$ gemeinsam mit $X$ ebenfalls weniger als $s$-Mal vor, da Y mit $X$ nicht öfter vorkommen kann, als X allein vorkommt.
+Item $$X$$ kommt weniger als $$s$$-Mal vor. Durch Hinzunahme eines weiteren Produktes kommt $$X$$ gemeinsam mit $$X$$ ebenfalls weniger als $$s$$-Mal vor, da $$Y$$ mit $$X$$ nicht öfter vorkommen kann, als $$X$$ allein vorkommt.
 

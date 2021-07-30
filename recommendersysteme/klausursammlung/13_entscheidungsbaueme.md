@@ -112,7 +112,7 @@ Mit $$H(y \mid x) = - \sum_{i,j} p(i,j)\log_{2}p(y = j \mid x = i)$$
 
 A:
 
-**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit  $$j = 1,\ldots,i - 1,i + 1,\cdots, 8$$  gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist  $$ H =  0$$.
+**Minimal:** Gilt $$p_{i} = \, 1$$ und alle anderen $$p_{j} = 0$$, mit $$j = 1,\ldots,i - 1,i + 1,\cdots, 8$$ gilt; \(Bei Sicherheit über Ergebnis verschwindet Entropie\), dann ist $$H = 0$$.
 
 **Maximal:** Liegt Gleichverteilung vor, d. h. $$p_{i} = \frac{1}{8}$$. Dann gilt:
 
@@ -215,7 +215,8 @@ $$
 
 A:
 
-Zusatz:
+* Der Informationsgewinn $$\Delta H$$ gibt die Änderung der Entropie vor und nach Benutzung eines Attributes $$A$$ an und stellt somit die erwartete Reduzierung der Entropie durch die Einsortierung über $$A$$ \(z.B. Outlook\) dar. Der Informationsgewinn für Outlook berechnet sich aus der gewichteten Summe der Informationsgewinne der einzelnen Attribute \(z.B. "sunny"\).
+* Für Outlook ist zu sehen, dass "Sunny" und "Overcast" die Zielvariable "Tennis" bereits homogen separieren, weshalb ein hoher Informationsgewinn für die Einsortierung des Attributs $$A=\text{"Outlook"}$$ zu erwarten ist. Wenn gilt $$\text{Outlook} = \text{sunny}$$wird nie Tennis gespielt, während bei $$\text{Outlook} = \text{overcast}$$ immer Tennis gespielt wird.
 
 F: _Für ein beliebiges Attribut, nicht beschränkt auf das Beispiel: Wie groß kann die Entropie minimal und maximal werden? Wann ist dies der Fall?_ \(1+1+2,5+2,5=7P.\)
 
@@ -228,7 +229,9 @@ A:
 Entropie ist nach oben nicht beschränkt. Es gilt:
 
 $$
-H\left( S \right) = - \sum_{j}^{}{}\mspace{2mu} p_{j}*\log_{2}p_{j} = - \sum_{i = 1}^{n}{}\mspace{2mu}\frac{1}{n}*\log_{2}\frac{1}{n} = - n*\left( \frac{1}{n}*\left( \log_{2}1 - \log_{2}n \right) \right) =- 1*\left( 0 - \log_{2}n \right) = \log_{2}n \rightarrow \infty\left( n \rightarrow \infty \right)
+\begin{aligned}
+H\left( S \right) &= - \sum_{j}^{}{}\mspace{2mu} p_{j}*\log_{2}p_{j} \\&= - \sum_{i = 1}^{n}{}\mspace{2mu}\frac{1}{n}*\log_{2}\frac{1}{n} = - n*\left( \frac{1}{n}*\left( \log_{2}1 - \log_{2}n \right) \right) \\&=- 1*\left( 0 - \log_{2}n \right) = \log_{2}n \rightarrow \infty\left( n \rightarrow \infty \right)
+\end{aligned}
 $$
 
 Entropie wird **maximal** bei Gleichverteilung.
@@ -333,13 +336,13 @@ A:
 
 **Informationsgewinn:**
 
-A: $$H_0 (\frac{5}{8}, \frac{3}{8}) = 0.95$$ 
+A: $$H_0 (\frac{5}{8}, \frac{3}{8}) = 0.95$$
 
 $$H_{\text{Wetter=sonnig}} (\frac{4}{6}, \frac{2}{6}) = 0.92$$
 
-$$H_{\text{Wetter=bewölkt}} (\frac{1}{2}, \frac{1}{2}) = 1$$ 
+$$H_{\text{Wetter=bewölkt}} (\frac{1}{2}, \frac{1}{2}) = 1$$
 
-$$\text{Durchschnittlicher Inf. G. Wetter} = (0.95-0.92) \left(\frac{6}{8}\right) + (0.95 -1) \times \left(\frac{2}{8}\right) = 0.01$$ 
+$$\text{Durchschnittlicher Inf. G. Wetter} = (0.95-0.92) \left(\frac{6}{8}\right) + (0.95 -1) \times \left(\frac{2}{8}\right) = 0.01$$
 
 F: _Halten Sie aus diesem Grund das Wetter für ein aussagekräftiges Output Attribut. Begründen Sie in 3 Sätzen._ \(2P.\)
 
@@ -430,7 +433,7 @@ A:
 
 **Informationsgewinn:**
 
-A: 
+A:
 
 $$
 H_0 = (\frac{90}{100}, \frac{10}{100}) = 0.47

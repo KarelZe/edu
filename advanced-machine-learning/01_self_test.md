@@ -109,7 +109,7 @@ Zur Herkunft der Fragen:
   * Categorial data e. g. gender, as there are predefined formats
 
 * F: _Give a brief explanation of categorical, binary, ordinal, and numeric variables._
-  * ** categorical/nominal:** Names of things or symbols.
+  *  **categorical/nominal:** Names of things or symbols.
   * **binary:** A nominal variable with two categories or states: 0 or 1.
   * **ordinal:** Ordinal variables have a meaningful order or ranking among them, but the magnitude between successive values is not known.
   * **numeric:** A quantitative variable. Numeric variables could be interval-scaled or ratio-scaled.
@@ -149,15 +149,11 @@ Zur Herkunft der Fragen:
 
 ## LR, Ridge, and Lasso
 
-* F: _Explain how **best subset selection** works in 3 steps._ 
-
+* F: _Explain how **best subset selection** works in 3 steps._
   1. Let $$\mathcal{M}_{0}$$ denote the null model, which contains no predictors. This model simply predicts the sample mean for each observation. 2. For $$k=1,2, \ldots p$$ : 
-
-* a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors. 
-* b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$. 
-
-2. Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
-
+* a. Fit all $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models that contain exactly $$k$$ predictors.
+* b. Pick the best among these $$\left(\begin{array}{l}p \\ k\end{array}\right)$$ models, and call it $$\mathcal{M}_{k}$$. Here best is defined as having the smallest RSS, or equivalently largest $$R^{2}$$.
+* Select a single best model from among $$\mathcal{M}{0}, \ldots, \mathcal{M}{p}$$ using cross-validated prediction error, $$C_{p}$$ \(AIC\), BIC, or adjusted $$R^{2}$$.
 * F: _Explain how **forward stepwise selection** works in 3 steps._
   * **Intuition:**
 
@@ -465,16 +461,11 @@ $$
   * $$\bar{x}_{i j}=\frac{x_{i j}}{\sqrt{\frac{1}{n} \sum_{i=1}^{n}\left(x_{i j}-\bar{x}_{j}\right)^{2}}}$$
 * F: Should inputs be scaled for Lasso?
   * TODO: yes: [https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary](https://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary)
-
-* F: _Name common assumptions about error terms._
-  1. Regression Errors are normally distributed 
-  2.  The variance of regression errors is constant 
-  3. The error terms from different points in time are independent 
+* F: _Name common assumptions about error terms._ 1. Regression Errors are normally distributed 2. The variance of regression errors is constant 3. The error terms from different points in time are independent
 
   * **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
 
   **But:** Linear Regression doesn't need the normal assumption, the estimator can be calculated without any need of such assumption. However, it is convenient from a user point of view to use errors are normally distributed to calculate confidence intervals, etc. [\(see here.\)](https://stats.stackexchange.com/a/148812)
-
 
 ## Logistic Regression
 
@@ -518,7 +509,7 @@ $$
 * F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
   * ![](../.gitbook/assets/confusion_matrix.svg) 
 * F: _Define precision / recall / sensitivity / False Positive Rate._ 
-  * ![](../.gitbook/assets/grafik%20%283%29%20%281%29%20%281%29.png) 
+  * ![](../.gitbook/assets/grafik%20%283%29%20%281%29%20%281%29%20%282%29%20%282%29%20%281%29.png) 
 * F: _Give an intuition for precision / recall / sensitivity..._ 
   * **Accuracy**: The share of instance that are correctly classified
   * **Precision**: Of examples recognized as cat, what % are actually cats? 95 % means: When classifier says 'cat', in 95 % it is a cat.
@@ -1215,7 +1206,7 @@ $$
   * **ReLU \(Rectified Linear Unit\)**: $$\operatorname{ReLU}(z)=\max (0, z)$$
   * ![](../.gitbook/assets/sigmoid_tanh_relu.jpg) 
 * F: _Sketch a 2-layer neural network with 3 input units, 4 hidden units and 2 output units. Make sure to label its components._
-  * \_\_![](../.gitbook/assets/neural_net.jpg) __
+  * \_\_![](../.gitbook/assets/neural_net.jpg) \_\_
   * Note: the output layer counts as a layer. The input layer does not count.
 * F: _Explain how **back-propagation** works in neural networks._
   * **Back propagation** is an algorithm used in a neural network to compute the partial derivative of $$\partial C / \partial w$$ of a cost function $$C$$ with respect to any weight $$w$$.\(see [here.](http://neuralnetworksanddeeplearning.com/chap2.html)\) The algorithm consists of several steps:
@@ -1241,7 +1232,7 @@ $$
 * F: _What is the impact of a higher number of layers and hidden units in a neural net?_
   * the more layers and more hidden units in a model, the more capacity it has.
   * There might not be enough data. A high capacity model easily overfits training data and results in a bad performance during testing.
-  
+
 ## Methods in NLP
 
 * F: _How does the concept of Word2Vec work?_
@@ -1290,9 +1281,9 @@ $$
   * Long Short Term Memory Networks
   * Bidirectional Long Short Term Memory Networks
 
-## RNNs / Bidirectional RNNs / LSTMs / GRUs / CNNs 
+## RNNs / Bidirectional RNNs / LSTMs / GRUs / CNNs
 
-#### RNNs
+### RNNs
 
 * F: _Explain RNNs.⭐_
   * A recurrent neural networks are **networks with loops** in them, allowing information **to persist**.
@@ -1362,7 +1353,7 @@ $$
   * Input and output can have variable lengths.
   * RNNs allow memorizing context.
 
-#### Bidirectional RNNs
+### Bidirectional RNNs
 
 * F: _Explain **Bidirectional Long Short Term Memory Network.**_
   * **Bidirectional Recurrent Network** are acyclic graphs, that allow **forward** as well as **backward flow** within the network. Hence, they use information from the **past** and the **future** context within a network.
@@ -1378,7 +1369,7 @@ $$
   * Natural Language Processing
   * Speech recognition
 
-#### CNNs
+### CNNs
 
 * F: _Explain CNNs?_
   * Convolutional neural networks are a kind of network that use many **identical copies** of the same neuron. This allows the network to have lots of neurons and express computationally large models with keeping the actual number of parameters \(describing how neurons behave\) and that need to be learned small. \([see here.](https://colah.github.io/posts/2014-07-Conv-Nets-Modular/)\)
@@ -1388,7 +1379,7 @@ $$
     * A fully connected layer
   * CNN's are commonly used for processing data in a grid-like topology e. g. image data. 
 
-#### LSTMs
+### LSTMs
 
 * F: _Explain LSTMs._ ⭐
   * LSTMs are a type of RNNs, that features a sophisticated **forgetting** and **saving mechanism**. To implement this, a LSTM is made up of four interacting **layers** and three **gates**. 
@@ -1422,14 +1413,14 @@ $$
   * ![](../.gitbook/assets/lstm_step_4.png) 
   * Images and text adapted from  [here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
-#### GRUs
+### GRUs
 
 * F: _Explain **GRUs**._
-  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update gate** $$z_t$$ ****\(**fuse of the forget and input gate** or **fuse of long-term and working memory**\) ****and **reset gate** $$r_t$$ with different weights.
+  * GRUs are a variant of RNNs using gates to control what information to remember and what to forget. A GRU is a **simpler variant** of the LSTM. It contains only an **update gate** $$z_t$$ **\*\*\(**fuse of the forget and input gate **or** fuse of long-term and working memory**\) \*\***and **reset gate** $$r_t$$ with different weights.
   * When the **update gate** is closed/inactive, it's possible to propagate information far through the network without losing much of it. The unit has long-term dependencies.
   * Units with short-term dependencies have often active **reset gates**.
   * The **vanishing gradient problem** existing with RNNs is solved, as new input doesn't completely erase past relevant information, which can be kept. 
-  * \_\_![](../.gitbook/assets/gru.png) __
+  * \_\_![](../.gitbook/assets/gru.png) \_\_
 * F: _What is the advantage / disadvantage of **GRUs** over **LSTMs**?_
   * GRUs are computationally less expensive. \(+\)
   * LSTMs often deliver better results \(-\)
@@ -1441,8 +1432,7 @@ $$
   * The next step is to calculate the **reset gate** $$r_t$$.The **reset gate** decides how much past information to forget. The idea is similar to the **update gate**.
   * In the next step is to calculate the current memory content $$\tilde{h}_t$$. First, we multiply the input $$x_t$$ by its weight matrix and then use the Hadamard product of the previous hidden state $$h_{t-1}$$ and the forget gate $$r_t$$. A **reset gate** close to $$0$$ would mean the previous hidden state is ignored. The sum of both is plugged into a $$\tanh$$function.
   * In the last step we calcualte the new $$h_t$$, a vector holding information for the current unit. It is \(weighted\) sum of the hadamard product between the update gate $$z_t$$and $$h_{t-1}$$and the portion of the current memory content, which is the hadamard product of the currrent memory content $$\tilde{h}_t$$ and $$(1-z_t)$$. The result is saved in $$h_t$$. \([see here.](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)\) \([see here.](https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be)\)
-  *   ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MWnh07mnETIlqhjJW0c%2F-Mf1H_s-otz6p81Dzf15%2F-Mf1TU4zkZB59Jg4riq4%2Fgru.png?alt=media&token=b5ed976f-412c-41a1-a076-36b63ea3cab5)
-
+  * ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MWnh07mnETIlqhjJW0c%2F-Mf1H_s-otz6p81Dzf15%2F-Mf1TU4zkZB59Jg4riq4%2Fgru.png?alt=media&token=b5ed976f-412c-41a1-a076-36b63ea3cab5)
   * Drawing [see here.](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
   * TODO: Visualize as for LSTMs [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
