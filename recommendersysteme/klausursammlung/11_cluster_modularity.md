@@ -204,15 +204,15 @@ $$
 
 F: _Wie ändert sich die Modularität, wenn nicht benachbarte Knoten gemeinsam in ein Cluster gruppiert werden?_
 
-A: Es ist zu sehen, dass die Änderung der Modularity zweier nicht benachbarter/verbundener Knoten negativ ist und die Modularity abnimmt (z. B. Modularity(A,D), die im Graph nicht benachbart sind). Die Modularity verschlechtert sich, da hier aus Community-Sicht vermutlich nicht zusammengehörige Knoten in ein Cluster gruppiert werden. 
+A: Es ist zu sehen, dass die Änderung der Modularity zweier nicht benachbarter/verbundener Knoten negativ ist und die Modularity abnimmt \(z. B. Modularity\(A,D\), die im Graph nicht benachbart sind\). Die Modularity verschlechtert sich, da hier aus Community-Sicht vermutlich nicht zusammengehörige Knoten in ein Cluster gruppiert werden.
 
 Exemplarisch gezeigt für A, D:
+
 $$
 \begin{aligned}
 &\Delta Q_{A, D}=2\left(0 -\frac{1}{4} \frac{1}{16}\right)= - \frac{1}{32}. \\
 \end{aligned}
 $$
-
 
 F: _Beschreiben Sie den Randomized Greedy Cluster Algorithmus im Pseudocode._
 
