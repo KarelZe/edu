@@ -140,9 +140,9 @@ $$f_{\text{theo}}$$ in untenstehender Tabelle ist abgleitet aus LSD-Modell, dass
 
 $$P(rK\ddot{a}ufe) = \frac{- q^{r}}{r\ln(1 - q)},r \geq 1$$
 
-Um also $$f_{\text{theo}}$$ in der Tabelle und damit die theoretische Verteilung der Wiederkäufe zu bestimmen, wird der Parameter q benötigt. q gibt den Anteil der Repeat-Buyer an gesamten Käufen an \(vgl. Folie 29, Ehrenberg\)
+Um also $$f_{\text{theo}}$$ in der Tabelle und damit die theoretische Verteilung der Wiederkäufe zu bestimmen, wird der Parameter $$q$$ benötigt. $$q$$ gibt den Anteil der Repeat-Buyer an gesamten Käufen an \(vgl. Folie 29, Ehrenberg\)
 
-q ist der Parameter der geschätzten LSD Verteilung $$f_{theo}$$ aufgrund des beobachteten Kaufverhaltens w = m/b \(siehe Tutorium 7 \(mit Solution\) Folie 36+37
+$$q$$ ist der Parameter der geschätzten LSD Verteilung $$f_{theo}$$ aufgrund des beobachteten Kaufverhaltens $$w = m/b$$ \(siehe Tutorium 7 \(mit Solution\) Folie 36+37
 
 Die Summe der theoretisch vorhergesagten Repeat-Buys ergibt nicht 100. Stellt dies ein Problem dar? Begründen Sie. \(3P.\)
 
@@ -150,7 +150,7 @@ A:
 
 Nein, nur für relative Häufigkeiten relevant nicht für absolute Häufigkeiten.
 
-Erklären Sie die Zahl fobs = 87 in der Zeile r = 1. \(4P.\)
+Erklären Sie die Zahl $$f_{obs} = 87$$ in der Zeile $$r = 1$$. \(4P.\)
 
 A: **Anzahl der Produktpaare**, die im Zeitraum $$t$$ **einmal** wiedergekauft wurden.
 
@@ -158,7 +158,7 @@ Stellen Sie drei verschiedene Abschneideregeln als Formeln da. \(9P.\)
 
 A:
 
-* Sobald die Anzahl Ausreißer unter kumulierte Anzahl von theoretisch erwarteten Wiederkäufen fällt: $$f\left( x{\mathrm{\text{beobachtet }}} \right) < \left( 1 - F\left( x{\mathrm{\text{theoretisch }}} \right) \right)$$
+* Sobald die Anzahl Ausreißer unter kumulierte Anzahl von theoretisch erwarteten Wiederkäufen fällt: $$f\left( x_{\text{beobachtet }} \right) < \left( 1 - F\left( x_{\text{theoretisch }} \right) \right)$$
 * Sobald die Anzahl Ausreißer unter Anzahl von theoretisch erwarteten Wiederkäufen fällt: $$f\left( x{_\text{beobachtet }} \right) < f\left( x_{\text{theoretisch} } \right)$$
 * Sobald kumulierte Anzahl Ausreißer unter kumulierte Anzahl von theoretisch erwarteten Wiederkäufen fällt: $$\left( 1 - F\left( x{_\text{beobachtet }} \right) \right) < \left( 1 - F\left( x{_\text{theoretisch }} \right) \right)$$
 
@@ -172,7 +172,7 @@ Regel A \(weniger als 40 %\) Zufallsbeobachtung:
 
 | Repeat-buys | $$f(x_{obs})$$ | $$f(x_{ theo})$$ | $$\frac{f\left(x_{theo }\right)}{f\left(x_{obs }\right)}$$ | Klasse wird gezeigt |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | 87 | 83.5 | 0,96 |  |
+| 1 | 87 | 83.5 | 0,96 | 0 |
 | 2 | 17 | 21.5 | 1,26 | 0 |
 | 3 | 2 | 7.3 | 3,65 | 0 |
 | 4 | 4 | 2.8 | 0,70 | 0 |
@@ -216,8 +216,8 @@ A:
 
 * Kaufgelegenheit = Ein Kunde ruft Amazon.com auf und kann shoppen.
 * Warenkorb = Produkte, die wiederholt bei Amazon gekauft werden.
-* Penetration b = Anteil der Amazon-Kundschaft, die ein Produkt p z. B. Amazon Basic Kopfhörer in einer Periode t z. B. in 2020 erworben hat.
-* Kaufrate w = Durchschnittliche Anzahl von Kaufgelegenheiten, bei der Kunden von Amazon das Produkt p z. B. Amazon Basic Kopfhörer in einer Periode t z. B. in 2020 erworben haben.
+* Penetration b = Anteil der Amazon-Kundschaft, die ein Produkt p z. B. Amazon Basic Kopfhörer in einer Periode $$t$$ z. B. in 2020 erworben hat.
+* Kaufrate w = Durchschnittliche Anzahl von Kaufgelegenheiten, bei der Kunden von Amazon das Produkt p z. B. Amazon Basic Kopfhörer in einer Periode $$t$$ z. B. in 2020 erworben haben.
 
 Man kann Log-Daten eines \(Apache\) Webservers als Warenkorbdaten interpretiert. Nennen Sie drei Schwierigkeiten, die hierbei auftreten können. \(3\*2P.=6P.\)
 
