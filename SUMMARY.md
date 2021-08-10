@@ -50,8 +50,14 @@
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
+## Patentrecht
+
+* [Mitschrift](patentrecht/mitschrift/README.md)
+  * [Markenrecht](patentrecht/mitschrift/markenrecht.md)
+
 ## Vertragsgestaltung
 
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Mindmap Paragraphen](vertragsgestaltung/mindmap-paragraphen.md)
 * [Mitschrift](vertragsgestaltung/mitschrift/README.md)
   * [Einführung / Überblick](vertragsgestaltung/mitschrift/einfuehrung-ueberblick.md)
