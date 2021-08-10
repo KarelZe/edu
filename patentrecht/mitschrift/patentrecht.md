@@ -59,10 +59,79 @@
 * **Erfinderische Tätigkeit:**
   * Geregelt in [§ 4 PatG](https://www.gesetze-im-internet.de/patg/__4.html), Art. 56 EPÜ
   * Eine Erfindung gilt als auf einer erfinderischen Tätigkeit beruhend, wenn sie sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ableiten lässt.
-* Keine Erfindungen sind dem [§ 1 Abs. 3 PatG](https://www.gesetze-im-internet.de/patg/__1.html):
+* **Keine** Erfindungen sind dem [§ 1 Abs. 3 PatG](https://www.gesetze-im-internet.de/patg/__1.html):
   * **Entdeckungen** \(...\)
   * **ästhetische Formschöpfungen**
   * Pläne, Regeln und Verfahren für **gedankliche Tätigkeiten**, \(...\) sowie **Programme für Datenverarbeitungsanlagen**
   * **Wiedergabe von Informationen**
-  * **Obacht:** Nur Programme **als solches** sind nicht patentierbar, kommt noch was hinzu, ist es das ggf. 
+  * **Obacht:** Nur Programme **als solches** sind nicht patentierbar, kommt noch was hinzu, ist es das ggf. patentierbar.
+* **Erfinder:**
+  * Erfinder, ist derjenige, der das technische Problem mit technischen Mitteln einer Lösung zugeführt, also die technische Regel entwickelt hat.
+  * Bei Doppelerfindungen \(zeitgleiche Erfindung\) steht demjenigen das Recht auf das Patent der Erfindung als erstes beim Patentamt angemeldet hat.
+  * Erfindung kann übertragen werden z. B. auf Arbeitgeber übergehen.
+  * Auch **Erfindergemeinschaft** d. h. mehrere Erfinder möglich.
+
+### Arten der Erfindung
+
+* **Erzeugnispatent:** \(körperliche\) Sache mit spezifischen technischen Eigenschaften
+* **Verfahrenspatent:** technisches Handeln mit evtl. mehreren Verfahrensmaßnahmen
+  * **Beispiel:** Funktionsweise von Regelungsmechanismen
+
+### Anmeldeverfahren
+
+* Geregelt in [§ 34 PatG](https://www.gesetze-im-internet.de/patg/__34.html) Abs. 3.
+* Schriftliche Anmeldung mit:
+  * Name des Anmelders
+  * Antrag auf Patenterteilung \(enthält kurz die Erfindung erklärt\)
+  * Patentanspruch bzw. Patentansprüche
+  * Beschreibung
+  * ggf. erforderliche Zeichnungen
+  * Erfinderbenennung \(bis 15 Tage nach Anmeldung; geregelt in [§ 37 PatG](https://www.gesetze-im-internet.de/patg/__37.html)\)
+  * Anmeldegebühr \(gem. Patentkosten-Gesetz\)
+
+**Ablauf nationale Anmeldung in Deutschland:**
+
+![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/de_patent.jpg)
+
+* Anmeldung kann auch in anderer Sprache eingereicht werden. Nach 3 Monaten \(bei anderen Sprachen\) und 12 Monaten \(bei Englisch und Französisch\) ist Übersetzung erforderlich.
+
+**Ablauf europäische Anmeldung:**
+
+![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/eu_patent.jpg)
+
+* Anmeldung in deutsch, englisch oder französisch.
+* Recherche ist nicht optional. 
+* Man erhält nur Bündelpatent muss i. d. R. nationale Phase eingeleitet werden. D. h. es sind weitere Aktionen notwendig.
+
+**Ablauf internationale Anmeldung:**
+
+![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/pct_anmeldung.jpg)
+
+* Man muss schauen, welches Anmeldeamt ist zuständig und welche Sprache ist dann notwendig.
+* Es erfolgt internationale Recherche, die beantragt und bezahlt werden muss.
+* Internationale vorl. Prüfung ist optional.
+* Mit Überführung in nationale Phase beginnt eigentliche Patenterteilung. Vornahme durch z. B. Europäisches Patentamt.
+* PCT-Anmeldung ist also ein Bündel von nationalen Anmeldungen, das ab gewissem Zeitpunkt in nationale Verfahren zerfällt.
+
+### Wirkung des Patents
+
+* Geregelt in [§ 14 PatG](https://www.gesetze-im-internet.de/patg/__14.html) Art. 69 EPÜ
+* Der **Schutzbereich** des Patents und der Patentanmeldung wird durch den Inhalt der Patentansprüche bestimmt. Die Beschreibung und die Zeichnung sind jedoch zur **Auslegung** der Patentansprüche heranzuziehen. 
+* Beschreibung / Zeichnung sollte sorgfältig ausgearbeitet werden.
+
+### Verbotene Benutzungshandlungen
+
+* Geregelt in [§ 9 PatG](https://www.gesetze-im-internet.de/patg/__9.html). 
+* Für geschütztes oder durch geschütztes Verfahren hergestelltes Erzeugnis:
+  * Herstellen
+  * Anbieten
+  * In Verkehr bringen
+  * Gebrauchen
+  * Zu den genannten Zwecken einführen oder Besitzen
+* für geschützes Verfahren:
+  * Anwenden oder \(bösgläubig\) anbieten.
+
+### Einspruchungsverfahren
+
+![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/einspruchsverfahren.jpg)
 
