@@ -52,6 +52,7 @@
 
 ## Vertragsgestaltung
 
+* [Mindmap Paragraphen](vertragsgestaltung/mindmap-paragraphen.md)
 * [Mitschrift](vertragsgestaltung/mitschrift/README.md)
   * [Einführung / Überblick](vertragsgestaltung/mitschrift/einfuehrung-ueberblick.md)
   * [Zivilrechtiche Grundlagen](vertragsgestaltung/mitschrift/zivilrechtiche-grundlagen.md)
