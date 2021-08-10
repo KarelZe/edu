@@ -26,11 +26,6 @@
    * Wenn sie dem Zweck dienen, den Zusammenbau oder die Verbindung einer Vielzahl von untereinander austauschbaren Teilen innerhalb eines Bauteilesystems zu ermöglichen
    * **Beispiel:** KFZ-Ersatzteile
 
-### Unterschied Design-Schutz und Urheberrecht
-
-* Design-Schutz wird für max. 25 Jahre \(5x5 Jahre\) ab Eintragung gewährt gem. [§ 27DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__27.html)
-* Urheberrecht gilt bis 70 Jahre nach dem Tod
-
 ### Schutzerwerb
 
 * Geregelt in [§ 11 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__11.html)
@@ -62,4 +57,9 @@
 * Schutz für DE: DPMA
 * Schutz für EUROPA: EUIPO
 * Schutz für Teile der EU + ggf. EU-Ausland: IR-Muster \(HMA\) und / oder ggf. nationale Anmeldung
+
+### Unterschied Design-Schutz und Urheberrecht
+
+* Design-Schutz wird für max. 25 Jahre \(5x5 Jahre\) ab Eintragung gewährt gem. [§ 27DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__27.html)
+* Urheberrecht gilt bis 70 Jahre nach dem Tod gem. [§ 64 / 65 UrhG](https://www.gesetze-im-internet.de/urhg/__64.html)
 

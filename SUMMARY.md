@@ -55,6 +55,8 @@
 * [Mitschrift](patentrecht/mitschrift/README.md)
   * [Markenrecht](patentrecht/mitschrift/markenrecht.md)
   * [Designrecht](patentrecht/mitschrift/designrecht.md)
+  * [Urheberrecht](patentrecht/mitschrift/urheberrecht.md)
+  * [Patentrecht](patentrecht/mitschrift/patentrecht.md)
 
 ## Vertragsgestaltung
 
