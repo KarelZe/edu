@@ -135,3 +135,64 @@
 
 ![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/einspruchsverfahren.jpg)
 
+### Anmeldetag
+
+* Geregelt in [§ 35 \(1\)](https://www.gesetze-im-internet.de/patg/__35.html), Art 80 EPU
+* Mit Zurerkennung des Anmeldetags wird Priorität der Anwendung gesichert. \(Erstanmelderprinzip\)
+* Vorliegen muss
+  * **Identität des Anmelders** \(z. B. Name\) muss vergestellt werden
+  * **Antrag**
+    * **Wer Anmelder ist**
+  * **Beschreibung der Erfindung**
+    * Muss Angaben enthlaten, die **dem Anschein nach** als Beschreibung anzusehen sind.
+    * Weil Formalprüfer kann nicht nachvollziehen, ob Beschreibung sinnvoll.
+  * **Figuren**
+    * Nur wenn in Beschreibung Bezug genommen wird.
+    * Tag, an dem Figuren vollständig vorliegen, wird dann Anmeldetag
+* Nicht erforderlich sind
+  * ausformulierte Patentansprüche
+  * Gebührenzahlung
+  * Spracherfordernis \(z. B. beliebige Sprache\)
+
+### Einreichung der Anmeldung
+
+* beim zuständigen Amt \(DPMA, EPA, nationale Ämter, OMPI\)
+* direkt / per Post \(ungünstig, weil man Anmeldetag nicht kennt\), Fax, elektronisch
+* Formatanforderungen an Datei z. B. PDF müssen berücksichtigt sein.
+* Über Patentinformationszentrum
+
+### Aufbau der Patentanmeldung
+
+* Titel
+* Einleitung
+* Stand der Technik
+* ggf. Aufgabenstellung
+* Kurzbeschreibung der Erfindung
+* Kurzbeschreibung der Figuren
+* Ausführliche Beschreibung der Erfidnung anhand der Figuren
+* Ansprüche
+  * Patentanspruch sollte formuliert werden, wenn genügend Zeit besteht.
+* \(Zusammenfassung\)
+
+### Patentstrategie
+
+* Stand der Technik, Schutzfähigkeit
+* Benutzungsattraktivität für Wettbewerber
+* Aufwendigkeit einer Umgehungslösung
+  * Hoher Aufwand für Umgehungslösung
+* Wahrnehmbarkeit, Nachweisbarkeit
+* Patentportfolio
+  * Man erzeugt sich Ruf als Innovationsführer z. B. BOSCH
+* Stärkung der Vertragssitutation
+  * Wenn man aus starken Patentportfolio schöpfen kann, kann man im Streitfall ggf. selbst Wettbewerber verklagen.
+
+\*\*\*\*
+
+* **Lizenzeinnahmen**: Je attraktiver eine patentierte Problemlösung für den Wettbewerber ist, desto wahrscheinlicher
+* **Verbieten**: Behinderung von Wettbewerbern zur Verbesserung der eigenen Marktposition
+* **Abschrecken**: Wettbewerber müssen beim Einsatz eigener Patente mit Gegenangriffen rechnen.
+* **Lizenztausch**: Geigenseitige Gewährung von Lizenzen verschafft beiden Partnern Freiräume
+* **Schutz gegen Nachahmung**: Die kostenlose Übernahme eigener Entwicklungsergebnisse durch Wettbewerber wird verhindert.
+* **Zwingen zu "Design" Around**: Der Zang, Patente umgehen zu müssen, führt bei Wettbewerbern zu Nachteilen.
+* **Reputation**: Patente werden als Ausweis innovativer Stärke gewertet.
+
