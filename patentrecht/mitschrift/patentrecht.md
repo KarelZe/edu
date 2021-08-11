@@ -196,3 +196,5 @@
 * **Zwingen zu "Design" Around**: Der Zang, Patente umgehen zu müssen, führt bei Wettbewerbern zu Nachteilen.
 * **Reputation**: Patente werden als Ausweis innovativer Stärke gewertet.
 
+
+
