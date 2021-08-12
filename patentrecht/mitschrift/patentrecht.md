@@ -196,5 +196,31 @@
 * **Zwingen zu "Design" Around**: Der Zang, Patente umgehen zu müssen, führt bei Wettbewerbern zu Nachteilen.
 * **Reputation**: Patente werden als Ausweis innovativer Stärke gewertet.
 
+### Patentanwalt
 
+* unabhängiges Organ der Rechtspflege \([§ 1 PAO](https://www.gesetze-im-internet.de/patanwo/__1.html)\) d. h. Anwendung des Rechts zwischen den Menschen / Institutionen
+* übt einen freien Beruf aus \([§ 2 PAO](https://www.gesetze-im-internet.de/patanwo/__2.html)\) d. h. Tätigkeit ist unabhängig / selbstständig.
+* Voraussetzung:
+  * Technische Befähigung
+  * Erforderliche Rechskenntnisse
+
+### Ausbildung zum Patentanwalt
+
+* Abgeschlossenes technisch-naturwissenschaftliches Studium
+* Mind 1 Jahr technische Tätigkeit
+* Mind. 34 Monate Ausbildung auf dem Gebiet des gewerbl. Rechtsschutzes
+  * 26 Monate in Kanzlei
+  * Begleitet von Fernstudium allg. Recht
+  * 8 Monate "Amtsjahr"
+
+### Aufgaben des Patentanwalts
+
+* Patente / Gebrauchsmuster 
+  * Darf alleine vertreten vor dem Bundesgerichtshof
+* Marken
+* Geschmacksmuster
+* Sortenschutz
+* Halbleiterschutz
+* Arbeitnehmererfindungsrecht
+* Softwareschutz
 
