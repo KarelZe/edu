@@ -224,3 +224,27 @@
 * Arbeitnehmererfindungsrecht
 * Softwareschutz
 
+
+
+### Computerprogramm
+
+* Sotware an sich ist nicht patentfähig
+* Softwareerfindungen sind patentierbar, falls gem. § 1 Abs. 1 PatG:
+
+  * Patenten werden für Erfindungen auf allen Gebieten der Technik erteilt, sofern sie neu sind, auf einer erfinderischen Tätigkeit beruhen und gewerblich anwendbar sind
+  * Auf allen Gebieten der Technik bedeutet, dass nur technische Erfindungen patentierbar sind
+
+### Urheberrecht
+
+* notwendig ist Indivualität, aber nicht geschützt ist routinemäßiges/ allgemeines Verwandtes
+* Nicht geschützt sind Ideen und Grundsätze Schnittstelleniformationen, Pflichtenheft, Handbücher
+
+### Patentschutz
+
+* Patentschutz nur dann, wenn die Lösung des konrketen technischen Problems neu ist und auf erfinderischer Tätigkeit beruht.
+* Außerhalb der Technik liegende Anweisungen gengügen in diesem Zusammenhang nicht; sin sind nur in dem Umfang von Bedeutung, in dem sie auf Lösung de technischen Problems mit technischen Mitteln Einflusss nehmen. D. h. Algorithmus muss konrkete technische Lösung entfalten.
+
+### Patentschutz vs. Urheberschutz bei Software
+
+\(Tabelle aufnehmen\)
+

@@ -53,6 +53,7 @@
 ## Patentrecht
 
 * [Mitschrift](patentrecht/mitschrift/README.md)
+  * [Übersicht](patentrecht/mitschrift/uebersicht.md)
   * [Designrecht](patentrecht/mitschrift/designrecht.md)
   * [Markenrecht](patentrecht/mitschrift/markenrecht.md)
   * [Urheberrecht](patentrecht/mitschrift/urheberrecht.md)
