@@ -122,3 +122,58 @@
 * Relevant ist **objektiver Empfängerhorizont**: Wie hätte ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung verstanden? Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufsetzt! Auch nicht der Vertragspartner!
 * Es ist egal, wie Vertragspartner "es gemeint hat".
 
+### Stellvertretung
+
+* Gesetzliche Grundlage §§ 164 ff. BGB
+* **Beispiel:** Vertrag mit GmbH \(nur jur. Konstrukt\) braucht Vertreter z. B. Geschäftsführerer, Bevollmächtigter. Bevollmächtigter braucht Vollmacht, sodass GmbH überhaupt verpflichtet wird.
+* Wirkung der Stellvertretung sind geregelt in § 164 BGB.
+* **Voraussetzung:** 
+  * Stellvertretung muss **zulässig** sein. Fast immer möglich, außer bei **höchstpersönlichen Rechtsgeschäften** z. B. Eheschließung 
+  * Abgabe **einer eigenen Willenserklärung des Vertreters** \(keine Botenschaft\).
+  * Offenkundigkeit der Vertretung d. h. Vertretung muss nach Außen hin deutlich sein.
+  * Vertretungsmacht für das vorgenommene Rechtgsgeschäft \(Vollmacht, gesetztliche / organschaftliche Vertretung\) muss gegeben sein. z. B. Gesetzlicher Vertreter bei Kindern
+* **Unterschied Botenschaft und Stellvertretung:** 
+  * Bei Botenschaft sagt man nur, was für eine andere Person gesagt wird. 
+  * Bei Stellvertretung gebe ich eine eigene Willenserklärung ab.
+* **Arten der Vertretungsmacht**
+  * **Gesetzliche Vertretungsmacht:** 
+    * Geregelt in [§ 1629 BGB](https://dejure.org/gesetze/BGB/1629.html).
+    * Eltern für Kind
+  * **Organschaftliche Vertretungsmacht:**
+    * durch Gesetz geregelt z. B. Geschäftsführer der GmbH \(§ 35 GmbHG\)
+    * Erteilung der Vollmacht geregelt in [§ 167 BGB](https://dejure.org/gesetze/BGB/167.html).
+* **Unterschied Vertretungsmacht und Vollmacht:**
+  * Jede Vertretungsmacht folgt nicht aus Vollmacht, aber jeder Vollmacht folgt Vertretungmsach
+
+### Formen
+
+#### T**extform**
+
+* Geregelt in [§ 126 b BGB](https://www.gesetze-im-internet.de/bgb/__126.html).
+* Erklärung unverändert wiederzugeben + dauerhaft speichern
+* **Beispiele:** Mieterhöhungsverlangen \([§ 558](https://www.gesetze-im-internet.de/bgb/__558.html)a I\) und Widerrufsblehrung muss in Textform erfolgen \(Art. 246 § 1, EGBGB\)
+
+#### Schriftform / Elektronische Form
+
+* Schriftform [§126 BGB](https://www.gesetze-im-internet.de/bgb/__126.html) 
+* **Beispiele**: Bürgschaftserklärung, Gewerbemietvertrag, Schenkungsversprechen
+* Elektronische Form [§126 a BGB](https://www.gesetze-im-internet.de/bgb/__126.html)
+* Schriftform kann durch elektronische Form ersetzt werden, wenn nichts dagegen spricht.
+
+#### Unterschied Schriftform und Textform:
+
+* Signieren des Dokuments ist nicht erforderlich bei Textform. Bei Schriftform benötige ich eine eigenhändige Unterschrift.
+* E-Mail erfüllt die Voraussetzungen nach [§ 126 a ](https://www.gesetze-im-internet.de/bgb/__126.html)→ Normal keine qualifizierte, elektronische Signatur → E-Mail genügt nicht den Anforderungen an [§ 126 a](https://www.gesetze-im-internet.de/bgb/__126.html), da sie im Normalfall keine qualifizierte Signatur enthält.
+
+#### Öffentliche Beglaubigung / Notarielle Beurkundung
+
+* Öffentliche Beglaubigung \([§129 BGB](https://www.gesetze-im-internet.de/bgb/__129.html)\) 
+  * **Beispiel**: Ausschlagung Erbschaft \(§ 1945\)
+* Notarielle Beurkundung \([§ 128 BGB](https://www.gesetze-im-internet.de/bgb/__128.html)\) 
+  * **Beispiel:** Grundstückskaufverträge \([§ 311b](https://www.gesetze-im-internet.de/bgb/__311.html)\), Erbverzichtsvertrag \([§ 2348](https://www.gesetze-im-internet.de/bgb/__2348.html)\), Veräußerung von GmbH-Geschäftsanteilen \(§ 15 GmbHG\)
+* Unterschied Aussschlagung einer Erbschaft und Erbverzichtsvertrag: 
+  * Bei der Ausschlagung einer Erbaschaft \([§ 1945](https://www.gesetze-im-internet.de/bgb/__1945.html)\) erklärt man nach Eintreten des Todes, dass man nicht erben will, weil z. B. überschuldetes Vermögen.
+  *  Erbschaftsverzicht \([§ 2348](https://www.gesetze-im-internet.de/bgb/__2348.html)\) heißt noch zu Lebzeiten vereinbart der Erblasser mit Verwandten, dass Verwandter nicht erbt.
+
+
+
