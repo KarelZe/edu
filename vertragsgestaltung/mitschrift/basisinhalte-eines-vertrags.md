@@ -34,7 +34,7 @@
 ### Verhandlung ist Ping-Pong-Spiel
 
 1. Ausgangsentwurf
-2. 1. Änderungentwurf z. B. gegenerischer Anwalt streicht was raus / neue Anforderungen der Banken
+2. 1. Änderungsentwurf z. B. gegnerischer Anwalt streicht was raus / neue Anforderungen der Banken
 3. 1. Änderungsentwurf
 4. 1. Änderungsentwurf
 5. Fertiger Vertrag

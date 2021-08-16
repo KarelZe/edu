@@ -45,7 +45,7 @@
   * rechtliche Aspekte
   * technische Aspekte  → z. B. Pläne / Leistungsverzeichnis bei Bauverträgen
   * wirtschaftliche Aspekte → z. B. Was ist Mietzins? Wie bekomme ich regelt, dass Kundenstamm bei mir bleibt?
-* **Flexiblität** z. B. bei Klausel, worauf sich Parteien nicht verständigen können. Wie lässt sich Klausel umformulieren, dass Lösung gefunden wird?
+* **Flexibilität** z. B. bei Klausel, worauf sich Parteien nicht verständigen können. Wie lässt sich Klausel umformulieren, dass Lösung gefunden wird?
   * **Nähe vs. Distanz** z. B. man möchte Vertrag mit bestimmten Kunden schließen vs. man suggeriert Distanz, dass noch andere Vertragspartner im Rennnen sind
   * **Zeitdruck vs. Verlangsamen** z. B. zeitlichen Druck aufbauen bei Vertragspartnern
   * **Entscheidungsdruck vs. Verzögerungen** z. B. Druck bei Vertragsabschluss vs. Verlangsamung etwa Rücksprache mit Aufsichtsrat

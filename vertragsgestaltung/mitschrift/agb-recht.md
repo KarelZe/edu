@@ -2,14 +2,14 @@
 
 * Geregelt in [§§ 305-310 BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
 * **Ziel:** Rationalisierung bei der Abwicklung von Massengeschäften z. B. Bank schließt Darlehen
-* **Problem:** Sinn und Zweck ist Schutz des Schwächern. **Beispiel Handyvertrag:** Es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Der Schwächere muss geschützt werden.
+* **Problem:** Sinn und Zweck ist Schutz des Schwächeren. **Beispiel Handyvertrag:** Es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Der Schwächere muss geschützt werden.
 * Der Staat macht keine AGB.
 
 #### Wie prüfe ich AGB? \(Wichtig\)
 
 1. Schauen, ob Anwendungsbereich des AGB eröffnet wurde 
    * Geregelt in § 310 Abs. 4 BGB.
-   * **Ausnahmen**: Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitrechtliche Kollektivvereinbarung.
+   * **Ausnahmen**: Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitsrechtliche Kollektivvereinbarung.
    * **Einschränkung:** Arbeitsverträge \("im Arbeitsrecht geltende Besonderheiten sind angemessen zu berücksichtigen"\)
 2. Vorliegen der AGB 
    * Geregelt in §§ 305 Abs. 1 310 Abs 3 Nr. 1,2 BGB.
@@ -39,17 +39,17 @@
 * Geregelt in [§ 305 Abs. 2 BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
 * Ausdrücklicher Hinweis auf AGB
 * Deutlich sichtbarer Aushang am Ort des Vertragsabschluss
-* **ODER** Kenntnisnahmemöglichkeit des anderen Vertragspartner → z. B. deutlich sichtbar
-* Überraschende Klausel [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html) → z. B. Zeitschriftenabo bei Waschmaschine
+* **ODER** Kenntnisnahme Möglichkeit des anderen Vertragspartner → z. B. deutlich sichtbar
+* Überraschende Klausel [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html) → z. B. Zeitschriften Abo bei Waschmaschine
 * Überraschend kann auch sein, wenn Klausel an besonderer Stelle steht z. B. im Vertrag unter die Unterschriften positioniert, nicht im "sonstigen" Abschnitt.
 
 #### **Klauselverbote \(wichtig\)**
 
-* Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Regegelt in § 310 Abs. 1 BGB.
-* **Fausformel:**
+* Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Regelt in § 310 Abs. 1 BGB.
+* **Faustformel:**
   * Wenn was in [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) verboten ist, dann ist es mit hoher Wahrscheinlichkeit auch in [§ 307 BGB](https://www.gesetze-im-internet.de/bgb/__307.html) verboten. Ein paar Ausnahmen gibt es. Dies gilt für B2B, weil hier der [§ 308](https://www.gesetze-im-internet.de/bgb/__308.html) und [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) nicht zu  prüfen sind. Bei B2C Verträgen würde Ausschluss über [§ 308](https://www.gesetze-im-internet.de/bgb/__308html) oder [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) erfolgen.
 * Wichtige Klauselverbote ohne Wertungsmöglichkeiten [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html)
   * z. B. 7. \(Verletzung von Leben, Körper, Gesundheit / grobes Verschulden\) und 8. \(Sonstige Haftungsausschlüsse bei Pflichtverletzung\)
-* Wichtige Klauselverbote mit Wertungsmgölichkeit § 308 BGB.
+* Wichtige Klauselverbote mit Wertungsmöglichkeit § 308 BGB.
 * **Folge von § 307**: Man kann vertragswesentliche Pflichten nicht über die ABG ausschließen z. B. über die Verpflichtungen aus dem Kaufvertrag
 
