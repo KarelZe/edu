@@ -509,7 +509,7 @@ $$
 * F: _Draw a confusion matrix. Include the metrics, that are inside the cells._ 
   * ![](../.gitbook/assets/confusion_matrix.svg) 
 * F: _Define precision / recall / sensitivity / False Positive Rate._ 
-  * ![](../.gitbook/assets/grafik%20%283%29%20%281%29%20%281%29%20%282%29%20%282%29%20%285%29%20%285%29%20%281%29.png) 
+  * ![](../.gitbook/assets/grafik%20%283%29%20%281%29%20%281%29%20%282%29%20%282%29%20%285%29%20%285%29%20%285%29%20%281%29.png) 
 * F: _Give an intuition for precision / recall / sensitivity..._ 
   * **Accuracy**: The share of instance that are correctly classified
   * **Precision**: Of examples recognized as cat, what % are actually cats? 95 % means: When classifier says 'cat', in 95 % it is a cat.

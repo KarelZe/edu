@@ -1,6 +1,8 @@
 # Selbsttestfragen
 
-## Zivilrechtliche Grundlagen
+Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
+
+## 🧑‍⚖️ Zivilrechtliche Grundlagen
 
 1. Was bedeutet Vertragsfreiheit und welche Ausprägungen der Vertragsfreiheit lassen sich unterscheiden? Erläutern sie kurz die Ausprägungen.
 2. Welche Einschränkungen der Abschlussfreiheit gibt es? Erläutern Sie die Einschränkungen kurz.
@@ -15,19 +17,29 @@
 11. Erklären Sie kurz den Unterschied zwischen einer rechtsgeschäftlichen, gesetzlichen und organschaftlichen Vertretungsmacht.
 12. Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel.
 
-## Allgemeine Geschäftsbedingungen
+Man unterscheidet:
+
+* **Einseitige Rechtsgeschäfte** \(Beispiel ist Kündigung einer Arbeitstelle\)
+* **Zweiseitige Rechtsgeschäfte**  \(Beispiel ist der Vertrag z. B. Kaufvertrag über eine Maschine\)
+
+## 🛍️Allgemeine Geschäftsbedingungen
 
 1. Warum gibt es Allgemeine Geschäftsbedingungen und warum hat der Gesetzgeber besondere Regelungen für Allgemeine Geschäftsbedingungen geschaffen?
-2. In welchen Schritten sind Allgemeine Geschäftsbedingungen zu prüfen?
-3. Worin unterscheidet sich die Prüfung der Allgemeine Geschäftsbedingungen von einem B2B-Vertrag zu einem B2C-Vertrag?
-4. Welche Voraussetzungen müssen vorliegen, dass Allgemeine Geschäftsbedingungen gegeben sind?
 
-## Denkschritte in der Vertragsgestaltung
+* AGB wurden eingeführt um die Abwicklung von Massengeschäften z. B. Handyverträge zu rationalisieren. Die Verträge sind damit nicht jedes mal neu auszuhandeln.
+* Mit Verwendung von AGB ensteht ein Ungleichgewicht zwischen dem Vertragspartner, der AGB vorgibt und dem der die AGB akzeptieren  muss, sofern der Vertrag zustande kommen soll. Der Schwächere soll damit geschützt werden. 
+* **Beispiel:** Handyvertrag. Es es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Die Schwächere muss geschützt werden.
+
+1. In welchen Schritten sind Allgemeine Geschäftsbedingungen zu prüfen?
+2. Worin unterscheidet sich die Prüfung der Allgemeine Geschäftsbedingungen von einem B2B-Vertrag zu einem B2C-Vertrag?
+3. Welche Voraussetzungen müssen vorliegen, dass Allgemeine Geschäftsbedingungen gegeben sind?
+
+## 🧠Denkschritte in der Vertragsgestaltung
 
 1. Welche Rahmenbedingungen sind bei der Vertragsgestaltung zu beachten?
 2. Welche Gestaltungskriterien sind bei der Vertragsgestaltung zu beachten? Erläutern Sie kurz die Gestaltungskriterien.
 
-## Kaufvertrag
+## 👗Kaufvertrag
 
 1. Zu welchen Themen sollte ein Kaufvertrag regelmäßig Regelungen enthalten?
 2. Welche Besonderheit gilt bei Kaufverträgen über Grundstücken und GmbH-Anteilen gegenüber Kaufverträgen über beweglichen Sachen?
