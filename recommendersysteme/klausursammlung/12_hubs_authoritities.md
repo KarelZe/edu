@@ -56,7 +56,7 @@ A:
 
 **Populäre Seiten:** Seiten mit hohem _In-Degree_ d. h. vielen eingehenden Links.
 
-![\(Eigene Darstellung\)](../../.gitbook/assets/authority%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.svg)
+![\(Eigene Darstellung\)](../../.gitbook/assets/authority%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29%20%283%29.svg)
 
 **Hubs:** Seite, die auf viele Authorities verweist.
 
@@ -64,7 +64,7 @@ A:
 
 **Authorities:** Wird von vielen Hubs empfohlen.
 
-![\(Eigene Darstellung\)](../../.gitbook/assets/authority%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.svg)
+![\(Eigene Darstellung\)](../../.gitbook/assets/authority%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.svg)
 
 Zwischen Hubs und Authorities besteht Wechselwirkung, da sie sich gegenseitig verstärken \(Geyer-Schulz 2020 S. 33\).
 

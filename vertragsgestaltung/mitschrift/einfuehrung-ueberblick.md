@@ -1,11 +1,11 @@
 # Einführung / Überblick
 
-### Vertrag
+## Vertrag
 
 * Verträge = _Ein Vertrag ist die Verwirklichung von Ideen_ → D. h. man setzt mit Verträgen eigene Ideen z. B. Regelung der Zusammenarbeit um Produkt am Markt zu platzieren.
 * Verträge, dienen dazu alles so zu regeln, dass das Wirtschaftsleben, so wir es kennen, funktioniert.
 
-### Vertragstypen 
+## Vertragstypen
 
 ![](../../.gitbook/assets/vertragstypen.svg)
 
@@ -37,7 +37,7 @@
   * **Gelddarlehen** §§ 488 ff. BGB
   * **Lizenzvertrag** z. B. Lizenzierung von Bildern für eine bestimmte Zeitdauer.
 
-### Vertragsverhandlung
+## Vertragsverhandlung
 
 * Vertragsgestaltung ist eingebettet in die **Vertragsverhandlung**
 * **Vertragsverhandlung** umfasst

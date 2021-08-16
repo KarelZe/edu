@@ -1,15 +1,13 @@
 # Basisinhalte eines Vertrags
 
-
-
-### Schritte
+## Schritte
 
 1. Informationsgewinnung
 2. Rohentwurf / 1. Entwurf
 3. Verhandlungen \("Ping-Pong-Spiel"\)
 4. Vertrag
 
-### Informationsgewinnung
+## Informationsgewinnung
 
 * Subjektive Rahmenbedingungen
   * eigene Ziele d. h. warum will Mandant den Vertrag abschließen?
@@ -24,14 +22,14 @@
 * Beachtung von Gestaltungskriterien
 * Bewältigung von Zielkonflikt z. B. Mandant will kurzen, übersichtlichen Vertrag aber alles geregelt haben
 
-### Gestaltungskriterien
+## Gestaltungskriterien
 
 * **Sicherer Weg:** Anwalt ist verpflichtet "Sichersten Weg" aufzuzeigen. Das heißt aber nicht, dass Kunde den auch wählen muss.
 * **Konflikt-Vermeidung** \(eher präventiv durch klare Lösungen\)**:** Sind Parteien einig, bräuchten Sie Vertrag nicht. Vertrag wird immer dann rausgeholt, wenn es zu Uneinigkeit kommt. Man will deshalb Streitigkeiten frühzeitig vermeiden.
 * **Sanktionen**: Wenn ein Vertragspartner Verpflichtungen nicht mehr erfüllt.
 * **Konfliktlösungsverfahren** \(eher, wenn es eigentlich schon zu spät ist\): \*\*\*\*Mediationsverfahren etc.
 
-### Verhandlung ist Ping-Pong-Spiel
+## Verhandlung ist Ping-Pong-Spiel
 
 1. Ausgangsentwurf
 2. 1. Änderungsentwurf z. B. gegnerischer Anwalt streicht was raus / neue Anforderungen der Banken
@@ -39,7 +37,7 @@
 4. 1. Änderungsentwurf
 5. Fertiger Vertrag
 
-### Basisinhalte des Vertrags
+## Basisinhalte des Vertrags
 
 * Rubrum \(~kurze Zusammenfassung der Inhalte\)
   * Betrag: Nur die Bezeichnung "Dienstvertrag" macht noch lange nicht einen Vertag zu einem Dienstvertrag. Analog bei "Arbeitsvertrag".

@@ -5,7 +5,7 @@
 * **Problem:** Sinn und Zweck ist Schutz des Schwächeren. **Beispiel Handyvertrag:** Es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Der Schwächere muss geschützt werden.
 * Der Staat macht keine AGB.
 
-#### Wie prüfe ich AGB? \(Wichtig\)
+## Wie prüfe ich AGB? \(Wichtig\)
 
 1. Schauen, ob Anwendungsbereich des AGB eröffnet wurde 
    * Geregelt in § 310 Abs. 4 BGB.
@@ -20,11 +20,10 @@
    * Klauselverbote ohne Wertungsmöglichkeiten [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html) \(spezielleste Regel\)→  zuerst prüfen vor allgemeiner Regel!
    * Klauselverbote mit Wertungsmöglichkeiten § 308 BGB → als nächstes prüfen
    * Verstoß gegen die Generalklausel § 307 BGB \(allgemeinste Regelung\) → als letztes prüfen, nicht betrachten, wenn bereits durch § 309 abgefrühstückt.
+5. Gem. [§ 310 BGB](https://www.gesetze-im-internet.de/bgb/__310.html) finden AGB keine Anwendung im Erbrecht, Familienrecht, Gesellschaftsrecht, ARbeitsrechtliche Kollektivvereinbarungen \(Tarifverträge, Betriebs- und Dienstvereinbarungen\) § 310 BGB
+6. AGB findet auf Kreditvertrag, Kaufvertrag etc. ... Anwendung.
 
-* Gem. [§ 310 BGB](https://www.gesetze-im-internet.de/bgb/__310.html) finden AGB keine Anwendung im Erbrecht, Familienrecht, Gesellschaftsrecht, ARbeitsrechtliche Kollektivvereinbarungen \(Tarifverträge, Betriebs- und Dienstvereinbarungen\) § 310 BGB
-* AGB findet auf Kreditvertrag, Kaufvertrag etc. ... Anwendung.
-
-#### Was zeichnet AGB aus? 
+## Was zeichnet AGB aus?
 
 * Geregelt in § 305 Abs. 1 BGB
 * **Vertragsbedingungen**
@@ -34,7 +33,7 @@
 * Salvatorische Klausel bei AGB könnte man sich sparen.
 * Gelten einzelne AGB nicht, dann bleibt der Vertrag dennoch wirksam → § 309 BGB \(?\) → Teilnichtigkeit einer AGB
 
-#### Einbeziehen der AGB
+## Einbeziehen der AGB
 
 * Geregelt in [§ 305 Abs. 2 BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
 * Ausdrücklicher Hinweis auf AGB
@@ -43,7 +42,7 @@
 * Überraschende Klausel [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html) → z. B. Zeitschriften Abo bei Waschmaschine
 * Überraschend kann auch sein, wenn Klausel an besonderer Stelle steht z. B. im Vertrag unter die Unterschriften positioniert, nicht im "sonstigen" Abschnitt.
 
-#### **Klauselverbote \(wichtig\)**
+## **Klauselverbote \(wichtig\)**
 
 * Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Regelt in § 310 Abs. 1 BGB.
 * **Faustformel:**
