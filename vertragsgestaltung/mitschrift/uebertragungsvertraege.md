@@ -8,36 +8,38 @@
 * Übertragungsverträge ist ein Vertragstyp nämlich der Kauf
 * Kauf = Austausch Ware gegen Geld
 
-### Unterscheidung nach Kaufgegenstand
+### 🚕Unterscheidung nach Kaufgegenstand
 
-* bewegliche Sachen z. B. Brötchen, Auto
-* unbewegliche Sachen z. B. Grundstücke, Immobilien \(können nicht einzeln gekauft werden\) → d. h. man kauft Immobilie immer mit Grundstück → Ausnahme: Erbbaurecht etc.
-* Rechte
-  * Ansprüche / Forderungen z. B. Forderungenverkauf
-  * Beteiligungen z. B. Geschäftsanteile an GmbH
+* **bewegliche Sachen** z. B. Brötchen, Auto
+* **unbewegliche Sachen** z. B. Grundstücke, Immobilien \(können nicht einzeln gekauft werden\) → d. h. man kauft Immobilie immer mit Grundstück → Ausnahme: Erbbaurecht etc.
+* **Rechte**
+  * **Ansprüche / Forderungen** z. B. Forderungenverkauf
+  * **Beteiligungen** z. B. Geschäftsanteile an GmbH
 * Vereinbare ich nichts, gelten die gesetzlichen Regelungen.
 * Regelungsaspekte / Skelett der Vertrags ist immer gleich z. B. Unternehmenskauf vs. Grundstückskauf.
 
-### Skelett des Vertrags
+### ☠️Skelett des Vertrags
 
 * Kaufgegenstand
+  * Was soll eigentlich verkauft werden?
   * Welche Liqudität muss vorhanden sein bei Unternehmenskauf
   * Zubehör Einbauküche bei Immobilienkauf
 * Kaufpreis
   * Kaufpreiszahlung wird gestreckt / ist auf einmal fällig
   * Wann ist Kaufpreis fällig?
 * Eigentumsübergang + Sicherung des Austauschverhältnisses
-  * Trennungs & Abstraktionsrecht z. B. Verkäufer ist weiterhin Eigentümer, auch wenn Kaufvertrag einer Maschine abgeschlossen ist. Wegen zwei Rechtsgeschäften \(Verpflichtung / Eigentumsübergang\) z. B. bei Immobilien \(§873 BGB\) geht Eigentum erst mit Eintragung im Grundbuch über. Je nach Auslastung Grundbuchamt erfolgt Eigentumsübergang erst 4-5 Mon. später → Sicherung des Austauschverhältnisses
+  * Trennungs & Abstraktionsrecht z. B. Verkäufer ist weiterhin Eigentümer, auch wenn Kaufvertrag einer Maschine abgeschlossen ist. Wegen zwei Rechtsgeschäften \(Verpflichtung / Eigentumsübergang\) z. B. bei Immobilien \(§ 873 BGB\) geht Eigentum erst mit Eintragung im Grundbuch über. Je nach Auslastung Grundbuchamt erfolgt Eigentumsübergang erst 4-5 Mon. später → Sicherung des Austauschverhältnisses
 * Besitzübergang und Gefahrtragung
-  * Eigentum → rechtliche Sachherrschaft / Besitz → dingliche \(?\) Sachherrschaft sind zwei paar Stiefel
+  * Eigentum → rechtliche Sachherrschaft / Besitz → tatsächliche Sachherrschaft sind zwei paar Stiefel
   * Man muss also streng unterscheiden.
   * Bei Besitzübergang stellt sich die Frage der Gefahrtragung d. h. was passiert z. B. wenn Kaufgegenstand gar nicht mehr besteht? → Ab wann liegt Risiko bei Käufer / wann Verkäufer?
   * Unmöglichkeit § 275 BGB gilt nicht immer. Unmöglichkeit kann nur angewendet werden, sofern Verkäufer Gefahrtragung hat d. h. die Ware noch nicht beim Spediteur ist. Brennt Ware ab, bevor sie versendet werden kann, dann besteht Unmöglichkeit.
 * Rechts- und Sachmängelhaftung
-  * Vollzugs- und Wirksamkeitserfordernisse z. B. Vorkaufrecht der Gemeinde bei Kaufvertrag
+* Vollzugs- und Wirksamkeitserfordernisse 
+  * z. B. Verzicht der Gemeinde auf Vorkaufrecht bei Kaufvertrag
 * Kosten und Steuern
 
-### Gesetztliche Vorschriften
+### 🧱Gesetztliche Vorschriften
 
 * § 433 BGB: Vertragstypische Pflichten \(Essentialia Negoti\)
   * Verkäufer: Übergabe der Sache + dem Käufer Eigentum verschaffen
@@ -58,7 +60,7 @@
   * Gem. § 447 liegt eigentlich Versandrisiko bei Käufer. Überlagert durch § 475 Abs. 2 BGB. Fast immer trägt Verkäufer dann das Risiko des Untergangs!
 * §§ 311b BGB, 15 Abs. 4 GmbHG: Formvorschriften
 
-### Sach- und Rechtsmängel
+### 🤥Sach- und Rechtsmängel
 
 * Sach- oder Rechtsmangel = Abweichung der Ist- von der Soll-Beschaffenheit
 * Sachmangel liegt auch vor, wenn sich offensichtlich Sache nicht für den gewünschten Zweck eignet.
