@@ -1,5 +1,9 @@
 # Designrecht
 
+### 🗺️Paragraphenübersicht
+
+![&#xDC;bersicht &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/designrecht.svg)
+
 ### Begriffsbestimmung Design
 
 * Geregelt in [§ 1 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__1.html)
