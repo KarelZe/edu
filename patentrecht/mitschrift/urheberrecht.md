@@ -1,5 +1,9 @@
 # Urheberrecht
 
+### 🗺️Paragraphenübersicht
+
+![&#xDC;bersicht &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/urheberrecht.svg)
+
 ### Geschützte Werke
 
 * Geregelt in [§ 2 UrhG](https://www.gesetze-im-internet.de/urhg/__2.html).
