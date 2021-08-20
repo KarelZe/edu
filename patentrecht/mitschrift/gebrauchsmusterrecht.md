@@ -1,5 +1,9 @@
 # Gebrauchsmusterrecht
 
+### 🗺️Paragraphenübersicht
+
+![&#xDC;berblick &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/gebrauchsmusterrecht.svg)
+
 ### Überblick
 
 * Gebrauchsmusterrecht existiert auf nationaler Ebene. Es gibt kein EP- oder EU Pendant.
