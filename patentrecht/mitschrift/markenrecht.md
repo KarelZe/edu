@@ -1,5 +1,9 @@
 # Markenrecht
 
+### 🗺️Paragraphenübersicht
+
+![Relevante Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/markenrecht.svg)
+
 ### Historie
 
 * 1874 tratt Gesetz für Markenschutz in Kraft. Damals bestand aber noch kein Patentamt. Eintragung erfolgte bei Handelsregister.
@@ -86,7 +90,7 @@ Eintragung steht entgegen:
 * Geregelt in [§ 42 MarkenG](https://www.gesetze-im-internet.de/markeng/__42.html)
 * Inhaber älterer Rechte = eingetragene Marke \(§ 4 MarkenG\) oder Geschäftsbezeichnungen \(§ 5 MarkenG\) 
 * Prüfung **relevanter Schutzbedürfnisse** 
-  * Releative Schutzbedürfnisse geregelt in § 9 MarkenG ****
+  * Relative Schutzbedürfnisse geregelt in § 9 MarkenG ****
   * Prüfung, ob Kollision zweier gegenüberstehender Zeichen besteht.
 * Löschung, Teillöschung oder Zurückweisung
   * **Identität** oder **Ähnlichkeit** der beiden Marken kann vom Publikum verwechselt oder in Verbindung gebracht werden
