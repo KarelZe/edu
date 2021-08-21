@@ -10,7 +10,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 
 ## Linear Classification
 
-* Write down the objective of linear binary logistic regression. The samples are given by \(x_{i}\) and the labels by \(c_{i} \in\{0,1\}\). How is \(p\left(c_{i} \mid \boldsymbol{x}_{i}\right)\) assumed to be distributed in binary logistic regression?🦧
+* Write down the objective of linear binary logistic regression. The samples are given by $$x_{i}$$ and the labels by $$c_{i} \in\{0,1\}$$. How is $$p\left(c_{i} \mid \boldsymbol{x}_{i}\right)$$ assumed to be distributed in binary logistic regression?🦧
 
 ## Model Selection
 
@@ -84,12 +84,12 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 * What is the relation between the slack variables and the hinge loss?🧠
 * What are advantages and disadvantages in comparison to logistic regression?🧠
 * What is the difference between gradients and sub-gradients?🧠
-* First, explain the intuition behind slack-variables in support vector machine training. Second, for a single data-point \(\left(\boldsymbol{x}_{i}, c_{i}\right)\) the margin condition with slack variable \(\xi_{i}\) is given as
-\[
+* First, explain the intuition behind slack-variables in support vector machine training. Second, for a single data-point $$\left(\boldsymbol{x}_{i}, c_{i}\right)$$ the margin condition with slack variable $$\xi_{i}$$ is given as
+$$
 c_{i}\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}+b\right) \geq 1-\xi_{i}
-\]
-  - Assuming \(0 \leq \xi_{i} \leq 1\), is \(\boldsymbol{x}_{i}\) classified correctly?
-  - Assuming \(\xi_{i}>1\), is \(x_{i}\) classified correctly?🦧
+$$
+  - Assuming $$0 \leq \xi_{i} \leq 1$$, is $$\boldsymbol{x}_{i}$$ classified correctly?
+  - Assuming $$\xi_{i}>1$$, is $$x_{i}$$ classified correctly?🦧
 
 ## Bayesian Learning
 
@@ -112,13 +112,13 @@ c_{i}\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}+b\right) \geq 1-\xi_{i}
 * What kind of functions can single-layer neural networks learn?🧠
 * Why do we need non-linear activation functions?🧠
 * What activation functions can we use and what are the advantages/disadvantages of those?🧠
-* What output layer and loss function to use given the task \(regression, classification\)?🧠
+* What output layer and loss function to use given the task (regression, classification)?🧠
 * Why not use a sigmoid activation function?🧠
 * Derive the equations for forward and backpropagation for a simple network.🧠
 * What is mini-batch gradient descent? Why use it instead of stochastic gradient descent or full gradient descent?🧠
 * Why neural networks can overfit and what are the options to prevent it?🧠
 * Why is the initialization of the network important?🧠
-* What can you read from the loss-curves during training \(validation and training loss\)?🧠
+* What can you read from the loss-curves during training (validation and training loss)?🧠
 * How can we accelerate gradient descent?🧠
 * How does Adam work?🧠
 * What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧
@@ -142,10 +142,10 @@ c_{i}\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}+b\right) \geq 1-\xi_{i}
   - Gaussian Processes
   - Decision Trees? 🦧
 * You are given the following optimization problem:
-\[
+$$
 \begin{aligned}
 &\underset{a}{\operatorname{argmax}} a^{2} h \\
 &\qquad \text { s.t. } S_{\max } \geq 2 a^{2}+4 a h
 \end{aligned}
-\]
-Write down the Lagrangian. Derive the optimal value for \(a\) depending on your lagrangian multiplier.
+$$
+Write down the Lagrangian. Derive the optimal value for $$a$$ depending on your lagrangian multiplier.
