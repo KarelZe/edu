@@ -2,8 +2,15 @@
 
 Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Recall** gedacht und eine Ergänzung zu Karteikarten.
 
-Offizielle Fragen sind mit 🧠 markiert. Eigene Fragen haben keine Markierung.
+Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eigene Fragen haben keine Markierung.
 
+## Linear Regression
+
+* Under which assumptions is the least squares objective from linear regression equivalent to a maximum likelihood objective?🦧
+
+## Linear Classification
+
+* 
 ## Model Selection
 
 * Why is it a bad idea to evaluate your algorithm on the training set? 🧠
