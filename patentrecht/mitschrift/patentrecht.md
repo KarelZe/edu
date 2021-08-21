@@ -1,13 +1,17 @@
 # Patentrecht
 
-### Wa**s** ist ein Patent?
+### 🗺️Paragraphenübersicht
+
+![&#xDC;berblick &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/patentrecht2.svg)
+
+### 🪧Wa**s** ist ein Patent?
 
 * Technisches Schutzrecht, dass bestimmte Auflagen erfüllen muss
 * Zeitlich befristetes Ausschließlichkeitsrecht 
   * Patentinhaber wird zugestanden anderen das Patent zu nutzen
   * Wirtschaftspolitisch ist Patent **kein Monopol**
 
-### **Sinn und Zweck eines Patents**
+### **⁉️Sinn und Zweck eines Patents**
 
 **Vier klassische Theorien:**
 
@@ -16,7 +20,7 @@
 3. **Belohnungstheorie:** Belohnung des Erfinders, weil er für Gesellschaft Erfindung gemacht hat.
 4. **Ansporntheorie:** Ansporn aus Belohnung und Verwertungsmöglichkeiten
 
-### Ausschließlichkeitswirkung
+### 🧭Ausschließlichkeitswirkung
 
 * Geregelt in [§ 9 PatG](https://www.gesetze-im-internet.de/patg/__9.html)
 * Allein der Patentinhaber ist befugt, das Patent im Rahmen des geltenden Rechts zu benutzen.
@@ -26,7 +30,7 @@
   * Ein Erzeugnis anzubieten oder in Verkehr zubringen ..., dass mit dem patentierten Verfahren erstellt wurde. Kombination aus oben. Auf Erzeugnis gibt es keinen Patenschutz. Auf Verfahren schon.
 * Es muss nicht unbedingt Geld verdient werden.
 
-### Überblick Patentsystem
+### 🗃️Überblick Patentsystem
 
 * Organisation nach **Teritorialitätsprinzip** d. h. jeder Staat definiert eigene Regeln z. B. Prüfungen, Anfechtbarkeit etc.
 * In Deutschland geregelt im [PatG](https://www.gesetze-im-internet.de/patg/). Europäisches Patentübereinkommen EPÜ kann auch Patente mit Wirkung für Deutschland abtreten. Deutschland hat also Rechte abgetreten. PatG wurde dafür harmonisiert.
@@ -34,7 +38,7 @@
   * Es werden keine Patente erteilt. Patente werden durch einzelne Länder / Europäisches Patentamt erteilt 
   * Es ist ein übergeordnetes, vorgeschaltetes Anmelde- und Recherche verfahren.
 
-### Patentierungsvoraussetzungen
+### ⏳Patentierungsvoraussetzungen
 
 * Geregelt in [§ 1 PatG](https://www.gesetze-im-internet.de/patg/__1.html), Art. 52 EPÜ
 * Patente werden für Erfindungen auf allen Gebieten der Technik erteilt, sofern sie:
@@ -71,13 +75,13 @@
   * Erfindung kann übertragen werden z. B. auf Arbeitgeber übergehen.
   * Auch **Erfindergemeinschaft** d. h. mehrere Erfinder möglich.
 
-### Arten der Erfindung
+### 🧑‍🔬Arten der Erfindung
 
 * **Erzeugnispatent:** \(körperliche\) Sache mit spezifischen technischen Eigenschaften
 * **Verfahrenspatent:** technisches Handeln mit evtl. mehreren Verfahrensmaßnahmen
   * **Beispiel:** Funktionsweise von Regelungsmechanismen
 
-### Anmeldeverfahren
+### 🐌Anmeldeverfahren
 
 * Geregelt in [§ 34 PatG](https://www.gesetze-im-internet.de/patg/__34.html) Abs. 3.
 * Schriftliche Anmeldung mit:
@@ -113,13 +117,13 @@
 * Mit Überführung in nationale Phase beginnt eigentliche Patenterteilung. Vornahme durch z. B. Europäisches Patentamt.
 * PCT-Anmeldung ist also ein Bündel von nationalen Anmeldungen, das ab gewissem Zeitpunkt in nationale Verfahren zerfällt.
 
-### Wirkung des Patents
+### 💊Wirkung des Patents
 
 * Geregelt in [§ 14 PatG](https://www.gesetze-im-internet.de/patg/__14.html) Art. 69 EPÜ
 * Der **Schutzbereich** des Patents und der Patentanmeldung wird durch den Inhalt der Patentansprüche bestimmt. Die Beschreibung und die Zeichnung sind jedoch zur **Auslegung** der Patentansprüche heranzuziehen. 
 * Beschreibung / Zeichnung sollte sorgfältig ausgearbeitet werden.
 
-### Verbotene Benutzungshandlungen
+### ⛔Verbotene Benutzungshandlungen
 
 * Geregelt in [§ 9 PatG](https://www.gesetze-im-internet.de/patg/__9.html). 
 * Für geschütztes oder durch geschütztes Verfahren hergestelltes Erzeugnis:
@@ -131,11 +135,11 @@
 * für geschützes Verfahren:
   * Anwenden oder \(bösgläubig\) anbieten.
 
-### Einspruchungsverfahren
+### 🙋Einspruchungsverfahren
 
 ![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/einspruchsverfahren.jpg)
 
-### Anmeldetag
+### 🌄Anmeldetag
 
 * Geregelt in [§ 35 \(1\)](https://www.gesetze-im-internet.de/patg/__35.html), Art 80 EPU
 * Mit Zurerkennung des Anmeldetags wird Priorität der Anwendung gesichert. \(Erstanmelderprinzip\)
@@ -154,14 +158,14 @@
   * Gebührenzahlung
   * Spracherfordernis \(z. B. beliebige Sprache\)
 
-### Einreichung der Anmeldung
+### 👣Einreichung der Anmeldung
 
 * beim zuständigen Amt \(DPMA, EPA, nationale Ämter, OMPI\)
 * direkt / per Post \(ungünstig, weil man Anmeldetag nicht kennt\), Fax, elektronisch
 * Formatanforderungen an Datei z. B. PDF müssen berücksichtigt sein.
 * Über Patentinformationszentrum
 
-### Aufbau der Patentanmeldung
+### 🎀Aufbau der Patentanmeldung
 
 * Titel
 * Einleitung
@@ -174,7 +178,7 @@
   * Patentanspruch sollte formuliert werden, wenn genügend Zeit besteht.
 * \(Zusammenfassung\)
 
-### Patentstrategie
+### ✅Patentstrategie
 
 * Stand der Technik, Schutzfähigkeit
 * Benutzungsattraktivität für Wettbewerber
@@ -196,7 +200,7 @@
 * **Zwingen zu "Design" Around**: Der Zang, Patente umgehen zu müssen, führt bei Wettbewerbern zu Nachteilen.
 * **Reputation**: Patente werden als Ausweis innovativer Stärke gewertet.
 
-### Patentanwalt
+### 👩‍⚖️Patentanwalt
 
 * unabhängiges Organ der Rechtspflege \([§ 1 PAO](https://www.gesetze-im-internet.de/patanwo/__1.html)\) d. h. Anwendung des Rechts zwischen den Menschen / Institutionen
 * übt einen freien Beruf aus \([§ 2 PAO](https://www.gesetze-im-internet.de/patanwo/__2.html)\) d. h. Tätigkeit ist unabhängig / selbstständig.
@@ -204,7 +208,7 @@
   * Technische Befähigung
   * Erforderliche Rechskenntnisse
 
-### Ausbildung zum Patentanwalt
+### 👶Ausbildung zum Patentanwalt
 
 * Abgeschlossenes technisch-naturwissenschaftliches Studium
 * Mind 1 Jahr technische Tätigkeit
@@ -213,7 +217,7 @@
   * Begleitet von Fernstudium allg. Recht
   * 8 Monate "Amtsjahr"
 
-### Aufgaben des Patentanwalts
+### 🍦Aufgaben des Patentanwalts
 
 * Patente / Gebrauchsmuster 
   * Darf alleine vertreten vor dem Bundesgerichtshof
@@ -226,7 +230,7 @@
 
 
 
-### Computerprogramm
+### 🧑‍💻Computerprogramm
 
 * Sotware an sich ist nicht patentfähig
 * Softwareerfindungen sind patentierbar, falls gem. § 1 Abs. 1 PatG:
@@ -234,17 +238,22 @@
   * Patenten werden für Erfindungen auf allen Gebieten der Technik erteilt, sofern sie neu sind, auf einer erfinderischen Tätigkeit beruhen und gewerblich anwendbar sind
   * Auf allen Gebieten der Technik bedeutet, dass nur technische Erfindungen patentierbar sind
 
-### Urheberrecht
+### 🛩️Urheberrecht
 
 * notwendig ist Indivualität, aber nicht geschützt ist routinemäßiges/ allgemeines Verwandtes
 * Nicht geschützt sind Ideen und Grundsätze Schnittstelleniformationen, Pflichtenheft, Handbücher
 
-### Patentschutz
+### 🏫Patentschutz
 
 * Patentschutz nur dann, wenn die Lösung des konrketen technischen Problems neu ist und auf erfinderischer Tätigkeit beruht.
 * Außerhalb der Technik liegende Anweisungen gengügen in diesem Zusammenhang nicht; sin sind nur in dem Umfang von Bedeutung, in dem sie auf Lösung de technischen Problems mit technischen Mitteln Einflusss nehmen. D. h. Algorithmus muss konrkete technische Lösung entfalten.
 
-### Patentschutz vs. Urheberschutz bei Software
+### 🥊Patentschutz vs. Urheberschutz bei Software
 
-\(Tabelle aufnehmen\)
+| Thema | Patentrecht | Urheberrecht |
+| :--- | :--- | :--- |
+| Entstehung | Anmeldung/Prüfung/Erteilung | Programmierung |
+| Schutzgrenze | kein Schutz für „Software als solche“ | kein Schutz für Ideen u. Grundsätze/ Algorithmen |
+| Schutzumfang | Schutz v.Ideen u. Lösungsprinzipien | Schutz gegen Vervielfältigung, Internetverbreitung, Internetverbreitung, Umarbeitung d. Programms in Programms in konkreterForm |
+| Dauer | 20 Jahre nach Anmeldung | 70 Jahre nach Tod. d. Urhebers |
 
