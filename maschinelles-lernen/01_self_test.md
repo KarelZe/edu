@@ -78,6 +78,9 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why are kernels more powerful than traditional feature-based methods?🧠
 * What do we mean by the kernel trick?🧠
 * How do we apply the kernel trick to ridge regression?🧠
+* Study the kernel properties, where is symmetry relevant? Where and why is positive definiteness of matrix important?
+* What is the impact of changing $$\sigma$$ in a RBF kernel?
+* What is the actual gain from using polynomial kernels?
 
 ## SVMs
 
