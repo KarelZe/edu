@@ -10,28 +10,31 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 
 ## Linear Classification
 
-* 
+* Write down the objective of linear binary logistic regression. The samples are given by \(x_{i}\) and the labels by \(c_{i} \in\{0,1\}\). How is \(p\left(c_{i} \mid \boldsymbol{x}_{i}\right)\) assumed to be distributed in binary logistic regression?🦧
+
 ## Model Selection
 
 * Why is it a bad idea to evaluate your algorithm on the training set? 🧠
 * What is the difference between true and empirical risk? 🧠
 * The true risk can be decomposed in which parts?🧠
 * How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?🧠
-* What is the advantage / disadvantage of k-fold CV vs. the Hold-out method?🧠
+* What is the advantage/disadvantage of k-fold CV vs. the Hold-out method?🧠
 * Why does it make sense to penalize the norm of the weight vector?🧠
 * Which norm can we use and what are the different effects?
 * What is the effect of early stopping?🧠
 
-## Nearest Neighbour Algorithms, Trees and Forests
+## Nearest Neighbour Algorithms, Trees, and Forests
 
-* What we mean  with non-parametric / instance-based machine learning algorithms?🧠
+* What we mean with non-parametric / instance-based machine learning algorithms?🧠
 * How $$k$$-Nearest neighbour works?🧠
-* Why is it hard to use for high dimensional data?🧠
+* Why is it hard to use for high-dimensional data?🧠
 * How to search for nearest neighbours efficiently?🧠
 * What is a binary regression / decision tree?🧠
 * What are useful splitting criterions?🧠
 * How can we influence the model complexity of a tree?🧠
 * Why is it useful to use multiple trees and randomization?🧠
+* Name at least two advantages and two disadvantages of decision trees. 🦧
+* Which data structure is usually used to efficiently implement k-Nearest Neighbours? Name the main steps in building that data structure.🦧
 
 ## Clustering
 
@@ -81,10 +84,16 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 * What is the relation between the slack variables and the hinge loss?🧠
 * What are advantages and disadvantages in comparison to logistic regression?🧠
 * What is the difference between gradients and sub-gradients?🧠
+* First, explain the intuition behind slack-variables in support vector machine training. Second, for a single data-point \(\left(\boldsymbol{x}_{i}, c_{i}\right)\) the margin condition with slack variable \(\xi_{i}\) is given as
+\[
+c_{i}\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}+b\right) \geq 1-\xi_{i}
+\]
+  - Assuming \(0 \leq \xi_{i} \leq 1\), is \(\boldsymbol{x}_{i}\) classified correctly?
+  - Assuming \(\xi_{i}>1\), is \(x_{i}\) classified correctly?🦧
 
 ## Bayesian Learning
 
-* What are the 2 basic steps behind Bayesian Learning?🧠
+* What are the two basic steps behind Bayesian Learning?🧠
 * Why is Bayesian Learning more robust against overfitting?🧠
 * What happens with the posterior if we add more data to the training set?🧠
 * What is completing the square and how does it work?🧠
@@ -95,13 +104,14 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 * What is the major advantage of Gaussian processes over kernel ridge regression?🧠
 * Why are GPs a Bayesian approach?🧠
 * What principle allowed deriving GPs from a Bayesian regression point of view?🧠
+* Gaussian Processes(GP) are also referred to as a "Bayesian Kernel Regression" approach. Why? 🦧
 
 ## Neural Nets
 
-* How odes logistic regression relate to neural networks?🧠
-* What kind of functions can single layer neural networks learn?🧠
+* How does logistic regression relate to neural networks?🧠
+* What kind of functions can single-layer neural networks learn?🧠
 * Why do we need non-linear activation functions?🧠
-* What activation functions can we use and what are the advantages / disadvantages of those?🧠
+* What activation functions can we use and what are the advantages/disadvantages of those?🧠
 * What output layer and loss function to use given the task \(regression, classification\)?🧠
 * Why not use a sigmoid activation function?🧠
 * Derive the equations for forward and backpropagation for a simple network.🧠
@@ -111,6 +121,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 * What can you read from the loss-curves during training \(validation and training loss\)?🧠
 * How can we accelerate gradient descent?🧠
 * How does Adam work?🧠
+* What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧
 
 ## CNNs
 
@@ -121,4 +132,20 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Eig
 * How can we compute dimensionality of the output of a convolutional layer?🧠
 * Describe basic properties of 'AlexNet' and 'VCG'.🧠
 * What is the main idea of 'ResNet' to make it very deep?🧠
+* Why is it not feasible to use a fully connected layer for images? How do convolutional neural networks solve this problem and which property of an image do they exploit?🦧
 
+## General
+
+* What are the hyperparameters for choosing the model complexity for each of the following algorithms. Name at least one hyperparameter for every algorithm.
+  - Neural Networks
+  - Support Vector Machines
+  - Gaussian Processes
+  - Decision Trees? 🦧
+* You are given the following optimization problem:
+\[
+\begin{aligned}
+&\underset{a}{\operatorname{argmax}} a^{2} h \\
+&\qquad \text { s.t. } S_{\max } \geq 2 a^{2}+4 a h
+\end{aligned}
+\]
+Write down the Lagrangian. Derive the optimal value for \(a\) depending on your lagrangian multiplier.
