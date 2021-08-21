@@ -11,7 +11,7 @@
 
 * Man unterscheidet die beiden Vertragstypen:
   * **Austauschverträge** → Bezieht sich auf **Gegenläufigkeit** \(z. B. Auftragnehmer vs. Auftraggeber oder Verkäufer und Käufer etc.\)
-  * **Kooperationsverträge** → Bezieht sich auf **Gemeinsamkeit** \(z. B. Startup mit mehreren Companions, die dasselbe Ziel haben z. B. BMW und Startup koopieren für neues Produkt\)
+  * **Kooperationsverträge** → Bezieht sich auf **Gemeinsamkeit** \(z. B. Startup mit mehreren  Kompagnon, die dasselbe Ziel haben z. B. BMW und Startup koopieren für neues Produkt\)
   * Man unterscheidet dann **Austauschverträge** weiter nach **Übertragungsverträge** etc.
 * **Übertragungsvertrag:** Ziel dieser Verträge ist die Verschaffung des Eigentums an einer Sache \(z. B. Auto, Grundstück\) oder einem Recht \(z. B. Forderung, Gesellschaftsanteil\)
 * Varianten vom **Übertragungsvertrag**
@@ -58,8 +58,8 @@
   * Selbstoffenbarung \(was ich von mir kundgebe\)
   * Beziehung \(was ich von dir halte und wie wir zueinander stehen\)
   * Appell \(wozu ich dich veranlassen will\)
-* In Vertragsgestaltung spielen durch:
+* Fallen in der Vertragsgestaltung:
   * Reziprozitätsfalle → "Tür ins Gesicht Technik" → Man verkleinert seine ursprüngliche Forderung, Gegenpartei sieht sich dann gezwungen Vertrag abzuschließen
-  * Konsistenzfalle → "Fuß in die Tür Technik" → "Salami-Taktik" hat man ein Zugeständnis erreicht, wird man auch zweites errreichen
+  * Konsistenzfalle → "Fuß in die Tür Technik" → "Salami-Taktik" hat man ein Zugeständnis erreicht, wird man auch zweites erreichen
   * Knappheit
 
