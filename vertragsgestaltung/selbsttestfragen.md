@@ -36,8 +36,19 @@ Man unterscheidet:
 
 ## 🧠Denkschritte in der Vertragsgestaltung
 
-1. Welche Rahmenbedingungen sind bei der Vertragsgestaltung zu beachten?
-2. Welche Gestaltungskriterien sind bei der Vertragsgestaltung zu beachten? Erläutern Sie kurz die Gestaltungskriterien.
+1. _Welche Rahmenbedingungen sind bei der Vertragsgestaltung zu beachten?_
+
+* **subjektive Rahmenbdingungen**, diese umfassen die eigenen Ziele sowie die Ziele des Gegeners.
+* **rechtliche Rahmenbedingungen** Etwa, ob es sich um Einzelvertrag oder um Vertrag für viele Geschäfte \(AGB-Recht\) handelt.
+* **rechtliche / tatsächliche Rahmenbedingungen** Umfasst technische und wirtschaftliche Fragestellungen.
+
+1. _Welche Gestaltungskriterien sind bei der Vertragsgestaltung zu beachten? Erläutern Sie kurz die Gestaltungskriterien._
+
+* **Sicherer Weg:** Anwalt ist verpflichtet "sichersten Weg" aufzuzeigen. Das heißt aber nicht, dass Mandant den auch wählen muss.
+* **Konflikt-Vermeidung:** Sind Parteien einig, bräuchten Sie Vertrag nicht. Vertrag wird immer dann rausgeholt, wenn es zu Uneinigkeiten kommt. Man will deshalb Streitigkeiten frühzeitig vermeiden.
+* **Sanktionen**: Sanktionsmechanismus, wenn ein Vertragspartner Verpflichtungen nicht mehr erfüllt.
+* **Konfliktlösungsverfahren:** Vorkehrungen, um etwaige Konflikte aufzulösen  z. B. Mediationsverfahren etc.
+* **Bewältigung von Unsicherheit:** Regelungen, wie im Fall von Unsicherheit weiter vorzugehen ist.
 
 ## 👗Kaufvertrag
 
@@ -94,10 +105,44 @@ _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf An
 
 ## 🎪Gesellschaftsrecht
 
-1. Welche zwei Arten von Gesellschaftstypen lassen sich grundsätzlich unterscheiden? Nennen Sie jeweils zwei Beispiele für diese Gesellschaftstypen und ein Kriterium, worin sich diese Gesellschaftstypen besonders unterscheiden?
-2. X verkauft an die Z GbR, deren Gesellschafter A und B sind, einen LKW. Die Z GbR zahlt den Kaufpreis nicht. X möchte jetzt direkt gegen den Gesellschafter A vorgehen. Mit Erfolg? Wie sehe es aus, wenn es sich nicht um eine GbR, sondern um eine GmbH handeln würde?
-3. Worin liegen die Gemeinsamkeit und worin unterscheiden sich die GbR und die OHG?
-4. Wie unterscheidet sich die Haftung eines Komplementärs von der Haftung eines Kommanditisten?
-5. Welche Phasen der Gründung durchläuft eine GmbH?
-6. Worin unterscheidet sich die GmbH von der UG?
+1. _Welche zwei Arten von Gesellschaftstypen lassen sich grundsätzlich unterscheiden? Nennen Sie jeweils zwei Beispiele für diese Gesellschaftstypen und ein Kriterium, worin sich diese Gesellschaftstypen besonders unterscheiden?_
+   * **Personengesellschaften**
+     * Beispiel: OHG und KG
+   * **Kapitalgesellschaften**
+     * Beispiel: GmbH und AG
+   * **Unterschied: persönliche Haftung vs. Haftungsbeschränkung**
+     * Komplementäre / Kommanditisten haften bis zu bestimmter Grenze oder unbegrenzt
+     * Gesellschafter z. B. haften nur mit Einlage, nicht aber persönlich → Soll wirtschaftliches Handeln fördern → In Praxis wird über Sicherungsmittel Haftung hergestellt. → Haftungsbeschränkung wird ausgehebelt
+   * **Unterschied: Selbstorganschaft vs. Fremdorganschaft**
+     * Gesellschaft besteht nur auf Papier. Deshalb braucht es Organe, die für Gesellschaft handeln.
+     * **Selbstorganschaft** z. B. bei OHG, KG → Organschaftliche Vertretung = Eigenvertretung durch Gesellschafter
+     * **Fremdorganschaft** z. B. bei GmbH → Gesellschafter und Geschäftsführer kann zusammenfallen, muss aber nicht. 
+2. _X verkauft an die Z GbR, deren Gesellschafter A und B sind, einen LKW. Die Z GbR zahlt den Kaufpreis nicht. X möchte jetzt direkt gegen den Gesellschafter A vorgehen. Mit Erfolg? Wie sehe es aus, wenn es sich nicht um eine GbR, sondern um eine GmbH handeln würde?_
+
+* Nach § 128 HGB haften Gesellschafter für Verbindlichkeiten der Gesellschaft den Gläubigern als Gesamtschuldner persönlich. Dies gilt analog für die GbR. Ein Rückgriff des X auf A ist damit möglich. A hat seinerseits einen Ansprüch gegenüber den anderen Gesellschaftern.
+* Bei einer GmbH hingegen ist die Haftung der Gesellschafter nach § 13 GmbHG Abs. 2 auf das Gesellschaftsvermögen begrenzt. Ein Rückgriff auf Gesellschafter A ist damit nicht möglich.
+
+1. _Worin liegen die Gemeinsamkeit und worin unterscheiden sich die GbR und die OHG?_
+
+* GbR erfordert typischerweise **keine Eintragung** ins Handelsregister. Eine GbR kann jedoch durch **Eintragung** in das Handelsregister die Rechtsform einer OHG annehmen. 
+* Nach § 31 BGB haften dei Gesellscahfter einer BGB-Gesellschaft als Gesamtschuldner und persönlich. Wie die Gesellschafter einer GbR-Gesellschaft haften auch die Gesellschafter der OHG unmittelbar mit ihrem Privat- und Gesellschaftsvermögen \(Vgl. § 128 HGB\). 
+* OHG setzt Betrieb eines Handelsgewerbes nach § 2 HGB voraus. D. h. werden die Eigenschaften an ein Handelsgewerbe erfüllt, so sind die Regelungen der OHG anzuwenden.
+
+1. _Wie unterscheidet sich die Haftung eines Komplementärs von der Haftung eines Kommanditisten?_
+   * Komplementäre haften unbegrenzt als persönlich haftende Gesellschafter \(Vgl. § 161 HGB\)
+   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 HGB\)
+2. _Welche Phasen der Gründung durchläuft eine GmbH?_
+   1. Gründungsentschluss
+   2. Vorgründungsgesellschaft
+   3. Notarieller Gründungsvertrag
+   4. Vor-Gesellschaft / Vor-GmbH
+   5. Eintragung
+   6. "fertige" GmbH
+3. _Worin unterscheidet sich die GmbH von der UG?_
+
+* Grundsätzlich ist die UG eine Variante / Untertyp der GmbH. 
+* Zentraler Unterschied ist:
+  * UG kann bereits mit einem Stammkapital ab 1 EUR gegründet werden \(vgl. § 5a GmbHG\)
+  * Für GmbH wird Stammkapital i. H. v. 25.000 EUR benötigt. \(vgl. § 5 GmbHG\)
+  * Bei der GmbH kann das Stammkapital als Bareinlage geleistet werden \(vgl. § 5 GmbHG\). Bei der UG hingegen ist das nicht möglich. \(Vgl. § 5a GmbHG Abs. \(2\) Satz 2.\)
 

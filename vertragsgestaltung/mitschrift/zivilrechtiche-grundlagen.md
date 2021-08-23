@@ -4,7 +4,7 @@
 
 ### Privatautonomie
 
-* **Privatautonomie** ist die Freiheit des Einzlenen, seine Rechtsbeziehungen eigenverantwortlich und frei zu gestalten. Rechte eines Dritten dürfen nicht beschnitten werden.
+* **Privatautonomie** ist die Freiheit des Einzelnen, seine Rechtsbeziehungen eigenverantwortlich und frei zu gestalten. Rechte eines Dritten dürfen nicht beschnitten werden.
 * **Beispiel**: Ob Vertrag abgeschlossen werden soll und zu welchen Bedingungen.
 * Privatautonomie resultiert aus unserer freiheitlichen Grundordnung.
 * Man kann sich in seinem Rahmen ohne Beschränkungen bewegen, solange man die Rechte eines anderen nicht einschränkt.
@@ -12,7 +12,7 @@
 ### Vertragsfreiheit
 
 * Freiheit eines Einzelnen, ob, mit wem und mit welchem Inhalt er einen Vertrag abschließt.
-* Vertragsfreiheit umasst:
+* Vertragsfreiheit umfasst:
   * **Abschlussfreihheit** \(Freiheit, ob und mit wem ein Vertrag geschlossen wird\)
   * **Gestaltungsfreiheit** \(Freiheit, mit welchem Inhalt ein Vertrag geschlossen wird\)
     * Im Hinblick Preis und Haupt- und Nebenleistungen
@@ -21,16 +21,13 @@
 * Nebenleistungspflichten: Mietkaution braucht nicht gestellt werden.
 * Beachte Freiheiten können eingeschränkt werden z. B. Mietpreisbremse.
 
+### Abschlussfreiheit
+
 #### Antidiskriminierungsvorschriften
 
 * In [1, 6 ff, 19 ff. AGG](https://www.gesetze-im-internet.de/agg/__1.html) geregelt.
 * Ich darf niemand wegen Alter, Geschlecht oder Rasse diskriminieren
 * **Beispiel**: Clubgänger, der wegen Rasse von Türsteher abgelehnt wird.
-
-#### Abschlussfreiheit
-
-* Anti-Diskriminierungsvorschriften: Benachteiligung aufgrund von Rasse, Religion etc. sind nicht zulässig.
-* Ablehnung
 
 #### Abschlussverbote
 
@@ -40,13 +37,13 @@
 
 #### Kontrahierungszwang
 
-* Straßenbahnen \(§ 22 PberfG\) und Energieutnernehmen \(§ 17 EnWG\)
+* Straßenbahnen \(§ 22 PberfG\) und Energieunternehmen \(§ 17 EnWG\)
 * Es muss in jedem Fall gewährleistet sein, dass Verträge abgeschlossen werden
 * **Beispiele**: Straßenbahn \(muss befördern bei gültigem Ticket\), Energieunternehmen \(muss liefern, denn gehört zu würdigem Leben\)
 
 ### Gestaltungsfreiheit
 
-#### Allgemeine Geschäftsebdingen 
+#### Allgemeine Geschäftsebdingungen 
 
 * Schutz des Schwächeren bei Formularverträgen \(§§ 305 ff. BGB\)
 * **Bespiel**: Handyvertrag mit O2.
@@ -66,7 +63,7 @@
 ### Formfreiheit
 
 * Wird eingeschränkt durch Formzwang z. B. bei Grundstückskaufvertrag \(§ 311 BGB\), Schenkungsversprechen \(518 BGB\) oder Bürgschaftsversprechen \(§ 766 BGB\)
-* Formfreiheit wegen **Warn**- und **Beweisfunktion**, weil besonders wichtig bzgl. Haftung oder wirtschaftlich
+* Formzwang wegen **Warn**- und **Beweisfunktion**, weil besonders wichtig bzgl. Haftung oder wirtschaftlich.
 
 ### Rechtsgeschäft
 
@@ -79,16 +76,16 @@
   * Verpflichtungsgeschäft
   * Erfüllungsgeschäft
 * **Trennungsprinzip** = Verpflichtungs- und Erfüllungsgeschäft sind zwei voneinander getrennte Rechtgeschäfte
-* **Abstraktionsprinzip** = Mängel im Verfplichtungsgeschäft wirken nicht auf die Wirksamkeit des Efüllungsgeschäfts und umgekhrt aus. D. h. man kann wirksames Verpflichtungsgeschäft aber ungültiges Erfüllungsgeschäft haben.
+* **Abstraktionsprinzip** = Mängel im Verpglichtungsgeschäft wirken nicht auf die Wirksamkeit des Erfüllungsgeschäfts und umgkehrt aus. D. h. man kann wirksames Verpflichtungsgeschäft aber ungültiges Erfüllungsgeschäft haben.
 * Eigentumszuordnung wird nie durch Kaufvertrag verändert. Eigentum geht erst mit dinglicher Einigung über.
-* **Beispiel** ungültiges Verpflichtungsgeschäft / Erfüllungsgeschäft: Z. B. Abschluss Autoverkauf-Vertrag im Vollsuff wäre ungültiges Verpflichtungsgeschäft \("Ich verpflcihte mich, dir Eigentum an dem Auto zu verschaff"\), trotzdem kann Auto übergeben werden, obwohl Verpflichtungsgeschäft eigentlich nicht wirksam war \("Wir sind uns einig, dass du das Eigentum an dem Auto erhalten sollst"\).
+* **Beispiel** ungültiges Verpflichtungsgeschäft / Erfüllungsgeschäft: Z. B. Abschluss Autoverkauf-Vertrag im Vollsuff wäre ungültiges Verpflichtungsgeschäft \("Ich verpflichte mich, dir Eigentum an dem Auto zu verschaff"\), trotzdem kann Auto übergeben werden, obwohl Verpflichtungsgeschäft eigentlich nicht wirksam war \("Wir sind uns einig, dass du das Eigentum an dem Auto erhalten sollst"\).
 * Bei Handschenkung fällt Verpflichtung und Erfüllung zusammen
 
 ### Willenserklärung
 
 * Äußerung eines Privaten
-* Willenserklärungen können mündlich, schriftlich oder konkludent abgeschlossen werdne
-* schweigen ist ein rechliches Nullum außer bei Kaufleuten \(vgl. §362 HGB\) z. B. Getränkelieferant liefert ungefrag 30 Kisten Wasser, wenn Lokal mit ihm in Geschäftsverbindung steht
+* Willenserklärungen können mündlich, schriftlich oder konkludent abgeschlossen werden
+* schweigen ist ein rechtliches Nullum außer bei Kaufleuten \(vgl. §362 HGB\) z. B. Getränkelieferant liefert ungefragt 30 Kisten Wasser, wenn Lokal mit ihm in Geschäftsverbindung steht
 * **Objektiv**:
   * Kundgabe einer Erklärung, die auf den Willen eine bestimmte Rechtsfolge herbeizuführen, schließen lässt \(etwa schriftlich, mündlich konklundent\)
   * **Sonderfall:** Schweigen ist rechtliches Nullum, außer unter Kaufleuten
