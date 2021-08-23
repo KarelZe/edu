@@ -53,7 +53,7 @@
 * Schuldrechtlicher Akzessoritätsersatz
 * z. B. bei Darlehensvertrag wird enge Zweckerklärung gemacht
 * ![](../../.gitbook/assets/untitled.png) 
-* Sicherungsvertrag stellt Verbindung zwischen Schuldrechtlicher Vertrag \(Darlehen\) und Abtretung her. Dies wird als Konexität bezeichnet
+* Sicherungsvertrag stellt Verbindung zwischen schuldrechtlichem Vertrag \(Darlehen\) und Abtretung her. Dies wird als Konexität bezeichnet.
 * Sicherungsvertrag vereinbart Rückgabeanspruch der Schuldners ggü. der Bank, wenn Forderung erloschen ist.
 * Man schließt 3 Verträge ab, schuldrechtlicher Vertrag \(z. B. Darlehensvertrag und Abtretung\), dinglicher Vertrag \(z. B. Abtretung\) und Sicherungsvertrag zwecks Konexität.
 
@@ -63,10 +63,11 @@
 * Z. B. Verkäufer einer Maschine → Käufer geht vor Schlussrate in Insolvenz
 * Bei Insolvenz: \(wichtig für Klausur, allerdings nur oberflächlich wie unterhalb\)
   * **Aussonderung** \([§ 47 InsO](https://dejure.org/gesetze/InsO/47.html)\) 
+    * Aussonderung hat Herausgabe massefremder Gegenstände \(Gegenstände, die nicht in Insolventmaße gehören\) zum Ziel.
     * Beispiel ist einfacher Eigentumsvorbehalt nach [§ 449 BGB](https://www.gesetze-im-internet.de/bgb/__449.html) \(Durch Rücktritt kann Eigentum herausverlangt werden\) 
     * Eigentumsvorbehalt reduziert Risiko erheblich, da man mehr Geld erhält als nur die Insolvenzquote. Ohne Eigentumsvorbehalt würde man nur Insolvenzquote erhalten.
   * **Absonderung** \(§ 47 ff. InsO\) 
-    * Alternative. Nicht näher besprochen.
+    * Kein Zugriff auf massefremde Gegensätnde, aber bevorzugte Befriedung aus der Verwertung des Gegenstands zur Tilgung der Forderungen.
 
 ## Arten des Eigentumsvorbehalts
 
@@ -79,13 +80,14 @@
       * **Kontokorrentvorbehalt** → Solange eine Forderung aus Geschäftsbeziehung offen bleibt, verbleibt Eigentum beim Gläubiger
       * **Konzernvorbehalt** 
         * Geregelt in [§ 449 Abs. 3 BGB](https://www.gesetze-im-internet.de/bgb/__449.html)
-        * Eigentum an verkaufter Ware geht nicht erst über, wenn der Schuldner Forderungen auch an die andere Tochtergesellschaft erfüllt hat
+        * Eigentum an verkaufter Ware geht erst über, wenn der Schuldner Forderungen auch ggü. anderer Tochtergesellschaft erfüllt hat
     * **Erstreckung auf Surrogat**
       * **Vorausabtretungsklausel** 
+        * Geregelt in [§ 185 BGB](https://www.gesetze-im-internet.de/bgb/__185.html).
         * **Beispiel:** Großhändler verkauft weiter an Einzelhändler und übergibt Ware → Gutgläubiger Erwerb → Gläubiger hat als Sicherungsmittel Forderungen gegenüber Einzelhändler → Zwar ist Ware weg, Gläubiger hat dann aber die Forderung
       * **Verarbeitungsklausel** 
         * Geregelt in [§ 950 BGB](https://www.gesetze-im-internet.de/bgb/__950.html).
-        * **Beispiel:** Möbelhersteller kauft Bretter → Gläubiger erwirbt Teileigentum am Tisch bzw. Forderung aus Verkauf des Tisch, sofern Bretter zu Tisch verarbeietet wurden. Man verliert aber ursprüngliches Eigentum an Brettern.
+        * **Beispiel:** Möbelhersteller kauft Bretter → Gläubiger erwirbt Teileigentum am Tisch bzw. Forderung aus Verkauf des Tisches, sofern Bretter zu Tisch verarbeitet wurden. Man verliert aber ursprüngliches Eigentum an Brettern.
 
 ## **Personenverhältnisse bei Bürgschaft**
 
@@ -99,7 +101,9 @@
 
 * **Bürgschaft auf Zeit** \(§ 777 BGB\)
 * **Höchstbetragsbürgschaft** → Bürgschaft ist auf bestimmten Betrag gedeckt
-* **Selbstschuldnerische Bürgschaft** \(§ ?\) → Verzicht auf Einrede der Vorausklage \([§ 771 BGB](https://www.gesetze-im-internet.de/bgb/__771.html)\) → Bürge kann fordern, bevor er herangezogen wird, dass Schuldner zwangsvollstreckt wird → Eher unpraktisch für Gläubiger → Entwertet die Bürgschaft sehr
+* **Selbstschuldnerische Bürgschaft** \(§ 773\) 
+  * Verzicht auf Einrede der Vorausklage \([§ 771 BGB](https://www.gesetze-im-internet.de/bgb/__771.html)\) 
+  * Bei Einrede der Vorausklage, kann Bürge fordern, bevor er herangezogen wird, dass Schuldner zwangsvollstreckt wird → Eher unpraktisch für Gläubiger → Entwertet die Bürgschaft sehr → Selbstschuldnerische Bürgschaft ist sehr Gläubiger-freundlich.
 * **Bürgschaft auf erstes Anfordern** \(§ ?\) → Muss erstmal an Gläubiger zahlen → Ggf. kann er in Rahmen von Prozess das Geld zurückfordern → hohes Risiko für Bürgen → Rechtlich oft nicht möglich z. B. bei Werksverträgen
 * **Ausfallbürgschaft** → Bürge wird nur dann in Anspruch genommen, wenn Gläubiger schon alles ggü. dem Schuldner versucht hat.
 
