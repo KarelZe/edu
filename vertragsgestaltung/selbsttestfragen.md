@@ -47,7 +47,7 @@ Man unterscheidet:
 4. Wie unterscheidet sich ein Kaufvertrag zwischen zwei Unternehmern oder zwei Verbrauchern gegenüber einem Verbrauchsgüterkaufvertrag im Hinblick auf die Möglichkeiten der Vertragsgestaltung?
 5. Was versteht man unter dem Recht der zweiten Andienung? Ordnen Sie dieses Recht in das kaufrechtliche Gewährleistungssystem ein.
 
-## Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
+## ⚖️Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
 
 1. Welche Arten von Gebrauchsüberlassungsverträge lassen sich unterscheiden? Nennen Sie vier Arten.
 2. Welche Regelungsschwerpunkte weisen Gebrauchsüberlassungsverträge auf?
@@ -63,7 +63,7 @@ Man unterscheidet:
 12. Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?
 13. Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?
 
-## Dienstvertrag / Arbeitsvertrag
+## 🧑‍🏭Dienstvertrag / Arbeitsvertrag
 
 1. Was ist der Unterschied zwischen einem Arbeitsvertrag und einem „gewöhnlichen“ Dienstvertrag? Warum ist die Abgrenzung so wichtig? Erläutern Sie kurz das Unterschiedskriterium.
 2. Was sind wesentliche Vertragsinhalte eines Arbeitsvertrages? Nennen Sie fünf wesentliche Vertragsinhalte und erläutern Sie diese kurz.
@@ -74,7 +74,7 @@ _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf An
 
 1. Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?
 
-## Bauverträge
+## 🧱Bauverträge
 
 1. Wie unterscheidet sich die Beauftragung eines Generalunternehmers von der Einzelvergabe? Was sind die vertragsgestalterischen Vorteile bei der Beauftragung eines Generalunternehmers und welche Risiken gibt es?
 2. Wie unterscheidet sich eine Generalunternehmer von einem Bauträger?
@@ -82,7 +82,7 @@ _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf An
 4. Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?
 5. Was versteht man unter einem Einheitspreisvertrag?
 
-## Sicherungsmittel
+## 🛡️Sicherungsmittel
 
 1. Warum sind Sicherungsmittel in der Vertragsgestaltung von wesentlicher Bedeutung?
 2. Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise.
@@ -92,7 +92,7 @@ _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf An
 6. Worin unterscheiden sich Ausfallbürgschaft, selbstschuldnerische Bürgschaft und Bürgschaft auf erstes Anfordern?
 7. Der A ist Inhaber eines Sägewerkes und verkauft sein Holz insbesondere an regionale Möbelhersteller. Welche Art von Eigentumsvorbehalt sollte er vereinbaren? Erläutern Sie Ihre Entscheidung.
 
-## Gesellschaftsrecht
+## 🎪Gesellschaftsrecht
 
 1. Welche zwei Arten von Gesellschaftstypen lassen sich grundsätzlich unterscheiden? Nennen Sie jeweils zwei Beispiele für diese Gesellschaftstypen und ein Kriterium, worin sich diese Gesellschaftstypen besonders unterscheiden?
 2. X verkauft an die Z GbR, deren Gesellschafter A und B sind, einen LKW. Die Z GbR zahlt den Kaufpreis nicht. X möchte jetzt direkt gegen den Gesellschafter A vorgehen. Mit Erfolg? Wie sehe es aus, wenn es sich nicht um eine GbR, sondern um eine GmbH handeln würde?

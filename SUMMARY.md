@@ -76,6 +76,7 @@
   * [Herstellungsvertrag](vertragsgestaltung/mitschrift/herstellungsvertraege.md)
   * [Sicherungsmittel](vertragsgestaltung/mitschrift/sicherungsmittel.md)
   * [Gesellschaftsrecht](vertragsgestaltung/mitschrift/gesellschaftsrecht.md)
+  * [Klausurvorbereitung](vertragsgestaltung/mitschrift/klausurvorbereitung.md)
 * [Selbsttestfragen](vertragsgestaltung/selbsttestfragen.md)
 
 ## Rechtliches
