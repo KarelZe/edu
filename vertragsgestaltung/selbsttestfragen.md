@@ -96,12 +96,39 @@ _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf An
 ## 🛡️Sicherungsmittel
 
 1. Warum sind Sicherungsmittel in der Vertragsgestaltung von wesentlicher Bedeutung?
-2. Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise.
-3. Warum spielt das Pfandrecht in der Rechtspraxis eine eher untergeordnete Rolle? Welches Sicherungsmittel wird stattdessen bevorzugt?
-4. Was versteht man unter der Akzessorietät eines Sicherungsmittel? Nennen Sie zwei Beispiele für akzessorische Sicherungsmittel.
-5. Welches Sicherungsmittel ist für den Sicherungsgeber risikoreicher: Bürgschaft oder Schuldbeitritt? Begründen Sie Ihre Antwort.
-6. Worin unterscheiden sich Ausfallbürgschaft, selbstschuldnerische Bürgschaft und Bürgschaft auf erstes Anfordern?
-7. Der A ist Inhaber eines Sägewerkes und verkauft sein Holz insbesondere an regionale Möbelhersteller. Welche Art von Eigentumsvorbehalt sollte er vereinbaren? Erläutern Sie Ihre Entscheidung.
+
+* Sicherungsmittel bieten einen Schutz für die Vertragserfüllung im Falle einer Insolvenz.
+* Man unterscheidet Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).
+
+1. _Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise._
+2. _Warum spielt das Pfandrecht in der Rechtspraxis eine eher untergeordnete Rolle? Welches Sicherungsmittel wird stattdessen bevorzugt?_
+
+* Das Pfandrecht setzt voraus, dass nach § 1205 BGB eine tatsächliche Übergabe des Pfandgegenstand erfolgt. Das Eigentüm verbleibt beim Sicherungsgeber. Gläubiger wird Besitzer.
+* Dies ist in der Rechtspraxis aber häufig unpraktisch, da der Pfandgegenstand durch den Eigentümer häufig weitergentutzt werden soll. Etwa benötigt der Eigentümer des Pfandgegenstands eine Maschine selbst. 
+* Eine praktische Alternative stellt die Sicherungsübereignung \(gesetzlich nicht geregelt\) dar,  hier kann der Eigentümer die Maschine weiterhin nutzen, Umsätze generieren und dann das Darlehen auch zurückbezahlen. 
+* Bei Sicherungsübereignung geht Eigentum an Gläubiger über, Besitz verbleibt bei Sicherungsgeber. Anstelle der Eigentumsübergabe wird Übergabesurrogat nach \(§ 930 BGB\) vereinbart.
+
+1. _Was versteht man unter der Akzessorietät eines Sicherungsmittel? Nennen Sie zwei Beispiele für akzessorische Sicherungsmittel._
+
+* Unter Akzessorität versteht man die Abhängigkeit zwischen einer gesicherten Forderung und dem Sicherungsrecht. Ist die Forderung erloschen, so erlischt auch der Anspruch auf die Sicherheit.
+* Beispiele sind Hypothek und Bürgschaft.
+
+1. _Welches Sicherungsmittel ist für den Sicherungsgeber risikoreicher: Bürgschaft oder Schuldbeitritt? Begründen Sie Ihre Antwort._
+
+* Für den Sicherungsgeber ist der Schuldbeitritt risikoreicher gegenüber der Bürgschaft. Der Grund liegt darin, dass bei einer Bürgschaft \(geregelt in § 765 BGB\) ein Rangverhältnis besteht. Der Bürge also erst herangezogen werden kann, sofern der Schuldner nicht bezahlt. 
+* Je nach Ausgestaltung der Bürgschaft hat der Bürge auch ein Recht auf Einrede der Vorausklage nach § 771 BGB. Ehe er leisten muss, muss eine erfolglose Zwangsvollstreckung in das Vermögen des Schuldners erfolgen.
+* Bei dem Schuldbeitritt hingegen, tritt der Dritte in die gleiche Position wie der eigentliche Schuldner. Die ist vorteilhaft für den Gläubiger, da er nun zwei gleichranging haftende Schuldner hat. Gleichzeitig ist das Risiko für den Sicherungsgeber höher.
+
+1. _Worin unterscheiden sich Ausfallbürgschaft, selbstschuldnerische Bürgschaft und Bürgschaft auf erstes Anfordern?_
+
+* **Ausfallbürgschaft:** Bürgschaft bei der Bürge nur dann in Anspruch genommen wird, wenn Gläubiger eine erfolglose Zwangsvollstreckung gegenüber dem Schuldner nachweisen kann.
+* **Selbstschuldnerische Bürgschaft** \(§ 773 BGB\): Bürgschaft, bei der der Bürge auf Einrede der Vorausklage \(§ 771 BGB\) verzichtet.
+* **Bürgschaft auf erstes Anfordern** \(nicht im Gesetz geregelt\): Bürgschaft, bei der Bürge muss an Gläubiger leisten unabhängig davon ob verbürgte Hauptforderung besteht. Rückforderung möglich wegen ungerechtfertigter Bereicherung, wenn Hauptforderung bereits erloschen.
+
+1. _Der A ist Inhaber eines Sägewerkes und verkauft sein Holz insbesondere an regionale Möbelhersteller. Welche Art von Eigentumsvorbehalt sollte er vereinbaren? Erläutern Sie Ihre Entscheidung._
+
+* A sollte einen erweiterten **Eigentumsvorbehalt** mit **Verarbeitungsklause**l vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verabeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
+* Mit einem **einfachen Eigentumsvorbehalt** würde er durch Verarbeitung der Bretter das Eigentum verlieren. Der normale Eigentumsvorbehalt ist damit nicht werthaltig.
 
 ## 🎪Gesellschaftsrecht
 
