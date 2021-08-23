@@ -127,8 +127,8 @@
 * **Voraussetzung:** 
   * Stellvertretung muss **zulässig** sein. Fast immer möglich, außer bei **höchstpersönlichen Rechtsgeschäften** z. B. Eheschließung 
   * Abgabe **einer eigenen Willenserklärung des Vertreters** \(keine Botenschaft\).
-  * Offenkundigkeit der Vertretung d. h. Vertretung muss nach Außen hin deutlich sein.
-  * Vertretungsmacht für das vorgenommene Rechtgsgeschäft \(Vollmacht, gesetztliche / organschaftliche Vertretung\) muss gegeben sein. z. B. Gesetzlicher Vertreter bei Kindern
+  * **Offenkundigkeit der Vertretung** d. h. Vertretung muss nach Außen hin deutlich sein.
+  * **Vertretungsmacht für das vorgenommene Rechtgsgeschäft** \(Vollmacht, gesetztliche / organschaftliche Vertretung\) muss gegeben sein. z. B. Gesetzlicher Vertreter bei Kindern
 * **Unterschied Botenschaft und Stellvertretung:** 
   * Bei Botenschaft sagt man nur, was für eine andere Person gesagt wird. 
   * Bei Stellvertretung gebe ich eine eigene Willenserklärung ab.
@@ -160,7 +160,7 @@
 #### Unterschied Schriftform und Textform:
 
 * Signieren des Dokuments ist nicht erforderlich bei Textform. Bei Schriftform benötige ich eine eigenhändige Unterschrift.
-* E-Mail erfüllt die Voraussetzungen nach [§ 126 a ](https://www.gesetze-im-internet.de/bgb/__126.html)→ Normal keine qualifizierte, elektronische Signatur → E-Mail genügt nicht den Anforderungen an [§ 126 a](https://www.gesetze-im-internet.de/bgb/__126.html), da sie im Normalfall keine qualifizierte Signatur enthält.
+* E-Mail erfüllt die Voraussetzungen nach [§ 126 a ](https://www.gesetze-im-internet.de/bgb/__126.html)nicht→ Normal keine qualifizierte, elektronische Signatur → E-Mail genügt nicht den Anforderungen an [§ 126 a](https://www.gesetze-im-internet.de/bgb/__126.html), da sie im Normalfall keine qualifizierte Signatur enthält.
 
 #### Öffentliche Beglaubigung / Notarielle Beurkundung
 
