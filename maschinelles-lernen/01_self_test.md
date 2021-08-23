@@ -57,6 +57,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * What are three things that it does?🧠
 * What are the roles of the Eigenvectors and Eigenvalues in PCA?🧠
 * Can you describe applications of PCA?🧠
+* Why should each dimension have a unit variance / be normalized?
 
 ## Density Estimation and Expectation Maximization
 
