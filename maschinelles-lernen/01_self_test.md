@@ -18,14 +18,47 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 ## Model Selection
 
-* Why is it a bad idea to evaluate your algorithm on the training set? 🧠
-* What is the difference between true and empirical risk? 🧠
-* The true risk can be decomposed in which parts?🧠
-* How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?🧠
-* What is the advantage/disadvantage of k-fold CV vs. the Hold-out method?🧠
-* Why does it make sense to penalize the norm of the weight vector?🧠
-* Which norm can we use and what are the different effects?
-* What is the effect of early stopping?🧠
+* _Why is it a bad idea to evaluate your algorithm on the training set? 🧠_
+  * It's important to use unseen data when evaluating an algorithm to prevent overfitting. 
+  * One would have zero empirical risk but a very high true risk.
+  * In the worst case an algorithm could learn the data by heart, perform well during testing and training but perform poorly on real unseen data.
+* _What is the difference between true and empirical risk? 🧠_
+  * **True risk** is the performance on a random testpoint $$(x,y)$$. True risk is unknown.
+  * **Empirical risk** is the performance on the training set. Empirical risk can evaluated using training samples.
+* _The true risk can be decomposed in which parts?🧠_
+  * The true risk can be decomposed into:
+
+    $$\underbrace{\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(x)-\hat{f}_{*}(x)\right)^{2}\right]\right]}_{\text {Variance }}+\underbrace{\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(x)-f(x)\right)^{2}\right]}_{\text {Bias }^{2}}+\underbrace{\sigma^{2}}_{\text {noise }}$$ 
+* _How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?_🧠
+  * **Variance**:
+    * $$\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(\boldsymbol{x})-\hat{f}_{*}(\boldsymbol{x})\right)^{2}\right]\right]$$ 
+    * Variance is the difference between the estimates and the "best" estimates. Error depends on the number of data points that are available for training. It accounts for the limitations in the training data set.
+  * **Bias**:
+    * $$\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(\boldsymbol{x})-f(\boldsymbol{x})\right)^{2}\right]$$ 
+    * Bias is the difference between the true function and the "best" estimate of the model. 
+  * Bias, variance and noise sum up to the true risk.
+* _What is the advantage/disadvantage of k-fold CV vs. the Hold-out method?🧠_
+  * k-Fold CV uses the entire data set for training, as the $$k$$-th fold is used for testing and the remaining folds are used for training. This is less wasteful compared to the Hold-Out-method, where a certain percentage of the data is exclusively reserved for testing.
+  * On the other hand, is k-Fold CV more computationally expensive as it requires $$k$$ iterations to train the model. It also leads to more stable results though. In comparsion the Hold-out-method is less computationally expensive, as it requires only one run. 
+  * What is problematic about the hold-out method is, that unlucky splits might give misleading results.
+* _Why does it make sense to penalize the norm of the weight vector?🧠_
+  * Applying a penalty to large weight vectors helps to keep the parameters small. Which leads to a smoother function. 
+  * Also, the complexity of the model is limited.
+  * The larger $$\lambda$$, the less complex the final model will be.
+* _Which norm can we use and what are the different effects?_
+
+  * $$\ell_1$$ **penalty**: 
+    * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{1}=\sum_{d}\left|\theta_{d}\right|$$ 
+    * Introduces sparse solutions, that means some parameters can be 0. Suitable for feature selection.
+    * Hard to optimize.
+  * $$\ell_2$$ **penalty**:
+    * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{2}=\sum_{d} \theta_{d}^{2}$$ 
+    * Redundant parameters will be close to 0, but never 0.
+    * Easy to optimize.
+
+* _What is the effect of early stopping?_🧠
+  * Early stopping prevents overfitting, as model is not trained to to the smallest training error. 
+  * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 
 ## Nearest Neighbour Algorithms, Trees, and Forests
 
