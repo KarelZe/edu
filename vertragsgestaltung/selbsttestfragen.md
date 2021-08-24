@@ -5,6 +5,11 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 ## 🧑‍⚖️ Zivilrechtliche Grundlagen
 
 1. Was bedeutet Vertragsfreiheit und welche Ausprägungen der Vertragsfreiheit lassen sich unterscheiden? Erläutern sie kurz die Ausprägungen.
+   * Vertragsfreiheit ist die Freiheit eines Einzelnen zu entscheiden, ob, mit wem und mit welchem Inhalt er einen Vertrag abschließt.
+   * Vertragsfreiheit umfasst:
+     * **Abschlussfreiheit**: Also die Freiheit zu entscheiden, ob und mit wem ein Vertrag geschlossen wird.
+     * **Gestaltungsfreiheit**: Die Freiheit, mit welchem Inhalt ein Vertrag geschlossen wird.
+     * **Formfreiheit**: Freiheit, wie ein Vertrag geschlossen wird z. B. Schriftlich.
 2. Welche Einschränkungen der Abschlussfreiheit gibt es? Erläutern Sie die Einschränkungen kurz.
 3. Welche Einschränkungen der Gestaltungsfreiheit gibt es? Erläutern Sie die Einschränkungen kurz.
 4. Was versteht man unter dem Trennungs- und Abstraktionsprinzip? Erläutern Sie die Prinzipien an einem kurzen Beispiel.
@@ -12,15 +17,14 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 6. Welche Arten von Willenserklärungen lassen sich unterscheiden und wie unterscheiden sie sich in Bezug auf ihr Wirksamwerden?
 7. Welcher Maßstab gilt bei der Auslegung von Verträgen?
 8. Wie definiert sich ein Vertrag?
+   * Ein Vertrag ist die Verwirklichung von Ideen. 
 9. Welche Wirkung hat die Stellvertretung?
 10. Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?
 11. Erklären Sie kurz den Unterschied zwischen einer rechtsgeschäftlichen, gesetzlichen und organschaftlichen Vertretungsmacht.
-12. Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel.
-
-Man unterscheidet:
-
-* **Einseitige Rechtsgeschäfte** \(Beispiel ist Kündigung einer Arbeitstelle\)
-* **Zweiseitige Rechtsgeschäfte**  \(Beispiel ist der Vertrag z. B. Kaufvertrag über eine Maschine\)
+12. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
+    * Man unterscheidet:
+      * **Einseitige Rechtsgeschäfte** \(Beispiel ist Widerruf § 355 BGB\)
+      * **Zweiseitige Rechtsgeschäfte**  \(Beispiel ist der Vertrag z. B. Kaufvertrag über eine Maschine § 433 BGB\)
 
 ## 🛍️Allgemeine Geschäftsbedingungen
 
@@ -60,7 +64,11 @@ Man unterscheidet:
 
 ## ⚖️Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
 
-1. Welche Arten von Gebrauchsüberlassungsverträge lassen sich unterscheiden? Nennen Sie vier Arten.
+1. _Welche Arten von Gebrauchsüberlassungsverträge lassen sich unterscheiden? Nennen Sie vier Arten._
+   * Mietvertrag
+   * Pachtvertrag
+   * Leihe
+   * Leasingvertrag
 2. Welche Regelungsschwerpunkte weisen Gebrauchsüberlassungsverträge auf?
 3. Wie unterscheidet sich das Wohnraummietrecht gegenüber dem Gewerberaummietrecht?
 4. Welche Themen sollten in einem Gewerberaummietvertrag im Hinblick auf den Mietgegenstand geregelt werden?
@@ -78,12 +86,16 @@ Man unterscheidet:
 
 1. Was ist der Unterschied zwischen einem Arbeitsvertrag und einem „gewöhnlichen“ Dienstvertrag? Warum ist die Abgrenzung so wichtig? Erläutern Sie kurz das Unterschiedskriterium.
 2. Was sind wesentliche Vertragsinhalte eines Arbeitsvertrages? Nennen Sie fünf wesentliche Vertragsinhalte und erläutern Sie diese kurz.
-3. Was versteht man unter dem Direktionsrecht und wo ist es geregelt?
-4. Beurteilen Sie die folgende Klausel, ob sie wirksam ist:
+3. _Was versteht man unter dem Direktionsrecht und wo ist es geregelt?_
 
-_„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf Anordnung des Arbeitgebers verpflichtet. Eventuelle Mehrarbeit ist mit dem monatlichen Bruttogehalt nach § 5 abgegolten.“_
+* Das Direktionsrecht ist geregelt in § 106 GewO.
+* Unter dem Direktionsrecht versteht man das Recht des Arbeitgebers auf Grundlage des Arbeitsvertrages dem Arbeitnehmer Weisungen zu erteilen. 
+* Arbeitgeber kann Ort, Inhalt und Zeit der Arbeitsleistung vorgeben, sofern nicht anderweitig durch z. B. Betriebsvereinbarungen eingeschränkt ist.
 
-1. Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?
+1. Beurteilen Sie die folgende Klausel, ob sie wirksam ist: _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf Anordnung des Arbeitgebers verpflichtet. Eventuelle Mehrarbeit ist mit dem monatlichen Bruttogehalt nach § 5 abgegolten.“_
+2. Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?
+
+
 
 ## 🧱Bauverträge
 
