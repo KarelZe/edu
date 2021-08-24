@@ -29,16 +29,49 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 ## Nearest Neighbour Algorithms, Trees, and Forests
 
-* What we mean with non-parametric / instance-based machine learning algorithms?🧠
-* How $$k$$-Nearest neighbour works?🧠
-* Why is it hard to use for high-dimensional data?🧠
-* How to search for nearest neighbours efficiently?🧠
-* What is a binary regression / decision tree?🧠
-* What are useful splitting criterions?🧠
-* How can we influence the model complexity of a tree?🧠
-* Why is it useful to use multiple trees and randomization?🧠
+* _What we mean with non-parametric / instance-based machine learning algorithms?_🧠
+  * Non-parametric ML algorithms are algorithms, that do not learn a parametric model, but store all the training data and use the training data to make predictions.
+  * Examples include the $$k$$-nearest neighbour algorithm and the Gaussian processes.
+* _How does_ $$k$$_-Nearest neighbour works?🧠_
+  * To classifiy a new input vector $$x$$, we examine the $$k$$closest training data points to $$x$$\(that lie within a hypersphere\). 
+  * We assign the class that is most frequent among those neighbours to the query point $$x$$.
+* _Why is it hard to use for high-dimensional data?🧠_
+  * $$k$$-Nearest neighbour is built around a distant-based measure. However, in a very high-dimensional space, most points are equally far appart from each other.
+  * So the neighbourhood becomes large.
+* _How to search for nearest neighbours efficiently?🧠_
+  * It's convient to use a KD-tree as the data structure. The KD tree is balanced and performs binary splits on the feature space.
+  * Searching goes like this:
+    * Find region containing $$\boldsymbol{x}$$. Navigate starting from the root node to the child node containing $$\boldsymbol{x}$$.
+    * Save region point $$\boldsymbol{x}^{*} = \boldsymbol{x}_{0}$$ as current best.
+    * Move up tree and recursively search regions interesecting hypersphere $$S\left(\boldsymbol{x},\left\|\boldsymbol{x}-\boldsymbol{x}^{*}\right\|\right)$$. 
+    * Update $$\boldsymbol{x}^{*}$$ if new nearsest neighbour has been found.
+* _What is a binary regression / decision tree?🧠_
+  * A binary decision tree is a tree that performs a binary split at each node. The predictor space is segmented into smaller regions. 
+  * In case of regression trees the predicted value at a node is the average response variable of all observations within this node.
+* _What are useful splitting criterions?🧠_
+  * **For regression trees:** 
+    * Minimum residual sum of squares: $$\mathrm{RSS}=\sum_{\text {left }}\left(y_{i}-\bar{y}_{L}\right)^{2}+\sum_{\text {right }}\left(y_{i}-\bar{y}_{R}\right)^{2}$$ 
+  * **For classification trees:**
+    * Information gain / Minimum entropy: $$N_{L} H\left(p_{\mathrm{L}}\right)+N_{R} H\left(p_{\mathrm{R}}\right)$$ 
+* _How can we influence the model complexity of a tree?_🧠
+  * One can limit the depth of the tree or limit the minimum number of samples that must be present within one node.
+  * Another way is to apply pruning to a decision tree, which refers to cutting back a fully grown tree.
+* _Why is it useful to use multiple trees and randomization?_🧠
+  * Decision Trees are prone to overfitting. That's why we should learn several trees to increase variability.
+  * By randomizing the features and combining the trees \(random forest\) or learning several trees on bootstrap samples \(bagging\) one can prevent trees from overfitting.
 * Name at least two advantages and two disadvantages of decision trees. 🦧
-* Which data structure is usually used to efficiently implement k-Nearest Neighbours? Name the main steps in building that data structure.🦧
+  * **Advantages**:
+    * Easy to interpret \(if they are small\)
+    * Computionally efficient. They are quick to fit, even for large problems.
+  * **Disadvantage**:
+    * Other ML methods such as NN achieve a better accuracy.
+    * Suffer from instability, if we change the data, ever-so-slightly trees can change a lot. 
+* _Which data structure is usually used to efficiently implement k-Nearest Neighbours? Name the main steps in building that data structure._🦧
+  * KD-Trees are commonly used.
+  * Building the tree:
+    * choose dimension \(e. g. longest hyper-rectangle\)
+    * Choose median as pivot
+    * Split node according tho chosen pivot and dimension.
 
 ## Clustering
 
