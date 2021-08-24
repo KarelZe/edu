@@ -87,15 +87,32 @@ _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf An
 
 ## 🧱Bauverträge
 
-1. Wie unterscheidet sich die Beauftragung eines Generalunternehmers von der Einzelvergabe? Was sind die vertragsgestalterischen Vorteile bei der Beauftragung eines Generalunternehmers und welche Risiken gibt es?
-2. Wie unterscheidet sich eine Generalunternehmer von einem Bauträger?
-3. Was ist die VOB? Welche Teile gibt es und welcher Teil ist für die Vertragsgestaltung von besonderer Bedeutung?
-4. Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?
-5. Was versteht man unter einem Einheitspreisvertrag?
+1. _Wie unterscheidet sich die Beauftragung eines Generalunternehmers von der Einzelvergabe? Was sind die vertragsgestalterischen Vorteile bei der Beauftragung eines Generalunternehmers und welche Risiken gibt es?_
+
+* Bei der Einzelvergabe werden einzelne Gewerke durch den Bauherrn an Bauunternehmen vergeben. Problematisch ist, dass sich bei Baumängeln die Bauunternehmen die Schuld zuweisen können. Schnittstellen zwischen Bauunternehmen müssen beachtet werden. Einzelvergabe ist meist günstiger.
+* Bei der Beauftragung eines Generalunternehmers schließt der Bauherr nur einen Vertrag mit Generalunternehmer. Generalunternehmer übernimmt Beauftragung und Überwachung der Nachunternehmer. Für Bauherrn einfacher, da nur ein Ansprechpartner besteht. Meist aber teurer. Regelungen sind vorzusehen, wenn Generalunternehmer pleite geht.
+
+1. _Wie unterscheidet sich eine Generalunternehmer von einem Bauträger?_
+
+* Ein Bauträger errichtet ein Gebäude auf dem von ihm erworbenen Grundstück. Der Bauträger ist zugleich Bauherr und verkauft dann das \(fertige\) Gebäude an die Käufer. Die Planung liegt ebenfalls beim Bauträger. Seitens des Kunden bestehen nur wenige Änderungsmöglichkeiten.
+* Der Generalunternehmer wird vom Bauherrn beauftragt. Dieser vergibt einzelne Gewerke an Subunternehmer, mit denen er in Vertrag steht. Ansprechpartner für Bauherrn ist Generalunternehmer. Kunde kann eigene Wünsche einbringen.
+
+1. _Was ist die VOB? Welche Teile gibt es und welcher Teil ist für die Vertragsgestaltung von besonderer Bedeutung?_
+
+* Die VOB ist die Vergabe- und Vertragsordnung für Bauleistungen. Sie enthält Vorgaben für die Vergabe von Bauprojekten und Vertragsbedingungen. Für Projekte der öffentlichen Hand ist die Anwendung verpflichtend.
+* Es existieren 3 Teile: VOB/A, VOB/B und VOB/C.
+* Besonders relevant ist VOB/B für die Vertragsgestaltung, da darin die Vertragsbedingungen für Bauleistungen vereinbart werden.
+
+1. _Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?_
+   * Die **deaillierte Leistungsbeschreibung** enthält deailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden. 
+   * Für den Bauherrn ist eine funktionale Leistungsbeschreibung vorteilhaft, da etwa ein größerer Mengenbedarf auf den Bauunternehmer umgelegt wird. Dieser kann mit kreativen und innovativen Lösungen arbeiten.
+2. _Was versteht man unter einem Einheitspreisvertrag?_
+
+* Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
 
 ## 🛡️Sicherungsmittel
 
-1. Warum sind Sicherungsmittel in der Vertragsgestaltung von wesentlicher Bedeutung?
+1. _Warum sind Sicherungsmittel in der Vertragsgestaltung von wesentlicher Bedeutung?_
 
 * Sicherungsmittel bieten einen Schutz für die Vertragserfüllung im Falle einer Insolvenz.
 * Man unterscheidet Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).

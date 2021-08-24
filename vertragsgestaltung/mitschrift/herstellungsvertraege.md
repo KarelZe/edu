@@ -58,8 +58,8 @@
 
 #### Leistungsbeschreibung
 
-* **detailliert** → Im öffentlichen Bereich / bei kleinen Projekten → Problematisch sind vergessene Details
-* **funktional** \("Schlüsselfertig\) → Man beschreibt keine Details → "z. B. Schlüsselfertiges Hochhaus mit 10 Etagen"
+* **detailliert** → enthält deailliert Angaben zur Ausführung der Leistung → Im öffentlichen Bereich / bei kleinen Projekten → Problematisch sind vergessene Details
+* **funktional** \("Schlüsselfertig\) → enthält lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden → Man beschreibt keine Details → "z. B. Schlüsselfertiges Hochhaus mit 10 Etagen"
 
 #### Beispiel eines Leistungsverzeichnisses
 
@@ -69,7 +69,7 @@
 
 #### Vergütung
 
-* **Einheitspreisvertrag**
+* **Einheitspreisvertrag** → ****Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
 * **Detail-Pauschalvertrag** → Nur Leistungen, die in Leistungsverzeichnis genannt sind, sind pauschalisiert → Enthält Leistungsverzeichnis Leistung nicht oder ist nicht ausreichend detailiert → Kann Bauunternehmer Forderung stellen → Leistung bleibt gleich → Pauschalisierung heißt hier nicht, dass alles drin ist!
 * **Global-Pauschalvertrag \("Komplettheitsvertrag"\)** → Alles ist drin. → Häufig mit 10 % - 20 % Gewinnzuschlag
 
