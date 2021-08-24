@@ -42,13 +42,34 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 ## Clustering
 
-* How is the clustering problem defined?🧠
-* Why is it called 'unsupervised'?🧠
-* How do hierarchical clustering methods work? 🧠
-* What is the rule of the cluster-2-cluster distance and which distances can we use?🧠
-* How does the $$k$$-mean algorithm work? What are the two main steps?🧠
-* Why does the algorithm converge? What is it minimizing?🧠
-* Does $$k$$-means find a global minimum of the objective?🧠
+* _How is the clustering problem defined?🧠_
+  * Clustering tries to find a natural grouping within the data.
+  * One tries to maximize the intra-cluster similarity and minimize the inter-cluster similarity.
+* _Why is it called 'unsupervised'?🧠_
+  * It's called unsupervised, as the data is unlabeled. There is no supervisor, that tells us in advance to which cluster a training data point belongs. Hence, unsupervised. The structure is actually learned from the data. 
+* _How do hierarchical clustering methods work?_ 🧠
+  * **Init-phase:** Each of the $$n$$samples becomes a cluster itself
+  * **Iterate-phase:** 
+    1. Find closest clusters and merge them
+    2. Proceed until we have a single cluster
+* _What is the rule of the cluster-2-cluster distance and which distances can we use?_🧠
+  * So called cluster linkage types define the distance between two clusters. Commonly used are
+    * Single linkage
+    * Complete linkage
+    * Average linkage
+    * Centroid linkage
+* _How does the_ $$k$$_-mean algorithm work? What are the two main steps?_🧠
+  * The two main steps are the **assigment** and **adjustment step**.
+  * **Assignment step:** 
+    * Assign each sample to its closest centroid $$z_{n}=\arg \min_{k}\left\|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right\|^{2}$$ 
+  * **Adjustment Step:**
+    * Adjust the centroids to be the means of the samples assigned to them: $$c_{k}=\frac{1}{\left|X_{k}\right|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left\{\boldsymbol{x}_{n} \mid z_{n}=k\right\}$$ 
+* _Why does the algorithm converge? What is it minimizing?_🧠
+  * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centeroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer custer centre exists and the SSD remains constant.
+  * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2} $$ 
+* _Does_ $$k$$_-means find a global minimum of the objective?🧠_
+  * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
+  * More over, the result of $$k$$-means is heavily dependent on the initialisation.
 
 ## Dimensionality Reduction
 
@@ -152,9 +173,11 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Describe basic properties of 'AlexNet' and 'VCG'.🧠
 * What is the main idea of 'ResNet' to make it very deep?🧠
 * Why is it not feasible to use a fully connected layer for images? How do convolutional neural networks solve this problem and which property of an image do they exploit?🦧
+* How do LSTMs actually avoid the vanishing gradient problem?
 
 ## General
 
+* What is the difference between AI and ML?
 * What are the hyperparameters for choosing the model complexity for each of the following algorithms. Name at least one hyperparameter for every algorithm.
   * Neural Networks
   * Support Vector Machines
