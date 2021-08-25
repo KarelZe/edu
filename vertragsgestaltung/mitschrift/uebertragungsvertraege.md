@@ -39,7 +39,7 @@
   * z. B. Verzicht der Gemeinde auf Vorkaufrecht bei Kaufvertrag
 * Kosten und Steuern
 
-### 🧱Gesetztliche Vorschriften
+### 🧱Gesetzliche Vorschriften
 
 * § 433 BGB: Vertragstypische Pflichten \(Essentialia Negoti\)
   * Verkäufer: Übergabe der Sache + dem Käufer Eigentum verschaffen d. h. Besitz und Eigentum wird verschafft

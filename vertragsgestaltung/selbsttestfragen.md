@@ -143,11 +143,36 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 ## 👗Kaufvertrag
 
-1. Zu welchen Themen sollte ein Kaufvertrag regelmäßig Regelungen enthalten?
-2. Welche Besonderheit gilt bei Kaufverträgen über Grundstücken und GmbH-Anteilen gegenüber Kaufverträgen über beweglichen Sachen?
-3. Unter welchen Voraussetzungen ist ein Haftungsausschluss im Kauvertrag möglich?
-4. Wie unterscheidet sich ein Kaufvertrag zwischen zwei Unternehmern oder zwei Verbrauchern gegenüber einem Verbrauchsgüterkaufvertrag im Hinblick auf die Möglichkeiten der Vertragsgestaltung?
-5. Was versteht man unter dem Recht der zweiten Andienung? Ordnen Sie dieses Recht in das kaufrechtliche Gewährleistungssystem ein.
+1. _Zu welchen Themen sollte ein Kaufvertrag regelmäßig Regelungen enthalten?_
+   * Kaufgegenstand
+   * Kaufpreis
+   * Eigentumsübertragung + Sicherung des Austauschverhältnisses
+   * Besitzübergang und Gefahrtragung
+   * Rechts- und Sachmängelhaftung
+   * Vollzugs- und Wirksamkeitserfordernisse
+   * Kosten und Steuern
+2. _Welche Besonderheit gilt bei Kaufverträgen über Grundstücken und GmbH-Anteilen gegenüber Kaufverträgen über beweglichen Sachen?_
+   * Für Kaufverträge über Grundstücke besteht nach [§ 311 b Abs. 1](https://www.gesetze-im-internet.de/bgb/__311b.html) die Pflicht zur notariellen Beurkundung
+   * Der Verkauf von Geschäftsanteilen an neuen Gesellschafter der GmbH erfordert ebenfalls eine notarielle Beurkundung nach [§ 15 Abs. 4 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__15.html). Die Veräußerung erfolgt durch Abtretung.
+3. _Unter welchen Voraussetzungen ist ein Haftungsausschluss im Kauvertrag möglich?_
+
+* Haftungsausschluss ist geregelt in [§ 444 BGB](https://www.gesetze-im-internet.de/bgb/__444.html). Demnach ist ein Haftungsausschluss nur möglich, sofern Mangel nicht arglistig verschwiegen werden oder der Verkäufer eine Garantie für die Beschaffenheit der Sache übernommen hat.
+* Demnach kann Haftung nicht für Vorsatz, aber für Fahrlässigkeit ausgeschlossen werden.
+* **Beispiel**: Haftungsausschluss bei Privatverkauf zwischen Verbrauchern möglich.
+
+1. _Wie unterscheidet sich ein Kaufvertrag zwischen zwei Unternehmern oder zwei Verbrauchern gegenüber einem Verbrauchsgüterkaufvertrag im Hinblick auf die Möglichkeiten der Vertragsgestaltung?_
+
+* Bei B2B-Verträgen bestehen weitreichende Gestaltungsmöglichkeiten hinsichtlich der Vertragsgestaltung. 
+* Der Verbrauchsgüterkaufvertrag ist an § 474-479 BGB orientiert. Es bestehen bestehen kaum Gestaltungsmöglichkeiten für die Vertragsgestaltung.
+* **Beispiele:**
+  * Gem. § 476 hat man kaum Steuerungsmöglichkeiten bei Vertragsgestaltung. Kleine Ausnahme ist nur Eigentumsvorbehalt.
+  * Gem. § 447 liegt eigentlich Versandrisiko bei Käufer. Überlagert durch § 475 Abs. 2 BGB. Fast immer trägt Verkäufer dann das Risiko des Untergangs.
+
+1. _Was versteht man unter dem Recht der zweiten Andienung? Ordnen Sie dieses Recht in das kaufrechtliche Gewährleistungssystem ein._
+
+* In Deutschland ist ein zweistufiges System implementiert zur Korrektur von Sach- oder Rechtsmängeln.
+* In der ersten Stufe hat Verkäufer das Recht auf Nacherfüllung / Recht auf zweite Andienung. In der zweiten Stufe hat der Verbraucher das Recht auf Rücktritt, Minderung, Schadensersatz statt Leistung.
+* Bestehen Mängel, so hat der Verkäufer das Recht die Sache nochmal zuerfüllen in Form von Mängelbeseitigung oder Neuherstellung. Ist auch dieser Versuch erfolglos, dann erst greifen weitere Rechte wie Rücktritt.
 
 ## ⚖️Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
 
