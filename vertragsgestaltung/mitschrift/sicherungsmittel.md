@@ -33,7 +33,7 @@
   * Hypothek ist akzessorisch.
   * Grundschuld ist nicht akzessorisch.
 * **Sicherungsübereignung /- abtretung**
-  * nicht geregelt im Gesetz → entstanden in der Wirtchaftspraxis
+  * nicht geregelt im Gesetz → entstanden in der Wirtschaftspraxis
   * Man bleibt Besitzer / Eigentum geht an Gläubiger
   * Anstelle der Eigentumsübergabe wird Übergabesurrogat / Besitzkonstitut \([§ 930 BGB](https://www.gesetze-im-internet.de/bgb/__930.html)\) vereinbart.
 

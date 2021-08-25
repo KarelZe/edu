@@ -44,7 +44,7 @@
 
 ## **Klauselverbote \(wichtig\)**
 
-* Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Geegelt in § 310 Abs. 1 BGB.
+* Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Geregelt in § 310 Abs. 1 BGB.
 * **Faustformel:**
   * Wenn was in [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) verboten ist, dann ist es mit hoher Wahrscheinlichkeit auch in [§ 307 BGB](https://www.gesetze-im-internet.de/bgb/__307.html) verboten. Ein paar Ausnahmen gibt es. Dies gilt für B2B, weil hier der [§ 308](https://www.gesetze-im-internet.de/bgb/__308.html) und [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) nicht zu  prüfen sind. Bei B2C Verträgen würde Ausschluss über [§ 308](https://www.gesetze-im-internet.de/bgb/__308html) oder [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) erfolgen.
 * Wichtige Klauselverbote ohne Wertungsmöglichkeiten [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html)

@@ -1,4 +1,4 @@
-# Zivilrechtiche Grundlagen
+# Zivilrechtliche Grundlagen
 
 
 
@@ -43,7 +43,7 @@
 
 ### Gestaltungsfreiheit
 
-#### Allgemeine Geschäftsebdingungen 
+#### Allgemeine Geschäftsbedingungen 
 
 * Schutz des Schwächeren bei Formularverträgen \(§§ 305 ff. BGB\)
 * **Bespiel**: Handyvertrag mit O2.
@@ -70,12 +70,12 @@
 * Kein Realakt z. B. Übergabe von Radiergummi, ist kein Rechtsgeschäft, weil kein Eigentumsübergang erfolgt. Bei Realakt tritt Rechtsfolge ein, ob man will oder nicht.
 * Arten von Rechtsgeschäften
   * **Einseitige Rechtsgeschäfte** Nur eine Person beteiligt
-  * **Zweiseitige / Mehrseitige Rechtsgeschäfte** Min. 2 Personen beteilgt
+  * **Zweiseitige / Mehrseitige Rechtsgeschäfte** Min. 2 Personen beteiligt
 * Zwei Ebenen:
   * Verpflichtungsgeschäft
   * Erfüllungsgeschäft
 * **Trennungsprinzip** = Verpflichtungs- und Erfüllungsgeschäft sind zwei voneinander getrennte Rechtgeschäfte
-* **Abstraktionsprinzip** = Mängel im Verpglichtungsgeschäft wirken nicht auf die Wirksamkeit des Erfüllungsgeschäfts und umgkehrt aus. D. h. man kann wirksames Verpflichtungsgeschäft aber ungültiges Erfüllungsgeschäft haben.
+* **Abstraktionsprinzip** = Mängel im Verpflichtungsgeschäft wirken nicht auf die Wirksamkeit des Erfüllungsgeschäfts und umgekehrt aus. D. h. man kann wirksames Verpflichtungsgeschäft aber ungültiges Erfüllungsgeschäft haben.
 * Eigentumszuordnung wird nie durch Kaufvertrag verändert. Eigentum geht erst mit dinglicher Einigung über.
 * **Beispiel** ungültiges Verpflichtungsgeschäft / Erfüllungsgeschäft: Z. B. Abschluss Autoverkauf-Vertrag im Vollsuff wäre ungültiges Verpflichtungsgeschäft \("Ich verpflichte mich, dir Eigentum an dem Auto zu verschaff"\), trotzdem kann Auto übergeben werden, obwohl Verpflichtungsgeschäft eigentlich nicht wirksam war \("Wir sind uns einig, dass du das Eigentum an dem Auto erhalten sollst"\).
 * Bei Handschenkung fällt Verpflichtung und Erfüllung zusammen
@@ -104,7 +104,7 @@
     **unter Anwesenden**
 
     * Das Gesetz hat hierzu keine Regelung.
-    * Schriftliche Verörperung: Aushändigung z. B. Schreiben
+    * Schriftliche Verkörperung: Aushändigung z. B. Schreiben
     * Mündliche Erklärung: Wenn vom Empfänger akustisch einwandfrei verstanden
 
     **unter Abwesenden**
@@ -114,7 +114,7 @@
 
 ### Auslegung
 
-* Ziel: Sinn der Erkläung zu ermitteln
+* Ziel: Sinn der Erklärung zu ermitteln
 * gesetzliche Grundlage §§ 133 \(einseitige Rechtsgeschäfte\), 157 BGB \(zweiseitige Rechtsgeschäfte\)
 * Verträge sind so auszulegen wie sie es nach Treu und Glauben erwarten
 * Relevant ist **objektiver Empfängerhorizont**: Wie hätte ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung verstanden? Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufsetzt! Auch nicht der Vertragspartner!
@@ -123,13 +123,13 @@
 ### Stellvertretung
 
 * Gesetzliche Grundlage §§ 164 ff. BGB
-* **Beispiel:** Vertrag mit GmbH \(nur jur. Konstrukt\) braucht Vertreter z. B. Geschäftsführerer, Bevollmächtigter. Bevollmächtigter braucht Vollmacht, sodass GmbH überhaupt verpflichtet wird.
+* **Beispiel:** Vertrag mit GmbH \(nur jur. Konstrukt\) braucht Vertreter z. B. Geschäftsführer, Bevollmächtigter. Bevollmächtigter braucht Vollmacht, sodass GmbH überhaupt verpflichtet wird.
 * Wirkung der Stellvertretung sind geregelt in § 164 BGB.
 * **Voraussetzung:** 
   * Stellvertretung muss **zulässig** sein. Fast immer möglich, außer bei **höchstpersönlichen Rechtsgeschäften** z. B. Eheschließung 
   * Abgabe **einer eigenen Willenserklärung des Vertreters** \(keine Botenschaft\).
   * **Offenkundigkeit der Vertretung** d. h. Vertretung muss nach Außen hin deutlich sein.
-  * **Vertretungsmacht für das vorgenommene Rechtgsgeschäft** \(Vollmacht, gesetztliche / organschaftliche Vertretung\) muss gegeben sein. z. B. Gesetzlicher Vertreter bei Kindern
+  * **Vertretungsmacht für das vorgenommene Rechtsgeschäft** \(Vollmacht, gesetzliche / organschaftliche Vertretung\) muss gegeben sein. z. B. Gesetzlicher Vertreter bei Kindern
 * **Unterschied Botenschaft und Stellvertretung:** 
   * Bei Botenschaft sagt man nur, was für eine andere Person gesagt wird. 
   * Bei Stellvertretung gebe ich eine eigene Willenserklärung ab.
@@ -141,11 +141,11 @@
     * durch Gesetz geregelt z. B. Geschäftsführer der GmbH \(§ 35 GmbHG\)
     * Erteilung der Vollmacht geregelt in [§ 167 BGB](https://dejure.org/gesetze/BGB/167.html).
 * **Unterschied Vertretungsmacht und Vollmacht:**
-  * Jede Vertretungsmacht folgt nicht aus Vollmacht, aber jeder Vollmacht folgt Vertretungmacht
+  * Jede Vertretungsmacht folgt nicht aus Vollmacht, aber jeder Vollmacht folgt Vertretungsmacht
 
 ### Formen
 
-#### T**extform**
+#### **Textform**
 
 * Geregelt in [§ 126 b BGB](https://www.gesetze-im-internet.de/bgb/__126.html).
 * Erklärung unverändert wiederzugeben + dauerhaft speichern
@@ -169,8 +169,8 @@
   * **Beispiel**: Ausschlagung Erbschaft \(§ 1945\)
 * Notarielle Beurkundung \([§ 128 BGB](https://www.gesetze-im-internet.de/bgb/__128.html)\) 
   * **Beispiel:** Grundstückskaufverträge \([§ 311b](https://www.gesetze-im-internet.de/bgb/__311.html)\), Erbverzichtsvertrag \([§ 2348](https://www.gesetze-im-internet.de/bgb/__2348.html)\), Veräußerung von GmbH-Geschäftsanteilen \(§ 15 GmbHG\)
-* Unterschied Aussschlagung einer Erbschaft und Erbverzichtsvertrag: 
-  * Bei der Ausschlagung einer Erbaschaft \([§ 1945](https://www.gesetze-im-internet.de/bgb/__1945.html)\) erklärt man nach Eintreten des Todes, dass man nicht erben will, weil z. B. überschuldetes Vermögen.
+* Unterschied Ausschlagung einer Erbschaft und Erbverzichtsvertrag: 
+  * Bei der Ausschlagung einer Erbschaft \([§ 1945](https://www.gesetze-im-internet.de/bgb/__1945.html)\) erklärt man nach Eintreten des Todes, dass man nicht erben will, weil z. B. überschuldetes Vermögen.
   *  Erbschaftsverzicht \([§ 2348](https://www.gesetze-im-internet.de/bgb/__2348.html)\) heißt noch zu Lebzeiten vereinbart der Erblasser mit Verwandten, dass Verwandter nicht erbt.
 
 

@@ -11,7 +11,7 @@
 
 * Man unterscheidet die beiden Vertragstypen:
   * **Austauschverträge** → Bezieht sich auf **Gegenläufigkeit** \(z. B. Auftragnehmer vs. Auftraggeber oder Verkäufer und Käufer etc.\)
-  * **Kooperationsverträge** → Bezieht sich auf **Gemeinsamkeit** \(z. B. Startup mit mehreren  Kompagnon, die dasselbe Ziel haben z. B. BMW und Startup koopieren für neues Produkt\)
+  * **Kooperationsverträge** → Bezieht sich auf **Gemeinsamkeit** \(z. B. Startup mit mehreren  Kompagnon, die dasselbe Ziel haben z. B. BMW und Startup kooperieren für neues Produkt\)
   * Man unterscheidet dann **Austauschverträge** weiter nach **Übertragungsverträge** etc.
 * **Übertragungsvertrag:** Ziel dieser Verträge ist die Verschaffung des Eigentums an einer Sache \(z. B. Auto, Grundstück\) oder einem Recht \(z. B. Forderung, Gesellschaftsanteil\)
 * Varianten vom **Übertragungsvertrag**
@@ -46,7 +46,7 @@
   * technische Aspekte  → z. B. Pläne / Leistungsverzeichnis bei Bauverträgen
   * wirtschaftliche Aspekte → z. B. Was ist Mietzins? Wie bekomme ich regelt, dass Kundenstamm bei mir bleibt?
 * **Flexibilität** z. B. bei Klausel, worauf sich Parteien nicht verständigen können. Wie lässt sich Klausel umformulieren, dass Lösung gefunden wird?
-  * **Nähe vs. Distanz** z. B. man möchte Vertrag mit bestimmten Kunden schließen vs. man suggeriert Distanz, dass noch andere Vertragspartner im Rennnen sind
+  * **Nähe vs. Distanz** z. B. man möchte Vertrag mit bestimmten Kunden schließen vs. man suggeriert Distanz, dass noch andere Vertragspartner im Rennen sind
   * **Zeitdruck vs. Verlangsamen** z. B. zeitlichen Druck aufbauen bei Vertragspartnern
   * **Entscheidungsdruck vs. Verzögerungen** z. B. Druck bei Vertragsabschluss vs. Verlangsamung etwa Rücksprache mit Aufsichtsrat
   * **Alternativen beschränken vs. Alternativen aufzeigen** z. B. auf Detail beharren oder Alternativen aufzeigen

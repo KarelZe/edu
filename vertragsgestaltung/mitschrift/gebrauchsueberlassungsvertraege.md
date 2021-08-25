@@ -47,7 +47,7 @@
   * Kaufkraftschwund etc.
 * Sicherheiten
   * Bei Mietausfall
-  * Absicherung bei nichtpfleglichem Umgang mit der Mietsache
+  * Absicherung bei nicht pfleglichem Umgang mit der Mietsache
 * Gewährleistung & Haftung
 * Beendigung & Rückgabe
   * Rückgabe der Mietsache z. B. Besenrein
@@ -58,17 +58,17 @@
 * Geregelt in [§ 535 BGB](https://www.gesetze-im-internet.de/bgb/__535.html)
 * **Pflichten des Vermieters**
   * Überlassungspflicht
-  * Ehaltungspflicht → Man kann Sache für den im Vertrag vorgesehenen Zweck nutzen
+  * Erhaltungspflicht → Man kann Sache für den im Vertrag vorgesehenen Zweck nutzen
 * **Pflichten des Mieters**
   * Zahlungspflicht
   * Obhuts- und Sorgfaltspflicht → Pfleglich mit Mietsache umgehen → Ansonsten Schadensersatzpflicht
 * [§§ 535-548 BGB](https://www.gesetze-im-internet.de/bgb/__535.html) **Allgemeiner Teil**:
   * Gilt für alle möglichen Sachen z. B. Auto, Wohnraummietvertrag
-  * \(geregelt: Hauptpflichten; Gewährleistungsrecht; Untermiete; außerordentliche Küdnigung; Rückgabe\)
+  * \(geregelt: Hauptpflichten; Gewährleistungsrecht; Untermiete; außerordentliche Kündigung; Rückgabe\)
   * Mieter haftet nicht für Abnutzungen durch vertragsgemäßen Verbrauch nach [§ 538 BGB](https://www.gesetze-im-internet.de/bgb/__538.html).
   * Verjährung bereits nach 6 Monaten gem. [§ 548 BGB](https://www.gesetze-im-internet.de/bgb/__548.html).
 * [§§ 549-577a BGB](https://www.gesetze-im-internet.de/bgb/__549.html): **Wohnraummietverträge** 
-  * \(geregelt: Anwendungsbereich, Schriftform, Meitsicherheit, Erhaltung und Modernisierung, Betriebskosten, Mieterhöhungen, Vermieterpfandrecht, Wechsel der Vertragsparteien, Beendigung\)
+  * \(geregelt: Anwendungsbereich, Schriftform, Mietsicherheit, Erhaltung und Modernisierung, Betriebskosten, Mieterhöhungen, Vermieterpfandrecht, Wechsel der Vertragsparteien, Beendigung\)
     * Form des Mietvertrags [§ 550](https://www.gesetze-im-internet.de/bgb/__550.html)
       * Wohnraummietvertrag typischerweise unbefristet
       * Wird Vertrag nicht schriftlich geschlossen mit Laufzeit länger als 1 Jahr, so gilt er auf unbestimmte Dauer geschlossen.
@@ -119,7 +119,7 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
   * **Bestimmt Vertragssoll** → Wichtig für Vermieter → Was, wird vermietet? Zu welchem Zweck etc.? → Beispiel: Bauliche Anforderungen an vermietete Apotheke / Öffentliches Baurecht → z. B. Vermieter muss Baurecht berücksichtigen kann z. B. nicht überall eine Spielehölle vermieten
   * Flächenangaben:
     * Maßstab für die Flächenberechnung angeben z. B. MF/G Richtlinie 2017, DIN277:2016\) → Wie wird Fläche berechnet? → Ohne Angabe gibt es Streitpotenzial
-    * Schwellenwert für die \(Un-\) Beabsichtlichkeit von Flächenabweichungen → z. B. 5 % Regelung für Abweichung bei Flächenangabe
+    * Schwellenwert für die \(Un-\)beabsichtigte von Flächenabweichungen → z. B. 5 % Regelung für Abweichung bei Flächenangabe
   * Regelungsmechanismus für Änderung der Nutzung
     * Optional zu regeln, aber sinnvoll
   * Genaue Beschreibung ist **Maßstab dafür, ob Mangel vorliegt**
@@ -130,7 +130,7 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
 * **Optionsrecht des Mieters** → Mieters kann Vertrag nochmalig um X Jahre verlängern
 * **Evergreen-Klausel** → automatische Verlängerung um 1 Jahr nachdem alle Optionsrechte des Mieters gezogen sind
 
-#### Wertsicherungsklauel
+#### Wertsicherungsklausel
 
 * Keine Anwendung von [§§ 557 ff. BGB](https://www.gesetze-im-internet.de/bgb/__557.html) \(Betrifft nur Wohnraumrecht\)
 * Arten der Wertsicherungsklausel
@@ -142,7 +142,7 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
 
 * Regelfall: Bürgschaft, weil Barkaution Liquidität bindet
 * Klarer Regelung zum Umfang der Bürgschaft
-* Bürgschaft für erstes Anfordern, Verzicht auf Einrede der Vorausklage, Verzicht auf Einrede Anfechtbarkeitung und Afurechenbarkeit \(es sei denn Forderungen rechtsrkäftig oder unstreitig\)
+* Bürgschaft für erstes Anfordern, Verzicht auf Einrede der Vorausklage, Verzicht auf Einrede Anfechtbarkeitung und Aufrechenbarkeit \(es sei denn Forderungen rechtskräftig oder unstreitig\)
 * Höhe: 
   * bis sechs Monatsmieten in Gewerbemietverträgen
   * Im Wohnraum-Mietrecht max. 3 Monatsmieten [§ 551 BGB](https://www.gesetze-im-internet.de/bgb/__551.html).
@@ -157,14 +157,14 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
 #### Weitere Regelungen
 
 * Nebenkosten
-* Instandshaltung und Instandsetzung, Schönheitsreparaturen
+* Instandhaltung und Instandsetzung, Schönheitsreparaturen
 * kleinere Regelungen
   * Betriebspflicht z. B. vor Allem im Einzelhandel, Mieter muss Mietsache nutzen d. h. Laden soll nicht leer stehen
   * Konkurrenzschutz z. B. Man vermietet nicht an ähnliche Person z. B. Lidl, wenn man bereits in Umgebung an Aldi vermietet hat
   * Werbeschilder z. B. Aufstellen von Werbeschildern
   * Wiederherstellungspflicht z. B. Abbrennen
   * Untervermietung
-  * bauliche Veränderung z. B. was darf Mieter / Vermieter baulich veränderen während der Vertragslaufzeit?
+  * bauliche Veränderung z. B. was darf Mieter / Vermieter baulich Veränderungen während der Vertragslaufzeit?
   * Schriftform, Vollständigkeitsklausel \(Aufforderung, dass das was schriftlich vereinbart wurde, vollständig ist\)
 * Sonderkonstellation: 
   * Vermietung vom Reißbrett, Mieterausbau:

@@ -3,7 +3,7 @@
 ## Leasing
 
 * Keine eigenständige gesetzliche Regelungen
-* Man betrachtet Leasing-Vertrag als **atypischer Mietvertrag**, d. h. Vorschriften des Mietvertrags sind anwendbar, aber es exisiteren Sonderregelungen
+* Man betrachtet Leasing-Vertrag als **atypischer Mietvertrag**, d. h. Vorschriften des Mietvertrags sind anwendbar, aber es existieren Sonderregelungen
 * Mit Leasing-Erlasse z. B. Teilamortisationserlass für Mobilien des BMF wird Leasing maßgeblich geregelt
 * Leasing-Verträge können sehr unterschiedlich ausgestaltet sein
 * Leasing hat steuerliche Vorteile gegenüber Kauf
@@ -27,7 +27,7 @@
 * Kurze Laufzeiten + Kündigungsfristen
 * keine Übernahme bei Vertragsende
 * teilw. Austausch \(sog. revolving-leasing \(→ immer neue Geräte\)\)
-  * _Revolving Leasing_ bei stark dynamsichen Unternehmen sinnvoll → z. B. Unternehmen wächst stark → geleaster Drucker reicht dann nicht mehr
+  * _Revolving Leasing_ bei stark dynamischen Unternehmen sinnvoll → z. B. Unternehmen wächst stark → geleaster Drucker reicht dann nicht mehr
 * häufig mit Wartungs- und Instandhaltungsdienstleistungen verbunden \(_Gross Lease_\)
 
 ### Sonderformen
@@ -40,7 +40,7 @@
 
 ![](../../.gitbook/assets/untitled%20%281%29.png) 
 
-Leasinggeber hat Geld und kauft für Leasingnehmer Maschine d. h. Leasinggeber hat am Anfang nur Geld und erwirbt von Lieferanten den Leasingegenstand und überlässt diesen zum Gebrauch dem Leasingnehmer.
+Leasinggeber hat Geld und kauft für Leasingnehmer Maschine d. h. Leasinggeber hat am Anfang nur Geld und erwirbt von Lieferanten den Leasinggegenstand und überlässt diesen zum Gebrauch dem Leasingnehmer.
 
 Bei Leasingvertrag werden sämtliche Pflichten insb. Erhaltungspflicht an den Leasingnehmer abgewälzt. Dafür erhält Leasingnehmer vom Leasinggeber die Gewährleistungsrechte z. B. Mängelrechte aus dem Kaufvertrag gegenüber dem Lieferanten. Bei Mietvertrag bleiben hingegen Erhaltungsplichten beim Vermieter.
 
@@ -61,7 +61,7 @@ Bei Leasingvertrag werden sämtliche Pflichten insb. Erhaltungspflicht an den Le
 
 ## Lizenzverträge
 
-* Überblick über immateriale Güter
+* Überblick über immaterielle Güter
   * **Patentrecht** → Gebrauchsmuster / Sortenschutzrecht
   * **Designrecht**
   * **Markenrecht** und andere Kennzeichnungsrechte z. B. Herkunftsangaben
@@ -69,7 +69,7 @@ Bei Leasingvertrag werden sämtliche Pflichten insb. Erhaltungspflicht an den Le
 * Nur Patentrecht, Designrecht und Markenrecht sind gewerbliche Schutzrechte
 * Nicht: Persönlichkeitsrechte \(z. B. Recht am eigenen Bild\)
 * **numerus clausus** des Immatrialgüterrechts → Man kann keine eigenen Immaterialgüter erfinden. Nur dass, was das Gesetz kennt, kann geschützt werden.
-* **absoultes** Recht \(→ Eigentümer gilt ggü. jedermann / Unterschied: relative Rechte → gelten nur zwischen zwei Perssonen z. B. Mängelanspruch bei Kaufvertrag zwischen Verkäufer und Käufer\) an **unkörperlichen Gegenständen** \(z. B. Mobilien / Immoblien\)
+* **absolutes** Recht \(→ Eigentümer gilt ggü. jedermann / Unterschied: relative Rechte → gelten nur zwischen zwei Personen z. B. Mängelanspruch bei Kaufvertrag zwischen Verkäufer und Käufer\) an **unkörperlichen Gegenständen** \(z. B. Mobilien / Immobilien\)
 * Immatrialgüterrecht vs. Sachgüterschaft → **Beispiel:** Eigentümer einer PC-Maus hat nicht gleich auch die Patente an der Maus erworben.
 * Ausschließliche Nutzungsbefugnisse für bestimmte Nutzungen
 
@@ -96,7 +96,7 @@ Bei Leasingvertrag werden sämtliche Pflichten insb. Erhaltungspflicht an den Le
 
 ## Urheberrecht
 
-* **Zweck**: Schutz ideeler + materieller Interessen
+* **Zweck**: Schutz ideeller + materieller Interessen
 * **Gegenstand**: Werk \(Literatur, Wissenschaft, Kunst\) \(geregelt in § 2\)
 * **Voraussetzung**: geistige Schöpfung
 * **Schutzumfang**: §§ 11 UrhG ff.
@@ -116,5 +116,5 @@ Bei Leasingvertrag werden sämtliche Pflichten insb. Erhaltungspflicht an den Le
 * Vertrags _sui generis_ \(Vertrag eigener Art\)
 * **Hauptpflicht Lizenzgeber:** Einräumung der Lizenz
 * **Hauptpflicht Lizenznehmer:** Zahlung der Lizenzgebühr
-* **Regelungen der Nebenpflichten** \(z. B. Pflicht zur Aufrechterhaltung des Schutzrechts \(d. h. Verlängerung der Marke\) Rechtsmängelhaftung bei Nichtbestehen oder fehlender Inhabreschaft\) \(z. B. Nicht-Zustandekommen der Marke\)
+* **Regelungen der Nebenpflichten** \(z. B. Pflicht zur Aufrechterhaltung des Schutzrechts \(d. h. Verlängerung der Marke\) Rechtsmängelhaftung bei Nichtbestehen oder fehlender Inhaberschaft\) \(z. B. Nicht-Zustandekommen der Marke\)
 

@@ -27,8 +27,8 @@
 * gesetzlicher Rahmen §§ 705 - 740 BGB
   * Zusammenschluss von mehreren Personen zur Erreichung eines **gemeinsamen Zweckes** reicht für Gründung der BGB-Gesellschaft z. B. Tippgemeinschaft
 * Gesellschaftsvertrag
-* Verfplichtung zur Förderung der Erreichung eines gemeinsamen Zwecks
-* **kein Betrieb eines Handelsgewerbes** \(sonst OHG\) → OHG betriebt Handelsgewerbe \(§1 HGB; Kaufmannseigenschaft; § 2 HGB; Handelsgewerbe\) → Erfüllt man Eigenschaften an Handelgewerbe, werden zwingend Regelungen der OHG angewendet → deklaratorische Eintragung → OHG entsteht durch Zusammenschluss; Registereintragung ist nur "obligatorisch"
+* Verpflichtung zur Förderung der Erreichung eines gemeinsamen Zwecks
+* **kein Betrieb eines Handelsgewerbes** \(sonst OHG\) → OHG betriebt Handelsgewerbe \(§1 HGB; Kaufmannseigenschaft; § 2 HGB; Handelsgewerbe\) → Erfüllt man Eigenschaften an Handelsgewerbe, werden zwingend Regelungen der OHG angewendet → deklaratorische Eintragung → OHG entsteht durch Zusammenschluss; Registereintragung ist nur "obligatorisch"
 * **Keine juristische Person, aber Rechtsfähigkeit der Außen-GbR** → BGB-Gesellschaft ist **Teil-rechtsfähig** → BGB-Gesellschaft kann also noch Vertragspartner sein und kann selbst Verträge abschließen.
 * **Geschäftsführung** \(Was darf der Geschäftsführer?\): Gesamtgeschäftsführung → sehr umfangreiche Gestaltungsmöglichkeiten \([§ 709 BGB](https://www.gesetze-im-internet.de/bgb/__709.html)\) → Einstimmigkeitsprinzip gilt → Unpraktisch in Praxis z. B. bei Anschaffungen → Geschäftsführung kann auf einen Gesellschafter übertragen werden. In bestimmten Fällen braucht muss er sich aber Zustimmung einholen → Spielfeld der Vertragsgestaltung
 * **Vertretung** \(Was kann der Geschäftsführer?\): Gesamtvertretung → Rechtssicherheit wichtig für Gläubiger → Wenig Möglichkeiten hier Individualisierung / Gestaltung vorzunehmen
@@ -42,7 +42,7 @@
 * **Betrieb eines Handelsgewerbes** \(§§1, 105 HGB\) oder Eintragung ins Handelsregister \(§105 li HGB\)
 * keine juristische Person, aber Rechtsfähigkeit der \(Außen-\)GbR
 * **Geschäftsführung**: Einzelgeschäftsführung
-* **Vertretung**: Einzelvertretung → §§ 110-122 HGB können anders vertraglich geregelt werden im Innnenverhältnis. Im Außenverhältnis sind Möglichkeiten Vertretung zu regeln sehr eingeschränkt \(vgl. [§ 125 HGB](https://www.gesetze-im-internet.de/hgb/__125.html)\) → Schließt Gesellschafter Vertrag über 15.000 EUR ab, obwohl intern auf 10.000 EUR beschränkt ist, ist Vertrag trotzdem wirksam. → Vertretungsmacht kann nicht beschränkt werden im Außenverhältnis, denn Rechtsverkehr soll geschützt werden \(vgl. [§ 126 HGB](https://www.gesetze-im-internet.de/hgb/__126.html)\)
+* **Vertretung**: Einzelvertretung → §§ 110-122 HGB können anders vertraglich geregelt werden im Innenverhältnis. Im Außenverhältnis sind Möglichkeiten Vertretung zu regeln sehr eingeschränkt \(vgl. [§ 125 HGB](https://www.gesetze-im-internet.de/hgb/__125.html)\) → Schließt Gesellschafter Vertrag über 15.000 EUR ab, obwohl intern auf 10.000 EUR beschränkt ist, ist Vertrag trotzdem wirksam. → Vertretungsmacht kann nicht beschränkt werden im Außenverhältnis, denn Rechtsverkehr soll geschützt werden \(vgl. [§ 126 HGB](https://www.gesetze-im-internet.de/hgb/__126.html)\)
 * **Haftung**: Gesellschaft, § 31 BGB analog; Gesellschafter, § 128 HGB → Gesellschafter haftet als Gesamtschuldner
 
 ## Überblick KG

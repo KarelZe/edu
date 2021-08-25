@@ -13,7 +13,7 @@
 * **bewegliche Sachen** z. B. Brötchen, Auto
 * **unbewegliche Sachen** z. B. Grundstücke, Immobilien \(können nicht einzeln gekauft werden\) → d. h. man kauft Immobilie immer mit Grundstück → Ausnahme: Erbbaurecht etc.
 * **Rechte**
-  * **Ansprüche / Forderungen** z. B. Forderungenverkauf
+  * **Ansprüche / Forderungen** z. B. Forderungsverkauf
   * **Beteiligungen** z. B. Geschäftsanteile an GmbH
 * Vereinbare ich nichts, gelten die gesetzlichen Regelungen.
 * Regelungsaspekte / Skelett der Vertrags ist immer gleich z. B. Unternehmenskauf vs. Grundstückskauf.
@@ -22,13 +22,13 @@
 
 * Kaufgegenstand
   * Was soll eigentlich verkauft werden?
-  * Welche Liqudität muss vorhanden sein bei Unternehmenskauf
+  * Welche Liquidität muss vorhanden sein bei Unternehmenskauf
   * Zubehör Einbauküche bei Immobilienkauf
 * Kaufpreis
   * Kaufpreiszahlung wird gestreckt / ist auf einmal fällig
   * Wann ist Kaufpreis fällig?
 * Eigentumsübergang + Sicherung des Austauschverhältnisses
-  * Trennungs & Abstraktionsrecht z. B. Verkäufer ist weiterhin Eigentümer, auch wenn Kaufvertrag einer Maschine abgeschlossen ist. Wegen zwei Rechtsgeschäften \(Verpflichtung / Eigentumsübergang\) z. B. bei Immobilien \(§ 873 BGB\) geht Eigentum erst mit Eintragung im Grundbuch über. Je nach Auslastung Grundbuchamt erfolgt Eigentumsübergang erst 4-5 Mon. später → Sicherung des Austauschverhältnisses
+  * Trennungs- & Abstraktionsrecht z. B. Verkäufer ist weiterhin Eigentümer, auch wenn Kaufvertrag einer Maschine abgeschlossen ist. Wegen zwei Rechtsgeschäften \(Verpflichtung / Eigentumsübergang\) z. B. bei Immobilien \(§ 873 BGB\) geht Eigentum erst mit Eintragung im Grundbuch über. Je nach Auslastung Grundbuchamt erfolgt Eigentumsübergang erst 4-5 Mon. später → Sicherung des Austauschverhältnisses
 * Besitzübergang und Gefahrtragung
   * Eigentum → rechtliche Sachherrschaft / Besitz → tatsächliche Sachherrschaft sind zwei paar Stiefel
   * Man muss also streng unterscheiden.
@@ -68,7 +68,7 @@
 * Zweistufiges System:
 
   1. **Stufe:** Nacherfüllung \(= Recht zur zweiten Andienung\) \(§ 439 BGB\)
-     * Ziel ist Vertrag durchzuführen, erst dann sollen Sekündärrechte greifen.
+     * Ziel ist Vertrag durchzuführen, erst dann sollen Sekundärrechte greifen.
      * Verkäufer soll das Recht bekommen, den Mangel zu beseitigen. Erst dann hat man Rechte aus Sekundärstufe \(2. Stufe\)
      * Nimmt man Verkäufer das Recht auf Nacherfüllung, kann man keine weiteren Mängelrechte geltend zu machen. Z. B. ist Fristsetzung notwendig, um weitere Ansprüche geltend machen zu können.
   2. **Stufe:** Rücktritt, Minderung, Schadensersatz statt der Leistung
@@ -79,7 +79,7 @@
 
 * § 1 Grundbuchstand \(Kaufobjekt, Belastungen\)
   * Immobilie allein können nicht gekauft werden ungeachtet von Ausnahmen \(§ 93 / 94 BGB\)
-  * Was sind die Belatungen, die auf mich zukommen?
+  * Was sind die Belastungen, die auf mich zukommen?
     * Dienstbarkeiten gem. Abteilung 2 des Grundbuchrechts z. B. Wegerechte, Nießbrauch
     * Belastungen gem. Abteilung 3 des Grundbuchs z. B.  Grundpfandrechte wie Hypotheken und Grundschuld
 * § 2 Verkauf

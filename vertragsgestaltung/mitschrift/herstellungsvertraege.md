@@ -40,10 +40,10 @@
   * Man hat nichts mit Nachunternehmer zu tun als Bauherr
   * Geht Generalunternehmer pleite, muss man Regelungen mit Nachunternehmer treffen um Bauvorhaben voranzutreiben
 
-#### Wesentliche Regelungsinahlte
+#### Wesentliche Regelungsinhalte
 
 * Leistungsbeschreibung
-* Verütung
+* Vergütung
 * Änderungen der Leistung
 * Ausführungsfristen z. B. GANTT Diagramm, wann muss Rohbau fertig sein etc.
 * Abnahme
@@ -58,19 +58,19 @@
 
 #### Leistungsbeschreibung
 
-* **detailliert** → enthält deailliert Angaben zur Ausführung der Leistung → Im öffentlichen Bereich / bei kleinen Projekten → Problematisch sind vergessene Details
+* **detailliert** → enthält detailliert Angaben zur Ausführung der Leistung → Im öffentlichen Bereich / bei kleinen Projekten → Problematisch sind vergessene Details
 * **funktional** \("Schlüsselfertig\) → enthält lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden → Man beschreibt keine Details → "z. B. Schlüsselfertiges Hochhaus mit 10 Etagen"
 
 #### Beispiel eines Leistungsverzeichnisses
 
 * Abgerechnet wird tatsächlicher Aufwand z. B. bei Arbeitsstunden
 * Nur Einheitspreis ist fest vereinbart. Nicht aber die Menge!
-* Mengenrisiko sollte auf Bauunternehmer abewelzt werden z. B. KG Rohre verlegen 1.000 EUR unabhängig der Menge.
+* Mengenrisiko sollte auf Bauunternehmer abgewelzt werden z. B. KG Rohre verlegen 1.000 EUR unabhängig der Menge.
 
 #### Vergütung
 
 * **Einheitspreisvertrag** → ****Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
-* **Detail-Pauschalvertrag** → Nur Leistungen, die in Leistungsverzeichnis genannt sind, sind pauschalisiert → Enthält Leistungsverzeichnis Leistung nicht oder ist nicht ausreichend detailiert → Kann Bauunternehmer Forderung stellen → Leistung bleibt gleich → Pauschalisierung heißt hier nicht, dass alles drin ist!
+* **Detail-Pauschalvertrag** → Nur Leistungen, die in Leistungsverzeichnis genannt sind, sind pauschalisiert → Enthält Leistungsverzeichnis Leistung nicht oder ist nicht ausreichend detailliert → Kann Bauunternehmer Forderung stellen → Leistung bleibt gleich → Pauschalisierung heißt hier nicht, dass alles drin ist!
 * **Global-Pauschalvertrag \("Komplettheitsvertrag"\)** → Alles ist drin. → Häufig mit 10 % - 20 % Gewinnzuschlag
 
 #### Leistungsänderungen
@@ -79,5 +79,5 @@
   * Eigentlich gilt "Verträge sind einzuhalten". Hiervon weichen §§ 650b, 650c ab.
   * Einseitiges Recht für Besteller.
 * § 2 Abs. 5, 6 VOB/B - geänderte oder zusätzliche Leistungen
-* Die Höhe des Vergütungsanspruchs für den infolge einer Anordnung des Bestellers nach § 650b Abs. 2 vermehrten oder minderten Aufwand ist nach den tatsächlich erforderlichen Ksoten mit angemessenen Zuschlängen für allg. Geschäftskosten, Wagnis und Gewinn zu ermitteln.
+* Die Höhe des Vergütungsanspruchs für den infolge einer Anordnung des Bestellers nach § 650b Abs. 2 vermehrten oder minderten Aufwand ist nach den tatsächlich erforderlichen Kosten mit angemessenen Zuschlägen für allg. Geschäftskosten, Wagnis und Gewinn zu ermitteln.
 

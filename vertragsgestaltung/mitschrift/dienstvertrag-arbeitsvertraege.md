@@ -12,7 +12,7 @@
 * **Behandlungsvertrag:** 
   * Geregelt in [§§ 630a BGB ff.](https://www.gesetze-im-internet.de/bgb/__630.html)
   * Arzt schuldet nicht, dass Mandant nach Behandlung auch wirklich gesund wird.
-  * [§§ 630a](https://www.gesetze-im-internet.de/bgb/__630.html) ist recht neu und wurde aus der Rechtssprechung heraus entwickelt.
+  * [§§ 630a](https://www.gesetze-im-internet.de/bgb/__630.html) ist recht neu und wurde aus der Rechtsprechung heraus entwickelt.
 * **Geschäftsführer-Anstellungsvertrag:**
 * **Arbeitsvertrag**:
   * Machen großen Teil der Dienstverträge aus
@@ -27,7 +27,7 @@
 * Entscheidendes Kriterium:
   * **Weisungsgebundenheit** 
   * zeitlich , örtlich und fachlich Weisungsgebundenheit d. h. Arbeitgeber gibt etwa vor wann, wo und wie man \(Anwesenheitspflicht, Homeoffice\) arbeitet
-  * **Gegenbeispiel:** Bei Rechtsanwalt mit Mandantenvertrag kann Rechtsanwalt entscheiden, wann er Klage erstellt, wie er sie rausschickt. Mandant entscheidet nur, ob Klage eingereicht wird. Bei angetelltem Anwalt macht der Arbeitgeber Vorgaben.
+  * **Gegenbeispiel:** Bei Rechtsanwalt mit Mandantenvertrag kann Rechtsanwalt entscheiden, wann er Klage erstellt, wie er sie rausschickt. Mandant entscheidet nur, ob Klage eingereicht wird. Bei angestelltem Anwalt macht der Arbeitgeber Vorgaben.
   * Es ist egal, wie Vertrag bezeichnet ist, wichtig ist, ob Arbeitsverhältnis besteht \([§ 611a BGB Satz 6](https://www.gesetze-im-internet.de/bgb/__611a.html)\)
 
 ### Vertragsanbahnung
@@ -45,7 +45,7 @@
 * Aus dem Gesetz:
   * [§§ 611-630 BGB](https://www.gesetze-im-internet.de/bgb/__611.html) \(Hauptpflichten, Vergütung, Vorübergehende Verhinderung, Fürsorgepflichten, Haftung, Kündigungsfristen, Kündigung\)
   * [§§ 105-110 GewO](https://www.buzer.de/s1.htm?g=GewO&a=105-110) \(Weisungsrecht, Berechnung Arbeitsentgelt, Zeugnis, Wettbewerbsverbot\)
-    * § 105 Abschlussfreiheit, sofern nicht Gesetz, Tarfifvertrag und Betriebsvereinbarung entgegenstehen
+    * § 105 Abschlussfreiheit, sofern nicht Gesetz, Tarifvertrag und Betriebsvereinbarung entgegenstehen
     * § 107, 108 Regelungen für Arbeitsentgelt
     * § 109 Regelungen für Wettbewerbsverbot
   * Kündigungsschutzgesetz \(KSchG\)
@@ -70,7 +70,7 @@
 * Vergütung
 * Urlaub
 * Befristung / Kündigung
-* Hinweis Tarifvertrag / Betriebsvereinbarugn
+* Hinweis Tarifvertrag / Betriebsvereinbarung
 
 ### Nicht wesentliche Vertragsmerkmale
 
@@ -109,7 +109,7 @@
   * wöchentliche Arbeitszeit \(keine AGB-Kontrolle\)
   * Mehr- und Überstunden
   * Beginn, Ende und Aufteilung der Arbeitszeit.
-    * Konkrete Festelgung vs. Billiges Ermessen § 315 BGB.
+    * Konkrete Feststellung vs. Billiges Ermessen § 315 BGB.
     * "Billiges Ermessen" es gibt Überpüfungsmöglichkeit durch Gericht
   * Sondervorschriften bei Teilzeitbeschäftigten \(§§ 2 Abs. 1 6 ff., 22 Abs. 1 TzBfG\)
 * **Vergütung**
@@ -122,8 +122,8 @@
   * Überstundenregelung:
     * Abgeltung mit gezahltem Arbeitslohn \(Braucht Stundenbegrenzung z. B. bis 20 Stunden, danach Ausgleich über Freizeit oder Geld, sonst unwirksam\)
   * Vergütung in Sonderfällen
-    * Annahmeverzug, [615 Satz 1 BGB](https://www.gesetze-im-internet.de/bgb/__615.html) z. B. Arbeitgeber war nicht zu Kündigung berechtigt, dann kann er zu Nachzahlung des Arbeitslohns verfplichtet sein
-    * Betreibsrisiko, [§ 615 Satz 3 BGB](https://www.gesetze-im-internet.de/bgb/__615.html)
+    * Annahmeverzug, [615 Satz 1 BGB](https://www.gesetze-im-internet.de/bgb/__615.html) z. B. Arbeitgeber war nicht zu Kündigung berechtigt, dann kann er zu Nachzahlung des Arbeitslohns verpflichtet sein
+    * Betriebsrisiko, [§ 615 Satz 3 BGB](https://www.gesetze-im-internet.de/bgb/__615.html)
     * Feiertag, [§ 2 EntgFG](https://www.gesetze-im-internet.de/entgfg/__2.html)
     * Krankheitsfall, [§ 3 EntgFG](https://www.gesetze-im-internet.de/entgfg/__3.html)
       * max. 6 Woche
@@ -149,5 +149,5 @@
   * Soziale Rechtfertigung der Kündigung:
     * **Personenbedingt** → bei längerer Krankheit
     * **Verhaltensbedingt** → AN hält Pflichten aus Arbeitsverhältnis nicht ein
-    * **Betriebsbedingt** → Einzelfallsbetrachtung + Interessenabwägung + Verhältnsmäßigkeitsgrundsatz
+    * **Betriebsbedingt** → Einzelfallbetrachtung + Interessenabwägung + Verhältnismäßigkeitsgrundsatz
 
