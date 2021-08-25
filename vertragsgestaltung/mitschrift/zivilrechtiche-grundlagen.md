@@ -51,9 +51,8 @@
 #### Gestaltungsverbote
 
 * Geregelt § 138 BGB
-* Keine Knebelungsverträge
-* Maximale Vertragslaufzeit z. B. 50 Jahre
-* **Beispiel**: Ehevertrag zugunsten einen
+* **Beispiel**: Keine Knebelungsverträge
+* **Beispiel**: Maximale Vertragslaufzeit z. B. 50 Jahre
 
 #### Typenzwang
 
@@ -97,19 +96,21 @@
 
   **Wirksamwerden von Willenserklärungen**
 
-  * nicht empfangsbedürftig: 
+  * **nicht empfangsbedürftig:** 
     * Zugang nicht erforderlich
     * **Beispiel:** Testament
-  * empfangsbedürftig
+  * **empfangsbedürftig**
 
     **unter Anwesenden**
 
+    * Das Gesetz hat hierzu keine Regelung.
     * Schriftliche Verörperung: Aushändigung z. B. Schreiben
     * Mündliche Erklärung: Wenn vom Empfänger akustisch einwandfrei verstanden
 
     **unter Abwesenden**
 
-    * im Herrschaftsbereich des Empfängers + Möglichkeit der Kenntnisnahme unter gewöhnlichen Umständen
+    * Geregelt in [§ 130 BGB](https://www.gesetze-im-internet.de/bgb/__130.html).
+    * im Herrschaftsbereich des Empfängers \(z. B. Haus-  oder Geschäftsräume des Empfängers\) + Möglichkeit der Kenntnisnahme unter gewöhnlichen Umständen \(z. B. wann Zustellung des Briefs\)
 
 ### Auslegung
 

@@ -4,27 +4,90 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 ## 🧑‍⚖️ Zivilrechtliche Grundlagen
 
-1. Was bedeutet Vertragsfreiheit und welche Ausprägungen der Vertragsfreiheit lassen sich unterscheiden? Erläutern sie kurz die Ausprägungen.
+1. _Was bedeutet Vertragsfreiheit und welche Ausprägungen der Vertragsfreiheit lassen sich unterscheiden? Erläutern sie kurz die Ausprägungen._
    * Vertragsfreiheit ist die Freiheit eines Einzelnen zu entscheiden, ob, mit wem und mit welchem Inhalt er einen Vertrag abschließt.
    * Vertragsfreiheit umfasst:
      * **Abschlussfreiheit**: Also die Freiheit zu entscheiden, ob und mit wem ein Vertrag geschlossen wird.
      * **Gestaltungsfreiheit**: Die Freiheit, mit welchem Inhalt ein Vertrag geschlossen wird.
      * **Formfreiheit**: Freiheit, wie ein Vertrag geschlossen wird z. B. Schriftlich.
-2. Welche Einschränkungen der Abschlussfreiheit gibt es? Erläutern Sie die Einschränkungen kurz.
-3. Welche Einschränkungen der Gestaltungsfreiheit gibt es? Erläutern Sie die Einschränkungen kurz.
-4. Was versteht man unter dem Trennungs- und Abstraktionsprinzip? Erläutern Sie die Prinzipien an einem kurzen Beispiel.
-5. Welche objektiven und subjektiven Voraussetzungen müssen gegeben sein, dass eine Willenserklärung gegeben ist?
-6. Welche Arten von Willenserklärungen lassen sich unterscheiden und wie unterscheiden sie sich in Bezug auf ihr Wirksamwerden?
-7. Welcher Maßstab gilt bei der Auslegung von Verträgen?
-8. Wie definiert sich ein Vertrag?
+2. _Welche Einschränkungen der Abschlussfreiheit gibt es? Erläutern Sie die Einschränkungen kurz._
+
+* **Antidiskriminierungsvorschriften:**
+  * Bei dem Vertragsabschluss darf niemand wegen Alter, Geschlecht oder Rasse diskriminiert werden. 
+  * Geregelt in § 1, 6 ff. 19 ff. AGG.
+  * **Beispiel**: Einlass Diskothek
+* **Abschlussverbote:** 
+  * Ein Rechtsgeschäft, das gegen ein gesetzliches Verbot verstößt, ist nichtig. 
+  * Geregelt in § 134 BGB.
+  * **Beispiel**: Kauf von Drogen
+* **Kontrahierungszwang:**
+  * Straßenbahnunternehmen \(§ 22 PberfG\) und Energieunternehmen \(§ 17 EnWG\) sind grundsätzlich verpflichtet, mit jedem einen Vertrag abzuschließen / zu kontrahieren.
+
+1. _Welche Einschränkungen der Gestaltungsfreiheit gibt es? Erläutern Sie die Einschränkungen kurz._
+
+* **Allgemeine Geschäftsbedingungen:** 
+  * Werden AGB vereinbart, so darf der Vertragspartner nicht unangemessen benachteiligt werden. Der Schwächere soll bei Formularverträgen geschützt werden.
+  * Geregelt in §§ 305 ff. BGB.
+* **Gestaltungsverbote:**
+  * Rechtsgeschäfte sind nichtig, sofern sie gegen die guten Sitten verstößt oder eine Zwangslage, Unerfahrenheit o. Ä. ausnutzen.
+  * Geregelt in § 138 BGB.
+  * **Beispiel**: Keine Knebelungsverträge
+* **Typenzwang:**
+  * Der Typenzwang bestagt, dass bestimmte Vetragsformen vorgeschrieben werden.
+  * **Beispiel:** Strenge Formvorschriften bei Immobilienverträgen
+
+1. Was versteht man unter dem Trennungs- und Abstraktionsprinzip? Erläutern Sie die Prinzipien an einem kurzen Beispiel.
+
+* **Trennungsprinzip**: Es gibt zwei Ebenen im Rechtsgeschäft das Verpflichtungs- und Erfüllungsgeschäft. Verpflichtungs- und Erfüllungsgeschäft sind zwei voneiander getrennte Rechtsgeschäfte.
+* **Abstraktionsprinzip**: Mängel im Verpflichtungsgeschäft wirken sich nicht auf die Wirksamkeit des Erfüllungsgeschäfts aus und vice versa. D. h. Wirksamkeit des einen Geschäfts z. B. Verpflichtungsgeschäft kann von der Unwirksamkeit des anderen Geschäfts unabhängig bestehen.
+* **Beispiel Kaufvertrag von Auto**: 
+  1. Schritt / Verpflichtungsebene: Verpflichtung, Eigentum zu verschaffen \(§ 433 BGB\).
+  2. Schritt / Erfüllungsgeschäft: Einigung darüber, dass Eigentum übergehen soll und Übergabe \(§ 929 BGB\).
+
+  * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eingentlich unwirksam war.
+
+1. Welche objektiven und subjektiven Voraussetzungen müssen gegeben sein, dass eine Willenserklärung gegeben ist?
+
+* **Objektiv**:
+  * Kundegabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herebeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgne.
+* **Subjektiv:**
+  * **Handlungswille:** Äußerer Erklärungstatbestand wissentlich verwirklicht.
+  * **Erklärungsbewusstsein:** Rechtsbindungswille, Bewusstsein, dass die Erklärung irgendeine rechtliche Relevanz hat.
+  * **Geschäftswille:** Wille ist auf eine bestimmte Rechtsfolge gerichtet.
+
+1. Welche Arten von Willenserklärungen lassen sich unterscheiden und wie unterscheiden sie sich in Bezug auf ihr Wirksamwerden?
+   * Man unterscheidet **empfangsbedürftige** und **nicht empfangsbedürftige Willenserklärungen**
+   * Bei **nicht empfangsbedürftigen Willenserklärungen** ist Zugang nicht erforderlich für Wirksamwerden.
+   * Bei **empfangsbedürftigen Willenserklärungen unter Anwesenden** wird die Willenserklärung wirksam mit Aushändigung oder sofern sie einwandfrei akustisch verstanden werden.  Unter Abwesenden muss sie in den Herrschaftsbereich des Empfängers gelangen und dieser die Möglichkeit zur Kenntnisnahme unter gewöhnlichen Umständen haben.
+2. Welcher Maßstab gilt bei der Auslegung von Verträgen?
+   * Maßstab ist der **objektive Empfängerhorizont**: Maßgeblich ist, wie ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung versteht. Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufgesetzt hat.
+   * Gesetztliche Grundlage ist §§ 133, 157 BGB.
+3. _Wie definiert sich ein Vertrag?_
    * Ein Vertrag ist die Verwirklichung von Ideen. 
-9. Welche Wirkung hat die Stellvertretung?
-10. Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?
-11. Erklären Sie kurz den Unterschied zwischen einer rechtsgeschäftlichen, gesetzlichen und organschaftlichen Vertretungsmacht.
-12. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
-    * Man unterscheidet:
-      * **Einseitige Rechtsgeschäfte** \(Beispiel ist Widerruf § 355 BGB\)
-      * **Zweiseitige Rechtsgeschäfte**  \(Beispiel ist der Vertrag z. B. Kaufvertrag über eine Maschine § 433 BGB\)
+4. _Welche Wirkung hat die Stellvertretung?_
+
+* Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt wirkt die Willenskerklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
+* Rechtlich wird die Willenserklärung des Vertreters dem Vertretenden zugerechnet.
+
+1. _Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?_
+   * **Stellvertretung muss zulässig sein**. Fast immer möglich, außer bei **höchstpersönlichen Rechtsgeschäften** z. B. Eheschließung \(§ 1311 S. 1BGB\).
+   * **Abgabe einer eigenen Willenserklärung des Vertreters** d. h. Vertreter muss eigene Willenserklärung abgeben oder empfangen / keine Botenschaft.
+   * **Offenkundigkeit der Vertretung** d. h. Vertretung muss nach Außen hin deutlich sein für das Gegenüber.
+   * **Vertretungsmacht für das vorgenommene Rechtsgeschäft** D. h. Vertreter brauch nötige Berechtigung in Form von Vollmacht, gesetzliche / organschaftliche Vertretung z. B. Gesetzlicher Vertreter bei Kindern
+2. _Erklären Sie kurz den Unterschied zwischen einer rechtsgeschäftlichen, gesetzlichen und organschaftlichen Vertretungsmacht._
+   * **rechtsgeschäftliche Vertretungsmacht:**
+     * Vertretungsmacht, die durch eine Vollmacht erteilt wurde. Der Vollmachtgeber bestimmt den Umfang.
+     * **Beispiel:** Vollmacht \(§ 166 Abs. 2 BGB\)
+   * **gesetzliche Vertretungsmacht:**
+     * Vertreter hat Befugnis Rechtsfoglen für den den Vertretenen Herbeizuführen.
+     * **Beispiel:** Eltern als gesetzliche Vertreter für Kind \(§ 1629 BGB\).
+   * **organschaftliche Vertretungsmacht:**
+     * Organschaftliche Vertretungsmacht besteht, wenn Organe einer juristischen Person diese im Außenverhältnis gerichtlich und Außergerichtlich vertreten dürfen.
+     * **Beispiel:** Vorstand eines Vereins \(§ 26 Abs. 2 BGB\)
+3. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
+   * Man unterscheidet:
+     * **Einseitige Rechtsgeschäfte** \(Beispiel ist Widerruf § 355 BGB\)
+     * **Zweiseitige Rechtsgeschäfte**  \(Beispiel ist der Vertrag z. B. Kaufvertrag über eine Maschine § 433 BGB\)
 
 ## 🛍️Allgemeine Geschäftsbedingungen
 
