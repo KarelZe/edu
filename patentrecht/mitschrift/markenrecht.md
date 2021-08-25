@@ -144,3 +144,7 @@ Mögliche Ansprüche bei Verletzung der Marke:
   * Anteile am Verletzten Gewinn
   * Aufwand zur Durchsetzung der Rechte
 
+### Schutzdauer
+
+* Geschützt wird für die Dauer von Jahren. Kann aber beliebig oft verlängert werden. \(siehe [§ 47 MarkenG](https://dejure.org/gesetze/MarkenG/47.html)\).
+

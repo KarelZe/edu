@@ -181,18 +181,77 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Pachtvertrag
    * Leihe
    * Leasingvertrag
-2. Welche Regelungsschwerpunkte weisen Gebrauchsüberlassungsverträge auf?
-3. Wie unterscheidet sich das Wohnraummietrecht gegenüber dem Gewerberaummietrecht?
-4. Welche Themen sollten in einem Gewerberaummietvertrag im Hinblick auf den Mietgegenstand geregelt werden?
-5. Warum ist eine konkrete Bezeichnung des Mietzweckes im Mietvertrag so wichtig?
-6. Welche Arten von Wertsicherungsklauseln werden in gewerblichen Mietverträgen häufig verwendet?
-7. Welche Arten von Immaterialgüterrechten gibt es und wie unterscheiden sie sich im Hinblick auf ihren Schutzgegenstand?
-8. Wie weit reicht der räumliche und zeitliche Schutzumfang bei Immaterialgütern \(insbesondere Patente, Marken, Urheberrecht\)?
-9. Was ist mit dem „_numerus clausus_ des Immaterialgüterrechts“ gemeint?
-10. Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?
-11. Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?
-12. Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?
-13. Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?
+2. _Welche Regelungsschwerpunkte weisen Gebrauchsüberlassungsverträge auf?_
+
+* Beschreibung der Gebrauchsüberlassungspflicht \(Was ist zu welchem Zeitpunkt, für welchen Zeitraum in welchem Zustand zu überlassen?\)
+* Gebrauchsrechte des Nutzers \(Wie darf der Nutzer den Gegenstand verwenden?\)
+* Entgeltabrede
+* Sicherheiten
+* Gewährleistung und Haftung
+* Beendigung und Rückgrabe
+
+1. _Wie unterscheidet sich das Wohnraummietrecht gegenüber dem Gewerberaummietrecht?_
+
+* **Wohnraummietrecht:** Es besteht kaum Spielraum hinsichtlich Vertragsgestaltung, da fast alles durch zwingendes Recht geregelt ist vgl. z. B. Regelungen zur Mietpreisbremse o. Ä.
+* **Gewerberaummietrecht:** Umfangreiche Vertragsgestaltung möglich. Aber begrenzt durch Regelungen zum AGB-Recht insb. §§ 305 ff. BGB z. B. § 307 BGB, weil keine Verbraucher betreffend.
+
+1. _Welche Themen sollten in einem Gewerberaummietvertrag im Hinblick auf den Mietgegenstand geregelt werden?_
+   * Genaue Beschreibung des Mietgegenstands \(insb.  Mietfläche und der Nutzungsart\)
+   * Die **Nutzungsart** sollte spezifiziert werden, da sich daran auch die baulichen Anforderungen o. Ä. orientieren.
+   * Hinsichtlich der Mietfläche sollte hervorgehen nach welchem Standard die Flächenberechnung erfolgt. Außerdem ist ein Schwellenwert für **unbeabsichtigte Flächenabweichungen** sinnvoll. 
+   * Optional kann ein **Regelungsmechanismus** aufgenommenen werden zur Änderung der Nutzung.
+2. _Warum ist eine konkrete Bezeichnung des Mietzweckes im Mietvertrag so wichtig?_
+
+* Die konkrete Bezeichnung des Mietgegenstands / Mietzwecks ist wichtig, weil es das **Vertragssoll** bestimmt. Gleichzeitig ist die Bezeichnung des Mietgegenstands Maßstab dafür, ob ein Mangel vorliegt.
+* Soll etwa ein Objekt als Apotheke vermietet werden, so müssen die baulichen Anforderungen an eine vermietete Apotheke erfüllt sein. Der Vermieter muss das geltende Baurecht berücksichtigen.
+
+1. _Welche Arten von Wertsicherungsklauseln werden in gewerblichen Mietverträgen häufig verwendet?_
+
+* Staffelmietvereinbarung
+* Indexklausel
+* Schiedsgutachterklausel
+
+1. _Welche Arten von Immaterialgüterrechten gibt es und wie unterscheiden sie sich im Hinblick auf ihren Schutzgegenstand?_
+   * **Patente:**
+   * **Design:**
+   * **Marken:**
+   * **Urheberrecht:**
+   * TODO: Unterschiede bei Schutzgegenstand
+2. _Wie weit reicht der räumliche und zeitliche Schutzumfang bei Immaterialgütern \(insbesondere Patente, Marken, Urheberrecht\)?_
+
+* **Patent:** Dauer: 20 Jahre \(§ 16 PatG\), Schutzumfang richtet sich nach § 9 PatG.
+* **Markenrecht**: 10 Jahre, aber unbegrenzt verlägnerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG.
+* **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff.
+* TODO: Was ist mit Schutzumfang konkret gemeint? Was ist rauszuarbeiten?
+
+1. _Was ist mit dem „numerus clausus des Immaterialgüterrechts“ gemeint?_
+
+* Der "_numerus clausus_ des Immaterialgüterrechts" besagt, dass man selbst keine eigenen Immaterialgüter erfinden kann. Nur dass, was das Gesetz kennt, kann auch geschützt werden.
+
+1. _Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?_
+
+* Als Immaterialgut kommt hier das Urheberrecht in Betracht, da das Gebäude nach Plänen von A entstanden ist. \(TODO: Werk etc. zu prüfen?\)
+* Eigentümer des Immaterialguts ist der Architekt, nicht der Bauherr.
+* Im Architektenvertrag ist vertraglich zu regeln, dass Architekt dem Bauherr ein Nutzungsrecht am Urheberrecht mit einräumt z. B. das Recht zur Umgestaltung im Rahmen einer Renovierung. Ansonsten hätte der Architekt einen Abwehranspruch.
+
+1. _Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?_
+
+* Man unterscheidet:
+  * **Übertragung:** Inhaberwechsel. Lizenz geht von einer Person auf andere über.
+  * **Ausschließliche Lizenz:** \(siehe unten\)
+  * **Einfache Lizenz:** \(siehe unten\)
+  * **Einseitige Einwilligung:** Einseitige, jederzeit widerrufliche Gestattung zur Nutzung.
+
+1. _Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?_
+   * Bei einer **einfachen Lizenz** ist der Lizenzgeber berechtigt, den Lizenzgegenstand neben dem Lizenzinhaber zu nutzen. Es können weitere Lizenzen erteilt werden. Beispiel: McDonalds. \(siehe [hier.](https://boehmanwaltskanzlei.de/vertragsrecht-allgemein/arten-der-lizenzierung)\)
+   * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich des Liznenzgebers von der Nutzung des Lizenzgegenstands ausschließlichen.
+
+
+
+1. _Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?_
+
+* Markenschutz muss für die Marke bestehen.
+* Markenschutz muss aufrecht erhalten werden durch Verlängerung der Marke durch den Markeninhaber.
 
 ## 🧑‍🏭Dienstvertrag / Arbeitsvertrag
 
