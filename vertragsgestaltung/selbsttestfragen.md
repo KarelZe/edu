@@ -196,18 +196,38 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 ## 🧑‍🏭Dienstvertrag / Arbeitsvertrag
 
-1. Was ist der Unterschied zwischen einem Arbeitsvertrag und einem „gewöhnlichen“ Dienstvertrag? Warum ist die Abgrenzung so wichtig? Erläutern Sie kurz das Unterschiedskriterium.
-2. Was sind wesentliche Vertragsinhalte eines Arbeitsvertrages? Nennen Sie fünf wesentliche Vertragsinhalte und erläutern Sie diese kurz.
-3. _Was versteht man unter dem Direktionsrecht und wo ist es geregelt?_
+1. _Was ist der Unterschied zwischen einem Arbeitsvertrag und einem „gewöhnlichen“ Dienstvertrag? Warum ist die Abgrenzung so wichtig? Erläutern Sie kurz das Unterschiedskriterium._
+
+* Der Dienstvertrag ist geregelt in [§ 611 BGB](https://www.gesetze-im-internet.de/bgb/__611.html). Wohingegen der Arbeitsvertrag in [§ 611a BGB](https://www.gesetze-im-internet.de/bgb/__611a.html) geregelt ist.
+* Der Arbeitsvertrag ist also ein Spezialfall des Dienstvertrags.
+* Abgrenzung ist wichtig, weil andere Regelungen für Arbeitsvertrag gelten z. B. im Hinblick auf Kündigungsfrist. Während sich die die Kündigungsfristen beim Dienstvertrag nach [§ 621 BGB](https://www.gesetze-im-internet.de/bgb/__621.html) bestimmen, bestimmen sich die Kündigungsfristen nach [§ 622 BGB](https://www.gesetze-im-internet.de/bgb/__622.html) bei dem Arbeitsvertrag. Dieser Unterschied ergibt sich aus [§ 611 a Abs. 1 Satz 1 BGB](https://www.gesetze-im-internet.de/bgb/__611a.html).
+
+1. _Was sind wesentliche Vertragsinhalte eines Arbeitsvertrages? Nennen Sie fünf wesentliche Vertragsinhalte und erläutern Sie diese kurz._
+
+* **Vertragsparteien:** Regelungen, wer Arbeitgeber und Arbeitnehmer ist.
+* **Arbeitsleistung:** Charakterisierung der von Arbeitnehmer zu leistenden Tätigkeit.
+* **Beginn des Arbeitsverhältnis:** Angabe, ab wann die Anstellung erfolgt. ****
+* **Arbeitsort:** Arbeitsort ggf. Hinweis, dass Arbeitnehmer an verschiedenen Orten eingesetzt werden kann.
+* **Arbeitszeit:** Vereinbarte Arbeitszeit.
+
+1. _Was versteht man unter dem Direktionsrecht und wo ist es geregelt?_
 
 * Das Direktionsrecht ist geregelt in § 106 GewO.
 * Unter dem Direktionsrecht versteht man das Recht des Arbeitgebers auf Grundlage des Arbeitsvertrages dem Arbeitnehmer Weisungen zu erteilen. 
 * Arbeitgeber kann Ort, Inhalt und Zeit der Arbeitsleistung vorgeben, sofern nicht anderweitig durch z. B. Betriebsvereinbarungen eingeschränkt ist.
 
 1. Beurteilen Sie die folgende Klausel, ob sie wirksam ist: _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf Anordnung des Arbeitgebers verpflichtet. Eventuelle Mehrarbeit ist mit dem monatlichen Bruttogehalt nach § 5 abgegolten.“_
-2. Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?
 
+* AGB müssen klar und verständlich formuliert sein. Dies folgt aus § 307 Abs. 1 Satz 2 BGB. 
+* TODO: Andere AGB rechtliche Prüfungen notwendig?
+* Diese Klausel ist daher unwirksam, weil unklar / intransparent. Es ist etwa nicht klar, in welchem Umfang die Mehrarbeit durch Arbeitnehmer zu leisten ist.  
+* Eine bessere Formulierung lautet: Die Mehrarbeit ist bis zu 20 Stunden im Monat abgegolten.
 
+1. _Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?_
+
+* **Mit Sachgrund** z. B. betrieblicher Bedarf an Arbeitsleistung besteht nur vorübergehend. Geregelt in §§ 1, 3-5, 14 ff. TzBfG.
+* **Ohne Sachgrund** z. B. bis zu einer Gesamtdauer von zwei Jahren ohne sachlichen Grund. Geregelt in §§ 1, 3-5, 14 ff. TzBfG.
+* **Befristung durch Zeit** Geregelt in § 620 Abs. 3 BGB.
 
 ## 🧱Bauverträge
 
