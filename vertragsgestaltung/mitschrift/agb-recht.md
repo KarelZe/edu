@@ -7,20 +7,20 @@
 
 ## Wie prüfe ich AGB? \(Wichtig\)
 
-1. Schauen, ob Anwendungsbereich des AGB eröffnet wurde 
+1. Eröffnung Anwendungsbereich der AGB
    * Geregelt in § 310 Abs. 4 BGB.
    * **Ausnahmen**: Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitsrechtliche Kollektivvereinbarung.
    * **Einschränkung:** Arbeitsverträge \("im Arbeitsrecht geltende Besonderheiten sind angemessen zu berücksichtigen"\)
-2. Vorliegen der AGB 
-   * Geregelt in §§ 305 Abs. 1 310 Abs 3 Nr. 1,2 BGB.
+2. **Vorliegen der AGB** 
+   * Geregelt in §§ 305 Abs. 1 310 Abs 3 Nr. 1, 2 BGB.
 3. **Einbeziehungskontrolle** d. h. sind AGB Vertragsbestandteil geworden?
    * **Einbeziehungsvereinbarung** und **Möglichkeit der Kenntnisnahme**, §§ [305 Abs. 2, 3](https://www.gesetze-im-internet.de/bgb/__305.html), [305a BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
-   * Überraschende Klausel [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html).
+   * **Überraschende Klausel** [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html).
 4. **Inhaltskontrolle**
-   * Klauselverbote ohne Wertungsmöglichkeiten [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html) \(spezielleste Regel\)→  zuerst prüfen vor allgemeiner Regel!
-   * Klauselverbote mit Wertungsmöglichkeiten § 308 BGB → als nächstes prüfen
-   * Verstoß gegen die Generalklausel § 307 BGB \(allgemeinste Regelung\) → als letztes prüfen, nicht betrachten, wenn bereits durch § 309 abgefrühstückt.
-5. Gem. [§ 310 BGB](https://www.gesetze-im-internet.de/bgb/__310.html) finden AGB keine Anwendung im Erbrecht, Familienrecht, Gesellschaftsrecht, ARbeitsrechtliche Kollektivvereinbarungen \(Tarifverträge, Betriebs- und Dienstvereinbarungen\) § 310 BGB
+   * Klauselverbote **ohne Wertungsmöglichkeiten** [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html) \(spezielleste Regel\)→  zuerst prüfen vor allgemeiner Regel!
+   * Klauselverbote **mit Wertungsmöglichkeiten** § 308 BGB → als nächstes prüfen
+   * Verstoß gegen die **Generalklausel** § 307 BGB \(allgemeinste Regelung\) → als letztes prüfen, nicht betrachten, wenn bereits durch § 309 abgefrühstückt.
+5. Gem. [§ 310 BGB](https://www.gesetze-im-internet.de/bgb/__310.html) finden AGB keine Anwendung im Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitsrechtliche Kollektivvereinbarungen \(Tarifverträge, Betriebs- und Dienstvereinbarungen\) § 310 BGB
 6. AGB findet auf Kreditvertrag, Kaufvertrag etc. ... Anwendung.
 
 ## Was zeichnet AGB aus?
@@ -28,7 +28,7 @@
 * Geregelt in § 305 Abs. 1 BGB
 * **Vertragsbedingungen**
 * **Vorformulierung für eine Vielzahl an Verträgen** → Man beabsichtigt min. 3x abzuschließen. Man muss nicht 3 Mal abgeschlossen haben.
-* **Einseitiges Stellen durch den Verwender** \(§ 310 BBGB\) → Bereitgestellt und nicht verhandelt → "Friss oder Stirb" ansonsten kommt Vertrag nicht zustande.
+* **Einseitiges Stellen durch den Verwender** \(§ 310 BGB\) → Bereitgestellt und nicht verhandelt → "Friss oder Stirb" ansonsten kommt Vertrag nicht zustande.
 * **Bei Vertragsschluss** → AGBs können nur bei Vertragsschluss mit einbezogen werden. → Regelungen sind z. B. auf Rechnung auf AGB zu verweisen, ist sinnlos
 * Salvatorische Klausel bei AGB könnte man sich sparen.
 * Gelten einzelne AGB nicht, dann bleibt der Vertrag dennoch wirksam → § 309 BGB \(?\) → Teilnichtigkeit einer AGB
@@ -44,7 +44,7 @@
 
 ## **Klauselverbote \(wichtig\)**
 
-* Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Regelt in § 310 Abs. 1 BGB.
+* Es ist zu unterscheiden, ob es sich um einen B2B oder B2C-Vertrag handelt. Geegelt in § 310 Abs. 1 BGB.
 * **Faustformel:**
   * Wenn was in [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) verboten ist, dann ist es mit hoher Wahrscheinlichkeit auch in [§ 307 BGB](https://www.gesetze-im-internet.de/bgb/__307.html) verboten. Ein paar Ausnahmen gibt es. Dies gilt für B2B, weil hier der [§ 308](https://www.gesetze-im-internet.de/bgb/__308.html) und [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) nicht zu  prüfen sind. Bei B2C Verträgen würde Ausschluss über [§ 308](https://www.gesetze-im-internet.de/bgb/__308html) oder [§ 309](https://www.gesetze-im-internet.de/bgb/__309.html) erfolgen.
 * Wichtige Klauselverbote ohne Wertungsmöglichkeiten [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html)

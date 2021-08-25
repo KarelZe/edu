@@ -91,15 +91,39 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 ## 🛍️Allgemeine Geschäftsbedingungen
 
-1. Warum gibt es Allgemeine Geschäftsbedingungen und warum hat der Gesetzgeber besondere Regelungen für Allgemeine Geschäftsbedingungen geschaffen?
+1. _Warum gibt es Allgemeine Geschäftsbedingungen und warum hat der Gesetzgeber besondere Regelungen für Allgemeine Geschäftsbedingungen geschaffen?_
 
 * AGB wurden eingeführt um die Abwicklung von Massengeschäften z. B. Handyverträge zu rationalisieren. Die Verträge sind damit nicht jedes mal neu auszuhandeln.
 * Mit Verwendung von AGB ensteht ein Ungleichgewicht zwischen dem Vertragspartner, der AGB vorgibt und dem der die AGB akzeptieren  muss, sofern der Vertrag zustande kommen soll. Der Schwächere soll damit geschützt werden. 
 * **Beispiel:** Handyvertrag. Es es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Die Schwächere muss geschützt werden.
 
-1. In welchen Schritten sind Allgemeine Geschäftsbedingungen zu prüfen?
-2. Worin unterscheidet sich die Prüfung der Allgemeine Geschäftsbedingungen von einem B2B-Vertrag zu einem B2C-Vertrag?
-3. Welche Voraussetzungen müssen vorliegen, dass Allgemeine Geschäftsbedingungen gegeben sind?
+1. _In welchen Schritten sind Allgemeine Geschäftsbedingungen zu prüfen?_
+
+* 1. Eröffnung **Anwendungsbereich der AGB**
+     * Geregelt in § 310 Abs. 4 BGB.
+     * **Ausnahmen**: Erbrecht, Familienrecht, Gesellschaftsrecht, Arbeitsrechtliche Kollektivvereinbarung.
+     * **Einschränkung:** Arbeitsverträge \("im Arbeitsrecht geltende Besonderheiten sind angemessen zu berücksichtigen"\)
+  2. **Vorliegen der AGB** 
+     * Geregelt in §§ 305 Abs. 1, 310 Abs 3 Nr. 1, 2 BGB.
+  3. **Einbeziehungskontrolle** d. h. sind AGB Vertragsbestandteil geworden?
+     * **Einbeziehungsvereinbarung** und **Möglichkeit der Kenntnisnahme**, §§ [305 Abs. 2, 3](https://www.gesetze-im-internet.de/bgb/__305.html), [305a BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
+     * **Überraschende Klausel** [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html).
+  4. **Inhaltskontrolle**
+     * Klauselverbote **ohne Wertungsmöglichkeiten** [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html) \(spezielleste Regel\)→  zuerst prüfen vor allgemeiner Regel!
+     * Klauselverbote **mit Wertungsmöglichkeiten** § 308 BGB → als nächstes prüfen
+     * Verstoß gegen die **Generalklausel** § 307 BGB \(allgemeinste Regelung\) → als letztes prüfen, nicht betrachten, wenn bereits durch § 309 abgefrühstückt.
+
+1. _Worin unterscheidet sich die Prüfung der Allgemeine Geschäftsbedingungen von einem B2B-Vertrag zu einem B2C-Vertrag?_
+
+* B2B-Verträge und B2C-Verträge unterscheiden sich hinsichtlich Umfang und Inhalt der Inhaltskontrolle  geregelt in § 310 Abs. 1 BGB. Demnach gilt Folgendes:
+* Bei B2B-Verträgen findet § 305 Abs. 2, § 308 Nr. 1, 2 bis 8 und § 309 keine Anwendung. 
+* Bei B2C-Verträgen finden hingegen die §§ 308, 309 Anwendung.
+
+1. _Welche Voraussetzungen müssen vorliegen, dass Allgemeine Geschäftsbedingungen gegeben sind?_
+   * AGB sind für eine **Vielzahl von Verträgen** **vorformulierten Vertragsbedingungen**, die eine Vertragspartei \(Verwender\) der anderen Vertragspartei bei **Abschluss** stellt \(§ 305 BGB Abs. 1\). Damit ergibt sich:
+   * **Vorformulierung für eine Vielzahl an Verträgen** → Man beabsichtigt min. 3x abzuschließen. Tatsächlicher 3x Abschluss irrelevant.
+   * **Einseitiges Stellen durch den Verwender** \(§ 310 BGB\) → Bereitgestellt und nicht verhandelt → "Friss oder Stirb" ansonsten kommt Vertrag nicht zustande.
+   * **Bei Vertragsschluss:** AGBs können nur bei Vertragsschluss mit einbezogen werden. 
 
 ## 🧠Denkschritte in der Vertragsgestaltung
 

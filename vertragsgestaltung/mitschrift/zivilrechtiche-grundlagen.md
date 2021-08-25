@@ -141,7 +141,7 @@
     * durch Gesetz geregelt z. B. Geschäftsführer der GmbH \(§ 35 GmbHG\)
     * Erteilung der Vollmacht geregelt in [§ 167 BGB](https://dejure.org/gesetze/BGB/167.html).
 * **Unterschied Vertretungsmacht und Vollmacht:**
-  * Jede Vertretungsmacht folgt nicht aus Vollmacht, aber jeder Vollmacht folgt Vertretungmsach
+  * Jede Vertretungsmacht folgt nicht aus Vollmacht, aber jeder Vollmacht folgt Vertretungmacht
 
 ### Formen
 
