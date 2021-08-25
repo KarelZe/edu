@@ -33,23 +33,23 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
   * Geregelt in § 138 BGB.
   * **Beispiel**: Keine Knebelungsverträge
 * **Typenzwang:**
-  * Der Typenzwang bestagt, dass bestimmte Vetragsformen vorgeschrieben werden.
+  * Der Typenzwang besagt, dass bestimmte Vertragsformen vorgeschrieben werden.
   * **Beispiel:** Strenge Formvorschriften bei Immobilienverträgen
 
 1. Was versteht man unter dem Trennungs- und Abstraktionsprinzip? Erläutern Sie die Prinzipien an einem kurzen Beispiel.
 
-* **Trennungsprinzip**: Es gibt zwei Ebenen im Rechtsgeschäft das Verpflichtungs- und Erfüllungsgeschäft. Verpflichtungs- und Erfüllungsgeschäft sind zwei voneiander getrennte Rechtsgeschäfte.
+* **Trennungsprinzip**: Es gibt zwei Ebenen im Rechtsgeschäft das Verpflichtungs- und Erfüllungsgeschäft. Verpflichtungs- und Erfüllungsgeschäft sind zwei voneinander getrennte Rechtsgeschäfte.
 * **Abstraktionsprinzip**: Mängel im Verpflichtungsgeschäft wirken sich nicht auf die Wirksamkeit des Erfüllungsgeschäfts aus und vice versa. D. h. Wirksamkeit des einen Geschäfts z. B. Verpflichtungsgeschäft kann von der Unwirksamkeit des anderen Geschäfts unabhängig bestehen.
 * **Beispiel Kaufvertrag von Auto**: 
   1. Schritt / Verpflichtungsebene: Verpflichtung, Eigentum zu verschaffen \(§ 433 BGB\).
   2. Schritt / Erfüllungsgeschäft: Einigung darüber, dass Eigentum übergehen soll und Übergabe \(§ 929 BGB\).
 
-  * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eingentlich unwirksam war.
+  * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eigentlich unwirksam war.
 
 1. Welche objektiven und subjektiven Voraussetzungen müssen gegeben sein, dass eine Willenserklärung gegeben ist?
 
 * **Objektiv**:
-  * Kundegabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herebeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgne.
+  * Kundegabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herbeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgen.
 * **Subjektiv:**
   * **Handlungswille:** Äußerer Erklärungstatbestand wissentlich verwirklicht.
   * **Erklärungsbewusstsein:** Rechtsbindungswille, Bewusstsein, dass die Erklärung irgendeine rechtliche Relevanz hat.
@@ -61,12 +61,12 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Bei **empfangsbedürftigen Willenserklärungen unter Anwesenden** wird die Willenserklärung wirksam mit Aushändigung oder sofern sie einwandfrei akustisch verstanden werden.  Unter Abwesenden muss sie in den Herrschaftsbereich des Empfängers gelangen und dieser die Möglichkeit zur Kenntnisnahme unter gewöhnlichen Umständen haben.
 2. Welcher Maßstab gilt bei der Auslegung von Verträgen?
    * Maßstab ist der **objektive Empfängerhorizont**: Maßgeblich ist, wie ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung versteht. Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufgesetzt hat.
-   * Gesetztliche Grundlage ist §§ 133, 157 BGB.
+   * Gesetzliche Grundlage ist §§ 133, 157 BGB.
 3. _Wie definiert sich ein Vertrag?_
    * Ein Vertrag ist die Verwirklichung von Ideen. 
 4. _Welche Wirkung hat die Stellvertretung?_
 
-* Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt wirkt die Willenskerklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
+* Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt wirkt die Willenserklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
 * Rechtlich wird die Willenserklärung des Vertreters dem Vertretenden zugerechnet.
 
 1. _Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?_
@@ -79,7 +79,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * Vertretungsmacht, die durch eine Vollmacht erteilt wurde. Der Vollmachtgeber bestimmt den Umfang.
      * **Beispiel:** Vollmacht \(§ 166 Abs. 2 BGB\)
    * **gesetzliche Vertretungsmacht:**
-     * Vertreter hat Befugnis Rechtsfoglen für den den Vertretenen Herbeizuführen.
+     * Vertreter hat Befugnis Rechtsfolgen für den den Vertretenen Herbeizuführen.
      * **Beispiel:** Eltern als gesetzliche Vertreter für Kind \(§ 1629 BGB\).
    * **organschaftliche Vertretungsmacht:**
      * Organschaftliche Vertretungsmacht besteht, wenn Organe einer juristischen Person diese im Außenverhältnis gerichtlich und Außergerichtlich vertreten dürfen.
@@ -94,7 +94,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 1. _Warum gibt es Allgemeine Geschäftsbedingungen und warum hat der Gesetzgeber besondere Regelungen für Allgemeine Geschäftsbedingungen geschaffen?_
 
 * AGB wurden eingeführt um die Abwicklung von Massengeschäften z. B. Handyverträge zu rationalisieren. Die Verträge sind damit nicht jedes mal neu auszuhandeln.
-* Mit Verwendung von AGB ensteht ein Ungleichgewicht zwischen dem Vertragspartner, der AGB vorgibt und dem der die AGB akzeptieren  muss, sofern der Vertrag zustande kommen soll. Der Schwächere soll damit geschützt werden. 
+* Mit Verwendung von AGB entsteht ein Ungleichgewicht zwischen dem Vertragspartner, der AGB vorgibt und dem der die AGB akzeptieren  muss, sofern der Vertrag zustande kommen soll. Der Schwächere soll damit geschützt werden. 
 * **Beispiel:** Handyvertrag. Es es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Die Schwächere muss geschützt werden.
 
 1. _In welchen Schritten sind Allgemeine Geschäftsbedingungen zu prüfen?_
@@ -129,7 +129,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 1. _Welche Rahmenbedingungen sind bei der Vertragsgestaltung zu beachten?_
 
-* **subjektive Rahmenbdingungen**, diese umfassen die eigenen Ziele sowie die Ziele des Gegeners.
+* **subjektive Rahmenbedingungen**, diese umfassen die eigenen Ziele sowie die Ziele des Gegners.
 * **rechtliche Rahmenbedingungen** Etwa, ob es sich um Einzelvertrag oder um Vertrag für viele Geschäfte \(AGB-Recht\) handelt.
 * **rechtliche / tatsächliche Rahmenbedingungen** Umfasst technische und wirtschaftliche Fragestellungen.
 
@@ -172,7 +172,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 * In Deutschland ist ein zweistufiges System implementiert zur Korrektur von Sach- oder Rechtsmängeln.
 * In der ersten Stufe hat Verkäufer das Recht auf Nacherfüllung / Recht auf zweite Andienung. In der zweiten Stufe hat der Verbraucher das Recht auf Rücktritt, Minderung, Schadensersatz statt Leistung.
-* Bestehen Mängel, so hat der Verkäufer das Recht die Sache nochmal zuerfüllen in Form von Mängelbeseitigung oder Neuherstellung. Ist auch dieser Versuch erfolglos, dann erst greifen weitere Rechte wie Rücktritt.
+* Bestehen Mängel, so hat der Verkäufer das Recht die Sache nochmal zu erfüllen in Form von Mängelbeseitigung oder Neuherstellung. Ist auch dieser Versuch erfolglos, dann erst greifen weitere Rechte wie Rücktritt.
 
 ## ⚖️Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
 
@@ -220,7 +220,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 2. _Wie weit reicht der räumliche und zeitliche Schutzumfang bei Immaterialgütern \(insbesondere Patente, Marken, Urheberrecht\)?_
 
 * **Patent:** Dauer: 20 Jahre \(§ 16 PatG\), Schutzumfang richtet sich nach § 9 PatG.
-* **Markenrecht**: 10 Jahre, aber unbegrenzt verlägnerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG.
+* **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG.
 * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff.
 * TODO: Was ist mit Schutzumfang konkret gemeint? Was ist rauszuarbeiten?
 
@@ -244,7 +244,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 1. _Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?_
    * Bei einer **einfachen Lizenz** ist der Lizenzgeber berechtigt, den Lizenzgegenstand neben dem Lizenzinhaber zu nutzen. Es können weitere Lizenzen erteilt werden. Beispiel: McDonalds. \(siehe [hier.](https://boehmanwaltskanzlei.de/vertragsrecht-allgemein/arten-der-lizenzierung)\)
-   * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich des Liznenzgebers von der Nutzung des Lizenzgegenstands ausschließlichen.
+   * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich des Lizenzgebers von der Nutzung des Lizenzgegenstands ausschließlichen.
 
 
 
@@ -307,7 +307,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 * Besonders relevant ist VOB/B für die Vertragsgestaltung, da darin die Vertragsbedingungen für Bauleistungen vereinbart werden.
 
 1. _Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?_
-   * Die **deaillierte Leistungsbeschreibung** enthält deailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden. 
+   * Die **detaillierte Leistungsbeschreibung** enthält detailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden. 
    * Für den Bauherrn ist eine funktionale Leistungsbeschreibung vorteilhaft, da etwa ein größerer Mengenbedarf auf den Bauunternehmer umgelegt wird. Dieser kann mit kreativen und innovativen Lösungen arbeiten.
 2. _Was versteht man unter einem Einheitspreisvertrag?_
 
@@ -323,8 +323,8 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 1. _Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise._
 2. _Warum spielt das Pfandrecht in der Rechtspraxis eine eher untergeordnete Rolle? Welches Sicherungsmittel wird stattdessen bevorzugt?_
 
-* Das Pfandrecht setzt voraus, dass nach § 1205 BGB eine tatsächliche Übergabe des Pfandgegenstand erfolgt. Das Eigentüm verbleibt beim Sicherungsgeber. Gläubiger wird Besitzer.
-* Dies ist in der Rechtspraxis aber häufig unpraktisch, da der Pfandgegenstand durch den Eigentümer häufig weitergentutzt werden soll. Etwa benötigt der Eigentümer des Pfandgegenstands eine Maschine selbst. 
+* Das Pfandrecht setzt voraus, dass nach § 1205 BGB eine tatsächliche Übergabe des Pfandgegenstand erfolgt. Das Eigentum verbleibt beim Sicherungsgeber. Gläubiger wird Besitzer.
+* Dies ist in der Rechtspraxis aber häufig unpraktisch, da der Pfandgegenstand durch den Eigentümer häufig weiter genutzt werden soll. Etwa benötigt der Eigentümer des Pfandgegenstands eine Maschine selbst. 
 * Eine praktische Alternative stellt die Sicherungsübereignung \(gesetzlich nicht geregelt\) dar,  hier kann der Eigentümer die Maschine weiterhin nutzen, Umsätze generieren und dann das Darlehen auch zurückbezahlen. 
 * Bei Sicherungsübereignung geht Eigentum an Gläubiger über, Besitz verbleibt bei Sicherungsgeber. Anstelle der Eigentumsübergabe wird Übergabesurrogat nach \(§ 930 BGB\) vereinbart.
 
@@ -347,7 +347,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 1. _Der A ist Inhaber eines Sägewerkes und verkauft sein Holz insbesondere an regionale Möbelhersteller. Welche Art von Eigentumsvorbehalt sollte er vereinbaren? Erläutern Sie Ihre Entscheidung._
 
-* A sollte einen erweiterten **Eigentumsvorbehalt** mit **Verarbeitungsklause**l vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verabeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
+* A sollte einen erweiterten **Eigentumsvorbehalt** mit **Verarbeitungsklause**l vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verarbeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
 * Mit einem **einfachen Eigentumsvorbehalt** würde er durch Verarbeitung der Bretter das Eigentum verlieren. Der normale Eigentumsvorbehalt ist damit nicht werthaltig.
 
 ## 🎪Gesellschaftsrecht
@@ -366,13 +366,13 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * **Fremdorganschaft** z. B. bei GmbH → Gesellschafter und Geschäftsführer kann zusammenfallen, muss aber nicht. 
 2. _X verkauft an die Z GbR, deren Gesellschafter A und B sind, einen LKW. Die Z GbR zahlt den Kaufpreis nicht. X möchte jetzt direkt gegen den Gesellschafter A vorgehen. Mit Erfolg? Wie sehe es aus, wenn es sich nicht um eine GbR, sondern um eine GmbH handeln würde?_
 
-* Nach § 128 HGB haften Gesellschafter für Verbindlichkeiten der Gesellschaft den Gläubigern als Gesamtschuldner persönlich. Dies gilt analog für die GbR. Ein Rückgriff des X auf A ist damit möglich. A hat seinerseits einen Ansprüch gegenüber den anderen Gesellschaftern.
+* Nach § 128 HGB haften Gesellschafter für Verbindlichkeiten der Gesellschaft den Gläubigern als Gesamtschuldner persönlich. Dies gilt analog für die GbR. Ein Rückgriff des X auf A ist damit möglich. A hat seinerseits einen Ansprüche gegenüber den anderen Gesellschaftern.
 * Bei einer GmbH hingegen ist die Haftung der Gesellschafter nach § 13 GmbHG Abs. 2 auf das Gesellschaftsvermögen begrenzt. Ein Rückgriff auf Gesellschafter A ist damit nicht möglich.
 
 1. _Worin liegen die Gemeinsamkeit und worin unterscheiden sich die GbR und die OHG?_
 
 * GbR erfordert typischerweise **keine Eintragung** ins Handelsregister. Eine GbR kann jedoch durch **Eintragung** in das Handelsregister die Rechtsform einer OHG annehmen. 
-* Nach § 31 BGB haften dei Gesellscahfter einer BGB-Gesellschaft als Gesamtschuldner und persönlich. Wie die Gesellschafter einer GbR-Gesellschaft haften auch die Gesellschafter der OHG unmittelbar mit ihrem Privat- und Gesellschaftsvermögen \(Vgl. § 128 HGB\). 
+* Nach § 31 BGB haften die Gesellschafter einer BGB-Gesellschaft als Gesamtschuldner und persönlich. Wie die Gesellschafter einer GbR-Gesellschaft haften auch die Gesellschafter der OHG unmittelbar mit ihrem Privat- und Gesellschaftsvermögen \(Vgl. § 128 HGB\). 
 * OHG setzt Betrieb eines Handelsgewerbes nach § 2 HGB voraus. D. h. werden die Eigenschaften an ein Handelsgewerbe erfüllt, so sind die Regelungen der OHG anzuwenden.
 
 1. _Wie unterscheidet sich die Haftung eines Komplementärs von der Haftung eines Kommanditisten?_
