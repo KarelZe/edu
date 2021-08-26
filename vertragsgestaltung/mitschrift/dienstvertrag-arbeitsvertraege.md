@@ -26,7 +26,7 @@
 * Sonderform des Dienstvertrages \(§ 611 BGB\)
 * Entscheidendes Kriterium:
   * **Weisungsgebundenheit** 
-  * zeitlich , örtlich und fachlich Weisungsgebundenheit d. h. Arbeitgeber gibt etwa vor wann, wo und wie man \(Anwesenheitspflicht, Homeoffice\) arbeitet
+  * zeitliche, örtliche und fachliche Weisungsgebundenheit d. h. Arbeitgeber gibt etwa vor wann, wo und wie man \(Anwesenheitspflicht, Homeoffice\) arbeitet
   * **Gegenbeispiel:** Bei Rechtsanwalt mit Mandantenvertrag kann Rechtsanwalt entscheiden, wann er Klage erstellt, wie er sie rausschickt. Mandant entscheidet nur, ob Klage eingereicht wird. Bei angestelltem Anwalt macht der Arbeitgeber Vorgaben.
   * Es ist egal, wie Vertrag bezeichnet ist, wichtig ist, ob Arbeitsverhältnis besteht \([§ 611a BGB Satz 6](https://www.gesetze-im-internet.de/bgb/__611a.html)\)
 
@@ -60,10 +60,9 @@
 * Vertragsparteien
   * Wer ist Arbeitnehmer?
   * Wert ist Arbeitgeber?
-
-\(abklären, ob ebenfalls EN\)
-
 * Arbeitsleistungen
+
+**Weitere wesentliche Vertragsmerkmale**
 * Beginn Arbeitsverhältnis
 * Arbeitsort
 * Arbeitszeit
@@ -139,12 +138,12 @@
   * Kalendermäßig befristet vs. zweckbefristet
   * Sachgrund vs. sachgrundlos
   * Befristung muss schriftlich erfolgen
-  * Geleichstellung von Befristung und auflösender Bedingung
+  * Gleichstellung von Befristung und auflösender Bedingung
 * **Kündigung**
   * Gesetzlicher Rahmen:
     * §§ 622, 623, 626 BGB
     * KSchG \(§§ 1, 23 KSchG\)
-  * Kündigungsfristen: § 3622 BGB
+  * Kündigungsfristen: § 622 BGB
   * fristlose vs. ordentliche Kündigung
   * Soziale Rechtfertigung der Kündigung:
     * **Personenbedingt** → bei längerer Krankheit

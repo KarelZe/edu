@@ -34,7 +34,7 @@
 * **Vertretung** \(Was kann der Geschäftsführer?\): Gesamtvertretung → Rechtssicherheit wichtig für Gläubiger → Wenig Möglichkeiten hier Individualisierung / Gestaltung vorzunehmen
 * **Haftung**: Gesellschaft, [§ 31 BGB](https://www.gesetze-im-internet.de/bgb/__31.html) analog Gesellschafter, [§ 128 HGB](https://www.gesetze-im-internet.de/hgb/__128.html) analog → Analog den Regeln der offenen Handelsgesellschaft bei BGB-Gesellschaft → Haftung der Gesellschaft als Gesamtschuldner und persönlich → Rückgriff auf einen Gesellschafter möglich. Man kann sich auch Gesellschafter aussuchen \(wichtig\)
 
-## Überblick HGB
+## Überblick OHG
 
 * geregelt in [§§105 - 160 HGB](https://www.gesetze-im-internet.de/hgb/__105.html)
 * Haftungsproblematik ähnlich wie bei BGB-Gesellschaft → OHG setzt auf BGB-Gesellschaft auf \(vgl. § 105 Abs. 3 HGB\) → KG Recht verweist auf OHG
@@ -51,7 +51,7 @@
 * Haftung:
   * **Gesellschaft**, § 31 BGB analog
   * **Komplementär**, §§ 161 II, 128 HGB
-  * **Kommanditist**, §§ 171, 172, HGB → Ist Einlage voll bezahlt, ist Haftung auf Einlage beschränkt.
+  * **Kommanditist**, §§ 171, 172 HGB → Ist Einlage voll bezahlt, ist Haftung auf Einlage beschränkt.
 
 ## Überblick GmbH
 

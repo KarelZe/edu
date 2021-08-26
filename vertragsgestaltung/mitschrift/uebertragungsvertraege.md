@@ -73,7 +73,6 @@
      * Nimmt man Verkäufer das Recht auf Nacherfüllung, kann man keine weiteren Mängelrechte geltend zu machen. Z. B. ist Fristsetzung notwendig, um weitere Ansprüche geltend machen zu können.
   2. **Stufe:** Rücktritt, Minderung, Schadensersatz statt der Leistung
 
-  \*\*\*\*
 
 ### **🏰Beispiel: Immobilienkaufvertrag**
 

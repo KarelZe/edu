@@ -69,7 +69,7 @@
 
 #### Vergütung
 
-* **Einheitspreisvertrag** → ****Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
+* **Einheitspreisvertrag** → Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
 * **Detail-Pauschalvertrag** → Nur Leistungen, die in Leistungsverzeichnis genannt sind, sind pauschalisiert → Enthält Leistungsverzeichnis Leistung nicht oder ist nicht ausreichend detailliert → Kann Bauunternehmer Forderung stellen → Leistung bleibt gleich → Pauschalisierung heißt hier nicht, dass alles drin ist!
 * **Global-Pauschalvertrag \("Komplettheitsvertrag"\)** → Alles ist drin. → Häufig mit 10 % - 20 % Gewinnzuschlag
 
