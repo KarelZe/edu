@@ -190,15 +190,30 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Proof that the a positive definite Kernel is symmetric.
   * $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\boldsymbol{\phi}(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle = \left\langle\boldsymbol{\phi}(\boldsymbol{x}^{\prime}), \boldsymbol{\phi}\left(\boldsymbol{x}\right)\right\rangle = k\left(\boldsymbol{x}^{\prime}, \boldsymbol{x}\right)$$ 
 
-## SVMs
+## SVMs\*
 
 * Why is it good to use a maximum margin objective for classification?🧠
+  * The maximum margin objective is good for classification, as it tries to find the hyperplane that gives the greatest minium distance to the closest observations.
+  * The intutition is, that if less observations next to the decision boundary, the results are less uncertain.
 * How can we define the margin as an optimization problem?
+  * It can be formulated as:
+    * $$\begin{aligned} \operatorname{argmax}_{\mathbf{w}} & \frac{2}{\|\mathbf{w}\|}, \\ \text { s.t. } & \mathbf{w}^{T} \mathbf{x}_{i}+b\left\{\begin{array}{l} \geq+1, \quad \text { falls } y_{i}=+1 \\ \leq-1, \quad \text { falls } y_{i}=-1 \end{array}\right. \end{aligned}$$
 * What are slack variables and how can they be used to get a 'soft' margin?🧠
+  * A ''soft' margin is the concept of a hyperplane, where almost all observations are separted correctly. This is done through so called slack variables $$\xi_i$$, that allow violating the margin. We use slack variables $$\xi_i \geq 0 $$ and allow for margin violations: $$y_{i}\left(\mathbf{w}^{T} \mathbf{x}_{i}+b\right) \geq 1-\xi_{i}$$.
 * How is the hinge loss defined?🧠
+  * $$\operatorname{argmin}_{\mathbf{w}} \lambda \underbrace{\|\mathbf{w}\|^{2}}_{\text {regularization }}+\underbrace{\sum_{i=1}^{N} \max \left(0,1-y_{i} f\left(\boldsymbol{x}_{i}\right)\right)}_{\text {data loss }}, \quad \text { with } \lambda=\frac{1}{C}$$ 
 * What is the relation between the slack variables and the hinge loss?🧠
+  * If $$\xi_i$$is $$>1$$, the point lies outside the margin, but doesn't contribute to the loss.
+  * If $$\xi_i$$is $$0 \leq \xi_{i} \leq 1$$, it violates the margin and contributes to the loss.
+  * If $$\xi_i$$is $$0$$, it's a support vector.
 * What are advantages and disadvantages in comparison to logistic regression?🧠
+  * Logistic regression doesn't allow for margin valuations. SVMs however, allow some observations to lie on the wrong side oft the margin through the notion of slack variables.
+  * Logistic regression retursn probabilities. SVMs do not.
+  * Logistic regression is more sensitive to outliers, whereas SVMs find a more balanced decision boundary.
 * What is the difference between gradients and sub-gradients?🧠
+  * In order to calculate the gradient of a function, the function has to be differentiable.
+  * To calculate sub-gradients the function has to be convex, but not necessarily differentiable. 
+  * The sub-gradient is similar to a piece-wise gradient. 
 * First, explain the intuition behind slack-variables in support vector machine training. Second, for a single data-point $$\left(\boldsymbol{x}_{i}, c_{i}\right)$$ the margin condition with slack variable $$\xi_{i}$$ is given as
 
   $$
@@ -207,6 +222,10 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
   * Assuming $$0 \leq \xi_{i} \leq 1$$, is $$\boldsymbol{x}_{i}$$ classified correctly?
   * Assuming $$\xi_{i}>1$$, is $$x_{i}$$ classified correctly?🦧
+    * Slack variables $$\xi_i$$allow for a a margin violation. That means some observation can lie across the margin, but in between the decision boundary or even on the wrong side of the decision boundary.
+    * It acts as a regularization term.
+    * It helps to find a optimal hyperplane if a maximum margin hyperplane can otherwise not be found.
+    * In the first case above, the observation is classified correctly but violates the margin. The second observations is classified flasly and contributes to the loss.
 
 ## Bayesian Learning
 
