@@ -7,18 +7,19 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Linear Regression
 
 * Under which assumptions is the least squares objective from linear regression equivalent to a maximum likelihood objective?🦧
+  * Gaussian likelihood with linear mean and constant noise.
 * Give the formula for ridge regression and explain its components.
 * Give the formula for LASSO and explain its components.
 * Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?
 * Why do errors of a linear regression model have to be normally distributed?
 
-## Linear Classification
+## Linear Classification\*
 
 * Write down the objective of linear binary logistic regression. The samples are given by $$x_{i}$$ and the labels by $$c_{i} \in\{0,1\}$$. How is $$p\left(c_{i} \mid \boldsymbol{x}_{i}\right)$$ assumed to be distributed in binary logistic regression?🦧
   * $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$ 
   * Logistic regression assumes $$p\left(c_{i} \mid x_{i}\right)$$to be Bernoulli distributed.
 
-## Model Selection
+## Model Selection\*
 
 * _Why is it a bad idea to evaluate your algorithm on the training set? 🧠_
   * It's important to use unseen data when evaluating an algorithm to prevent overfitting. 
@@ -62,7 +63,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Early stopping prevents overfitting, as model is not trained to to the smallest training error. 
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 
-## Nearest Neighbour Algorithms, Trees, and Forests
+## Nearest Neighbour Algorithms, Trees, and Forests\*
 
 * _What we mean with non-parametric / instance-based machine learning algorithms?_🧠
   * Non-parametric ML algorithms are algorithms, that do not learn a parametric model, but store all the training data and use the training data to make predictions.
@@ -108,7 +109,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
     * Choose median as pivot
     * Split node according tho chosen pivot and dimension.
 
-## Clustering
+## Clustering\*
 
 * _How is the clustering problem defined?🧠_
   * Clustering tries to find a natural grouping within the data.
@@ -162,7 +163,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why can we optimize each mixture component independently with EM?🧠
 * Why do we need sampling for continuous latent variables?🧠
 
-## Kernel methods
+## Kernel methods\*
 
 * What is the definition of a kernel and its relation to an underlying feature space?🧠
   * Let $$\phi: \mathcal{X} \rightarrow \mathbb{R}^{d}$$ be an arbitrary feature function, then $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\phi(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle$$ defines a positive definite kernel.
@@ -248,7 +249,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Explain what network pruning is.
 * Explain how early stopping works with Neural Nets.
 
-## CNNs
+## CNNs\*
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
   * Spatial structure of image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighbouring pixels together, as they are more correlated.
@@ -300,7 +301,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * They have less parameters due to sharing the parameters.
   * They exploit the spatial structure of the image.
 
-## RNNs
+## RNNs\*
 
 * How do LSTMs actually avoid the vanishing gradient problem?
   * In order to calculate the hidden state $$h_t$$, RNNs require multiplication with the weight matrix $$\boldsymbol{W}$$multiple times and application of the $$\tanh$$. If Eigenvalues are small, gradients tend to become small as well.
