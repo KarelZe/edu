@@ -249,13 +249,52 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## CNNs
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
+  * Spatial structure of image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighbouring pixels together, as they are more correlated.
+  *  Training a fully-connected network with large number of inputs requires many parameters / weights. 
+  * **Example:** A fully-connected layer with a thousand hidden dimensions and an input image of 1 Megapixel would require one billion parameters. \(Zhang et al. Dive into Deep Learning\)
 * What are the key components of a CNN?🧠
+  * **Convolutional layer:** A convolutional layer cross-correlates the input and kernel and adds a bias to produce an input. This is used to extract different features.
+  * **Pooling layer:** Pooling layer make representations smaller and more managable. They serve the dual purpose of mitigating the **sensitivity** of convolutional layers **to location** and of spartially downsampling representations \(Zhang et al. Dive into Deep Learning\)
+  * **Activation function:** After every convolutional operation a non-linear operations e. g. ReLU is applied to replace negative values.
 * What hyper-parameters can we set for a convolutional layer and what is their meaning?🧠
+  * $$K$$ Number of Filters / Spacial extend
+  * $$S$$Stride or step size of slided window
+  * $$F$$Kernel size
+  * $$P$$Amount of padding added
 * What hyper-parameters can we set for a pooling layer and what is their meaning?🧠
+  * $$S$$Stride or step size of sliding window
+  * $$F$$kernel size / Spacial extend
 * How can we compute dimensionality of the output of a convolutional layer?🧠
+  * $$W=\left(W-F+2 P\right) / S+1$$ 
+  * $$H=\left(H-F+2 P\right) / S+1$$ 
+  * $$D=K$$ 
+* Describe basic properties of LeNet.
+  * LeNet consist of two parts:
+    * A convolutional encode consisting of two convolutional layers.
+    * A dense block of three fully-connected layers.
+  * The convolutional blocks are a convolutional layer, a sigmoid activation function and an average pooling operation. The convolutional layer use a $$5\times5$$kernel and a sigmoid activation function. The pooling operation uses a $$2\times2$$using a stride 2. \(Zhang et al. Dive into Deep Learning\)
 * Describe basic properties of 'AlexNet' and 'VCG'.🧠
+  * **AlexNet**:
+    * AlexNet consists of 8 layers, which means it's deeper than LeNet. The 8 layers consists of five convolutional layers, two fully connected hidden layers and one-fully connected output layer.
+    * The convolutional window is of shape $$11 \times 11$$in the first layer and $$5 \times 5$$in the second layer and several $$3 \times 3 $$. 
+    * The pooling layers have a window shape of $$3 \times 3$$and a stride of 2.
+    * AlexNet used the ReLU activation function.
+  * **VCG**:
+    * VCG consists of 16-19 layer.
+    * Convolutional layers have a window size of $$3 \times 3$$and a stride of 1 and padding of 1.
+    * The pooling layers have a window shape of $$2 \times 2$$ and and a stride of 2.
+    * VCG used the ReLU activation function.
 * What is the main idea of 'ResNet' to make it very deep?🧠
+  * ResNet uses 152 layers. 
+  * ResNet utilizes so-called residual blocks / residual layers.
+* What are residual layers in a ResNet model?
+  * 
 * Why is it not feasible to use a fully connected layer for images? How do convolutional neural networks solve this problem and which property of an image do they exploit?🦧
+  * 
+* What is the idea of bottleneck layers with ResNet?
+
+## RNNs
+
 * How do LSTMs actually avoid the vanishing gradient problem?
 
 ## General
