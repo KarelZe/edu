@@ -287,11 +287,16 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * What is the main idea of 'ResNet' to make it very deep?🧠
   * ResNet uses 152 layers. 
   * ResNet utilizes so-called residual blocks / residual layers.
-* What are residual layers in a ResNet model?
-  * 
+* What are **residual layers** in a ResNet model?
+  * One can either learn the underlying mapping by learning $$f(\boldsymbol{x})$$or by learning a so-called residual mapping $$f(\boldsymbol{x}) - \boldsymbol{x}$$ and combining it with the identity mapping. The later is easier to learn. 
+  * **Example**: If one has to learn the identity function it is as simple as pushing the weights and bias through the layers.
+  * As an advantage with residual blocks inputs can forward propagate faster through the residual connections across layers. \(Zhang et al. Dive into Deep Learning\)
+* What is the idea of bottleneck layers with **ResNet**?
+  * Instead of using two layers for a residual function $$\mathcal{F}$$, they use a 3 layer design consisting of a $$1 \times 1$$, $$3 \times 3 $$ and $$1\times1$$convolution. The $$1\times1$$layers are responsible for reducing and increasing the dimensions, as they preserve the dimension. Where the $$3 \times 3 $$layer acts like a bottleneck. \(see [here.](https://arxiv.org/pdf/1512.03385.pdf)\)
 * Why is it not feasible to use a fully connected layer for images? How do convolutional neural networks solve this problem and which property of an image do they exploit?🦧
-  * 
-* What is the idea of bottleneck layers with ResNet?
+  * They have to many parameters.
+  * They have less parameters due to sharing the parameters.
+  * They exploit the spatial structure of the image.
 
 ## RNNs
 
