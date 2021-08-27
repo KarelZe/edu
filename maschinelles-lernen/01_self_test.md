@@ -301,6 +301,8 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## RNNs
 
 * How do LSTMs actually avoid the vanishing gradient problem?
+  * In order to calculate the hidden state $$h_t$$, RNNs require multiplication with the weight matrix $$\boldsymbol{W}$$multiple times and application of the $$\tanh$$. If Eigenvalues are small, gradients tend to become small as well.
+  * The vanishing gradient problem is solved by LSTMs, as the the calculation of the cell state $$c_t$$ requires only a hadamard product with $$f$$, but not matrix multiplication with the weight matrix $$\boldsymbol{W}$$.
 
 ## General
 
