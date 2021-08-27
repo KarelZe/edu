@@ -54,7 +54,7 @@
     * \(z. B. AGG, TzBfG, EFZG, BUrlG, ArbnErfG, ArbSchG, ArbZG, MuSchG, JArbSchG, TVG, BetrVG\)
 * Tarifvertrag / Betriebsvereinbarung
 
-### Wesentliche Vertragsmerkmale 
+### Wesentliche Vertragsmerkmale
 
 * Genannt _Essentialia negotii_
 * Vertragsparteien
@@ -63,6 +63,7 @@
 * Arbeitsleistungen
 
 **Weitere wesentliche Vertragsmerkmale**
+
 * Beginn Arbeitsverhältnis
 * Arbeitsort
 * Arbeitszeit

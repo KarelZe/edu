@@ -1,19 +1,17 @@
 # Gebrauchsüberlassungsverträge
 
-
-
-### 🌴Einordnung
+## 🌴Einordnung
 
 * Variante des Austauschvertrags
 
-### 🤝Wesensmerkmale
+## 🤝Wesensmerkmale
 
 * Überlassung eines Gegenstands **für bestimmte Zeit** → Nicht auf Dauer \(bestimmte Zeit / Zeitmoment\) 
 * **Überlassung eines Gegenstands** → z. B. Überlassung von Rechten / Sachen → Kein Eigentumsübergang 
 * **Recht auf Nutzung** \(ggf. Fruchtziehung d. h. Früchte nutzen, die Sache abwirft\) 
 * **gegen Entgelt** \(Ausnahme Leihe\) → z. B. Lizenzgebühr o. Ä.
 
-### 🍀Arten von Gebrauchsüberlassungsverträgen
+## 🍀Arten von Gebrauchsüberlassungsverträgen
 
 * **Mietvertrag** 
   * Geregelt in [§ 535 BGB](https://www.gesetze-im-internet.de/bgb/__535.html)
@@ -35,7 +33,7 @@
 * **Lizenzvertrag**
   * exklusive vs. nicht-exklusive Lizenzen o. Ä.
 
-### 🛩️Regelungsschwerpunkte
+## 🛩️Regelungsschwerpunkte
 
 * Folgende Regeln gelten für alle Gebrauchsüberlassungsverträge
 * Beschreibung der Gebrauchsüberlassungspflicht: Was ist zu **welchem Zeitpunkt**, für **welchen Zeitraum**, in **welchem Zustand** zu überlassen?
@@ -53,7 +51,7 @@
   * Rückgabe der Mietsache z. B. Besenrein
   * Unproblematisch bei Lizenzen
 
-### 🧱Mietvertrag
+## 🧱Mietvertrag
 
 * Geregelt in [§ 535 BGB](https://www.gesetze-im-internet.de/bgb/__535.html)
 * **Pflichten des Vermieters**
@@ -87,7 +85,7 @@
 * [§§ 578-580a](https://www.gesetze-im-internet.de/bgb/__578.html) BGB: **Mietverhältnisse über andere Sache** 
   * \(geregelt: **Verweisung** \([§ 578](https://www.gesetze-im-internet.de/bgb/__578.html) BGB !\) d. h. Regelungen gelten nicht nur für Wohnraummietverhältnisse sondern auch für Gewerberaum-Mietverträge, Kündigungsfristen\)
 
-### 💬Unterschiede bei Vertragsgestaltung
+## 💬Unterschiede bei Vertragsgestaltung
 
 * Wohnraummietverhältnisse
   * Kaum Spielraum bei Vertragsgestaltung
@@ -96,7 +94,7 @@
   * Umfangreiche Vertragsgestaltung möglich
   * Grenze: AGB-Recht, [§§ 305 ff. BGB](https://www.gesetze-im-internet.de/bgb/__305.html) z. B. § 307 BGB \(weil kein Verbraucher\)
 
-### 🏪Gewerberaummietvertrag
+## 🏪Gewerberaummietvertrag
 
 **Beispiel:**
 
@@ -104,7 +102,7 @@
 
 Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertragsentwurf beauftragt. Auf welche Gesichtspunkte ist bei der Vertragsgestaltung besonders zu achten?
 
-#### Inhalt
+### Inhalt
 
 * Mietgegenstand, Mietzweck
 * Mietzeit
@@ -113,7 +111,7 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
 * Mietsicherheiten
 * \(...\)
 
-#### Mietgegenstand
+### Mietgegenstand
 
 * genaue Beschreibung des Mietgegenstands \(insb. Mietfläche\) + Nutzungsart
   * **Bestimmt Vertragssoll** → Wichtig für Vermieter → Was, wird vermietet? Zu welchem Zweck etc.? → Beispiel: Bauliche Anforderungen an vermietete Apotheke / Öffentliches Baurecht → z. B. Vermieter muss Baurecht berücksichtigen kann z. B. nicht überall eine Spielehölle vermieten
@@ -124,13 +122,13 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
     * Optional zu regeln, aber sinnvoll
   * Genaue Beschreibung ist **Maßstab dafür, ob Mangel vorliegt**
 
-#### Mietzeit
+### Mietzeit
 
 * **Festmietzeitraum** z. B. 10 Jahre
 * **Optionsrecht des Mieters** → Mieters kann Vertrag nochmalig um X Jahre verlängern
 * **Evergreen-Klausel** → automatische Verlängerung um 1 Jahr nachdem alle Optionsrechte des Mieters gezogen sind
 
-#### Wertsicherungsklausel
+### Wertsicherungsklausel
 
 * Keine Anwendung von [§§ 557 ff. BGB](https://www.gesetze-im-internet.de/bgb/__557.html) \(Betrifft nur Wohnraumrecht\)
 * Arten der Wertsicherungsklausel
@@ -138,7 +136,7 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
   * Indexklausel → z. B. Miete trackt Veränderung des Verbraucherpreisindizes 1:1 oder z. B. zu 60 %.
   * Schiedsgutachterklausel
 
-#### Mietsicherheit
+### Mietsicherheit
 
 * Regelfall: Bürgschaft, weil Barkaution Liquidität bindet
 * Klarer Regelung zum Umfang der Bürgschaft
@@ -147,14 +145,14 @@ Sie sind Beraterin der Vermieterin und sind mit der Ausarbeitung eines Mietvertr
   * bis sechs Monatsmieten in Gewerbemietverträgen
   * Im Wohnraum-Mietrecht max. 3 Monatsmieten [§ 551 BGB](https://www.gesetze-im-internet.de/bgb/__551.html).
 
-#### Gewährleistung und Haftung
+### Gewährleistung und Haftung
 
 * Beschränkung des Aufrechnungs-, Zurückbehaltungs- und Minderungsrechts
 * z. B. Miete vorausbezahlen, dass Kredit bedient werden kann. Mieter kann Miete zurückfordern
 * Beschränkung der Haftung: nur in sehr geringem Umfang möglich  → AGB-Recht
 * Pflicht zum Abschluss von Versicherungen → z. B. Betriebsunterbrechungsversicherungen, sodass Miete weiterhin gezahlt werden kann
 
-#### Weitere Regelungen
+### Weitere Regelungen
 
 * Nebenkosten
 * Instandhaltung und Instandsetzung, Schönheitsreparaturen

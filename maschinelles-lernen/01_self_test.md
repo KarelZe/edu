@@ -163,12 +163,27 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Kernel methods
 
 * What is the definition of a kernel and its relation to an underlying feature space?🧠
+  * Let $$\phi: \mathcal{X} \rightarrow \mathbb{R}^{d}$$ be an arbitrary feature function, then $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\phi(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle$$ defines a positive definite kernel.
 * Why are kernels more powerful than traditional feature-based methods?🧠
+  * Traditional feature-based methods require working in the higher-dimensional feature space, while kernel-based methods do not.
 * What do we mean by the kernel trick?🧠
+  * Kernel methods allow to calculate the dot product in a high-dimensional feature space without ever computing the mapping $$\phi$$ of the data in that space. Instead of applying the transformations of $$\phi (x)$$explicitly, the computation is done in the lower-dimensional feature space by replacing the inner product with a function.
 * How do we apply the kernel trick to ridge regression?🧠
+  * The ridge solution is given by: $$\boldsymbol{w}_{\text {ridge }}^{*}=\underbrace{\left(\Phi^{T} \Phi+\lambda \boldsymbol{I}\right)^{-1}}_{d \times d \text { matrix inversion }} \boldsymbol{\Phi}^{T} \boldsymbol{y}$$ 
+  * By applying the "searle set of identies" \( $$(\boldsymbol{I}+\boldsymbol{A} \boldsymbol{B})^{-1} \boldsymbol{A}=\boldsymbol{A}(\boldsymbol{I}+\boldsymbol{B} \boldsymbol{A})^{-1})$$ we get:
+  * $$\boldsymbol{w}^{*}=\underbrace{\left(\boldsymbol{\Phi}^{T} \boldsymbol{\Phi}+\lambda \boldsymbol{I}\right)^{-1}}_{d \times d \text { matrix inversion }} \boldsymbol{\Phi}^{T} \boldsymbol{y}=\boldsymbol{\Phi}^{T} \underbrace{\left(\Phi \Phi^{T}+\lambda \boldsymbol{I}\right)^{-1}}_{N \times N \text { matrix inversion }} \boldsymbol{y}$$
+  *  The kernelized version is then given by: $$\boldsymbol{w}^{*}=\boldsymbol{\Phi}^{T} \underbrace{(\boldsymbol{K}+\lambda \boldsymbol{I})^{-1} \boldsymbol{y}}_{\alpha}=\mathbf{\Phi}^{T} \boldsymbol{\alpha}$$ 
 * Study the kernel properties, where is symmetry relevant? Where and why is positive definiteness of matrix important?
+  * Inner products are symmetric and strictly positive definite. \(see [here.](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec13.pdf)\) Thus, a function substituting the product aka kernel has to fullfill the same properties.
 * What is the impact of changing $$\sigma$$ in a RBF kernel?
+  * Recall the RBF kernel is given by $$k(\boldsymbol{x}, \boldsymbol{y})=\exp \left(-\frac{\|\boldsymbol{x}-\boldsymbol{y}\|^{2}}{2 \sigma^{2}}\right)$$.
+  * If the distance between $$\boldsymbol{x}- \boldsymbol{y}$$is large, $$\exp$$will be small, this means training observations $$\boldsymbol{x}$$will hardly play any role in the prediction of  test observation $$\boldsymbol{y}$$.
+  * The $$\sigma$$now controls the width of the neighbourhood or the variance of the Gaussian density.
 * What is the actual gain from using polynomial kernels?
+  * By using a polynomial kernel with $$d>1$$one gets a more flexible decision boundary. This is comparable to fitting e. g. a classifier in a higher dimensional feature space.
+* What is the purpose of the kernel matrix?
+  * A kernel matrix is built by evaluating the kernel on all pairs and any set inputs. So it stores the similarities of all samples.
+  * $$[\boldsymbol{K}]_{i j}=\boldsymbol{\phi}\left(\boldsymbol{x}_{i}\right)^{T} \boldsymbol{\phi}\left(\boldsymbol{x}_{j}\right)=k\left(\boldsymbol{x}_{i}, \boldsymbol{x}_{j}\right)$$
 
 ## SVMs
 

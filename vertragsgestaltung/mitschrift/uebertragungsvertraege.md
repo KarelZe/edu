@@ -1,14 +1,12 @@
 # Übertragungsverträge
 
-
-
-### Nachtrag
+## Nachtrag
 
 * **Nachtrag von letzter Vorlesung:** Rechtswahl bei französischen und deutsches Unternehmen mit schweizerischem Recht ist möglich.
 * Übertragungsverträge ist ein Vertragstyp nämlich der Kauf
 * Kauf = Austausch Ware gegen Geld
 
-### 🚕Unterscheidung nach Kaufgegenstand
+## 🚕Unterscheidung nach Kaufgegenstand
 
 * **bewegliche Sachen** z. B. Brötchen, Auto
 * **unbewegliche Sachen** z. B. Grundstücke, Immobilien \(können nicht einzeln gekauft werden\) → d. h. man kauft Immobilie immer mit Grundstück → Ausnahme: Erbbaurecht etc.
@@ -18,7 +16,7 @@
 * Vereinbare ich nichts, gelten die gesetzlichen Regelungen.
 * Regelungsaspekte / Skelett der Vertrags ist immer gleich z. B. Unternehmenskauf vs. Grundstückskauf.
 
-### ☠️Skelett des Vertrags
+## ☠️Skelett des Vertrags
 
 * Kaufgegenstand
   * Was soll eigentlich verkauft werden?
@@ -39,7 +37,7 @@
   * z. B. Verzicht der Gemeinde auf Vorkaufrecht bei Kaufvertrag
 * Kosten und Steuern
 
-### 🧱Gesetzliche Vorschriften
+## 🧱Gesetzliche Vorschriften
 
 * § 433 BGB: Vertragstypische Pflichten \(Essentialia Negoti\)
   * Verkäufer: Übergabe der Sache + dem Käufer Eigentum verschaffen d. h. Besitz und Eigentum wird verschafft
@@ -61,20 +59,18 @@
   * Gem. § 447 liegt eigentlich Versandrisiko bei Käufer. Überlagert durch § 475 Abs. 2 BGB. Fast immer trägt Verkäufer dann das Risiko des Untergangs!
 * §§ 311b BGB, 15 Abs. 4 GmbHG: Formvorschriften bei Immobilienkaufverträgen bzw. Notarielle Beurkundung bei Verkauf von Gesellschaftsanteil an neuen Gesellschafter bei GmbH
 
-### 🤥Sach- und Rechtsmängel
+## 🤥Sach- und Rechtsmängel
 
 * **Sach- oder Rechtsmangel** = Abweichung der Ist- von der Soll-Beschaffenheit
 * Sachmangel liegt auch vor, wenn sich offensichtlich Sache nicht für den gewünschten Zweck eignet.
 * Zweistufiges System:
-
   1. **Stufe:** Nacherfüllung \(= Recht zur zweiten Andienung\) \(§ 439 BGB\)
      * Ziel ist Vertrag durchzuführen, erst dann sollen Sekundärrechte greifen.
      * Verkäufer soll das Recht bekommen, den Mangel zu beseitigen. Erst dann hat man Rechte aus Sekundärstufe \(2. Stufe\)
      * Nimmt man Verkäufer das Recht auf Nacherfüllung, kann man keine weiteren Mängelrechte geltend zu machen. Z. B. ist Fristsetzung notwendig, um weitere Ansprüche geltend machen zu können.
   2. **Stufe:** Rücktritt, Minderung, Schadensersatz statt der Leistung
 
-
-### **🏰Beispiel: Immobilienkaufvertrag**
+## **🏰Beispiel: Immobilienkaufvertrag**
 
 * § 1 Grundbuchstand \(Kaufobjekt, Belastungen\)
   * Immobilie allein können nicht gekauft werden ungeachtet von Ausnahmen \(§ 93 / 94 BGB\)

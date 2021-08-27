@@ -63,13 +63,6 @@
   * Gem [§ 35 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__35.html) bestehen mehre Geschäftsführer, so besteht Gesamtvertretung, sofern vertraglich nichts anderes vereinbart ist. Einzelvertretung müsste dann im Handelsregister eingetragen werden. → Gesellschafter vertritt Gesellschaft gerichtlich und außergerichtlich → Besondere Sorgfalt bei Vertragsgestaltung
   * **Haftung** § 13 GmbHG → Haftung ist auf Gesellschaftsvermögen beschränkt. Kein Rückgriff auf Gesellschafter
   * Bei Stammkapital muss 1/4 des Nennbetrags eingezahlt sein bzw. min. 12.500 EUR. Sacheinlagen z. B. Maschine müssen voll eingebracht werden.
-* Phasen der Gründung
-  1. Gründungsentschluss
-  2.  Vorgründungsgesellschaft \(man ist noch BGB-Gesellschaft\)
-  3. Notarieller Gesellschaftsvertrag
-  4. Vor-Gesellschaft / Vor-GmbH \(Vorform der GmbH / Gesellschaft eigener Art\) 
-  5. Eintragung
-  6. "fertige" GmbH
-
+* Phasen der Gründung 1. Gründungsentschluss 2. Vorgründungsgesellschaft \(man ist noch BGB-Gesellschaft\) 3. Notarieller Gesellschaftsvertrag 4. Vor-Gesellschaft / Vor-GmbH \(Vorform der GmbH / Gesellschaft eigener Art\) 5. Eintragung 6. "fertige" GmbH
   * GmbH entsteht erst mit Eintragung ins Handelsregister → Problematisch wenn man in Vorstadium schon Verträge schließt → Geringere Haftung vs. größere Haftung
 

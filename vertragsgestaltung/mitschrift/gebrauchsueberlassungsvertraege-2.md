@@ -38,7 +38,7 @@
 
 ## Vertragskonstellation
 
-![](../../.gitbook/assets/untitled%20%281%29.png) 
+![](../../.gitbook/assets/untitled%20%281%29.png)
 
 Leasinggeber hat Geld und kauft für Leasingnehmer Maschine d. h. Leasinggeber hat am Anfang nur Geld und erwirbt von Lieferanten den Leasinggegenstand und überlässt diesen zum Gebrauch dem Leasingnehmer.
 
@@ -54,7 +54,7 @@ Bei Leasingvertrag werden sämtliche Pflichten insb. Erhaltungspflicht an den Le
 
 * Geregelt in [§ 488 Abs. 1 BGB](https://www.gesetze-im-internet.de/bgb/__488.html)
 * Darlehensgeber hat Hauptpflicht zur:
-  *  Zurverfügungstellung eines Geldbetrags
+  * Zurverfügungstellung eines Geldbetrags
 * Darlehensnehmer hat Hautpflicht zur:
   * Zinszahlung
   * Rückzahlung bei Fälligkeit
