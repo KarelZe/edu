@@ -15,6 +15,8 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Linear Classification
 
 * Write down the objective of linear binary logistic regression. The samples are given by $$x_{i}$$ and the labels by $$c_{i} \in\{0,1\}$$. How is $$p\left(c_{i} \mid \boldsymbol{x}_{i}\right)$$ assumed to be distributed in binary logistic regression?🦧
+  * $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$ 
+  * Logistic regression assumes $$p\left(c_{i} \mid x_{i}\right)$$to be Bernoulli distributed.
 
 ## Model Selection
 
