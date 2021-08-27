@@ -184,6 +184,8 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * What is the purpose of the kernel matrix?
   * A kernel matrix is built by evaluating the kernel on all pairs and any set inputs. So it stores the similarities of all samples.
   * $$[\boldsymbol{K}]_{i j}=\boldsymbol{\phi}\left(\boldsymbol{x}_{i}\right)^{T} \boldsymbol{\phi}\left(\boldsymbol{x}_{j}\right)=k\left(\boldsymbol{x}_{i}, \boldsymbol{x}_{j}\right)$$
+* Proof that the a positive definite Kernel is symmetric.
+  * $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\boldsymbol{\phi}(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle = \left\langle\boldsymbol{\phi}(\boldsymbol{x}^{\prime}), \boldsymbol{\phi}\left(\boldsymbol{x}\right)\right\rangle = k\left(\boldsymbol{x}^{\prime}, \boldsymbol{x}\right)$$ 
 
 ## SVMs
 
