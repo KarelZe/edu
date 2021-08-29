@@ -1,6 +1,4 @@
 # Mindmap Paragraphen
 
-![](../.gitbook/assets/paragraphen.svg)
-
-
+![&#xDC;berblick Paragraphen \(Eigene Darstellung\)](../.gitbook/assets/vertragsgestaltung-paragraphen.svg)
 
