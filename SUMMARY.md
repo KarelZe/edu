@@ -59,6 +59,7 @@
   * [Urheberrecht](patentrecht/mitschrift/urheberrecht.md)
   * [Patentrecht](patentrecht/mitschrift/patentrecht.md)
   * [Gebrauchsmusterrecht](patentrecht/mitschrift/gebrauchsmusterrecht.md)
+* [Selbsttestfragen](patentrecht/selbsttestfragen.md)
 
 ## Vertragsgestaltung
 
