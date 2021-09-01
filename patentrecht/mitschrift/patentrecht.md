@@ -4,7 +4,7 @@
 
 ![&#xDC;berblick &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/patentrecht2.svg)
 
-### 🪧Wa**s** ist ein Patent?
+### 🪧Was ist ein Patent?
 
 * Technisches Schutzrecht, dass bestimmte Auflagen erfüllen muss
 * Zeitlich befristetes Ausschließlichkeitsrecht 
@@ -32,7 +32,7 @@
 
 ### 🗃️Überblick Patentsystem
 
-* Organisation nach **Teritorialitätsprinzip** d. h. jeder Staat definiert eigene Regeln z. B. Prüfungen, Anfechtbarkeit etc.
+* Organisation nach **Territorialitätsprinzip** d. h. jeder Staat definiert eigene Regeln z. B. Prüfungen, Anfechtbarkeit etc.
 * In Deutschland geregelt im [PatG](https://www.gesetze-im-internet.de/patg/). Europäisches Patentübereinkommen EPÜ kann auch Patente mit Wirkung für Deutschland abtreten. Deutschland hat also Rechte abgetreten. PatG wurde dafür harmonisiert.
 * Patentzusammenarbeitsvertrag \(PCT\) ist ein Vertrag dem eine große Zahl von Ländern beigetreten sind. 
   * Es werden keine Patente erteilt. Patente werden durch einzelne Länder / Europäisches Patentamt erteilt 
@@ -43,7 +43,7 @@
 * Geregelt in [§ 1 PatG](https://www.gesetze-im-internet.de/patg/__1.html), Art. 52 EPÜ
 * Patente werden für Erfindungen auf allen Gebieten der Technik erteilt, sofern sie:
   * **neu** sind
-  * auf einer **erfinderischen Tätigkeit** beruhen ud 
+  * auf einer **erfinderischen Tätigkeit** beruhen und 
   * **gewerblich anwendbar** sind
 * **Neuheit**:
   * Geregelt in [§ 3 PatG](https://www.gesetze-im-internet.de/patg/__3.html), Art. 54 EPÜ
@@ -59,7 +59,7 @@
     1. schriftlich \(sämtliche Vereinbarungen\)
     2. mündlich \(Seminar, Messe, Tagung\)
     3. in einem Produkt z. B. Ausstellung des Produkts
-  * Entgegenwirken mit **Geheimhaltungsverinbarung.** Man sollte Adressatenkreis steuern. Dann kann man argumentieren, dass es nicht der Öffentlichkeit bekannt gemacht wurde.
+  * Entgegenwirken mit **Geheimhaltungsvereinbarung.** Man sollte Adressatenkreis steuern. Dann kann man argumentieren, dass es nicht der Öffentlichkeit bekannt gemacht wurde.
 * **Erfinderische Tätigkeit:**
   * Geregelt in [§ 4 PatG](https://www.gesetze-im-internet.de/patg/__4.html), Art. 56 EPÜ
   * Eine Erfindung gilt als auf einer erfinderischen Tätigkeit beruhend, wenn sie sich für den Fachmann nicht in naheliegender Weise aus dem Stand der Technik ableiten lässt.
@@ -132,23 +132,23 @@
   * In Verkehr bringen
   * Gebrauchen
   * Zu den genannten Zwecken einführen oder Besitzen
-* für geschützes Verfahren:
+* für geschütztes Verfahren:
   * Anwenden oder \(bösgläubig\) anbieten.
 
-### 🙋Einspruchungsverfahren
+### 🙋Einspruchsverfahren
 
 ![\(H&#xF6;ssle; 2020\)](../../.gitbook/assets/einspruchsverfahren.jpg)
 
 ### 🌄Anmeldetag
 
 * Geregelt in [§ 35 \(1\)](https://www.gesetze-im-internet.de/patg/__35.html), Art 80 EPU
-* Mit Zurerkennung des Anmeldetags wird Priorität der Anwendung gesichert. \(Erstanmelderprinzip\)
+* Mit Zuerkennung des Anmeldetags wird Priorität der Anwendung gesichert. \(Erstanmelderprinzip\)
 * Vorliegen muss
-  * **Identität des Anmelders** \(z. B. Name\) muss vergestellt werden
+  * **Identität des Anmelders** \(z. B. Name\) muss vorgestellt werden
   * **Antrag**
     * **Wer Anmelder ist**
   * **Beschreibung der Erfindung**
-    * Muss Angaben enthlaten, die **dem Anschein nach** als Beschreibung anzusehen sind.
+    * Muss Angaben enthalten, die **dem Anschein nach** als Beschreibung anzusehen sind.
     * Weil Formalprüfer kann nicht nachvollziehen, ob Beschreibung sinnvoll.
   * **Figuren**
     * Nur wenn in Beschreibung Bezug genommen wird.
@@ -173,7 +173,7 @@
 * ggf. Aufgabenstellung
 * Kurzbeschreibung der Erfindung
 * Kurzbeschreibung der Figuren
-* Ausführliche Beschreibung der Erfidnung anhand der Figuren
+* Ausführliche Beschreibung der Erfindung anhand der Figuren
 * Ansprüche
   * Patentanspruch sollte formuliert werden, wenn genügend Zeit besteht.
 * \(Zusammenfassung\)
@@ -187,7 +187,7 @@
 * Wahrnehmbarkeit, Nachweisbarkeit
 * Patentportfolio
   * Man erzeugt sich Ruf als Innovationsführer z. B. BOSCH
-* Stärkung der Vertragssitutation
+* Stärkung der Vertragssituation
   * Wenn man aus starken Patentportfolio schöpfen kann, kann man im Streitfall ggf. selbst Wettbewerber verklagen.
 
 \*\*\*\*
@@ -206,7 +206,7 @@
 * übt einen freien Beruf aus \([§ 2 PAO](https://www.gesetze-im-internet.de/patanwo/__2.html)\) d. h. Tätigkeit ist unabhängig / selbstständig.
 * Voraussetzung:
   * Technische Befähigung
-  * Erforderliche Rechskenntnisse
+  * Erforderliche Rechtskenntnisse
 
 ### 👶Ausbildung zum Patentanwalt
 
@@ -232,7 +232,7 @@
 
 ### 🧑‍💻Computerprogramm
 
-* Sotware an sich ist nicht patentfähig
+* Software an sich ist nicht patentfähig
 * Softwareerfindungen sind patentierbar, falls gem. § 1 Abs. 1 PatG:
 
   * Patenten werden für Erfindungen auf allen Gebieten der Technik erteilt, sofern sie neu sind, auf einer erfinderischen Tätigkeit beruhen und gewerblich anwendbar sind
@@ -240,13 +240,13 @@
 
 ### 🛩️Urheberrecht
 
-* notwendig ist Indivualität, aber nicht geschützt ist routinemäßiges/ allgemeines Verwandtes
-* Nicht geschützt sind Ideen und Grundsätze Schnittstelleniformationen, Pflichtenheft, Handbücher
+* notwendig ist Individualität, aber nicht geschützt ist routinemäßiges/ allgemeines Verwandtes
+* Nicht geschützt sind Ideen und Grundsätze Schnittstelleninformationen, Pflichtenheft, Handbücher
 
 ### 🏫Patentschutz
 
-* Patentschutz nur dann, wenn die Lösung des konrketen technischen Problems neu ist und auf erfinderischer Tätigkeit beruht.
-* Außerhalb der Technik liegende Anweisungen gengügen in diesem Zusammenhang nicht; sin sind nur in dem Umfang von Bedeutung, in dem sie auf Lösung de technischen Problems mit technischen Mitteln Einflusss nehmen. D. h. Algorithmus muss konrkete technische Lösung entfalten.
+* Patentschutz nur dann, wenn die Lösung des konkreten technischen Problems neu ist und auf erfinderischer Tätigkeit beruht.
+* Außerhalb der Technik liegende Anweisungen genügen in diesem Zusammenhang nicht; sin sind nur in dem Umfang von Bedeutung, in dem sie auf Lösung de technischen Problems mit technischen Mitteln Einfluss nehmen. D. h. Algorithmus muss konkrete technische Lösung entfalten.
 
 ### 🥊Patentschutz vs. Urheberschutz bei Software
 

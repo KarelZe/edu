@@ -6,8 +6,8 @@
 
 ### Historie
 
-* 1874 tratt Gesetz für Markenschutz in Kraft. Damals bestand aber noch kein Patentamt. Eintragung erfolgte bei Handelsregister.
-* 1894 tratt Gesetz zum Schutz von Warenbezeichnungen. Es erfolgte dann Eintragung beim kaiserlichen Patentamt.
+* 1874 trat Gesetz für Markenschutz in Kraft. Damals bestand aber noch kein Patentamt. Eintragung erfolgte bei Handelsregister.
+* 1894 trat Gesetz zum Schutz von Warenbezeichnungen. Es erfolgte dann Eintragung beim kaiserlichen Patentamt.
 * Ab 1995 war Eintragung einer Hörmarke, Farbmarke etc. möglich. 
 
 ### Überblick
@@ -26,7 +26,7 @@
   2. Geschäftliche Bezeichnungen
   3. Geographische Angaben
 * Schutzfähig sind nach [§ 3 MarkenG](https://www.gesetze-im-internet.de/markeng/__3.html):
-  * Alle Zeichen insb. Wörter einschl. Personennamen, Abbbildungen, Buchstaben, Zahlen, Hörzeichen, dreidimensionale Gestaltungen, Multimediamarken, Hologramme... Farben und Farbzusammenstellungen, **die geeignet sind, Waren oder Dienstleistungen eines Unternehmens von denjenigen der anderen Unternehmen zu unterscheiden.**
+  * Alle Zeichen insb. Wörter einschl. Personennamen, Abbildungen, Buchstaben, Zahlen, Hörzeichen, dreidimensionale Gestaltungen, Multimediamarken, Hologramme... Farben und Farbzusammenstellungen, **die geeignet sind, Waren oder Dienstleistungen eines Unternehmens von denjenigen der anderen Unternehmen zu unterscheiden.**
 
 ### **Funktionen der Marke**
 
@@ -52,7 +52,7 @@
 ### Schutzerwerb
 
 1. Anmeldung beim Deutschen Patent- und Markenamt 
-   * Erfordert: Identfikation des Anmelders, grafische elektronische Wiedergabe des zu schützenden Zeichens, Liste, die in Verbindung mit Kennzeichen geschützt werden sollen.
+   * Erfordert: Identifikation des Anmelders, grafische elektronische Wiedergabe des zu schützenden Zeichens, Liste, die in Verbindung mit Kennzeichen geschützt werden sollen.
 2. Prüfung auf Formalerfordernisse
    * Formulierung von Waren- und Dienstleistungsverzeichnisse
 3. Prüfung auf absolute Schutzhindernisse
@@ -83,7 +83,7 @@ Eintragung steht entgegen:
 
 ### Waren- und Dienstleistungsverzeichnis
 
-* Enthält Klassifikation der Waren- und Dienstleistungen nach der sg. NIZZA-Klassifikation z. B. Fruchsäfte sind in Klasse 32
+* Enthält Klassifikation der Waren- und Dienstleistungen nach der sg. NIZZA-Klassifikation z. B. Fruchtsäfte sind in Klasse 32
 
 ### Widerspruch
 
@@ -131,7 +131,7 @@ Eintragung steht entgegen:
 1. **Abmahnung**
    * Vorprozessuale Aufforderung zur Unterlassung der Verletzungshandlung
 2. **Einstweilige Verfügung** 
-   * Wirksames Mittel, um in kürzester Zeit Unterlassungstitle gegen Verletzer zu erwirken
+   * Wirksames Mittel, um in kürzester Zeit Unterlassungstitle gegen den Verletzer zu erwirken
    * Dringlichkeit muss gegeben sein.
 3. **Gerichtliches Verfahren**
 

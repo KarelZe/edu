@@ -2,7 +2,7 @@
 
 ### 🗺️Paragraphenübersicht
 
-![&#xDC;bersicht &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/urheberrecht.svg)
+![Übersicht der Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/urheberrecht.svg)
 
 ### Geschützte Werke
 
@@ -14,16 +14,16 @@
 
 Kriterien für persönlich, geistige Schöpfung:
 
-1. **Persönliches Schaffen:** Setzt Handlungsergebnis voraus, das durch den Menschen geshaffen wurde \(Realakt\).
+1. **Persönliches Schaffen:** Setzt Handlungsergebnis voraus, das durch den Menschen geschaffen wurde \(Realakt\).
 2. **Wahrnehmbare Formgestaltung:** keine Ideen
 3. **Geistiger Gehalt:** Urheber muss Gedanken oder Gefühlswelt erzeugen
-4. **Eigene, persönliche Prägung:** Orginalität und Individualität. Je nach Werk kann **Schöpfungshöhe** unterschiedlich sein.
+4. **Eigene, persönliche Prägung:** Originalität und Individualität. Je nach Werk kann **Schöpfungshöhe** unterschiedlich sein.
 
 ### Unterschied Design-Schutz und Urheberrecht
 
 * Design-Schutz wird für max. 25 Jahre \(5x5 Jahre\) ab Eintragung gewährt gem. [§ 27DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__27.html)
 * Urheberschutz entsteht mit Schaffung des Werkes \(**Schöpfungsakt**\)
-* Urheberrecht gilt bis 70 Jahre nach dem Tod gem. [§ 64 / 65 UrhG](https://www.gesetze-im-internet.de/urhg/__64.html). Bei mehreren 70 Jahre nach längstlebendem Urheber.
+* Urheberrecht gilt bis 70 Jahre nach dem Tod gem. [§ 64 / 65 UrhG](https://www.gesetze-im-internet.de/urhg/__64.html). Bei mehreren 70 Jahre nach Längstlebendem Urheber.
 
 ### Schutzumfang
 
@@ -34,7 +34,7 @@ Kriterien für persönlich, geistige Schöpfung:
 
 ### Computerprogramme
 
-* Sind Sprachwerke gem. [§ 2 Abs. I Nr. 1](https://www.gesetze-im-internet.de/urhg/__2.html) iVm [§ 69a \(4\) UrhG](https://www.gesetze-im-internet.de/urhg/__69.html)
+* Sind Sprachwerke gem. [§ 2 Abs. I Nr. 1](https://www.gesetze-im-internet.de/urhg/__2.html) i. V. m. [§ 69a \(4\) UrhG](https://www.gesetze-im-internet.de/urhg/__69.html)
 * **Schutzgegenstand** = Programm in jeder Gestalt einschl. Entwurfsmaterial z. B. Flussdiagramm \([§ 69 a \(I\) UrhG](https://www.gesetze-im-internet.de/urhg/__69.html)\)
 * Ideen und Grundsätze, die einem Element eines Computerprogramms zugrunde liegen, einschließlich der den Schnittstellen zugrundeliegenden Ideen und Grundsätze, sind **nicht** geschützt \([§ 69 a \(2\) UrhG](https://www.gesetze-im-internet.de/urhg/__69.html)\)
 * Nur wenn individuelles Werk, allerdings sind zur Bestimmung ihrer Schutzfähigkeit keine anderen Kriterien, insbesondere nicht qualitative oder ästhetische, anzuwenden \( [§ 69a \(3\) UrhG](https://www.gesetze-im-internet.de/urhg/__69.html)\)

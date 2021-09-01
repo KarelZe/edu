@@ -1,6 +1,6 @@
 # Übersicht
 
-* **Gewerblicher Rechtschutz** sind Immatrialgüterrechte, die einen streng gewerblichen Bezug haben.
+* **Gewerblicher Rechtschutz** sind Immaterialgüterrechte, die einen streng gewerblichen Bezug haben.
 * Registerschutzrechte sind:
   * Patentrecht \(mit Prüfung bei Anmeldung\)
   * Markenrecht

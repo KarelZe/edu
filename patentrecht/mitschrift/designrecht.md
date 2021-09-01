@@ -2,12 +2,12 @@
 
 ### 🗺️Paragraphenübersicht
 
-![&#xDC;bersicht &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/designrecht.svg)
+![Übersicht Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/designrecht.svg)
 
 ### Begriffsbestimmung Design
 
 * Geregelt in [§ 1 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__1.html)
-* Ein Design ist die zweidimensionale oder dreidimensionale Erscheinungsform eines ganzen Erzeugnisses oder eines Teils davon, die sich insbesondere aus den Merkmalen der Linien, Konturen, Farben, der Gestalt, Oberlächenstruktur oder der Werkstoffe des Erzeugnisses selbst oder seiner Verzierung ergibt.
+* Ein Design ist die zweidimensionale oder dreidimensionale Erscheinungsform eines ganzen Erzeugnisses oder eines Teils davon, die sich insbesondere aus den Merkmalen der Linien, Konturen, Farben, der Gestalt, Oberflächenstruktur oder der Werkstoffe des Erzeugnisses selbst oder seiner Verzierung ergibt.
 
 ### Voraussetzung für Schutz
 
@@ -16,8 +16,8 @@
 * **Eigenart:** 
 
   * Geregelt in [§ 2 \(3\) Satz 1 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__2.html).
-  * Wenn sich der Gesamteindruck, den es beim **informierten Benutzer** hervorruft, von dem Gesamteindruck des vorbekannten Designs utnerscheidet.
-  * Informierter Benutzer is ähnlich zum Vekehrskreis bei Markenrecht.
+  * Wenn sich der Gesamteindruck, den es beim **informierten Benutzer** hervorruft, von dem Gesamteindruck des bekannten Designs unterscheidet.
+  * Informierter Benutzer is ähnlich zum Verkehrskreis bei Markenrecht.
   * Voraussetzungen sind im Vergleich zu den Ansprüchen des Urheberrechts geringer.
 
 ### Ausschlüsse vom Design-Schutz
@@ -41,14 +41,14 @@
   * neutraler Hintergrund
   * Frei von Beiwerk z. B. alles Beiwerk würde sonst Schutzgegenstand werden.
 * Klassifikation erfolgt nach Lacarno-Klassifikation.
-* Es lassen sich mehrere Design-Anmeldungen zusammenfassen zu einer **Sammelanmeldung** \([§ 12 DeisgnG](https://www.gesetze-im-internet.de/geschmmg_2004/__12.html) \)
+* Es lassen sich mehrere Design-Anmeldungen zusammenfassen zu einer **Sammelanmeldung** \([§ 12 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__12.html) \)
 * Es gibt **Neuheitsschonfrist** gem. [§ 6 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__6.html). Man kann also noch ein Design anmelden, obwohl es bereits max. 6 Monate der Öffentlichkeit bekannt gemacht wurde. Gilt nicht für alle Länder.
 
 ### Prüfung
 
 * Reine Formalprüfung nach § 16 DesignG.
 * Prüfung erfolgt auf Eintragungshindernisse gem. [§ 1 Nr. 1](https://www.gesetze-im-internet.de/geschmmg_2004/__1.html) DesignG  und [§ 3 \(1\) Nr. 3/ Nr. 4 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__3.html).
-* Bekanntmachung durch Wiedergabe des Deisgns.
+* Bekanntmachung durch Wiedergabe des Designs.
 
 ### Nichtigkeitsverfahren
 
