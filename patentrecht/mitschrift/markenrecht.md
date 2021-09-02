@@ -44,10 +44,9 @@
       * Verkehrsgeltung bei ca. 25 % der Zielgruppe
       * Bekanntheit in gewissen Verkehrskreisen
       * **Beispiel:** 25 % der Autokäufer assoziieren Quadro mit Audi
-      * 
-    * Notorische Bekanntheit  
+    * **Notorische Bekanntheit**  
       * Erfordert überragende Bekanntheit 
-      * **Beispiel:** Coca-cola
+      * **Beispiel:** Coca Cola
 
 ### Schutzerwerb
 
@@ -90,7 +89,7 @@ Eintragung steht entgegen:
 * Geregelt in [§ 42 MarkenG](https://www.gesetze-im-internet.de/markeng/__42.html)
 * Inhaber älterer Rechte = eingetragene Marke \(§ 4 MarkenG\) oder Geschäftsbezeichnungen \(§ 5 MarkenG\) 
 * Prüfung **relevanter Schutzbedürfnisse** 
-  * Relative Schutzbedürfnisse geregelt in § 9 MarkenG ****
+  * Relative Schutzbedürfnisse geregelt in § 9 MarkenG
   * Prüfung, ob Kollision zweier gegenüberstehender Zeichen besteht.
 * Löschung, Teillöschung oder Zurückweisung
   * **Identität** oder **Ähnlichkeit** der beiden Marken kann vom Publikum verwechselt oder in Verbindung gebracht werden
@@ -124,7 +123,7 @@ Eintragung steht entgegen:
      * **Beispiel:** Lust-Hansa statt Lufthansa
    * **Rufausbeutung**
      * Jemand nutzt den guten Ruf einer fremden Marke aus, um sich selbst einen Vorteil zu verschaffen
-     * **Beispiel: Rolex-Plagiat**
+     * **Beispiel:** Rolex-Plagiat
 
 ### Maßnahmen bei Verletzung
 
@@ -146,5 +145,5 @@ Mögliche Ansprüche bei Verletzung der Marke:
 
 ### Schutzdauer
 
-* Geschützt wird für die Dauer von Jahren. Kann aber beliebig oft verlängert werden. \(siehe [§ 47 MarkenG](https://dejure.org/gesetze/MarkenG/47.html)\).
+* Geschützt wird für die Dauer von 10 Jahren. Kann aber beliebig oft verlängert werden. \(siehe [§ 47 MarkenG](https://dejure.org/gesetze/MarkenG/47.html)\).
 

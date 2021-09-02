@@ -146,7 +146,7 @@
 * Vorliegen muss
   * **Identität des Anmelders** \(z. B. Name\) muss vorgestellt werden
   * **Antrag**
-    * **Wer Anmelder ist**
+    * Wer Anmelder ist
   * **Beschreibung der Erfindung**
     * Muss Angaben enthalten, die **dem Anschein nach** als Beschreibung anzusehen sind.
     * Weil Formalprüfer kann nicht nachvollziehen, ob Beschreibung sinnvoll.
@@ -190,7 +190,7 @@
 * Stärkung der Vertragssituation
   * Wenn man aus starken Patentportfolio schöpfen kann, kann man im Streitfall ggf. selbst Wettbewerber verklagen.
 
-\*\*\*\*
+----
 
 * **Lizenzeinnahmen**: Je attraktiver eine patentierte Problemlösung für den Wettbewerber ist, desto wahrscheinlicher
 * **Verbieten**: Behinderung von Wettbewerbern zur Verbesserung der eigenen Marktposition

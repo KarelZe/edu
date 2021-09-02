@@ -81,7 +81,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
     * Save region point $$\boldsymbol{x}^{*} = \boldsymbol{x}_{0}$$ as current best.
     * Move up tree and recursively search regions interesecting hypersphere $$S\left(\boldsymbol{x},\left\|\boldsymbol{x}-\boldsymbol{x}^{*}\right\|\right)$$. 
     * Update $$\boldsymbol{x}^{*}$$ if new nearsest neighbour has been found.
-* _What is a binary regression / decision tree?🧠_
+* _What is a binary regression/decision tree?🧠_
   * A binary decision tree is a tree that performs a binary split at each node. The predictor space is segmented into smaller regions. 
   * In case of regression trees the predicted value at a node is the average response variable of all observations within this node.
 * _What are useful splitting criterions?🧠_
@@ -304,7 +304,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * **VCG**:
     * VCG consists of 16-19 layer.
     * Convolutional layers have a window size of $$3 \times 3$$and a stride of 1 and padding of 1.
-    * The pooling layers have a window shape of $$2 \times 2$$ and and a stride of 2.
+    * The pooling layers have a window shape of $$2 \times 2$$ and a stride of 2.
     * VCG used the ReLU activation function.
 * What is the main idea of 'ResNet' to make it very deep?🧠
   * ResNet uses 152 layers. 
