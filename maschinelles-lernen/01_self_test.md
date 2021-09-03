@@ -277,16 +277,36 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * How does Adam work?🧠
 * What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧
 * _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$?
-* Adding more hidden layers will solve the vanishing gradient problem for a two-layer neural network. 🧑‍🚒
-* xxx suffer\(s\) from the vanishing gradient problem. Circle all that apply and JUSTIFY YOUR ANSWER. 🧑‍🚒
-* Adding L2-regularization will help with vanishing gradients 🧑‍🚒
-* Early stopping, cross-validation, and network pruning are techniques to prevent overfitting of Neural Nets. Explain them. 
-* For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance? 🧑‍🚒
-* What is the problem of Neural nets with many parameters?
-* Explain what network pruning is.
-* Explain how early stopping works with Neural Nets.
 
-## CNNs\*
+  * The sigmoid function is bound by th exponential component, so that the range is $$[0,1]$$.
+
+![\(own drawing\)](../.gitbook/assets/sigmoid.png)
+
+* **Considering gradients:** The sigmoid activation function is prone to vanishing gradients, as the gradient is smaller than $$\leq 0.25$$. Multiplying the gradients several times will soon lead to gradients close to zero.
+
+ 
+
+![\(own drawing\)](../.gitbook/assets/sigmoid_derivative.png)
+
+* Adding more hidden layers will solve the vanishing gradient problem for a two-layer neural network. True / False?🧑‍🚒
+  * No, as a deeper network will increase the chance of vanishing gradients, as they have to be backpropated.
+* _Adding L2-regularization will help with vanishing gradients? True / False?_ 🧑‍🚒
+  * False, as $$\ell_2$$regularization pulls the weights towards zero, meaning the vanishing gradient problem could become worse.
+* Early stopping, cross-validation, and network pruning are techniques to prevent overfitting of Neural Nets. Explain them. 
+  * Early stopping: \(see below\)
+  * cross-validation: cross-validation means splitting the data set into $$k$$folds. The $$k$$th fold is used for validation, while the remaining folds are used for testing. As the training uses $$k$$passes and combines the resulting neural nets, the results is less prone to overfitting.
+  * network pruning: \(see below\)
+* _For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance?_ 🧑‍🚒
+  * Increasing the number of hidden units, while keeping the training dataset constant will lead to overfitting, meaning a small bias, but high variance.
+* _What is the problem of Neural nets with many parameters?_
+  * Large neural networks tend to overfit, as one can learn an arbitrary function given that the network has enough capacity. 
+  * We need a lot of samples.
+* _Explain what network pruning is._
+  * Network pruning refers the process of systematically removing parameters from a neural network to limit the computational demand and maintain accuracy.
+* _Explain how early stopping works with Neural Nets._
+  * With early stopping one doesn't train a neural network until the training error is most most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
+
+##  CNNs\*
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
   * Spatial structure of image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighbouring pixels together, as they are more correlated.
