@@ -263,12 +263,20 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Neural Nets
 
 * How does logistic regression relate to neural networks?🧠
-* What kind of functions can single-layer neural networks learn?🧠
+* _What kind of functions can single-layer neural networks learn?🧠_
+  * As stated in the universal function approximation theorem, a single-layer neural net is sufficent to learn an arbitrary function given an infinite amount of units. 
 * Why do we need non-linear activation functions?🧠
 * What activation functions can we use and what are the advantages/disadvantages of those?🧠
+  * \(see anki deck\)
 * What output layer and loss function to use given the task \(regression, classification\)?🧠
+  * **regression**: linear layer, squared error \(deterministic\)
+  * **classification**: sigmoid, negative loglikelihood \(probabilistic\)
 * Why not use a sigmoid activation function?🧠
+  * sigmoid function leads to vanishing gradients \(see below\)
+  * sigmoid function is non-zero centered as the range is $$[0,1]$$. 
+  * $$\exp$$is expensive to calculate, esspecially in deep networks.
 * Derive the equations for forward and backpropagation for a simple network.🧠
+  * \(see anki deck\)
 * What is mini-batch gradient descent? Why use it instead of stochastic gradient descent or full gradient descent?🧠
 * _Why neural networks can overfit and what are the options to prevent it?_🧠
   * 
