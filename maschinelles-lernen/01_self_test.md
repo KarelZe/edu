@@ -270,12 +270,32 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why not use a sigmoid activation function?🧠
 * Derive the equations for forward and backpropagation for a simple network.🧠
 * What is mini-batch gradient descent? Why use it instead of stochastic gradient descent or full gradient descent?🧠
-* Why neural networks can overfit and what are the options to prevent it?🧠
-* Why is the initialization of the network important?🧠
+* _Why neural networks can overfit and what are the options to prevent it?_🧠
+  * 
+* _Why is the initialization of the network important?🧠_
+  * A poor initialization can lead to a slow learning of the network.
+  * Moreover, if all the neurons are initialized identically the network will not learn unique features, as all gradients are the same.
+* _What is a typical goal of \(good\) weight initialization? 🧑‍🚒_
+  * Gradients should not vanish / decay to zero or be overly saturated. Moreover, they should be non-zero.
+  * One good approach is Xavier initalization.
 * What can you read from the loss-curves during training \(validation and training loss\)?🧠
-* How can we accelerate gradient descent?🧠
-* How does Adam work?🧠
-* What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧
+  * See whether a network overfits. This is the case if training error decreases but training error doesn't decrease, so test and trainings error diverge.
+  * If training should be continued or not, if e. g. loss no longer improves the training should be aborted.
+  * If training and test loss are very close, this could be a sign of underfitting.
+  * Poor initalization, if loss decreases late.
+  * If learning rate should be changed.
+* _How can we accelerate gradient descent?🧠_
+  *  Adaptive learning rate
+  * Introduce a momentum term
+  * Second order methods
+* _How does Adam work?🧠_
+  * TODO:
+* _What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧_
+  * The idea of second-order optimization methods is to directly step to the minimum of the quadratic approxmation by calculating the second order derivatives Hessian.
+  * No learning rat needs to be tuned and they need fewer function evaluations.
+  * It's not applicable to Deep Neural Networks, as the Hessian becomes large and needs to be inverted \(also see below\). 
+* Second-order optimization methods are rarely used for deep neural network optimization. Why? 🧑‍🚒
+  * Second-order optimization methods require the calculation of the Hessian and the inverse. However calculating the Hessian is $$\mathcal{O}(N^2)$$and the inverse is $$\mathcal{O}(N^3)$$ for $$N$$dimensions.
 * _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$?
 
   * The sigmoid function is bound by th exponential component, so that the range is $$[0,1]$$.
