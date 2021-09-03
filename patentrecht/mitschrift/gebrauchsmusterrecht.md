@@ -1,10 +1,10 @@
 # Gebrauchsmusterrecht
 
-### 🗺️Paragraphenübersicht
+## 🗺️Paragraphenübersicht
 
-![Überblick über Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/gebrauchsmusterrecht.svg)
+![&#xDC;berblick &#xFC;ber Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/gebrauchsmusterrecht.svg)
 
-### Überblick
+## Überblick
 
 * Gebrauchsmusterrecht existiert auf nationaler Ebene. Es gibt kein EP- oder EU Pendant.
 * Es ist ein technisches Schutzrecht / Ausschließlichkeitsrecht wie Patent
@@ -17,7 +17,7 @@
   * gewerbliche Anwendbarkeit
 * Gleicher Schutzumfang wie Patent.
 
-### Gebrauchsmuster
+## Gebrauchsmuster
 
 * Geregelt in [§ 1 Abs. 1](https://www.gesetze-im-internet.de/gebrmg/__1.html)
 * Als Gebrauchsmuster werden Erfindungen geschützt, die neu sind, auf einem **erfinderischen Schritt** beruhen und gewerblich anwendbar sind.
@@ -29,7 +29,7 @@
   * die Wiedergabe von Informationen
   * Kein Schutz von biotechnologische Erfindungen \([§ 1 Abs. 2 PatG](https://www.gesetze-im-internet.de/patg/__1.html)\)
 
-### Unterschied zum Patent:
+## Unterschied zum Patent:
 
 * Kein Schutz von biotechnologische Erfindungen \([§ 1 Abs. 2 PatG](https://www.gesetze-im-internet.de/patg/__1.html)\)
 * Kein Schutz von **Verfahren** im Unterschied zum Patent. \([§ 2 Abs. 3 PatG](https://www.gesetze-im-internet.de/gebrmg/__3.html)\)
@@ -40,12 +40,9 @@
   * Geregelt in § 31 Satz 2 GebrMG.
   * Der Stand der Technik umfasst alle Kenntnisse, die vor dem für den Zeitrang der Anmeldung maßgeblichen Tag durch schriftliche Beschreibung oder durch eine im Geltungsbereich dieses Gesetzes erfolgte Benutzung der Öffentlichkeit zugänglich gemacht wurden.
   * Reine Benutzungen im Ausland sind nicht maßgeblich.
-
-
-
 * Gem **Abzweigung** \([§ 5 GebrMG](https://www.gesetze-im-internet.de/gebrmg/__5.html)\) kann man für Gebrauchsmusteranmeldung den früheren Anmeldetag einer Patentanmeldung in Anspruch nehmen \(Bedingungen gelten\). Pioritätsrecht bleibt erhalten.
 
-### Gegenüberstellung Patent vs. Gebrauchsmuster
+## Gegenüberstellung Patent vs. Gebrauchsmuster
 
 |  | Patent | Gebrauchsmuster |
 | :--- | :--- | :--- |

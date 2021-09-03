@@ -31,7 +31,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * _The true risk can be decomposed in which parts?🧠_
   * The true risk can be decomposed into:
 
-    $$\underbrace{\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(x)-\hat{f}_{*}(x)\right)^{2}\right]\right]}_{\text {Variance }}+\underbrace{\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(x)-f(x)\right)^{2}\right]}_{\text {Bias }^{2}}+\underbrace{\sigma^{2}}_{\text {noise }}$$ 
+    $$\underbrace{\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(x)-\hat{f}_{*}(x)\right)^{2}\right]\right]}_{\text {Variance }}+\underbrace{\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(x)-f(x)\right)^{2}\right]}_{\text {Bias }^{2}}+\underbrace{\sigma^{2}}_{\text {noise }}$$
 * _How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?_🧠
   * **Variance**:
     * $$\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(\boldsymbol{x})-\hat{f}_{*}(\boldsymbol{x})\right)^{2}\right]\right]$$ 
@@ -49,7 +49,6 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Also, the complexity of the model is limited.
   * The larger $$\lambda$$, the less complex the final model will be.
 * _Which norm can we use and what are the different effects?_
-
   * $$\ell_1$$ **penalty**: 
     * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{1}=\sum_{d}\left|\theta_{d}\right|$$ 
     * Introduces sparse solutions, that means some parameters can be 0. Suitable for feature selection.
@@ -58,7 +57,6 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
     * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{2}=\sum_{d} \theta_{d}^{2}$$ 
     * Redundant parameters will be close to 0, but never 0.
     * Easy to optimize.
-
 * _What is the effect of early stopping?_🧠
   * Early stopping prevents overfitting, as model is not trained to to the smallest training error. 
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
@@ -135,7 +133,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
     * Adjust the centroids to be the means of the samples assigned to them: $$c_{k}=\frac{1}{\left|X_{k}\right|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left\{\boldsymbol{x}_{n} \mid z_{n}=k\right\}$$ 
 * _Why does the algorithm converge? What is it minimizing?_🧠
   * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centeroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer custer centre exists and the SSD remains constant.
-  * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2} $$ 
+  * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$ 
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
   * More over, the result of $$k$$-means is heavily dependent on the initialisation.
@@ -175,7 +173,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * The ridge solution is given by: $$\boldsymbol{w}_{\text {ridge }}^{*}=\underbrace{\left(\Phi^{T} \Phi+\lambda \boldsymbol{I}\right)^{-1}}_{d \times d \text { matrix inversion }} \boldsymbol{\Phi}^{T} \boldsymbol{y}$$ 
   * By applying the "searle set of identies" \( $$(\boldsymbol{I}+\boldsymbol{A} \boldsymbol{B})^{-1} \boldsymbol{A}=\boldsymbol{A}(\boldsymbol{I}+\boldsymbol{B} \boldsymbol{A})^{-1})$$ we get:
   * $$\boldsymbol{w}^{*}=\underbrace{\left(\boldsymbol{\Phi}^{T} \boldsymbol{\Phi}+\lambda \boldsymbol{I}\right)^{-1}}_{d \times d \text { matrix inversion }} \boldsymbol{\Phi}^{T} \boldsymbol{y}=\boldsymbol{\Phi}^{T} \underbrace{\left(\Phi \Phi^{T}+\lambda \boldsymbol{I}\right)^{-1}}_{N \times N \text { matrix inversion }} \boldsymbol{y}$$
-  *  The kernelized version is then given by: $$\boldsymbol{w}^{*}=\boldsymbol{\Phi}^{T} \underbrace{(\boldsymbol{K}+\lambda \boldsymbol{I})^{-1} \boldsymbol{y}}_{\alpha}=\mathbf{\Phi}^{T} \boldsymbol{\alpha}$$ 
+  * The kernelized version is then given by: $$\boldsymbol{w}^{*}=\boldsymbol{\Phi}^{T} \underbrace{(\boldsymbol{K}+\lambda \boldsymbol{I})^{-1} \boldsymbol{y}}_{\alpha}=\mathbf{\Phi}^{T} \boldsymbol{\alpha}$$ 
 * Study the kernel properties, where is symmetry relevant? Where and why is positive definiteness of matrix important?
   * Inner products are symmetric and strictly positive definite. \(see [here.](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec13.pdf)\) Thus, a function substituting the product aka kernel has to fullfill the same properties.
 * What is the impact of changing $$\sigma$$ in a RBF kernel?
@@ -199,7 +197,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * It can be formulated as:
     * $$\begin{aligned} \operatorname{argmax}_{\mathbf{w}} & \frac{2}{\|\mathbf{w}\|}, \\ \text { s.t. } & \mathbf{w}^{T} \mathbf{x}_{i}+b\left\{\begin{array}{l} \geq+1, \quad \text { falls } y_{i}=+1 \\ \leq-1, \quad \text { falls } y_{i}=-1 \end{array}\right. \end{aligned}$$
 * What are slack variables and how can they be used to get a 'soft' margin?🧠
-  * A ''soft' margin is the concept of a hyperplane, where almost all observations are separted correctly. This is done through so called slack variables $$\xi_i$$, that allow violating the margin. We use slack variables $$\xi_i \geq 0 $$ and allow for margin violations: $$y_{i}\left(\mathbf{w}^{T} \mathbf{x}_{i}+b\right) \geq 1-\xi_{i}$$.
+  * A ''soft' margin is the concept of a hyperplane, where almost all observations are separted correctly. This is done through so called slack variables $$\xi_i$$, that allow violating the margin. We use slack variables $$\xi_i \geq 0$$ and allow for margin violations: $$y_{i}\left(\mathbf{w}^{T} \mathbf{x}_{i}+b\right) \geq 1-\xi_{i}$$.
 * How is the hinge loss defined?🧠
   * $$\operatorname{argmin}_{\mathbf{w}} \lambda \underbrace{\|\mathbf{w}\|^{2}}_{\text {regularization }}+\underbrace{\sum_{i=1}^{N} \max \left(0,1-y_{i} f\left(\boldsymbol{x}_{i}\right)\right)}_{\text {data loss }}, \quad \text { with } \lambda=\frac{1}{C}$$ 
 * What is the relation between the slack variables and the hinge loss?🧠
@@ -230,13 +228,33 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Bayesian Learning
 
 * What are the two basic steps behind Bayesian Learning?🧠
+
+  1. Compute the posterior: $$\underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }}=\frac{\overbrace{p(\mathcal{D} \mid \boldsymbol{\theta})}^{\text {data likelihood}} \overbrace{p(\boldsymbol{\theta})}^{\text {prior }}}{\underbrace{p(\mathcal{D})}_{\text {evidence }}}$$ 
+
+      That is, compute posterior over parameters / models.
+
+  1. Integrate out posterior: $$\underbrace{p\left(\boldsymbol{x}^{*} \mid \mathcal{D}\right)}_{\text {marginal likelihood }}=\int \underbrace{p\left(\boldsymbol{x}^{*} \mid \boldsymbol{\theta}\right)}_{\text {likelihood }} \underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }} d \boldsymbol{\theta}$$ 
+
+     Average over all parameters / models weighted by the posterior.
+
 * Why is Bayesian Learning more robust against overfitting?🧠
+  * Instead of choosing a single estimate for the parameter vector, we estimate a probability distribution for the parameter vector $$\boldsymbol{\theta}$$. As multiple  estimates are incorporated in the averaged parameter vector the model becomes more robust.
 * What happens with the posterior if we add more data to the training set?🧠
+  * For very large datasets the posterior will be a **point estimate**. Baysian learning will be equivalent to maximum likelihood solution.
 * What is completing the square and how does it work?🧠
-* For which 2 cases can Bayesian Learning be solved in closed form?🧠
-* Which approximations can we use if no closed form is available?
+  * TODO:
+* _For which 2 cases can Bayesian Learning be solved in closed form?_🧠
+  * linear feature / kernelized regression models
+* _Which approximations can we use if no closed form is available?_
+  * Monte-Carlo Markov Chain sampling \(not covered\)
+  * Laplace approximation \(not covered\)
 * How can we derive Bayesian Linear regression?🧠
-* What is the advantage of Bayesian Linear Regression over Ridge regression? What is the conceptual difference?🧠
+  * TODO:
+* _What is the advantage of Bayesian Linear Regression over Ridge regression? What is the conceptual difference?_🧠
+  * The solution of ridge regression and the Bayesian Linear Regression is identical.  
+  * One advantage is, that we have uncertainty estimates for the parameter vector. 
+  * They are identicial in a way that the posterior mean is identical to the ridge solution for linear models. 
+  * The difference is that that for the Bayesian Linear Regression the variance is now input-dependent.
 * What is the major advantage of Gaussian processes over kernel ridge regression?🧠
 * Why are GPs a Bayesian approach?🧠
 * What principle allowed deriving GPs from a Bayesian regression point of view?🧠
@@ -272,7 +290,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
   * Spatial structure of image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighbouring pixels together, as they are more correlated.
-  *  Training a fully-connected network with large number of inputs requires many parameters / weights. 
+  * Training a fully-connected network with large number of inputs requires many parameters / weights. 
   * **Example:** A fully-connected layer with a thousand hidden dimensions and an input image of 1 Megapixel would require one billion parameters. \(Zhang et al. Dive into Deep Learning\)
 * What are the key components of a CNN?🧠
   * **Convolutional layer:** A convolutional layer cross-correlates the input and kernel and adds a bias to produce an input. This is used to extract different features.
@@ -298,7 +316,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Describe basic properties of 'AlexNet' and 'VCG'.🧠
   * **AlexNet**:
     * AlexNet consists of 8 layers, which means it's deeper than LeNet. The 8 layers consists of five convolutional layers, two fully connected hidden layers and one-fully connected output layer.
-    * The convolutional window is of shape $$11 \times 11$$in the first layer and $$5 \times 5$$in the second layer and several $$3 \times 3 $$. 
+    * The convolutional window is of shape $$11 \times 11$$in the first layer and $$5 \times 5$$in the second layer and several $$3 \times 3$$. 
     * The pooling layers have a window shape of $$3 \times 3$$and a stride of 2.
     * AlexNet used the ReLU activation function.
   * **VCG**:
@@ -314,7 +332,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * **Example**: If one has to learn the identity function it is as simple as pushing the weights and bias through the layers.
   * As an advantage with residual blocks inputs can forward propagate faster through the residual connections across layers. \(Zhang et al. Dive into Deep Learning\)
 * What is the idea of bottleneck layers with **ResNet**?
-  * Instead of using two layers for a residual function $$\mathcal{F}$$, they use a 3 layer design consisting of a $$1 \times 1$$, $$3 \times 3 $$ and $$1\times1$$convolution. The $$1\times1$$layers are responsible for reducing and increasing the dimensions, as they preserve the dimension. Where the $$3 \times 3 $$layer acts like a bottleneck. \(see [here.](https://arxiv.org/pdf/1512.03385.pdf)\)
+  * Instead of using two layers for a residual function $$\mathcal{F}$$, they use a 3 layer design consisting of a $$1 \times 1$$, $$3 \times 3$$ and $$1\times1$$convolution. The $$1\times1$$layers are responsible for reducing and increasing the dimensions, as they preserve the dimension. Where the $$3 \times 3$$layer acts like a bottleneck. \(see [here.](https://arxiv.org/pdf/1512.03385.pdf)\)
 * Why is it not feasible to use a fully connected layer for images? How do convolutional neural networks solve this problem and which property of an image do they exploit?🦧
   * They have to many parameters.
   * They have less parameters due to sharing the parameters.

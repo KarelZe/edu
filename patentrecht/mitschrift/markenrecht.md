@@ -1,16 +1,16 @@
 # Markenrecht
 
-### 🗺️Paragraphenübersicht
+## 🗺️Paragraphenübersicht
 
 ![Relevante Paragraphen \(Eigene Darstellung\)](../../.gitbook/assets/markenrecht.svg)
 
-### Historie
+## Historie
 
 * 1874 trat Gesetz für Markenschutz in Kraft. Damals bestand aber noch kein Patentamt. Eintragung erfolgte bei Handelsregister.
 * 1894 trat Gesetz zum Schutz von Warenbezeichnungen. Es erfolgte dann Eintragung beim kaiserlichen Patentamt.
 * Ab 1995 war Eintragung einer Hörmarke, Farbmarke etc. möglich. 
 
-### Überblick
+## Überblick
 
 * **Bildmarke**: z. B. Schwerter der  Porzellanmanufaktur Meißen
 * **Wort-Bildmarke** z. B. Apollinaris
@@ -19,7 +19,7 @@
 * **Dreidimensionale Marke** z. B. Gussform von Ritter-Sport, Smart-Tower von Daimler
 * **Farb-Marke** z. B. Post-Gelb, Telekom-Magenta
 
-### Was wird geschützt?
+## Was wird geschützt?
 
 * Geregelt in [§ 1 MarkenG](https://www.gesetze-im-internet.de/markeng/__1.html). Geschützt werden:
   1. Marken
@@ -28,12 +28,12 @@
 * Schutzfähig sind nach [§ 3 MarkenG](https://www.gesetze-im-internet.de/markeng/__3.html):
   * Alle Zeichen insb. Wörter einschl. Personennamen, Abbildungen, Buchstaben, Zahlen, Hörzeichen, dreidimensionale Gestaltungen, Multimediamarken, Hologramme... Farben und Farbzusammenstellungen, **die geeignet sind, Waren oder Dienstleistungen eines Unternehmens von denjenigen der anderen Unternehmen zu unterscheiden.**
 
-### **Funktionen der Marke**
+## **Funktionen der Marke**
 
 * Aus Definition sieht man Schutzzweck als **Herkunftshinweis**, dass Ware aus einem bestimmten Betrieb ist.
 * Marke hat Vertrauens- und Qualitätsfunktion.
 
-### Entstehung des Markenschutzes
+## Entstehung des Markenschutzes
 
 * Geregelt in [§ 4 MarkenG](https://www.gesetze-im-internet.de/markeng/__4.html):
   * **Registermarken**
@@ -48,7 +48,7 @@
       * Erfordert überragende Bekanntheit 
       * **Beispiel:** Coca Cola
 
-### Schutzerwerb
+## Schutzerwerb
 
 1. Anmeldung beim Deutschen Patent- und Markenamt 
    * Erfordert: Identifikation des Anmelders, grafische elektronische Wiedergabe des zu schützenden Zeichens, Liste, die in Verbindung mit Kennzeichen geschützt werden sollen.
@@ -60,7 +60,7 @@
 6. Widerspruchsfrist 3 Monate
    * Jeder Dritte hat 3 Monate Zeit seine relativen Schutzhindernisse durchzusetzen.
 
-### Prüfung
+## Prüfung
 
 Eintragung steht entgegen:
 
@@ -80,11 +80,11 @@ Eintragung steht entgegen:
 * **Formulierung des WDV**
 * **Beschleunigte Prüfung**
 
-### Waren- und Dienstleistungsverzeichnis
+## Waren- und Dienstleistungsverzeichnis
 
 * Enthält Klassifikation der Waren- und Dienstleistungen nach der sg. NIZZA-Klassifikation z. B. Fruchtsäfte sind in Klasse 32
 
-### Widerspruch
+## Widerspruch
 
 * Geregelt in [§ 42 MarkenG](https://www.gesetze-im-internet.de/markeng/__42.html)
 * Inhaber älterer Rechte = eingetragene Marke \(§ 4 MarkenG\) oder Geschäftsbezeichnungen \(§ 5 MarkenG\) 
@@ -96,7 +96,7 @@ Eintragung steht entgegen:
   * Es wird Ähnlichkeit geprüft.
 * Benutzungseinreide
 
-### Anmeldemöglichkeiten
+## Anmeldemöglichkeiten
 
 * Schutz für Deutschland: DPMA
 * Schutz für DACH: DPMA + IR-Marke \(MMA/PPMA\)
@@ -106,7 +106,7 @@ Eintragung steht entgegen:
 * Schutz für Teile der EU: DPMA + IR-Marke
 * Schutz für Teile der EU + EU-Ausland: DPMA + IR-Marke oder EUIPO + IR-Marke sowie ggf. nationale Anmeldungen
 
-### Kollisionen
+## Kollisionen
 
 1. **Identität:** 
    * Schutz vor Verwendung einer identischen Marke für identische Produkte
@@ -115,7 +115,6 @@ Eintragung steht entgegen:
    * Marke und Produkte ähneln sich so, dass Verwechselungsgefahr besteht
    * z. B. sehr ähnliches Motorsägen Design zu STIHL
 3. **Kollision mit Dritten:**
-
    * **Beispiel:** Goldteddy Lindt und Goldbären von HARIBO. Hier ist Ähnlichkeit gegeben, gedankliche Verknüpfung kann nicht direkt hergeleitet werden.
    * **Beispiel:** Casino royalE \(Bildmarke\) vs. Casino Royale. Hier wurde Schutzbereich eingeschränkt. Bildlich unterscheiden sich aber Marken ausreichend. 
    * **Markenverunglimpfung**
@@ -125,7 +124,7 @@ Eintragung steht entgegen:
      * Jemand nutzt den guten Ruf einer fremden Marke aus, um sich selbst einen Vorteil zu verschaffen
      * **Beispiel:** Rolex-Plagiat
 
-### Maßnahmen bei Verletzung
+## Maßnahmen bei Verletzung
 
 1. **Abmahnung**
    * Vorprozessuale Aufforderung zur Unterlassung der Verletzungshandlung
@@ -134,7 +133,7 @@ Eintragung steht entgegen:
    * Dringlichkeit muss gegeben sein.
 3. **Gerichtliches Verfahren**
 
-Mögliche Ansprüche bei Verletzung der Marke: 
+Mögliche Ansprüche bei Verletzung der Marke:
 
 * **Unterlassungsanspruch**
   * Geregelt in  [§ 14 \(2\) MarkenG](https://www.gesetze-im-internet.de/markeng/__14.html)
@@ -143,7 +142,7 @@ Mögliche Ansprüche bei Verletzung der Marke:
   * Anteile am Verletzten Gewinn
   * Aufwand zur Durchsetzung der Rechte
 
-### Schutzdauer
+## Schutzdauer
 
 * Geschützt wird für die Dauer von 10 Jahren. Kann aber beliebig oft verlängert werden. \(siehe [§ 47 MarkenG](https://dejure.org/gesetze/MarkenG/47.html)\).
 
