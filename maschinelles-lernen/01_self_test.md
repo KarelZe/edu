@@ -138,7 +138,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
   * More over, the result of $$k$$-means is heavily dependent on the initialisation.
 
-## Dimensionality Reduction
+## Dimensionality Reduction\*
 
 * What does dimensionality reduction mean?🧠
   * Dimensionality reduction refers to projecting an original data point $$\boldsymbol{x}_{i} \in \mathbb{R}^{D}$$into a lower dimensional representation $$\boldsymbol{z}_{i} \in \mathbb{R}^{M}$$through a  mapping $$\boldsymbol{x}_{i} \rightarrow \boldsymbol{z}_{i}$$. 
