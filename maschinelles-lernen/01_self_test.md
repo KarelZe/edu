@@ -141,11 +141,25 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Dimensionality Reduction
 
 * What does dimensionality reduction mean?🧠
+  * Dimensionality reduction refers to projecting an original data point $$\boldsymbol{x}_{i} \in \mathbb{R}^{D}$$into a lower dimensional representation $$\boldsymbol{z}_{i} \in \mathbb{R}^{M}$$through a  mapping $$\boldsymbol{x}_{i} \rightarrow \boldsymbol{z}_{i}$$. 
+  * If the mapping is linear it can be represented as a function:$$\boldsymbol{z}_{i}=\boldsymbol{W} \boldsymbol{x}_{i}, \text { with } \boldsymbol{W} \in \mathbb{R}^{M \times D}$$.
 * What is PCA? 🧠
+  * PCA is an approach for dimensionality reduction.
+  * PCA finds a low-dimensional representation of the data set that captures as much variance as possible. PCA seeks to find smaller number of dimensions, where each dimension is a linear combination of the features. 
+  * The first principal component is a set of features $$X_{1}, X_{2}, \ldots, X_{p}$$ is the normalized linear combination of the features with $$Z_{1}=\phi_{11} X_{1}+\phi_{21} X_{2}+\ldots+\phi_{p 1} X_{p}$$. $$\phi_{1}=\left(\begin{array}{llll} \phi_{11} & \phi_{21} & \ldots & \phi_{p 1} \end{array}\right)^{T}$$ are the principal component loading vector. \(James et. al p. 375\)
 * What are three things that it does?🧠
-* What are the roles of the Eigenvectors and Eigenvalues in PCA?🧠
-* Can you describe applications of PCA?🧠
+  * PCA maximizes variance of the projection
+  * PCA minimizes the error of the reconstruction
+  * PCA projects the data into a linear subspace
+* _What are the roles of the Eigenvectors and Eigenvalues in PCA?🧠_
+  * Eigenvectors point to the directions of largest variance
+  * Largest Eigenvalues give the values of the largest variance
+* _Can you describe applications of PCA?🧠_
+  * Find a natural coordinate system for the data
+  * Tranform into a lower-dimensional representation
+  * Common pre-processing technique
 * Why should each dimension have a unit variance / be normalized?
+  * Doing a PCA is a variance maximizing exercise. Therefore, if features have a different variance, features with the greatest variance will be loaded the most. To give the features the greatest weight, that explain most of the variance, data should be normalized first.
 
 ## Density Estimation and Expectation Maximization
 
@@ -187,6 +201,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * $$[\boldsymbol{K}]_{i j}=\boldsymbol{\phi}\left(\boldsymbol{x}_{i}\right)^{T} \boldsymbol{\phi}\left(\boldsymbol{x}_{j}\right)=k\left(\boldsymbol{x}_{i}, \boldsymbol{x}_{j}\right)$$
 * Proof that the a positive definite Kernel is symmetric.
   * $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\boldsymbol{\phi}(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle = \left\langle\boldsymbol{\phi}(\boldsymbol{x}^{\prime}), \boldsymbol{\phi}\left(\boldsymbol{x}\right)\right\rangle = k\left(\boldsymbol{x}^{\prime}, \boldsymbol{x}\right)$$ 
+* Proof that the Eucledian distance is a distance measure fullfilling all criteria for a distance measure.
 
 ## SVMs\*
 
@@ -260,7 +275,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * What principle allowed deriving GPs from a Bayesian regression point of view?🧠
 * Gaussian Processes\(GP\) are also referred to as a "Bayesian Kernel Regression" approach. Why? 🦧
 
-## Neural Nets
+## Neural Nets\*
 
 * How does logistic regression relate to neural networks?🧠
   * logistic regression can be considered as a special case of neural nets. Namely, a net with a sigmoid activation function and one layer \(no hidden layer\).
