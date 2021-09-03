@@ -263,9 +263,12 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Neural Nets
 
 * How does logistic regression relate to neural networks?🧠
+  * logistic regression can be considered as a special case of neural nets. Namely, a net with a sigmoid activation function and one layer \(no hidden layer\).
 * _What kind of functions can single-layer neural networks learn?🧠_
   * As stated in the universal function approximation theorem, a single-layer neural net is sufficent to learn an arbitrary function given an infinite amount of units. 
 * Why do we need non-linear activation functions?🧠
+  * In order to compute interesting functions we need non-linear activation functions. 
+  * Independent of the number of layers by using a linear activation function we can only compute a linear activation function. This is due to the fact that a composition of linear function itself is a linear function. \(see [here.](https://www.coursera.org/lecture/neural-networks-deep-learning/why-do-you-need-non-linear-activation-functions-OASKH)\)
 * What activation functions can we use and what are the advantages/disadvantages of those?🧠
   * \(see anki deck\)
 * What output layer and loss function to use given the task \(regression, classification\)?🧠
@@ -278,8 +281,13 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Derive the equations for forward and backpropagation for a simple network.🧠
   * \(see anki deck\)
 * What is mini-batch gradient descent? Why use it instead of stochastic gradient descent or full gradient descent?🧠
+  * Mini-batch gradient is a variant of Gradient Descent optimized for the calculation on the GPU. The data is split into smaller, equally sized chunks so-called minibatches. The mini-batches are then used to calculate the gradient and weights are updated. The results of the individual batches are combined through summation. \(see Zhang et al\)
 * _Why neural networks can overfit and what are the options to prevent it?_🧠
-  * 
+  * Use early stopping with cross-validation
+    * Use network pruning → A kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error. 
+    * Standard ways to limit the capacity of a neural net
+      * limit number of hidden parameters 
+      * limit the size of weights
 * _Why is the initialization of the network important?🧠_
   * A poor initialization can lead to a slow learning of the network.
   * Moreover, if all the neurons are initialized identically the network will not learn unique features, as all gradients are the same.
