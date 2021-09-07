@@ -6,7 +6,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 ## Linear Regression
 
-* Under which assumptions is the least squares objective from linear regression equivalent to a maximum likelihood objective?🦧
+* Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?🦧
   * Gaussian likelihood with linear mean and constant noise.
 * Give the formula for ridge regression and explain its components.
 * Give the formula for LASSO and explain its components.
@@ -26,8 +26,8 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * One would have zero empirical risk but a very high true risk.
   * In the worst case an algorithm could learn the data by heart, perform well during testing and training but perform poorly on real unseen data.
 * _What is the difference between true and empirical risk? 🧠_
-  * **True risk** is the performance on a random testpoint $$(x,y)$$. True risk is unknown.
-  * **Empirical risk** is the performance on the training set. Empirical risk can evaluated using training samples.
+  * **True risk** is the performance on a random test point $$(x,y)$$. True risk is unknown.
+  * **Empirical risk** is the performance on the training set. Empirical risk can be evaluated using training samples.
 * _The true risk can be decomposed in which parts?🧠_
   * The true risk can be decomposed into:
 
@@ -39,7 +39,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * **Bias**:
     * $$\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(\boldsymbol{x})-f(\boldsymbol{x})\right)^{2}\right]$$ 
     * Bias is the difference between the true function and the "best" estimate of the model. 
-  * Bias, variance and noise sum up to the true risk.
+  * Bias, variance, and noise sum up to the true risk.
 * _What is the advantage/disadvantage of k-fold CV vs. the Hold-out method?🧠_
   * k-Fold CV uses the entire data set for training, as the $$k$$-th fold is used for testing and the remaining folds are used for training. This is less wasteful compared to the Hold-Out-method, where a certain percentage of the data is exclusively reserved for testing.
   * On the other hand, is k-Fold CV more computationally expensive as it requires $$k$$ iterations to train the model. It also leads to more stable results though. In comparsion the Hold-out-method is less computationally expensive, as it requires only one run. 
@@ -61,24 +61,24 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Early stopping prevents overfitting, as model is not trained to to the smallest training error. 
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 
-## Nearest Neighbour Algorithms, Trees, and Forests\*
+## Nearest neighbor Algorithms, Trees, and Forests\*
 
 * _What we mean with non-parametric / instance-based machine learning algorithms?_🧠
   * Non-parametric ML algorithms are algorithms, that do not learn a parametric model, but store all the training data and use the training data to make predictions.
-  * Examples include the $$k$$-nearest neighbour algorithm and the Gaussian processes.
-* _How does_ $$k$$_-Nearest neighbour works?🧠_
-  * To classifiy a new input vector $$x$$, we examine the $$k$$closest training data points to $$x$$\(that lie within a hypersphere\). 
-  * We assign the class that is most frequent among those neighbours to the query point $$x$$.
+  * Examples include the $$k$$-nearest neighbor algorithm and the Gaussian processes.
+* _How does_ $$k$$_-Nearest neighbor works?🧠_
+  * To classify a new input vector $$x$$, we examine the $$k$$closest training data points to $$x$$\(that lie within a hypersphere\). 
+  * We assign the class that is most frequent among those neighbors to the query point $$x$$.
 * _Why is it hard to use for high-dimensional data?🧠_
-  * $$k$$-Nearest neighbour is built around a distant-based measure. However, in a very high-dimensional space, most points are equally far appart from each other.
-  * So the neighbourhood becomes large.
-* _How to search for nearest neighbours efficiently?🧠_
-  * It's convient to use a KD-tree as the data structure. The KD tree is balanced and performs binary splits on the feature space.
+  * $$k$$-Nearest neighbor is built around a distant-based measure. However, in a very high-dimensional space, most points are equally far appart from each other.
+  * So the neighborhood becomes large.
+* _How to search for nearest neighbors efficiently?🧠_
+  * It's convenient to use a KD-tree as the data structure. The KD tree is balanced and performs binary splits on the feature space.
   * Searching goes like this:
     * Find region containing $$\boldsymbol{x}$$. Navigate starting from the root node to the child node containing $$\boldsymbol{x}$$.
     * Save region point $$\boldsymbol{x}^{*} = \boldsymbol{x}_{0}$$ as current best.
     * Move up tree and recursively search regions interesecting hypersphere $$S\left(\boldsymbol{x},\left\|\boldsymbol{x}-\boldsymbol{x}^{*}\right\|\right)$$. 
-    * Update $$\boldsymbol{x}^{*}$$ if new nearsest neighbour has been found.
+    * Update $$\boldsymbol{x}^{*}$$ if new nearest neighbor has been found.
 * _What is a binary regression/decision tree?🧠_
   * A binary decision tree is a tree that performs a binary split at each node. The predictor space is segmented into smaller regions. 
   * In case of regression trees the predicted value at a node is the average response variable of all observations within this node.
@@ -96,16 +96,16 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Name at least two advantages and two disadvantages of decision trees. 🦧
   * **Advantages**:
     * Easy to interpret \(if they are small\)
-    * Computionally efficient. They are quick to fit, even for large problems.
+    * Computationally efficient. They are quick to fit, even for large problems.
   * **Disadvantage**:
     * Other ML methods such as NN achieve a better accuracy.
     * Suffer from instability, if we change the data, ever-so-slightly trees can change a lot. 
-* _Which data structure is usually used to efficiently implement k-Nearest Neighbours? Name the main steps in building that data structure._🦧
+* _Which data structure is usually used to efficiently implement k-Nearest neighbors? Name the main steps in building that data structure._🦧
   * KD-Trees are commonly used.
   * Building the tree:
     * choose dimension \(e. g. longest hyper-rectangle\)
-    * Choose median as pivot
-    * Split node according tho chosen pivot and dimension.
+    * Choose median as a pivot
+    * Split node according to the chosen pivot and dimension.
 
 ## Clustering\*
 
@@ -120,13 +120,13 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
     1. Find closest clusters and merge them
     2. Proceed until we have a single cluster
 * _What is the rule of the cluster-2-cluster distance and which distances can we use?_🧠
-  * So called cluster linkage types define the distance between two clusters. Commonly used are
+  * So-called cluster linkage types define the distance between two clusters. Commonly used are
     * Single linkage
     * Complete linkage
     * Average linkage
     * Centroid linkage
 * _How does the_ $$k$$_-mean algorithm work? What are the two main steps?_🧠
-  * The two main steps are the **assigment** and **adjustment step**.
+  * The two main steps are the **assignment** and **adjustment step**.
   * **Assignment step:** 
     * Assign each sample to its closest centroid $$z_{n}=\arg \min_{k}\left\|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right\|^{2}$$ 
   * **Adjustment Step:**
@@ -136,7 +136,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$ 
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
-  * More over, the result of $$k$$-means is heavily dependent on the initialisation.
+  *Moreover, the result of $$k$$-means is heavily dependent on the initialisation.
 
 ## Dimensionality Reduction\*
 
@@ -145,7 +145,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * If the mapping is linear it can be represented as a function:$$\boldsymbol{z}_{i}=\boldsymbol{W} \boldsymbol{x}_{i}, \text { with } \boldsymbol{W} \in \mathbb{R}^{M \times D}$$.
 * What is PCA? 🧠
   * PCA is an approach for dimensionality reduction.
-  * PCA finds a low-dimensional representation of the data set that captures as much variance as possible. PCA seeks to find smaller number of dimensions, where each dimension is a linear combination of the features. 
+  * PCA finds a low-dimensional representation of the data set that captures as much variance as possible. PCA seeks to find a smaller number of dimensions, where each dimension is a linear combination of the features. 
   * The first principal component is a set of features $$X_{1}, X_{2}, \ldots, X_{p}$$ is the normalized linear combination of the features with $$Z_{1}=\phi_{11} X_{1}+\phi_{21} X_{2}+\ldots+\phi_{p 1} X_{p}$$. $$\phi_{1}=\left(\begin{array}{llll} \phi_{11} & \phi_{21} & \ldots & \phi_{p 1} \end{array}\right)^{T}$$ are the principal component loading vector. \(James et. al p. 375\)
 * What are three things that it does?🧠
   * PCA maximizes variance of the projection
@@ -156,7 +156,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Largest Eigenvalues give the values of the largest variance
 * _Can you describe applications of PCA?🧠_
   * Find a natural coordinate system for the data
-  * Tranform into a lower-dimensional representation
+  * Transform into a lower-dimensional representation
   * Common pre-processing technique
 * Why should each dimension have a unit variance / be normalized?
   * Doing a PCA is a variance maximizing exercise. Therefore, if features have a different variance, features with the greatest variance will be loaded the most. To give the features the greatest weight, that explain most of the variance, data should be normalized first.
@@ -174,6 +174,22 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why does EM always improve the marginal likelihood?🧠
 * Why can we optimize each mixture component independently with EM?🧠
 * Why do we need sampling for continuous latent variables?🧠
+* Why is a neural network considered a parametric model?
+* What is the link between Entropy and Kullback-Leiber divergence?
+  $$
+  \begin{aligned}
+  \mathrm{KL}(p \| q) &=-\int p(\mathbf{x}) \ln q(\mathbf{x}) \mathrm{d} \mathbf{x}-\left(-\int p(\mathbf{x}) \ln p(\mathbf{x}) \mathrm{d} \mathbf{x}\right) \\
+  &=-\int p(\mathbf{x}) \ln \left\{\frac{q(\mathbf{x})}{p(\mathbf{x})}\right\} \mathrm{d} \mathbf{x}
+  \end{aligned}
+  $$
+  (see Bishop p. 55)
+* How does the Variational Bayes algorithm improve on the Expectation Maximization algorithm?
+* What is the EM algorithm for?
+  * Finding the maximum likelihood solutions of a probabilistic model with latent variables
+* Why is it a lower bound?
+  * Since Since $$\mathrm{KL}(q \| p) \geq 0$$ it follow that $$\mathcal{L}(q, \boldsymbol{\theta}) \leq \log p(\boldsymbol{x} \mid \boldsymbol{\theta})$$.
+* What are weaknesses of the EM algorithm?
+  * EM is sensitive to initialization.
 
 ## Kernel methods\*
 
@@ -188,9 +204,9 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * By applying the "searle set of identies" \( $$(\boldsymbol{I}+\boldsymbol{A} \boldsymbol{B})^{-1} \boldsymbol{A}=\boldsymbol{A}(\boldsymbol{I}+\boldsymbol{B} \boldsymbol{A})^{-1})$$ we get:
   * $$\boldsymbol{w}^{*}=\underbrace{\left(\boldsymbol{\Phi}^{T} \boldsymbol{\Phi}+\lambda \boldsymbol{I}\right)^{-1}}_{d \times d \text { matrix inversion }} \boldsymbol{\Phi}^{T} \boldsymbol{y}=\boldsymbol{\Phi}^{T} \underbrace{\left(\Phi \Phi^{T}+\lambda \boldsymbol{I}\right)^{-1}}_{N \times N \text { matrix inversion }} \boldsymbol{y}$$
   * The kernelized version is then given by: $$\boldsymbol{w}^{*}=\boldsymbol{\Phi}^{T} \underbrace{(\boldsymbol{K}+\lambda \boldsymbol{I})^{-1} \boldsymbol{y}}_{\alpha}=\mathbf{\Phi}^{T} \boldsymbol{\alpha}$$ 
-* Study the kernel properties, where is symmetry relevant? Where and why is positive definiteness of matrix important?
-  * Inner products are symmetric and strictly positive definite. \(see [here.](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec13.pdf)\) Thus, a function substituting the product aka kernel has to fullfill the same properties.
-* What is the impact of changing $$\sigma$$ in a RBF kernel?
+* Study the kernel properties where is symmetry relevant? Where and why is positive definiteness of matrix important?
+  * Inner products are symmetric and strictly positive definite. \(see [here.](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec13.pdf)\) Thus, a function substituting the product aka kernel has to fulfillthe same properties.
+* What is the impact of changing $$\sigma$$ in an RBF kernel?
   * Recall the RBF kernel is given by $$k(\boldsymbol{x}, \boldsymbol{y})=\exp \left(-\frac{\|\boldsymbol{x}-\boldsymbol{y}\|^{2}}{2 \sigma^{2}}\right)$$.
   * If the distance between $$\boldsymbol{x}- \boldsymbol{y}$$is large, $$\exp$$will be small, this means training observations $$\boldsymbol{x}$$will hardly play any role in the prediction of  test observation $$\boldsymbol{y}$$.
   * The $$\sigma$$now controls the width of the neighbourhood or the variance of the Gaussian density.
@@ -201,13 +217,13 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * $$[\boldsymbol{K}]_{i j}=\boldsymbol{\phi}\left(\boldsymbol{x}_{i}\right)^{T} \boldsymbol{\phi}\left(\boldsymbol{x}_{j}\right)=k\left(\boldsymbol{x}_{i}, \boldsymbol{x}_{j}\right)$$
 * Proof that the a positive definite Kernel is symmetric.
   * $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\boldsymbol{\phi}(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle = \left\langle\boldsymbol{\phi}(\boldsymbol{x}^{\prime}), \boldsymbol{\phi}\left(\boldsymbol{x}\right)\right\rangle = k\left(\boldsymbol{x}^{\prime}, \boldsymbol{x}\right)$$ 
-* Proof that the Eucledian distance is a distance measure fullfilling all criteria for a distance measure.
+* Proof that the Euclidean distance is a distance measure fullfilling all criteria for a distance measure.
 
 ## SVMs\*
 
 * Why is it good to use a maximum margin objective for classification?🧠
-  * The maximum margin objective is good for classification, as it tries to find the hyperplane that gives the greatest minium distance to the closest observations.
-  * The intutition is, that if less observations next to the decision boundary, the results are less uncertain.
+  * The maximum margin objective is good for classification, as it tries to find the hyperplane that gives the greatest minimum distance to the closest observations.
+  * The intuition is, that if less observations next to the decision boundary, the results are less uncertain.
 * How can we define the margin as an optimization problem?
   * It can be formulated as:
     * $$\begin{aligned} \operatorname{argmax}_{\mathbf{w}} & \frac{2}{\|\mathbf{w}\|}, \\ \text { s.t. } & \mathbf{w}^{T} \mathbf{x}_{i}+b\left\{\begin{array}{l} \geq+1, \quad \text { falls } y_{i}=+1 \\ \leq-1, \quad \text { falls } y_{i}=-1 \end{array}\right. \end{aligned}$$
@@ -220,8 +236,8 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * If $$\xi_i$$is $$0 \leq \xi_{i} \leq 1$$, it violates the margin and contributes to the loss.
   * If $$\xi_i$$is $$0$$, it's a support vector.
 * What are advantages and disadvantages in comparison to logistic regression?🧠
-  * Logistic regression doesn't allow for margin valuations. SVMs however, allow some observations to lie on the wrong side oft the margin through the notion of slack variables.
-  * Logistic regression retursn probabilities. SVMs do not.
+  * Logistic regression doesn't allow for margin valuations. SVMs however, allow some observations to lie on the wrong side of the margin through the notion of slack variables.
+  * Logistic regression returns probabilities. SVMs do not.
   * Logistic regression is more sensitive to outliers, whereas SVMs find a more balanced decision boundary.
 * What is the difference between gradients and sub-gradients?🧠
   * In order to calculate the gradient of a function, the function has to be differentiable.
@@ -246,31 +262,30 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
   1. Compute the posterior: $$\underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }}=\frac{\overbrace{p(\mathcal{D} \mid \boldsymbol{\theta})}^{\text {data likelihood}} \overbrace{p(\boldsymbol{\theta})}^{\text {prior }}}{\underbrace{p(\mathcal{D})}_{\text {evidence }}}$$ 
 
-      That is, compute posterior over parameters / models.
-
+      That is, compute posterior   parameters/models
   1. Integrate out posterior: $$\underbrace{p\left(\boldsymbol{x}^{*} \mid \mathcal{D}\right)}_{\text {marginal likelihood }}=\int \underbrace{p\left(\boldsymbol{x}^{*} \mid \boldsymbol{\theta}\right)}_{\text {likelihood }} \underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }} d \boldsymbol{\theta}$$ 
 
-     Average over all parameters / models weighted by the posterior.
+     Average all parameters / models weighted by the posterior.
 
 * Why is Bayesian Learning more robust against overfitting?🧠
-  * Instead of choosing a single estimate for the parameter vector, we estimate a probability distribution for the parameter vector $$\boldsymbol{\theta}$$. As multiple  estimates are incorporated in the averaged parameter vector the model becomes more robust.
+  * Instead of choosing a single estimate for the parameter vector, we estimate a probability distribution for the parameter vector $$\boldsymbol{\theta}$$. As multiple estimates are incorporated in the averaged parameter vector the model becomes more robust.
 * What happens with the posterior if we add more data to the training set?🧠
-  * For very large datasets the posterior will be a **point estimate**. Baysian learning will be equivalent to maximum likelihood solution.
+  * For very large datasets the posterior will be a **point estimate**. Bayesian learning will be equivalent to maximum likelihood solution.
 * What is completing the square and how does it work?🧠
   * TODO:
 * _For which 2 cases can Bayesian Learning be solved in closed form?_🧠
   * linear feature / kernelized regression models
-* _Which approximations can we use if no closed form is available?_
+* _Which approximations can we use if no closed-form is available?_
   * Monte-Carlo Markov Chain sampling \(not covered\)
   * Laplace approximation \(not covered\)
 * How can we derive Bayesian Linear regression?🧠
   * TODO:
-* _What is the advantage of Bayesian Linear Regression over Ridge regression? What is the conceptual difference?_🧠
+* _What is the advantage of Bayesian Linear Regression  Ridge regression? What is the conceptual difference?_🧠
   * The solution of ridge regression and the Bayesian Linear Regression is identical.  
   * One advantage is, that we have uncertainty estimates for the parameter vector. 
   * They are identicial in a way that the posterior mean is identical to the ridge solution for linear models. 
   * The difference is that that for the Bayesian Linear Regression the variance is now input-dependent.
-* What is the major advantage of Gaussian processes over kernel ridge regression?🧠
+* What is the major advantage of Gaussian processes kernel ridge regression?🧠
 * Why are GPs a Bayesian approach?🧠
 * What principle allowed deriving GPs from a Bayesian regression point of view?🧠
 * Gaussian Processes\(GP\) are also referred to as a "Bayesian Kernel Regression" approach. Why? 🦧
@@ -284,6 +299,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why do we need non-linear activation functions?🧠
   * In order to compute interesting functions we need non-linear activation functions. 
   * Independent of the number of layers by using a linear activation function we can only compute a linear activation function. This is due to the fact that a composition of linear function itself is a linear function. \(see [here.](https://www.coursera.org/lecture/neural-networks-deep-learning/why-do-you-need-non-linear-activation-functions-OASKH)\)
+  * Linear functions are closed under composition, this is equivalent to having a single (linear) layer (see Stanford exam Fall 19).
 * What activation functions can we use and what are the advantages/disadvantages of those?🧠
   * \(see anki deck\)
 * What output layer and loss function to use given the task \(regression, classification\)?🧠
@@ -307,7 +323,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * A poor initialization can lead to a slow learning of the network.
   * Moreover, if all the neurons are initialized identically the network will not learn unique features, as all gradients are the same.
 * _What is a typical goal of \(good\) weight initialization? 🧑‍🚒_
-  * Gradients should not vanish / decay to zero or be overly saturated. Moreover, they should be non-zero.
+  * Gradients should not vanish/decay to zero or be overly saturated. Moreover, they should be non-zero.
   * One good approach is Xavier initalization.
 * What can you read from the loss-curves during training \(validation and training loss\)?🧠
   * See whether a network overfits. This is the case if training error decreases but training error doesn't decrease, so test and trainings error diverge.
@@ -318,11 +334,11 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * _How can we accelerate gradient descent?🧠_
   *  Adaptive learning rate
   * Introduce a momentum term
-  * Second order methods
+  * Second-order methods
 * _How does Adam work?🧠_
   * TODO:
 * _What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧_
-  * The idea of second-order optimization methods is to directly step to the minimum of the quadratic approxmation by calculating the second order derivatives Hessian.
+  * The idea of second-order optimization methods is to directly step to the minimum of the quadratic approxmation by calculating thesecond-orderr derivatives Hessian.
   * No learning rat needs to be tuned and they need fewer function evaluations.
   * It's not applicable to Deep Neural Networks, as the Hessian becomes large and needs to be inverted \(also see below\). 
 * Second-order optimization methods are rarely used for deep neural network optimization. Why? 🧑‍🚒
@@ -340,7 +356,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ![\(own drawing\)](../.gitbook/assets/sigmoid_derivative.png)
 
 * Adding more hidden layers will solve the vanishing gradient problem for a two-layer neural network. True / False?🧑‍🚒
-  * No, as a deeper network will increase the chance of vanishing gradients, as they have to be backpropated.
+  * No, as a deeper network will increase the chance of vanishing gradients, as they have to be backpropagated.
 * _Adding L2-regularization will help with vanishing gradients? True / False?_ 🧑‍🚒
   * False, as $$\ell_2$$regularization pulls the weights towards zero, meaning the vanishing gradient problem could become worse.
 * Early stopping, cross-validation, and network pruning are techniques to prevent overfitting of Neural Nets. Explain them. 
@@ -356,12 +372,13 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Network pruning refers the process of systematically removing parameters from a neural network to limit the computational demand and maintain accuracy.
 * _Explain how early stopping works with Neural Nets._
   * With early stopping one doesn't train a neural network until the training error is most most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
+* Ist stochastic gradient descent with batch size 1 the same as mini-batch gradient descent with batch size 1?
 
 ##  CNNs\*
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
-  * Spatial structure of image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighbouring pixels together, as they are more correlated.
-  * Training a fully-connected network with large number of inputs requires many parameters / weights. 
+  * Spatial structure of the image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighboring pixels together, as they are more correlated.
+  * Training a fully-connected network with large number of inputs requires many parameters/weights. 
   * **Example:** A fully-connected layer with a thousand hidden dimensions and an input image of 1 Megapixel would require one billion parameters. \(Zhang et al. Dive into Deep Learning\)
 * What are the key components of a CNN?🧠
   * **Convolutional layer:** A convolutional layer cross-correlates the input and kernel and adds a bias to produce an input. This is used to extract different features.
@@ -413,7 +430,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 * How do LSTMs actually avoid the vanishing gradient problem?
   * In order to calculate the hidden state $$h_t$$, RNNs require multiplication with the weight matrix $$\boldsymbol{W}$$multiple times and application of the $$\tanh$$. If Eigenvalues are small, gradients tend to become small as well.
-  * The vanishing gradient problem is solved by LSTMs, as the the calculation of the cell state $$c_t$$ requires only a hadamard product with $$f$$, but not matrix multiplication with the weight matrix $$\boldsymbol{W}$$.
+  * The vanishing gradient problem is solved by LSTMs, as the calculation of the cell state $$c_t$$ requires only a Hadamard product with $$f$$, but not matrix multiplication with the weight matrix $$\boldsymbol{W}$$.
 
 ## General
 
@@ -432,5 +449,5 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   \end{aligned}
   $$
 
-  Write down the Lagrangian. Derive the optimal value for $$a$$ depending on your lagrangian multiplier. 🦧
+  Write down the Lagranian. Derive the optimal value for $$a$$ depending on your lagrangian multiplier. 🦧
 
