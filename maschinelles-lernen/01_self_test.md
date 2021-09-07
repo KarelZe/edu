@@ -136,7 +136,8 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$ 
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
-  *Moreover, the result of $$k$$-means is heavily dependent on the initialisation.
+
+    \*Moreover, the result of $$k$$-means is heavily dependent on the initialisation.
 
 ## Dimensionality Reduction\*
 
@@ -161,35 +162,100 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why should each dimension have a unit variance / be normalized?
   * Doing a PCA is a variance maximizing exercise. Therefore, if features have a different variance, features with the greatest variance will be loaded the most. To give the features the greatest weight, that explain most of the variance, data should be normalized first.
 
-## Density Estimation and Expectation Maximization
+## Density Estimation and Expectation Maximization\*
 
-* What are parametric methods and how to obtain their parameters?🧠
+* _What are parametric methods and how to obtain their parameters?_🧠
+  * Parametric models are models, where we assume a certain underlying probability distribution. The no. of parameters is fixed. \(see also [here.](https://en.wikipedia.org/wiki/Parametric_statistics)\)
 * How many parameters have non-parametric methods?🧠
-* What are mixture models?🧠
-* Should gradient methods be used for training mixture models?🧠
-* How does the EM algorithm work?🧠
-* What is the biggest problem of mixture models?🧠
+  * non-parametric models derive the proability density from the data and don't assume a parametric models. Thus, don't require parameters to specify the model. 
+  * However, they can have hyperparameters such as the bin count in a histogram, which depend on the concrete method.
+* _What are mixture models?🧠_
+  * Mixture models create a complex distribution by combining simple ones.
+  * They have the following parameters $$\boldsymbol{\theta}=\left\{\pi_{1}, \boldsymbol{\mu}_{1}, \boldsymbol{\Sigma}_{1}, \ldots, \pi_{K}, \boldsymbol{\mu}_{K}, \boldsymbol{\Sigma}_{K}\right\}$$, where $$\pi$$stands for the responsibility or contribution of each distribution to the final mixture. $$\mu_K$$and $$\Sigma_K$$describe the Gaussian distribution of the $$k$$th component.
+* _Should gradient methods be used for training mixture models?🧠_
+  * No, gradient descent shouldn't be used to train mixture models, as optimizing the likelihood of a sum is problematic. Convergence will be slow. 
+  * Should use Expectation Maximization instead.
+* _How does the EM algorithm work?🧠_
+  * The EM algorithm is an iterative algorithm for estimating latent variable models consisting of two steps. The first step is the Expectation step. 
+  * The E step maximizes the lower bound with respect to some arbitrary distribution $$q(z)$$of the latent variable $$z$$, by minimizing / vanishing the Kullback Leibler distance of $$q(z)$$. The lower bound is thight, as the marginal likelihood equals the lowerbound.
+  * In the second step, the M step the lower bound is maxmized with respect to $$\boldsymbol{\theta}$$ to obtain a new parameter estimate $$\boldsymbol{\theta}^{\text{new}}$$. As $$q$$is estimated using the old parameters of $$\boldsymbol{\theta}$$, the KL will be larger than zero and the overall marginal likelihood increases. 
+* _What is the biggest problem of mixture models?🧠_
+  * Mixture models assume that the data can be modelled through a combination of parametric distributions e. g. Gaussians.
 * How does EM decomposes the marginal likelihood?🧠
-* Why does EM always improve the lower bound?🧠
+  * $$\log p(\boldsymbol{x} \mid \boldsymbol{\theta})_{z}=\sum_{z} q(z) \log \frac{p(\boldsymbol{x}, z \mid \boldsymbol{\theta})}{q(z)}+\sum_{z} q(z) \log \frac{q(z)}{p(z \mid x)}$$ 
+* _Why does EM always improve the lower bound?🧠_
+  * In the E-Step the KL is minimized to zero, while the log likelihood remains unchanged, hence the lower bound has to increase. This is due to the fact, that the lower bound is the difference between the unchanged marginal likelihood and the KL.
+  * In the M-Step the lower bound also increases, unless it's already at the maximum, as the new parameter set has to be at least as goood as the old parameter estimate.
 * Why does EM always improve the marginal likelihood?🧠
-* Why can we optimize each mixture component independently with EM?🧠
+  * Mariginal log-likelihood is always improved in the maximization step, as the lower bound is maximized with repsect to $$\theta$$ to give some new $$\theta^{\text{new}}$$.That is, the $$\mathcal{L}$$will go up. But as $$q$$is determined with the old parameters, it will be different to the new posterior distribution of $$p$$. Hence, the KL will be non-zero or positive. So the sum of both terms will be greater than before.
+* _Why can we optimize each mixture component independently with EM?_🧠
+  * We can separately update the single components and coefficients in the M step, as the objective of the lower bound is additive. \(p. 43\)
+  * TODO: Get better understanding.
 * Why do we need sampling for continuous latent variables?🧠
-* Why is a neural network considered a parametric model?
-* What is the link between Entropy and Kullback-Leiber divergence?
+  * Typically it is not feasable to compute the integral in the Maximization step with continous latent variables, as no analytical solutions exist for the integral \(see slide 55 f.\)
+  * Instead a MC estimation is used to calculate the lower bound.
+* _Why is a neural network considered a parametric model?_
+  * Deep learning models are generally parametric. Most often, they have a huge number of parameters, one for each weight that is tuned during training. \(see [here.](https://stats.stackexchange.com/a/322051)\)
+* _What is the link between Entropy and Kullback-Leiber divergence?_
+
   $$
   \begin{aligned}
   \mathrm{KL}(p \| q) &=-\int p(\mathbf{x}) \ln q(\mathbf{x}) \mathrm{d} \mathbf{x}-\left(-\int p(\mathbf{x}) \ln p(\mathbf{x}) \mathrm{d} \mathbf{x}\right) \\
   &=-\int p(\mathbf{x}) \ln \left\{\frac{q(\mathbf{x})}{p(\mathbf{x})}\right\} \mathrm{d} \mathbf{x}
   \end{aligned}
   $$
-  (see Bishop p. 55)
-* How does the Variational Bayes algorithm improve on the Expectation Maximization algorithm?
-* What is the EM algorithm for?
+
+  \(see Bishop p. 55\)
+
+* _How does the Variational Bayes algorithm improve on the Expectation Maximization algorithm?_
+  * The EM-algorithm assumes that the Kullback-Leiber distance can be set to zero. 
+  * This is however not possible for complex latent variable models. Variational Bayes models solve this issue bei allowing the KL to be greater than 0 after the E-step.
+* _What is the EM algorithm for?_
   * Finding the maximum likelihood solutions of a probabilistic model with latent variables
-* Why is it a lower bound?
+* _Why is it a lower bound?_
   * Since Since $$\mathrm{KL}(q \| p) \geq 0$$ it follow that $$\mathcal{L}(q, \boldsymbol{\theta}) \leq \log p(\boldsymbol{x} \mid \boldsymbol{\theta})$$.
-* What are weaknesses of the EM algorithm?
-  * EM is sensitive to initialization.
+* _What are weaknesses of the EM algorithm?_
+  * EM is sensitive to initialization. 
+  * Often times $$k$$-nearest neighbor is used for initialization.
+* _How parametric and non-parametric models compare? What are their advantages / drawbacks?_
+  * Parametric models
+    * Friendly analytic properties \(+\)
+    * Simple \(+\)
+    * Small memory requirements \(+\)
+    * Fast \(+\)
+    * Limited representation \(-\)
+  * Non-parametric models
+    * Very general \(+\)
+    * Suffer from curse of dimensionality \(-\)
+    * Large memory requirements \(-\)
+    * Slow \(-\)
+* _What is the difference between kernel density estimation and_ $$k$$_-nearest neighbor?_
+  * Both approaches allow to calculate the probability that a point falls into a region.
+  * Kernel density estimation
+    * Fix $$V$$ \(Volume\) and determine $$K$$ \(the no. of data points $$K$$ in fixed hypercube\)
+  * $$k$$-nearest neighbor estimation
+    * Fix $$K$$\(no. samples in Region\) and determine size of Sphere $$V$$.
+    * First, we increase the size of the hypersphere until $$K$$points lie inside.
+* _Show that the Kullback-Leibler distance is ..._
+  * \(Whiteboard\)
+* _What are the convergence properties of EM?_
+  * EM improves the lower bound $$\mathcal{L}\left(q_{\text {new }}, \boldsymbol{\theta}_{\text {new }}\right) \geq \mathcal{L}\left(q_{\text {old }}, \boldsymbol{\theta}_{\text {old }}\right)$$ 
+    * E-Step affects KL, so lower bound has to go up.
+    * M-Step maximizes lower bound
+  * EM improves the marginal likelihood $$\log p\left(\boldsymbol{x} \mid \boldsymbol{\theta}_{\mathrm{new}}\right) \geq \log p\left(\boldsymbol{x} \mid \boldsymbol{\theta}_{\text {old }}\right)$$ 
+    * E-Step leaves marginal likelihood unaffected
+    * M-Step increases, as lower bound and KL increase
+* _What is the advantage of EM over_ $$k$$_-means?_
+  * EM is harder to learn than k-means but it also gives variances and densities
+* _What are the advantages of PPCA over the PCA? What are its drawbacks?_
+  * PCA is a one-step solution \(only eigenvalue decomposition\)
+  * PCA is very fast
+  * PPCA is good if we need densities
+  * PPCA helps to understand EM and complex dimensionality reduction methods.
+* _Why do we need the Expectation step at all, if the Maximization steps, increases the likelihood?_
+  * The expectation step is necessary to estimate the distribution of the latent variables by using the the old parameters and the the observed data $$\boldsymbol{x}$$. So we try to estimate the missing data.
+  * In the M step the generated \(complete data\) is used to generate new parameter estimates for $$\boldsymbol{\theta}$$. 
+  * If there wasn't an E-Step it just wouldn't be possible.
 
 ## Kernel methods\*
 
@@ -259,14 +325,13 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 ## Bayesian Learning
 
 * What are the two basic steps behind Bayesian Learning?🧠
+  1. Compute the posterior: $$\underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }}=\frac{\overbrace{p(\mathcal{D} \mid \boldsymbol{\theta})}^{\text {data likelihood}} \overbrace{p(\boldsymbol{\theta})}^{\text {prior }}}{\underbrace{p(\mathcal{D})}_{\text {evidence }}}$$
 
-  1. Compute the posterior: $$\underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }}=\frac{\overbrace{p(\mathcal{D} \mid \boldsymbol{\theta})}^{\text {data likelihood}} \overbrace{p(\boldsymbol{\theta})}^{\text {prior }}}{\underbrace{p(\mathcal{D})}_{\text {evidence }}}$$ 
+     That is, compute posterior parameters/models
 
-      That is, compute posterior   parameters/models
-  1. Integrate out posterior: $$\underbrace{p\left(\boldsymbol{x}^{*} \mid \mathcal{D}\right)}_{\text {marginal likelihood }}=\int \underbrace{p\left(\boldsymbol{x}^{*} \mid \boldsymbol{\theta}\right)}_{\text {likelihood }} \underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }} d \boldsymbol{\theta}$$ 
+  2. Integrate out posterior: $$\underbrace{p\left(\boldsymbol{x}^{*} \mid \mathcal{D}\right)}_{\text {marginal likelihood }}=\int \underbrace{p\left(\boldsymbol{x}^{*} \mid \boldsymbol{\theta}\right)}_{\text {likelihood }} \underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }} d \boldsymbol{\theta}$$
 
      Average all parameters / models weighted by the posterior.
-
 * Why is Bayesian Learning more robust against overfitting?🧠
   * Instead of choosing a single estimate for the parameter vector, we estimate a probability distribution for the parameter vector $$\boldsymbol{\theta}$$. As multiple estimates are incorporated in the averaged parameter vector the model becomes more robust.
 * What happens with the posterior if we add more data to the training set?🧠
@@ -299,7 +364,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why do we need non-linear activation functions?🧠
   * In order to compute interesting functions we need non-linear activation functions. 
   * Independent of the number of layers by using a linear activation function we can only compute a linear activation function. This is due to the fact that a composition of linear function itself is a linear function. \(see [here.](https://www.coursera.org/lecture/neural-networks-deep-learning/why-do-you-need-non-linear-activation-functions-OASKH)\)
-  * Linear functions are closed under composition, this is equivalent to having a single (linear) layer (see Stanford exam Fall 19).
+  * Linear functions are closed under composition, this is equivalent to having a single \(linear\) layer \(see Stanford exam Fall 19\).
 * What activation functions can we use and what are the advantages/disadvantages of those?🧠
   * \(see anki deck\)
 * What output layer and loss function to use given the task \(regression, classification\)?🧠
@@ -332,7 +397,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Poor initalization, if loss decreases late.
   * If learning rate should be changed.
 * _How can we accelerate gradient descent?🧠_
-  *  Adaptive learning rate
+  * Adaptive learning rate
   * Introduce a momentum term
   * Second-order methods
 * _How does Adam work?🧠_
@@ -344,14 +409,11 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Second-order optimization methods are rarely used for deep neural network optimization. Why? 🧑‍🚒
   * Second-order optimization methods require the calculation of the Hessian and the inverse. However calculating the Hessian is $$\mathcal{O}(N^2)$$and the inverse is $$\mathcal{O}(N^3)$$ for $$N$$dimensions.
 * _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$?
-
   * The sigmoid function is bound by th exponential component, so that the range is $$[0,1]$$.
 
 ![\(own drawing\)](../.gitbook/assets/sigmoid.png)
 
 * **Considering gradients:** The sigmoid activation function is prone to vanishing gradients, as the gradient is smaller than $$\leq 0.25$$. Multiplying the gradients several times will soon lead to gradients close to zero.
-
- 
 
 ![\(own drawing\)](../.gitbook/assets/sigmoid_derivative.png)
 
@@ -374,7 +436,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * With early stopping one doesn't train a neural network until the training error is most most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
 * Ist stochastic gradient descent with batch size 1 the same as mini-batch gradient descent with batch size 1?
 
-##  CNNs\*
+## CNNs\*
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
   * Spatial structure of the image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighboring pixels together, as they are more correlated.
