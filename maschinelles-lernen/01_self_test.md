@@ -15,7 +15,7 @@ Weitere interessante Fragen finden sich auch bei den [Selbsttestfragen zu Adv. M
 
 * Write down the objective of linear binary logistic regression. The samples are given by $$x_{i}$$ and the labels by $$c_{i} \in\{0,1\}$$. How is $$p\left(c_{i} \mid \boldsymbol{x}_{i}\right)$$ assumed to be distributed in binary logistic regression?🦧
 
-$$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$ 
+$$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$
 
 * Logistic regression assumes $$p\left(c_{i} \mid x_{i}\right)$$to be Bernoulli distributed.
 
@@ -138,7 +138,6 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$ 
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
-
   * Moreover, the result of $$k$$-means is heavily dependent on the initialization.
 
 ## Dimensionality Reduction
@@ -299,7 +298,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * A ''soft' margin is the concept of a hyperplane, where almost all observations are separted correctly. This is done through so called slack variables $$\xi_i$$, that allow violating the margin. We use slack variables $$\xi_i \geq 0$$ and allow for margin violations: $$y_{i}\left(\mathbf{w}^{T} \mathbf{x}_{i}+b\right) \geq 1-\xi_{i}$$.
 * How is the hinge loss defined?🧠
 
-  $$\operatorname{argmin}_{\mathbf{w}} \lambda \underbrace{\|\mathbf{w}\|^{2}}_{\text {regularization }}+\underbrace{\sum_{i=1}^{N} \max \left(0,1-y_{i} f\left(\boldsymbol{x}_{i}\right)\right)}_{\text {data loss }}, \quad \text { with } \lambda=\frac{1}{C}$$ 
+  $$\operatorname{argmin}_{\mathbf{w}} \lambda \underbrace{\|\mathbf{w}\|^{2}}_{\text {regularization }}+\underbrace{\sum_{i=1}^{N} \max \left(0,1-y_{i} f\left(\boldsymbol{x}_{i}\right)\right)}_{\text {data loss }}, \quad \text { with } \lambda=\frac{1}{C}$$
 
 * What is the relation between the slack variables and the hinge loss?🧠
   * If $$\xi_i$$is $$>1$$, the point lies outside the margin, but doesn't contribute to the loss.
@@ -328,14 +327,14 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 
 ## Bayesian Learning
 
-* What are the two basic steps behind Bayesian Learning?🧠
-  1. Compute the posterior: $$\underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }}=\frac{\overbrace{p(\mathcal{D} \mid \boldsymbol{\theta})}^{\text {data likelihood}} \overbrace{p(\boldsymbol{\theta})}^{\text {prior }}}{\underbrace{p(\mathcal{D})}_{\text {evidence }}}$$
+* What are the two basic steps behind Bayesian Learning?🧠 1. Compute the posterior: $$\underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }}=\frac{\overbrace{p(\mathcal{D} \mid \boldsymbol{\theta})}^{\text {data likelihood}} \overbrace{p(\boldsymbol{\theta})}^{\text {prior }}}{\underbrace{p(\mathcal{D})}_{\text {evidence }}}$$
 
-     That is, compute posterior parameters/models
+  That is, compute posterior parameters/models
 
-  2. Integrate out posterior: $$\underbrace{p\left(\boldsymbol{x}^{*} \mid \mathcal{D}\right)}_{\text {marginal likelihood }}=\int \underbrace{p\left(\boldsymbol{x}^{*} \mid \boldsymbol{\theta}\right)}_{\text {likelihood }} \underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }} d \boldsymbol{\theta}$$
+  1. Integrate out posterior: $$\underbrace{p\left(\boldsymbol{x}^{*} \mid \mathcal{D}\right)}_{\text {marginal likelihood }}=\int \underbrace{p\left(\boldsymbol{x}^{*} \mid \boldsymbol{\theta}\right)}_{\text {likelihood }} \underbrace{p(\boldsymbol{\theta} \mid \mathcal{D})}_{\text {posterior }} d \boldsymbol{\theta}$$
 
      Average all parameters / models weighted by the posterior.
+
 * Why is Bayesian Learning more robust against overfitting?🧠
   * Instead of choosing a single estimate for the parameter vector, we estimate a probability distribution for the parameter vector $$\boldsymbol{\theta}$$. As multiple estimates are incorporated in the averaged parameter vector the model becomes more robust.
 * What happens with the posterior if we add more data to the training set?🧠
@@ -443,11 +442,81 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _Explain what network pruning is._
   * Network pruning refers the process of systematically removing parameters from a neural network to limit the computational demand and maintain accuracy.
 * _Explain how early stopping works with Neural Nets._
+  * With early stopping one doesn't train a neural network until the training error is most most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
+* _Is stochastic gradient descent with batch size 1 the same as mini-batch gradient descent with batch size 1?_
+  * No as with a batch size of 1, the loss function is no longer a a random variable and is not a stochastic approximation. \(see [here.](https://stats.stackexchange.com/questions/140811/how-large-should-the-batch-size-be-for-stochastic-gradient-descent)\)
+* _Explain how momentum speeds up learning compared to standard gardient descent._ 🧑‍🚒
+  * Momentum speeds up learning by cancelling out oscillations in the gradients and ensures that the update is performed in the direction of the maximum change. It does this by using exponentially weighted averages of the gradients.
+* Adding more hidden layers will solve the vanishing gradient problem for a two-layer neural network. True / False?🧑‍🚒
+  * No, as a deeper network will increase the chance of vanishing gradients, as they have to be backpropagated.
+* _Adding L2-regularization will help with vanishing gradients? True / False?_ 🧑‍🚒
+  * False, as $$\ell_2$$regularization pulls the weights towards zero, meaning the vanishing gradient problem could become worse.
+* Early stopping, cross-validation, and network pruning are techniques to prevent overfitting of Neural Nets. Explain them. 
+  * Early stopping: \(see below\)
+  * cross-validation: cross-validation means splitting the data set into $$k$$folds. The $$k$$th fold is used for validation, while the remaining folds are used for testing. As the training uses $$k$$passes and combines the resulting neural nets, the results is less prone to overfitting.
+  * network pruning: \(see below\)
+* _For a fully-connected deep network with one hidden layer, increasing the number of hidden units should have what effect on bias and variance?_ 🧑‍🚒
+  * Increasing the number of hidden units, while keeping the training dataset constant will lead to overfitting, meaning a small bias, but high variance.
+* _What is the problem of Neural nets with many parameters?_
+  * Large neural networks tend to overfit, as one can learn an arbitrary function given that the network has enough capacity. 
+  * We need a lot of samples.
+* _Explain what network pruning is._
+  * Network pruning refers the process of systematically removing parameters from a neural network to limit the computational demand and maintain accuracy.
+* _Explain how early stopping works with Neural Nets._
   * With early stopping one doesn't train a neural network until the training error is most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
 * Ist stochastic gradient descent with batch size 1 the same as mini-batch gradient descent with batch size 1?
 
 ## CNNs
 
+* Why are fully connected networks for images a bad idea and why do we need images?🧠
+  * Spatial structure of the image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighboring pixels together, as they are more correlated.
+  * Training a fully-connected network with large number of inputs requires many parameters/weights. 
+  * **Example:** A fully-connected layer with a thousand hidden dimensions and an input image of 1 Megapixel would require one billion parameters. \(Zhang et al. Dive into Deep Learning\)
+* What are the key components of a CNN?🧠
+  * **Convolutional layer:** A convolutional layer cross-correlates the input and kernel and adds a bias to produce an input. This is used to extract different features.
+  * **Pooling layer:** Pooling layer make representations smaller and more managable. They serve the dual purpose of mitigating the **sensitivity** of convolutional layers **to location** and of spartially downsampling representations \(Zhang et al. Dive into Deep Learning\)
+  * **Activation function:** After every convolutional operation a non-linear operations e. g. ReLU is applied to replace negative values.
+* What hyper-parameters can we set for a convolutional layer and what is their meaning?🧠
+  * $$K$$ Number of Filters / Spacial extend
+  * $$S$$Stride or step size of slided window
+  * $$F$$Kernel size
+  * $$P$$Amount of padding added
+* What hyper-parameters can we set for a pooling layer and what is their meaning?🧠
+  * $$S$$Stride or step size of sliding window
+  * $$F$$kernel size / Spacial extend
+* How can we compute dimensionality of the output of a convolutional layer?🧠
+  * $$W=\left(W-F+2 P\right) / S+1$$ 
+  * $$H=\left(H-F+2 P\right) / S+1$$ 
+  * $$D=K$$ 
+* Describe basic properties of LeNet.
+  * LeNet consist of two parts:
+    * A convolutional encode consisting of two convolutional layers.
+    * A dense block of three fully-connected layers.
+  * The convolutional blocks are a convolutional layer, a sigmoid activation function and an average pooling operation. The convolutional layer use a $$5\times5$$kernel and a sigmoid activation function. The pooling operation uses a $$2\times2$$using a stride 2. \(Zhang et al. Dive into Deep Learning\)
+* Describe basic properties of 'AlexNet' and 'VCG'.🧠
+  * **AlexNet**:
+    * AlexNet consists of 8 layers, which means it's deeper than LeNet. The 8 layers consists of five convolutional layers, two fully connected hidden layers and one-fully connected output layer.
+    * The convolutional window is of shape $$11 \times 11$$in the first layer and $$5 \times 5$$in the second layer and several $$3 \times 3$$. 
+    * The pooling layers have a window shape of $$3 \times 3$$and a stride of 2.
+    * AlexNet used the ReLU activation function.
+  * **VCG**:
+    * VCG consists of 16-19 layer.
+    * Convolutional layers have a window size of $$3 \times 3$$and a stride of 1 and padding of 1.
+    * The pooling layers have a window shape of $$2 \times 2$$ and a stride of 2.
+    * VCG used the ReLU activation function.
+* What is the main idea of 'ResNet' to make it very deep?🧠
+  * ResNet uses 152 layers. 
+  * ResNet utilizes so-called residual blocks / residual layers.
+* What are **residual layers** in a ResNet model?
+  * One can either learn the underlying mapping by learning $$f(\boldsymbol{x})$$or by learning a so-called residual mapping $$f(\boldsymbol{x}) - \boldsymbol{x}$$ and combining it with the identity mapping. The later is easier to learn. 
+  * **Example**: If one has to learn the identity function it is as simple as pushing the weights and bias through the layers.
+  * As an advantage with residual blocks inputs can forward propagate faster through the residual connections across layers. \(Zhang et al. Dive into Deep Learning\)
+* What is the idea of bottleneck layers with **ResNet**?
+  * Instead of using two layers for a residual function $$\mathcal{F}$$, they use a 3 layer design consisting of a $$1 \times 1$$, $$3 \times 3$$ and $$1\times1$$convolution. The $$1\times1$$layers are responsible for reducing and increasing the dimensions, as they preserve the dimension. Where the $$3 \times 3$$layer acts like a bottleneck. \(see [here.](https://arxiv.org/pdf/1512.03385.pdf)\)
+* Why is it not feasible to use a fully connected layer for images? How do convolutional neural networks solve this problem and which property of an image do they exploit?🦧
+  * They have to many parameters.
+  * They have less parameters due to sharing the parameters.
+  * They exploit the spatial structure of the image.
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
   * Spatial structure of the image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighboring pixels together, as they are more correlated.
   * Training a fully-connected network with large number of inputs requires many parameters/weights. 
@@ -537,5 +606,5 @@ a^{*} &=\frac{4 \lambda h}{2 h-4 \lambda}
 \end{aligned}
 $$
 
-*  \(The sign in the Lagrangian may change. But the following equations should be correct according to the Lagrangian.\)
+* \(The sign in the Lagrangian may change. But the following equations should be correct according to the Lagrangian.\)
 

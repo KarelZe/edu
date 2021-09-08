@@ -17,6 +17,7 @@
 
 ## Maschinelles Lernen
 
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Selbsttestfragen](maschinelles-lernen/01_self_test.md)
 
 ## Parallelrechner
@@ -52,6 +53,7 @@
 
 ## Patentrecht
 
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Mitschrift](patentrecht/mitschrift/README.md)
   * [Übersicht](patentrecht/mitschrift/uebersicht.md)
   * [Designrecht](patentrecht/mitschrift/designrecht.md)
