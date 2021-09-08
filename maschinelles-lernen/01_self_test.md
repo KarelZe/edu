@@ -4,6 +4,8 @@ Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Reca
 
 Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fragen der University of Berkley mit 🧑‍🚒. Eigene Fragen haben keine Markierung.
 
+Weitere interessante Fragen finden sich auch bei den [Selbsttestfragen zu Adv. ML](../advanced-machine-learning/01_self_test.md).
+
 ## Linear Regression
 
 * _Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?_🦧
@@ -352,10 +354,16 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * One advantage is, that we have uncertainty estimates for the parameter vector. 
   * They are identicial in a way that the posterior mean is identical to the ridge solution for linear models. 
   * The difference is that that for the Bayesian Linear Regression the variance is now input-dependent.
-* What is the major advantage of Gaussian processes kernel ridge regression?🧠
-* Why are GPs a Bayesian approach?🧠
-* What principle allowed deriving GPs from a Bayesian regression point of view?🧠
-* Gaussian Processes\(GP\) are also referred to as a "Bayesian Kernel Regression" approach. Why? 🦧
+* _What is the major advantage of Gaussian processes kernel ridge regression?_🧠
+  * We get an estimate for the mean $$\mu$$that corresponds to the Kernel Ridge regression solution.
+  * We get an input dependent variance estimate.
+* _Why are GPs a Bayesian approach?_🧠
+  * We can derive GPs from the Bayesian Linear regression view.
+  * GPs are a  kernelized version of Bayesian Linear Regression \(with infinite dimensional feature spaces\).
+* _What principle allowed deriving GPs from a Bayesian regression point of view?_🧠
+  * Kernel trick \(and Gaussian Bayes rules\)
+* _Gaussian Processes\(GP\) are also referred to as a "Bayesian Kernel Regression" approach. Why?_ 🦧
+  * You can derive Gaussian Processes by using the Kernel Trick from Bayesian Linear Regression, as in Kernel Regression.
 
 ## Neural Nets
 
