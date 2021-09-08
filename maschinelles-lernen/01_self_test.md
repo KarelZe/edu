@@ -44,7 +44,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * Bias, variance, and noise sum up to the true risk.
 * _What is the advantage/disadvantage of k-fold CV vs. the Hold-out method?🧠_
   * k-Fold CV uses the entire data set for training, as the $$k$$-th fold is used for testing and the remaining folds are used for training. This is less wasteful compared to the Hold-Out-method, where a certain percentage of the data is exclusively reserved for testing.
-  * On the other hand, is k-Fold CV more computationally expensive as it requires $$k$$ iterations to train the model. It also leads to more stable results though. In comparsion the Hold-out-method is less computationally expensive, as it requires only one run. 
+  * On the other hand, is k-Fold CV more computationally expensive as it requires $$k$$ iterations to train the model. It also leads to more stable results though. In comparison, the Hold-out-method is less computationally expensive, as it requires only one run. 
   * What is problematic about the hold-out method is, that unlucky splits might give misleading results.
 * _Why does it make sense to penalize the norm of the weight vector?🧠_
   * Applying a penalty to large weight vectors helps to keep the parameters small. Which leads to a smoother function. 
@@ -53,14 +53,14 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _Which norm can we use and what are the different effects?_
   * $$\ell_1$$ **penalty**: 
     * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{1}=\sum_{d}\left|\theta_{d}\right|$$ 
-    * Introduces sparse solutions, that means some parameters can be 0. Suitable for feature selection.
+    * Introduces sparse solutions, which means some parameters can be 0. Suitable for feature selection.
     * Hard to optimize.
   * $$\ell_2$$ **penalty**:
     * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{2}=\sum_{d} \theta_{d}^{2}$$ 
     * Redundant parameters will be close to 0, but never 0.
     * Easy to optimize.
 * _What is the effect of early stopping?_🧠
-  * Early stopping prevents overfitting, as model is not trained to to the smallest training error. 
+  * Early stopping prevents overfitting, as model is not trained to the smallest training error. 
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 
 ## Nearest neighbor Algorithms, Trees, and Forests
@@ -134,12 +134,12 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * **Adjustment Step:**
     * Adjust the centroids to be the means of the samples assigned to them: $$c_{k}=\frac{1}{\left|X_{k}\right|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left\{\boldsymbol{x}_{n} \mid z_{n}=k\right\}$$ 
 * _Why does the algorithm converge? What is it minimizing?_🧠
-  * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centeroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer custer centre exists and the SSD remains constant.
+  * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centeroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer custer center exists and the SSD remains constant.
   * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$ 
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
 
-    \*Moreover, the result of $$k$$-means is heavily dependent on the initialisation.
+  * Moreover, the result of $$k$$-means is heavily dependent on the initialization.
 
 ## Dimensionality Reduction
 
@@ -169,7 +169,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _What are parametric methods and how to obtain their parameters?_🧠
   * Parametric models are models, where we assume a certain underlying probability distribution. The no. of parameters is fixed. \(see also [here.](https://en.wikipedia.org/wiki/Parametric_statistics)\)
 * How many parameters have non-parametric methods?🧠
-  * non-parametric models derive the proability density from the data and don't assume a parametric models. Thus, don't require parameters to specify the model. 
+  * non-parametric models derive the probability density from the data and don't assume a parametric models. Thus, don't require parameters to specify the model. 
   * However, they can have hyperparameters such as the bin count in a histogram, which depend on the concrete method.
 * _What are mixture models?🧠_
   * Mixture models create a complex distribution by combining simple ones.
@@ -179,8 +179,8 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * Should use Expectation Maximization instead.
 * _How does the EM algorithm work?🧠_
   * The EM algorithm is an iterative algorithm for estimating latent variable models consisting of two steps. The first step is the Expectation step. 
-  * The E step maximizes the lower bound with respect to some arbitrary distribution $$q(z)$$of the latent variable $$z$$, by minimizing / vanishing the Kullback Leibler distance of $$q(z)$$. The lower bound is thight, as the marginal likelihood equals the lowerbound.
-  * In the second step, the M step the lower bound is maxmized with respect to $$\boldsymbol{\theta}$$ to obtain a new parameter estimate $$\boldsymbol{\theta}^{\text{new}}$$. As $$q$$is estimated using the old parameters of $$\boldsymbol{\theta}$$, the KL will be larger than zero and the overall marginal likelihood increases. 
+  * The E step maximizes the lower bound with respect to some arbitrary distribution $$q(z)$$of the latent variable $$z$$, by minimizing / vanishing the Kullback Leibler distance of $$q(z)$$. The lower bound is tight, as the marginal likelihood equals the lowerbound.
+  * In the second step, the M step the lower bound is maximized with respect to $$\boldsymbol{\theta}$$ to obtain a new parameter estimate $$\boldsymbol{\theta}^{\text{new}}$$. As $$q$$is estimated using the old parameters of $$\boldsymbol{\theta}$$, the KL will be larger than zero and the overall marginal likelihood increases. 
 * _What is the biggest problem of mixture models?🧠_
   * Mixture models assume that the data can be modelled through a combination of parametric distributions e. g. Gaussians.
 * How does EM decomposes the marginal likelihood?🧠
@@ -189,13 +189,13 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * In the E-Step the KL is minimized to zero, while the log likelihood remains unchanged, hence the lower bound has to increase. This is due to the fact, that the lower bound is the difference between the unchanged marginal likelihood and the KL.
   * In the M-Step the lower bound also increases, unless it's already at the maximum, as the new parameter set has to be at least as goood as the old parameter estimate.
 * Why does EM always improve the marginal likelihood?🧠
-  * Mariginal log-likelihood is always improved in the maximization step, as the lower bound is maximized with repsect to $$\theta$$ to give some new $$\theta^{\text{new}}$$.That is, the $$\mathcal{L}$$will go up. But as $$q$$is determined with the old parameters, it will be different to the new posterior distribution of $$p$$. Hence, the KL will be non-zero or positive. So the sum of both terms will be greater than before.
+  * Marginal log-likelihood is always improved in the maximization step, as the lower bound is maximized with respect to $$\theta$$ to give some new $$\theta^{\text{new}}$$.That is, the $$\mathcal{L}$$will go up. But as $$q$$is determined with the old parameters, it will be different to the new posterior distribution of $$p$$. Hence, the KL will be non-zero or positive. So the sum of both terms will be greater than before.
 * _Why can we optimize each mixture component independently with EM?_🧠
   * We can separately update the single components and coefficients in the M step, as the objective of the lower bound is additive. \(p. 43\)
-  * TODO: Get better understanding.
+  * TODO: Get a better understanding.
 * Why do we need sampling for continuous latent variables?🧠
-  * Typically it is not feasable to compute the integral in the Maximization step with continous latent variables, as no analytical solutions exist for the integral \(see slide 55 f.\)
-  * Instead a MC estimation is used to calculate the lower bound.
+  * Typically it is not feasable to compute the integral in the Maximization step with continuous latent variables, as no analytical solutions exist for the integral \(see slide 55 f.\)
+  * Instead an MC estimation is used to calculate the lower bound.
 * _Why is a neural network considered a parametric model?_
   * Deep learning models are generally parametric. Most often, they have a huge number of parameters, one for each weight that is tuned during training. \(see [here.](https://stats.stackexchange.com/a/322051)\)
 * _What is the link between Entropy and Kullback-Leiber divergence?_
@@ -219,7 +219,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _What are weaknesses of the EM algorithm?_
   * EM is sensitive to initialization. 
   * Often times $$k$$-nearest neighbor is used for initialization.
-* _How parametric and non-parametric models compare? What are their advantages / drawbacks?_
+* _How parametric and non-parametric models compare? What are their advantages/drawbacks?_
   * Parametric models
     * Friendly analytic properties \(+\)
     * Simple \(+\)
@@ -255,7 +255,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * PPCA is good if we need densities
   * PPCA helps to understand EM and complex dimensionality reduction methods.
 * _Why do we need the Expectation step at all, if the Maximization steps, increases the likelihood?_
-  * The expectation step is necessary to estimate the distribution of the latent variables by using the the old parameters and the the observed data $$\boldsymbol{x}$$. So we try to estimate the missing data.
+  * The expectation step is necessary to estimate the distribution of the latent variables by using the old parameters and the observed data $$\boldsymbol{x}$$. So we try to estimate the missing data.
   * In the M step the generated \(complete data\) is used to generate new parameter estimates for $$\boldsymbol{\theta}$$. 
   * If there wasn't an E-Step it just wouldn't be possible.
 
@@ -443,7 +443,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _Explain what network pruning is._
   * Network pruning refers the process of systematically removing parameters from a neural network to limit the computational demand and maintain accuracy.
 * _Explain how early stopping works with Neural Nets._
-  * With early stopping one doesn't train a neural network until the training error is most most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
+  * With early stopping one doesn't train a neural network until the training error is most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
 * Ist stochastic gradient descent with batch size 1 the same as mini-batch gradient descent with batch size 1?
 
 ## CNNs
@@ -527,7 +527,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   \end{aligned}
   $$
 
-  Write down the Lagranian. Derive the optimal value for $$a$$ depending on your lagrangian multiplier. 🦧
+  Write down the Lagrangian. Derive the optimal value for $$a$$ depending on your Lagrangian multiplier. 🦧
 
 $$
 \begin{aligned}
