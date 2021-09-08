@@ -6,20 +6,18 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 ## Linear Regression
 
-* Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?🦧
+* _Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?_🦧
   * Gaussian likelihood with linear mean and constant noise.
-* Give the formula for ridge regression and explain its components.
-* Give the formula for LASSO and explain its components.
-* Compare Multiple Linear Regression to LASSO. Why is it desirable to penalize a Linear Regression model?
-* Why do errors of a linear regression model have to be normally distributed?
 
-## Linear Classification\*
+## Linear Classification
 
 * Write down the objective of linear binary logistic regression. The samples are given by $$x_{i}$$ and the labels by $$c_{i} \in\{0,1\}$$. How is $$p\left(c_{i} \mid \boldsymbol{x}_{i}\right)$$ assumed to be distributed in binary logistic regression?🦧
-  * $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$ 
-  * Logistic regression assumes $$p\left(c_{i} \mid x_{i}\right)$$to be Bernoulli distributed.
 
-## Model Selection\*
+$$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$ 
+
+* Logistic regression assumes $$p\left(c_{i} \mid x_{i}\right)$$to be Bernoulli distributed.
+
+## Model Selection
 
 * _Why is it a bad idea to evaluate your algorithm on the training set? 🧠_
   * It's important to use unseen data when evaluating an algorithm to prevent overfitting. 
@@ -29,9 +27,11 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * **True risk** is the performance on a random test point $$(x,y)$$. True risk is unknown.
   * **Empirical risk** is the performance on the training set. Empirical risk can be evaluated using training samples.
 * _The true risk can be decomposed in which parts?🧠_
+
   * The true risk can be decomposed into:
 
-    $$\underbrace{\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(x)-\hat{f}_{*}(x)\right)^{2}\right]\right]}_{\text {Variance }}+\underbrace{\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(x)-f(x)\right)^{2}\right]}_{\text {Bias }^{2}}+\underbrace{\sigma^{2}}_{\text {noise }}$$
+  $$\underbrace{\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(x)-\hat{f}_{*}(x)\right)^{2}\right]\right]}_{\text {Variance }}+\underbrace{\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(x)-f(x)\right)^{2}\right]}_{\text {Bias }^{2}}+\underbrace{\sigma^{2}}_{\text {noise }}$$
+
 * _How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?_🧠
   * **Variance**:
     * $$\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(\boldsymbol{x})-\hat{f}_{*}(\boldsymbol{x})\right)^{2}\right]\right]$$ 
@@ -61,7 +61,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * Early stopping prevents overfitting, as model is not trained to to the smallest training error. 
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 
-## Nearest neighbor Algorithms, Trees, and Forests\*
+## Nearest neighbor Algorithms, Trees, and Forests
 
 * _What we mean with non-parametric / instance-based machine learning algorithms?_🧠
   * Non-parametric ML algorithms are algorithms, that do not learn a parametric model, but store all the training data and use the training data to make predictions.
@@ -107,7 +107,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
     * Choose median as a pivot
     * Split node according to the chosen pivot and dimension.
 
-## Clustering\*
+## Clustering
 
 * _How is the clustering problem defined?🧠_
   * Clustering tries to find a natural grouping within the data.
@@ -139,7 +139,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
     \*Moreover, the result of $$k$$-means is heavily dependent on the initialisation.
 
-## Dimensionality Reduction\*
+## Dimensionality Reduction
 
 * What does dimensionality reduction mean?🧠
   * Dimensionality reduction refers to projecting an original data point $$\boldsymbol{x}_{i} \in \mathbb{R}^{D}$$into a lower dimensional representation $$\boldsymbol{z}_{i} \in \mathbb{R}^{M}$$through a  mapping $$\boldsymbol{x}_{i} \rightarrow \boldsymbol{z}_{i}$$. 
@@ -162,7 +162,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * Why should each dimension have a unit variance / be normalized?
   * Doing a PCA is a variance maximizing exercise. Therefore, if features have a different variance, features with the greatest variance will be loaded the most. To give the features the greatest weight, that explain most of the variance, data should be normalized first.
 
-## Density Estimation and Expectation Maximization\*
+## Density Estimation and Expectation Maximization
 
 * _What are parametric methods and how to obtain their parameters?_🧠
   * Parametric models are models, where we assume a certain underlying probability distribution. The no. of parameters is fixed. \(see also [here.](https://en.wikipedia.org/wiki/Parametric_statistics)\)
@@ -257,7 +257,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * In the M step the generated \(complete data\) is used to generate new parameter estimates for $$\boldsymbol{\theta}$$. 
   * If there wasn't an E-Step it just wouldn't be possible.
 
-## Kernel methods\*
+## Kernel methods
 
 * What is the definition of a kernel and its relation to an underlying feature space?🧠
   * Let $$\phi: \mathcal{X} \rightarrow \mathbb{R}^{d}$$ be an arbitrary feature function, then $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\phi(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle$$ defines a positive definite kernel.
@@ -285,7 +285,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\boldsymbol{\phi}(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle = \left\langle\boldsymbol{\phi}(\boldsymbol{x}^{\prime}), \boldsymbol{\phi}\left(\boldsymbol{x}\right)\right\rangle = k\left(\boldsymbol{x}^{\prime}, \boldsymbol{x}\right)$$ 
 * Proof that the Euclidean distance is a distance measure fullfilling all criteria for a distance measure.
 
-## SVMs\*
+## SVMs
 
 * Why is it good to use a maximum margin objective for classification?🧠
   * The maximum margin objective is good for classification, as it tries to find the hyperplane that gives the greatest minimum distance to the closest observations.
@@ -296,7 +296,9 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * What are slack variables and how can they be used to get a 'soft' margin?🧠
   * A ''soft' margin is the concept of a hyperplane, where almost all observations are separted correctly. This is done through so called slack variables $$\xi_i$$, that allow violating the margin. We use slack variables $$\xi_i \geq 0$$ and allow for margin violations: $$y_{i}\left(\mathbf{w}^{T} \mathbf{x}_{i}+b\right) \geq 1-\xi_{i}$$.
 * How is the hinge loss defined?🧠
-  * $$\operatorname{argmin}_{\mathbf{w}} \lambda \underbrace{\|\mathbf{w}\|^{2}}_{\text {regularization }}+\underbrace{\sum_{i=1}^{N} \max \left(0,1-y_{i} f\left(\boldsymbol{x}_{i}\right)\right)}_{\text {data loss }}, \quad \text { with } \lambda=\frac{1}{C}$$ 
+
+  $$\operatorname{argmin}_{\mathbf{w}} \lambda \underbrace{\|\mathbf{w}\|^{2}}_{\text {regularization }}+\underbrace{\sum_{i=1}^{N} \max \left(0,1-y_{i} f\left(\boldsymbol{x}_{i}\right)\right)}_{\text {data loss }}, \quad \text { with } \lambda=\frac{1}{C}$$ 
+
 * What is the relation between the slack variables and the hinge loss?🧠
   * If $$\xi_i$$is $$>1$$, the point lies outside the margin, but doesn't contribute to the loss.
   * If $$\xi_i$$is $$0 \leq \xi_{i} \leq 1$$, it violates the margin and contributes to the loss.
@@ -355,7 +357,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 * What principle allowed deriving GPs from a Bayesian regression point of view?🧠
 * Gaussian Processes\(GP\) are also referred to as a "Bayesian Kernel Regression" approach. Why? 🦧
 
-## Neural Nets\*
+## Neural Nets
 
 * How does logistic regression relate to neural networks?🧠
   * logistic regression can be considered as a special case of neural nets. Namely, a net with a sigmoid activation function and one layer \(no hidden layer\).
@@ -436,7 +438,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * With early stopping one doesn't train a neural network until the training error is most most minimal, but rather uses the improvement of the validation error to decide when to stop training. The parameters are used, when the validation error has not improved for some time. \(see Goodfellow p. 143\)
 * Ist stochastic gradient descent with batch size 1 the same as mini-batch gradient descent with batch size 1?
 
-## CNNs\*
+## CNNs
 
 * Why are fully connected networks for images a bad idea and why do we need images?🧠
   * Spatial structure of the image is not preserved, as image must be flattened to an array to be used as an input. However, we want to keep neighboring pixels together, as they are more correlated.
@@ -488,7 +490,7 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
   * They have less parameters due to sharing the parameters.
   * They exploit the spatial structure of the image.
 
-## RNNs\*
+## RNNs
 
 * How do LSTMs actually avoid the vanishing gradient problem?
   * In order to calculate the hidden state $$h_t$$, RNNs require multiplication with the weight matrix $$\boldsymbol{W}$$multiple times and application of the $$\tanh$$. If Eigenvalues are small, gradients tend to become small as well.
@@ -496,20 +498,36 @@ Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fra
 
 ## General
 
-* What is the difference between AI and ML?
-* What are the hyperparameters for choosing the model complexity for each of the following algorithms. Name at least one hyperparameter for every algorithm.
+* _What is the difference between AI and ML?_
+  * AI describes the ability of a computer or machine to mimic or imitate human intelligent behavior.
+  * ML is a subset of AI. ML solves a task by learn from data. \(see [here.](https://www.freecodecamp.org/news/ai-vs-ml-whats-the-difference/)\)
+* _What are the hyperparameters for choosing the model complexity for each of the following algorithms. Name at least one hyperparameter for every algorithm._
   * Neural Networks
   * Support Vector Machines
   * Gaussian Processes
   * Decision Trees? 🦧
-* You are given the following optimization problem:
+  * Neural networks: no. layers, no. of neurons
+  * SVMs: regularization, which features to use
+  * Gaussian processes: Kernel bandwidth, prior
+  * Decision trees: depth of tree, min. no. of samples per node
+* _You are given the following optimization problem:_
 
   $$
   \begin{aligned}
-  &\underset{a}{\operatorname{argmax}} a^{2} h \\
+  &\underset{a}{\operatorname{argmax}} \quad a^{2} h \\
   &\qquad \text { s.t. } S_{\max } \geq 2 a^{2}+4 a h
   \end{aligned}
   $$
 
   Write down the Lagranian. Derive the optimal value for $$a$$ depending on your lagrangian multiplier. 🦧
+
+$$
+\begin{aligned}
+L &=a^{2} h+\lambda\left(S_{\max }-2 a^{2}-4 a h\right) \\
+\frac{d L}{d a} &=2 a h-4 \lambda a-4 \lambda h \\
+a^{*} &=\frac{4 \lambda h}{2 h-4 \lambda}
+\end{aligned}
+$$
+
+*  \(The sign in the Lagrangian may change. But the following equations should be correct according to the Lagrangian.\)
 
