@@ -2,7 +2,7 @@
 
 Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Recall** gedacht und eine Ergänzung zu Karteikarten.
 
-Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fragen der University of Berkley mit 🧑‍🚒. Eigene Fragen haben keine Markierung.
+Offizielle Fragen sind mit 🧠 markiert. Probeklausurfragen mit einem 🦧. Fragen der University of Stanford mit 🧑‍🚒. Eigene Fragen haben keine Markierung.
 
 Weitere interessante Fragen finden sich auch bei den [Selbsttestfragen zu Adv. ML](../advanced-machine-learning/01_self_test.md).
 
@@ -73,13 +73,13 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * We assign the class that is most frequent among those neighbors to the query point $$x$$.
 * _Why is it hard to use for high-dimensional data?🧠_
   * $$k$$-Nearest neighbor is built around a distant-based measure. However, in a very high-dimensional space, most points are equally far appart from each other.
-  * So the neighborhood becomes large.
+  * So the neighbourhood becomes large.
 * _How to search for nearest neighbors efficiently?🧠_
   * It's convenient to use a KD-tree as the data structure. The KD tree is balanced and performs binary splits on the feature space.
   * Searching goes like this:
     * Find region containing $$\boldsymbol{x}$$. Navigate starting from the root node to the child node containing $$\boldsymbol{x}$$.
     * Save region point $$\boldsymbol{x}^{*} = \boldsymbol{x}_{0}$$ as current best.
-    * Move up tree and recursively search regions interesecting hypersphere $$S\left(\boldsymbol{x},\left\|\boldsymbol{x}-\boldsymbol{x}^{*}\right\|\right)$$. 
+    * Move up tree and recursively search regions intersecting hypersphere $$S\left(\boldsymbol{x},\left\|\boldsymbol{x}-\boldsymbol{x}^{*}\right\|\right)$$. 
     * Update $$\boldsymbol{x}^{*}$$ if new nearest neighbor has been found.
 * _What is a binary regression/decision tree?🧠_
   * A binary decision tree is a tree that performs a binary split at each node. The predictor space is segmented into smaller regions. 
@@ -134,7 +134,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * **Adjustment Step:**
     * Adjust the centroids to be the means of the samples assigned to them: $$c_{k}=\frac{1}{\left|X_{k}\right|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left\{\boldsymbol{x}_{n} \mid z_{n}=k\right\}$$ 
 * _Why does the algorithm converge? What is it minimizing?_🧠
-  * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centeroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer custer center exists and the SSD remains constant.
+  * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centeroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer cluster center exists and the SSD remains constant.
   * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$ 
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
   * No, generally it doesn't. Finding a global minimum is a NP-hard problem. One would have to check all assignments to find the global best solution.
@@ -185,7 +185,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * How does EM decomposes the marginal likelihood?🧠
   * $$\log p(\boldsymbol{x} \mid \boldsymbol{\theta})_{z}=\sum_{z} q(z) \log \frac{p(\boldsymbol{x}, z \mid \boldsymbol{\theta})}{q(z)}+\sum_{z} q(z) \log \frac{q(z)}{p(z \mid x)}$$ 
 * _Why does EM always improve the lower bound?🧠_
-  * In the E-Step the KL is minimized to zero, while the log likelihood remains unchanged, hence the lower bound has to increase. This is due to the fact, that the lower bound is the difference between the unchanged marginal likelihood and the KL.
+  * In the E-Step the KL is minimized to zero, while the log-likelihood remains unchanged, hence the lower bound has to increase. This is due to the fact, that the lower bound is the difference between the unchanged marginal likelihood and the KL.
   * In the M-Step the lower bound also increases, unless it's already at the maximum, as the new parameter set has to be at least as goood as the old parameter estimate.
 * Why does EM always improve the marginal likelihood?🧠
   * Marginal log-likelihood is always improved in the maximization step, as the lower bound is maximized with respect to $$\theta$$ to give some new $$\theta^{\text{new}}$$.That is, the $$\mathcal{L}$$will go up. But as $$q$$is determined with the old parameters, it will be different to the new posterior distribution of $$p$$. Hence, the KL will be non-zero or positive. So the sum of both terms will be greater than before.
@@ -210,7 +210,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 
 * _How does the Variational Bayes algorithm improve on the Expectation Maximization algorithm?_
   * The EM-algorithm assumes that the Kullback-Leiber distance can be set to zero. 
-  * This is however not possible for complex latent variable models. Variational Bayes models solve this issue bei allowing the KL to be greater than 0 after the E-step.
+  * This is however not possible for complex latent variable models. Variational Bayes models solve this issue by allowing the KL to be greater than 0 after the E-step.
 * _What is the EM algorithm for?_
   * Finding the maximum likelihood solutions of a probabilistic model with latent variables
 * _Why is it a lower bound?_
@@ -282,7 +282,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * What is the purpose of the kernel matrix?
   * A kernel matrix is built by evaluating the kernel on all pairs and any set inputs. So it stores the similarities of all samples.
   * $$[\boldsymbol{K}]_{i j}=\boldsymbol{\phi}\left(\boldsymbol{x}_{i}\right)^{T} \boldsymbol{\phi}\left(\boldsymbol{x}_{j}\right)=k\left(\boldsymbol{x}_{i}, \boldsymbol{x}_{j}\right)$$
-* Proof that the a positive definite Kernel is symmetric.
+* Proof that a positive definite Kernel is symmetric.
   * $$k\left(\boldsymbol{x}, \boldsymbol{x}^{\prime}\right)=\left\langle\boldsymbol{\phi}(\boldsymbol{x}), \boldsymbol{\phi}\left(\boldsymbol{x}^{\prime}\right)\right\rangle = \left\langle\boldsymbol{\phi}(\boldsymbol{x}^{\prime}), \boldsymbol{\phi}\left(\boldsymbol{x}\right)\right\rangle = k\left(\boldsymbol{x}^{\prime}, \boldsymbol{x}\right)$$ 
 * Proof that the Euclidean distance is a distance measure fullfilling all criteria for a distance measure.
 
@@ -323,7 +323,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
     * Slack variables $$\xi_i$$allow for a a margin violation. That means some observation can lie across the margin, but in between the decision boundary or even on the wrong side of the decision boundary.
     * It acts as a regularization term.
     * It helps to find a optimal hyperplane if a maximum margin hyperplane can otherwise not be found.
-    * In the first case above, the observation is classified correctly but violates the margin. The second observations is classified flasly and contributes to the loss.
+    * In the first case above, the observation is classified correctly but violates the margin. The second observations is classified falsly and contributes to the loss.
 
 ## Bayesian Learning
 
@@ -412,13 +412,13 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _How does Adam work?🧠_
   * TODO:
 * _What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧_
-  * The idea of second-order optimization methods is to directly step to the minimum of the quadratic approxmation by calculating thesecond-orderr derivatives Hessian.
+  * The idea of second-order optimization methods is to directly step to the minimum of the quadratic approximation by calculating these second-order derivatives Hessian.
   * No learning rat needs to be tuned and they need fewer function evaluations.
   * It's not applicable to Deep Neural Networks, as the Hessian becomes large and needs to be inverted \(also see below\). 
 * Second-order optimization methods are rarely used for deep neural network optimization. Why? 🧑‍🚒
   * Second-order optimization methods require the calculation of the Hessian and the inverse. However calculating the Hessian is $$\mathcal{O}(N^2)$$and the inverse is $$\mathcal{O}(N^3)$$ for $$N$$dimensions.
 * _Explain why sigmoid activation results tend to be almost_ $$0$$ _or_ $$1$$?
-  * The sigmoid function is bound by th exponential component, so that the range is $$[0,1]$$.
+  * The sigmoid function is bound by the exponential component, so that the range is $$[0,1]$$.
 
 ![\(own drawing\)](../.gitbook/assets/sigmoid.png)
 
@@ -477,13 +477,13 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * **Pooling layer:** Pooling layer make representations smaller and more managable. They serve the dual purpose of mitigating the **sensitivity** of convolutional layers **to location** and of spartially downsampling representations \(Zhang et al. Dive into Deep Learning\)
   * **Activation function:** After every convolutional operation a non-linear operations e. g. ReLU is applied to replace negative values.
 * What hyper-parameters can we set for a convolutional layer and what is their meaning?🧠
-  * $$K$$ Number of Filters / Spacial extend
+  * $$K$$ Number of Filters / spacial extend
   * $$S$$Stride or step size of slided window
   * $$F$$Kernel size
   * $$P$$Amount of padding added
 * What hyper-parameters can we set for a pooling layer and what is their meaning?🧠
   * $$S$$Stride or step size of sliding window
-  * $$F$$kernel size / Spacial extend
+  * $$F$$kernel size / spacial extend
 * How can we compute dimensionality of the output of a convolutional layer?🧠
   * $$W=\left(W-F+2 P\right) / S+1$$ 
   * $$H=\left(H-F+2 P\right) / S+1$$ 
