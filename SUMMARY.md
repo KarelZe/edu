@@ -19,6 +19,7 @@
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Selbsttestfragen](maschinelles-lernen/01_self_test.md)
+* [Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
 
 ## Parallelrechner
 
