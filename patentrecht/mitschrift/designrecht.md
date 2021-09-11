@@ -40,7 +40,7 @@
   * Frei von Beiwerk z. B. alles Beiwerk würde sonst Schutzgegenstand werden.
 * Klassifikation erfolgt nach Lacarno-Klassifikation.
 * Es lassen sich mehrere Design-Anmeldungen zusammenfassen zu einer **Sammelanmeldung** \([§ 12 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__12.html) \)
-* Es gibt **Neuheitsschonfrist** gem. [§ 6 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__6.html). Man kann also noch ein Design anmelden, obwohl es bereits max. 6 Monate der Öffentlichkeit bekannt gemacht wurde. Gilt nicht für alle Länder.
+* Es gibt **Neuheitsschonfrist** gem. [§ 6 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__6.html). Man kann also noch ein Design anmelden, obwohl es bereits max. 12 Monate der Öffentlichkeit bekannt gemacht wurde. Gilt nicht für alle Länder.
 
 ## Prüfung
 
