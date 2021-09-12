@@ -10,7 +10,6 @@ Weitere interessante Fragen finden sich auch bei den [Selbsttestfragen zu Adv. M
 
 * _Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?_🦧
   * Gaussian likelihood with linear mean and constant noise.
-
 * What is the role of the lambda factor in the objective of ridge regression and how is it determined? 🦧
   * TODO:
 
@@ -21,10 +20,8 @@ Weitere interessante Fragen finden sich auch bei den [Selbsttestfragen zu Adv. M
 $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)+\left(1-c_{i}\right) \log \left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}_{i}\right)\right)$$
 
 * Logistic regression assumes $$p\left(c_{i} \mid x_{i}\right)$$to be Bernoulli distributed.
-
 * Explain the difference between generative and discriminative classification? Which is usually easier? 🦧
   * In generative classification we model the data and use Bayes rule to obtain the class-posterior. In discriminative classification, the class-posterior is directly modelled. Discriminative classification is usually easier.
-
 * Define the Bernoulli likelihood of linear logistic regression for a single sample $$x$$ and label $$y \in \{0,1\}$$.
   * $$p(y \mid x)=\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}+b\right)^{y}\left(1-\sigma\left(\boldsymbol{w}^{T} \boldsymbol{x}+b\right)\right)^{1-y}$$
 
@@ -71,7 +68,6 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * _What is the effect of early stopping?_🧠
   * Early stopping prevents overfitting, as model is not trained to the smallest training error. 
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
-
 * Give examples how to influence the model-complexity of at least 3 different algorithms.🦧
   * TODO:
 
@@ -610,17 +606,15 @@ $$
 
 Write down the Lagrangian. Derive the optimal value for $$a$$ depending on your Lagrangian multiplier. 🦧
 
-  $$
-  \begin{aligned}
+$$
+\begin{aligned}
   L &=a^{2} h+\lambda\left(S_{\max }-2 a^{2}-4 a h\right) \\
   \frac{d L}{d a} &=2 a h-4 \lambda a-4 \lambda h \\
   a^{*} &=\frac{4 \lambda h}{2 h-4 \lambda}
   \end{aligned}
-  $$
+$$
 
-  * \(The sign in the Lagrangian may change. But the following equations should be correct according to the Lagrangian.\)
-
-
+* \(The sign in the Lagrangian may change. But the following equations should be correct according to the Lagrangian.\)
 * Rewrite the following sum as-matrix vector products: $$y=\alpha \sum_{i} c_{i} \sum_{j} a_{i j} b_{j}$$. 🦧
   * $$y=\alpha c^{T} A b$$
 
