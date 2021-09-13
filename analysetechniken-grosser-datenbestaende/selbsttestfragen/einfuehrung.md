@@ -44,3 +44,8 @@ TODO:
 _Skizzieren Sie ein Szenario aus den Naturwissenschaften, in dem Klassifikation sinnvoll einsetzbar ist._
 
 TODO:
+
+
+_Welche Technologien zur Generierung von Daten, die nicht in der Vorlesung diskutiert wurden, kennen Sie?_
+
+TODO:
