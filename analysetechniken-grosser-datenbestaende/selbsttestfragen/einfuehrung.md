@@ -37,3 +37,10 @@ _Was unterscheidet supervised von unsupervised clustering?_
 * **Unsupervised:** Welche Cluster es gibt und wo genau ihre Grenzen verlaufen, ist vorab nicht bekannt. Es werden Algorithmen auf ungelabelten Daten verwendet. Salopp gesagt, es gibt keinen Lehrer, der sagt, was eine Banane ist.
 * **Supervised:** Man kennt Klassenzugehörigkeiten des Trainingsdatenbestands. Man verwendet Algorithmus auf gelabelten Daten. Salopp gesagt, es gibt einen Lehrer, der sagt, was eine Banane ist.
 
+_Geben Sie Beispiele für Anwendungsgebiete, in denen Cluster anwendbar sind._
+
+TODO:
+
+_Skizzieren Sie ein Szenario aus den Naturwissenschaften, in dem Klassifikation sinnvoll einsetzbar ist._
+
+TODO:
