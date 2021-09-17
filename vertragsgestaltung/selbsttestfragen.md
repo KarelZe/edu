@@ -26,7 +26,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * Werden AGB vereinbart, so darf der Vertragspartner nicht unangemessen benachteiligt werden. Der Schwächere soll bei Formularverträgen geschützt werden.
      * Geregelt in §§ 305 ff. BGB.
    * **Gestaltungsverbote:**
-     * Rechtsgeschäfte sind nichtig, sofern sie gegen die guten Sitten verstößt oder eine Zwangslage, Unerfahrenheit o. Ä. ausnutzen.
+     * Ein Rechtsgeschäft ist nichtig, sofern sie gegen die guten Sitten verstößt oder eine Zwangslage, Unerfahrenheit o. Ä. ausnutzen.
      * Geregelt in § 138 BGB.
      * **Beispiel**: Keine Knebelungsverträge
    * **Typenzwang:**
@@ -39,7 +39,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eigentlich unwirksam war.
 5. Welche objektiven und subjektiven Voraussetzungen müssen gegeben sein, dass eine Willenserklärung gegeben ist?
 6. **Objektiv**:
-   * Kundegabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herbeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgen.
+   * Kundgabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herbeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgen.
 7. **Subjektiv:**
    * **Handlungswille:** Äußerer Erklärungstatbestand wissentlich verwirklicht.
    * **Erklärungsbewusstsein:** Rechtsbindungswille, Bewusstsein, dass die Erklärung irgendeine rechtliche Relevanz hat.
@@ -80,7 +80,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 1. _Warum gibt es Allgemeine Geschäftsbedingungen und warum hat der Gesetzgeber besondere Regelungen für Allgemeine Geschäftsbedingungen geschaffen?_
    * AGB wurden eingeführt um die Abwicklung von Massengeschäften z. B. Handyverträge zu rationalisieren. Die Verträge sind damit nicht jedes mal neu auszuhandeln.
-   * Mit Verwendung von AGB entsteht ein Ungleichgewicht zwischen dem Vertragspartner, der AGB vorgibt und dem der die AGB akzeptieren  muss, sofern der Vertrag zustande kommen soll. Der Schwächere soll damit geschützt werden. 
+   * Mit Verwendung von AGB entsteht ein Ungleichgewicht zwischen dem Vertragspartner, der AGB vorgibt und dem, der die AGB akzeptieren  muss, sofern der Vertrag zustande kommen soll. Der Schwächere soll damit geschützt werden. 
    * **Beispiel:** Handyvertrag. Es es gibt nur wenige Handyvertragsanbieter, man kann Vertrag schier gar nicht verhandeln. Die Schwächere muss geschützt werden.
 2. _In welchen Schritten sind Allgemeine Geschäftsbedingungen zu prüfen?_
 3. 1. Eröffnung **Anwendungsbereich der AGB**
@@ -177,16 +177,14 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Indexklausel
    * Schiedsgutachterklausel
 7. _Welche Arten von Immaterialgüterrechten gibt es und wie unterscheiden sie sich im Hinblick auf ihren Schutzgegenstand?_
-   * **Patente:**
-   * **Design:**
-   * **Marken:**
-   * **Urheberrecht:**
-   * TODO: Unterschiede bei Schutzgegenstand
+   * **Patente:** Erfindungen auf allenGebieten der Technik, die neu sind, auf einer erfinderischen Tätigkeit beruhen und gewerblich anwendbar sind.
+   * **Design:** Zweidimensionale oder dreidimensionale Erscheinungsformen eines ganzen Erzeugnisses oder Teile davon, die sich insbesondere aus Merkmalen, Linien, Farben... oder seiner Verzierung ergibt. 
+   * **Marken:** Kennzeichen für Produkte und Dienstleistungen.
+   * **Urheberrecht:** Werke der Literatur, Wissenschaft und Kunst, sofern es sich um persönliche, geistige Schöpfungen handelt.
 8. _Wie weit reicht der räumliche und zeitliche Schutzumfang bei Immaterialgütern \(insbesondere Patente, Marken, Urheberrecht\)?_
-   * **Patent:** Dauer: 20 Jahre \(§ 16 PatG\), Schutzumfang richtet sich nach § 9 PatG.
-   * **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG.
-   * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff.
-   * TODO: Was ist mit Schutzumfang konkret gemeint? Was ist rauszuarbeiten?
+   * **Patent:** Dauer: 20 Jahre \(§ 16 PatG\), Schutzumfang richtet sich nach § 9 PatG. Deutsches Patent ist auf Deutschland beschränkt. Europäische und internationale Patente möglich.
+   * **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG. Markenschutz ist auf Deutschland beschränkt, sofern nicht europäisches oder internationales Patent.
+   * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff. Beschränkt auf deutsches Staatsgebiet.
 9. _Was ist mit dem „numerus clausus des Immaterialgüterrechts“ gemeint?_
 10. Der "_numerus clausus_ des Immaterialgüterrechts" besagt, dass man selbst keine eigenen Immaterialgüter erfinden kann. Nur dass, was das Gesetz kennt, kann auch geschützt werden.
 11. _Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?_
@@ -242,7 +240,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Der Generalunternehmer wird vom Bauherrn beauftragt. Dieser vergibt einzelne Gewerke an Subunternehmer, mit denen er in Vertrag steht. Ansprechpartner für Bauherrn ist Generalunternehmer. Kunde kann eigene Wünsche einbringen.
 3. _Was ist die VOB? Welche Teile gibt es und welcher Teil ist für die Vertragsgestaltung von besonderer Bedeutung?_
    * Die VOB ist die Vergabe- und Vertragsordnung für Bauleistungen. Sie enthält Vorgaben für die Vergabe von Bauprojekten und Vertragsbedingungen. Für Projekte der öffentlichen Hand ist die Anwendung verpflichtend.
-   * Es existieren 3 Teile: VOB/A, VOB/B und VOB/C.
+   * Es existieren 3 Teile: VOB/A (Vergabe öffentlicher Aufträge bis zur Einleitung), VOB/B (Bauphase selbst und die ersten Jahre bis Gewährleistung verfällt) und VOB/C (Sammlung von DIN-Normen, die den Bau betreffen inkl. Regeln zur Abnahme).
    * Besonders relevant ist VOB/B für die Vertragsgestaltung, da darin die Vertragsbedingungen für Bauleistungen vereinbart werden.
 4. _Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?_
    * Die **detaillierte Leistungsbeschreibung** enthält detailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden. 
@@ -256,6 +254,10 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Sicherungsmittel bieten einen Schutz für die Vertragserfüllung im Falle einer Insolvenz.
    * Man unterscheidet Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).
 2. _Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise._
+- **Pfandrecht:** Eine bewegliche Sache dient zur Sicherung einer Forderung zwischen dem Gläubiger und Schuldner. Fällt die Forderung aus, so kann der Gläubiger den Pfandgegenstand verwerten. Erfordert Übergabe des Pfands von Eigentümer an Gläubiger. Geregelt in § 1204 BGB.
+- **Bürgschaft:** Ein Bürge verpflichtet sich gegenüber dem Gläubiger eines Dritten, für die Verbindlichkeiten eines Dritten einzustehen. Geregelt in § 765 BGB.
+- **Schuldbeitritt:** Dritte Personen tritt in die gleiche Position wie eigentlicher Schuldner und haftet dem Gläubiger als Mitschuldner. Das Kreditrisiko des Gläubigers verringert sich.
+- **Eigentumsvorbehalt:** Übereignung einer beweglichen Sache unter einer aufschiebenden Bedingung. Das Eigentum an einer Sache geht erst dann an einen Käufer über, wenn der gesamte Kaufpreis bezahlt ist. Geregelt in § 449 BGB.
 3. _Warum spielt das Pfandrecht in der Rechtspraxis eine eher untergeordnete Rolle? Welches Sicherungsmittel wird stattdessen bevorzugt?_
    * Das Pfandrecht setzt voraus, dass nach § 1205 BGB eine tatsächliche Übergabe des Pfandgegenstand erfolgt. Das Eigentum verbleibt beim Sicherungsgeber. Gläubiger wird Besitzer.
    * Dies ist in der Rechtspraxis aber häufig unpraktisch, da der Pfandgegenstand durch den Eigentümer häufig weiter genutzt werden soll. Etwa benötigt der Eigentümer des Pfandgegenstands eine Maschine selbst. 
@@ -281,14 +283,14 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 1. _Welche zwei Arten von Gesellschaftstypen lassen sich grundsätzlich unterscheiden? Nennen Sie jeweils zwei Beispiele für diese Gesellschaftstypen und ein Kriterium, worin sich diese Gesellschaftstypen besonders unterscheiden?_
    * **Personengesellschaften**
      * Beispiel: OHG und KG
-   * **Kapitalgesellschaften**
+   * **Körperschaften**
      * Beispiel: GmbH und AG
    * **Unterschied: persönliche Haftung vs. Haftungsbeschränkung**
-     * Komplementäre / Kommanditisten haften bis zu bestimmter Grenze oder unbegrenzt
+     * Komplementäre haten unbegrenzt. Kommanditisten haften in Höhe ihrer Einlage.
      * Gesellschafter z. B. haften nur mit Einlage, nicht aber persönlich → Soll wirtschaftliches Handeln fördern → In Praxis wird über Sicherungsmittel Haftung hergestellt. → Haftungsbeschränkung wird ausgehebelt
    * **Unterschied: Selbstorganschaft vs. Fremdorganschaft**
      * Gesellschaft besteht nur auf Papier. Deshalb braucht es Organe, die für Gesellschaft handeln.
-     * **Selbstorganschaft** z. B. bei OHG, KG → Organschaftliche Vertretung = Eigenvertretung durch Gesellschafter
+     * **Selbstorganschaft** z. B. bei OHG, KG → Organschaftliche Vertretung = Eigenvertretung durch Gesellschafter.
      * **Fremdorganschaft** z. B. bei GmbH → Gesellschafter und Geschäftsführer kann zusammenfallen, muss aber nicht. 
 2. _X verkauft an die Z GbR, deren Gesellschafter A und B sind, einen LKW. Die Z GbR zahlt den Kaufpreis nicht. X möchte jetzt direkt gegen den Gesellschafter A vorgehen. Mit Erfolg? Wie sehe es aus, wenn es sich nicht um eine GbR, sondern um eine GmbH handeln würde?_
    * Nach § 128 HGB haften Gesellschafter für Verbindlichkeiten der Gesellschaft den Gläubigern als Gesamtschuldner persönlich. Dies gilt analog für die GbR. Ein Rückgriff des X auf A ist damit möglich. A hat seinerseits einen Ansprüche gegenüber den anderen Gesellschaftern.
@@ -296,10 +298,10 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 3. _Worin liegen die Gemeinsamkeit und worin unterscheiden sich die GbR und die OHG?_
    * GbR erfordert typischerweise **keine Eintragung** ins Handelsregister. Eine GbR kann jedoch durch **Eintragung** in das Handelsregister die Rechtsform einer OHG annehmen. 
    * Nach § 31 BGB haften die Gesellschafter einer BGB-Gesellschaft als Gesamtschuldner und persönlich. Wie die Gesellschafter einer GbR-Gesellschaft haften auch die Gesellschafter der OHG unmittelbar mit ihrem Privat- und Gesellschaftsvermögen \(Vgl. § 128 HGB\). 
-   * OHG setzt Betrieb eines Handelsgewerbes nach § 2 HGB voraus. D. h. werden die Eigenschaften an ein Handelsgewerbe erfüllt, so sind die Regelungen der OHG anzuwenden.
+   * OHG setzt Betrieb eines Handelsgewerbes nach § 2 HGB voraus. D. h. werden die Eigenschaften an ein Handelsgewerbe erfüllt, so sind die Regelungen der OHG anzuwenden. Es kann sich dann um keine GbR handeln.
 4. _Wie unterscheidet sich die Haftung eines Komplementärs von der Haftung eines Kommanditisten?_
-   * Komplementäre haften unbegrenzt als persönlich haftende Gesellschafter \(Vgl. § 161 HGB\)
-   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 HGB\)
+   * Komplementäre haften unbegrenzt als persönlich haftende Gesellschafter \(Vgl. § 161 HGB\).
+   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 HGB\) Ist die Einlage noch nicht nicht geleistet, dann haftet der Kommanditist ebenfalls persönlich und unmittelbar bis zur Höhe der Hafteinlage. (Vgl. § 172 Abs. 1 HGB)
 5. _Welche Phasen der Gründung durchläuft eine GmbH?_
    1. Gründungsentschluss
    2. Vorgründungsgesellschaft
