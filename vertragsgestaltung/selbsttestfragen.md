@@ -316,3 +316,42 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * Für GmbH wird Stammkapital i. H. v. 25.000 EUR benötigt. \(vgl. § 5 GmbHG\)
      * Bei der GmbH kann das Stammkapital als Bareinlage geleistet werden \(vgl. § 5 GmbHG\). Bei der UG hingegen ist das nicht möglich. \(Vgl. § 5a GmbHG Abs. \(2\) Satz 2.\)
 
+## Eigene Fragen
+
+* Was sind die Regelungsschwerpunkte der VOB/A und VOB/C?
+* Erklären Sie die Indexklausel, Staffelklausel, Schiedsgutachterklausel.
+* Wie lässt sich vermeiden, dass im Falle der Insolvenz eines Generalunternehmers, Subunternehmer noch bezahlt werden?
+* Genügt die E-Mail der Schriftform? Genügt das Telefax der Schriftform?
+* Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Verbrauchers und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?
+* Ist bei der Leihe Fruchtziehung möglich?
+* Welche Vorteile bieten Mischformen wie GmbH & Co KG und warum existieren sie?
+* Vergleichen Sie Werk- und Dienstvertrag.
+* Wieso erfordern Immobilienverträge eine notarielle Beglaubigung?
+* Was versteht man unter einer Auflassungsvormerkung?
+* Was versteht man unter einem Vorkaufsrecht?
+* Ist die Vereinbarung eines Kontokorrentvorbehalts zulässig? Ist die Vereinbarung eines Konzernvorbehalts zulässig? Was sind zulässige Alternativen?
+* Welchen Vorteil bietet die Sicherungsübereignung gegenüber dem Pfandrecht? Was ist der Nachteil?
+* Wobei handelt es sich um akzessorische Sicherheiten?
+* Welche Vorteile bietet eine Eigentümergrundschuld?
+* Was sind Beispiele für Immaterialgüterrechte?
+* Wie erfolgt die Eigentumsübertragung bei Rechten? Wie bei Sachen?
+* Nennen Sie Beispiele, wo die Abschlussfreiheit, Gestaltungsfreiheit und Formfreiheit eingeschränkt werden.
+* Nennen Sie Erklärungs- und Beweisfunktion. Nennen Sie dabei ein Beispiel.
+* Nennen Sie Beispiele für Klauseln ohne Wertungsmöglichkeit, mit Wertungsmöglichkeit und Generalklauseln.
+* Was bedeutet eingeschränkte Anwendung der AGB bei Arbeitsverträgen?
+* Welche Sicherheiten sind am wertvollsten d. h. lassen sich am einfachsten verwerten?
+* Was ist ein Sach- und Rechtsmangel? Erklären Sie anhand eines Beispiels.
+* Was unterscheidet Rücktritt, Minderung und Schadensersatz?
+* Erklären Sie die drei Wertsicherungsklauseln Staffelmietvereinbarung, Indexklausel und Schiedsgutachterklausel. 
+* Erklären Sie die Immaterialgüterrechte: Patent, Design, Marke und Urheberrecht.
+* Für welches Recht ist keine Rechteeinräumung in Form einer Übertragung möglich?
+* Was unterscheidet Immaterial- von Sachgütern?
+* Nennen Sie den Schutzgegenstand zum jeweiligen Immaterialgüterrecht.
+* Was unterscheidet relative und absolute Schutzhindernisse im Markenrecht?
+* Handelt es sich bei dem Geschäftsführer-Anstellungsvertrag um einen Arbeitsvertrag? Warum nicht?
+* Zuletzt sind die Holzpreise stark gestiegen. Bei welcher Form z. B. Detailpreis-Vertrag besteht ein Anpassungsrecht?
+* Beurteilen Sie die Garantie aus Sicht des Gläubigers und Schuldners.
+* Beurteilen Sie den Schuldbeitritt aus Sicht des Gläubigers und aus Sicht des Schuldners hinsichtlich der Verwertungsmöglichkeit.
+* Wann ist die Vereinbarung einer Bürgschaft auf erstes Anfordern sinnvoll? Wann sollte eine selbstschuldnerische Bürgschaft vereinbart werden?
+* Wie haften Gesellschafter während der Gründung einer GmbH (Vorgründungsgesellschaft / Vor-GmbH)?
+* Für welche Art von Sachen kann ein Eigentumsvorbehalt vereinbart werden? Auch für Rechte?
