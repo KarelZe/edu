@@ -38,9 +38,9 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * **Beispiel Kaufvertrag von Auto**: 1. Schritt / Verpflichtungsebene: Verpflichtung, Eigentum zu verschaffen \(§ 433 BGB\). 2. Schritt / Erfüllungsgeschäft: Einigung darüber, dass Eigentum übergehen soll und Übergabe \(§ 929 BGB\).
      * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eigentlich unwirksam war.
 5. Welche objektiven und subjektiven Voraussetzungen müssen gegeben sein, dass eine Willenserklärung gegeben ist?
-6. **Objektiv**:
+   **Objektiv**:
    * Kundgabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herbeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgen.
-7. **Subjektiv:**
+   **Subjektiv:**
    * **Handlungswille:** Äußerer Erklärungstatbestand wissentlich verwirklicht.
    * **Erklärungsbewusstsein:** Rechtsbindungswille, Bewusstsein, dass die Erklärung irgendeine rechtliche Relevanz hat.
    * **Geschäftswille:** Wille ist auf eine bestimmte Rechtsfolge gerichtet.
@@ -52,7 +52,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Maßstab ist der **objektive Empfängerhorizont**: Maßgeblich ist, wie ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung versteht. Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufgesetzt hat.
    * Gesetzliche Grundlage ist §§ 133, 157 BGB.
 10. _Wie definiert sich ein Vertrag?_
-    * Ein Vertrag ist die Verwirklichung von Ideen. 
+    * Der Vertrag ist ein Rechtsgeschäft, das aus inhaltlich übereinstimmenden mit Bezug aufeinander abgebenden Willenserklärungen von mindestens zwei Personen besteht, Angebot und Annahme.
 11. _Welche Wirkung hat die Stellvertretung?_
     * Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt wirkt die Willenserklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
     * Rechtlich wird die Willenserklärung des Vertreters dem Vertretenden zugerechnet.
@@ -72,9 +72,11 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
       * Organschaftliche Vertretungsmacht besteht, wenn Organe einer juristischen Person diese im Außenverhältnis gerichtlich und Außergerichtlich vertreten dürfen.
       * **Beispiel:** Vorstand eines Vereins \(§ 26 Abs. 2 BGB\)
 14. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
-    * Man unterscheidet:
-      * **Einseitige Rechtsgeschäfte** \(Beispiel ist Widerruf § 355 BGB\)
-      * **Zweiseitige Rechtsgeschäfte**  \(Beispiel ist der Vertrag z. B. Kaufvertrag über eine Maschine § 433 BGB\)
+   **Textform:**  Geregelt in § 126 b, Beispiel: Widerrufsbelehrung (Art. 246 § 1, 2 EGBGB
+   **Schriftform:** Geregelt in § 126 BGB,
+   **Elektronische Form:** Geregelt in § 126a BGB,
+   **Öffentliche Beglaubigung:** Geregelt in § 129 BGB, Ausschlagung einer Erbschaft § 1945 BGB
+   **Notarielle Beurkundung:** Geregelt in § 128 BGB, Grundstückskaufvertrag (§ 311 b BGB)
 
 ## 🛍️Allgemeine Geschäftsbedingungen
 
@@ -111,7 +113,9 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 1. _Welche Rahmenbedingungen sind bei der Vertragsgestaltung zu beachten?_
    * **subjektive Rahmenbedingungen**, diese umfassen die eigenen Ziele sowie die Ziele des Gegners.
    * **rechtliche Rahmenbedingungen** Etwa, ob es sich um Einzelvertrag oder um Vertrag für viele Geschäfte \(AGB-Recht\) handelt.
-   * **rechtliche / tatsächliche Rahmenbedingungen** Umfasst technische und wirtschaftliche Fragestellungen.
+   * **wirtschaftliche / tatsächliche Rahmenbedingungen** Umfasst technische und wirtschaftliche Fragestellungen.
+
+
 2. _Welche Gestaltungskriterien sind bei der Vertragsgestaltung zu beachten? Erläutern Sie kurz die Gestaltungskriterien._
    * **Sicherer Weg:** Anwalt ist verpflichtet "sichersten Weg" aufzuzeigen. Das heißt aber nicht, dass Mandant den auch wählen muss.
    * **Konflikt-Vermeidung:** Sind Parteien einig, bräuchten Sie Vertrag nicht. Vertrag wird immer dann rausgeholt, wenn es zu Uneinigkeiten kommt. Man will deshalb Streitigkeiten frühzeitig vermeiden.
@@ -130,7 +134,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Vollzugs- und Wirksamkeitserfordernisse
    * Kosten und Steuern
 2. _Welche Besonderheit gilt bei Kaufverträgen über Grundstücken und GmbH-Anteilen gegenüber Kaufverträgen über beweglichen Sachen?_
-   * Für Kaufverträge über Grundstücke besteht nach [§ 311 b Abs. 1](https://www.gesetze-im-internet.de/bgb/__311b.html) die Pflicht zur notariellen Beurkundung
+   * Für Kaufverträge über Grundstücke besteht nach [§ 311 b Abs. 1 BGB](https://www.gesetze-im-internet.de/bgb/__311b.html) die Pflicht zur notariellen Beurkundung
    * Der Verkauf von Geschäftsanteilen an neuen Gesellschafter der GmbH erfordert ebenfalls eine notarielle Beurkundung nach [§ 15 Abs. 4 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__15.html). Die Veräußerung erfolgt durch Abtretung.
 3. _Unter welchen Voraussetzungen ist ein Haftungsausschluss im Kauvertrag möglich?_
    * Haftungsausschluss ist geregelt in [§ 444 BGB](https://www.gesetze-im-internet.de/bgb/__444.html). Demnach ist ein Haftungsausschluss nur möglich, sofern Mangel nicht arglistig verschwiegen werden oder der Verkäufer eine Garantie für die Beschaffenheit der Sache übernommen hat.
@@ -177,7 +181,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Indexklausel
    * Schiedsgutachterklausel
 7. _Welche Arten von Immaterialgüterrechten gibt es und wie unterscheiden sie sich im Hinblick auf ihren Schutzgegenstand?_
-   * **Patente:** Erfindungen auf allenGebieten der Technik, die neu sind, auf einer erfinderischen Tätigkeit beruhen und gewerblich anwendbar sind.
+   * **Patente:** Erfindungen auf allen Gebieten der Technik, die neu sind, auf einer erfinderischen Tätigkeit beruhen und gewerblich anwendbar sind.
    * **Design:** Zweidimensionale oder dreidimensionale Erscheinungsformen eines ganzen Erzeugnisses oder Teile davon, die sich insbesondere aus Merkmalen, Linien, Farben... oder seiner Verzierung ergibt. 
    * **Marken:** Kennzeichen für Produkte und Dienstleistungen.
    * **Urheberrecht:** Werke der Literatur, Wissenschaft und Kunst, sofern es sich um persönliche, geistige Schöpfungen handelt.
@@ -186,13 +190,13 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG. Markenschutz ist auf Deutschland beschränkt, sofern nicht europäisches oder internationales Patent.
    * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff. Beschränkt auf deutsches Staatsgebiet.
 9. _Was ist mit dem „numerus clausus des Immaterialgüterrechts“ gemeint?_
-10. Der "_numerus clausus_ des Immaterialgüterrechts" besagt, dass man selbst keine eigenen Immaterialgüter erfinden kann. Nur dass, was das Gesetz kennt, kann auch geschützt werden.
+   Der "_numerus clausus_ des Immaterialgüterrechts" besagt, dass man selbst keine eigenen Immaterialgüter erfinden kann. Nur dass, was das Gesetz kennt, kann auch geschützt werden.
 11. _Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?_
     * Als Immaterialgut kommt hier das Urheberrecht in Betracht, da das Gebäude nach Plänen von A entstanden ist. \(TODO: Werk etc. zu prüfen?\)
     * Eigentümer des Immaterialguts ist der Architekt, nicht der Bauherr.
     * Im Architektenvertrag ist vertraglich zu regeln, dass Architekt dem Bauherr ein Nutzungsrecht am Urheberrecht mit einräumt z. B. das Recht zur Umgestaltung im Rahmen einer Renovierung. Ansonsten hätte der Architekt einen Abwehranspruch.
 12. _Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?_
-13. Man unterscheidet:
+   Man unterscheidet:
     * **Übertragung:** Inhaberwechsel. Lizenz geht von einer Person auf andere über.
     * **Ausschließliche Lizenz:** \(siehe unten\)
     * **Einfache Lizenz:** \(siehe unten\)
@@ -226,6 +230,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Diese Klausel ist daher unwirksam, weil unklar / intransparent. Es ist etwa nicht klar, in welchem Umfang die Mehrarbeit durch Arbeitnehmer zu leisten ist.  
    * Eine bessere Formulierung lautet: Die Mehrarbeit ist bis zu 20 Stunden im Monat abgegolten.
 5. _Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?_
+   * Kalendermäßig befristet vs. zweckbefristet
    * **Mit Sachgrund** z. B. betrieblicher Bedarf an Arbeitsleistung besteht nur vorübergehend. Geregelt in §§ 1, 3-5, 14 ff. TzBfG.
    * **Ohne Sachgrund** z. B. bis zu einer Gesamtdauer von zwei Jahren ohne sachlichen Grund. Geregelt in §§ 1, 3-5, 14 ff. TzBfG.
    * **Befristung durch Zeit** Geregelt in § 620 Abs. 3 BGB.
@@ -246,7 +251,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Die **detaillierte Leistungsbeschreibung** enthält detailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden. 
    * Für den Bauherrn ist eine funktionale Leistungsbeschreibung vorteilhaft, da etwa ein größerer Mengenbedarf auf den Bauunternehmer umgelegt wird. Dieser kann mit kreativen und innovativen Lösungen arbeiten.
 5. _Was versteht man unter einem Einheitspreisvertrag?_
-6. Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
+   Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
 
 ## 🛡️Sicherungsmittel
 
@@ -254,10 +259,10 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Sicherungsmittel bieten einen Schutz für die Vertragserfüllung im Falle einer Insolvenz.
    * Man unterscheidet Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).
 2. _Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise._
-- **Pfandrecht:** Eine bewegliche Sache dient zur Sicherung einer Forderung zwischen dem Gläubiger und Schuldner. Fällt die Forderung aus, so kann der Gläubiger den Pfandgegenstand verwerten. Erfordert Übergabe des Pfands von Eigentümer an Gläubiger. Geregelt in § 1204 BGB.
-- **Bürgschaft:** Ein Bürge verpflichtet sich gegenüber dem Gläubiger eines Dritten, für die Verbindlichkeiten eines Dritten einzustehen. Geregelt in § 765 BGB.
-- **Schuldbeitritt:** Dritte Personen tritt in die gleiche Position wie eigentlicher Schuldner und haftet dem Gläubiger als Mitschuldner. Das Kreditrisiko des Gläubigers verringert sich.
-- **Eigentumsvorbehalt:** Übereignung einer beweglichen Sache unter einer aufschiebenden Bedingung. Das Eigentum an einer Sache geht erst dann an einen Käufer über, wenn der gesamte Kaufpreis bezahlt ist. Geregelt in § 449 BGB.
+   - **Pfandrecht:** Eine bewegliche Sache dient zur Sicherung einer Forderung zwischen dem Gläubiger und Schuldner. Fällt die Forderung aus, so kann der Gläubiger den Pfandgegenstand verwerten. Erfordert Übergabe des Pfands von Eigentümer an Gläubiger. Geregelt in § 1204 BGB.
+   - **Bürgschaft:** Ein Bürge verpflichtet sich gegenüber dem Gläubiger eines Dritten, für die Verbindlichkeiten eines Dritten einzustehen. Geregelt in § 765 BGB.
+   - **Schuldbeitritt:** Dritte Personen tritt in die gleiche Position wie eigentlicher Schuldner und haftet dem Gläubiger als Mitschuldner. Das Kreditrisiko des Gläubigers verringert sich.
+   - **Eigentumsvorbehalt:** Übereignung einer beweglichen Sache unter einer aufschiebenden Bedingung. Das Eigentum an einer Sache geht erst dann an einen Käufer über, wenn der gesamte Kaufpreis bezahlt ist. Geregelt in § 449 BGB.
 3. _Warum spielt das Pfandrecht in der Rechtspraxis eine eher untergeordnete Rolle? Welches Sicherungsmittel wird stattdessen bevorzugt?_
    * Das Pfandrecht setzt voraus, dass nach § 1205 BGB eine tatsächliche Übergabe des Pfandgegenstand erfolgt. Das Eigentum verbleibt beim Sicherungsgeber. Gläubiger wird Besitzer.
    * Dies ist in der Rechtspraxis aber häufig unpraktisch, da der Pfandgegenstand durch den Eigentümer häufig weiter genutzt werden soll. Etwa benötigt der Eigentümer des Pfandgegenstands eine Maschine selbst. 
@@ -275,7 +280,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * **Selbstschuldnerische Bürgschaft** \(§ 773 BGB\): Bürgschaft, bei der der Bürge auf Einrede der Vorausklage \(§ 771 BGB\) verzichtet.
    * **Bürgschaft auf erstes Anfordern** \(nicht im Gesetz geregelt\): Bürgschaft, bei der Bürge muss an Gläubiger leisten unabhängig davon ob verbürgte Hauptforderung besteht. Rückforderung möglich wegen ungerechtfertigter Bereicherung, wenn Hauptforderung bereits erloschen.
 7. _Der A ist Inhaber eines Sägewerkes und verkauft sein Holz insbesondere an regionale Möbelhersteller. Welche Art von Eigentumsvorbehalt sollte er vereinbaren? Erläutern Sie Ihre Entscheidung._
-   * A sollte einen erweiterten **Eigentumsvorbehalt** mit **Verarbeitungsklause**l vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verarbeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
+   * A sollte einen erweiterten **Eigentumsvorbehalt** mit **Verarbeitungsklausel** vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verarbeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
    * Mit einem **einfachen Eigentumsvorbehalt** würde er durch Verarbeitung der Bretter das Eigentum verlieren. Der normale Eigentumsvorbehalt ist damit nicht werthaltig.
 
 ## 🎪Gesellschaftsrecht
@@ -314,7 +319,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Zentraler Unterschied ist:
      * UG kann bereits mit einem Stammkapital ab 1 EUR gegründet werden \(vgl. § 5a GmbHG\)
      * Für GmbH wird Stammkapital i. H. v. 25.000 EUR benötigt. \(vgl. § 5 GmbHG\)
-     * Bei der GmbH kann das Stammkapital als Bareinlage geleistet werden \(vgl. § 5 GmbHG\). Bei der UG hingegen ist das nicht möglich. \(Vgl. § 5a GmbHG Abs. \(2\) Satz 2.\)
+     * Bei der GmbH kann das Stammkapital als Sacheinlage geleistet werden \(vgl. § 5 GmbHG\). Bei der UG hingegen ist das nicht möglich. \(Vgl. § 5a GmbHG Abs. \(2\) Satz 2.\)
 
 ## Eigene Fragen
 
