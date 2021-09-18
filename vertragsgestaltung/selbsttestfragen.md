@@ -368,32 +368,58 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Nachteilig ist, dass ein gewisses Restrisiko besteht, dass der Schuldner die Sache nicht doch veräußert.
    * Nachteilig ist, dass Schuldner die Sache adäquat versichern muss, da sie als Sicherheit dient.
 
-* Welche Vorteile bietet eine Eigentümergrundschuld?
-* Was sind Beispiele für Immaterialgüterrechte?
-* Wie erfolgt die Eigentumsübertragung bei Rechten? Wie bei Sachen?
-* Nennen Sie Beispiele, wo die Abschlussfreiheit, Gestaltungsfreiheit und Formfreiheit eingeschränkt werden.
-* Nennen Sie Erklärungs- und Beweisfunktion. Nennen Sie dabei ein Beispiel.
-* Nennen Sie Beispiele für Klauseln ohne Wertungsmöglichkeit, mit Wertungsmöglichkeit und Generalklauseln.
-* Was bedeutet eingeschränkte Anwendung der AGB bei Arbeitsverträgen?
-* Welche Sicherheiten sind am wertvollsten d. h. lassen sich am einfachsten verwerten?
-* Was ist ein Sach- und Rechtsmangel? Erklären Sie anhand eines Beispiels.
-* Was unterscheidet Rücktritt, Minderung und Schadensersatz?
-* Erklären Sie die drei Wertsicherungsklauseln Staffelmietvereinbarung, Indexklausel und Schiedsgutachterklausel. 
-* Erklären Sie die Immaterialgüterrechte: Patent, Design, Marke und Urheberrecht.
-* Für welches Recht ist keine Rechteeinräumung in Form einer Übertragung möglich?
-* Was unterscheidet Immaterial- von Sachgütern?
-* Nennen Sie den Schutzgegenstand zum jeweiligen Immaterialgüterrecht.
-* Was unterscheidet relative und absolute Schutzhindernisse im Markenrecht?
-* Handelt es sich bei dem Geschäftsführer-Anstellungsvertrag um einen Arbeitsvertrag? Warum nicht?
-* Zuletzt sind die Holzpreise stark gestiegen. Bei welcher Form z. B. Detailpreis-Vertrag besteht ein Anpassungsrecht?
-* Beurteilen Sie die Garantie aus Sicht des Gläubigers und Schuldners.
-* Beurteilen Sie den Schuldbeitritt aus Sicht des Gläubigers und aus Sicht des Schuldners hinsichtlich der Verwertungsmöglichkeit.
-* Wann ist die Vereinbarung einer Bürgschaft auf erstes Anfordern sinnvoll? Wann sollte eine selbstschuldnerische Bürgschaft vereinbart werden?
-* Wie haften Gesellschafter während der Gründung einer GmbH (Vorgründungsgesellschaft / Vor-GmbH)?
-* Für welche Art von Sachen kann ein Eigentumsvorbehalt vereinbart werden? Auch für Rechte?
+* _Was ist eine Eigentümergrundschuld? Welche Vorteile bietet eine Eigentümergrundschuld?_
+   * Grundschuld, bestellt für den Grundstückseigentümer. 
+   * Mit einer Eigentümergrundschuld lässt sich eine Rangstelle für spätere Belastungen sichern. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/eigentuemergrundschuld-34799))
 
-* Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Verbrauchers und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?
-   * 
+* Nennen Sie Erklärungs- und Beweisfunktion. Nennen Sie dabei ein Beispiel.
+   * **Warnfunktion:** Vereinbarte Form dient dazu, Parteien zu warnen.
+   * **Beweisfunktion:** Bessere Nachvollziehbarkeit im Streitfall. 
+
+* _Was ist ein Sach- und Rechtsmangel? Erklären Sie anhand eines Beispiels._
+   * Abweichung von Soll- und Ist-Beschaffenheit.
+   * Sachmangel besteht, wenn der Sache ein Mangel anhaftet z. B. fehlerhafte Montage, asbesthaltige Baustoffe. 
+   * Rechtsmangel besteht, wenn Rechte Dritter am Kaufgegenstand bestehen z. B. Eintragungsvormerkung oder Dienstbarkeiten, sodass der Käufer diese nicht erwerben kann. (siehe [hier.](https://www.luebbers24.de/immobilienvermittlung/themen/sach-und-rechtsmaengel))
+
+* _Was unterscheidet Rücktritt, Minderung und Schadensersatz?_
+   * **Rücktritt:** Rückwirkende Aufhebung eines Vertrages, sofern das Recht auf Rücktritt vertraglich oder gesetzlich vorgesehen ist. Beispiel: Haustürgeschäfte. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/ruecktritt-43416))
+   * **Minderung:** Herabsetzung des des Preises eines Kauf-, Werk- oder Reisevertrags derart, dass Preis zum Zeitpunkt des Kaufabschlusses dem der mängelfreien Leistung entspricht. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/minderung-37098)) Beispiel: Gebrauchtwagenkauf
+   * **Schadensersatz:** Ausgleich eines Schadens, der einem anderen durch einem vom Ersatzpflichtigen zu vertretenden Umstand erwachsen ist. Beispiel: Ersatzbeschaffungskosten
+
+* _Für welches Recht ist keine Rechteeinräumung in Form einer Übertragung möglich?_
+   * Nicht möglich beim Urheberrecht (Folie 15)
+
+* _Handelt es sich bei dem Geschäftsführer-Anstellungsvertrag um einen Arbeitsvertrag? Warum nicht?_
+   * Beim Geschäftsführer-Anstellungsvertrag handelt es sich um einen Dienstvertrag nach § 611 BGB.
+   * Die Frage, ob ein Geschäftsführer auch Arbeitnehmer sein kann, wird von den Gerichten unterschiedlich ausgelegt. (siehe [hier.](https://www.hensche.de/Rechtsanwalt_Arbeitsrecht_Handbuch_Geschaeftsfuehrer_Anstellungsvertrag.html))
+
+* _Beurteilen Sie den Schuldbeitritt aus Sicht des Gläubigers und aus Sicht des Schuldners hinsichtlich der Verwertungsmöglichkeit._
+   * Bei einem Schuldbeitritt tritt ein Dritter als neuer Schuldner in ein Schuldverhältnis ein. Er verpflichtet sich zusätzlich zum Schuldner für dieselbe Verbindlichkeit einzustehen.
+   * Vorteilhaft für Gläubiger, da kein Rangverhältnis besteht und er sein Kreditausfallrisiko reduzieren kann.
+
+* _Wann ist die Vereinbarung einer Bürgschaft auf erstes Anfordern sinnvoll? Wann sollte eine selbstschuldnerische Bürgschaft vereinbart werden?_
+   * Gut für Gläubiger, da sich damit schnell Ansprüche durchsetzen lassen und er sich damit Liquidität verschaffen kann. Ansprüche lassen sich einfacher durchsetzen, da für den Bürgen kaum Möglichkeiten bestehen, eine Inanspruchnahme zu verhindern. Etwa verzichtet er auf Einrede der Vorausklage. (siehe [hier.](https://de.wikipedia.org/wiki/B%C3%BCrgschaft_auf_erste_Anforderung))
+
+* _Wie haften Gesellschafter während der Gründung einer GmbH (Vorgründungsgesellschaft / Vor-GmbH)?_
+   * Es finden die Regelungen zur GbR Anwendung.
+   * Gesellschaft haftet mit Vermögen, das sie besitzt. Für Forderungen, welche die Vermögensmasse der Gesellschaft übersteigen, haften die Gesellschafter mit Ihrem Privatvermögen uneingeschränkt. Individuelle Regelungen möglich. (siehe [hier.](https://www.steuba.de/gmbh/gmbh-vorgruendungsgesellschaft/#Welcher_Haftung_sind_die_Gruender_bei_einer_GmbH_in_Gruendung_ausgesetzt))
+
+* _Für welche Art von Sachen kann ein Eigentumsvorbehalt vereinbart werden? Auch für Rechte?_
+   * Gem. § 449 kann ein Eigentumsvorbehalt für **bewegliche Sachen** vereinbart werden.
+   * Keine Zulässigkeit bei unbeweglichen Sachen oder Rechten.
 
 * _Welche Vorteile bieten Mischformen wie GmbH & Co. KG und warum existieren sie?_ 
    * Ausschluss der persönlichen Haftung der Gesellschafter, denn die Gesellschafter der Komplementär GmbH haften ebenso wie die Gesellschafter der GmbH & Co. KG nur mit ihrer Einlage.
+
+* _Was unterscheidet Immaterial- von Sachgütern?_
+
+* _Zuletzt sind die Holzpreise stark gestiegen. Bei welcher Form z. B. Detailpreis-Vertrag besteht ein Anpassungsrecht?_
+
+* _Beurteilen Sie die Garantie aus Sicht des Gläubigers und Schuldners._
+
+* _Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Verbrauchers und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?_
+   * 
+
+* _Nennen Sie Beispiele für Klauseln ohne Wertungsmöglichkeit, mit Wertungsmöglichkeit und Generalklauseln._
+
+   
