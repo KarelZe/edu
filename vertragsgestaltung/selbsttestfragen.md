@@ -330,7 +330,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 * Erklären Sie die Indexklausel, Staffelklausel, Schiedsgutachterklausel.
    * **Indexklausel:** Koppelung der Miethöhe an die Entwicklung des Verbraucherpreisindizes. Geregelt in § 557b BGB. 
    * **Staffelklausel:** Festlegung von zukünftigen Mieterhöhungen bereits im Mietvertrag. Die Miete wird also für bestimmte Zeiträume in unterschiedlicher Höhe verbindlich vereinbart. Dem Vermieter ist es dann nicht möglich, weitere Mieterhöhungen vorzunehmen. Geregelt in § 557a BGB.
-   * **Schiedsgutachterklausel:** Über streitige Punkte wird für beide Parteien ein verbindliches Schiedsgutachten eingeholt. (siehe [hier.](https://www.essen.ihk24.de/recht-und-steuern/schlichtung/schiedsgutachterklausel-2096606)
+   * **Schiedsgutachterklausel:** Über streitige Punkte wird für beide Parteien ein verbindliches Schiedsgutachten eingeholt. (siehe [hier.](https://www.essen.ihk24.de/recht-und-steuern/schlichtung/schiedsgutachterklausel-2096606))
 * Wie lässt sich vermeiden, dass im Falle der Insolvenz eines Generalunternehmers, Subunternehmer noch bezahlt werden?
    * Bei Insolvenz des Generalunternehmers besteht die Gefahr, dass Subunternehmer keine Zahlung erhalten, denn der Bauherr leistet an den Generalunternehmer. 
    * TODO: Absicherungsmöglichkeiten
@@ -341,13 +341,12 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 * Ist bei der Leihe Fruchtziehung möglich?
    * Leihe berechtigt nur zum Gebrauch der Sache, nicht aber zur Fruchtziehung. (siehe [hier.](https://www.rechtsanwalt.com/urteil/gebrauchsueberlassungsvertraege/))
 
-
 * Vergleichen Sie Werk- und Dienstvertrag.
    * Bei Werkvertrag wird Erfolg geschuldet. Bei Dienstvertrag nicht.
    * Oder anders gesagt, bei einem Werkvertrag wird nicht die Arbeitsleistung, sondern die Herstellung einer bestimmten Sache geschuldet. Ein Dienstvertrag schuldet hingegen eine Arbeitsleistung ohne konkreter Bindung an ein Projekt.
    * **Beispiel Werkvertrag** Erstellung von Computerprogrammen. Es reicht nicht, dass programmiert wird. Viel mehr muss das gewünschte Ergebnis erzielt werden.
 
-* _Wieso erfordern Immobilienverträge eine notarielle Beglaubigung?_
+* _Wieso erfordern Immobilienverträge eine notarielle Beurkundung?_
    * Warnfunktion des "privaten Häuslebauers", denn der Immobilienkauf stellt häufig ein einmaliges Vorhaben in seinem Leben dar.
 
 * Was versteht man unter einer Auflassungsvormerkung?
