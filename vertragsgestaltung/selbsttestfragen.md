@@ -323,20 +323,51 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 
 ## Eigene Fragen
 
-* Was sind die Regelungsschwerpunkte der VOB/A und VOB/C?
+* _Was sind die Regelungsschwerpunkte der VOB/A und VOB/C?_
+   * VOB/A: Vergabe öffentlicher Aufträge bis zur Einleitung (Vergaberecht)
+   * VOB/B: Bauphase selbst und ersten Jahre bis Gewährleistungsfrist verfällt
+   * VOB/C: Sammlung von DIN-Normen, die den Bau betreffen inklusive Abrechnungsregeln
 * Erklären Sie die Indexklausel, Staffelklausel, Schiedsgutachterklausel.
+   * **Indexklausel:** Koppelung der Miethöhe an die Entwicklung des Verbraucherpreisindizes. Geregelt in § 557b BGB. 
+   * **Staffelklausel:** Festlegung von zukünftigen Mieterhöhungen bereits im Mietvertrag. Die Miete wird also für bestimmte Zeiträume in unterschiedlicher Höhe verbindlich vereinbart. Dem Vermieter ist es dann nicht möglich, weitere Mieterhöhungen vorzunehmen. Geregelt in § 557a BGB.
+   * **Schiedsgutachterklausel:** Über streitige Punkte wird für beide Parteien ein verbindliches Schiedsgutachten eingeholt. (siehe [hier.](https://www.essen.ihk24.de/recht-und-steuern/schlichtung/schiedsgutachterklausel-2096606)
 * Wie lässt sich vermeiden, dass im Falle der Insolvenz eines Generalunternehmers, Subunternehmer noch bezahlt werden?
-* Genügt die E-Mail der Schriftform? Genügt das Telefax der Schriftform?
-* Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Verbrauchers und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?
+   * Bei Insolvenz des Generalunternehmers besteht die Gefahr, dass Subunternehmer keine Zahlung erhalten, denn der Bauherr leistet an den Generalunternehmer. 
+   * TODO: Absicherungsmöglichkeiten
+* _Genügt die E-Mail der Schriftform? Genügt das Telefax der Schriftform?_
+   * E-Mail und Telefax genügen der Schriftform nicht, es sei denn, das unterschriebene Dokument ist mit einer elektronischen Signatur versehen.
+   * Hintergrund ist, dass bei elektronischer Übermittlung nur eine Kopie übermittelt wird und diese verändert werden kann. (siehe [hier.](https://www.haufe.de/recht/deutsches-anwalt-office-premium/reichen-telefax-oder-e-mail-aus-wenn-schriftform-gefordert-wird_idesk_PI17574_HI9471506.html))
+
 * Ist bei der Leihe Fruchtziehung möglich?
-* Welche Vorteile bieten Mischformen wie GmbH & Co KG und warum existieren sie?
+   * Leihe berechtigt nur zum Gebrauch der Sache, nicht aber zur Fruchtziehung. (siehe [hier.](https://www.rechtsanwalt.com/urteil/gebrauchsueberlassungsvertraege/))
+
+
 * Vergleichen Sie Werk- und Dienstvertrag.
-* Wieso erfordern Immobilienverträge eine notarielle Beglaubigung?
+   * Bei Werkvertrag wird Erfolg geschuldet. Bei Dienstvertrag nicht.
+   * Oder anders gesagt, bei einem Werkvertrag wird nicht die Arbeitsleistung, sondern die Herstellung einer bestimmten Sache geschuldet. Ein Dienstvertrag schuldet hingegen eine Arbeitsleistung ohne konkreter Bindung an ein Projekt.
+   * **Beispiel Werkvertrag** Erstellung von Computerprogrammen. Es reicht nicht, dass programmiert wird. Viel mehr muss das gewünschte Ergebnis erzielt werden.
+
+* _Wieso erfordern Immobilienverträge eine notarielle Beglaubigung?_
+   * Warnfunktion des "privaten Häuslebauers", denn der Immobilienkauf stellt häufig ein einmaliges Vorhaben in seinem Leben dar.
+
 * Was versteht man unter einer Auflassungsvormerkung?
-* Was versteht man unter einem Vorkaufsrecht?
-* Ist die Vereinbarung eines Kontokorrentvorbehalts zulässig? Ist die Vereinbarung eines Konzernvorbehalts zulässig? Was sind zulässige Alternativen?
-* Welchen Vorteil bietet die Sicherungsübereignung gegenüber dem Pfandrecht? Was ist der Nachteil?
-* Wobei handelt es sich um akzessorische Sicherheiten?
+   * Die Auflassungsvormerkung ist ein Konstrukt zum Schutz des Erwerbers eines Grundstücks. Sie soll verhindern, dass der Verkäufer das Grundstück ein zweites Mal verkauft oder zum Schutz des Käufers, wenn er bereits Zahlungen leistet, aber noch nicht im Grundbuch eingetragen ist. Die Auflassungsvormerkung in Abteilung II des Grundbuches eingetragen. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/auflassungsvormerkung-27887))
+
+* _Was versteht man unter einem Vorkaufsrecht?_
+   * Bei einem Grundstücksverkauf, kann der derjenige, zu dessen Gunsten ein Vorkaufsrecht im Grundbuch eingetragen ist, beanspruchen, dass ihm das Grundstück zu gleichen Bedingungen überragen wird. (siehe [hier.](https://www.drklein.de/finanzlexikon/vorkaufsrecht.html))
+   * **Beispiel:** Vorkaufsrecht der Gemeinde
+
+* _Ist die Vereinbarung eines Kontokorrentvorbehalts zulässig? Ist die Vereinbarung eines Konzernvorbehalts zulässig? Was sind zulässige Alternativen?_
+   * Der Konzernvorbehalt nach § 449 Abs. 3 ist auf Verkäuferseite unwirksam.
+   * Der Konzernvorbehalt ist zulässig, wenn Eigentumsübergang davon abhängig gemacht wird, dass Forderungen des Verkäufers gegenüber Dritten erfüllt werden, die mit dem Käufer konzernmäßig verbunden sind. (siehe [hier.](https://www.juracademy.de/sachenrecht3/eigentumsvorbehalt.html))
+
+* _Welchen Vorteil bietet die Sicherungsübereignung gegenüber dem Pfandrecht? Was ist der Nachteil?_
+   * Der Vorteil der Sicherungsübereignung ist, dass Sie keine physische Übergabe des Sicherungsgegenstands wie beim Pfandrecht erfordert. Die Übergabe wird ersetzt durch ein Übergabesurrogat.
+   * **Beispiel:** Anstatt ein KFZ zu übergeben, wird der 2. Teil der Zulassungsbescheinigung an den Gläubiger übergeben. Der Sicherungsgeber kann dann das Fahrzeug nicht mehr gutgläubig veräußern.
+   * Vorteilhaft ist, dass der Sicherungsgeber kann weiterhin mit der Sache arbeiten. Es entstehen ihm keine Kosten für Verwahrung des Pfands.
+   * Nachteilig ist, dass ein gewisses Restrisiko besteht, dass der Schuldner die Sache nicht doch veräußert.
+   * Nachteilig ist, dass Schuldner die Sache adäquat versichern muss, da sie als Sicherheit dient.
+
 * Welche Vorteile bietet eine Eigentümergrundschuld?
 * Was sind Beispiele für Immaterialgüterrechte?
 * Wie erfolgt die Eigentumsübertragung bei Rechten? Wie bei Sachen?
@@ -360,3 +391,9 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 * Wann ist die Vereinbarung einer Bürgschaft auf erstes Anfordern sinnvoll? Wann sollte eine selbstschuldnerische Bürgschaft vereinbart werden?
 * Wie haften Gesellschafter während der Gründung einer GmbH (Vorgründungsgesellschaft / Vor-GmbH)?
 * Für welche Art von Sachen kann ein Eigentumsvorbehalt vereinbart werden? Auch für Rechte?
+
+* Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Verbrauchers und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?
+   * 
+
+* _Welche Vorteile bieten Mischformen wie GmbH & Co. KG und warum existieren sie?_ 
+   * Ausschluss der persönlichen Haftung der Gesellschafter, denn die Gesellschafter der Komplementär GmbH haften ebenso wie die Gesellschafter der GmbH & Co. KG nur mit ihrer Einlage.
