@@ -14,7 +14,7 @@
 * **Bürgschaft** \([§765 BGB](https://www.gesetze-im-internet.de/bgb/__765.html)\) → Rangverhältnis; Bürge wird erst herangezogen wenn Schuldner nicht zahlt
 * **Schuldbeitritt** \(nicht geregelt im Gesetz\) → Man tritt in die gleiche Position wie eigentlicher Schuldner → vorteilhaft für Gläubiger, weil zwei gleichrangig haftende Schuldner
 * **Patronatserklärung** \(nicht geregelt im Gesetz\) → Bei Konzernen interessant → Muttergesellschaft haftet für finanzschwache Töchter → z. B. bei umfangreichem Mietvertrag würde Mutter Geld nachschießen
-* **Garantie** \(nicht geregelt im Gesetz, nur angesprochen\)  Man hat z. B. gegen Hersteller keine Ansprüche → Hersteller machen Garantieerklärung z. B. bei Autos zwischen Verbraucher und Hersteller.
+* **Garantie** \(nicht geregelt im Gesetz, nur angesprochen\) → Garant verpflichtet sich für einen zukünftigen Schaden/ Verlust ohne Rücksicht auf Verschulden einzustehen oder die Haftung für einen wirtschaftlichen Erfolg zu übernehmen. → Man hat z. B. gegen Hersteller keine Ansprüche → Hersteller machen Garantieerklärung z. B. bei Autos zwischen Verbraucher und Hersteller.
 
 ## 🥊Gewährleistung vs. Garantie
 
@@ -63,11 +63,11 @@
 * Z. B. Verkäufer einer Maschine → Käufer geht vor Schlussrate in Insolvenz
 * Bei Insolvenz: \(wichtig für Klausur, allerdings nur oberflächlich wie unterhalb\)
   * **Aussonderung** \([§ 47 InsO](https://dejure.org/gesetze/InsO/47.html)\) 
-    * Aussonderung hat Herausgabe massefremder Gegenstände \(Gegenstände, die nicht in Insolventmaße gehören\) zum Ziel.
+    * Aussonderung hat Herausgabe massefremder Gegenstände \(Gegenstände, die nicht in Insolvenzmaße gehören\) zum Ziel.
     * Beispiel ist einfacher Eigentumsvorbehalt nach [§ 449 BGB](https://www.gesetze-im-internet.de/bgb/__449.html) \(Durch Rücktritt kann Eigentum herausverlangt werden\) 
     * Eigentumsvorbehalt reduziert Risiko erheblich, da man mehr Geld erhält als nur die Insolvenzquote. Ohne Eigentumsvorbehalt würde man nur Insolvenzquote erhalten.
   * **Absonderung** \(§ 47 ff. InsO\) 
-    * Kein Zugriff auf massefremde Gegensätnde, aber bevorzugte Befriedung aus der Verwertung des Gegenstands zur Tilgung der Forderungen.
+    * Kein Zugriff auf massefremde Gegenstände, aber bevorzugte Befriedung aus der Verwertung des Gegenstands zur Tilgung der Forderungen.
 
 ## Arten des Eigentumsvorbehalts
 

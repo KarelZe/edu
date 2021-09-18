@@ -412,14 +412,25 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Ausschluss der persönlichen Haftung der Gesellschafter, denn die Gesellschafter der Komplementär GmbH haften ebenso wie die Gesellschafter der GmbH & Co. KG nur mit ihrer Einlage.
 
 * _Was unterscheidet Immaterial- von Sachgütern?_
+   * Sachgüter z. B. Maschinen sind körperlich Vermögensgestände / physisch greifbar.
+   * Immaterialgüter z. B. Patente unkörperliche Vermögengestände / nicht physisch greifbar.
 
 * _Zuletzt sind die Holzpreise stark gestiegen. Bei welcher Form z. B. Detailpreis-Vertrag besteht ein Anpassungsrecht?_
+   * **Einheitspreisvertrag:** Einzelpreise sind fest vereinbart. Schwankende Rohstoffpreise können nicht auf den Bauherrn umgelegt werden. Anders sieht es aus, falls mengenmäßig mehr Holz verbaut wird, die tatsächliche Leistungsmenge verändert sich also, so bestehen Anpassungsmöglichkeiten bei Abweichungen größer 10 %. (siehe [hier.](https://tyroller.info/2018/07/27/preisanpassungsverlangen-beim-vob-einheitspreisvertrag/))
+   * **Detail-Pauschalvertrag:** Keine Umlegung höherer Einkaufspreise möglich, da Pauschalisierung der Positionen im Leistungsverzeichnis. Einheitspreis ist fixiert. (siehe [hier.](https://www.bauprofessor.de/detailpauschalvertrag/))
+   * **Global-Pauschalvertrag:** Keine Umlegung höherer Einkaufspreise möglich, da Pauschalisierung. (siehe [hier](https://www.anwalt.de/rechtstipps/baurecht-der-pauschalpreisvertrag_168764.html))
 
 * _Beurteilen Sie die Garantie aus Sicht des Gläubigers und Schuldners._
+   * Verwertbarkeit ähnlich zu Bürgschaft auf erstes Anfordern (siehe oben.)
+   * Gut für Gläubiger, da typischerweise auf erstes Anfordern zahlbar d. h. es greifen keine Einreiden oder Einwendungen aus dem Grundgeschäft. (sieh [hier.](https://www.hypovereinsbank.de/content/dam/hypovereinsbank/unternehmen/pdf/Downloadcenter/PP-Aussenhandel-Praxisinfo.pdf))
 
-* _Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Verbrauchers und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?_
-   * 
+* _Was unterscheidet Garantie und Bürgschaft?_
+   * Bürgschaft ist akzessorisch d. h. vom Bestehen der Forderung abhängig.
+   * Garantie abstrakt d. h. vom Bestehen der Forderung unabhängig.
 
-* _Nennen Sie Beispiele für Klauseln ohne Wertungsmöglichkeit, mit Wertungsmöglichkeit und Generalklauseln._
+* _Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Bauherrn und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?_
+   * Beim Einheitspreisvertrag erfolgt keine Pauschalisierung. Bauleistungen werden nach einem Einheitspreis und der voraussichtlichen Menge bestimmt. Weicht die tatsächlich eingesetzte Menge ab, so bestehen Anpassungsmöglichkeiten. Der Einheitspreisvertrag birgt das größte Risiko, da insb. ein höherer Materialeinsatz auf den Verbraucher umgelegt werden kann. Gleichzeitig handelt es sich um die günstigste Variante. 
+   * Bei einem Detail-Pauschalvertrag erfolgt eine Detailpauschalierung d. h. für die Leistungsposition des Leistungsverzeichnisses ermittelt aus Leistungsmenge und Einheitspries wird eine Pauschalisierung vorgenommen. Für Verbraucher bleibt Betrag aus Leistungsposition gleich, wenn mehr Material eingesetzt wird. Bei erheblichen Abweichungen besteht aber ein Ausgleichsanspruch. Mittelmäßiges Risiko für Bauherr, da Bauunternehmer Forderungen für nicht pauschalisierte Leistungen verlangen kann.
+   * Beim Global-Pauschalvertrag besteht Preissicherheit für den Bauherrn. Es wird lediglich das Ziel der Leistung festgelegt, weswegen kein detailliertes Leistungsverzeichnis erforderlich ist. Häufig mit hohen Preisaufschlägen verbunden, da Risiko durch Bauunternehmen mit eingepreist wird.
 
    
