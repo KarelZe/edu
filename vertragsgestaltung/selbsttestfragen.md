@@ -1,6 +1,6 @@
 # Selbsttestfragen
 
-Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
+Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit den Antworten von Liam Wachter möglich. Er hat in seinem [Blog](https://wachter-space.de/2021/09/13/vertragsgestaltung_wiederholungsfragen) ebenfalls die Fragen beantwortet.
 
 ## 🧑‍⚖️ Zivilrechtliche Grundlagen
 
@@ -33,7 +33,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * Der Typenzwang besagt, dass bestimmte Vertragsformen vorgeschrieben werden.
      * **Beispiel:** Strenge Formvorschriften bei Immobilienverträgen
 4. Was versteht man unter dem Trennungs- und Abstraktionsprinzip? Erläutern Sie die Prinzipien an einem kurzen Beispiel.
-   * **Trennungsprinzip**: Es gibt zwei Ebenen im Rechtsgeschäft das Verpflichtungs- und Erfüllungsgeschäft. Verpflichtungs- und Erfüllungsgeschäft sind zwei voneinander getrennte Rechtsgeschäfte.
+   * **Trennungsprinzip**: Es gibt zwei Ebenen im Rechtsgeschäft: das Verpflichtungs- und Erfüllungsgeschäft. Verpflichtungs- und Erfüllungsgeschäft sind zwei voneinander getrennte Rechtsgeschäfte.
    * **Abstraktionsprinzip**: Mängel im Verpflichtungsgeschäft wirken sich nicht auf die Wirksamkeit des Erfüllungsgeschäfts aus und vice versa. D. h. Wirksamkeit des einen Geschäfts z. B. Verpflichtungsgeschäft kann von der Unwirksamkeit des anderen Geschäfts unabhängig bestehen.
    * **Beispiel Kaufvertrag von Auto**: 1. Schritt / Verpflichtungsebene: Verpflichtung, Eigentum zu verschaffen \(§ 433 BGB\). 2. Schritt / Erfüllungsgeschäft: Einigung darüber, dass Eigentum übergehen soll und Übergabe \(§ 929 BGB\).
      * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eigentlich unwirksam war.
@@ -46,15 +46,15 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * **Geschäftswille:** Wille ist auf eine bestimmte Rechtsfolge gerichtet.
 8. Welche Arten von Willenserklärungen lassen sich unterscheiden und wie unterscheiden sie sich in Bezug auf ihr Wirksamwerden?
    * Man unterscheidet **empfangsbedürftige** und **nicht empfangsbedürftige Willenserklärungen**
-   * Bei **nicht empfangsbedürftigen Willenserklärungen** ist Zugang nicht erforderlich für Wirksamwerden.
-   * Bei **empfangsbedürftigen Willenserklärungen unter Anwesenden** wird die Willenserklärung wirksam mit Aushändigung oder sofern sie einwandfrei akustisch verstanden werden.  Unter Abwesenden muss sie in den Herrschaftsbereich des Empfängers gelangen und dieser die Möglichkeit zur Kenntnisnahme unter gewöhnlichen Umständen haben.
+   * Bei **nicht empfangsbedürftigen Willenserklärungen** ist Zugang nicht erforderlich für Wirksamwerden. Die Willenserklärung ist wirksam, sobald der Wille erkennbar endgültig geäußert wurde.
+   * Bei **empfangsbedürftigen Willenserklärungen unter Anwesenden** wird die Willenserklärung wirksam mit Aushändigung oder sofern sie einwandfrei akustisch verstanden werden.  **Unter Abwesenden** muss sie in den Herrschaftsbereich des Empfängers gelangen und dieser die Möglichkeit zur Kenntnisnahme unter gewöhnlichen Umständen haben.
 9. Welcher Maßstab gilt bei der Auslegung von Verträgen?
    * Maßstab ist der **objektive Empfängerhorizont**: Maßgeblich ist, wie ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung versteht. Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufgesetzt hat.
    * Gesetzliche Grundlage ist §§ 133, 157 BGB.
 10. _Wie definiert sich ein Vertrag?_
     * Der Vertrag ist ein Rechtsgeschäft, das aus inhaltlich übereinstimmenden mit Bezug aufeinander abgebenden Willenserklärungen von mindestens zwei Personen besteht, Angebot und Annahme.
 11. _Welche Wirkung hat die Stellvertretung?_
-    * Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt wirkt die Willenserklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
+    * Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt die Willenserklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
     * Rechtlich wird die Willenserklärung des Vertreters dem Vertretenden zugerechnet.
 12. _Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?_
     * **Stellvertretung muss zulässig sein**. Fast immer möglich, außer bei **höchstpersönlichen Rechtsgeschäften** z. B. Eheschließung \(§ 1311 S. 1BGB\).
@@ -72,11 +72,11 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
       * Organschaftliche Vertretungsmacht besteht, wenn Organe einer juristischen Person diese im Außenverhältnis gerichtlich und Außergerichtlich vertreten dürfen.
       * **Beispiel:** Vorstand eines Vereins \(§ 26 Abs. 2 BGB\)
 14. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
-   **Textform:**  Geregelt in § 126 b, Beispiel: Widerrufsbelehrung (Art. 246 § 1, 2 EGBGB
+   **Textform:**  Geregelt in § 126b, Beispiel: Widerrufsbelehrung (Art. 246 § 1, 2 EGBGB
    **Schriftform:** Geregelt in § 126 BGB,
    **Elektronische Form:** Geregelt in § 126a BGB,
    **Öffentliche Beglaubigung:** Geregelt in § 129 BGB, Ausschlagung einer Erbschaft § 1945 BGB
-   **Notarielle Beurkundung:** Geregelt in § 128 BGB, Grundstückskaufvertrag (§ 311 b BGB)
+   **Notarielle Beurkundung:** Geregelt in § 128 BGB, Grundstückskaufvertrag (§ 311b BGB)
 
 ## 🛍️Allgemeine Geschäftsbedingungen
 
@@ -91,6 +91,11 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
       * **Einschränkung:** Arbeitsverträge \("im Arbeitsrecht geltende Besonderheiten sind angemessen zu berücksichtigen"\)
    2. **Vorliegen der AGB** 
       * Geregelt in §§ 305 Abs. 1, 310 Abs 3 Nr. 1, 2 BGB.
+         * Vertragsklauseln
+         * vorformuliert
+         * für eine Vielzahl von Verträgen
+         * bei Vertragsabschluss gestellt
+         * nicht im einzelnen ausgehandelt werden
    3. **Einbeziehungskontrolle** d. h. sind AGB Vertragsbestandteil geworden?
       * **Einbeziehungsvereinbarung** und **Möglichkeit der Kenntnisnahme**, §§ [305 Abs. 2, 3](https://www.gesetze-im-internet.de/bgb/__305.html), [305a BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
       * **Überraschende Klausel** [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html).
@@ -134,11 +139,12 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Vollzugs- und Wirksamkeitserfordernisse
    * Kosten und Steuern
 2. _Welche Besonderheit gilt bei Kaufverträgen über Grundstücken und GmbH-Anteilen gegenüber Kaufverträgen über beweglichen Sachen?_
+   * Für den Kaufvertrag über bewegliche Sachen (§ 433 BGB) existieren keine Formvorschriften.
    * Für Kaufverträge über Grundstücke besteht nach [§ 311 b Abs. 1 BGB](https://www.gesetze-im-internet.de/bgb/__311b.html) die Pflicht zur notariellen Beurkundung
    * Der Verkauf von Geschäftsanteilen an neuen Gesellschafter der GmbH erfordert ebenfalls eine notarielle Beurkundung nach [§ 15 Abs. 4 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__15.html). Die Veräußerung erfolgt durch Abtretung.
-3. _Unter welchen Voraussetzungen ist ein Haftungsausschluss im Kauvertrag möglich?_
+3. _Unter welchen Voraussetzungen ist ein Haftungsausschluss im Kaufvertrag möglich?_
    * Haftungsausschluss ist geregelt in [§ 444 BGB](https://www.gesetze-im-internet.de/bgb/__444.html). Demnach ist ein Haftungsausschluss nur möglich, sofern Mangel nicht arglistig verschwiegen werden oder der Verkäufer eine Garantie für die Beschaffenheit der Sache übernommen hat.
-   * Demnach kann Haftung nicht für Vorsatz, aber für Fahrlässigkeit ausgeschlossen werden.
+   * Demnach kann Haftung nicht für Vorsatz ausgeschlossen werden.
    * **Beispiel**: Haftungsausschluss bei Privatverkauf zwischen Verbrauchern möglich.
 4. _Wie unterscheidet sich ein Kaufvertrag zwischen zwei Unternehmern oder zwei Verbrauchern gegenüber einem Verbrauchsgüterkaufvertrag im Hinblick auf die Möglichkeiten der Vertragsgestaltung?_
    * Bei B2B-Verträgen bestehen weitreichende Gestaltungsmöglichkeiten hinsichtlich der Vertragsgestaltung. 
@@ -150,6 +156,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * In Deutschland ist ein zweistufiges System implementiert zur Korrektur von Sach- oder Rechtsmängeln.
    * In der ersten Stufe hat Verkäufer das Recht auf Nacherfüllung / Recht auf zweite Andienung. In der zweiten Stufe hat der Verbraucher das Recht auf Rücktritt, Minderung, Schadensersatz statt Leistung.
    * Bestehen Mängel, so hat der Verkäufer das Recht die Sache nochmal zu erfüllen in Form von Mängelbeseitigung oder Neuherstellung. Ist auch dieser Versuch erfolglos, dann erst greifen weitere Rechte wie Rücktritt.
+   FIXME: Fristsetzung beschreiben?
 
 ## ⚖️Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
 
@@ -175,7 +182,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Optional kann ein **Regelungsmechanismus** aufgenommenen werden zur Änderung der Nutzung.
 5. _Warum ist eine konkrete Bezeichnung des Mietzweckes im Mietvertrag so wichtig?_
    * Die konkrete Bezeichnung des Mietgegenstands / Mietzwecks ist wichtig, weil es das **Vertragssoll** bestimmt. Gleichzeitig ist die Bezeichnung des Mietgegenstands Maßstab dafür, ob ein Mangel vorliegt.
-   * Soll etwa ein Objekt als Apotheke vermietet werden, so müssen die baulichen Anforderungen an eine vermietete Apotheke erfüllt sein. Der Vermieter muss das geltende Baurecht berücksichtigen.
+   * **Beispiel:** Soll etwa ein Objekt als Apotheke vermietet werden, so müssen die baulichen Anforderungen an eine vermietete Apotheke erfüllt sein. Der Vermieter muss das geltende Baurecht berücksichtigen.
 6. _Welche Arten von Wertsicherungsklauseln werden in gewerblichen Mietverträgen häufig verwendet?_
    * Staffelmietvereinbarung
    * Indexklausel
@@ -187,12 +194,14 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * **Urheberrecht:** Werke der Literatur, Wissenschaft und Kunst, sofern es sich um persönliche, geistige Schöpfungen handelt.
 8. _Wie weit reicht der räumliche und zeitliche Schutzumfang bei Immaterialgütern \(insbesondere Patente, Marken, Urheberrecht\)?_
    * **Patent:** Dauer: 20 Jahre \(§ 16 PatG\), Schutzumfang richtet sich nach § 9 PatG. Deutsches Patent ist auf Deutschland beschränkt. Europäische und internationale Patente möglich.
-   * **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG. Markenschutz ist auf Deutschland beschränkt, sofern nicht europäisches oder internationales Patent.
-   * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff. Beschränkt auf deutsches Staatsgebiet.
+   * **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG. Markenschutz ist auf Deutschland beschränkt, sofern nicht angemeldet als europäisches oder internationale Marke.
+   * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff. 
+   * Beschränkt auf deutsches Staatsgebiet und schützt die Werke von deutschen Staatsangehörigen.
+   * Die Berner Übereinkunft und verschiedene Zusatzverträge sieht allerdings eine gegenseitige Anerkennung des Urheberrechts zwischen souveränen Staaten vor. (siehe [hier.](https://www.urheberrecht.de/urheberrechtsgesetz/))
 9. _Was ist mit dem „numerus clausus des Immaterialgüterrechts“ gemeint?_
    Der "_numerus clausus_ des Immaterialgüterrechts" besagt, dass man selbst keine eigenen Immaterialgüter erfinden kann. Nur dass, was das Gesetz kennt, kann auch geschützt werden.
 11. _Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?_
-    * Als Immaterialgut kommt hier das Urheberrecht in Betracht, da das Gebäude nach Plänen von A entstanden ist. \(TODO: Werk etc. zu prüfen?\)
+    * Als Immaterialgut kommt hier das Urheberrecht in Betracht, da das Gebäude nach Plänen von A entstanden ist. Lt. Beschreibung handelt es sich nämlich um eine "außergewöhnliche Villa". Es liegt wahrscheinlich eine persönliche, geistige Schöpfung nach § 2 Abs. 2 UrhG vor, womit die Pläne des A als Werk durch das Urheberrecht geschützt werden können.
     * Eigentümer des Immaterialguts ist der Architekt, nicht der Bauherr.
     * Im Architektenvertrag ist vertraglich zu regeln, dass Architekt dem Bauherr ein Nutzungsrecht am Urheberrecht mit einräumt z. B. das Recht zur Umgestaltung im Rahmen einer Renovierung. Ansonsten hätte der Architekt einen Abwehranspruch.
 12. _Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?_
@@ -203,10 +212,12 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
     * **Einseitige Einwilligung:** Einseitige, jederzeit widerrufliche Gestattung zur Nutzung.
 14. _Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?_
     * Bei einer **einfachen Lizenz** ist der Lizenzgeber berechtigt, den Lizenzgegenstand neben dem Lizenzinhaber zu nutzen. Es können weitere Lizenzen erteilt werden. Beispiel: McDonalds. \(siehe [hier.](https://boehmanwaltskanzlei.de/vertragsrecht-allgemein/arten-der-lizenzierung)\)
-    * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich des Lizenzgebers von der Nutzung des Lizenzgegenstands ausschließlichen.
+    * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich den Lizenzgeber von der Nutzung des Lizenzgegenstands ausschließlichen.
 15. _Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?_
+    * Einräumung der Lizenz
     * Markenschutz muss für die Marke bestehen.
     * Markenschutz muss aufrecht erhalten werden durch Verlängerung der Marke durch den Markeninhaber.
+
 
 ## 🧑‍🏭Dienstvertrag / Arbeitsvertrag
 
@@ -217,17 +228,20 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 2. _Was sind wesentliche Vertragsinhalte eines Arbeitsvertrages? Nennen Sie fünf wesentliche Vertragsinhalte und erläutern Sie diese kurz._
    * **Vertragsparteien:** Regelungen, wer Arbeitgeber und Arbeitnehmer ist.
    * **Arbeitsleistung:** Charakterisierung der von Arbeitnehmer zu leistenden Tätigkeit.
-   * **Beginn des Arbeitsverhältnis:** Angabe, ab wann die Anstellung erfolgt. _\*\*_
+   * **Beginn des Arbeitsverhältnis:** Angabe, ab wann die Anstellung erfolgt.
    * **Arbeitsort:** Arbeitsort ggf. Hinweis, dass Arbeitnehmer an verschiedenen Orten eingesetzt werden kann.
    * **Arbeitszeit:** Vereinbarte Arbeitszeit.
 3. _Was versteht man unter dem Direktionsrecht und wo ist es geregelt?_
    * Das Direktionsrecht ist geregelt in § 106 GewO.
-   * Unter dem Direktionsrecht versteht man das Recht des Arbeitgebers auf Grundlage des Arbeitsvertrages dem Arbeitnehmer Weisungen zu erteilen. 
-   * Arbeitgeber kann Ort, Inhalt und Zeit der Arbeitsleistung vorgeben, sofern nicht anderweitig durch z. B. Betriebsvereinbarungen eingeschränkt ist.
+   * Unter dem Direktionsrecht versteht man das Recht des Arbeitgebers auf Grundlage des Arbeitsvertrages dem Arbeitnehmer Weisungen zu erteilen. Die Weisungsgebundenheit des Arbeitnehmers ist geregelt in § 611a Abs. 1 S. 1.
+   * Arbeitgeber kann Ort, Inhalt und Zeit der Arbeitsleistung vorgeben, sofern nicht anderweitig durch z. B. Betriebsvereinbarungen eingeschränkt ist. 
 4. Beurteilen Sie die folgende Klausel, ob sie wirksam ist: _„Der Arbeitnehmer ist im Rahmen des Arbeitszeitgesetzes zur Mehrarbeit auf Anordnung des Arbeitgebers verpflichtet. Eventuelle Mehrarbeit ist mit dem monatlichen Bruttogehalt nach § 5 abgegolten.“_
+   * Der Anwendungsbereich für AGB nach § 310 Abs. 4 BGB ist eröffnet, da es sich um einen Arbeitsvertrag handelt und dieser nicht vom Anwendungsbereich ausgeschlossen ist.
+   * Es handelt sich um AGB gem. §§ 305 Abs. 1, 310 Abs. 3 Nr. 1, 2 BGB, da die Mehrarbeitsvereinbarung typischerweise vorformuliert, für eine Vielzahl von Verträgen geltend und einseitig durch den Arbeitgeber gestellt wird.
+   * Von einer wirksamen Einbeziehung und Möglichkeit der Kenntnisname des Arbeitnehmers gem. § 305 Abs. 2 BGB ist auszugehen, da sich kein gesonderter Hinweis findet. Die Klausel ist nicht überraschend nach § 305c, da Vereinbarungen zur Mehrarbeit typisch sind in Arbeitsverträgen.
+   * Eine Unwirksamkeit gem. § 309 BGB und bei anschließender Prüfung § 308 BGB ist nicht gegeben.
    * AGB müssen klar und verständlich formuliert sein. Dies folgt aus § 307 Abs. 1 Satz 2 BGB. 
-   * TODO: Andere AGB rechtliche Prüfungen notwendig?
-   * Diese Klausel ist daher unwirksam, weil unklar / intransparent. Es ist etwa nicht klar, in welchem Umfang die Mehrarbeit durch Arbeitnehmer zu leisten ist.  
+   * Vorliegend ist etwa nicht klar, in welchem Umfang die Mehrarbeit durch Arbeitnehmer zu leisten ist. Es besteht die Gefahr der Ausnutzung seitens des Arbeitgebers. Diese Klausel ist daher unwirksam, weil unklar / intransparent. 
    * Eine bessere Formulierung lautet: Die Mehrarbeit ist bis zu 20 Stunden im Monat abgegolten.
 5. _Welche Arten von Befristungen lassen sich bei der arbeitsrechtlichen Vertragsgestaltung unterscheiden?_
    * Kalendermäßig befristet vs. zweckbefristet
@@ -248,16 +262,17 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Es existieren 3 Teile: VOB/A (Vergabe öffentlicher Aufträge bis zur Einleitung), VOB/B (Bauphase selbst und die ersten Jahre bis Gewährleistung verfällt) und VOB/C (Sammlung von DIN-Normen, die den Bau betreffen inkl. Regeln zur Abnahme).
    * Besonders relevant ist VOB/B für die Vertragsgestaltung, da darin die Vertragsbedingungen für Bauleistungen vereinbart werden.
 4. _Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?_
-   * Die **detaillierte Leistungsbeschreibung** enthält detailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details beschrieben werden. 
-   * Für den Bauherrn ist eine funktionale Leistungsbeschreibung vorteilhaft, da etwa ein größerer Mengenbedarf auf den Bauunternehmer umgelegt wird. Dieser kann mit kreativen und innovativen Lösungen arbeiten.
+   * Die **detaillierte Leistungsbeschreibung** enthält detailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details zu Material und Bauschritten beschrieben werden. 
+   * Für den Bauherrn ist eine funktionale Leistungsbeschreibung vorteilhaft, da etwa ein größerer Mengenbedarf auf den Bauunternehmer umgelegt wird. Dieser kann mit kreativen und innovativen Lösungen arbeiten. Eine funktionale Leistungsbeschreibung ist ferner weniger fehleranfällig hinsichtlich "vergessenen Leistungen".
 5. _Was versteht man unter einem Einheitspreisvertrag?_
-   Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlich ausgeführten Leistungsmengen und den vereinbarten Einheitspreisen richtet.
+   Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlichen Leistungsmengen und den vereinbarten Einheitspreisen richtet. Zunächst erfolgt eine Schätzung der Leistungsmenge, mit Fertigstellung erfolgt dann das Aufmaß (d. h. Ausmessen des tatsächlichen Leistungsverbrauchs), was Grundlage für die Rechnungsstellung ist.
 
 ## 🛡️Sicherungsmittel
 
 1. _Warum sind Sicherungsmittel in der Vertragsgestaltung von wesentlicher Bedeutung?_
-   * Sicherungsmittel bieten einen Schutz für die Vertragserfüllung im Falle einer Insolvenz.
-   * Man unterscheidet Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).
+   * Sicherungsmittel bieten einen Schutz für die Vertragserfüllung und im Falle einer Insolvenz.
+   * Ein Sicherungsmittel ist besser als ein schuldrechtlicher Anspruch, da es schneller durchzusetzen ist und auch die Insolvenz des Vertragspartners absichert.
+   * Man unterscheidet bei Insolvenz: Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).
 2. _Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise._
    - **Pfandrecht:** Eine bewegliche Sache dient zur Sicherung einer Forderung zwischen dem Gläubiger und Schuldner. Fällt die Forderung aus, so kann der Gläubiger den Pfandgegenstand verwerten. Erfordert Übergabe des Pfands von Eigentümer an Gläubiger. Geregelt in § 1204 BGB.
    - **Bürgschaft:** Ein Bürge verpflichtet sich gegenüber dem Gläubiger eines Dritten, für die Verbindlichkeiten eines Dritten einzustehen. Geregelt in § 765 BGB.
@@ -277,10 +292,10 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
    * Bei dem Schuldbeitritt hingegen, tritt der Dritte in die gleiche Position wie der eigentliche Schuldner. Die ist vorteilhaft für den Gläubiger, da er nun zwei gleichranging haftende Schuldner hat. Gleichzeitig ist das Risiko für den Sicherungsgeber höher.
 6. _Worin unterscheiden sich Ausfallbürgschaft, selbstschuldnerische Bürgschaft und Bürgschaft auf erstes Anfordern?_
    * **Ausfallbürgschaft:** Bürgschaft bei der Bürge nur dann in Anspruch genommen wird, wenn Gläubiger eine erfolglose Zwangsvollstreckung gegenüber dem Schuldner nachweisen kann.
-   * **Selbstschuldnerische Bürgschaft** \(§ 773 BGB\): Bürgschaft, bei der der Bürge auf Einrede der Vorausklage \(§ 771 BGB\) verzichtet.
+   * **Selbstschuldnerische Bürgschaft** \(§ 773 Abs. 1 BGB\): Bürgschaft, bei der der Bürge auf Einrede der Vorausklage \(§ 771 BGB\) verzichtet.
    * **Bürgschaft auf erstes Anfordern** \(nicht im Gesetz geregelt\): Bürgschaft, bei der Bürge muss an Gläubiger leisten unabhängig davon ob verbürgte Hauptforderung besteht. Rückforderung möglich wegen ungerechtfertigter Bereicherung, wenn Hauptforderung bereits erloschen.
 7. _Der A ist Inhaber eines Sägewerkes und verkauft sein Holz insbesondere an regionale Möbelhersteller. Welche Art von Eigentumsvorbehalt sollte er vereinbaren? Erläutern Sie Ihre Entscheidung._
-   * A sollte einen erweiterten **Eigentumsvorbehalt** mit **Verarbeitungsklausel** vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verarbeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
+   * A sollte einen **erweiterten Eigentumsvorbehalt** mit **Verarbeitungsklausel** vereinbaren. Denn nach § 950 Abs. 1. erwirbt der A dann Eigentum an den Möbeln, die durch Verarbeitung der Bretter, die er an die Möbelhersteller verkauft hat, hergestellt wurden. 
    * Mit einem **einfachen Eigentumsvorbehalt** würde er durch Verarbeitung der Bretter das Eigentum verlieren. Der normale Eigentumsvorbehalt ist damit nicht werthaltig.
 
 ## 🎪Gesellschaftsrecht
@@ -288,7 +303,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 1. _Welche zwei Arten von Gesellschaftstypen lassen sich grundsätzlich unterscheiden? Nennen Sie jeweils zwei Beispiele für diese Gesellschaftstypen und ein Kriterium, worin sich diese Gesellschaftstypen besonders unterscheiden?_
    * **Personengesellschaften**
      * Beispiel: OHG und KG
-   * **Körperschaften**
+   * **Kapitalgesellschaften**
      * Beispiel: GmbH und AG
    * **Unterschied: persönliche Haftung vs. Haftungsbeschränkung**
      * Komplementäre haten unbegrenzt. Kommanditisten haften in Höhe ihrer Einlage.
@@ -303,10 +318,11 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
 3. _Worin liegen die Gemeinsamkeit und worin unterscheiden sich die GbR und die OHG?_
    * GbR erfordert typischerweise **keine Eintragung** ins Handelsregister. Eine GbR kann jedoch durch **Eintragung** in das Handelsregister die Rechtsform einer OHG annehmen. 
    * Nach § 31 BGB haften die Gesellschafter einer BGB-Gesellschaft als Gesamtschuldner und persönlich. Wie die Gesellschafter einer GbR-Gesellschaft haften auch die Gesellschafter der OHG unmittelbar mit ihrem Privat- und Gesellschaftsvermögen \(Vgl. § 128 HGB\). 
+   * Es handelt sich beides Mal um Personengesellschaften.
    * OHG setzt Betrieb eines Handelsgewerbes nach § 2 HGB voraus. D. h. werden die Eigenschaften an ein Handelsgewerbe erfüllt, so sind die Regelungen der OHG anzuwenden. Es kann sich dann um keine GbR handeln.
 4. _Wie unterscheidet sich die Haftung eines Komplementärs von der Haftung eines Kommanditisten?_
    * Komplementäre haften unbegrenzt als persönlich haftende Gesellschafter \(Vgl. § 161 HGB\).
-   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 HGB\) Ist die Einlage noch nicht nicht geleistet, dann haftet der Kommanditist ebenfalls persönlich und unmittelbar bis zur Höhe der Hafteinlage. (Vgl. § 172 Abs. 1 HGB)
+   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 Abs. 1 HGB\) Ist die Einlage noch nicht nicht geleistet, dann haftet der Kommanditist ebenfalls persönlich und unmittelbar bis zur Höhe der Hafteinlage. (Vgl. § 172 Abs. 1 HGB)
 5. _Welche Phasen der Gründung durchläuft eine GmbH?_
    1. Gründungsentschluss
    2. Vorgründungsgesellschaft
@@ -320,6 +336,7 @@ Folgende Antworten sind nicht offiziell und noch nicht verifiziert.
      * UG kann bereits mit einem Stammkapital ab 1 EUR gegründet werden \(vgl. § 5a GmbHG\)
      * Für GmbH wird Stammkapital i. H. v. 25.000 EUR benötigt. \(vgl. § 5 GmbHG\)
      * Bei der GmbH kann das Stammkapital als Sacheinlage geleistet werden \(vgl. § 5 GmbHG\). Bei der UG hingegen ist das nicht möglich. \(Vgl. § 5a GmbHG Abs. \(2\) Satz 2.\)
+     * Bis das für die GmbH nötige Stammkapitel aufgezahlt ist, trägt die Firma den Zusatz UG /  Unternehmergesellschaft.
 
 ## Eigene Fragen
 
