@@ -18,12 +18,12 @@
   * Kein Recht auf **Fruchtziehung** \(z. B. Weinberg; Trauben stehen Vermieter zu\)
 * **Pachtvertrag**
   * Geregelt in [§ 581 BGB](https://www.gesetze-im-internet.de/bgb/__581.html) 
-  * **Fruchtziehung** \(z. B. Weinberg; Träubchen stehen dem Mieter zu → Weinberg wird typsicherweise verpachtet\)
+  * **Fruchtziehung** \(z. B. Weinberg; Träubchen stehen dem Mieter zu → Weinberg wird typischerweise verpachtet\)
 * **Leihe**
   * Unentgeltliches Pendant zum Miet- und Pachtvertrag
   * Geregelt in [§ 598 BGB](https://www.gesetze-im-internet.de/bgb/__598.html)
   * Geht nur für **Sachen**
-  * Geringe Haftung für Verleiher als bei Mietvertrag, da er keine Entgelt bekommt
+  * Geringe Haftung für Verleiher als bei Mietvertrag, da er kein Entgelt bekommt
 * **Leasing**
   * ungeregelt im Gesetz
   * Varianten sind Finanzierungsleasing \(ähnlich Kreditvertrag\) und Operating Leasing \(ähnlich Mietvertrag\)
