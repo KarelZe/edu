@@ -212,11 +212,14 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
     * **Einseitige Einwilligung:** Einseitige, jederzeit widerrufliche Gestattung zur Nutzung.
 14. _Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?_
     * Bei einer **einfachen Lizenz** ist der Lizenzgeber berechtigt, den Lizenzgegenstand neben dem Lizenzinhaber zu nutzen. Es können weitere Lizenzen erteilt werden. Beispiel: McDonalds. \(siehe [hier.](https://boehmanwaltskanzlei.de/vertragsrecht-allgemein/arten-der-lizenzierung)\)
-    * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich den Lizenzgeber von der Nutzung des Lizenzgegenstands ausschließlichen.
+    * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich den Lizenzgeber von der Nutzung des Lizenzgegenstands ausschließen.
 15. _Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?_
-    * Einräumung der Lizenz
-    * Markenschutz muss für die Marke bestehen.
-    * Markenschutz muss aufrecht erhalten werden durch Verlängerung der Marke durch den Markeninhaber.
+    **Hauptpflicht**
+      * Einräumung der Lizenz durch Lizenzgeber
+      * Zahlung der Lizenzgebühr durch Lizenznehmer
+    **Nebenpflicht**
+      * Markenschutz muss für die Marke bestehen.
+      * Markenschutz muss aufrecht erhalten werden durch Verlängerung der Marke durch den Markeninhaber.
 
 
 ## 🧑‍🏭Dienstvertrag / Arbeitsvertrag
