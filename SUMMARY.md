@@ -8,6 +8,16 @@
 * [Zusammenfassung](https://github.com/allekai/AGD)
 * [Selbsttestfragen](analysetechniken-grosser-datenbestaende/selbsttestfragen/README.md)
   * [Einführung](analysetechniken-grosser-datenbestaende/selbsttestfragen/einfuehrung.md)
+  * [Statistische Grundlagen](analysetechniken-grosser-datenbestaende/selbsttestfragen/02_stat_grundlagen.md)
+  * [Indexstrukturen](analysetechniken-grosser-datenbestaende/selbsttestfragen/03_indexstrukturen.md)
+  * [Entscheidungsbäume](analysetechniken-grosser-datenbestaende/selbsttestfragen/04_entscheidungsbaeume.md)
+  * [Evaluation](analysetechniken-grosser-datenbestaende/selbsttestfragen/05_evaluation.md)
+  * [Association Rules](analysetechniken-grosser-datenbestaende/selbsttestfragen/06_ar.md)
+  * [Optimierte AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/07_optim_ar.md)
+  * [Constrained AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/08_constrained_ar.md)
+  * [Clustering](analysetechniken-grosser-datenbestaende/selbsttestfragen/09_clustering.md)
+  * [Identifikation von Ausreißern](analysetechniken-grosser-datenbestaende/selbsttestfragen/10_outlier_detection.md)
+  * [Theory guided data science](analysetechniken-grosser-datenbestaende/selbsttestfragen/tgds.md)
 * [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 
 ## Advanced Machine Learning

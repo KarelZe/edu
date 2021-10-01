@@ -49,3 +49,7 @@ _Welche Technologien zur Generierung von Daten, die nicht in der Vorlesung disku
 
 TODO:
 
+Vor- und Nachteile von supervised / unsupervised learning?
+
+TODO:
+
