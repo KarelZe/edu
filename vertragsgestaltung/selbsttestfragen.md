@@ -38,30 +38,35 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * **Beispiel Kaufvertrag von Auto**: 1. Schritt / Verpflichtungsebene: Verpflichtung, Eigentum zu verschaffen \(§ 433 BGB\). 2. Schritt / Erfüllungsgeschäft: Einigung darüber, dass Eigentum übergehen soll und Übergabe \(§ 929 BGB\).
      * Verpflichtungsgeschäft kann ungültig sein, weil z. B. im Rausch Kaufvertrag geschlossen wurde. Erfüllung / Übergabe trotzdem erfolgen, obwohl Verpflichtungsgeschäft eigentlich unwirksam war.
 5. Welche objektiven und subjektiven Voraussetzungen müssen gegeben sein, dass eine Willenserklärung gegeben ist?
+
    **Objektiv**:
+
    * Kundgabe einer Erklärung, die auf den Willen, eine bestimmte Rechtsfolge herbeizuführen, schließen lässt. Kann schriftlich, mündlich oder durch konkludentes handeln erfolgen.
-   **Subjektiv:**
+
+     **Subjektiv:**
+
    * **Handlungswille:** Äußerer Erklärungstatbestand wissentlich verwirklicht.
    * **Erklärungsbewusstsein:** Rechtsbindungswille, Bewusstsein, dass die Erklärung irgendeine rechtliche Relevanz hat.
    * **Geschäftswille:** Wille ist auf eine bestimmte Rechtsfolge gerichtet.
-8. Welche Arten von Willenserklärungen lassen sich unterscheiden und wie unterscheiden sie sich in Bezug auf ihr Wirksamwerden?
+
+6. Welche Arten von Willenserklärungen lassen sich unterscheiden und wie unterscheiden sie sich in Bezug auf ihr Wirksamwerden?
    * Man unterscheidet **empfangsbedürftige** und **nicht empfangsbedürftige Willenserklärungen**
    * Bei **nicht empfangsbedürftigen Willenserklärungen** ist Zugang nicht erforderlich für Wirksamwerden. Die Willenserklärung ist wirksam, sobald der Wille erkennbar endgültig geäußert wurde.
    * Bei **empfangsbedürftigen Willenserklärungen unter Anwesenden** wird die Willenserklärung wirksam mit Aushändigung oder sofern sie einwandfrei akustisch verstanden werden.  **Unter Abwesenden** muss sie in den Herrschaftsbereich des Empfängers gelangen und dieser die Möglichkeit zur Kenntnisnahme unter gewöhnlichen Umständen haben.
-9. Welcher Maßstab gilt bei der Auslegung von Verträgen?
+7. Welcher Maßstab gilt bei der Auslegung von Verträgen?
    * Maßstab ist der **objektive Empfängerhorizont**: Maßgeblich ist, wie ein objektiver Dritter bei zumutbarer Anstrengung die Willenserklärung versteht. Es geht also nicht um die Auslegung, wie es derjenige versteht, der den Vertrag aufgesetzt hat.
    * Gesetzliche Grundlage ist §§ 133, 157 BGB.
-10. _Wie definiert sich ein Vertrag?_
-    * Der Vertrag ist ein Rechtsgeschäft, das aus inhaltlich übereinstimmenden mit Bezug aufeinander abgebenden Willenserklärungen von mindestens zwei Personen besteht, Angebot und Annahme.
-11. _Welche Wirkung hat die Stellvertretung?_
-    * Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt die Willenserklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
-    * Rechtlich wird die Willenserklärung des Vertreters dem Vertretenden zugerechnet.
-12. _Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?_
+8. _Wie definiert sich ein Vertrag?_
+   * Der Vertrag ist ein Rechtsgeschäft, das aus inhaltlich übereinstimmenden mit Bezug aufeinander abgebenden Willenserklärungen von mindestens zwei Personen besteht, Angebot und Annahme.
+9. _Welche Wirkung hat die Stellvertretung?_
+   * Die Wirkung der Stellvertretung ist geregelt in [§ 164 BGB Abs. 1](https://www.gesetze-im-internet.de/bgb/__164.html). Demnach wirkt die Willenserklärung, die jemand innerhalb der Vertretungsmacht im Namen des Vertretenen abgibt, unmittelbar für oder gegen den Vertretenen.
+   * Rechtlich wird die Willenserklärung des Vertreters dem Vertretenden zugerechnet.
+10. _Welche Voraussetzungen müssen für eine wirksame Stellvertretung vorliegen?_
     * **Stellvertretung muss zulässig sein**. Fast immer möglich, außer bei **höchstpersönlichen Rechtsgeschäften** z. B. Eheschließung \(§ 1311 S. 1BGB\).
     * **Abgabe einer eigenen Willenserklärung des Vertreters** d. h. Vertreter muss eigene Willenserklärung abgeben oder empfangen / keine Botenschaft.
     * **Offenkundigkeit der Vertretung** d. h. Vertretung muss nach Außen hin deutlich sein für das Gegenüber.
     * **Vertretungsmacht für das vorgenommene Rechtsgeschäft** D. h. Vertreter brauch nötige Berechtigung in Form von Vollmacht, gesetzliche / organschaftliche Vertretung z. B. Gesetzlicher Vertreter bei Kindern
-13. _Erklären Sie kurz den Unterschied zwischen einer rechtsgeschäftlichen, gesetzlichen und organschaftlichen Vertretungsmacht._
+11. _Erklären Sie kurz den Unterschied zwischen einer rechtsgeschäftlichen, gesetzlichen und organschaftlichen Vertretungsmacht._
     * **rechtsgeschäftliche Vertretungsmacht:**
       * Vertretungsmacht, die durch eine Vollmacht erteilt wurde. Der Vollmachtgeber bestimmt den Umfang.
       * **Beispiel:** Vollmacht \(§ 166 Abs. 2 BGB\)
@@ -71,12 +76,17 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
     * **organschaftliche Vertretungsmacht:**
       * Organschaftliche Vertretungsmacht besteht, wenn Organe einer juristischen Person diese im Außenverhältnis gerichtlich und Außergerichtlich vertreten dürfen.
       * **Beispiel:** Vorstand eines Vereins \(§ 26 Abs. 2 BGB\)
-14. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
-   **Textform:**  Geregelt in § 126b, Beispiel: Widerrufsbelehrung (Art. 246 § 1, 2 EGBGB
-   **Schriftform:** Geregelt in § 126 BGB,
-   **Elektronische Form:** Geregelt in § 126a BGB,
-   **Öffentliche Beglaubigung:** Geregelt in § 129 BGB, Ausschlagung einer Erbschaft § 1945 BGB
-   **Notarielle Beurkundung:** Geregelt in § 128 BGB, Grundstückskaufvertrag (§ 311b BGB)
+12. _Welche Formen von Rechtsgeschäften lassen sich unterscheiden? Nennen Sie jeweils ein Beispiel._
+
+    **Textform:**  Geregelt in § 126b, Beispiel: Widerrufsbelehrung \(Art. 246 § 1, 2 EGBGB
+
+    **Schriftform:** Geregelt in § 126 BGB,
+
+    **Elektronische Form:** Geregelt in § 126a BGB,
+
+    **Öffentliche Beglaubigung:** Geregelt in § 129 BGB, Ausschlagung einer Erbschaft § 1945 BGB
+
+    **Notarielle Beurkundung:** Geregelt in § 128 BGB, Grundstückskaufvertrag \(§ 311b BGB\)
 
 ## 🛍️Allgemeine Geschäftsbedingungen
 
@@ -91,11 +101,11 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
       * **Einschränkung:** Arbeitsverträge \("im Arbeitsrecht geltende Besonderheiten sind angemessen zu berücksichtigen"\)
    2. **Vorliegen der AGB** 
       * Geregelt in §§ 305 Abs. 1, 310 Abs 3 Nr. 1, 2 BGB.
-         * Vertragsklauseln
-         * vorformuliert
-         * für eine Vielzahl von Verträgen
-         * bei Vertragsabschluss gestellt
-         * nicht im einzelnen ausgehandelt werden
+        * Vertragsklauseln
+        * vorformuliert
+        * für eine Vielzahl von Verträgen
+        * bei Vertragsabschluss gestellt
+        * nicht im einzelnen ausgehandelt werden
    3. **Einbeziehungskontrolle** d. h. sind AGB Vertragsbestandteil geworden?
       * **Einbeziehungsvereinbarung** und **Möglichkeit der Kenntnisnahme**, §§ [305 Abs. 2, 3](https://www.gesetze-im-internet.de/bgb/__305.html), [305a BGB](https://www.gesetze-im-internet.de/bgb/__305.html)
       * **Überraschende Klausel** [§ 305c BGB](https://www.gesetze-im-internet.de/bgb/__305.html).
@@ -119,8 +129,6 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * **subjektive Rahmenbedingungen**, diese umfassen die eigenen Ziele sowie die Ziele des Gegners.
    * **rechtliche Rahmenbedingungen** Etwa, ob es sich um Einzelvertrag oder um Vertrag für viele Geschäfte \(AGB-Recht\) handelt.
    * **wirtschaftliche / tatsächliche Rahmenbedingungen** Umfasst technische und wirtschaftliche Fragestellungen.
-
-
 2. _Welche Gestaltungskriterien sind bei der Vertragsgestaltung zu beachten? Erläutern Sie kurz die Gestaltungskriterien._
    * **Sicherer Weg:** Anwalt ist verpflichtet "sichersten Weg" aufzuzeigen. Das heißt aber nicht, dass Mandant den auch wählen muss.
    * **Konflikt-Vermeidung:** Sind Parteien einig, bräuchten Sie Vertrag nicht. Vertrag wird immer dann rausgeholt, wenn es zu Uneinigkeiten kommt. Man will deshalb Streitigkeiten frühzeitig vermeiden.
@@ -139,7 +147,7 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * Vollzugs- und Wirksamkeitserfordernisse
    * Kosten und Steuern
 2. _Welche Besonderheit gilt bei Kaufverträgen über Grundstücken und GmbH-Anteilen gegenüber Kaufverträgen über beweglichen Sachen?_
-   * Für den Kaufvertrag über bewegliche Sachen (§ 433 BGB) existieren keine Formvorschriften.
+   * Für den Kaufvertrag über bewegliche Sachen \(§ 433 BGB\) existieren keine Formvorschriften.
    * Für Kaufverträge über Grundstücke besteht nach [§ 311 b Abs. 1 BGB](https://www.gesetze-im-internet.de/bgb/__311b.html) die Pflicht zur notariellen Beurkundung
    * Der Verkauf von Geschäftsanteilen an neuen Gesellschafter der GmbH erfordert ebenfalls eine notarielle Beurkundung nach [§ 15 Abs. 4 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__15.html). Die Veräußerung erfolgt durch Abtretung.
 3. _Unter welchen Voraussetzungen ist ein Haftungsausschluss im Kaufvertrag möglich?_
@@ -156,7 +164,8 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * In Deutschland ist ein zweistufiges System implementiert zur Korrektur von Sach- oder Rechtsmängeln.
    * In der ersten Stufe hat Verkäufer das Recht auf Nacherfüllung / Recht auf zweite Andienung. In der zweiten Stufe hat der Verbraucher das Recht auf Rücktritt, Minderung, Schadensersatz statt Leistung.
    * Bestehen Mängel, so hat der Verkäufer das Recht die Sache nochmal zu erfüllen in Form von Mängelbeseitigung oder Neuherstellung. Ist auch dieser Versuch erfolglos, dann erst greifen weitere Rechte wie Rücktritt.
-   FIXME: Fristsetzung beschreiben?
+
+     FIXME: Fristsetzung beschreiben?
 
 ## ⚖️Gebrauchsüberlassungsverträge \(Mietverträge, Lizenzverträge\)
 
@@ -197,30 +206,38 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * **Markenrecht**: 10 Jahre, aber unbegrenzt verlängerbar. \(§ 47 MarkenG\) Schutzumfang richtet sich nach §§ 14 ff. MarkenG. Markenschutz ist auf Deutschland beschränkt, sofern nicht angemeldet als europäisches oder internationale Marke.
    * **Urheberrecht:** 70 Jahre nach Tod d. Urhebers \(§ 64 / 65 UrhG\). Schutzumfang nach §§ 11 UrhG ff. 
    * Beschränkt auf deutsches Staatsgebiet und schützt die Werke von deutschen Staatsangehörigen.
-   * Die Berner Übereinkunft und verschiedene Zusatzverträge sieht allerdings eine gegenseitige Anerkennung des Urheberrechts zwischen souveränen Staaten vor. (siehe [hier.](https://www.urheberrecht.de/urheberrechtsgesetz/))
+   * Die Berner Übereinkunft und verschiedene Zusatzverträge sieht allerdings eine gegenseitige Anerkennung des Urheberrechts zwischen souveränen Staaten vor. \(siehe [hier.](https://www.urheberrecht.de/urheberrechtsgesetz/)\)
 9. _Was ist mit dem „numerus clausus des Immaterialgüterrechts“ gemeint?_
+
    Der "_numerus clausus_ des Immaterialgüterrechts" besagt, dass man selbst keine eigenen Immaterialgüter erfinden kann. Nur dass, was das Gesetz kennt, kann auch geschützt werden.
-11. _Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?_
+
+10. _Der Architekt A hat für den Bauherrn B eine architektonisch außergewöhnliche Villa geplant. Der Bauherr B baut auf seinem Grundstück nach den Plänen des A. Welches Immaterialgut kann in dieser Situation eine Rolle spielen? Wer ist Inhaber des Immaterialgutes? Was ist vertraglich zu regeln?_
     * Als Immaterialgut kommt hier das Urheberrecht in Betracht, da das Gebäude nach Plänen von A entstanden ist. Lt. Beschreibung handelt es sich nämlich um eine "außergewöhnliche Villa". Es liegt wahrscheinlich eine persönliche, geistige Schöpfung nach § 2 Abs. 2 UrhG vor, womit die Pläne des A als Werk durch das Urheberrecht geschützt werden können.
     * Eigentümer des Immaterialguts ist der Architekt, nicht der Bauherr.
     * Im Architektenvertrag ist vertraglich zu regeln, dass Architekt dem Bauherr ein Nutzungsrecht am Urheberrecht mit einräumt z. B. das Recht zur Umgestaltung im Rahmen einer Renovierung. Ansonsten hätte der Architekt einen Abwehranspruch.
-12. _Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?_
-   Man unterscheidet:
+11. _Welche Arten von Rechteeinräumung lassen sich bei Immaterialgütern unterscheiden?_
+
+    Man unterscheidet:
+
     * **Übertragung:** Inhaberwechsel. Lizenz geht von einer Person auf andere über.
     * **Ausschließliche Lizenz:** \(siehe unten\)
     * **Einfache Lizenz:** \(siehe unten\)
     * **Einseitige Einwilligung:** Einseitige, jederzeit widerrufliche Gestattung zur Nutzung.
-14. _Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?_
+
+12. _Worin unterscheidet sich eine ausschließliche von einer einfachen Lizenz?_
     * Bei einer **einfachen Lizenz** ist der Lizenzgeber berechtigt, den Lizenzgegenstand neben dem Lizenzinhaber zu nutzen. Es können weitere Lizenzen erteilt werden. Beispiel: McDonalds. \(siehe [hier.](https://boehmanwaltskanzlei.de/vertragsrecht-allgemein/arten-der-lizenzierung)\)
     * Bei der **ausschließlichen Lizenz** kann der Lizenzinhaber alle anderen Personen einschließlich den Lizenzgeber von der Nutzung des Lizenzgegenstands ausschließen.
-15. _Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?_
-    **Hauptpflicht**
-      * Einräumung der Lizenz durch Lizenzgeber
-      * Zahlung der Lizenzgebühr durch Lizenznehmer
-    **Nebenpflicht**
-      * Markenschutz muss für die Marke bestehen.
-      * Markenschutz muss aufrecht erhalten werden durch Verlängerung der Marke durch den Markeninhaber.
+13. _Die A GmbH, die Parfüm herstellt, möchte die Marke des Markeninhaber B nutzen. Was sind wichtige Regelungen für die A GmbH im abzuschließenden Lizenzvertrag?_
 
+    **Hauptpflicht**
+
+    * Einräumung der Lizenz durch Lizenzgeber
+    * Zahlung der Lizenzgebühr durch Lizenznehmer
+
+      **Nebenpflicht**
+
+    * Markenschutz muss für die Marke bestehen.
+    * Markenschutz muss aufrecht erhalten werden durch Verlängerung der Marke durch den Markeninhaber.
 
 ## 🧑‍🏭Dienstvertrag / Arbeitsvertrag
 
@@ -262,13 +279,14 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * Der Generalunternehmer wird vom Bauherrn beauftragt. Dieser vergibt einzelne Gewerke an Subunternehmer, mit denen er in Vertrag steht. Ansprechpartner für Bauherrn ist Generalunternehmer. Kunde kann eigene Wünsche einbringen.
 3. _Was ist die VOB? Welche Teile gibt es und welcher Teil ist für die Vertragsgestaltung von besonderer Bedeutung?_
    * Die VOB ist die Vergabe- und Vertragsordnung für Bauleistungen. Sie enthält Vorgaben für die Vergabe von Bauprojekten und Vertragsbedingungen. Für Projekte der öffentlichen Hand ist die Anwendung verpflichtend.
-   * Es existieren 3 Teile: VOB/A (Vergabe öffentlicher Aufträge bis zur Einleitung), VOB/B (Bauphase selbst und die ersten Jahre bis Gewährleistung verfällt) und VOB/C (Sammlung von DIN-Normen, die den Bau betreffen inkl. Regeln zur Abnahme).
+   * Es existieren 3 Teile: VOB/A \(Vergabe öffentlicher Aufträge bis zur Einleitung\), VOB/B \(Bauphase selbst und die ersten Jahre bis Gewährleistung verfällt\) und VOB/C \(Sammlung von DIN-Normen, die den Bau betreffen inkl. Regeln zur Abnahme\).
    * Besonders relevant ist VOB/B für die Vertragsgestaltung, da darin die Vertragsbedingungen für Bauleistungen vereinbart werden.
 4. _Wie unterscheidet sich die detailliert Leistungsbeschreibung von der funktionalen Leistungsbeschreibung? Welche Art der Leistungsbeschreibung ist für den Bauherrn vorteilhafter?_
    * Die **detaillierte Leistungsbeschreibung** enthält detailliert Angaben zur Ausführung der Leistung z. B. KG Rohre 10 Meter. Wohingegen in der **funktionalen Leistungsbeschreibung** \("Schüsselfertig"\) lediglich Angaben zu Zweck und Funktion enthalten sind, aber keine Details zu Material und Bauschritten beschrieben werden. 
    * Für den Bauherrn ist eine funktionale Leistungsbeschreibung vorteilhaft, da etwa ein größerer Mengenbedarf auf den Bauunternehmer umgelegt wird. Dieser kann mit kreativen und innovativen Lösungen arbeiten. Eine funktionale Leistungsbeschreibung ist ferner weniger fehleranfällig hinsichtlich "vergessenen Leistungen".
 5. _Was versteht man unter einem Einheitspreisvertrag?_
-   Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlichen Leistungsmengen und den vereinbarten Einheitspreisen richtet. Zunächst erfolgt eine Schätzung der Leistungsmenge, mit Fertigstellung erfolgt dann das Aufmaß (d. h. Ausmessen des tatsächlichen Leistungsverbrauchs), was Grundlage für die Rechnungsstellung ist.
+
+   Ein Einheitspreisvertrag ist ein Vertrag, bei dem sich die Vergütung der Bauleistung nach den tatsächlichen Leistungsmengen und den vereinbarten Einheitspreisen richtet. Zunächst erfolgt eine Schätzung der Leistungsmenge, mit Fertigstellung erfolgt dann das Aufmaß \(d. h. Ausmessen des tatsächlichen Leistungsverbrauchs\), was Grundlage für die Rechnungsstellung ist.
 
 ## 🛡️Sicherungsmittel
 
@@ -277,10 +295,10 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * Ein Sicherungsmittel ist besser als ein schuldrechtlicher Anspruch, da es schneller durchzusetzen ist und auch die Insolvenz des Vertragspartners absichert.
    * Man unterscheidet bei Insolvenz: Aussonderung \(§ 47 InsO\) und Absonderung \(§ 47 ff. InsO\).
 2. _Nennen Sie vier Sicherungsmittel und erläutern Sie kurz ihre Funktionsweise._
-   - **Pfandrecht:** Eine bewegliche Sache dient zur Sicherung einer Forderung zwischen dem Gläubiger und Schuldner. Fällt die Forderung aus, so kann der Gläubiger den Pfandgegenstand verwerten. Erfordert Übergabe des Pfands von Eigentümer an Gläubiger. Geregelt in § 1204 BGB.
-   - **Bürgschaft:** Ein Bürge verpflichtet sich gegenüber dem Gläubiger eines Dritten, für die Verbindlichkeiten eines Dritten einzustehen. Geregelt in § 765 BGB.
-   - **Schuldbeitritt:** Dritte Personen tritt in die gleiche Position wie eigentlicher Schuldner und haftet dem Gläubiger als Mitschuldner. Das Kreditrisiko des Gläubigers verringert sich.
-   - **Eigentumsvorbehalt:** Übereignung einer beweglichen Sache unter einer aufschiebenden Bedingung. Das Eigentum an einer Sache geht erst dann an einen Käufer über, wenn der gesamte Kaufpreis bezahlt ist. Geregelt in § 449 BGB.
+   * **Pfandrecht:** Eine bewegliche Sache dient zur Sicherung einer Forderung zwischen dem Gläubiger und Schuldner. Fällt die Forderung aus, so kann der Gläubiger den Pfandgegenstand verwerten. Erfordert Übergabe des Pfands von Eigentümer an Gläubiger. Geregelt in § 1204 BGB.
+   * **Bürgschaft:** Ein Bürge verpflichtet sich gegenüber dem Gläubiger eines Dritten, für die Verbindlichkeiten eines Dritten einzustehen. Geregelt in § 765 BGB.
+   * **Schuldbeitritt:** Dritte Personen tritt in die gleiche Position wie eigentlicher Schuldner und haftet dem Gläubiger als Mitschuldner. Das Kreditrisiko des Gläubigers verringert sich.
+   * **Eigentumsvorbehalt:** Übereignung einer beweglichen Sache unter einer aufschiebenden Bedingung. Das Eigentum an einer Sache geht erst dann an einen Käufer über, wenn der gesamte Kaufpreis bezahlt ist. Geregelt in § 449 BGB.
 3. _Warum spielt das Pfandrecht in der Rechtspraxis eine eher untergeordnete Rolle? Welches Sicherungsmittel wird stattdessen bevorzugt?_
    * Das Pfandrecht setzt voraus, dass nach § 1205 BGB eine tatsächliche Übergabe des Pfandgegenstand erfolgt. Das Eigentum verbleibt beim Sicherungsgeber. Gläubiger wird Besitzer.
    * Dies ist in der Rechtspraxis aber häufig unpraktisch, da der Pfandgegenstand durch den Eigentümer häufig weiter genutzt werden soll. Etwa benötigt der Eigentümer des Pfandgegenstands eine Maschine selbst. 
@@ -325,7 +343,7 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
    * OHG setzt Betrieb eines Handelsgewerbes nach § 2 HGB voraus. D. h. werden die Eigenschaften an ein Handelsgewerbe erfüllt, so sind die Regelungen der OHG anzuwenden. Es kann sich dann um keine GbR handeln.
 4. _Wie unterscheidet sich die Haftung eines Komplementärs von der Haftung eines Kommanditisten?_
    * Komplementäre haften unbegrenzt als persönlich haftende Gesellschafter \(Vgl. § 161 HGB\).
-   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 Abs. 1 HGB\) Ist die Einlage noch nicht nicht geleistet, dann haftet der Kommanditist ebenfalls persönlich und unmittelbar bis zur Höhe der Hafteinlage. (Vgl. § 172 Abs. 1 HGB)
+   * Kommanditisten haften bis zur Höhe ihrer Vermögenseinlage. \(Vgl. § 171 Abs. 1 HGB\) Ist die Einlage noch nicht nicht geleistet, dann haftet der Kommanditist ebenfalls persönlich und unmittelbar bis zur Höhe der Hafteinlage. \(Vgl. § 172 Abs. 1 HGB\)
 5. _Welche Phasen der Gründung durchläuft eine GmbH?_
    1. Gründungsentschluss
    2. Vorgründungsgesellschaft
@@ -344,112 +362,88 @@ Folgende Antworten sind nicht offiziell und verifiziert. Ein Quercheck ist mit d
 ## Eigene Fragen
 
 * _Was sind die Regelungsschwerpunkte der VOB/A und VOB/C?_
-   * VOB/A: Vergabe öffentlicher Aufträge bis zur Einleitung (Vergaberecht)
-   * VOB/B: Bauphase selbst und ersten Jahre bis Gewährleistungsfrist verfällt
-   * VOB/C: Sammlung von DIN-Normen, die den Bau betreffen inklusive Abrechnungsregeln
+  * VOB/A: Vergabe öffentlicher Aufträge bis zur Einleitung \(Vergaberecht\)
+  * VOB/B: Bauphase selbst und ersten Jahre bis Gewährleistungsfrist verfällt
+  * VOB/C: Sammlung von DIN-Normen, die den Bau betreffen inklusive Abrechnungsregeln
 * Erklären Sie die Indexklausel, Staffelklausel, Schiedsgutachterklausel.
-   * **Indexklausel:** Koppelung der Miethöhe an die Entwicklung des Verbraucherpreisindizes. Geregelt in § 557b BGB. 
-   * **Staffelklausel:** Festlegung von zukünftigen Mieterhöhungen bereits im Mietvertrag. Die Miete wird also für bestimmte Zeiträume in unterschiedlicher Höhe verbindlich vereinbart. Dem Vermieter ist es dann nicht möglich, weitere Mieterhöhungen vorzunehmen. Geregelt in § 557a BGB.
-   * **Schiedsgutachterklausel:** Über streitige Punkte wird für beide Parteien ein verbindliches Schiedsgutachten eingeholt. (siehe [hier.](https://www.essen.ihk24.de/recht-und-steuern/schlichtung/schiedsgutachterklausel-2096606))
+  * **Indexklausel:** Koppelung der Miethöhe an die Entwicklung des Verbraucherpreisindizes. Geregelt in § 557b BGB. 
+  * **Staffelklausel:** Festlegung von zukünftigen Mieterhöhungen bereits im Mietvertrag. Die Miete wird also für bestimmte Zeiträume in unterschiedlicher Höhe verbindlich vereinbart. Dem Vermieter ist es dann nicht möglich, weitere Mieterhöhungen vorzunehmen. Geregelt in § 557a BGB.
+  * **Schiedsgutachterklausel:** Über streitige Punkte wird für beide Parteien ein verbindliches Schiedsgutachten eingeholt. \(siehe [hier.](https://www.essen.ihk24.de/recht-und-steuern/schlichtung/schiedsgutachterklausel-2096606)\)
 * Wie lässt sich vermeiden, dass im Falle der Insolvenz eines Generalunternehmers, Subunternehmer noch bezahlt werden?
-   * Bei Insolvenz des Generalunternehmers besteht die Gefahr, dass Subunternehmer keine Zahlung erhalten, denn der Bauherr leistet an den Generalunternehmer. 
-   * TODO: Absicherungsmöglichkeiten
+  * Bei Insolvenz des Generalunternehmers besteht die Gefahr, dass Subunternehmer keine Zahlung erhalten, denn der Bauherr leistet an den Generalunternehmer. 
+  * TODO: Absicherungsmöglichkeiten
 * _Genügt die E-Mail der Schriftform? Genügt das Telefax der Schriftform?_
-   * E-Mail und Telefax genügen der Schriftform nicht, es sei denn, das unterschriebene Dokument ist mit einer elektronischen Signatur versehen.
-   * Hintergrund ist, dass bei elektronischer Übermittlung nur eine Kopie übermittelt wird und diese verändert werden kann. (siehe [hier.](https://www.haufe.de/recht/deutsches-anwalt-office-premium/reichen-telefax-oder-e-mail-aus-wenn-schriftform-gefordert-wird_idesk_PI17574_HI9471506.html))
-
+  * E-Mail und Telefax genügen der Schriftform nicht, es sei denn, das unterschriebene Dokument ist mit einer elektronischen Signatur versehen.
+  * Hintergrund ist, dass bei elektronischer Übermittlung nur eine Kopie übermittelt wird und diese verändert werden kann. \(siehe [hier.](https://www.haufe.de/recht/deutsches-anwalt-office-premium/reichen-telefax-oder-e-mail-aus-wenn-schriftform-gefordert-wird_idesk_PI17574_HI9471506.html)\)
 * Ist bei der Leihe Fruchtziehung möglich?
-   * Leihe berechtigt nur zum Gebrauch der Sache, nicht aber zur Fruchtziehung. (siehe [hier.](https://www.rechtsanwalt.com/urteil/gebrauchsueberlassungsvertraege/))
-
+  * Leihe berechtigt nur zum Gebrauch der Sache, nicht aber zur Fruchtziehung. \(siehe [hier.](https://www.rechtsanwalt.com/urteil/gebrauchsueberlassungsvertraege/)\)
 * Vergleichen Sie Werk- und Dienstvertrag.
-   * Bei Werkvertrag wird Erfolg geschuldet. Bei Dienstvertrag nicht.
-   * Oder anders gesagt, bei einem Werkvertrag wird nicht die Arbeitsleistung, sondern die Herstellung einer bestimmten Sache geschuldet. Ein Dienstvertrag schuldet hingegen eine Arbeitsleistung ohne konkreter Bindung an ein Projekt.
-   * **Beispiel Werkvertrag** Erstellung von Computerprogrammen. Es reicht nicht, dass programmiert wird. Viel mehr muss das gewünschte Ergebnis erzielt werden.
-
+  * Bei Werkvertrag wird Erfolg geschuldet. Bei Dienstvertrag nicht.
+  * Oder anders gesagt, bei einem Werkvertrag wird nicht die Arbeitsleistung, sondern die Herstellung einer bestimmten Sache geschuldet. Ein Dienstvertrag schuldet hingegen eine Arbeitsleistung ohne konkreter Bindung an ein Projekt.
+  * **Beispiel Werkvertrag** Erstellung von Computerprogrammen. Es reicht nicht, dass programmiert wird. Viel mehr muss das gewünschte Ergebnis erzielt werden.
 * _Wieso erfordern Immobilienverträge eine notarielle Beurkundung?_
-   * Warnfunktion des "privaten Häuslebauers", denn der Immobilienkauf stellt häufig ein einmaliges Vorhaben in seinem Leben dar.
-
+  * Warnfunktion des "privaten Häuslebauers", denn der Immobilienkauf stellt häufig ein einmaliges Vorhaben in seinem Leben dar.
 * Was versteht man unter einer Auflassungsvormerkung?
-   * Die Auflassungsvormerkung ist ein Konstrukt zum Schutz des Erwerbers eines Grundstücks. Sie soll verhindern, dass der Verkäufer das Grundstück ein zweites Mal verkauft oder zum Schutz des Käufers, wenn er bereits Zahlungen leistet, aber noch nicht im Grundbuch eingetragen ist. Die Auflassungsvormerkung in Abteilung II des Grundbuches eingetragen. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/auflassungsvormerkung-27887))
-
+  * Die Auflassungsvormerkung ist ein Konstrukt zum Schutz des Erwerbers eines Grundstücks. Sie soll verhindern, dass der Verkäufer das Grundstück ein zweites Mal verkauft oder zum Schutz des Käufers, wenn er bereits Zahlungen leistet, aber noch nicht im Grundbuch eingetragen ist. Die Auflassungsvormerkung in Abteilung II des Grundbuches eingetragen. \(siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/auflassungsvormerkung-27887)\)
 * _Was versteht man unter einem Vorkaufsrecht?_
-   * Bei einem Grundstücksverkauf, kann der derjenige, zu dessen Gunsten ein Vorkaufsrecht im Grundbuch eingetragen ist, beanspruchen, dass ihm das Grundstück zu gleichen Bedingungen überragen wird. (siehe [hier.](https://www.drklein.de/finanzlexikon/vorkaufsrecht.html))
-   * **Beispiel:** Vorkaufsrecht der Gemeinde
-
+  * Bei einem Grundstücksverkauf, kann der derjenige, zu dessen Gunsten ein Vorkaufsrecht im Grundbuch eingetragen ist, beanspruchen, dass ihm das Grundstück zu gleichen Bedingungen überragen wird. \(siehe [hier.](https://www.drklein.de/finanzlexikon/vorkaufsrecht.html)\)
+  * **Beispiel:** Vorkaufsrecht der Gemeinde
 * _Ist die Vereinbarung eines Kontokorrentvorbehalts zulässig? Ist die Vereinbarung eines Konzernvorbehalts zulässig? Was sind zulässige Alternativen?_
-   * Der Konzernvorbehalt nach § 449 Abs. 3 ist auf Verkäuferseite unwirksam.
-   * Der Konzernvorbehalt ist zulässig, wenn Eigentumsübergang davon abhängig gemacht wird, dass Forderungen des Verkäufers gegenüber Dritten erfüllt werden, die mit dem Käufer konzernmäßig verbunden sind. (siehe [hier.](https://www.juracademy.de/sachenrecht3/eigentumsvorbehalt.html))
-
+  * Der Konzernvorbehalt nach § 449 Abs. 3 ist auf Verkäuferseite unwirksam.
+  * Der Konzernvorbehalt ist zulässig, wenn Eigentumsübergang davon abhängig gemacht wird, dass Forderungen des Verkäufers gegenüber Dritten erfüllt werden, die mit dem Käufer konzernmäßig verbunden sind. \(siehe [hier.](https://www.juracademy.de/sachenrecht3/eigentumsvorbehalt.html)\)
 * _Welchen Vorteil bietet die Sicherungsübereignung gegenüber dem Pfandrecht? Was ist der Nachteil?_
-   * Der Vorteil der Sicherungsübereignung ist, dass Sie keine physische Übergabe des Sicherungsgegenstands wie beim Pfandrecht erfordert. Die Übergabe wird ersetzt durch ein Übergabesurrogat.
-   * **Beispiel:** Anstatt ein KFZ zu übergeben, wird der 2. Teil der Zulassungsbescheinigung an den Gläubiger übergeben. Der Sicherungsgeber kann dann das Fahrzeug nicht mehr gutgläubig veräußern.
-   * Vorteilhaft ist, dass der Sicherungsgeber kann weiterhin mit der Sache arbeiten. Es entstehen ihm keine Kosten für Verwahrung des Pfands.
-   * Nachteilig ist, dass ein gewisses Restrisiko besteht, dass der Schuldner die Sache nicht doch veräußert.
-   * Nachteilig ist, dass Schuldner die Sache adäquat versichern muss, da sie als Sicherheit dient.
-
+  * Der Vorteil der Sicherungsübereignung ist, dass Sie keine physische Übergabe des Sicherungsgegenstands wie beim Pfandrecht erfordert. Die Übergabe wird ersetzt durch ein Übergabesurrogat.
+  * **Beispiel:** Anstatt ein KFZ zu übergeben, wird der 2. Teil der Zulassungsbescheinigung an den Gläubiger übergeben. Der Sicherungsgeber kann dann das Fahrzeug nicht mehr gutgläubig veräußern.
+  * Vorteilhaft ist, dass der Sicherungsgeber kann weiterhin mit der Sache arbeiten. Es entstehen ihm keine Kosten für Verwahrung des Pfands.
+  * Nachteilig ist, dass ein gewisses Restrisiko besteht, dass der Schuldner die Sache nicht doch veräußert.
+  * Nachteilig ist, dass Schuldner die Sache adäquat versichern muss, da sie als Sicherheit dient.
 * _Was ist eine Eigentümergrundschuld? Welche Vorteile bietet eine Eigentümergrundschuld?_
-   * Grundschuld, bestellt für den Grundstückseigentümer. 
-   * Mit einer Eigentümergrundschuld lässt sich eine Rangstelle für spätere Belastungen sichern. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/eigentuemergrundschuld-34799))
-
+  * Grundschuld, bestellt für den Grundstückseigentümer. 
+  * Mit einer Eigentümergrundschuld lässt sich eine Rangstelle für spätere Belastungen sichern. \(siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/eigentuemergrundschuld-34799)\)
 * Nennen Sie Erklärungs- und Beweisfunktion. Nennen Sie dabei ein Beispiel.
-   * **Warnfunktion:** Vereinbarte Form dient dazu, Parteien zu warnen.
-   * **Beweisfunktion:** Bessere Nachvollziehbarkeit im Streitfall. 
-
+  * **Warnfunktion:** Vereinbarte Form dient dazu, Parteien zu warnen.
+  * **Beweisfunktion:** Bessere Nachvollziehbarkeit im Streitfall. 
 * _Was ist ein Sach- und Rechtsmangel? Erklären Sie anhand eines Beispiels._
-   * Abweichung von Soll- und Ist-Beschaffenheit.
-   * Sachmangel besteht, wenn der Sache ein Mangel anhaftet z. B. fehlerhafte Montage, asbesthaltige Baustoffe. 
-   * Rechtsmangel besteht, wenn Rechte Dritter am Kaufgegenstand bestehen z. B. Eintragungsvormerkung oder Dienstbarkeiten, sodass der Käufer diese nicht erwerben kann. (siehe [hier.](https://www.luebbers24.de/immobilienvermittlung/themen/sach-und-rechtsmaengel))
-
+  * Abweichung von Soll- und Ist-Beschaffenheit.
+  * Sachmangel besteht, wenn der Sache ein Mangel anhaftet z. B. fehlerhafte Montage, asbesthaltige Baustoffe. 
+  * Rechtsmangel besteht, wenn Rechte Dritter am Kaufgegenstand bestehen z. B. Eintragungsvormerkung oder Dienstbarkeiten, sodass der Käufer diese nicht erwerben kann. \(siehe [hier.](https://www.luebbers24.de/immobilienvermittlung/themen/sach-und-rechtsmaengel)\)
 * _Was unterscheidet Rücktritt, Minderung und Schadensersatz?_
-   * **Rücktritt:** Rückwirkende Aufhebung eines Vertrages, sofern das Recht auf Rücktritt vertraglich oder gesetzlich vorgesehen ist. Beispiel: Haustürgeschäfte. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/ruecktritt-43416))
-   * **Minderung:** Herabsetzung des des Preises eines Kauf-, Werk- oder Reisevertrags derart, dass Preis zum Zeitpunkt des Kaufabschlusses dem der mängelfreien Leistung entspricht. (siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/minderung-37098)) Beispiel: Gebrauchtwagenkauf
-   * **Schadensersatz:** Ausgleich eines Schadens, der einem anderen durch einem vom Ersatzpflichtigen zu vertretenden Umstand erwachsen ist. Beispiel: Ersatzbeschaffungskosten
-
+  * **Rücktritt:** Rückwirkende Aufhebung eines Vertrages, sofern das Recht auf Rücktritt vertraglich oder gesetzlich vorgesehen ist. Beispiel: Haustürgeschäfte. \(siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/ruecktritt-43416)\)
+  * **Minderung:** Herabsetzung des des Preises eines Kauf-, Werk- oder Reisevertrags derart, dass Preis zum Zeitpunkt des Kaufabschlusses dem der mängelfreien Leistung entspricht. \(siehe [hier.](https://wirtschaftslexikon.gabler.de/definition/minderung-37098)\) Beispiel: Gebrauchtwagenkauf
+  * **Schadensersatz:** Ausgleich eines Schadens, der einem anderen durch einem vom Ersatzpflichtigen zu vertretenden Umstand erwachsen ist. Beispiel: Ersatzbeschaffungskosten
 * _Für welches Recht ist keine Rechteeinräumung in Form einer Übertragung möglich?_
-   * Nicht möglich beim Urheberrecht (Folie 15)
-
+  * Nicht möglich beim Urheberrecht \(Folie 15\)
 * _Handelt es sich bei dem Geschäftsführer-Anstellungsvertrag um einen Arbeitsvertrag? Warum nicht?_
-   * Beim Geschäftsführer-Anstellungsvertrag handelt es sich um einen Dienstvertrag nach § 611 BGB.
-   * Die Frage, ob ein Geschäftsführer auch Arbeitnehmer sein kann, wird von den Gerichten unterschiedlich ausgelegt. (siehe [hier.](https://www.hensche.de/Rechtsanwalt_Arbeitsrecht_Handbuch_Geschaeftsfuehrer_Anstellungsvertrag.html))
-
+  * Beim Geschäftsführer-Anstellungsvertrag handelt es sich um einen Dienstvertrag nach § 611 BGB.
+  * Die Frage, ob ein Geschäftsführer auch Arbeitnehmer sein kann, wird von den Gerichten unterschiedlich ausgelegt. \(siehe [hier.](https://www.hensche.de/Rechtsanwalt_Arbeitsrecht_Handbuch_Geschaeftsfuehrer_Anstellungsvertrag.html)\)
 * _Beurteilen Sie den Schuldbeitritt aus Sicht des Gläubigers und aus Sicht des Schuldners hinsichtlich der Verwertungsmöglichkeit._
-   * Bei einem Schuldbeitritt tritt ein Dritter als neuer Schuldner in ein Schuldverhältnis ein. Er verpflichtet sich zusätzlich zum Schuldner für dieselbe Verbindlichkeit einzustehen.
-   * Vorteilhaft für Gläubiger, da kein Rangverhältnis besteht und er sein Kreditausfallrisiko reduzieren kann.
-
+  * Bei einem Schuldbeitritt tritt ein Dritter als neuer Schuldner in ein Schuldverhältnis ein. Er verpflichtet sich zusätzlich zum Schuldner für dieselbe Verbindlichkeit einzustehen.
+  * Vorteilhaft für Gläubiger, da kein Rangverhältnis besteht und er sein Kreditausfallrisiko reduzieren kann.
 * _Wann ist die Vereinbarung einer Bürgschaft auf erstes Anfordern sinnvoll? Wann sollte eine selbstschuldnerische Bürgschaft vereinbart werden?_
-   * Gut für Gläubiger, da sich damit schnell Ansprüche durchsetzen lassen und er sich damit Liquidität verschaffen kann. Ansprüche lassen sich einfacher durchsetzen, da für den Bürgen kaum Möglichkeiten bestehen, eine Inanspruchnahme zu verhindern. Etwa verzichtet er auf Einrede der Vorausklage. (siehe [hier.](https://de.wikipedia.org/wiki/B%C3%BCrgschaft_auf_erste_Anforderung))
-
-* _Wie haften Gesellschafter während der Gründung einer GmbH (Vorgründungsgesellschaft / Vor-GmbH)?_
-   * Es finden die Regelungen zur GbR Anwendung.
-   * Gesellschaft haftet mit Vermögen, das sie besitzt. Für Forderungen, welche die Vermögensmasse der Gesellschaft übersteigen, haften die Gesellschafter mit Ihrem Privatvermögen uneingeschränkt. Individuelle Regelungen möglich. (siehe [hier.](https://www.steuba.de/gmbh/gmbh-vorgruendungsgesellschaft/#Welcher_Haftung_sind_die_Gruender_bei_einer_GmbH_in_Gruendung_ausgesetzt))
-
+  * Gut für Gläubiger, da sich damit schnell Ansprüche durchsetzen lassen und er sich damit Liquidität verschaffen kann. Ansprüche lassen sich einfacher durchsetzen, da für den Bürgen kaum Möglichkeiten bestehen, eine Inanspruchnahme zu verhindern. Etwa verzichtet er auf Einrede der Vorausklage. \(siehe [hier.](https://de.wikipedia.org/wiki/B%C3%BCrgschaft_auf_erste_Anforderung)\)
+* _Wie haften Gesellschafter während der Gründung einer GmbH \(Vorgründungsgesellschaft / Vor-GmbH\)?_
+  * Es finden die Regelungen zur GbR Anwendung.
+  * Gesellschaft haftet mit Vermögen, das sie besitzt. Für Forderungen, welche die Vermögensmasse der Gesellschaft übersteigen, haften die Gesellschafter mit Ihrem Privatvermögen uneingeschränkt. Individuelle Regelungen möglich. \(siehe [hier.](https://www.steuba.de/gmbh/gmbh-vorgruendungsgesellschaft/#Welcher_Haftung_sind_die_Gruender_bei_einer_GmbH_in_Gruendung_ausgesetzt)\)
 * _Für welche Art von Sachen kann ein Eigentumsvorbehalt vereinbart werden? Auch für Rechte?_
-   * Gem. § 449 kann ein Eigentumsvorbehalt für **bewegliche Sachen** vereinbart werden.
-   * Keine Zulässigkeit bei unbeweglichen Sachen oder Rechten.
-
-* _Welche Vorteile bieten Mischformen wie GmbH & Co. KG und warum existieren sie?_ 
-   * Ausschluss der persönlichen Haftung der Gesellschafter, denn die Gesellschafter der Komplementär GmbH haften ebenso wie die Gesellschafter der GmbH & Co. KG nur mit ihrer Einlage.
-
+  * Gem. § 449 kann ein Eigentumsvorbehalt für **bewegliche Sachen** vereinbart werden.
+  * Keine Zulässigkeit bei unbeweglichen Sachen oder Rechten.
+* _Welche Vorteile bieten Mischformen wie GmbH & Co. KG und warum existieren sie?_
+  * Ausschluss der persönlichen Haftung der Gesellschafter, denn die Gesellschafter der Komplementär GmbH haften ebenso wie die Gesellschafter der GmbH & Co. KG nur mit ihrer Einlage.
 * _Was unterscheidet Immaterial- von Sachgütern?_
-   * Sachgüter z. B. Maschinen sind körperlich Vermögensgestände / physisch greifbar.
-   * Immaterialgüter z. B. Patente unkörperliche Vermögengestände / nicht physisch greifbar.
-
+  * Sachgüter z. B. Maschinen sind körperlich Vermögensgestände / physisch greifbar.
+  * Immaterialgüter z. B. Patente unkörperliche Vermögengestände / nicht physisch greifbar.
 * _Zuletzt sind die Holzpreise stark gestiegen. Bei welcher Form z. B. Detailpreis-Vertrag besteht ein Anpassungsrecht?_
-   * **Einheitspreisvertrag:** Einzelpreise sind fest vereinbart. Schwankende Rohstoffpreise können nicht auf den Bauherrn umgelegt werden. Anders sieht es aus, falls mengenmäßig mehr Holz verbaut wird, die tatsächliche Leistungsmenge verändert sich also, so bestehen Anpassungsmöglichkeiten bei Abweichungen größer 10 %. (siehe [hier.](https://tyroller.info/2018/07/27/preisanpassungsverlangen-beim-vob-einheitspreisvertrag/))
-   * **Detail-Pauschalvertrag:** Keine Umlegung höherer Einkaufspreise möglich, da Pauschalisierung der Positionen im Leistungsverzeichnis. Einheitspreis ist fixiert. (siehe [hier.](https://www.bauprofessor.de/detailpauschalvertrag/))
-   * **Global-Pauschalvertrag:** Keine Umlegung höherer Einkaufspreise möglich, da Pauschalisierung. (siehe [hier](https://www.anwalt.de/rechtstipps/baurecht-der-pauschalpreisvertrag_168764.html))
-
+  * **Einheitspreisvertrag:** Einzelpreise sind fest vereinbart. Schwankende Rohstoffpreise können nicht auf den Bauherrn umgelegt werden. Anders sieht es aus, falls mengenmäßig mehr Holz verbaut wird, die tatsächliche Leistungsmenge verändert sich also, so bestehen Anpassungsmöglichkeiten bei Abweichungen größer 10 %. \(siehe [hier.](https://tyroller.info/2018/07/27/preisanpassungsverlangen-beim-vob-einheitspreisvertrag/)\)
+  * **Detail-Pauschalvertrag:** Keine Umlegung höherer Einkaufspreise möglich, da Pauschalisierung der Positionen im Leistungsverzeichnis. Einheitspreis ist fixiert. \(siehe [hier.](https://www.bauprofessor.de/detailpauschalvertrag/)\)
+  * **Global-Pauschalvertrag:** Keine Umlegung höherer Einkaufspreise möglich, da Pauschalisierung. \(siehe [hier](https://www.anwalt.de/rechtstipps/baurecht-der-pauschalpreisvertrag_168764.html)\)
 * _Beurteilen Sie die Garantie aus Sicht des Gläubigers und Schuldners._
-   * Verwertbarkeit ähnlich zu Bürgschaft auf erstes Anfordern (siehe oben.)
-   * Gut für Gläubiger, da typischerweise auf erstes Anfordern zahlbar d. h. es greifen keine Einreiden oder Einwendungen aus dem Grundgeschäft. (sieh [hier.](https://www.hypovereinsbank.de/content/dam/hypovereinsbank/unternehmen/pdf/Downloadcenter/PP-Aussenhandel-Praxisinfo.pdf))
-
+  * Verwertbarkeit ähnlich zu Bürgschaft auf erstes Anfordern \(siehe oben.\)
+  * Gut für Gläubiger, da typischerweise auf erstes Anfordern zahlbar d. h. es greifen keine Einreiden oder Einwendungen aus dem Grundgeschäft. \(sieh [hier.](https://www.hypovereinsbank.de/content/dam/hypovereinsbank/unternehmen/pdf/Downloadcenter/PP-Aussenhandel-Praxisinfo.pdf)\)
 * _Was unterscheidet Garantie und Bürgschaft?_
-   * Bürgschaft ist akzessorisch d. h. vom Bestehen der Forderung abhängig.
-   * Garantie abstrakt d. h. vom Bestehen der Forderung unabhängig.
-
+  * Bürgschaft ist akzessorisch d. h. vom Bestehen der Forderung abhängig.
+  * Garantie abstrakt d. h. vom Bestehen der Forderung unabhängig.
 * _Vergleichen Sie Einheitspreisvertrag, Detail-Pauschalvertrag, Global-Pauschalvertrag aus Sicht des Bauherrn und des Bauunternehmens. Welche Variante ist vorteilhafter und warum?_
-   * Beim Einheitspreisvertrag erfolgt keine Pauschalisierung. Bauleistungen werden nach einem Einheitspreis und der voraussichtlichen Menge bestimmt. Weicht die tatsächlich eingesetzte Menge ab, so bestehen Anpassungsmöglichkeiten. Der Einheitspreisvertrag birgt das größte Risiko, da insb. ein höherer Materialeinsatz auf den Verbraucher umgelegt werden kann. Gleichzeitig handelt es sich um die günstigste Variante. 
-   * Bei einem Detail-Pauschalvertrag erfolgt eine Detailpauschalierung d. h. für die Leistungsposition des Leistungsverzeichnisses ermittelt aus Leistungsmenge und Einheitspries wird eine Pauschalisierung vorgenommen. Für Verbraucher bleibt Betrag aus Leistungsposition gleich, wenn mehr Material eingesetzt wird. Bei erheblichen Abweichungen besteht aber ein Ausgleichsanspruch. Mittelmäßiges Risiko für Bauherr, da Bauunternehmer Forderungen für nicht pauschalisierte Leistungen verlangen kann.
-   * Beim Global-Pauschalvertrag besteht Preissicherheit für den Bauherrn. Es wird lediglich das Ziel der Leistung festgelegt, weswegen kein detailliertes Leistungsverzeichnis erforderlich ist. Häufig mit hohen Preisaufschlägen verbunden, da Risiko durch Bauunternehmen mit eingepreist wird.
+  * Beim Einheitspreisvertrag erfolgt keine Pauschalisierung. Bauleistungen werden nach einem Einheitspreis und der voraussichtlichen Menge bestimmt. Weicht die tatsächlich eingesetzte Menge ab, so bestehen Anpassungsmöglichkeiten. Der Einheitspreisvertrag birgt das größte Risiko, da insb. ein höherer Materialeinsatz auf den Verbraucher umgelegt werden kann. Gleichzeitig handelt es sich um die günstigste Variante. 
+  * Bei einem Detail-Pauschalvertrag erfolgt eine Detailpauschalierung d. h. für die Leistungsposition des Leistungsverzeichnisses ermittelt aus Leistungsmenge und Einheitspries wird eine Pauschalisierung vorgenommen. Für Verbraucher bleibt Betrag aus Leistungsposition gleich, wenn mehr Material eingesetzt wird. Bei erheblichen Abweichungen besteht aber ein Ausgleichsanspruch. Mittelmäßiges Risiko für Bauherr, da Bauunternehmer Forderungen für nicht pauschalisierte Leistungen verlangen kann.
+  * Beim Global-Pauschalvertrag besteht Preissicherheit für den Bauherrn. Es wird lediglich das Ziel der Leistung festgelegt, weswegen kein detailliertes Leistungsverzeichnis erforderlich ist. Häufig mit hohen Preisaufschlägen verbunden, da Risiko durch Bauunternehmen mit eingepreist wird.
 
-   

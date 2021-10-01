@@ -7,6 +7,7 @@
 * [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 * [Selbsttestfragen](analysetechniken-grosser-datenbestaende/selbsttestfragen/README.md)
   * [Einführung](analysetechniken-grosser-datenbestaende/selbsttestfragen/einfuehrung.md)
+* [Zusammenfassung](https://github.com/allekai/AGD)
 
 ## Advanced Machine Learning
 
