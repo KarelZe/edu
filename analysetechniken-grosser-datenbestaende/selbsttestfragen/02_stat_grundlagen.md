@@ -7,6 +7,7 @@
 
 
 
+  * TODO: Hier Formeln aufnehmen / korrigieren.
   * **Algebraisch**: Es gibt Funktion G, die M-Tupel liefert, und H, so dass F\({Xi,j}\) = H\({G\({Xi,j\| i=1,
 
     ..., I}\) \| j=1, ..., J}\). M ist apriori bekannt, ebenso der Typ der Tupel. Zwei
@@ -39,7 +40,7 @@
 * Sehen Sie einen allgemeinen Zusammenhang zwischen distributiv/algebraisch/holistisch auf der einen und self-maintainable auf der anderen Seite? \(Es gibt einen.\)
   * Da bei holistischen Aggregatfunktionen sowieso auf die gesamte Datenmenge
 
-    zurückgegriffen werden muss, können diese nicht self-maintainable sein.
+    zurückgegriffen werden muss, können diese nicht _self-maintainable_ sein.
 
   * Bei distributiven und algebraischen Aggregatfunktionen kommt es immer auf die
 
@@ -52,38 +53,42 @@
 
   $$H(S)=-\sum_{j} p_{j} * \log p_{j}=-\sum_{i=1}^{n} \frac{1}{n} * \log \frac{1}{n}=-n *\left(\frac{1}{n} *\left(\log 1-\log n\right)\right)=-1 *\left(0-\log n\right)=\log n$$
 
-  * $H\(S\) \in \(0;\infty\)$
+  * $$H(S) \in (0;\infty)$$
 
 * Welche Möglichkeiten kennen Sie, die Stärke des Zusammenhangs zwischen zwei Zufallsvariablen zu quantifizieren?
   * Kovarianz:
-  * $\text { Cov }\(x, y\)=\frac{\sum_{i=1}^{N}\left\(x_{i}-\bar{x}\right\)\left\(y\_{i}-\bar{y}\right\)}{N-1}$
+  * $$\text { Cov }(x, y)=\frac{\sum{i=1}^{N}\left(x{i}-\bar{x}\right)\left(y_{i}-\bar{y}\right)}{N-1}$$
   * Korrelation
   * Regressionsanalyse
 * Welche statistischen Tests kennen Sie? Wofür genau sind die einzelnen Tests gut?
-  * Chi-Quadrat-Test:  Test, ob zwei Variablen $X$ und $Y$ unabhängig sin.
+  * Chi-Quadrat-Test:  Test, ob zwei Variablen $$X$$ und $$Y$$ unabhängig sin.
   * Kolmogorow-Smirnow-Test: Test, ob zwei Verteilungen übereinstimmen.
   * Wilcoxon-Mann-Whitney-Test / U-Test: Test, ob Mediane zweier Verteilung statistisch signifikant sind.
     * H0-Hypothese: identischer Median der Verteilungen
     * H1-Hypothese: Die Mediane der Verteilungen unterscheiden sich nicht.
 * Was bedeutet Dimensionality Reduction? Welche Möglichkeiten der Dimensionality Reduction kennen Sie?
-  * Dimensionality Reduction: Ansatz, um die Anzahl der Attribute zu reduzieren.
-  * Abgrenzung zu Numerosity Reduction: Numerosity Reduction reduziert die Anzahl der Datenobjekte
-  * PCA: Verringerung der Attribute, indem man die Attribute auf einen Unterraum projeziert.  Die Datenobjekte werden auf eine Hyperebene projeziert, für  diejenige der Datenverlust minimal ist.  Auswahl gelingt durch Bestimmung der Eigenvektoren. Dimensionen, für welche die Varianz maximal ist, werden beibehalten.
+  * **Dimensionality Reduction:** Ansatz, um die Anzahl der Attribute zu reduzieren.
+  * **Abgrenzung zu Numerosity Reduction:** Numerosity Reduction reduziert die Anzahl der Datenobjekte
+  * PCA: Verringerung der Attribute, indem man die Attribute auf einen Unterraum projiziert.  Die Datenobjekte werden auf eine Hyperebene projiziert, für  diejenige der Datenverlust minimal ist.  Auswahl gelingt durch Bestimmung der Eigenvektoren. Dimensionen, für welche die Varianz maximal ist, werden beibehalten.
   * Singular Value Decomposition \(SVD\)
   * Latent Semantic Indexing \(LSI\)
 * Welche Diskretisierungsverfahren kennen Sie? Wie findet man jeweils den besten Merge bzw. Split?
   * Merge \(z. B. Chi-Merge\)- oder Split-basierte Diskretisierung
-  * Besten Split mittels Entropie finden für $S$ in $S_{1}$ und $S_{2}$ mit Begrenzung $T$:
-  * $_\text{Entropie}\text {Split}\(S, T\)=\frac{\left\|S{1}\right\|}{\|S\|} \cdot\text{Entropie}\left\(S{1}\right\)+\frac{\left\|S{2}\right\|}{\|S\|} \cdot\text{Entropie}\left\(S{2}\right\)_$
+  * Besten Split mittels Entropie finden für $$S$$ in $$S{1}$$ _und_ $$S{2}$$ mit Begrenzung $$T$$:
+  * $$\text{Entropie}\text {Split}(S, T)=\frac{\left|S{1}\right|}{|S|} \cdot\text{Entropie}\left(S{1}\right)+\frac{\left|S{2}\right|}{|S|} \cdot\text{Entropie}\left(S{2}\right)$$
   * Besten Merge finden, indem man benachbarte Intervalle zu einem größeren Intervall zusammenlegt, solange bis Abbruchkriterium erreicht wird.
   * **Chi-Merge**
     * Finde 'beste' benachbarte Intervalle und führ sie zu größerem Intervall zusammen. Wiederhole dies bis ein Abbruchkriterium erreicht ist.
     * Jeder Wert ist zunächst ein Intervall
-    * $\chi^2$- Test für alle Paare benachbarter Intervalle → Folgen der gleichen Verteiung?
-    * Menge benachbarter INtervalle mit kleinstem $\chi^2$-Wert
+    * $$\chi^2$$- Test für alle Paare benachbarter Intervalle → Folgen der gleichen Verteilung?
+    * Menge benachbarter Intervalle mit kleinstem $$\chi^2$$-Wert
     * Wiederholung bis Abbruchkriterium erreicht ist.
 * Wozu zählt der Truncated Average?
 * Warum ist 'häufigster Wert' holistisch?
 * Was unterscheidet top-down / bottom-up / merge-basierte / split-basierte splits?
 * Korrelation / Kovarianz vergleichen.
+* Ist Median anfällig für Ausreißer?
+* Ist arithmetisches Mittel anfällig für Ausreißer?
+* Wann ist die Anwendung eines Histogramms nicht sinnvoll?
+  * Falls nahezu bzw. alle Werte unterschiedlich sind, hat man mit einem Histogramm nichts gewonnen. Die Aufteilung in Buckets gestaltet sich dann schwierig.
 

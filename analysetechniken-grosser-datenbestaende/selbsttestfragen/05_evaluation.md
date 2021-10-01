@@ -1,7 +1,7 @@
 # Evaluation
 
 * Was ist die „10-fold cross validation“?
-  * Variante der Repeated-Hold-Out-Methode
+  * Variante der _Repeated-Hold-Out-Methode_
   * Partioniere das Datenset in $k = 10$ Partionen
 
     Verwende grundsätzlich $k−1$ Partitionen als Trainingsset und die übrige Partition zur Validierung.

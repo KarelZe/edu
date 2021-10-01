@@ -35,13 +35,13 @@ split (Datenbestand D) { # Umgang mit Overfitting bleibt hier noch außen vor!
 
   * Bei **Decision Tree mit Wahrscheinlichkeiten** erhält man auch Wahrscheinlichkeiten. D. h. man kann damit auch erwartete Kosten der Vorhersage minimieren. \(vlg. [stackexchange](https://stats.stackexchange.com/questions/193424/is-decision-tree-output-a-prediction-or-class-probabilities)\)
   * **Beispiel:**
-  * False Positive \(Vorhersage ist YES, Klasse ist NO\) kostet $10$, Miss \(Vorhersage ist NO, Klasse ist YES\) kostet $1$. Richtige Vorhersagen „kosten“ $0$.
-  * Classifier sagt für ein Objekt vorher: NO mit WS=$0.7$. Erwartete Kosten, wenn wir Vorhersage NO aufgreifen: $0,3 \times 1$, weil $\(0,3 \times 1 + 0,7 \times 0\)$.
+  * False Positive \(Vorhersage ist YES, Klasse ist NO\) kostet $$10$$, Miss \(Vorhersage ist NO, Klasse ist YES\) kostet $$1$$. Richtige Vorhersagen „kosten“ $$0$$.
+  * Classifier sagt für ein Objekt vorher: NO mit WS=$$0.7$$. Erwartete Kosten, wenn wir Vorhersage NO aufgreifen: $$0,3 \times 1$$, weil $$(0,3 \times 1 + 0,7 \times 0)$$.
 * Wann ist ein Entscheidungsbaum besser?
-  * Enscheidungsbäume sind gut erklärbar / gut nachvollziehbar
+  * Entscheidungsbäume sind gut erklärbar / gut nachvollziehbar
   * Kompakte Bäume sind zu bevorzugen.
 * Conditional Risk verbal erklären.
-  * Conditional Risk $R\(i \mid x\)=\sum\_j P\(j \mid x\) \cdot \operatorname{Cost}\(i, j\)$
+  * Conditional Risk $$R(i \mid x)=\sum_j P(j \mid x) \cdot \operatorname{Cost}(i, j)$$
   * $j$ ist mögliche tatsächliche Klasse
   * $i$ ist vorhergesagte Klasse \(d. h. Klasse auf die wir uns einstellen\)
   * $Cost\(i, j\)$ gem. Modell. Z. B. stehen Kosten für Kunde aus Klasse $j$ und  vorhergesagt für $_i_$ dafür, ob ich Kunde als guten oder schlechten Kunde behandele.
