@@ -14,12 +14,12 @@ _Wie kann man Overfitting vermeiden?_
 _Was ist Change Detection?_
 
 * Technik zur Erkennung wesentlicher Veränderung in einer Zeitreihe.
-* Gleichbedeutend mit einer Änderung in einer Wahrscheinlichkeitsverteilung.
+* Gleichbedeutend mit einer Änderung in einer Wahrscheinlichkeitsverteilung sprich deren Parameter.
 
 _Wie unterschieden sich multivariate von univariaten Datenströmen?_
 
 * **univariate Change-Detection:** Zeitreihenelemente sind eindimensional z. B. Börsenkurs
-* **multivariate Change-Detection:** mehrere Dimensionen z. B. $$(x,y)$$-Positionen \(zwei Dimensionen\) oder Vektor von Börsenkursen \(viele Dimensionen\). -&gt; Nicht ganz klar, was Change hier ist.
+* **multivariate Change-Detection:** mehrere Dimensionen z. B. $$(x,y)$$-Positionen \(zwei Dimensionen\) oder Vektor von Börsenkursen \(viele Dimensionen\). Nicht ganz klar, was Change hier ist.
 
 _Was sind Beispiele für Klassifikations-Algorithmen?_
 
@@ -29,8 +29,8 @@ _Was sind Beispiele für Klassifikations-Algorithmen?_
 
 _Was unterscheidet Attribute von Features?_
 
-* Attribut: Für Klassifikation bedingt hilfreich z. B. Temperatur-Werte
-* Features: Funktionen, die Attribute auf einen Wert abbildet z. B. Mittelwert der bisherigen Daten
+* **Attribut**: Für Klassifikation bedingt hilfreich z. B. Temperatur-Werte
+* **Features**: Funktionen, die Attribute auf einen Wert abbildet z. B. Mittelwert der bisherigen Daten
 
 _Was unterscheidet supervised von unsupervised clustering?_
 
@@ -49,7 +49,7 @@ _Welche Technologien zur Generierung von Daten, die nicht in der Vorlesung disku
 
 TODO:
 
-Vor- und Nachteile von supervised / unsupervised learning?
+_Vor- und Nachteile von supervised / unsupervised learning?_
 
 TODO:
 
