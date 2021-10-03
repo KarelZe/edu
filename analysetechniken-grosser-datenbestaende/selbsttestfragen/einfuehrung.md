@@ -39,17 +39,22 @@ _Was unterscheidet supervised von unsupervised clustering?_
 
 _Geben Sie Beispiele für Anwendungsgebiete, in denen Cluster anwendbar sind._
 
-TODO:
+- Spam-Filtering
+- Erkennung von Betrugsfällen
+- Erstellung von Taxonomien in der Biologie
 
 _Skizzieren Sie ein Szenario aus den Naturwissenschaften, in dem Klassifikation sinnvoll einsetzbar ist._
 
-TODO:
+- Entwicklung einer Maschine zur Sortierung von Bauteilen in vordefinierte Kategorien. Maschine hat Sensoren zur Erkennung des Materials und der Umrisse. Diese Daten dienen dem Klassifikationsalgorithmus als Input.
 
 _Welche Technologien zur Generierung von Daten, die nicht in der Vorlesung diskutiert wurden, kennen Sie?_
 
-TODO:
+- Smartphones z. B. Geoposition, 
+- Wearables z. B. Pulsuhr, Smarte Handschuhe in Produktion
 
 _Vor- und Nachteile von supervised / unsupervised learning?_
-
-TODO:
+- Man benötigt keine gelabelten Daten. Labeling ist oft teuer und mühsam. (+)
+- Das Labelling von Daten nach dem Clustering ist häufig einfacher. (+)
+- Unsupervised Learning can beim Verständnis der Rohdaten helfen. (+)
+- Unsupervised Learning ist subjektiver, da es kein Objective gibt. (-)
 
