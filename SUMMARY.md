@@ -25,9 +25,14 @@
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
 
-## AISS
+## Artificial Intelligence in Service Systems
 
-* [🧠 Anki-Deck](aiss/anki-deck.md)
+* [Anki-Deck](aiss/anki-deck.md)
+* [Musterlösungen Übungen](aiss/anki-deck.md)
+
+## Business Intelligence Systems
+
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Het. parallele Rechnerstrukturen
 
@@ -70,6 +75,12 @@
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
+## Internetrecht
+
+* [Mitschrift](internetrecht/mitschrift/README.md)
+  * [Vortrag 1](internetrecht/mitschrift/vortrag_1.md)
+  * [Vortrag 2](internetrecht/mitschrift/vortrag_2.md)
+
 ## Patentrecht
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
@@ -88,7 +99,7 @@
 * [Mindmap Paragraphen](vertragsgestaltung/mindmap-paragraphen.md)
 * [Mitschrift](vertragsgestaltung/mitschrift/README.md)
   * [Einführung / Überblick](vertragsgestaltung/mitschrift/einfuehrung-ueberblick.md)
-  * [Zivilrechtiche Grundlagen](vertragsgestaltung/mitschrift/zivilrechtiche-grundlagen.md)
+  * [Zivilrechtliche Grundlagen](vertragsgestaltung/mitschrift/zivilrechtiche-grundlagen.md)
   * [AGB-Recht](vertragsgestaltung/mitschrift/agb-recht.md)
   * [Basisinhalte eines Vertrags](vertragsgestaltung/mitschrift/basisinhalte-eines-vertrags.md)
   * [Übertragungsverträge](vertragsgestaltung/mitschrift/uebertragungsvertraege.md)
@@ -100,6 +111,10 @@
   * [Gesellschaftsrecht](vertragsgestaltung/mitschrift/gesellschaftsrecht.md)
   * [Klausurvorbereitung](vertragsgestaltung/mitschrift/klausurvorbereitung.md)
 * [Selbsttestfragen](vertragsgestaltung/selbsttestfragen.md)
+
+## Vertragsgestaltung in der IT
+
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Rechtliches
 
