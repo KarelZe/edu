@@ -2,28 +2,32 @@
 
 * [KIT](README.md)
 
-## Analysetechniken großer Datenbestände I <a id="analysetechniken-grosser-datenbestaende"></a>
+## Analysetechniken großer Datenbestände I <a href="#analysetechniken-grosser-datenbestaende" id="analysetechniken-grosser-datenbestaende"></a>
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
 * [Zusammenfassung](https://github.com/allekai/AGD)
 * [Selbsttestfragen](analysetechniken-grosser-datenbestaende/selbsttestfragen/README.md)
   * [Einführung](analysetechniken-grosser-datenbestaende/selbsttestfragen/einfuehrung.md)
-  * [Statistische Grundlagen](analysetechniken-grosser-datenbestaende/selbsttestfragen/02_stat_grundlagen.md)
-  * [Indexstrukturen](analysetechniken-grosser-datenbestaende/selbsttestfragen/03_indexstrukturen.md)
-  * [Entscheidungsbäume](analysetechniken-grosser-datenbestaende/selbsttestfragen/04_entscheidungsbaeume.md)
-  * [Evaluation](analysetechniken-grosser-datenbestaende/selbsttestfragen/05_evaluation.md)
-  * [Association Rules](analysetechniken-grosser-datenbestaende/selbsttestfragen/06_ar.md)
-  * [Optimierte AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/07_optim_ar.md)
-  * [Constrained AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/08_constrained_ar.md)
-  * [Clustering](analysetechniken-grosser-datenbestaende/selbsttestfragen/09_clustering.md)
-  * [Identifikation von Ausreißern](analysetechniken-grosser-datenbestaende/selbsttestfragen/10_outlier_detection.md)
+  * [Statistische Grundlagen](analysetechniken-grosser-datenbestaende/selbsttestfragen/02\_stat\_grundlagen.md)
+  * [Indexstrukturen](analysetechniken-grosser-datenbestaende/selbsttestfragen/03\_indexstrukturen.md)
+  * [Entscheidungsbäume](analysetechniken-grosser-datenbestaende/selbsttestfragen/04\_entscheidungsbaeume.md)
+  * [Evaluation](analysetechniken-grosser-datenbestaende/selbsttestfragen/05\_evaluation.md)
+  * [Association Rules](analysetechniken-grosser-datenbestaende/selbsttestfragen/06\_ar.md)
+  * [Optimierte AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/07\_optim\_ar.md)
+  * [Constrained AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/08\_constrained\_ar.md)
+  * [Clustering](analysetechniken-grosser-datenbestaende/selbsttestfragen/09\_clustering.md)
+  * [Identifikation von Ausreißern](analysetechniken-grosser-datenbestaende/selbsttestfragen/10\_outlier\_detection.md)
   * [Theory guided data science](analysetechniken-grosser-datenbestaende/selbsttestfragen/tgds.md)
 * [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 
 ## Advanced Machine Learning
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
-* [Selbsttestfragen](advanced-machine-learning/01_self_test.md)
+* [Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
+
+## AISS
+
+* [🧠 Anki-Deck](aiss/anki-deck.md)
 
 ## Het. parallele Rechnerstrukturen
 
@@ -32,7 +36,7 @@
 ## Maschinelles Lernen
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
-* [Selbsttestfragen](maschinelles-lernen/01_self_test.md)
+* [Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
 * [Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
 
 ## Parallelrechner
@@ -45,22 +49,22 @@
 
 ## Recommendersysteme
 
-* [Anki-Deck](recommendersysteme/00_anki.md)
+* [Anki-Deck](recommendersysteme/00\_anki.md)
 * [Bonusübung](https://github.com/KarelZe/recommendersysteme)
 * [Klausursammlung](recommendersysteme/klausursammlung/README.md)
-  * [Einführung / Grundlagen](recommendersysteme/klausursammlung/01_einfuehrung.md)
-  * [Klassifikation](recommendersysteme/klausursammlung/02_classification.md)
-  * [Mechanism Design Problems](recommendersysteme/klausursammlung/03_mechanism_design_problems.md)
-  * [Wert von Empfehlungen](recommendersysteme/klausursammlung/04_wert_empfehlungen.md)
-  * [Assoziationsregeln](recommendersysteme/klausursammlung/05_assoziationsregeln.md)
-  * [Ehrenberg-Recommender](recommendersysteme/klausursammlung/06_ehrenberg.md)
-  * [Collaborative Filtering](recommendersysteme/klausursammlung/09_collaborative_filtering.md)
-  * [Clustering](recommendersysteme/klausursammlung/10_clustering.md)
-  * [Cluster Modularity](recommendersysteme/klausursammlung/11_cluster_modularity.md)
-  * [Hubs / Authorities](recommendersysteme/klausursammlung/12_hubs_authoritities.md)
-  * [Entscheidungsbäume](recommendersysteme/klausursammlung/13_entscheidungsbaueme.md)
-  * [Messung Benutzerverhalten](recommendersysteme/klausursammlung/14_messung_benutzerverhalten.md)
-  * [Relevante Objekte empfehlen](recommendersysteme/klausursammlung/15_relevante_objekte.md)
+  * [Einführung / Grundlagen](recommendersysteme/klausursammlung/01\_einfuehrung.md)
+  * [Klassifikation](recommendersysteme/klausursammlung/02\_classification.md)
+  * [Mechanism Design Problems](recommendersysteme/klausursammlung/03\_mechanism\_design\_problems.md)
+  * [Wert von Empfehlungen](recommendersysteme/klausursammlung/04\_wert\_empfehlungen.md)
+  * [Assoziationsregeln](recommendersysteme/klausursammlung/05\_assoziationsregeln.md)
+  * [Ehrenberg-Recommender](recommendersysteme/klausursammlung/06\_ehrenberg.md)
+  * [Collaborative Filtering](recommendersysteme/klausursammlung/09\_collaborative\_filtering.md)
+  * [Clustering](recommendersysteme/klausursammlung/10\_clustering.md)
+  * [Cluster Modularity](recommendersysteme/klausursammlung/11\_cluster\_modularity.md)
+  * [Hubs / Authorities](recommendersysteme/klausursammlung/12\_hubs\_authoritities.md)
+  * [Entscheidungsbäume](recommendersysteme/klausursammlung/13\_entscheidungsbaueme.md)
+  * [Messung Benutzerverhalten](recommendersysteme/klausursammlung/14\_messung\_benutzerverhalten.md)
+  * [Relevante Objekte empfehlen](recommendersysteme/klausursammlung/15\_relevante\_objekte.md)
 
 ## Valuation
 
@@ -101,4 +105,3 @@
 
 * [Impressum](rechtliches/impressum.md)
 * [Lizenz](rechtliches/lizenz.md)
-
