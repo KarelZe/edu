@@ -80,12 +80,6 @@ description: >-
 * z. B. Dellen am Hintern nach Fettabsaugung → Schwierig man darf richtiges nicht einfach runternehmen, aber falsches auch nicht online lassen.
 * _Fazit:_ Für Plattform schwierig zu entscheiden, ob richtig.
 
-Fristen (klausurrelevant) 👆
-
-* Unverzüglich = ohne schuldhaftes Verzögern
-* Üblicherweise 7 Tage
-* (nachlesen)
-
 ## Haftungsprivilegien für Dienste der Informationsgesellschaft
 
 Geregelt in gesetzlicher Rahmen Europa, Art. 12-15 RL 2000/31. Notional umgesetzt im Telemedien-Gesetz z. B. §§ 7 ff.
@@ -122,7 +116,7 @@ Es gibt keine Überwachungspflicht seitens des Host-Providers.
 
 ### Auswege
 
-Es besteht asymmetrische Haftungsstruktur, die Provider dazu eher veranlasst zu sperren.
+Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu sperren.
 
 * **Push-Back:**
   * Hostprovider kann Beschwerde gegenüber Beschwerdeführer zurückweisen, weil er die Gründe nicht nachweisen kann.
