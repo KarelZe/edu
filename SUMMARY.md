@@ -27,8 +27,8 @@
 
 ## Artificial Intelligence in Service Systems
 
-* [Anki-Deck](aiss/anki-deck.md)
-* [Musterlösungen Übungen](aiss/anki-deck.md)
+* [🧠 Anki-Deck](aiss/anki-deck.md)
+*
 
 ## Business Intelligence Systems
 
@@ -78,8 +78,8 @@
 ## Internetrecht
 
 * [Mitschrift](internetrecht/mitschrift/README.md)
-  * [Vortrag 1](internetrecht/mitschrift/vortrag_1.md)
-  * [Vortrag 2](internetrecht/mitschrift/vortrag_2.md)
+  * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
+  * [Vortrag 2](internetrecht/mitschrift/vortrag\_2.md)
 
 ## Patentrecht
 
