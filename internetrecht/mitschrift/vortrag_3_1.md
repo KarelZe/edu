@@ -3,40 +3,51 @@ description: >-
   Mitschrift zum Vortrag mit dem Titel "IT und unlauterer Wettbewerb – Grundlagen und aktuelle Fragestellungen" von Prof. Dr. Stefan Ernst.
 ---
 
-### UWG (”Werberecht”)
+## Gesetz gegen unlauteren Wettbewerb (UWG)
 
-- Umsetzung der Werbefreiheit → Bewerbung im geschäftlichen Verkehr. Es besteht Handlungsfreiheit, allerdings bestehen bei Werberecht eine Reihe von Einschränkungen.
+- Auch "Werberecht".
+- Umsetzung der Werbefreiheit → Bewerbung im geschäftlichen Verkehr. 
+- Es besteht allgemeine Handlungsfreiheit, allerdings bestehen beim Werberecht eine Reihe von Einschränkungen.
 
 ### Zweck:
-
-- Verbraucher
-- Mitbewerber (z. B. weil Marktführer, neuen Marktteilnehmer dominieren würde)
-- sonstige Marktteilnehmer (z. B. geschäftliche Kunden etwa Kanzlei)
-- Allgemeine Leistungswettbewerb
+- Schutz von:
+    - Verbraucher (immer schutzbedürftig)
+    - Mitbewerber (z. B. weil Marktführer, neuen Marktteilnehmer dominieren würde)
+    - Sonstige Marktteilnehmer (z. B. geschäftliche Kunden etwa Kanzlei)
+    - Allgemeine Leistungswettbewerb
+- Es besteht Einschränkung auf *geschäftliche Handlungen*.
 
 ### Geschäftliche Handlungen:
 
 - Nur Werbung wenn geschäftlich, nicht z. B. Partei / religiöse Vereinigung.
-- Fraglich z. B. wann Influencer geschäftlich handelt
+- **Problem:** Fraglich z. B. wann Influencer geschäftlich / privat handelt.
 
 ### Abmahnung:
 
-- Aufforderung 1) nicht zu wiederholen 2) zahle Strafe bei Wiederholung 3) Anwaltskosten bezahlen.
-- Klingt gemein, ist aber effektiv und sachgerecht
+- Abmahnungen im UWG haben meist folgenden Aufbau:  
+    1. Aufforderung nicht zu wiederholen, 
+    2. zahle Strafe bei Wiederholung, 
+    3. Anwaltskosten bezahlen.
+- Klingt gemein, ist aber effektiv und sachgerecht.
 
 ### Unzulässig Werbung
+- **Verbote**:
+    1. **Rechtsbruch** z. B. Zigarettenwerbung
+    - **Herabsetzung von Mitbewerbern** z. B. Werbung von Netto vs. Edeka
+    2. **Vergleichende Werbung** z. B. Du hast die Wahl von Lidl. Nur erlaubt sofern sachlich.
+    3. **Irreführende Werbung** z. B. Abnehm-Mittel, das biologisch nicht helfen kann. Irreführende Werbung kann in Wort, Bild und als Geräusch erfolgen.
 
-- **Rechtsbruch** z. B. Zigarettenwerbung
-- **Herabsetzung von Mitbewerbern** z. B. Werbung von Netto vs. Edeka
-- **Vergleichende Werbung**
-- **Irreführende Werbung** z. B. Abnehm-Mittel, das biologisch nicht helfen kann.
-- **Fazit:** Werbung muss nach Lauterbarkeitsrecht klar und wahr (d. h. z. B. keine Mogelpackung) sein.
-- **Beispiel**: Radiowerbung für Eiernudeln. Radiowerbung began mit Hühner Gegacker, Nudeln bestanden aber aus Trockenei. Zielgruppe war Landbevölkerung. Es gibt zwei Arten Gegacker: prägnantes Lege Gegacker und Kommunikation Gegacker, da Lege Gegacker verwendet wurde, wird Frischei assoziiert.
-- **Beispiel**:
-    - **Behauptung**: “Mein Eis ist das Beste in Karlsruhe” → Ich behaupte das → Ob nun besser ist egal.
-    - **Behauptung**: “80 % der Studenten finden, dass die Pommes am besten schmecken.” → Man stellt Behauptung auf, dass Studie durchgeführt wurde. → Man muss es beweisen können, dass Studie gemacht wurde.
-    - **Behauptung**: Führendes Unternehmen → Behauptung, Innovationstreiber zu sein, Preisführer zu sein o. Ä. Alleinstellungsbehauptung, Spitzenstellungsbehauptung, Spitzengruppe (z. B. 4 Mrd. Unternehmen und 1 Unternehmen mit 5 Mio. Umsatz. Wäre irreführend, weil es eigentlich nur Top 4 gibt). **Beachte**: Unterschied zwischen: ein führendes Unternehmen z. B. Preisführer (eine Dimension) vs. das führende Unternehmen (mehrere Dimension).
-    - Behauptung “RedBull verleiht Flügel”, “Axe ist so verführerisch wie Schokolade” ist nicht irreführend, weil nicht realistisch. Piermont-Kirsche bei Ferrero ist fraglich, ob Werbung erfolgreich wäre.
+- **Fazit:** Prinzipien des Lauterbarkeitsrechts ist, Werbung muss  **klar** und **wahr** (d. h. z. B. keine Mogelpackung) sein.
+
+### Irreführung
+- **Beispiel für irreführende Werbung:**: Radiowerbung für Eiernudeln. Radiowerbung began mit Hühner Gegacker. Nudeln bestanden aber aus Trockenei. Zielgruppe war Landbevölkerung. Es gibt zwei Arten Gegacker: prägnantes Lege Gegacker und Kommunikation Gegacker, da Lege Gegacker verwendet wurde, wird Frischei assoziiert. Werbung war damit irreführend.
+
+- Worüber und wie führt man in die Irre? Man unterscheidet Tatsachenbehauptung und Werturteil.
+- **Beispiel für Behauptungen und Werturteile**:
+    - **Werturteil**: “Meine Pommes sind die Besten in Karlsruhe” → Ich behaupte das. → Ob nun besser ist egal. Keine Anwendung von § 5 UWG.
+    - **Tatsachenbehauptung**: “80 % der Studenten finden, dass die Pommes am besten schmecken.” → Man stellt Behauptung auf, dass Studie durchgeführt wurde. → Man muss es beweisen können, dass Studie gemacht wurde. Andernfalls irreführend.
+    - **Behauptung**: Führendes Unternehmen → Behauptung Innovationstreiber / Preisführer zu sein o. Ä. Alleinstellungsbehauptung, Spitzenstellungsbehauptung, Spitzengruppe (z. B. 4 Mrd. Unternehmen und 1 Unternehmen mit 5 Mio. Umsatz. Hier wäre irreführend, weil es eigentlich nur Top 4 gibt). **Beachte**: Unterschied zwischen: ein führendes Unternehmen z. B. Preisführer (eine Dimension; Spitzenstellung) vs. das führende Unternehmen (mehrere Dimension; Alleinstellung).
+    - **Behauptung**: Man muss nicht alles ernst nehmen, etwa: “RedBull verleiht Flügel”, “AXE ist so verführerisch wie Schokolade” ist nicht irreführend, weil nicht realistisch. Piermont-Kirsche bei Ferrero ist fraglich, ob Werbung erfolgreich wäre.
     - **Wert-Urteil:**
         - (prüfen, ob wirklich zu Wert-Urteil zugehörig)
         - dauerhafte Streich-Preise sind urzulässig (z. B. Teppichhändler, der bei Eröffnung bereits Rabatte hatte).
