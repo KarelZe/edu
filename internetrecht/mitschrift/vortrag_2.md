@@ -141,14 +141,16 @@ Nutzung mit vertraglicher Erlaubnis:
       * Pro:
         * Anpassung an nationale Erfordernisse
         * Kleinere Beteiligte führen zu weniger Unsicherheiten z. B. kleine Plattformen
-        * Weniger strategische Gesetzgebung d. h. as nicht durch Gesetzgeber geregelt, wird durch Gerichte geregelt. Man will entgegenwirken, dass einzelne Akteure klagen, um Gesetze noch zu ihren Gunsten zu verschieben. ("Schwierige Fälle machen schlechte Gesetze")
+        * Weniger strategische Gesetzgebung d. h. es nicht durch Gesetzgeber geregelt, wird durch Gerichte geregelt. Man will entgegenwirken, dass einzelne Akteure klagen, um Gesetze noch zu ihren Gunsten zu verschieben. ("Schwierige Fälle machen schlechte Gesetze")
       * Contra:
         * Weitere Fragmentierung von digitalem Binnenmarkt
         * Endgültige Gewissheit / letztes Wort nur durch Entscheidung des Europäischen Gerichtshofs (ECJ)
         * Gefahr der Auslegung entgegen des EU Gesetzes (Gefahr der Staatshaftung)
-    * Abwägung zwischen Blockierungsanfrage und User-Rechten. Hierfür sind automatische Systeme (sg. Uploadfilter notwendig). Diese können aber nicht verlässlich Schrankennutzung z. B. Zitate, Parodie erkennen. Wichtige Frage ist also, was muss ex-ante blockiert werden d. h. darf niemals online gehen und was darf später noch entfernt werden? -**Visualisierung:** Erstmal visualisieren z. B. im Film mit Story board, in der Informatik mit Pseudocode. Passiert ähnlich auch bei der Entwicklung der Struktur des Gesetzes (z. B. [Visualisierung](vortrag\_1.md)) -**Schreiben:** Texten nach dem Hamburger Modell d. h. Einfachheit, Gliederung / Ordnung, Kürzung / Prägnanz, Anregende Zusätze.
+    * Abwägung zwischen Blockierungsanfrage und User-Rechten. Hierfür sind automatische Systeme (sg. Uploadfilter notwendig). Diese können aber nicht verlässlich Schrankennutzung z. B. Zitate, Parodie erkennen. Wichtige Frage ist also, was muss ex-ante blockiert werden d. h. darf niemals online gehen und was darf später noch entfernt werden?&#x20;
+    * **Visualisierung:** Erstmal visualisieren z. B. im Film mit Story board, in der Informatik mit Pseudocode. Passiert ähnlich auch bei der Entwicklung der Struktur des Gesetzes (z. B. [Visualisierung](vortrag\_1.md))&#x20;
+    * **Schreiben:** Texten nach dem Hamburger Modell d. h. Einfachheit, Gliederung / Ordnung, Kürzung / Prägnanz, Anregende Zusätze.
     * Vor dem Schreiben der Textblöcke, werden erstmal die Textbausteine in Verbindung zueinander gesetzt. Kumulative Logik kann durch Verzweigungen abgebildet werden. Boolesche Algebra aber allein vermutlich nicht ausreichend.
-    * Mit Diskussionsentwurf können relativ unvoreingenommen präsentiert werden.Grundlage für Regierungsentwurf.
+    * Mit Diskussionsentwurf können relativ unvoreingenommen präsentiert werden. Grundlage für Regierungsentwurf.
 
     ### Konzept der Upload-Filter
 
@@ -161,7 +163,7 @@ Nutzung mit vertraglicher Erlaubnis:
 * Konsequenzen bei Verstößen:
   * Für Uploader ist Lage schwierig, wenn man geblockt wird z. B. müsste man Schaden nachweisen.
   * Es gibt Verbandsklagerecht d. h. Verbände können Plattform auf Unterlassung verklagen. Kostet Reputation und Geld (vgl. Verbandsklagerecht von Verbraucherverbänden gegen Banken).
-  * Es gibt mutmaßlich erlaubte Nutzung. Folgendes soll nicht blockiert werden z. B. Ausschnitte, Parodie, Snippets (d. h. 15 Sec. Video). Erstmal keine Haftung / entspanntere Haftung.
+  * Es gibt mutmaßlich erlaubte Nutzung. Folgendes soll nicht blockiert werden z. B. Ausschnitte, Parodie, Schnipsel (engl. snippets) (d. h. 15 Sec. Video). Erstmal keine Haftung / entspanntere Haftung.
   * Algorithmen-basierte Umsetzung war oberste Leitlinie.
   * Es gibt "Roten Knopf" für Rechte Inhaber. Soll vor Missbrauch (z. B. Beispiel von Hollywood Film, der in 3 Teile geschnipselt wird) schützen, indem Inhalt vorübergehend offline genommen wird.
   * Mutmaßlich erlaubte Nutzung ist zentrales Element.
