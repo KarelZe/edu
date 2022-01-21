@@ -79,7 +79,7 @@
 
 * [Mitschrift](internetrecht/mitschrift/README.md)
   * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
-  * [Vortrag 2](internetrecht/mitschrift/vortrag\_2.md)
+  * [⚖ Aus der Werkstatt des Gesetzgebers. Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
 
 ## Patentrecht
 
