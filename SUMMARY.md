@@ -79,7 +79,9 @@
 
 * [Mitschrift](internetrecht/mitschrift/README.md)
   * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
-  * [⚖ Aus der Werkstatt des Gesetzgebers. Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
+  * [⚖ Aus der Werkstatt des Gesetzgebers: Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
+  * [⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen](internetrecht/mitschrift/vortrag\_3\_1.md)
+  * [⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht](internetrecht/mitschrift/vortrag\_3\_2.md)
 
 ## Patentrecht
 
