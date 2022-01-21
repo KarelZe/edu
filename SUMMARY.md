@@ -28,7 +28,6 @@
 ## Artificial Intelligence in Service Systems
 
 * [🧠 Anki-Deck](aiss/anki-deck.md)
-*
 
 ## Business Intelligence Systems
 
