@@ -6,7 +6,7 @@ description: >-
 
 # ⚖ Aus der Werkstatt des Gesetzgebers. Vom politischen Auftrag zur Rechtsnorm
 
-### Recht und Politik 👆
+## Recht und Politik 👆
 
 * Am Anfang steht der politische Auftrag, der sich aus Koalitionsvertrag ableitet, daraus soll Gesetz werden.
 * Wer ist Gesetzgeber?
@@ -20,7 +20,7 @@ description: >-
 
 **Kurzer Überblick:** [Video der Bundeszentrale für politische Bildung](https://film.bpb.de/system/files/videos/converted/588/588\_mp4\_high.mp4)
 
-### Urheberrecht
+## Urheberrecht
 
 * Teilgebiet des Immaterialgüterrecht
 * Sachrechte sind rivalisierende Güter (_Jefferson's candle_). Immaterialgüter sind nicht rivalisierende Güter. d. h. bei Immaterialgütern verliert man nichts, wenn man das Immaterialgut teilt
@@ -29,7 +29,7 @@ description: >-
   * Internationales Urheberrecht:
     * In 1995 wurde analoges Urheberrecht umgemünzt auf digitales Urheberrecht
 
-#### Gründe für Urheberschutz
+### Gründe für Urheberschutz
 
 * Ökonomische Interessen (z. B. Kreative, die Film produzieren, wollen ihn auch absetzen können)
 * Persönlichkeitsrechte (z. B. soll den Kreativen überlassen werden, wie mit Kreativem umgegangen werden soll, wann etwa und was veröffentlicht werden soll)
@@ -39,7 +39,7 @@ description: >-
   * Fortschritt von Wissenschaft und Kultur
   * Balancierung von Verbots- und Zugangsrechten
 
-#### Schutzgegenstände
+### Schutzgegenstände
 
 * Text
 * Fotos und Kunstwerke
@@ -49,7 +49,7 @@ description: >-
 * Designs und Architektur
 * **Nicht:** Zufallsprodukte, Ideen, Fakten, tierisch entstandene Werke ([PETA Affe](https://www.sueddeutsche.de/panorama/rechtsstreit-um-affen-selfie-ich-wuenschte-ich-haette-die-verdammten-fotos-nie-gemacht-1.3610839)), mechanisch entstandene Werke.
 
-#### Verwertungsrechte
+### Verwertungsrechte
 
 * Verwertungsrechte sind Exklusivrechte.
 * Man unterscheidet:
@@ -64,7 +64,7 @@ Nutzung mit vertraglicher Erlaubnis:
   * Zitatrecht: Gesetzliche Erlaubnisse z. B. Zitieren bei Benennen einer Quelle. Es wäre unpraktikabel jeden Autor zu kontaktieren.
   * Privatkopie.
 
-#### Economics for the common good
+### Economics for the common good
 
 ![Economics for the common good (Tirole und Rendall; 2017)](../../.gitbook/assets/economics\_for\_the\_common\_good.jpg)
 
@@ -78,25 +78,25 @@ Nutzung mit vertraglicher Erlaubnis:
 * Für internationales Recht ist World intellectual property organization (WIPO) in Genf zuständig.
 * Basis für internationales, digitales Urheberrecht ist Bericht: _Intellectual property and the national information infrastructure_. Weiterer Meilenstein war dann World Copyright Treaty (WCT). War aber weitestgehend eine Anwendung von analogem Recht. Zwischen analog und digital besteht aber großes Unterschied.
 
-#### Urheberrechtliche Lizenzen im analogen und digitalen Ökosystem
+### Urheberrechtliche Lizenzen im analogen und digitalen Ökosystem
 
 * **Analog:** Es gilt First-sale Doktrin, danach endet Urheberrecht z. B. kann Buch verschenkt, vernichtet werden etc.
 * **Digital:** Autor lizenziert an Verleger. Bei Kauf z. B. von E-Book schließt man nur Nutzungsvertrag ab. Vertrag reicht bis in eigene Sphäre. Im Web 2.0 ist man selbst auch Urheber, wenn man z. B. Bilder teilt.
 
-### EU und die DSM Richtlinie👆
+## EU und die DSM Richtlinie👆
 
-#### Verordnungen
+### Verordnungen
 
 * EU Verordnungen (_regulations_) gelten unmittelbar. Wird nur noch abgerundet durch nationale Verordnung. Begrenzt nationale Spielräume.
 
-#### Kommission
+### Kommission
 
 * **Kommission** Nur Kommission ist befugt, Gesetzgebungsvorschlag einzubringen
 * **Rat** (d. h. Vertretung der Mitgliedsstaaten) Kann nicht einbringen → Im Rat sind Ratsarbeitsgruppen / Gremien z. B. Experten, AStV (Botschafter), Rat (Fachminister), Europäischer Rat (Staatschefs) tätig.
 * **Europäisches Parlament** → Kann nicht einbringen
 * Europäische Gesetzgebung ist schwieriger wegen unterschiedlicher Rechtsverständnisse, kultureller Hintergründe
 
-#### Gesetzgebung in Brüssel
+### Gesetzgebung in Brüssel
 
 ![Europäischer Trilog (Europäische Bewegung Deutschland; 2015)](../../.gitbook/assets/europaeischer\_trilog.jpg)
 
@@ -109,7 +109,7 @@ Nutzung mit vertraglicher Erlaubnis:
 * Problematisch ist, wenn insbesondere gegen Ende nochmal massiv in Texte eingegriffen wird.
 * Problematisch ist auch, dass alle Sprachfassungen gleichwertig sind. Bei Übersetzung können selbst Unschärfen entstehen z. B. Komma, das auf Aufzählung folgt.
 
-#### Digital Single Market
+## Digital Single Market
 
 * Aus Digital Single Market (DSM) ging "Artikel 17" hervor.
 * Deutsche Regierung hat "Artikel 17" zugestimmt, aber Zweifel im Protokoll geäußert. Protokoll selbst ist aber unerheblich.
@@ -121,12 +121,12 @@ Nutzung mit vertraglicher Erlaubnis:
     * Plattformen / ISPs
     * Prosumenten / Prosumer (Konsumenten, die selbst Inhalte produzieren) (Social Web)
 
-### Deutsche Umsetzung von Artikel 17 / (13) 👆
+## Deutsche Umsetzung von Artikel 17 / (13) 👆
 
 * Neue Nummer "17" im Gesetz, weil neue Inhalte
 * **Value Gap:** Verbreiten Inhalte die Nutzer hochladen, verdienen damit Geld, sind aber nicht bereit Inhalte zu lizenzieren.
 
-### Rechtsumsetzung
+## Rechtsumsetzung
 
 * Best Practices für Gesetzestexte:
   * 1 Paragraph soll nicht mehr als 3 Absätze haben
@@ -134,28 +134,28 @@ Nutzung mit vertraglicher Erlaubnis:
   * 1 Satz nur einen Rechtsgedanke
 * Europäische Gesetze weißen oft Widersprüche, Lücken, Inkonsistenzen etc. auf.
 * Bei Artikel 17 musste "Quadratur des Kreises" geschafft werden d. h. Urheberschutz sichergestellt (d. h. nicht lizenzierte Inhalte sollen nicht online gehen), Nutzerrechte gesichert werden. Braucht automatisierte Systeme, die aber nicht zwischen erlaubter Nutzung z. B. Parodie und Gesetzesverletzungen unterscheiden können.
-*   Grundlegender Prozess für Formulierung eines Gesetzestexts ist Denken (analysieren), visualisieren (strukturieren) dann schreiben.
+* Grundlegender Prozess für Formulierung eines Gesetzestexts ist Denken (analysieren), visualisieren (strukturieren) dann schreiben.
 
-    * **Denken:** Nach Eisberg-Modell auch auf Wirkfaktoren acht geben, einfache Antworten meist falsch, komplizierte brauchen meist länger,
-    * Pro und Contra von Auslegung (sg. _transposing_)
-      * Pro:
-        * Anpassung an nationale Erfordernisse
-        * Kleinere Beteiligte führen zu weniger Unsicherheiten z. B. kleine Plattformen
-        * Weniger strategische Gesetzgebung d. h. es nicht durch Gesetzgeber geregelt, wird durch Gerichte geregelt. Man will entgegenwirken, dass einzelne Akteure klagen, um Gesetze noch zu ihren Gunsten zu verschieben. ("Schwierige Fälle machen schlechte Gesetze")
-      * Contra:
-        * Weitere Fragmentierung von digitalem Binnenmarkt
-        * Endgültige Gewissheit / letztes Wort nur durch Entscheidung des Europäischen Gerichtshofs (ECJ)
-        * Gefahr der Auslegung entgegen des EU Gesetzes (Gefahr der Staatshaftung)
-    * Abwägung zwischen Blockierungsanfrage und User-Rechten. Hierfür sind automatische Systeme (sg. Uploadfilter notwendig). Diese können aber nicht verlässlich Schrankennutzung z. B. Zitate, Parodie erkennen. Wichtige Frage ist also, was muss ex-ante blockiert werden d. h. darf niemals online gehen und was darf später noch entfernt werden?&#x20;
-    * **Visualisierung:** Erstmal visualisieren z. B. im Film mit Story board, in der Informatik mit Pseudocode. Passiert ähnlich auch bei der Entwicklung der Struktur des Gesetzes (z. B. [Visualisierung](vortrag\_1.md))&#x20;
-    * **Schreiben:** Texten nach dem Hamburger Modell d. h. Einfachheit, Gliederung / Ordnung, Kürzung / Prägnanz, Anregende Zusätze.
-    * Vor dem Schreiben der Textblöcke, werden erstmal die Textbausteine in Verbindung zueinander gesetzt. Kumulative Logik kann durch Verzweigungen abgebildet werden. Boolesche Algebra aber allein vermutlich nicht ausreichend.
-    * Mit Diskussionsentwurf können relativ unvoreingenommen präsentiert werden. Grundlage für Regierungsentwurf.
+  * **Denken:** Nach Eisberg-Modell auch auf Wirkfaktoren acht geben, einfache Antworten meist falsch, komplizierte brauchen meist länger,
+  * Pro und Contra von Auslegung (sg. _transposing_)
+    * Pro:
+      * Anpassung an nationale Erfordernisse
+      * Kleinere Beteiligte führen zu weniger Unsicherheiten z. B. kleine Plattformen
+      * Weniger strategische Gesetzgebung d. h. es nicht durch Gesetzgeber geregelt, wird durch Gerichte geregelt. Man will entgegenwirken, dass einzelne Akteure klagen, um Gesetze noch zu ihren Gunsten zu verschieben. ("Schwierige Fälle machen schlechte Gesetze")
+    * Contra:
+      * Weitere Fragmentierung von digitalem Binnenmarkt
+      * Endgültige Gewissheit / letztes Wort nur durch Entscheidung des Europäischen Gerichtshofs (ECJ)
+      * Gefahr der Auslegung entgegen des EU Gesetzes (Gefahr der Staatshaftung)
+  * Abwägung zwischen Blockierungsanfrage und User-Rechten. Hierfür sind automatische Systeme (sg. Uploadfilter notwendig). Diese können aber nicht verlässlich Schrankennutzung z. B. Zitate, Parodie erkennen. Wichtige Frage ist also, was muss ex-ante blockiert werden d. h. darf niemals online gehen und was darf später noch entfernt werden?&#x20;
+  * **Visualisierung:** Erstmal visualisieren z. B. im Film mit Story board, in der Informatik mit Pseudocode. Passiert ähnlich auch bei der Entwicklung der Struktur des Gesetzes (z. B. [Visualisierung](vortrag\_1.md))&#x20;
+  * **Schreiben:** Texten nach dem Hamburger Modell d. h. Einfachheit, Gliederung / Ordnung, Kürzung / Prägnanz, Anregende Zusätze.
+  * Vor dem Schreiben der Textblöcke, werden erstmal die Textbausteine in Verbindung zueinander gesetzt. Kumulative Logik kann durch Verzweigungen abgebildet werden. Boolesche Algebra aber allein vermutlich nicht ausreichend.
+  * Mit Diskussionsentwurf können relativ unvoreingenommen präsentiert werden. Grundlage für Regierungsentwurf.
 
-    ### Konzept der Upload-Filter
+## Konzept der Upload-Filter
 
-    * Upload-Filter gab es bei YouTube schon lange und auch schon zuvor in Deutschland
-    * Upload Filter steht im Spannungsverhältnis, dass bestimmte Nutzungen z. B. Zitate erlaubt sind.
+* Upload-Filter gab es bei YouTube schon lange und auch schon zuvor in Deutschland
+* Upload Filter steht im Spannungsverhältnis, dass bestimmte Nutzungen z. B. Zitate erlaubt sind.
 * Man hat 3 Arten von Uploads
   1. Lizenzierte Inhalte z. B. Video mit lizenzierter Musik. Plattform zahlt Lizenzgebühr. Sie profitiert selbst von Konsum durch Werbeeinnahmen. Unproblematisch, weil bereits lizenziert.
   2. Unbekannter Content z. B. Drittinhalte, die u. U. nicht lizenziert sind. Kennt Plattform nicht. Inhalt muss identifizierbar sein. Rechteinhaber müsste Referenzdateien für eindeutigen Abgleich der Hashwerte bereitstellen. Aus diesem Grund wurde mutmaßlich erlaubte Nutzung erfunden.
@@ -171,7 +171,7 @@ Nutzung mit vertraglicher Erlaubnis:
 
 ![Verfahren bei Upload (BMJ; 2021)](../../.gitbook/assets/flowchart.jpg)
 
-#### Referenzen
+## Referenzen
 
 Bundesministeriums der Justiz. 2021. ‘FAQ Zum Gesetz Zur Anpassung Des Urheberrechts A n Die Erfordernisse Des Digitalen Binnenmarkts’.
 
