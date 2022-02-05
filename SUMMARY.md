@@ -82,6 +82,7 @@
   * [⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen](internetrecht/mitschrift/vortrag\_3\_1.md)
   * [⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht](internetrecht/mitschrift/vortrag\_3\_2.md)
   * [⚖ Das IT-Sicherheitsgesetz in der Praxis](internetrecht/mitschrift/vortrag\_4.md)
+  * [⚖ Datenschutz im Internet und Cybersecurity](internetrecht/mitschrift/vortrag\_5.md)
 
 ## Patentrecht
 
