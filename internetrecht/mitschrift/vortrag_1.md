@@ -47,38 +47,38 @@ description: >-
 
 ### Störerhaftung
 
-**Voraussetzungen**
+#### Voraussetzungen
 
 * Vorliegen einer Rechtsverletzung
 * Adäquat-kausaler Beitrag zur Rechtsverletzung
 * Man wurde in Kenntnis gesetzt. Dann haftet man ab dem Zeitpunkt, an dem man in Kenntnis gesetzt wurde für gleichartige Rechtsverletzungen
 * Man leistet Beitrag zu Rechtsverletzung
 
-**Rechtsfolge**
+#### Rechtsfolge
 
 * Beseitigung des konkreten Inhalts
 * Zumutbare Verhaltenspflichten (insb. Prüfpflichten).
 * Es gibt ein Verbot zur allgemeinen Überwachungspflicht d. h. Plattform kann nicht verpflichtet werden, sämtlichen Traffic / Upload zu überwachen.
 
-**Abwägungsfaktoren**
+#### Abwägungsfaktoren
 
 * Pflichten, die einem Provider auferlegt werden, sind von Art und Schwere der Rechtsverletzungen abhängig.
 * Abhängig, wie nah der Dienstanbieter an Rechtsverletzung ist z. B. Anbieter promotet rechtsverletzende Inhalte
 * Zumutbare Eigenvorsorge des verletzten
 * Abwägung, welche technischen Möglichkeiten bestehen.
-* _Fazit_: Keine Binäre Entscheidung, ob man haftet oder nicht.
+* _Fazit_: Keine binäre Entscheidung, ob man haftet oder nicht.
 
 ## Haftung von Host-Provider
 
 ### Arten von Host-Providern
 
-* Meinungsforen (tripadvisor), Bewertungsplattformen (jameda), Plattformen für Bilder, Musik, Videos, Texte (instagram, soundcloud, YouTube), Auktionsplattformen (ebay), Soziale Netzwerke (facebook)
+* Meinungsforen (TripAdvisor), Bewertungsplattformen (jameda), Plattformen für Bilder, Musik, Videos, Texte (Instagram, Soundcloud, YouTube), Auktionsplattformen (eBay), Soziale Netzwerke (Facebook)
 
 ### Typische Fragestellung
 
 * z. B. ob Krebstherapie wirksam oder nicht.
-* z. B. Dellen am Hintern nach Fettabsaugung → Schwierig man darf richtiges nicht einfach runternehmen, aber falsches auch nicht online lassen.
-* _Fazit:_ Für Plattform schwierig zu entscheiden, ob richtig.
+* z. B. Dellen am Hintern nach Fettabsaugung → Schwierig man darf Richtiges nicht einfach runternehmen, aber Falsches auch nicht online lassen.
+* _Fazit:_ Für Plattform schwierig zu entscheiden, was richtig ist.
 
 ## Haftungsprivilegien für Dienste der Informationsgesellschaft
 
@@ -123,7 +123,7 @@ Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu 
   * Riskant für Host-Provider, weil er in Anspruch genommen werden kann z. B. wegen Unterlassung / Schadensersatz.
 * **Sperrung:**
   * Hostprovider sperrt Bewertung
-  * Risiko für Host-Provider ist gering
+  * Risiko für Host-Provider ist gering.
   * Nutzer hätte Wiedereinstellungs-Ansprüche, sofern Bewertung rechtens.
 
 ## Die Blogger-Entscheidung
@@ -141,7 +141,7 @@ Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu 
    1. Hinweis ist so konkret, dass unschwer Rechtsverstoß erkannt werden kann, dann Weiterleitung der Beanstandung an Blogger zur Stellungnahme.
    2. Ist kein Rechtsverstoß erkennbar, ist nichts zu machen.
 3. Je nach Reaktion des Bloggers:
-   1. Keine (substantiierte \~ begründete) Stellungnahme des Bloggers innerhalb angemessener Frist, kann Löschung erfolgen
+   1. Keine (substantiierte \~ begründete) Stellungnahme des Bloggers innerhalb angemessener Frist. Es kann Löschung erfolgen.
    2. Stellt Blogger (substantiiert) in Abrede und ergeben sich daraus berechtigte Zweifel, dann Mitteilung an Betroffenen und Verlangung weiter Nachweise.
 4. Je nach Reaktion des Betroffenen:
    1. Keine weitere Stellungnahme oder Nachweise, dann ist keine weitere Prüfung notwendig.
@@ -160,7 +160,7 @@ Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu 
 * Soll Hate Speech und Fake News entgegenwirken
 * **Beispiel:** Nicht getätigter Flüchtlingskommentar von Renate Künast.
 
-### Beispiele aus der Praxis:
+### Beispiele aus der Praxis
 
 * Beleidigung § 1 Abs. 3 NetzDG i. V. m. § 185 StGB
 * Verleumdung (Behauptung oder Verbreitung von unwahren Tatsachen wider besseres Wissens) § 1 Abs. 3 NetzDG i. V. m. § 187 StGB
@@ -197,17 +197,17 @@ Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu 
 
 ## Urheberrechts-Diensteanbieter-Gesetz (UrhDaG) und Artikel 17 👆
 
-* Artikel 17 meint Art. 17 DSM Richtlinie
-* UrhDaG ist deutsche Umsetzung
+* Artikel 17 meint Art. 17 der DSM Richtlinie
+* UrhDaG ist die deutsche Umsetzung
 
 ### UrhDaG im Überblick
 
 * **Betroffene Dienste:**
-  * Hauptzweck ist das Teilen großer Mengen von Dritten hochgeladener urheberrechtlich geschützter und Organisieren dieser Inhalte.
+  * Hauptzweck ist das Teilen großer Mengen von Dritten hochgeladener urheberrechtlich geschützter und das Organisieren dieser Inhalte.
   * Gewinnerzielungsabsicht besteht.
   * Steht in Konkurrenz zu anderen "Online-Inhaltsdiensten".
-  * **Ausnahmen**: Startups (< 3 Jahre / < 10 Mio. p. a.), Kleine Dienstanbieter (> 1Mio. p. a.)
-  * **Nicht erfasst:** Nicht gewinnorientierte Online-Enzyklopädien, Open source Plattformen, Kommunikationsdienste...
+  * **Ausnahmen**: Startups (< 3 Jahre / < 10 Mio. p. a.), Kleine Dienstanbieter (> 1 Mio. p. a.)
+  * **Nicht erfasst:** Nicht gewinnorientierte Online-Enzyklopädien, Open Source Plattformen, Kommunikationsdienste...
 * **Inhalte:**
   * Prozedurale Regelungen zum Schutz der Nutzerrechte (§§ 9 ff. UrhDaG) z. B. Nutzerflagging bei Upload, nachträgliches Nutzerflagging, Bagatellnutzung
   * Beschwerdeverfahren (§ 14)
@@ -247,13 +247,13 @@ Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu 
 * **Haftung von YouTube (C-682/18)**
   * Haftung,wenn:
     * Plattformbetreiber konkret Kenntnis hat und Inhalt nicht unverzüglich löscht
-    * keine geeigneten technischen Maßnahmen ergreift, die übliche Sorgfalt der Wirtschaftsteilnehmer erwarten lässt, um Urheberrechtsverletzungen glaubhaft zu bekämpfen
+    * keine geeigneten technischen Maßnahmen ergreift, welche die übliche Sorgfalt der Wirtschaftsteilnehmer erwarten lässt, um Urheberrechtsverletzungen glaubhaft zu bekämpfen
     * Plattform bietet Hilfsmittel an, die zum unerlaubten teilen von Inhalten bestimmt sind, oder dies wissentlich fördern
 
 ### Lösung durch Technik
 
 * **Content ID:**
-  * Verfahren für Hosting Plattformen mit großen Datenvolumen. Zentral
+  * Verfahren für Hosting Plattformen mit großen Datenvolumen.
   * Zentral ist Content-Identifizierungstechnologie (Video und Audio)
   * Es wird eine Referenzdatenbank erstellt, bei der Rechteinhaber Referenzdateien einstellen können, woraus dann Fingerprints erzeugt werden.
   * Content-ID kann auch Transformationen z. B. Spiegelungen erkennen
