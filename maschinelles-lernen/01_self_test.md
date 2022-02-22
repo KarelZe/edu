@@ -439,7 +439,12 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * Introduce a momentum term
   * Second-order methods
 * _How does Adam work?🧠_
-  * TODO:
+  * Adam combines momentum and gradient normalization $$\begin{aligned}
+\boldsymbol{g}_{k} &=\nabla_{\boldsymbol{\theta}} \mathcal{L}\left(\boldsymbol{\theta}_{k}\right) \\
+\boldsymbol{v}_{k+1, i} &=\gamma_{1} \boldsymbol{v}_{k, i}+\left(1-\gamma_{1}\right) \boldsymbol{g}_{k, i}^{2} \quad \ldots \text { gradient norm } \\
+\boldsymbol{m}_{k+1} &=\gamma_{2} \boldsymbol{m}_{k}+\left(1-\gamma_{2}\right) \boldsymbol{g}_{k} \quad \ldots \text { momentum } \\
+\boldsymbol{\theta}_{k+1, i} &=\boldsymbol{\theta}_{k, i}-\underbrace{\frac{\eta c_{2}(k)}{\sqrt{c_{1}(k) \boldsymbol{v}_{k+1, i}+\epsilon}}}_{\text {norm-based scaling }} \boldsymbol{m}_{k+1, i}
+\end{aligned}$$
 * _What is the key idea behind second-order optimization methods? What are their benefits? Why are second-order optimization methods usually not applicable for Deep Neural Networks? 🦧_
   * The idea of second-order optimization methods is to directly step to the minimum of the quadratic approximation by calculating these second-order derivatives Hessian.
   * No learning rat needs to be tuned and they need fewer function evaluations.
