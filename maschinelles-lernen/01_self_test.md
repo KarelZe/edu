@@ -69,7 +69,12 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * Early stopping prevents overfitting, as model is not trained to the smallest training error.
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 * Give examples how to influence the model-complexity of at least 3 different algorithms.🦧
-  * TODO:
+  * Neural networks: Add/remove neurons or entire layers
+  * K-NN: Increasing k decreases model complexity
+  * Trees and forests: Increasing depth increases complexity
+  * Generalized linear methods: Choose larger function class as feature mapping 
+  * Kernel methods: Use kernel with higher dimensional underlying feature space
+  * Mixture models: Use more mixture compenents
 
 ## Nearest neighbour Algorithms, Trees, and Forests
 
