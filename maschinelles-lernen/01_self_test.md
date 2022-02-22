@@ -366,7 +366,10 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 * What happens with the posterior if we add more data to the training set?🧠
   * For very large datasets the posterior will be a **point estimate**. Bayesian learning will be equivalent to maximum likelihood solution.
 * What is completing the square and how does it work?🧠
-  * TODO:
+  * Generally completing the square means to bring a term in the form $$(a+b)^2 = a^2+2ab+b^2$$. We can use completing the square to obtain the parameters of a Gaussian distribution. Univariate example: $$\begin{aligned}
+\mu\left(\boldsymbol{x}^{*}\right) &=\boldsymbol{\phi}\left(\boldsymbol{x}^{*}\right)^{T}\left(\boldsymbol{\Phi}^{T} \boldsymbol{\Phi}+\lambda \sigma_{\boldsymbol{y}}^{2} \boldsymbol{I}\right)^{-1} \boldsymbol{\Phi}^{T} \boldsymbol{y} \\
+\sigma^{2}\left(\boldsymbol{x}^{*}\right) &=\sigma_{\boldsymbol{y}}^{2}\left(1+\boldsymbol{\phi}\left(\boldsymbol{x}^{*}\right)^{T}\left(\boldsymbol{\Phi}^{T} \boldsymbol{\Phi}+\lambda \sigma_{\boldsymbol{y}}^{2} \boldsymbol{I}\right)^{-1} \boldsymbol{\phi}\left(\boldsymbol{x}^{*}\right)\right)
+\end{aligned}$$
 * _For which 2 cases can Bayesian Learning be solved in closed form?🧠_
   * linear feature / kernelized regression models
 * _Which approximations can we use if no closed-form is available?_
