@@ -376,7 +376,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * Monte-Carlo Markov Chain sampling \(not covered\)
   * Laplace approximation \(not covered\)
 * How can we derive Bayesian Linear regression?🧠
-  * TODO:
+  * We can easily compute the data likelihood if we assume a Gaussian distribution. As we do not have any prior knowledge of the data, we use a uninformed prior. With the Gaussian Bayes rule for the case $$d < N$$, we can compute the posterior. Gaussian propagation allows us, to compute the integral of the predictive distribution.
 * _What is the advantage of Bayesian Linear Regression  Ridge regression? What is the conceptual difference?🧠_
   * The solution of ridge regression and the Bayesian Linear Regression is identical.  
   * One advantage is, that we have uncertainty estimates for the parameter vector.
