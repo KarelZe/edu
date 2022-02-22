@@ -8,10 +8,10 @@ Weitere interessante Fragen finden sich auch bei den [Selbsttestfragen zu Adv. M
 
 ## Linear Regression
 
-* _Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?_🦧
+* _Under which assumptions is the least-squares objective from linear regression equivalent to a maximum likelihood objective?🦧_
   * Gaussian likelihood with linear mean and constant noise.
 * What is the role of the lambda factor in the objective of ridge regression and how is it determined? 🦧
-  * $\lambda$ controls the degree of penalization. It is determined through cross-validation.
+  * $$\lambda$ controls the degree of penalization. It is determined through cross-validation.
 
 ## Linear Classification
 
@@ -40,7 +40,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 
   $$\underbrace{\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(x)-\hat{f}_{*}(x)\right)^{2}\right]\right]}_{\text {Variance }}+\underbrace{\mathbb{E}_{x, y}\left[\left(\hat{f}_{*}(x)-f(x)\right)^{2}\right]}_{\text {Bias }^{2}}+\underbrace{\sigma^{2}}_{\text {noise }}$$
 
-* _How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?_🧠
+* _How is the bias and the variance of a learning algorithm defined and how do they contribute to the true risk?🧠_
   * **Variance**:
     * $$\mathbb{E}_{D_{n}}\left[\mathbb{E}_{x, y}\left[\left(\hat{f}_{D_{n}}(\boldsymbol{x})-\hat{f}_{*}(\boldsymbol{x})\right)^{2}\right]\right]$$
     * Variance is the difference between the estimates and the "best" estimates. Error depends on the number of data points that are available for training. It accounts for the limitations in the training data set.
@@ -65,7 +65,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
     * $$\operatorname{penalty}(\boldsymbol{\theta})=\|\boldsymbol{\theta}\|_{2}=\sum_{d} \theta_{d}^{2}$$
     * Redundant parameters will be close to 0, but never 0.
     * Easy to optimize.
-* _What is the effect of early stopping?_🧠
+* _What is the effect of early stopping?🧠_
   * Early stopping prevents overfitting, as model is not trained to the smallest training error.
   * Further more, the model's complexity is limited. E. g. with Boosting approaches, one doesn't learn overly complicated trees.
 * Give examples how to influence the model-complexity of at least 3 different algorithms.🦧
@@ -73,7 +73,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 
 ## Nearest neighbour Algorithms, Trees, and Forests
 
-* _What we mean with non-parametric / instance-based machine learning algorithms?_🧠
+* _What we mean with non-parametric / instance-based machine learning algorithms?🧠_
   * Non-parametric ML algorithms are algorithms, that do not learn a parametric model, but store all the training data and use the training data to make predictions.
   * Examples include the $$k$$-nearest neighbour algorithm and the Gaussian processes.
 * _How does_ $$k$$_-Nearest neighbour works?🧠_
@@ -97,10 +97,10 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
     * Minimum residual sum of squares: $$\mathrm{RSS}=\sum_{\text {left }}\left(y_{i}-\bar{y}_{L}\right)^{2}+\sum_{\text {right }}\left(y_{i}-\bar{y}_{R}\right)^{2}$$
   * **For classification trees:**
     * Information gain / Minimum entropy: $$N_{L} H\left(p_{\mathrm{L}}\right)+N_{R} H\left(p_{\mathrm{R}}\right)$$
-* _How can we influence the model complexity of a tree?_🧠
+* _How can we influence the model complexity of a tree?🧠_
   * One can limit the depth of the tree or limit the minimum number of samples that must be present within one node.
   * Another way is to apply pruning to a decision tree, which refers to cutting back a fully grown tree.
-* _Why is it useful to use multiple trees and randomization?_🧠
+* _Why is it useful to use multiple trees and randomization?🧠_
   * Decision Trees are prone to overfitting. That's why we should learn several trees to increase variability.
   * By randomizing the features, using bootstrap samples of the data and combining the trees \(random forest\) or learning several trees on bootstrap samples \(bagging\) one can prevent trees from overfitting.
 * Name at least two advantages and two disadvantages of decision trees. 🦧
@@ -110,7 +110,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * **Disadvantage**:
     * Other ML methods such as NN achieve a better accuracy.
     * Suffer from instability, if we change the data, ever-so-slightly trees can change a lot.
-* _Which data structure is usually used to efficiently implement k-Nearest neighbors? Name the main steps in building that data structure._🦧
+* _Which data structure is usually used to efficiently implement k-Nearest neighbors? Name the main steps in building that data structure.🦧_
   * KD-Trees are commonly used.
   * Building the tree:
     * choose dimension \(e. g. longest hyper-rectangle\)
@@ -129,19 +129,19 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * **Iterate-phase:**
     1. Find closest clusters and merge them
     2. Proceed until we have a single cluster
-* _What is the rule of the cluster-2-cluster distance and which distances can we use?_🧠
+* _What is the rule of the cluster-2-cluster distance and which distances can we use?🧠_
   * So-called cluster linkage types define the distance between two clusters. Commonly used are
     * Single linkage
     * Complete linkage
     * Average linkage
     * Centroid linkage
-* _How does the_ $$k$$_-mean algorithm work? What are the two main steps?_🧠
+* _How does the_ $$k$$_-mean algorithm work? What are the two main steps?🧠_
   * The two main steps are the **assignment** and **adjustment step**.
   * **Assignment step:**
     * Assign each sample to its closest centroid $$z_{n}=\arg \min_{k}\left\|\boldsymbol{c}_{k}-\boldsymbol{x}_{n}\right\|^{2}$$
   * **Adjustment Step:**
     * Adjust the centroids to be the means of the samples assigned to them: $$c_{k}=\frac{1}{\left|X_{k}\right|} \sum_{\boldsymbol{x}_{i} \in X_{k}} \boldsymbol{x}_{i}, \quad X_{k}=\left\{\boldsymbol{x}_{n} \mid z_{n}=k\right\}$$
-* _Why does the algorithm converge? What is it minimizing?_🧠
+* _Why does the algorithm converge? What is it minimizing?🧠_
   * $$k$$-means minimizes the Sum of Squared Distances \(SSD\). By checking, if a cluster centroids exists, that is closer to a point than its current cluster centroid the SSD is reduced. If no closer cluster centre exists and the SSD remains constant.
   * SSD is defined as $$\operatorname{SSD}(C ; \mathcal{D})=\sum_{i=1}^{n} d\left(\boldsymbol{x}_{i}, c\left(\boldsymbol{x}_{i}\right)\right)^{2}$$
 * _Does_ $$k$$_-means find a global minimum of the objective?🧠_
@@ -173,7 +173,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
 
 ## Density Estimation and Expectation Maximization
 
-* _What are parametric methods and how to obtain their parameters?_🧠
+* _What are parametric methods and how to obtain their parameters?🧠_
   * Parametric models are models, where we assume a certain underlying probability distribution. The no. of parameters is fixed. \(see also [here.](https://en.wikipedia.org/wiki/Parametric_statistics)\)
 * How many parameters have non-parametric methods?🧠
   * non-parametric models derive the probability density from the data and don't assume a parametric models. Thus, don't require parameters to specify the model.
@@ -197,7 +197,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * In the M-Step the lower bound also increases, unless it's already at the maximum, as the new parameter set has to be at least as good as the old parameter estimate.
 * Why does EM always improve the marginal likelihood?🧠
   * Marginal log-likelihood is always improved in the maximization step, as the lower bound is maximized with respect to $$\theta$$ to give some new $$\theta^{\text{new}}$$.That is, the $$\mathcal{L}$$will go up. But as $$q$$is determined with the old parameters, it will be different to the new posterior distribution of $$p$$. Hence, the KL will be non-zero or positive. So the sum of both terms will be greater than before.
-* _Why can we optimize each mixture component independently with EM?_🧠
+* _Why can we optimize each mixture component independently with EM?🧠_
   * We can separately update the single components and coefficients in the M step, as the objective of the lower bound is additive. \(p. 43\)
   * TODO: Get a better understanding.
 * Why do we need sampling for continuous latent variables?🧠
@@ -362,25 +362,25 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * For very large datasets the posterior will be a **point estimate**. Bayesian learning will be equivalent to maximum likelihood solution.
 * What is completing the square and how does it work?🧠
   * TODO:
-* _For which 2 cases can Bayesian Learning be solved in closed form?_🧠
+* _For which 2 cases can Bayesian Learning be solved in closed form?🧠_
   * linear feature / kernelized regression models
 * _Which approximations can we use if no closed-form is available?_
   * Monte-Carlo Markov Chain sampling \(not covered\)
   * Laplace approximation \(not covered\)
 * How can we derive Bayesian Linear regression?🧠
   * TODO:
-* _What is the advantage of Bayesian Linear Regression  Ridge regression? What is the conceptual difference?_🧠
+* _What is the advantage of Bayesian Linear Regression  Ridge regression? What is the conceptual difference?🧠_
   * The solution of ridge regression and the Bayesian Linear Regression is identical.  
   * One advantage is, that we have uncertainty estimates for the parameter vector.
   * They are identical in a way that the posterior mean is identical to the ridge solution for linear models.
   * The difference is that that for the Bayesian Linear Regression the variance is now input-dependent.
-* _What is the major advantage of Gaussian processes kernel ridge regression?_🧠
+* _What is the major advantage of Gaussian processes kernel ridge regression?🧠_
   * We get an estimate for the mean $$\mu$$that corresponds to the Kernel Ridge regression solution.
   * We get an input dependent variance estimate.
-* _Why are GPs a Bayesian approach?_🧠
+* _Why are GPs a Bayesian approach?🧠_
   * We can derive GPs from the Bayesian Linear regression view.
   * GPs are a  kernelized version of Bayesian Linear Regression \(with infinite dimensional feature spaces\).
-* _What principle allowed deriving GPs from a Bayesian regression point of view?_🧠
+* _What principle allowed deriving GPs from a Bayesian regression point of view?🧠_
   * Kernel trick \(and Gaussian Bayes rules\)
 * _Gaussian Processes\(GP\) are also referred to as a "Bayesian Kernel Regression" approach. Why?_ 🦧
   * You can derive Gaussian Processes by using the Kernel Trick from Bayesian Linear Regression, as in Kernel Regression.
@@ -408,7 +408,7 @@ $$\operatorname{argmax}_{\boldsymbol{w}} \sum_{i=1}^{N} c_{i} \log \left(\sigma\
   * \(see anki deck\)
 * What is mini-batch gradient descent? Why use it instead of stochastic gradient descent or full gradient descent?🧠
   * Mini-batch gradient is a variant of Gradient Descent optimized for the calculation on the GPU. The data is split into smaller, equally sized chunks so-called minibatches. The mini-batches are then used to calculate the gradient and weights are updated. The results of the individual batches are combined through summation. \(see Zhang et al\)
-* _Why neural networks can overfit and what are the options to prevent it?_🧠
+* _Why neural networks can overfit and what are the options to prevent it?🧠_
   * Use early stopping with cross-validation
     * Use network pruning → A kind of regularization, where the complexity of the network is reduced in order to reduce the generalization error.
     * Standard ways to limit the capacity of a neural net
