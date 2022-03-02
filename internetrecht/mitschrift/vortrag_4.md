@@ -46,7 +46,7 @@ description: >-
   * Kulturbetrieb ist nicht kritisch
   * Autowerk ist nicht kritisch
   * Bahn ist kritische Infrastruktur
-  * Kölner Dom ist kritische Infrastruktur
+  * Kölner Dom ist keine kritische Infrastruktur
   * Bankensystem ist kritisch
   * Bundesverfassungsgericht ist nicht kritisch
   * Müllentsorgung ist kritisch
