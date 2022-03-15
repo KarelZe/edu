@@ -10,18 +10,34 @@
 ## Artificial Intelligence in Service Systems
 
 * [🧠 Anki-Deck](aiss/anki-deck.md)
+* [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/anki-decks)
 
 ## Business Intelligence Systems
 
-* [Anki-Deck](https://github.com/KarelZe/anki-decks)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Datascience Praktikum
 
-* [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
+* [🥉 Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
+
+## 🗽 Derivate
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks)
+* [🥉 Lösungen Bonusübung](https://github.com/KarelZe/anki-decks)
 
 ## Het. parallele Rechnerstrukturen
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
+
+## Internetrecht
+
+* [Mitschrift](internetrecht/mitschrift/README.md)
+  * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
+  * [⚖ Aus der Werkstatt des Gesetzgebers: Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
+  * [⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen](internetrecht/mitschrift/vortrag\_3\_1.md)
+  * [⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht](internetrecht/mitschrift/vortrag\_3\_2.md)
+  * [⚖ Das IT-Sicherheitsgesetz in der Praxis](internetrecht/mitschrift/vortrag\_4.md)
+  * [⚖ Datenschutz im Internet und Cybersecurity](internetrecht/mitschrift/vortrag\_5.md)
 
 ## Maschinelles Lernen
 
@@ -56,20 +72,6 @@
   * [Messung Benutzerverhalten](recommendersysteme/klausursammlung/14\_messung\_benutzerverhalten.md)
   * [Relevante Objekte empfehlen](recommendersysteme/klausursammlung/15\_relevante\_objekte.md)
 
-## Valuation
-
-* [Anki-Deck](https://github.com/KarelZe/anki-decks)
-
-## Internetrecht
-
-* [Mitschrift](internetrecht/mitschrift/README.md)
-  * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
-  * [⚖ Aus der Werkstatt des Gesetzgebers: Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
-  * [⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen](internetrecht/mitschrift/vortrag\_3\_1.md)
-  * [⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht](internetrecht/mitschrift/vortrag\_3\_2.md)
-  * [⚖ Das IT-Sicherheitsgesetz in der Praxis](internetrecht/mitschrift/vortrag\_4.md)
-  * [⚖ Datenschutz im Internet und Cybersecurity](internetrecht/mitschrift/vortrag\_5.md)
-
 ## Patentrecht
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
@@ -81,6 +83,10 @@
   * [Patentrecht](patentrecht/mitschrift/patentrecht.md)
   * [Gebrauchsmusterrecht](patentrecht/mitschrift/gebrauchsmusterrecht.md)
 * [Selbsttestfragen](patentrecht/selbsttestfragen.md)
+
+## Valuation
+
+* [Anki-Deck](https://github.com/KarelZe/anki-decks)
 
 ## Vertragsgestaltung
 
