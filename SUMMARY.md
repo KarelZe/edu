@@ -2,24 +2,6 @@
 
 * [KIT](README.md)
 
-## Analysetechniken großer Datenbestände I <a href="#analysetechniken-grosser-datenbestaende" id="analysetechniken-grosser-datenbestaende"></a>
-
-* [Anki-Deck](https://github.com/KarelZe/anki-decks)
-* [Zusammenfassung](https://github.com/allekai/AGD)
-* [Selbsttestfragen](analysetechniken-grosser-datenbestaende/selbsttestfragen/README.md)
-  * [Einführung](analysetechniken-grosser-datenbestaende/selbsttestfragen/einfuehrung.md)
-  * [Statistische Grundlagen](analysetechniken-grosser-datenbestaende/selbsttestfragen/02\_stat\_grundlagen.md)
-  * [Indexstrukturen](analysetechniken-grosser-datenbestaende/selbsttestfragen/03\_indexstrukturen.md)
-  * [Entscheidungsbäume](analysetechniken-grosser-datenbestaende/selbsttestfragen/04\_entscheidungsbaeume.md)
-  * [Evaluation](analysetechniken-grosser-datenbestaende/selbsttestfragen/05\_evaluation.md)
-  * [Association Rules](analysetechniken-grosser-datenbestaende/selbsttestfragen/06\_ar.md)
-  * [Optimierte AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/07\_optim\_ar.md)
-  * [Constrained AR](analysetechniken-grosser-datenbestaende/selbsttestfragen/08\_constrained\_ar.md)
-  * [Clustering](analysetechniken-grosser-datenbestaende/selbsttestfragen/09\_clustering.md)
-  * [Identifikation von Ausreißern](analysetechniken-grosser-datenbestaende/selbsttestfragen/10\_outlier\_detection.md)
-  * [Theory guided data science](analysetechniken-grosser-datenbestaende/selbsttestfragen/tgds.md)
-* [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
-
 ## Advanced Machine Learning
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
@@ -32,6 +14,10 @@
 ## Business Intelligence Systems
 
 * [Anki-Deck](https://github.com/KarelZe/anki-decks)
+
+## Datascience Praktikum
+
+* [Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 
 ## Het. parallele Rechnerstrukturen
 
