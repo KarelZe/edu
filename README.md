@@ -1,6 +1,7 @@
 # KIT
 
-This is a humble collection of my study notes at KIT. A rendered version can be found at [https://edu.markusbilz.com/](https://edu.markusbilz.com/).
+Dies ist meine bescheidene Sammlung an Studienaufzeichnungen am Karlsruher Institut für Technologie (KIT). Eine gerenderte Version kann unter [https://edu.markusbilz.com/](https://edu.markusbilz.com/) gefunden werden.
 
-Feel free to open PRs, if you feel like something needs a fix.
+Eröffne gerne einen PR, wenn du der Meinung bist, dass etwas korrigiert werden muss.
 
+Falls du dieses Projekt unterstützen möchtest, kannst du gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE&locale.x=de_DE) spenden. Danke.❤️ 
