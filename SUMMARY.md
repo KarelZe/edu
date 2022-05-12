@@ -2,6 +2,19 @@
 
 * [KIT](README.md)
 
+## 🗽 Derivate
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Derivate.apkg)
+* [🥉 Lösungen Bonusübung](https://github.com/KarelZe/cox-rubinstein)
+
+## 💷 Valuation
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Valuation.apkg)
+
+## 🐍 Python for Computational Risk Management
+
+* [❓ Lösungen Übungen](https://github.com/KarelZe/Python-for-CRAM)
+
 ## Advanced Machine Learning
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced_ML.apkg)
@@ -20,7 +33,7 @@
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks)
 
-## Datascience Praktikum
+## Data Science Praktikum
 
 * [🥉 Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
 
@@ -28,42 +41,11 @@
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Deep%20Learning%20for%20Computer%20Vision.apkg)
 
-## 🗽 Derivate
-
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Derivate.apkg)
-* [🥉 Lösungen Bonusübung](https://github.com/KarelZe/cox-rubinstein)
-
-## Het. parallele Rechnerstrukturen
-
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Heterogene_Rechnerstrukturen.apkg)
-
-## Internetrecht
-
-* [Mitschrift](internetrecht/mitschrift/README.md)
-  * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
-  * [⚖ Aus der Werkstatt des Gesetzgebers: Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
-  * [⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen](internetrecht/mitschrift/vortrag\_3\_1.md)
-  * [⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht](internetrecht/mitschrift/vortrag\_3\_2.md)
-  * [⚖ Das IT-Sicherheitsgesetz in der Praxis](internetrecht/mitschrift/vortrag\_4.md)
-  * [⚖ Datenschutz im Internet und Cybersecurity](internetrecht/mitschrift/vortrag\_5.md)
-
 ## Maschinelles Lernen
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Maschinelles%20Lernen.apkg)
 * [❓ Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
 * [🥉 Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
-
-## Parallelrechner
-
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Parallelrechner.apkg)
-
-## 🐍 Python for computational risk management
-
-* [❓ Lösungen Übungen](https://github.com/KarelZe/Python-for-CRAM)
-
-## Rechnerstrukturen
-
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Rechnerstrukturen.apkg)
 
 ## Recommendersysteme
 
@@ -84,9 +66,31 @@
   * [Messung Benutzerverhalten](recommendersysteme/klausursammlung/14\_messung\_benutzerverhalten.md)
   * [Relevante Objekte empfehlen](recommendersysteme/klausursammlung/15\_relevante\_objekte.md)
 
+## Het. parallele Rechnerstrukturen
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Heterogene_Rechnerstrukturen.apkg)
+
+## Parallelrechner
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Parallelrechner.apkg)
+
+## Rechnerstrukturen
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Rechnerstrukturen.apkg)
+
 ## Requirements Engineering
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Requirements%20Engineering.apkg)
+
+## Internetrecht
+
+* [Mitschrift](internetrecht/mitschrift/README.md)
+  * [⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet](internetrecht/mitschrift/vortrag\_1.md)
+  * [⚖ Aus der Werkstatt des Gesetzgebers: Vom politischen Auftrag zur Rechtsnorm](internetrecht/mitschrift/vortrag\_2.md)
+  * [⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen](internetrecht/mitschrift/vortrag\_3\_1.md)
+  * [⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht](internetrecht/mitschrift/vortrag\_3\_2.md)
+  * [⚖ Das IT-Sicherheitsgesetz in der Praxis](internetrecht/mitschrift/vortrag\_4.md)
+  * [⚖ Datenschutz im Internet und Cybersecurity](internetrecht/mitschrift/vortrag\_5.md)
 
 ## Patentrecht
 
@@ -99,10 +103,6 @@
   * [Patentrecht](patentrecht/mitschrift/patentrecht.md)
   * [Gebrauchsmusterrecht](patentrecht/mitschrift/gebrauchsmusterrecht.md)
 * [❓ Selbsttestfragen](patentrecht/selbsttestfragen.md)
-
-## Valuation
-
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Valuation.apkg)
 
 ## Vertragsgestaltung
 
