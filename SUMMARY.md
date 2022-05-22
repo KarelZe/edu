@@ -13,17 +13,18 @@
 
 ## 🐍 Python for Computational Risk Management
 
-* [❓ Lösungen Übungen](https://github.com/KarelZe/Python-for-CRAM)
+* [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/Python-for-CRAM)
 
 ## Advanced Machine Learning
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced_ML.apkg)
 * [❓ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
+* [🥉 Lösungen Bonusübung](https://github.com/KarelZe/adv-ml)
 
 ## Artificial Intelligence in Service Systems
 
 * [🧠 Anki-Deck](aiss/anki-deck.md)
-* [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/anki-decks)
+* [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/anki-decks/blob/master/AISS.apkg)
 
 ## Business Data Analytics
 
@@ -31,7 +32,7 @@
 
 ## Business Intelligence Systems
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Business%20Data%20Analytics.apkg)
 
 ## Data Science Praktikum
 
