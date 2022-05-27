@@ -23,8 +23,8 @@
 
 ## Artificial Intelligence in Service Systems
 
-* [🧠 Anki-Deck](aiss/anki-deck.md)
-* [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/anki-decks/blob/master/AISS.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/AISS.apkg)
+* [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/aiss)
 
 ## Business Data Analytics
 
