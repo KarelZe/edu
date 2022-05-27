@@ -18,7 +18,7 @@
 ## Advanced Machine Learning
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced_ML.apkg)
-* [❓ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
+* [⁉ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/adv-ml)
 
 ## Artificial Intelligence in Service Systems
@@ -45,7 +45,7 @@
 ## Maschinelles Lernen
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Maschinelles%20Lernen.apkg)
-* [❓ Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
+* [⁉ Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
 * [🥉 Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
 
 ## Recommendersysteme
@@ -103,7 +103,7 @@
   * [Urheberrecht](patentrecht/mitschrift/urheberrecht.md)
   * [Patentrecht](patentrecht/mitschrift/patentrecht.md)
   * [Gebrauchsmusterrecht](patentrecht/mitschrift/gebrauchsmusterrecht.md)
-* [❓ Selbsttestfragen](patentrecht/selbsttestfragen.md)
+* [⁉ Selbsttestfragen](patentrecht/selbsttestfragen.md)
 
 ## Vertragsgestaltung
 
@@ -122,7 +122,7 @@
   * [Sicherungsmittel](vertragsgestaltung/mitschrift/sicherungsmittel.md)
   * [Gesellschaftsrecht](vertragsgestaltung/mitschrift/gesellschaftsrecht.md)
   * [Klausurvorbereitung](vertragsgestaltung/mitschrift/klausurvorbereitung.md)
-* [❓ Selbsttestfragen](vertragsgestaltung/selbsttestfragen.md)
+* [⁉ Selbsttestfragen](vertragsgestaltung/selbsttestfragen.md)
 
 ## Vertragsgestaltung in der IT
 
