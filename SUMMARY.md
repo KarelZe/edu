@@ -29,6 +29,7 @@
 ## Business Data Analytics
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Business%20Data%20Analytics.apkg)
+* [🥉 Challenge Projekt](https://github.com/KarelZe/bda-analytics-challenge)
 
 ## Business Intelligence Systems
 
