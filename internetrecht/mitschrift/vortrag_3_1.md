@@ -6,6 +6,14 @@ description: >-
 
 # ⚖ IT und unlauterer Wettbewerb: Grundlagen und aktuelle Fragestellungen
 
+
+
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
+
+
 * Auch "Werberecht".
 * Umsetzung der Werbefreiheit → Bewerbung im geschäftlichen Verkehr.
 * Es besteht allgemeine Handlungsfreiheit, allerdings bestehen beim Werberecht eine Reihe von Einschränkungen.

@@ -7,6 +7,10 @@ description: >-
 
 # ⚖ Daten: Rohstoff digitaler Geschäftsmodelle und Herausforderung für das Recht
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
 ### Auswahl über aktuelle Gesetzesentwürfe
 
 * Data Governance Act: Ziel ist Aufbau einer datengetriebenen Wirtschaft, im Einklang mit europäischen Werten.

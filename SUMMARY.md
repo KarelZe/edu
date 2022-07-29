@@ -7,7 +7,7 @@
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Derivate.apkg)
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/cox-rubinstein)
 
-## 💷 Valuation
+## Valuation
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Valuation.apkg)
 
@@ -17,8 +17,8 @@
 
 ## Advanced Machine Learning
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced_ML.apkg)
-* [⁉ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced\_ML.apkg)
+* [Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/adv-ml)
 
 ## Artificial Intelligence in Service Systems
@@ -46,7 +46,7 @@
 ## Maschinelles Lernen
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Maschinelles%20Lernen.apkg)
-* [⁉ Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
+* [Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
 * [🥉 Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
 
 ## Recommendersysteme
@@ -70,7 +70,7 @@
 
 ## Het. parallele Rechnerstrukturen
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Heterogene_Rechnerstrukturen.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Heterogene\_Rechnerstrukturen.apkg)
 
 ## Parallelrechner
 
@@ -104,7 +104,7 @@
   * [Urheberrecht](patentrecht/mitschrift/urheberrecht.md)
   * [Patentrecht](patentrecht/mitschrift/patentrecht.md)
   * [Gebrauchsmusterrecht](patentrecht/mitschrift/gebrauchsmusterrecht.md)
-* [⁉ Selbsttestfragen](patentrecht/selbsttestfragen.md)
+* [Selbsttestfragen](patentrecht/selbsttestfragen.md)
 
 ## Vertragsgestaltung
 
@@ -123,14 +123,14 @@
   * [Sicherungsmittel](vertragsgestaltung/mitschrift/sicherungsmittel.md)
   * [Gesellschaftsrecht](vertragsgestaltung/mitschrift/gesellschaftsrecht.md)
   * [Klausurvorbereitung](vertragsgestaltung/mitschrift/klausurvorbereitung.md)
-* [⁉ Selbsttestfragen](vertragsgestaltung/selbsttestfragen.md)
+* [Selbsttestfragen](vertragsgestaltung/selbsttestfragen.md)
 
 ## Vertragsgestaltung in der IT
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Vertragsgestaltung_in_IT.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Vertragsgestaltung\_in\_IT.apkg)
 
 ## Rechtliches
 
-* [❤️ Unterstützen](https://paypal.me/markusbilz?country.x=DE&locale.x=de_DE)
+* [❤ Unterstützen](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE)
 * [Impressum](rechtliches/impressum.md)
 * [Lizenz](rechtliches/lizenz.md)

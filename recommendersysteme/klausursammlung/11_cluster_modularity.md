@@ -1,6 +1,10 @@
 # Cluster Modularity
 
-Sie arbeiten für das Unternehmen Letfix, das Videostreaming von Serien und Kinofilmen anbietet. Letfix möchte einen Recommenderdienst basierend auf Modularity Clustering anbieten, indem Filme aus demselben Cluster empfohlen werden. Im Folgenden finden Sie eine Matrix, wie oft ein Film $$e_{i}$$ zusammen mit einem anderen Film $$e_{j}$$ angesehen wurde \(der Einfachkeit halber hier mit kleinen Zahlen\):
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
+Sie arbeiten für das Unternehmen Letfix, das Videostreaming von Serien und Kinofilmen anbietet. Letfix möchte einen Recommenderdienst basierend auf Modularity Clustering anbieten, indem Filme aus demselben Cluster empfohlen werden. Im Folgenden finden Sie eine Matrix, wie oft ein Film $$e_{i}$$ zusammen mit einem anderen Film $$e_{j}$$ angesehen wurde (der Einfachkeit halber hier mit kleinen Zahlen):
 
 $$
 \left(\begin{array}{lllll}
@@ -41,13 +45,13 @@ F: _Begründen Sie: Für welche der beiden Cluster C1 oder C2 entscheiden Sie si
 A:
 
 * Man sollte sich für das erste Clustering entscheiden.
-* Modularity ist ein Maß für die Qualität eines Clusterings. Größere
+*   Modularity ist ein Maß für die Qualität eines Clusterings. Größere
 
-  Modularity ist besser. Das zweite Clustering ist ein Hinweis darauf,
+    Modularity ist besser. Das zweite Clustering ist ein Hinweis darauf,
 
-  dass die Cluster aus sg. Singelton-Clustern besteht. D. h. Cluster
+    dass die Cluster aus sg. Singelton-Clustern besteht. D. h. Cluster
 
-  aus genau einem Knoten und es bestehen nur Inter-Cluster Kanten.
+    aus genau einem Knoten und es bestehen nur Inter-Cluster Kanten.
 
 F: _Was müssten Sie tun, um mit Sicherheit die global optimale Clusterung zu ermitteln? Hinweis: Beschreiben Sie nur das dafür notwendige Vorgehen, Sie sollen nicht rechnen!_
 
@@ -56,18 +60,17 @@ A:
 * Man müsste für alle möglichen Clusterings die Modularity berechnen. Die Clusterverteilung mit der höchsten Modularity wird dann gewählt.
 * Mögliche algorithmische Ansätze sind Plain Greedy, Randomized Greedy oder Core Groups Graph Clustering Algorithmen.
 
-F: _Was müssten Sie tun, wenn nicht nur auf einem Merkmal \(hier: wie oft zusammen gesehen?\), sondern auf n Merkmalen Empfehlungen erzeugen wollten?_
+F: _Was müssten Sie tun, wenn nicht nur auf einem Merkmal (hier: wie oft zusammen gesehen?), sondern auf n Merkmalen Empfehlungen erzeugen wollten?_
 
 A:
 
 * Man könnte für jedes Merkmal einen eigenen Graphen erzeugen.
-* Merkmale sind in verschiedenen Graphen dargestellt → Cluster werden
+*   Merkmale sind in verschiedenen Graphen dargestellt → Cluster werden
 
-  unabhängig voneinander in jedem Graphen gefunden.
+    unabhängig voneinander in jedem Graphen gefunden.
+*   Für Empfehlungen müssen dann Überschneidungen der Cluster betrachtet
 
-* Für Empfehlungen müssen dann Überschneidungen der Cluster betrachtet
-
-  werden.
+    werden.
 
 Im Gegensatz zu Amazooon setzt der Konkurrent Letfix auf Recommender mit Modularity Clustering als Verfahren. Hierbei werden Filme und Serien aus demselben Cluster empfohlen. Im Folgenden finden Sie eine Matrix, wie oft ein Film $$e_{i}$$ zusammen mit einem anderen Film $$e_{j}$$ angesehen wurde.
 
@@ -88,7 +91,7 @@ A:
 
 **Skizze**:
 
-![\(Eigene Darstellung\)](../../.gitbook/assets/grafik%20%286%29.png)
+![(Eigene Darstellung)](<../../.gitbook/assets/grafik (6).png>)
 
 **Variante 1:**
 
@@ -110,15 +113,15 @@ $$Q_2=\left(\frac{20}{30}-\frac{25}{30}^{2}\right)+\left(0-\frac{5}{30}^{2}\righ
 
 F: _Begründen Sie: Für welche der beiden Cluster_ $$C_{1}$$ _oder_ $$C_{2}$$_entscheiden Sie sich?_
 
-* Grundsätzlich gilt je größer die Modularity, desto zusammenhängender
+*   Grundsätzlich gilt je größer die Modularity, desto zusammenhängender
 
-  das Cluster. Es sollte damit Clustering 1 gewählt werden.
+    das Cluster. Es sollte damit Clustering 1 gewählt werden.
 
 F: _Was müssten Sie tun, um mit Sicherheit die global optimale Clusterings zu ermitteln? Hinweis: Beschreiben Sie nur das dafür notwendige Verfahren. Sie sollen nicht rechnen!_
 
 Siehe oben.
 
-F: _Was müssten Sie tun, wenn nicht nur auf einem Merkmal \(hier: wie oft zusammen gesehen?\), sondern auf_ $$n$$ _Merkmalen Empfehlungen erzeugen wollten?_
+F: _Was müssten Sie tun, wenn nicht nur auf einem Merkmal (hier: wie oft zusammen gesehen?), sondern auf_ $$n$$ _Merkmalen Empfehlungen erzeugen wollten?_
 
 Siehe oben.
 
@@ -138,7 +141,7 @@ F: _Zeichnen Sie den gewichteten Kommunikationsgraphen!_
 
 A:
 
-![Kommunikationsgraph \(Eigene Darstellung\)](../../.gitbook/assets/kommunikationsgraph.svg)
+![Kommunikationsgraph (Eigene Darstellung)](../../.gitbook/assets/kommunikationsgraph.svg)
 
 F: _Berechnen Sie die Modularität für jeden Knoten._
 
@@ -162,11 +165,11 @@ $$
 
 $$Q_1=\left(0-\frac{1}{4}^{2}\right)+\left(0-\frac{3}{8}^{2}\right)+\left(0-\frac{1}{8}^{2}\right)+\left(0-\frac{1}{16}^{2}\right)+\left(0-\frac{3}{16}^{2}\right)=-\frac{33}{128}$$
 
-F: _Berechnen Sie für jeden Knoten die Änderung der Modularität, wenn er mit einem seiner Nachbarn in ein Cluster gruppiert wird \(für alle möglichen Nachbarn\)._
+F: _Berechnen Sie für jeden Knoten die Änderung der Modularität, wenn er mit einem seiner Nachbarn in ein Cluster gruppiert wird (für alle möglichen Nachbarn)._
 
 A:
 
-Betrachtet man Graphen \(siehe vorherige Teilaufgabe\), so lässt sich D mit E zu einem cluster gruppieren, E mit B, B mit C, B mit A und A mit C. Damit ergibt sich Folgendes:
+Betrachtet man Graphen (siehe vorherige Teilaufgabe), so lässt sich D mit E zu einem cluster gruppieren, E mit B, B mit C, B mit A und A mit C. Damit ergibt sich Folgendes:
 
 $$
 e \times a=\left(\begin{array}{c|c|c|c|c}
@@ -204,7 +207,7 @@ $$
 
 F: _Wie ändert sich die Modularität, wenn nicht benachbarte Knoten gemeinsam in ein Cluster gruppiert werden?_
 
-A: Es ist zu sehen, dass die Änderung der Modularity zweier nicht benachbarter/verbundener Knoten negativ ist und die Modularity abnimmt \(z. B. Modularity\(A,D\), die im Graph nicht benachbart sind\). Die Modularity verschlechtert sich, da hier aus Community-Sicht vermutlich nicht zusammengehörige Knoten in ein Cluster gruppiert werden.
+A: Es ist zu sehen, dass die Änderung der Modularity zweier nicht benachbarter/verbundener Knoten negativ ist und die Modularity abnimmt (z. B. Modularity(A,D), die im Graph nicht benachbart sind). Die Modularity verschlechtert sich, da hier aus Community-Sicht vermutlich nicht zusammengehörige Knoten in ein Cluster gruppiert werden.
 
 Exemplarisch gezeigt für A, D:
 
@@ -218,7 +221,7 @@ F: _Beschreiben Sie den Randomized Greedy Cluster Algorithmus im Pseudocode._
 
 A:
 
-![Randomized Greedy Cluster Algorithmus \(Ovelg&#xF6;nne and Geyer-Schulz 2010 S. 1.206\)](../../.gitbook/assets/recommender_%201.jpg)
+![Randomized Greedy Cluster Algorithmus (Ovelgönne and Geyer-Schulz 2010 S. 1.206)](<../../.gitbook/assets/recommender\_ 1.jpg>)
 
 F: _Das Modularity-Maß für die Partition der Knoten eines Graphen in c Cluster lautet:_
 
@@ -226,13 +229,12 @@ $$Q = \sum_{i = 1}^{c} \left( e_{ii} - a_{i}^{2} \right).$$
 
 F: _Welche Interpretation hat_ $$e_{ij}$$ _und wie wird_ $$e_{ii}$$ _aus der Adjazenzmatrix eines Graphen berechnet?_
 
-* $$e_{i j}$$: Wahrscheinlichkeit, dass zufällige Kante $$\in E$$
+*   $$e_{i j}$$: Wahrscheinlichkeit, dass zufällige Kante $$\in E$$
 
-  Cluster $$C_{i}, C_{j}$$ verbindet
+    Cluster $$C_{i}, C_{j}$$ verbindet
+*   $$e_{i i}$$: Wahrscheinlichkeit eine Kante im Cluster $$C_{i}$$ zu
 
-* $$e_{i i}$$: Wahrscheinlichkeit eine Kante im Cluster $$C_{i}$$ zu
-
-  wählen \(bzw. der Anteil der Kanten im Cluster\)
+    wählen (bzw. der Anteil der Kanten im Cluster)
 
 F: _Welche Interpretation hat_ $$a_{i}^{2}$$ _und wie wird_ $$a_{i}$$ _berechnet?_
 
@@ -246,31 +248,28 @@ F: _Warum ist das Modularity-Maß als Clusterkriterium geeignet?_
 
 A:
 
-* Modularity $$Q$$ ist ein globales Maß für Güte einer Partitionierung
+*   Modularity $$Q$$ ist ein globales Maß für Güte einer Partitionierung
 
-  $$C$$ eines Graphen $$G$$
+    $$C$$ eines Graphen $$G$$
+*   Modularity: Summe der Abweichungen der tatsächlichen inneren Dichte
 
-* Modularity: Summe der Abweichungen der tatsächlichen inneren Dichte
+    jeden Clusters vom Null-Modell
+*   Abweichung groß: Knoten nicht unabhängig voneinander → lässt auf
 
-  jeden Clusters vom Null-Modell
-
-* Abweichung groß: Knoten nicht unabhängig voneinander → lässt auf
-
-  Community-Struktur schließen
+    Community-Struktur schließen
 
 F: _Modularity Clustering hat den Vorteil, dass im Gegensatz zu anderen Clusterverfahren die richtige Anzahl von Clustern automatisch gefunden wird. Wie beurteilen Sie diese Aussage?_
 
-A: Grundsätzlich lässt durch Maximierung der Modularity die optimale Anzahl der Cluster finden. Es handelt sich aber um NP-Schweres Optimierungsproblem. Die Anzahl der kombinatorischen Möglichkeiten Cluster zu bilden, steigt schneller als exponentiell in der Anzahl Knoten $$n$$. Praktisch stellt es also für sehr große Graphen ein Problem dar $$Q$$ zu maximieren. Sinnvollerweise werden weniger rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat man dann aber nicht. \(Geyer-Schulz 2017 S. 54\)
+A: Grundsätzlich lässt durch Maximierung der Modularity die optimale Anzahl der Cluster finden. Es handelt sich aber um NP-Schweres Optimierungsproblem. Die Anzahl der kombinatorischen Möglichkeiten Cluster zu bilden, steigt schneller als exponentiell in der Anzahl Knoten $$n$$. Praktisch stellt es also für sehr große Graphen ein Problem dar $$Q$$ zu maximieren. Sinnvollerweise werden weniger rechenintensive Algorithmen wie Randomized Greedy benutzt. Eine Garantie, dass es sich tatsächlich um das Beste Clustering handelt, hat man dann aber nicht. (Geyer-Schulz 2017 S. 54)
 
 F: _Beschreiben Sie kurz eine Anwendung von Modularity-Clustering im Bereich von Empfehlungsdiensten!_
 
 A:
 
-In Bibliothek wird ein Recommenderdienst eingesetzt. Er erlaubt es, Nutzer Vorschläge zu seiner aktuellen Suche zu machen. Verlinkungen zwischen Literatur, welche bei der Suche vorgeschlagen wird, lassen sich als Graph darstellen. Clustert man diesen Graphen nun hierarchisch, so kann man verschiedene Detailstufen und damit unterschiedliche Größen von Clustern erreichen. Zur Charakterisierung eines Clusters \(bzw. einer Obermenge\) wird Tag-Cloud aus den Titeln der Literatur erzeugt. \(Geyer-Schulz 2017 S. 45\)
+In Bibliothek wird ein Recommenderdienst eingesetzt. Er erlaubt es, Nutzer Vorschläge zu seiner aktuellen Suche zu machen. Verlinkungen zwischen Literatur, welche bei der Suche vorgeschlagen wird, lassen sich als Graph darstellen. Clustert man diesen Graphen nun hierarchisch, so kann man verschiedene Detailstufen und damit unterschiedliche Größen von Clustern erreichen. Zur Charakterisierung eines Clusters (bzw. einer Obermenge) wird Tag-Cloud aus den Titeln der Literatur erzeugt. (Geyer-Schulz 2017 S. 45)
 
 ## Quellen:
 
 Geyer-Schulz, Andreas. 2017. “Cluster-Analyse.”
 
 Ovelgönne, M., and A. Geyer-Schulz. 2010. “Cluster Cores and Modularity Maximization.” In _2010 IEEE International Conference on Data Mining Workshops_, 1204–13. [https://doi.org/10.1109/ICDMW.2010.63](https://doi.org/10.1109/ICDMW.2010.63).
-

@@ -1,5 +1,9 @@
 # Klassifikation
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
 F: _Erstellen Sie einen morphologischen Kasten. Benutzen Sie als Beispiel ein Automobil. Verwenden Sie als Dimensionen Marke, Typ und Farbe. Ergänzen Sie zwei weitere Dimensionen Ihrer Wahl. Erklären Sie die zwei möglichen Verwendungen eines morphologischen Kastens._ (3+2+2P.=7P.)
 
 A:
@@ -42,7 +46,7 @@ F: _Zeichnen Sie ein Diagramm zur Veranschaulichung des Klassifikationssystems v
 
 A:
 
-![](<../../.gitbook/assets/grafik (22) (3).png>)
+![](<../../.gitbook/assets/grafik (22) (1).png>)
 
 F: _Erklären Sie jede Merkmalsausprägung jedes diskreten Merkmals in 2 Sätzen._ (8P.)
 
@@ -90,7 +94,7 @@ F: _Skizzieren Sie in einer Grafik die Methode zur Klassifikation nach Schafer e
 
 A:
 
-![](<../../.gitbook/assets/grafik (22) (2).png>)
+![](<../../.gitbook/assets/grafik (22) (1) (2).png>)
 
 F: _Ordnen Sie einen Assoziationsregel-Recommenderdienst gemäß der Dimension Methode nach Schafer et al. ein. Beschreiben und begründen Sie kurz._ (3P.)
 

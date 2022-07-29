@@ -6,6 +6,10 @@ description: >-
 
 # ⚖ Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
 ## Weswegen haftet wer für was? 👆
 
 ### Weswegen wird gehaftet?
@@ -270,6 +274,6 @@ Es besteht asymmetrische Haftungsstruktur, die Provider eher dazu veranlasst zu 
 
 ### Referenzen
 
-Bundesministeriums der Justiz. 2021. ‘FAQ Zum Gesetz Zur Anpassung Des Urheberrechts  A n Die Erfordernisse Des Digitalen Binnenmarkts’.
+Bundesministeriums der Justiz. 2021. ‘FAQ Zum Gesetz Zur Anpassung Des Urheberrechts A n Die Erfordernisse Des Digitalen Binnenmarkts’.
 
 Nolte, Georg. 2022. ‘Wie viel Kontrolle muss sein? Die Haftung von Suchmaschinen, Hostprovidern und anderen Dienstleistern im Internet.’
