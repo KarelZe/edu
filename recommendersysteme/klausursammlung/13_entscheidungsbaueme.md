@@ -1,5 +1,11 @@
 # Entscheidungsbäume
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
+
+
 _Sie sind Manager eines Internet-Geschenke Portals. Analysieren Sie die Kaufsituation Ihrer Kunden und identifizieren Sie für die Kaufentscheidung wesentliche Attribute._
 
 A:
@@ -136,7 +142,7 @@ A:
 
 Annahme: Knoten werden weggelassen, sofern sie keine Entscheidungsrelevanz mehr haben.
 
-![(Eigene Darstellung)](<../../.gitbook/assets/grafik (3) (3) (4) (4) (4) (4) (4) (4) (2) (1) (5).png>)
+![(Eigene Darstellung)](<../../.gitbook/assets/grafik (3) (3) (4) (4) (4) (4) (4) (4) (2) (1) (1).png>)
 
 F: _Die Reihenfolge der Attribute ist bei einem Entscheidungsbaum wichtig. Wann ist ein Attribut ein "gutes" (sollte früh abgefragt werden)? Können Sie aus der obigen Teilfrage beurteilen, welches Attribut das "beste" ist? Wenn ja, warum? Wenn nein, was fehlt, um diese Aussage treffen zu können?_ (6+5P.=11P.)
 

@@ -1,5 +1,9 @@
 # Wert von Empfehlungen
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
 ### **Explizite Empfehlungen**
 
 Empfehlungen kann man als **öffentliches Gut** sehen. Was kennzeichnet ein öffentliches Gut. (4P.)

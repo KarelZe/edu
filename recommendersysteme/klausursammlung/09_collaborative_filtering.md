@@ -1,5 +1,13 @@
 # Collaborative Filtering
 
+__
+
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
+
+
 _Netflix ist der größte Anbieter von Videofiles (Kino, Serien, TV) in den USA. Wir nehmen an, dass Netflix jedem Benutzer eine Liste von Filmen, die diesen Benutzer interessieren könnten, anbietet. Das verwendete Verfahren basiere auf einem cf-Recommender, der über Korrelationen arbeitet (keine Clusterverfahren!)._
 
 F: _Erklären Sie das Vorgehen, wie ein neuer Benutzer eine Liste von_  $$n$$ _Empfehlungen für Filme erhält. Beschreiben Sie, wie die Liste von n Empfehlungen entsteht. Gehen Sie auch darauf ein, was methodisch passiert, wenn der Benutzer Filme bewertet._ (13P.)

@@ -4,7 +4,11 @@ description: >-
   politischen Auftrag zur Rechtsnorm" von Matthias Schmid.
 ---
 
-# ⚖ Aus der Werkstatt des Gesetzgebers. Vom politischen Auftrag zur Rechtsnorm
+# ⚖ Aus der Werkstatt des Gesetzgebers: Vom politischen Auftrag zur Rechtsnorm
+
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
 
 ## Recht und Politik 👆
 
@@ -135,7 +139,6 @@ Nutzung mit vertraglicher Erlaubnis:
 * Europäische Gesetze weißen oft Widersprüche, Lücken, Inkonsistenzen etc. auf.
 * Bei Artikel 17 musste "Quadratur des Kreises" geschafft werden d. h. Urheberschutz sichergestellt (d. h. nicht lizenzierte Inhalte sollen nicht online gehen), Nutzerrechte gesichert werden. Braucht automatisierte Systeme, die aber nicht zwischen erlaubter Nutzung z. B. Parodie und Gesetzesverletzungen unterscheiden können.
 * Grundlegender Prozess für Formulierung eines Gesetzestexts ist Denken (analysieren), visualisieren (strukturieren) dann schreiben.
-
   * **Denken:** Nach Eisberg-Modell auch auf Wirkfaktoren acht geben, einfache Antworten meist falsch, komplizierte brauchen meist länger,
   * Pro und Contra von Auslegung (sg. _transposing_)
     * Pro:
@@ -146,8 +149,8 @@ Nutzung mit vertraglicher Erlaubnis:
       * Weitere Fragmentierung von digitalem Binnenmarkt
       * Endgültige Gewissheit / letztes Wort nur durch Entscheidung des Europäischen Gerichtshofs (ECJ)
       * Gefahr der Auslegung entgegen des EU Gesetzes (Gefahr der Staatshaftung)
-  * Abwägung zwischen Blockierungsanfrage und User-Rechten. Hierfür sind automatische Systeme (sg. Uploadfilter notwendig). Diese können aber nicht verlässlich Schrankennutzung z. B. Zitate, Parodie erkennen. Wichtige Frage ist also, was muss ex-ante blockiert werden d. h. darf niemals online gehen und was darf später noch entfernt werden?&#x20;
-  * **Visualisierung:** Erstmal visualisieren z. B. im Film mit Story board, in der Informatik mit Pseudocode. Passiert ähnlich auch bei der Entwicklung der Struktur des Gesetzes (z. B. [Visualisierung](vortrag\_1.md))&#x20;
+  * Abwägung zwischen Blockierungsanfrage und User-Rechten. Hierfür sind automatische Systeme (sg. Uploadfilter notwendig). Diese können aber nicht verlässlich Schrankennutzung z. B. Zitate, Parodie erkennen. Wichtige Frage ist also, was muss ex-ante blockiert werden d. h. darf niemals online gehen und was darf später noch entfernt werden?
+  * **Visualisierung:** Erstmal visualisieren z. B. im Film mit Story board, in der Informatik mit Pseudocode. Passiert ähnlich auch bei der Entwicklung der Struktur des Gesetzes (z. B. [Visualisierung](vortrag\_1.md))
   * **Schreiben:** Texten nach dem Hamburger Modell d. h. Einfachheit, Gliederung / Ordnung, Kürzung / Prägnanz, Anregende Zusätze.
   * Vor dem Schreiben der Textblöcke, werden erstmal die Textbausteine in Verbindung zueinander gesetzt. Kumulative Logik kann durch Verzweigungen abgebildet werden. Boolesche Algebra aber allein vermutlich nicht ausreichend.
   * Mit Diskussionsentwurf können relativ unvoreingenommen präsentiert werden. Grundlage für Regierungsentwurf.

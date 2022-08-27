@@ -4,4 +4,6 @@ Dies ist meine bescheidene Sammlung an Studienaufzeichnungen am Karlsruher Insti
 
 Eröffne gerne einen PR, wenn du der Meinung bist, dass etwas korrigiert werden muss.
 
-Falls du dieses Projekt unterstützen möchtest, kannst du gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE&locale.x=de_DE) spenden. Danke.❤️ 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}

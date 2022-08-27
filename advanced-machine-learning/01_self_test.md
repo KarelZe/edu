@@ -1,5 +1,9 @@
 # Selbsttestfragen
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
 Nachfolgende Fragen eigenen sich zur Prüfungsvorbereitung mittels **Active Recall** gedacht und eine Ergänzung zu [Karteikarten](https://github.com/KarelZe/edu/tree/55e29762b35fb16586fce118e8feaee3aa720fea/adv\_ml/00\_anki.md).
 
 Zur Herkunft der Fragen:
@@ -501,7 +505,7 @@ $$
 * F: _Draw a confusion matrix. Include the metrics, that are inside the cells._&#x20;
   * ![](../.gitbook/assets/confusion\_matrix.svg)&#x20;
 * F: _Define precision / recall / sensitivity / False Positive Rate._&#x20;
-  * ![](<../.gitbook/assets/grafik (3) (1) (1) (2) (2) (5) (5) (5) (5) (4) (5).png>)&#x20;
+  * ![](<../.gitbook/assets/grafik (3) (1) (1) (2) (2) (5) (5) (5) (5) (4) (1).png>)&#x20;
 * F: _Give an intuition for precision / recall / sensitivity..._&#x20;
   * **Accuracy**: The share of instance that are correctly classified
   * **Precision**: Of examples recognized as cat, what % are actually cats? 95 % means: When classifier says 'cat', in 95 % it is a cat.

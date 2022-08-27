@@ -1,5 +1,11 @@
 # Hubs / Authorities
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
+
+
 **12 Authority and Hub Algorithmen**
 
 F: _Beschreiben Sie den Algorithmus zur Erstellung eines Teilgraphen des World-Wide Webs auf Basis der besten_ $$t$$ _Ergebnisse einer Suchmaschine im Pseudo-Code. (Nur oberste Ebene. Kein Pseudocode von Funktionen bzw. Prozeduren!)_
@@ -56,7 +62,7 @@ A:
 
 **Populäre Seiten:** Seiten mit hohem _In-Degree_ d. h. vielen eingehenden Links.
 
-![(Eigene Darstellung)](<../../.gitbook/assets/authority (2) (2) (3) (3) (3) (3) (3) (3) (2) (1) (3).svg>)
+![(Eigene Darstellung)](<../../.gitbook/assets/authority (2) (2) (3) (3) (3) (3) (3) (3) (2) (1) (1) (2).svg>)
 
 **Hubs:** Seite, die auf viele Authorities verweist.
 
@@ -64,7 +70,7 @@ A:
 
 **Authorities:** Wird von vielen Hubs empfohlen.
 
-![(Eigene Darstellung)](<../../.gitbook/assets/authority (2) (2) (3) (3) (3) (3) (3) (3) (2) (1) (1).svg>)
+![(Eigene Darstellung)](<../../.gitbook/assets/authority (2) (2) (3) (3) (3) (3) (3) (3) (2) (1) (2).svg>)
 
 Zwischen Hubs und Authorities besteht Wechselwirkung, da sie sich gegenseitig verstärken (Geyer-Schulz 2020 S. 33).
 

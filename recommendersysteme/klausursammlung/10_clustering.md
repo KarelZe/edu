@@ -1,5 +1,11 @@
 # Clustering
 
+{% hint style="success" %}
+Hilft dir meine Webseite weiter? Falls du dieses Projekt unterstützen möchtest, kannst du mir gerne einen Kaffee an [paypal.me/markusbilz](https://paypal.me/markusbilz?country.x=DE\&locale.x=de\_DE) spenden. Danke.️:heart:
+{% endhint %}
+
+
+
 F: _Vergleichen Sie den k-means Clusteralgorithmus mit dem Basic Leader-Follower Algorithmus. Welches sind jeweils die Vor- und die Nachteile?_
 
 A:
