@@ -17,13 +17,11 @@
 
 ## Advanced Machine Learning
 
-<<<<<<< HEAD
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [⁉ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
 =======
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced\_ML.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
->>>>>>> fc830a999887a99147d5811321ba5d5a461661ca
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/adv-ml)
 
 ## Artificial Intelligence in Service Systems
@@ -50,13 +48,8 @@
 
 ## Maschinelles Lernen
 
-<<<<<<< HEAD
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [⁉ Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
-=======
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Maschinelles%20Lernen.apkg)
-* [Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
->>>>>>> fc830a999887a99147d5811321ba5d5a461661ca
 * [🥉 Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
 
 ## Recommendersysteme
@@ -80,11 +73,7 @@
 
 ## Het. parallele Rechnerstrukturen
 
-<<<<<<< HEAD
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
-=======
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Heterogene\_Rechnerstrukturen.apkg)
->>>>>>> fc830a999887a99147d5811321ba5d5a461661ca
 
 ## Parallelrechner
 
@@ -141,11 +130,7 @@
 
 ## Vertragsgestaltung in der IT
 
-<<<<<<< HEAD
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
-=======
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Vertragsgestaltung\_in\_IT.apkg)
->>>>>>> fc830a999887a99147d5811321ba5d5a461661ca
 
 ## Rechtliches
 
