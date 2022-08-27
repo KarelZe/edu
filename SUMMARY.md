@@ -4,12 +4,12 @@
 
 ## 🗽 Derivate
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Derivate.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/cox-rubinstein)
 
 ## 💷 Valuation
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Valuation.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## 🐍 Python for Computational Risk Management
 
@@ -17,23 +17,23 @@
 
 ## Advanced Machine Learning
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Advanced_ML.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [⁉ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/adv-ml)
 
 ## Artificial Intelligence in Service Systems
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/AISS.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [🥉 Lösungen Übungsaufgaben](https://github.com/KarelZe/aiss)
 
 ## Business Data Analytics
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Business%20Data%20Analytics.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [🥉 Challenge Projekt](https://github.com/KarelZe/bda-analytics-challenge)
 
 ## Business Intelligence Systems
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Business%20Data%20Analytics.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Data Science Praktikum
 
@@ -41,17 +41,17 @@
 
 ## Deep Learning for Computer Vision 1
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Deep%20Learning%20for%20Computer%20Vision.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Maschinelles Lernen
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Maschinelles%20Lernen.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [⁉ Selbsttestfragen](maschinelles-lernen/01\_self\_test.md)
 * [🥉 Bonusübung](https://github.com/KarelZe/ml-grundverfahren)
 
 ## Recommendersysteme
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Recommendersysteme.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [🥉 Bonusübung](https://github.com/KarelZe/recommendersysteme)
 * [Klausursammlung](recommendersysteme/klausursammlung/README.md)
   * [Einführung / Grundlagen](recommendersysteme/klausursammlung/01\_einfuehrung.md)
@@ -70,19 +70,19 @@
 
 ## Het. parallele Rechnerstrukturen
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Heterogene_Rechnerstrukturen.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Parallelrechner
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Parallelrechner.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Rechnerstrukturen
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Rechnerstrukturen.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Requirements Engineering
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Requirements%20Engineering.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Internetrecht
 
@@ -96,7 +96,7 @@
 
 ## Patentrecht
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Patentrecht.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [Mitschrift](patentrecht/mitschrift/README.md)
   * [Übersicht](patentrecht/mitschrift/uebersicht.md)
   * [Designrecht](patentrecht/mitschrift/designrecht.md)
@@ -108,7 +108,7 @@
 
 ## Vertragsgestaltung
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Vertragsgestaltung.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [Mindmap Paragraphen](vertragsgestaltung/mindmap-paragraphen.md)
 * [Mitschrift](vertragsgestaltung/mitschrift/README.md)
   * [Einführung / Überblick](vertragsgestaltung/mitschrift/einfuehrung-ueberblick.md)
@@ -127,7 +127,7 @@
 
 ## Vertragsgestaltung in der IT
 
-* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/blob/master/Vertragsgestaltung_in_IT.apkg)
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
 ## Rechtliches
 
