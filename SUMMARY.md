@@ -19,7 +19,6 @@
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [⁉ Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
-=======
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 * [Selbsttestfragen](advanced-machine-learning/01\_self\_test.md)
 * [🥉 Lösungen Bonusübung](https://github.com/KarelZe/adv-ml)
