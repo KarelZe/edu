@@ -85,6 +85,7 @@
 ## Requirements Engineering
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
+* [🌰 Papers in a nutshell](requirements-engineering/papers-in-a-nutshell.md)
 
 ## Internetrecht
 
