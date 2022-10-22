@@ -36,6 +36,11 @@
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
 
+## Datenschutz von A bis Z
+
+* [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
+* [Mindmap Paragraphen](datenschutz/mindmaps.md)
+
 ## Data Science Praktikum
 
 * [🥉 Qualifikationsaufgabe Praktikum](https://github.com/KarelZe/grid-stability-sim)
