@@ -39,7 +39,7 @@
 ## Datenschutz von A bis Z
 
 * [🧠 Anki-Deck](https://github.com/KarelZe/anki-decks/releases)
-* [Mindmap Paragraphen](datenschutz/mindmaps.md)
+* [Mindmap](datenschutz/mindmaps.md)
 
 ## Data Science Praktikum
 
